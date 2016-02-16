@@ -1,10 +1,14 @@
 import com.beust.kobalt.*
 import com.beust.kobalt.plugin.packaging.assemble
-import com.beust.kobalt.plugin.kotlin.*
 
 val repos = repos()
 
-val kotlinVersion = "1.0.0"
+object Versions {
+    val kotlin = "1.0.0"
+    val retrofit = "2.0.0-beta4"
+    val okhttp = "3.1.2"
+    val okio = "1.6.0"
+}
 
 val p = project {
 
@@ -22,11 +26,15 @@ val p = project {
     }
 
     dependencies {
-		compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
+		compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
+        compile("com.squareup.retrofit2:retrofit:${Versions.retrofit}")
+        compile("com.squareup.retrofit2:converter-gson:${Versions.retrofit}")
+		compile("com.squareup.okhttp3:okhttp:${Versions.okhttp}")
+		compile("com.squareup.okio:okio:${Versions.okio}")
     }
 
     dependenciesTest {
-		compile("org.jetbrains.kotlin:kotlin-test:$kotlinVersion")
+		compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
     }
 
     assemble {
