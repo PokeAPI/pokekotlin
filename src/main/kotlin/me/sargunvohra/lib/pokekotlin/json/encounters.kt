@@ -1,22 +1,22 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonEncounterMethod(
+data class EncounterMethod(
         val id: Int,
         val name: String,
         val order: Int,
-        val names: List<JsonName>
+        val names: List<Name>
 )
 
-data class JsonEncounterCondition(
+data class EncounterCondition(
         val id: Int,
         val name: String,
-        val names: List<JsonName>,
-        val values: List<JsonNamedApiResource<JsonEncounterConditionValue>>
+        val names: List<Name>,
+        val values: List<NamedApiResource<EncounterConditionValue>>
 )
 
-data class JsonEncounterConditionValue(
+data class EncounterConditionValue(
         val id: Int,
         val name: String,
-        val condition: JsonNamedApiResource<JsonEncounterCondition>,
-        val names: List<JsonName>
+        val condition: NamedApiResource<EncounterCondition>,
+        val names: List<Name>
 )

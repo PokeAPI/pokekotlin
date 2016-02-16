@@ -1,6 +1,6 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonBerry(
+data class Berry(
         val id: Int,
         val name: String,
         val growth_time: Int,
@@ -9,33 +9,33 @@ data class JsonBerry(
         val size: Int,
         val smoothness: Int,
         val soil_dryness: Int,
-        val firmness: JsonNamedApiResource<JsonBerryFirmness>,
-        val flavors: List<JsonBerryFlavorMap>,
-        val item: JsonNamedApiResource<JsonItem>,
-        val natural_gift_type: JsonNamedApiResource<JsonType>
+        val firmness: NamedApiResource<BerryFirmness>,
+        val flavors: List<BerryFlavorMap>,
+        val item: NamedApiResource<Item>,
+        val natural_gift_type: NamedApiResource<Type>
 )
 
-data class JsonBerryFlavorMap(
+data class BerryFlavorMap(
         val potency: Int,
-        val flavor: JsonNamedApiResource<JsonBerryFlavor>
+        val flavor: NamedApiResource<BerryFlavor>
 )
 
-data class JsonBerryFirmness(
+data class BerryFirmness(
         val id: Int,
         val name: String,
-        val berries: List<JsonNamedApiResource<JsonBerry>>,
-        val names: List<JsonName>
+        val berries: List<NamedApiResource<Berry>>,
+        val names: List<Name>
 )
 
-data class JsonBerryFlavor(
+data class BerryFlavor(
         val id: Int,
         val name: String,
-        val berries: List<JsonFlavorBerryMap>,
-        val contest_type: JsonNamedApiResource<JsonContestType>,
-        val names: List<JsonName>
+        val berries: List<FlavorBerryMap>,
+        val contest_type: NamedApiResource<ContestType>,
+        val names: List<Name>
 )
 
-data class JsonFlavorBerryMap(
+data class FlavorBerryMap(
         val potency: Int,
-        val berry: JsonNamedApiResource<JsonBerry>
+        val berry: NamedApiResource<Berry>
 )

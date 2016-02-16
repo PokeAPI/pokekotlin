@@ -1,47 +1,47 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonItem(
+data class Item(
         val id: Int,
         val name: String,
         val cost: Int,
         val fling_power: Int,
-        val fling_effect: JsonItemFlingEffect,
-        val attributes: List<JsonNamedApiResource<JsonItemAttribute>>,
-        val category: JsonItemCategory,
-        val effect_entries: List<JsonVerboseEffect>,
-        val flavor_text_entries: List<JsonVersionGroupFlavorText>,
-        val game_indices: List<JsonGenerationGameIndex>,
-        val names: List<JsonName>,
-        val held_by_pokemon: List<JsonNamedApiResource<JsonPokemon>>,
-        val baby_trigger_for: List<JsonApiResource<JsonEvolutionChain>>
+        val fling_effect: ItemFlingEffect,
+        val attributes: List<NamedApiResource<ItemAttribute>>,
+        val category: ItemCategory,
+        val effect_entries: List<VerboseEffect>,
+        val flavor_text_entries: List<VersionGroupFlavorText>,
+        val game_indices: List<GenerationGameIndex>,
+        val names: List<Name>,
+        val held_by_pokemon: List<NamedApiResource<Pokemon>>,
+        val baby_trigger_for: List<ApiResource<EvolutionChain>>
 )
 
-data class JsonItemAttribute(
+data class ItemAttribute(
         val id: Int,
         val name: String,
-        val items: List<JsonNamedApiResource<JsonItem>>,
-        val names: List<JsonName>,
-        val descriptions: List<JsonDescription>
+        val items: List<NamedApiResource<Item>>,
+        val names: List<Name>,
+        val descriptions: List<Description>
 )
 
-data class JsonItemCategory(
+data class ItemCategory(
         val id: Int,
         val name: String,
-        val items: List<JsonNamedApiResource<JsonItem>>,
-        val names: List<JsonName>,
-        val pocket: JsonNamedApiResource<JsonItemPocket>
+        val items: List<NamedApiResource<Item>>,
+        val names: List<Name>,
+        val pocket: NamedApiResource<ItemPocket>
 )
 
-data class JsonItemFlingEffect(
+data class ItemFlingEffect(
         val id: Int,
         val name: String,
-        val effect_entries: List<JsonEffect>,
-        val items: List<JsonNamedApiResource<JsonItem>>
+        val effect_entries: List<Effect>,
+        val items: List<NamedApiResource<Item>>
 )
 
-data class JsonItemPocket(
+data class ItemPocket(
         val id: Int,
         val name: String,
-        val categories: List<JsonItemCategory>,
-        val names: List<JsonName>
+        val categories: List<ItemCategory>,
+        val names: List<Name>
 )

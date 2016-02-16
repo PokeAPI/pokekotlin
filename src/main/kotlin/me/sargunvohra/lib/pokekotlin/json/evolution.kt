@@ -1,42 +1,42 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonEvolutionChain(
+data class EvolutionChain(
         val id: Int,
-        val baby_trigger_item: JsonNamedApiResource<JsonItem>,
-        val chain: JsonChainLink
+        val baby_trigger_item: NamedApiResource<Item>,
+        val chain: ChainLink
 )
 
-data class JsonChainLink(
+data class ChainLink(
         val is_baby: Boolean,
-        val species: JsonNamedApiResource<JsonPokemonSpecies>,
-        val evolution_details: JsonEvolutionDetail,
-        val evolves_to: JsonChainLink
+        val species: NamedApiResource<PokemonSpecies>,
+        val evolution_details: EvolutionDetail,
+        val evolves_to: ChainLink
 )
 
-data class JsonEvolutionDetail(
-        val item: JsonNamedApiResource<JsonItem>?,
-        val trigger: JsonNamedApiResource<JsonEvolutionTrigger>,
-        val gender: JsonNamedApiResource<JsonGender>?,
-        val held_item: JsonNamedApiResource<JsonItem>?,
-        val known_move: JsonNamedApiResource<JsonMove>?,
-        val known_move_type: JsonNamedApiResource<JsonMove>?,
-        val location: JsonNamedApiResource<JsonLocation>?,
+data class EvolutionDetail(
+        val item: NamedApiResource<Item>?,
+        val trigger: NamedApiResource<EvolutionTrigger>,
+        val gender: NamedApiResource<Gender>?,
+        val held_item: NamedApiResource<Item>?,
+        val known_move: NamedApiResource<Move>?,
+        val known_move_type: NamedApiResource<Move>?,
+        val location: NamedApiResource<Location>?,
         val min_level: Int?,
         val min_happiness: Int?,
         val min_beauty: Int?,
         val min_affection: Int?,
         val needs_overworld_rain: Boolean,
-        val part_species: JsonNamedApiResource<JsonPokemonSpecies>,
-        val party_type: JsonNamedApiResource<JsonType>,
+        val part_species: NamedApiResource<PokemonSpecies>,
+        val party_type: NamedApiResource<Type>,
         val relative_physical_stats: Int,
         val time_of_day: String,
-        val trade_species: JsonNamedApiResource<JsonPokemonSpecies>,
+        val trade_species: NamedApiResource<PokemonSpecies>,
         val turn_upside_down: Boolean
 )
 
-data class JsonEvolutionTrigger(
+data class EvolutionTrigger(
         val id: Int,
         val name: String,
-        val names: List<JsonName>,
-        val pokemon_species: List<JsonNamedApiResource<JsonPokemonSpecies>>
+        val names: List<Name>,
+        val pokemon_species: List<NamedApiResource<PokemonSpecies>>
 )

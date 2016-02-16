@@ -1,48 +1,48 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonGeneration(
+data class Generation(
         val id: Int,
         val name: String,
-        val abilities: List<JsonAbility>,
-        val names: List<JsonName>,
-        val main_region: JsonNamedApiResource<JsonRegion>,
-        val moves: List<JsonNamedApiResource<JsonMove>>,
-        val pokemon_species: List<JsonNamedApiResource<JsonPokemonSpecies>>,
-        val types: List<JsonNamedApiResource<JsonType>>,
-        val version_groups: List<JsonNamedApiResource<JsonVersionGroup>>
+        val abilities: List<Ability>,
+        val names: List<Name>,
+        val main_region: NamedApiResource<Region>,
+        val moves: List<NamedApiResource<Move>>,
+        val pokemon_species: List<NamedApiResource<PokemonSpecies>>,
+        val types: List<NamedApiResource<Type>>,
+        val version_groups: List<NamedApiResource<VersionGroup>>
 )
 
-data class JsonPokedex(
+data class Pokedex(
         val id: Int,
         val name: String,
         val is_main_series: Boolean,
-        val descriptions: List<JsonDescription>,
-        val names: List<JsonName>,
-        val pokemon_entries: List<JsonPokemonEntry>,
-        val region: JsonNamedApiResource<JsonRegion>,
-        val version_groups: List<JsonNamedApiResource<JsonVersionGroup>>
+        val descriptions: List<Description>,
+        val names: List<Name>,
+        val pokemon_entries: List<PokemonEntry>,
+        val region: NamedApiResource<Region>,
+        val version_groups: List<NamedApiResource<VersionGroup>>
 )
 
-data class JsonPokemonEntry(
+data class PokemonEntry(
         val entry_number: Int,
-        val pokemon_species: JsonNamedApiResource<JsonPokemonSpecies>
+        val pokemon_species: NamedApiResource<PokemonSpecies>
 )
 
-data class JsonVersion(
+data class Version(
         val id: Int,
         val name: String,
-        val names: List<JsonName>,
-        val version_group: JsonNamedApiResource<JsonVersionGroup>
+        val names: List<Name>,
+        val version_group: NamedApiResource<VersionGroup>
 )
 
-data class JsonVersionGroup(
+data class VersionGroup(
         val id: Int,
         val name: String,
         val order: Int,
-        val generation: JsonNamedApiResource<JsonGeneration>,
-        val move_learn_methods: List<JsonNamedApiResource<JsonMoveLearnMethod>>,
-        val names: List<JsonName>,
-        val pokedexes: List<JsonNamedApiResource<JsonPokedex>>,
-        val regions: List<JsonNamedApiResource<JsonRegion>>,
-        val versions: List<JsonNamedApiResource<JsonVersion>>
+        val generation: NamedApiResource<Generation>,
+        val move_learn_methods: List<NamedApiResource<MoveLearnMethod>>,
+        val names: List<Name>,
+        val pokedexes: List<NamedApiResource<Pokedex>>,
+        val regions: List<NamedApiResource<Region>>,
+        val versions: List<NamedApiResource<Version>>
 )

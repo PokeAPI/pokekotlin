@@ -1,53 +1,53 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonLocation(
+data class Location(
         val id: Int,
         val name: String,
-        val region: JsonNamedApiResource<JsonRegion>,
-        val names: List<JsonName>,
-        val game_indices: List<JsonGenerationGameIndex>,
-        val areas: JsonApiResource<JsonLocationArea>
+        val region: NamedApiResource<Region>,
+        val names: List<Name>,
+        val game_indices: List<GenerationGameIndex>,
+        val areas: ApiResource<LocationArea>
 )
 
-data class JsonLocationArea(
+data class LocationArea(
         val id: Int,
         val name: String,
         val game_index: Int,
-        val encounter_method_rates: List<JsonEncounterMethodRate>,
-        val location: JsonNamedApiResource<JsonRegion>,
-        val names: List<JsonName>,
-        val pokemon_encounters: List<JsonPokemonEncounter>
+        val encounter_method_rates: List<EncounterMethodRate>,
+        val location: NamedApiResource<Region>,
+        val names: List<Name>,
+        val pokemon_encounters: List<PokemonEncounter>
 )
 
-data class JsonEncounterMethodRate(
-        val encounter_method: JsonNamedApiResource<JsonEncounterMethod>,
-        val version_details: List<JsonVersionEncounterDetail>
+data class EncounterMethodRate(
+        val encounter_method: NamedApiResource<EncounterMethod>,
+        val version_details: List<VersionEncounterDetail>
 )
 
-data class JsonPokemonEncounter(
-        val pokemon: JsonNamedApiResource<JsonPokemon>,
-        val version_details: List<JsonVersionEncounterDetail>
+data class PokemonEncounter(
+        val pokemon: NamedApiResource<Pokemon>,
+        val version_details: List<VersionEncounterDetail>
 )
 
-data class JsonPalParkArea(
+data class PalParkArea(
         val id: Int,
         val name: String,
-        val names: List<JsonName>,
-        val pokemon_encounters: List<JsonPalParkEncounterSpecies>
+        val names: List<Name>,
+        val pokemon_encounters: List<PalParkEncounterSpecies>
 )
 
-data class JsonPalParkEncounterSpecies(
+data class PalParkEncounterSpecies(
         val base_score: Int,
         val rate: Int,
-        val pokemon_species: JsonNamedApiResource<JsonPokemonSpecies>
+        val pokemon_species: NamedApiResource<PokemonSpecies>
 )
 
-data class JsonRegion(
+data class Region(
         val id: Int,
         val name: String,
-        val locations: List<JsonLocation>,
-        val main_generation: JsonNamedApiResource<JsonGeneration>,
-        val names: List<JsonName>,
-        val pokedexes: List<JsonNamedApiResource<JsonPokedex>>,
-        val version_groups: List<JsonNamedApiResource<JsonVersionGroup>>
+        val locations: List<Location>,
+        val main_generation: NamedApiResource<Generation>,
+        val names: List<Name>,
+        val pokedexes: List<NamedApiResource<Pokedex>>,
+        val version_groups: List<NamedApiResource<VersionGroup>>
 )

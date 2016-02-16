@@ -1,15 +1,15 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonApiResourceList<T>(
+data class ApiResourceList<T>(
         val count: Int,
         val next: String,
         val previous: Boolean,
-        val results: List<JsonApiResource<T>>
+        val results: List<ApiResource<T>>
 )
 
-data class JsonNamedApiResourceList<T>(
+data class NamedApiResourceList<T>(
         val count: Int,
         val next: String,
         val previous: Boolean,
-        val results: List<JsonNamedApiResourceList<T>>
+        val results: List<NamedApiResourceList<T>>
 )

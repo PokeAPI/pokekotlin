@@ -1,6 +1,6 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonMove(
+data class Move(
         val id: Int,
         val name: String,
         val accuracy: Int,
@@ -8,34 +8,34 @@ data class JsonMove(
         val pp: Int,
         val priority: Int,
         val power: Int,
-        val contest_combos: List<JsonContestComboSets>,
-        val contest_type: JsonContestType,
-        val contest_effect: JsonNamedApiResource<JsonContestEffect>,
-        val damage_class: JsonNamedApiResource<JsonMoveDamageClass>,
-        val effect_entries: List<JsonVerboseEffect>,
-        val effect_changes: List<JsonAbilityEffectChange>,
-        val generation: JsonNamedApiResource<JsonGeneration>,
-        val meta: JsonMoveMetaData,
-        val names: List<JsonName>,
-        val past_values: List<JsonPastMoveStatValues>,
-        val stat_changes: List<JsonMoveStatChange>,
-        val target: JsonMoveTarget,
-        val type: JsonType
+        val contest_combos: List<ContestComboSets>,
+        val contest_type: ContestType,
+        val contest_effect: NamedApiResource<ContestEffect>,
+        val damage_class: NamedApiResource<MoveDamageClass>,
+        val effect_entries: List<VerboseEffect>,
+        val effect_changes: List<AbilityEffectChange>,
+        val generation: NamedApiResource<Generation>,
+        val meta: MoveMetaData,
+        val names: List<Name>,
+        val past_values: List<PastMoveStatValues>,
+        val stat_changes: List<MoveStatChange>,
+        val target: MoveTarget,
+        val type: Type
 )
 
-data class JsonContestComboSets(
-        val normal: List<JsonContestComboDetail>,
-        val `super`: List<JsonContestComboDetail>
+data class ContestComboSets(
+        val normal: List<ContestComboDetail>,
+        val `super`: List<ContestComboDetail>
 )
 
-data class JsonContestComboDetail(
-        val use_before: List<JsonNamedApiResource<JsonMove>>,
-        val use_after: List<JsonNamedApiResource<JsonMove>>
+data class ContestComboDetail(
+        val use_before: List<NamedApiResource<Move>>,
+        val use_after: List<NamedApiResource<Move>>
 )
 
-data class JsonMoveMetaData(
-        val ailment: JsonNamedApiResource<JsonMoveAilment>,
-        val category: JsonNamedApiResource<JsonMove>,
+data class MoveMetaData(
+        val ailment: NamedApiResource<MoveAilment>,
+        val category: NamedApiResource<Move>,
         val min_hits: Int,
         val max_hits: Int,
         val min_turns: Int,
@@ -48,61 +48,61 @@ data class JsonMoveMetaData(
         val stat_chance: Int
 )
 
-data class JsonMoveStatChange(
+data class MoveStatChange(
         val change: Int,
-        val stat: JsonNamedApiResource<JsonStat>
+        val stat: NamedApiResource<Stat>
 )
 
-data class JsonPastMoveStatValues(
+data class PastMoveStatValues(
         val accuracy: Int,
         val effect_chance: Int,
         val power: Int,
         val pp: Int,
-        val effect_entries: List<JsonVerboseEffect>,
-        val type: JsonType,
-        val version_group: JsonNamedApiResource<JsonVersionGroup>
+        val effect_entries: List<VerboseEffect>,
+        val type: Type,
+        val version_group: NamedApiResource<VersionGroup>
 )
 
-data class JsonMoveAilment(
+data class MoveAilment(
         val id: Int,
         val name: String,
-        val moves: List<JsonNamedApiResource<JsonMove>>,
-        val names: List<JsonName>
+        val moves: List<NamedApiResource<Move>>,
+        val names: List<Name>
 )
 
-data class JsonMoveBattleStyle(
+data class MoveBattleStyle(
         val id: Int,
         val name: String,
-        val names: List<JsonName>
+        val names: List<Name>
 )
 
-data class JsonMoveCategory(
+data class MoveCategory(
         val id: Int,
         val name: String,
-        val moves: List<JsonNamedApiResource<JsonMove>>,
-        val descriptions: List<JsonDescription>
+        val moves: List<NamedApiResource<Move>>,
+        val descriptions: List<Description>
 )
 
-data class JsonMoveDamageClass(
+data class MoveDamageClass(
         val id: Int,
         val name: String,
-        val descriptions: List<JsonDescription>,
-        val moves: List<JsonNamedApiResource<JsonMove>>,
-        val names: List<JsonName>
+        val descriptions: List<Description>,
+        val moves: List<NamedApiResource<Move>>,
+        val names: List<Name>
 )
 
-data class JsonMoveLearnMethod(
+data class MoveLearnMethod(
         val id: Int,
         val name: String,
-        val descriptions: List<JsonDescription>,
-        val names: List<JsonName>,
-        val version_groups: List<JsonNamedApiResource<JsonVersionGroup>>
+        val descriptions: List<Description>,
+        val names: List<Name>,
+        val version_groups: List<NamedApiResource<VersionGroup>>
 )
 
-data class JsonMoveTarget(
+data class MoveTarget(
         val id: Int,
         val name: String,
-        val descriptions: List<JsonDescription>,
-        val moves: List<JsonNamedApiResource<JsonMove>>,
-        val names: List<JsonName>
+        val descriptions: List<Description>,
+        val moves: List<NamedApiResource<Move>>,
+        val names: List<Name>
 )

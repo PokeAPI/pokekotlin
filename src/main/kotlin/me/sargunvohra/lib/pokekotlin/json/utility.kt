@@ -1,10 +1,10 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonLanguage(
+data class Language(
         val id: Int,
         val name: String,
         val official: Boolean,
         val iso639: String,
         val iso3166: String,
-        val names: List<JsonName>
+        val names: List<Name>
 )

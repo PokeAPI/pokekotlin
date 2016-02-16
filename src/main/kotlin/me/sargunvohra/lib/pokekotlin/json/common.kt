@@ -1,66 +1,74 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-data class JsonApiResource<T>(
+internal fun urlToId(url: String): Int {
+    return "\\/[0-9]*\\/$".toRegex().find(url)!!.value.filter { it.isDigit() }.toInt()
+}
+
+data class ApiResource<T>(
         val url: String
-)
+) {
+    val id: Int get() = urlToId(url)
+}
 
-data class JsonDescription(
+data class Description(
         val description: String,
-        val language: JsonNamedApiResource<JsonLanguage>
+        val language: NamedApiResource<Language>
 )
 
-data class JsonEffect(
+data class Effect(
         val effect: String,
-        val language: JsonNamedApiResource<JsonLanguage>
+        val language: NamedApiResource<Language>
 )
 
-data class JsonEncounter(
+data class Encounter(
         val min_level: Int,
         val max_level: Int,
-        val condition_values: List<JsonNamedApiResource<JsonEncounterConditionValue>>,
+        val condition_values: List<NamedApiResource<EncounterConditionValue>>,
         val integer: Int,
-        val method: JsonNamedApiResource<JsonEncounterMethod>
+        val method: NamedApiResource<EncounterMethod>
 )
 
-data class JsonFlavorText(
+data class FlavorText(
         val flavor_text: String,
-        val language: JsonNamedApiResource<JsonLanguage>
+        val language: NamedApiResource<Language>
 )
 
-data class JsonGenerationGameIndex(
+data class GenerationGameIndex(
         val game_index: Int,
-        val generation: JsonNamedApiResource<JsonGeneration>
+        val generation: NamedApiResource<Generation>
 )
 
-data class JsonName(
+data class Name(
         val name: String,
-        val language: JsonNamedApiResource<JsonLanguage>
+        val language: NamedApiResource<Language>
 )
 
-data class JsonNamedApiResource<T>(
+data class NamedApiResource<T>(
         val name: String,
         val url: String
-)
+) {
+    val id: Int get() = urlToId(url)
+}
 
-data class JsonVerboseEffect(
+data class VerboseEffect(
         val effect: String,
         val short_effect: String,
-        val language: JsonNamedApiResource<JsonLanguage>
+        val language: NamedApiResource<Language>
 )
 
-data class JsonVersionEncounterDetail(
-        val version: JsonNamedApiResource<JsonVersion>,
+data class VersionEncounterDetail(
+        val version: NamedApiResource<Version>,
         val max_chance: Int,
-        val encounter_details: List<JsonEncounter>
+        val encounter_details: List<Encounter>
 )
 
-data class JsonVersionGameIndex(
+data class VersionGameIndex(
         val game_index: Int,
-        val version: JsonNamedApiResource<JsonVersion>
+        val version: NamedApiResource<Version>
 )
 
-data class JsonVersionGroupFlavorText(
+data class VersionGroupFlavorText(
         val text: String,
-        val language: JsonNamedApiResource<JsonLanguage>,
-        val version_group: JsonNamedApiResource<JsonVersionGroup>
+        val language: NamedApiResource<Language>,
+        val version_group: NamedApiResource<VersionGroup>
 )
