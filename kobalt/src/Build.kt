@@ -8,6 +8,7 @@ object Versions {
     val retrofit = "2.0.0-beta4"
     val okhttp = "3.1.2"
     val okio = "1.6.0"
+	val kovenant = "3.0.0"
 }
 
 val p = project {
@@ -31,6 +32,7 @@ val p = project {
         compile("com.squareup.retrofit2:converter-gson:${Versions.retrofit}")
 		compile("com.squareup.okhttp3:okhttp:${Versions.okhttp}")
 		compile("com.squareup.okio:okio:${Versions.okio}")
+		compile("nl.komponents.kovenant:kovenant:${Versions.kovenant}")
     }
 
     dependenciesTest {
