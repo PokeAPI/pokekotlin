@@ -1,10 +1,7 @@
 package me.sargunvohra.lib.pokekotlin
 
-import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.GET
-import retrofit2.http.Path
 
 fun main(vararg args: String) {
     val service = Retrofit.Builder()
@@ -13,8 +10,6 @@ fun main(vararg args: String) {
             .build()
             .create(PokeApiService::class.java)
 
-//    println(service.getLanguage(1).execute().body())
-}
-
-interface PokeApiService {
+    val languages = service.getLanguageList().execute().body()
+    println(languages)
 }
