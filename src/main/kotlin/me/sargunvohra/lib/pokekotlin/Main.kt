@@ -13,63 +13,192 @@ fun main(vararg args: String) {
             .build()
             .create(PokeApiService::class.java)
 
-    println(service.getLanguage(1).execute().body())
+//    println(service.getLanguage(1).execute().body())
 }
 
 interface PokeApiService {
-    @GET("language/{id}")
-    fun getLanguage(@Path("id") id: Int): Call<JsonLanguage>
 }
 
 // berries
 
-class JsonBerry
+data class JsonBerry(
+        val id: Int,
+        val name: String,
+        val growth_time: Int,
+        val max_harvest: Int,
+        val natural_gift_power: Int,
+        val size: Int,
+        val smoothness: Int,
+        val soil_dryness: Int,
+        val firmness: JsonNamedApiResource<JsonBerryFirmness>,
+        val flavors: List<JsonBerryFlavorMap>,
+        val item: JsonNamedApiResource<JsonItem>,
+        val natural_gift_type: JsonNamedApiResource<JsonType>
+)
 
-class JsonBerryFlavorMap
+data class JsonBerryFlavorMap(
+        val potency: Int,
+        val flavor: JsonNamedApiResource<JsonBerryFlavor>
+)
 
-class JsonBerryFirmness
+data class JsonBerryFirmness(
+        val id: Int,
+        val name: String,
+        val berries: List<JsonNamedApiResource<JsonBerry>>,
+        val names: List<JsonName>
+)
 
-class JsonBerryFlavor
+data class JsonBerryFlavor(
+        val id: Int,
+        val name: String,
+        val berries: List<JsonFlavorBerryMap>,
+        val contest_type: JsonNamedApiResource<JsonContestType>,
+        val names: List<JsonName>
+)
 
-class JsonFlavorBerryMap
+data class JsonFlavorBerryMap(
+        val potency: Int,
+        val berry: JsonNamedApiResource<JsonBerry>
+)
 
 // contests
 
-class JsonContestType
+data class JsonContestType(
+        val id: Int,
+        val name: String,
+        val berry_flavor: JsonNamedApiResource<JsonBerryFlavor>,
+        val names: List<JsonName>
+)
 
-class JsonContestEffect
+data class JsonContestEffect(
+        val id: Int,
+        val appeal: String,
+        val jam: Int,
+        val effect_entries: List<JsonEffect>,
+        val flavor_text_entries: List<JsonFlavorText>
+)
 
-class JsonSuperContestEffect
+data class JsonSuperContestEffect(
+        val id: Int,
+        val appeal: String,
+        val flavor_text_entries: List<JsonFlavorText>,
+        val moves: List<JsonNamedApiResource<JsonMove>>
+)
 
 // encounters
 
-class JsonEncounterMethod
+data class JsonEncounterMethod(
+        val id: Int,
+        val name: String,
+        val order: Int,
+        val names: List<JsonName>
+)
 
-class JsonEncounterCondition
+data class JsonEncounterCondition(
+        val id: Int,
+        val name: String,
+        val names: List<JsonName>,
+        val values: List<JsonNamedApiResource<JsonEncounterConditionValue>>
+)
 
-class JsonEncounterConditionValue
+data class JsonEncounterConditionValue(
+        val id: Int,
+        val name: String,
+        val condition: JsonNamedApiResource<JsonEncounterCondition>,
+        val names: List<JsonName>
+)
 
 // evolution
 
-class JsonEvolutionChain
+data class JsonEvolutionChain(
+        val id: Int,
+        val baby_trigger_item: JsonNamedApiResource<JsonItem>,
+        val chain: JsonChainLink
+)
 
-class JsonChainLink
+data class JsonChainLink(
+        val is_baby: Boolean,
+        val species: JsonNamedApiResource<JsonPokemonSpecies>,
+        val evolution_details: JsonEvolutionDetail,
+        val evolves_to: JsonChainLink
+)
 
-class JsonEvolutionDetail
+data class JsonEvolutionDetail(
+        val item: JsonNamedApiResource<JsonItem>?,
+        val trigger: JsonNamedApiResource<JsonEvolutionTrigger>,
+        val gender: JsonNamedApiResource<JsonGender>?,
+        val held_item: JsonNamedApiResource<JsonItem>?,
+        val known_move: JsonNamedApiResource<JsonMove>?,
+        val known_move_type: JsonNamedApiResource<JsonMove>?,
+        val location: JsonNamedApiResource<JsonLocation>?,
+        val min_level: Int?,
+        val min_happiness: Int?,
+        val min_beauty: Int?,
+        val min_affection: Int?,
+        val needs_overworld_rain: Boolean,
+        val part_species: JsonNamedApiResource<JsonPokemonSpecies>,
+        val party_type: JsonNamedApiResource<JsonType>,
+        val relative_physical_stats: Int,
+        val time_of_day: String,
+        val trade_species: JsonNamedApiResource<JsonPokemonSpecies>,
+        val turn_upside_down: Boolean
+)
 
-class JsonEvolutionTrigger
+data class JsonEvolutionTrigger(
+        val id: Int,
+        val name: String,
+        val names: List<JsonName>,
+        val pokemon_species: List<JsonNamedApiResource<JsonPokemonSpecies>>
+)
 
 // games
 
-class JsonGeneration
+data class JsonGeneration(
+        val id: Int,
+        val name: String,
+        val abilities: List<JsonAbility>,
+        val names: List<JsonName>,
+        val main_region: JsonNamedApiResource<JsonRegion>,
+        val moves: List<JsonNamedApiResource<JsonMove>>,
+        val pokemon_species: List<JsonNamedApiResource<JsonPokemonSpecies>>,
+        val types: List<JsonNamedApiResource<JsonType>>,
+        val version_groups: List<JsonNamedApiResource<JsonVersionGroup>>
+)
 
-class JsonPokedex
+data class JsonPokedex(
+        val id: Int,
+        val name: String,
+        val is_main_series: Boolean,
+        val descriptions: List<JsonDescription>,
+        val names: List<JsonName>,
+        val pokemon_entries: List<JsonPokemonEntry>,
+        val region: JsonNamedApiResource<JsonRegion>,
+        val version_groups: List<JsonNamedApiResource<JsonVersionGroup>>
+)
 
-class JsonPokemonEntry
+data class JsonPokemonEntry(
+        val entry_number: Int,
+        val pokemon_species: JsonNamedApiResource<JsonPokemonSpecies>
+)
 
-class JsonVersion
+data class JsonVersion(
+        val id: Int,
+        val name: String,
+        val names: List<JsonName>,
+        val version_group: JsonNamedApiResource<JsonVersionGroup>
+)
 
-class JsonVersionGroup
+data class JsonVersionGroup(
+        val id: Int,
+        val name: String,
+        val order: Int,
+        val generation: JsonNamedApiResource<JsonGeneration>,
+        val move_learn_methods: List<JsonNamedApiResource<JsonMoveLearnMethod>>,
+        val names: List<JsonName>,
+        val pokedexes: List<JsonNamedApiResource<JsonPokedex>>,
+        val regions: List<JsonNamedApiResource<JsonRegion>>,
+        val versions: List<JsonNamedApiResource<JsonVersion>>
+)
 
 // items
 
@@ -144,15 +273,45 @@ data class JsonMove(
         val type: JsonType
 )
 
-class JsonContestComboSets
+data class JsonContestComboSets(
+        val normal: List<JsonContestComboDetail>,
+        val `super`: List<JsonContestComboDetail>
+)
 
-class JsonContestComboDetail
+data class JsonContestComboDetail(
+        val use_before: List<JsonNamedApiResource<JsonMove>>,
+        val use_after: List<JsonNamedApiResource<JsonMove>>
+)
 
-class JsonMoveMetaData
+data class JsonMoveMetaData(
+        val ailment: JsonNamedApiResource<JsonMoveAilment>,
+        val category: JsonNamedApiResource<JsonMove>,
+        val min_hits: Int,
+        val max_hits: Int,
+        val min_turns: Int,
+        val max_turns: Int,
+        val drain: Int,
+        val healing: Int,
+        val crit_rate: Int,
+        val ailment_chance: Int,
+        val flinch_chance: Int,
+        val stat_chance: Int
+)
 
-class JsonMoveStatChange
+data class JsonMoveStatChange(
+        val change: Int,
+        val stat: JsonNamedApiResource<JsonStat>
+)
 
-class JsonPastMoveStatValues
+data class JsonPastMoveStatValues(
+        val accuracy: Int,
+        val effect_chance: Int,
+        val power: Int,
+        val pp: Int,
+        val effect_entries: List<JsonVerboseEffect>,
+        val type: JsonType,
+        val version_group: JsonNamedApiResource<JsonVersionGroup>
+)
 
 data class JsonMoveAilment(
         val id: Int,
