@@ -8,7 +8,7 @@ object Versions {
     val retrofit = "2.0.0-beta4"
     val okhttp = "3.1.2"
     val okio = "1.6.0"
-	val kovenant = "3.0.0"
+    val kovenant = "3.0.0"
 }
 
 val p = project {
@@ -27,16 +27,19 @@ val p = project {
     }
 
     dependencies {
-		compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
+        compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
         compile("com.squareup.retrofit2:retrofit:${Versions.retrofit}")
         compile("com.squareup.retrofit2:converter-gson:${Versions.retrofit}")
-		compile("com.squareup.okhttp3:okhttp:${Versions.okhttp}")
-		compile("com.squareup.okio:okio:${Versions.okio}")
-		compile("nl.komponents.kovenant:kovenant:${Versions.kovenant}")
+        compile("com.squareup.okhttp3:okhttp:${Versions.okhttp}")
+        compile("com.squareup.okio:okio:${Versions.okio}")
+        compile("nl.komponents.kovenant:kovenant-core:${Versions.kovenant}")
+		compile("nl.komponents.kovenant:kovenant-combine:${Versions.kovenant}")
+		compile("nl.komponents.kovenant:kovenant-jvm:${Versions.kovenant}")
+		compile("nl.komponents.kovenant:kovenant-functional:${Versions.kovenant}")
     }
 
     dependenciesTest {
-		compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
+        compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
     }
 
     assemble {
