@@ -7,6 +7,7 @@ object Versions {
     val kotlin = "1.0.0"
     val retrofit = "2.0.0-beta4"
     val kovenant = "3.0.0"
+    val testng = "6.9.10"
 }
 
 val p = project {
@@ -41,6 +42,7 @@ val p = project {
 
     dependenciesTest {
         compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
+        compile("org.testng:testng:${Versions.testng}")
     }
 
     assemble {
