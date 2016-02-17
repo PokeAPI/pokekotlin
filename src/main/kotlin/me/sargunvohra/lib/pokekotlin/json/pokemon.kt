@@ -8,7 +8,7 @@ data class Ability(
         val names: List<Name>,
         val effect_entries: List<VerboseEffect>,
         val effect_changes: List<AbilityEffectChange>,
-        val flavor_text_entries: List<VersionGroupFlavorText>,
+        val flavor_text_entries: List<AbilityFlavorText>,
         val pokemon: List<AbilityPokemon>
 )
 
@@ -60,7 +60,7 @@ data class GrowthRate(
         val name: String,
         val formula: String,
         val descriptions: List<Description>,
-        val leves: List<GrowthRateExperienceLevel>,
+        val levels: List<GrowthRateExperienceLevel>,
         val pokemon_species: List<NamedApiResource<PokemonSpecies>>
 )
 

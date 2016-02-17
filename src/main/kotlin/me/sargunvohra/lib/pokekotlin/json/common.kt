@@ -4,6 +4,7 @@ internal fun urlToId(url: String): Int {
     return "\\/-?[0-9]*\\/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
 }
 
+@Suppress("unused")
 data class ApiResource<T>(
         val url: String
 ) {
@@ -43,6 +44,7 @@ data class Name(
         val language: NamedApiResource<Language>
 )
 
+@Suppress("unused")
 data class NamedApiResource<T>(
         val name: String,
         val url: String
