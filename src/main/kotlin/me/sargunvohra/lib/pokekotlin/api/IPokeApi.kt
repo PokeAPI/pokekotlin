@@ -3,7 +3,6 @@ package me.sargunvohra.lib.pokekotlin.api
 import me.sargunvohra.lib.pokekotlin.json.*
 import retrofit2.Call
 import retrofit2.http.GET
-import retrofit2.http.Path
 
 internal interface IPokeApi {
 
@@ -31,7 +30,7 @@ internal interface IPokeApi {
     fun getContestEffectList(): Call<List<ApiResource<ContestEffect>>>
 
     @GET("super-contest-effect/")
-    fun getSuperContestTypeList(): Call<List<ApiResource<SuperContestEffect>>>
+    fun getSuperContestEffectList(): Call<List<ApiResource<SuperContestEffect>>>
 
     // endregion Contests
 
@@ -86,7 +85,7 @@ internal interface IPokeApi {
     fun getItemCategoryList(): Call<List<NamedApiResource<ItemCategory>>>
 
     @GET("item-fling-effect/")
-    fun getItemFlingEffectList(): Call<List<NamedApiResourceList<ItemFlingEffect>>>
+    fun getItemFlingEffectList(): Call<List<NamedApiResource<ItemFlingEffect>>>
 
     @GET("item-pocket/")
     fun getItemPocketList(): Call<List<NamedApiResource<ItemPocket>>>
