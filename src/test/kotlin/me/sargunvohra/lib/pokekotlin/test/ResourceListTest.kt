@@ -22,10 +22,4 @@ class ResourceListTest {
             elementAtShouldBe(2, ApiResource("http://pokeapi.co/api/v2/evolution-chain/3/"))
         }
     }
-
-    @Test
-    fun dummy() {
-        // temporary test to force fail
-        fail()
-    }
 }
