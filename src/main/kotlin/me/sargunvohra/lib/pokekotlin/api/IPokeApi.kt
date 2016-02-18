@@ -3,6 +3,7 @@ package me.sargunvohra.lib.pokekotlin.api
 import me.sargunvohra.lib.pokekotlin.json.*
 import retrofit2.Call
 import retrofit2.http.GET
+import retrofit2.http.Path
 
 internal interface IPokeApi {
 
@@ -190,4 +191,11 @@ internal interface IPokeApi {
     // endregion
 
     // endregion
+
+    // region Berries
+
+    @GET("berry/{id}/")
+    fun getBerry(@Path("id") id: Int): Call<Berry>
+
+    // endregion Berries
 }

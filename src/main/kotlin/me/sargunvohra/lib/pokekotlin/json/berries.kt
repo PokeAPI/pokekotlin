@@ -1,18 +1,25 @@
 package me.sargunvohra.lib.pokekotlin.json
 
+import com.squareup.moshi.Json
+
 data class Berry(
         val id: Int,
         val name: String,
-        val growth_time: Int,
-        val max_harvest: Int,
-        val natural_gift_power: Int,
+        @Json(name = "growth_time")
+        val growthTime: Int,
+        @Json(name = "max_harvest")
+        val maxHarvest: Int,
+        @Json(name = "natural_gift_power")
+        val naturalGiftPower: Int,
         val size: Int,
         val smoothness: Int,
-        val soil_dryness: Int,
+        @Json(name = "soil_dryness")
+        val soilDryness: Int,
         val firmness: NamedApiResource<BerryFirmness>,
         val flavors: List<BerryFlavorMap>,
         val item: NamedApiResource<Item>,
-        val natural_gift_type: NamedApiResource<Type>
+        @Json(name = "natural_gift_type")
+        val naturalGiftType: NamedApiResource<Type>
 )
 
 data class BerryFlavorMap(

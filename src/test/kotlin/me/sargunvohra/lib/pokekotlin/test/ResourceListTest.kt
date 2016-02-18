@@ -21,7 +21,7 @@ class ResourceListTest {
                     it.url.contains("/${it.id}/")
                 }
             }
-            assert(collection.contains(NamedApiResource(name, "http://pokeapi.co/api/v2/$path"))) {
+            assert(collection.contains(NamedApiResource(name, PokeApi.rootUrl + path))) {
                 "list should contain a specific element"
             }
         }
