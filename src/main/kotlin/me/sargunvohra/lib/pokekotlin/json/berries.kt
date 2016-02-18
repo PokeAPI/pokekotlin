@@ -38,7 +38,8 @@ data class BerryFlavor(
         val id: Int,
         val name: String,
         val berries: List<FlavorBerryMap>,
-        val contest_type: NamedApiResource<ContestType>,
+        @Json(name = "contest_type")
+        val contestType: NamedApiResource<ContestType>,
         val names: List<Name>
 )
 

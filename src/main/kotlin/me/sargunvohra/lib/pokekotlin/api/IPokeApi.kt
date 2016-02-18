@@ -197,5 +197,11 @@ internal interface IPokeApi {
     @GET("berry/{id}/")
     fun getBerry(@Path("id") id: Int): Call<Berry>
 
+    @GET("berry-firmness/{id}/")
+    fun getBerryFirmness(@Path("id") id: Int): Call<BerryFirmness>
+
+    @GET("berry-flavor/{id}/")
+    fun getBerryFlavor(@Path("id") id: Int): Call<BerryFlavor>
+
     // endregion Berries
 }
