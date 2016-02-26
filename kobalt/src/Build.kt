@@ -35,9 +35,9 @@ val p = project {
 
         // kovenant
         compile("nl.komponents.kovenant:kovenant-core:${Versions.kovenant}")
-		compile("nl.komponents.kovenant:kovenant-combine:${Versions.kovenant}")
-		compile("nl.komponents.kovenant:kovenant-jvm:${Versions.kovenant}")
-		compile("nl.komponents.kovenant:kovenant-functional:${Versions.kovenant}")
+        compile("nl.komponents.kovenant:kovenant-combine:${Versions.kovenant}")
+        compile("nl.komponents.kovenant:kovenant-jvm:${Versions.kovenant}")
+        compile("nl.komponents.kovenant:kovenant-functional:${Versions.kovenant}")
     }
 
     dependenciesTest {
