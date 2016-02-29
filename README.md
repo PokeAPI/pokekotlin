@@ -5,6 +5,8 @@
 
 Kotlin wrapper for [PokeApi](https://github.com/phalt/pokeapi). Currently under development.
 
-Methods for endpoints: 100%
+Model classes: 100%
 
-Tests: about 60%
+API interface: 100%
+
+Testing: about 60%
