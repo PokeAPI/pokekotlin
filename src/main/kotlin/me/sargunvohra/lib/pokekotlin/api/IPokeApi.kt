@@ -204,4 +204,30 @@ internal interface IPokeApi {
     fun getBerryFlavor(@Path("id") id: Int): Call<BerryFlavor>
 
     // endregion Berries
+
+    // region Contests
+
+    @GET("contest-type/{id}/")
+    fun getContestType(@Path("id") id: Int): Call<ContestType>
+
+    @GET("contest-effect/{id}/")
+    fun getContestEffect(@Path("id") id: Int): Call<ContestEffect>
+
+    @GET("super-contest-effect/{id}/")
+    fun getSuperContestEffect(@Path("id") id: Int): Call<SuperContestEffect>
+
+    // endregion Contests
+
+    // region Encounters
+
+    @GET("encounter-method/{id}/")
+    fun getEncounterMethod(@Path("id") id: Int): Call<EncounterMethod>
+
+    @GET("encounter-condition/{id}/")
+    fun getEncounterCondition(@Path("id") id: Int): Call<EncounterCondition>
+
+    @GET("encounter-condition-value/{id}/")
+    fun getEncounterConditionValue(@Path("id") id: Int): Call<EncounterConditionValue>
+
+    // endregion Contests
 }
