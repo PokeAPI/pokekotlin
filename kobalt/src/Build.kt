@@ -1,12 +1,13 @@
 import com.beust.kobalt.*
 import com.beust.kobalt.plugin.packaging.assemble
 
+@Suppress("unused")
 val repos = repos()
 
 object Versions {
     val kotlin = "1.0.0"
     val retrofit = "2.0.0-beta4"
-    val kovenant = "3.0.0"
+    val kovenant = "3.1.0"
     val testng = "6.9.10"
 }
 
@@ -34,10 +35,7 @@ val p = project {
         compile("com.squareup.retrofit2:converter-moshi:${Versions.retrofit}")
 
         // kovenant
-        compile("nl.komponents.kovenant:kovenant-core:${Versions.kovenant}")
-        compile("nl.komponents.kovenant:kovenant-combine:${Versions.kovenant}")
-        compile("nl.komponents.kovenant:kovenant-jvm:${Versions.kovenant}")
-        compile("nl.komponents.kovenant:kovenant-functional:${Versions.kovenant}")
+        compile("nl.komponents.kovenant:kovenant:${Versions.kovenant}")
     }
 
     dependenciesTest {
