@@ -1,5 +1,6 @@
 import com.beust.kobalt.*
 import com.beust.kobalt.plugin.packaging.assemble
+import com.beust.kobalt.plugin.publish.bintray
 
 @Suppress("unused")
 val repos = repos()
@@ -46,5 +47,11 @@ val p = project {
     assemble {
         jar {
         }
+        mavenJars {
+        }
+    }
+
+    bintray {
+        publish = true
     }
 }
