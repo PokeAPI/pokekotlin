@@ -16,7 +16,7 @@ class EvolutionTest {
             chain.apply {
                 assertEquals(false, is_baby)
                 species.apply {
-                    assertEquals("ratatta", name)
+                    assertEquals("rattata", name)
                     assertEquals(PokeApi.rootUrl + "pokemon-species/19/", url)
                 }
                 assertEquals(null, evolutionDetails)
