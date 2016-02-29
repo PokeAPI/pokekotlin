@@ -1,42 +1,62 @@
 package me.sargunvohra.lib.pokekotlin.json
 
+import com.squareup.moshi.Json
+
 data class EvolutionChain(
         val id: Int,
-        val baby_trigger_item: NamedApiResource<Item>,
+        @Json(name = "baby_trigger_item")
+        val babyTriggerItem: NamedApiResource<Item>?,
         val chain: ChainLink
 )
 
 data class ChainLink(
         val is_baby: Boolean,
         val species: NamedApiResource<PokemonSpecies>,
-        val evolution_details: EvolutionDetail,
-        val evolves_to: ChainLink
+        @Json(name = "evolution_details")
+        val evolutionDetails: EvolutionDetail?,
+        @Json(name = "evolves_to")
+        val evolvesTo: List<ChainLink>
 )
 
 data class EvolutionDetail(
         val item: NamedApiResource<Item>?,
         val trigger: NamedApiResource<EvolutionTrigger>,
         val gender: NamedApiResource<Gender>?,
-        val held_item: NamedApiResource<Item>?,
-        val known_move: NamedApiResource<Move>?,
-        val known_move_type: NamedApiResource<Move>?,
+        @Json(name = "held_item")
+        val heldItem: NamedApiResource<Item>?,
+        @Json(name = "known_move")
+        val knownMove: NamedApiResource<Move>?,
+        @Json(name = "known_move_type")
+        val knownMoveType: NamedApiResource<Move>?,
         val location: NamedApiResource<Location>?,
-        val min_level: Int?,
-        val min_happiness: Int?,
-        val min_beauty: Int?,
-        val min_affection: Int?,
-        val needs_overworld_rain: Boolean,
-        val part_species: NamedApiResource<PokemonSpecies>,
-        val party_type: NamedApiResource<Type>,
-        val relative_physical_stats: Int,
-        val time_of_day: String,
-        val trade_species: NamedApiResource<PokemonSpecies>,
-        val turn_upside_down: Boolean
+        @Json(name = "min_level")
+        val minLevel: Int?,
+        @Json(name = "min_happiness")
+        val minHappiness: Int?,
+        @Json(name = "min_beauty")
+        val minBeauty: Int?,
+        @Json(name = "min_affection")
+        val minAffection: Int?,
+        @Json(name = "needs_overworld_rain")
+        val needsOverworldRain: Boolean,
+        @Json(name = "party_species")
+        val partySpecies: NamedApiResource<PokemonSpecies>?,
+        @Json(name = "party_type")
+        val partyType: NamedApiResource<Type>?,
+        @Json(name = "relative_physical_stats")
+        val relativePhysicalStats: Int?,
+        @Json(name = "time_of_day")
+        val timeOfDay: String?,
+        @Json(name = "trade_species")
+        val tradeSpecies: NamedApiResource<PokemonSpecies>?,
+        @Json(name = "turn_upside_down")
+        val turnUpsideDown: Boolean
 )
 
 data class EvolutionTrigger(
         val id: Int,
         val name: String,
         val names: List<Name>,
-        val pokemon_species: List<NamedApiResource<PokemonSpecies>>
+        @Json(name = "pokemon_species")
+        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>
 )

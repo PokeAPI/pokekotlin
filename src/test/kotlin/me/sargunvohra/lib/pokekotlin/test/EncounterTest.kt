@@ -60,13 +60,18 @@ class EncounterTest {
         PokeApi.getEncounterConditionValue(5).promise.get().apply {
             assertEquals(5, id)
             assertEquals("time-night", name)
-            assertEquals(NamedApiResource("time", PokeApi.rootUrl + "encounter-condition/2/"), condition)
+            condition.apply {
+                assertEquals("time", name)
+                assertEquals(PokeApi.rootUrl + "encounter-condition/2/", url)
+            }
             assert(names) {
-                Name(
-                        name = "At night",
-                        language = NamedApiResource(
-                                name = "en",
-                                url = PokeApi.rootUrl + "language/9/"
+                containsAll(
+                        Name(
+                                name = "At night",
+                                language = NamedApiResource(
+                                        name = "en",
+                                        url = PokeApi.rootUrl + "language/9/"
+                                )
                         )
                 )
             }
