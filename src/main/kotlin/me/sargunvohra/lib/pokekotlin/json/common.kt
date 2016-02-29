@@ -1,5 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.json
 
+import com.squareup.moshi.Json
+
 internal fun urlToId(url: String): Int {
     return "\\/-?[0-9]*\\/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
 }
@@ -30,12 +32,14 @@ data class Encounter(
 )
 
 data class FlavorText(
-        val flavor_text: String,
+        @Json(name = "flavor_text")
+        val flavorText: String,
         val language: NamedApiResource<Language>
 )
 
 data class GenerationGameIndex(
-        val game_index: Int,
+        @Json(name = "game_index")
+        val gameIndex: Int,
         val generation: NamedApiResource<Generation>
 )
 
