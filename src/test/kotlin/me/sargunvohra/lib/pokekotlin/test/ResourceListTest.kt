@@ -354,14 +354,14 @@ class ResourceListTest {
     @Test
     fun getPokemonStatList() {
         test("stat/6/", "speed") {
-            PokeApi.getPokemonStatList()
+            PokeApi.getStatList()
         }
     }
 
     @Test
     fun getPokemonTypeList() {
         test("type/18/", "fairy") {
-            PokeApi.getPokemonTypeList()
+            PokeApi.getTypeList()
         }
     }
 

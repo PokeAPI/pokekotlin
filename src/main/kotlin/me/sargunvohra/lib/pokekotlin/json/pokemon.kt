@@ -266,7 +266,7 @@ data class Type(
         val generation: NamedApiResource<Generation>,
         val move_damage_class: NamedApiResource<MoveDamageClass>,
         val names: List<Name>,
-        val pokemon: TypePokemon,
+        val pokemon: List<TypePokemon>,
         val moves: List<NamedApiResource<Move>>
 )
 

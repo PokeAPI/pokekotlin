@@ -176,10 +176,10 @@ internal interface IPokeApi {
     fun getPokemonSpeciesList(): Call<List<NamedApiResource<PokemonSpecies>>>
 
     @GET("stat/")
-    fun getPokemonStatList(): Call<List<NamedApiResource<Stat>>>
+    fun getStatList(): Call<List<NamedApiResource<Stat>>>
 
     @GET("type/")
-    fun getPokemonTypeList(): Call<List<NamedApiResource<Type>>>
+    fun getTypeList(): Call<List<NamedApiResource<Type>>>
 
     // endregion
 
