@@ -4,6 +4,7 @@ import me.sargunvohra.lib.pokekotlin.json.*
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
+import retrofit2.http.Query
 
 internal interface IPokeApi {
 
@@ -12,181 +13,181 @@ internal interface IPokeApi {
     // region Berries
 
     @GET("berry/")
-    fun getBerryList(): Call<NamedApiResourceList<Berry>>
+    fun getBerryList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Berry>>
 
     @GET("berry-firmness/")
-    fun getBerryFirmnessList(): Call<NamedApiResourceList<BerryFirmness>>
+    fun getBerryFirmnessList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<BerryFirmness>>
 
     @GET("berry-flavor/")
-    fun getBerryFlavorList(): Call<NamedApiResourceList<BerryFlavor>>
+    fun getBerryFlavorList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<BerryFlavor>>
 
     // endregion Berries
 
     // region Contests
 
     @GET("contest-type/")
-    fun getContestTypeList(): Call<NamedApiResourceList<ContestType>>
+    fun getContestTypeList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<ContestType>>
 
     @GET("contest-effect/")
-    fun getContestEffectList(): Call<ApiResourceList<ContestEffect>>
+    fun getContestEffectList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<ApiResourceList<ContestEffect>>
 
     @GET("super-contest-effect/")
-    fun getSuperContestEffectList(): Call<ApiResourceList<SuperContestEffect>>
+    fun getSuperContestEffectList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<ApiResourceList<SuperContestEffect>>
 
     // endregion Contests
 
     // region Encounters
 
     @GET("encounter-method/")
-    fun getEncounterMethodList(): Call<NamedApiResourceList<EncounterMethod>>
+    fun getEncounterMethodList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<EncounterMethod>>
 
     @GET("encounter-condition/")
-    fun getEncounterConditionList(): Call<NamedApiResourceList<EncounterCondition>>
+    fun getEncounterConditionList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<EncounterCondition>>
 
     @GET("encounter-condition-value/")
-    fun getEncounterConditionValueList(): Call<NamedApiResourceList<EncounterConditionValue>>
+    fun getEncounterConditionValueList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<EncounterConditionValue>>
 
     // endregion
 
     // region Evolution
 
     @GET("evolution-chain/")
-    fun getEvolutionChainList(): Call<ApiResourceList<EvolutionChain>>
+    fun getEvolutionChainList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<ApiResourceList<EvolutionChain>>
 
     @GET("evolution-trigger/")
-    fun getEvolutionTriggerList(): Call<NamedApiResourceList<EvolutionTrigger>>
+    fun getEvolutionTriggerList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<EvolutionTrigger>>
 
     // endregion
 
     //region Games
 
     @GET("generation/")
-    fun getGenerationList(): Call<NamedApiResourceList<Generation>>
+    fun getGenerationList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Generation>>
 
     @GET("pokedex/")
-    fun getPokedexList(): Call<NamedApiResourceList<Pokedex>>
+    fun getPokedexList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Pokedex>>
 
     @GET("version/")
-    fun getVersionList(): Call<NamedApiResourceList<Version>>
+    fun getVersionList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Version>>
 
     @GET("version-group/")
-    fun getVersionGroupList(): Call<NamedApiResourceList<VersionGroup>>
+    fun getVersionGroupList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<VersionGroup>>
 
     // endregion
 
     // region Items
 
     @GET("item/")
-    fun getItemList(): Call<NamedApiResourceList<Item>>
+    fun getItemList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Item>>
 
     @GET("item-attribute/")
-    fun getItemAttributeList(): Call<NamedApiResourceList<ItemAttribute>>
+    fun getItemAttributeList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<ItemAttribute>>
 
     @GET("item-category/")
-    fun getItemCategoryList(): Call<NamedApiResourceList<ItemCategory>>
+    fun getItemCategoryList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<ItemCategory>>
 
     @GET("item-fling-effect/")
-    fun getItemFlingEffectList(): Call<NamedApiResourceList<ItemFlingEffect>>
+    fun getItemFlingEffectList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<ItemFlingEffect>>
 
     @GET("item-pocket/")
-    fun getItemPocketList(): Call<NamedApiResourceList<ItemPocket>>
+    fun getItemPocketList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<ItemPocket>>
 
     // endregion
 
     //region Moves
 
     @GET("move/")
-    fun getMoveList(): Call<NamedApiResourceList<Move>>
+    fun getMoveList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Move>>
 
     @GET("move-ailment/")
-    fun getMoveAilmentList(): Call<NamedApiResourceList<MoveAilment>>
+    fun getMoveAilmentList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<MoveAilment>>
 
     @GET("move-battle-style/")
-    fun getMoveBattleStyleList(): Call<NamedApiResourceList<MoveBattleStyle>>
+    fun getMoveBattleStyleList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<MoveBattleStyle>>
 
     @GET("move-category/")
-    fun getMoveCategoryList(): Call<NamedApiResourceList<MoveCategory>>
+    fun getMoveCategoryList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<MoveCategory>>
 
     @GET("move-damage-class/")
-    fun getMoveDamageClassList(): Call<NamedApiResourceList<MoveDamageClass>>
+    fun getMoveDamageClassList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<MoveDamageClass>>
 
     @GET("move-learn-method/")
-    fun getMoveLearnMethodList(): Call<NamedApiResourceList<MoveLearnMethod>>
+    fun getMoveLearnMethodList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<MoveLearnMethod>>
 
     @GET("move-target/")
-    fun getMoveTargetList(): Call<NamedApiResourceList<MoveTarget>>
+    fun getMoveTargetList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<MoveTarget>>
 
     // endregion
 
     // region Locations
 
     @GET("location/")
-    fun getLocationList(): Call<NamedApiResourceList<Location>>
+    fun getLocationList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Location>>
 
     @GET("location-area/")
-    fun getLocationAreaList(): Call<NamedApiResourceList<LocationArea>>
+    fun getLocationAreaList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<LocationArea>>
 
     @GET("pal-park-area/")
-    fun getPalParkAreaList(): Call<NamedApiResourceList<PalParkArea>>
+    fun getPalParkAreaList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<PalParkArea>>
 
     @GET("region/")
-    fun getRegionList(): Call<NamedApiResourceList<Region>>
+    fun getRegionList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Region>>
 
     // endregion
 
     // region Pokemon
 
     @GET("ability/")
-    fun getAbilityList(): Call<NamedApiResourceList<Ability>>
+    fun getAbilityList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Ability>>
 
     @GET("characteristic/")
-    fun getCharacteristicList(): Call<ApiResourceList<Characteristic>>
+    fun getCharacteristicList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<ApiResourceList<Characteristic>>
 
     @GET("egg-group/")
-    fun getEggGroupList(): Call<NamedApiResourceList<EggGroup>>
+    fun getEggGroupList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<EggGroup>>
 
     @GET("gender/")
-    fun getGenderList(): Call<NamedApiResourceList<Gender>>
+    fun getGenderList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Gender>>
 
     @GET("growth-rate/")
-    fun getGrowthRateList(): Call<NamedApiResourceList<GrowthRate>>
+    fun getGrowthRateList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<GrowthRate>>
 
     @GET("nature/")
-    fun getNatureList(): Call<NamedApiResourceList<Nature>>
+    fun getNatureList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Nature>>
 
     @GET("pokeathlon-stat/")
-    fun getPokeathlonList(): Call<NamedApiResourceList<PokeathlonStat>>
+    fun getPokeathlonList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<PokeathlonStat>>
 
     @GET("pokemon/")
-    fun getPokemonList(): Call<NamedApiResourceList<Pokemon>>
+    fun getPokemonList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Pokemon>>
 
     @GET("pokemon-color/")
-    fun getPokemonColorList(): Call<NamedApiResourceList<PokemonColor>>
+    fun getPokemonColorList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<PokemonColor>>
 
     @GET("pokemon-form/")
-    fun getPokemonFormList(): Call<NamedApiResourceList<PokemonForm>>
+    fun getPokemonFormList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<PokemonForm>>
 
     @GET("pokemon-habitat/")
-    fun getPokemonHabitatList(): Call<NamedApiResourceList<PokemonHabitat>>
+    fun getPokemonHabitatList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<PokemonHabitat>>
 
     @GET("pokemon-shape/")
-    fun getPokemonShapeList(): Call<NamedApiResourceList<PokemonShape>>
+    fun getPokemonShapeList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<PokemonShape>>
 
     @GET("pokemon-species/")
-    fun getPokemonSpeciesList(): Call<NamedApiResourceList<PokemonSpecies>>
+    fun getPokemonSpeciesList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<PokemonSpecies>>
 
     @GET("stat/")
-    fun getStatList(): Call<NamedApiResourceList<Stat>>
+    fun getStatList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Stat>>
 
     @GET("type/")
-    fun getTypeList(): Call<NamedApiResourceList<Type>>
+    fun getTypeList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Type>>
 
     // endregion
 
     // region Utility
 
     @GET("language/")
-    fun getLanguageList(): Call<NamedApiResourceList<Language>>
+    fun getLanguageList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList<Language>>
 
     // endregion
 
