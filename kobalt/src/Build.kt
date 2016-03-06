@@ -8,6 +8,7 @@ val repos = repos()
 object Versions {
     val kotlin = "1.0.0"
     val retrofit = "2.0.0-beta4"
+    val okio = "2.0.0-SNAPSHOT"
     val kovenant = "3.1.0"
     val testng = "6.9.10"
 }
