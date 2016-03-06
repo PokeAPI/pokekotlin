@@ -12,181 +12,181 @@ internal interface IPokeApi {
     // region Berries
 
     @GET("berry/")
-    fun getBerryList(): Call<List<NamedApiResource<Berry>>>
+    fun getBerryList(): Call<NamedApiResourceList<Berry>>
 
     @GET("berry-firmness/")
-    fun getBerryFirmnessList(): Call<List<NamedApiResource<BerryFirmness>>>
+    fun getBerryFirmnessList(): Call<NamedApiResourceList<BerryFirmness>>
 
     @GET("berry-flavor/")
-    fun getBerryFlavorList(): Call<List<NamedApiResource<BerryFlavor>>>
+    fun getBerryFlavorList(): Call<NamedApiResourceList<BerryFlavor>>
 
     // endregion Berries
 
     // region Contests
 
     @GET("contest-type/")
-    fun getContestTypeList(): Call<List<NamedApiResource<ContestType>>>
+    fun getContestTypeList(): Call<NamedApiResourceList<ContestType>>
 
     @GET("contest-effect/")
-    fun getContestEffectList(): Call<List<ApiResource<ContestEffect>>>
+    fun getContestEffectList(): Call<ApiResourceList<ContestEffect>>
 
     @GET("super-contest-effect/")
-    fun getSuperContestEffectList(): Call<List<ApiResource<SuperContestEffect>>>
+    fun getSuperContestEffectList(): Call<ApiResourceList<SuperContestEffect>>
 
     // endregion Contests
 
     // region Encounters
 
     @GET("encounter-method/")
-    fun getEncounterMethodList(): Call<List<NamedApiResource<EncounterMethod>>>
+    fun getEncounterMethodList(): Call<NamedApiResourceList<EncounterMethod>>
 
     @GET("encounter-condition/")
-    fun getEncounterConditionList(): Call<List<NamedApiResource<EncounterCondition>>>
+    fun getEncounterConditionList(): Call<NamedApiResourceList<EncounterCondition>>
 
     @GET("encounter-condition-value/")
-    fun getEncounterConditionValueList(): Call<List<NamedApiResource<EncounterConditionValue>>>
+    fun getEncounterConditionValueList(): Call<NamedApiResourceList<EncounterConditionValue>>
 
     // endregion
 
     // region Evolution
 
     @GET("evolution-chain/")
-    fun getEvolutionChainList(): Call<List<ApiResource<EvolutionChain>>>
+    fun getEvolutionChainList(): Call<ApiResourceList<EvolutionChain>>
 
     @GET("evolution-trigger/")
-    fun getEvolutionTriggerList(): Call<List<NamedApiResource<EvolutionTrigger>>>
+    fun getEvolutionTriggerList(): Call<NamedApiResourceList<EvolutionTrigger>>
 
     // endregion
 
     //region Games
 
     @GET("generation/")
-    fun getGenerationList(): Call<List<NamedApiResource<Generation>>>
+    fun getGenerationList(): Call<NamedApiResourceList<Generation>>
 
     @GET("pokedex/")
-    fun getPokedexList(): Call<List<NamedApiResource<Pokedex>>>
+    fun getPokedexList(): Call<NamedApiResourceList<Pokedex>>
 
     @GET("version/")
-    fun getVersionList(): Call<List<NamedApiResource<Version>>>
+    fun getVersionList(): Call<NamedApiResourceList<Version>>
 
     @GET("version-group/")
-    fun getVersionGroupList(): Call<List<NamedApiResource<VersionGroup>>>
+    fun getVersionGroupList(): Call<NamedApiResourceList<VersionGroup>>
 
     // endregion
 
     // region Items
 
     @GET("item/")
-    fun getItemList(): Call<List<NamedApiResource<Item>>>
+    fun getItemList(): Call<NamedApiResourceList<Item>>
 
     @GET("item-attribute/")
-    fun getItemAttributeList(): Call<List<NamedApiResource<ItemAttribute>>>
+    fun getItemAttributeList(): Call<NamedApiResourceList<ItemAttribute>>
 
     @GET("item-category/")
-    fun getItemCategoryList(): Call<List<NamedApiResource<ItemCategory>>>
+    fun getItemCategoryList(): Call<NamedApiResourceList<ItemCategory>>
 
     @GET("item-fling-effect/")
-    fun getItemFlingEffectList(): Call<List<NamedApiResource<ItemFlingEffect>>>
+    fun getItemFlingEffectList(): Call<NamedApiResourceList<ItemFlingEffect>>
 
     @GET("item-pocket/")
-    fun getItemPocketList(): Call<List<NamedApiResource<ItemPocket>>>
+    fun getItemPocketList(): Call<NamedApiResourceList<ItemPocket>>
 
     // endregion
 
     //region Moves
 
     @GET("move/")
-    fun getMoveList(): Call<List<NamedApiResource<Move>>>
+    fun getMoveList(): Call<NamedApiResourceList<Move>>
 
     @GET("move-ailment/")
-    fun getMoveAilmentList(): Call<List<NamedApiResource<MoveAilment>>>
+    fun getMoveAilmentList(): Call<NamedApiResourceList<MoveAilment>>
 
     @GET("move-battle-style/")
-    fun getMoveBattleStyleList(): Call<List<NamedApiResource<MoveBattleStyle>>>
+    fun getMoveBattleStyleList(): Call<NamedApiResourceList<MoveBattleStyle>>
 
     @GET("move-category/")
-    fun getMoveCategoryList(): Call<List<NamedApiResource<MoveCategory>>>
+    fun getMoveCategoryList(): Call<NamedApiResourceList<MoveCategory>>
 
     @GET("move-damage-class/")
-    fun getMoveDamageClassList(): Call<List<NamedApiResource<MoveDamageClass>>>
+    fun getMoveDamageClassList(): Call<NamedApiResourceList<MoveDamageClass>>
 
     @GET("move-learn-method/")
-    fun getMoveLearnMethodList(): Call<List<NamedApiResource<MoveLearnMethod>>>
+    fun getMoveLearnMethodList(): Call<NamedApiResourceList<MoveLearnMethod>>
 
     @GET("move-target/")
-    fun getMoveTargetList(): Call<List<NamedApiResource<MoveTarget>>>
+    fun getMoveTargetList(): Call<NamedApiResourceList<MoveTarget>>
 
     // endregion
 
     // region Locations
 
     @GET("location/")
-    fun getLocationList(): Call<List<NamedApiResource<Location>>>
+    fun getLocationList(): Call<NamedApiResourceList<Location>>
 
     @GET("location-area/")
-    fun getLocationAreaList(): Call<List<NamedApiResource<LocationArea>>>
+    fun getLocationAreaList(): Call<NamedApiResourceList<LocationArea>>
 
     @GET("pal-park-area/")
-    fun getPalParkAreaList(): Call<List<NamedApiResource<PalParkArea>>>
+    fun getPalParkAreaList(): Call<NamedApiResourceList<PalParkArea>>
 
     @GET("region/")
-    fun getRegionList(): Call<List<NamedApiResource<Region>>>
+    fun getRegionList(): Call<NamedApiResourceList<Region>>
 
     // endregion
 
     // region Pokemon
 
     @GET("ability/")
-    fun getAbilityList(): Call<List<NamedApiResource<Ability>>>
+    fun getAbilityList(): Call<NamedApiResourceList<Ability>>
 
     @GET("characteristic/")
-    fun getCharacteristicList(): Call<List<ApiResource<Characteristic>>>
+    fun getCharacteristicList(): Call<ApiResourceList<Characteristic>>
 
     @GET("egg-group/")
-    fun getEggGroupList(): Call<List<NamedApiResource<EggGroup>>>
+    fun getEggGroupList(): Call<NamedApiResourceList<EggGroup>>
 
     @GET("gender/")
-    fun getGenderList(): Call<List<NamedApiResource<Gender>>>
+    fun getGenderList(): Call<NamedApiResourceList<Gender>>
 
     @GET("growth-rate/")
-    fun getGrowthRateList(): Call<List<NamedApiResource<GrowthRate>>>
+    fun getGrowthRateList(): Call<NamedApiResourceList<GrowthRate>>
 
     @GET("nature/")
-    fun getNatureList(): Call<List<NamedApiResource<Nature>>>
+    fun getNatureList(): Call<NamedApiResourceList<Nature>>
 
     @GET("pokeathlon-stat/")
-    fun getPokeathlonList(): Call<List<NamedApiResource<PokeathlonStat>>>
+    fun getPokeathlonList(): Call<NamedApiResourceList<PokeathlonStat>>
 
     @GET("pokemon/")
-    fun getPokemonList(): Call<List<NamedApiResource<Pokemon>>>
+    fun getPokemonList(): Call<NamedApiResourceList<Pokemon>>
 
     @GET("pokemon-color/")
-    fun getPokemonColorList(): Call<List<NamedApiResource<PokemonColor>>>
+    fun getPokemonColorList(): Call<NamedApiResourceList<PokemonColor>>
 
     @GET("pokemon-form/")
-    fun getPokemonFormList(): Call<List<NamedApiResource<PokemonForm>>>
+    fun getPokemonFormList(): Call<NamedApiResourceList<PokemonForm>>
 
     @GET("pokemon-habitat/")
-    fun getPokemonHabitatList(): Call<List<NamedApiResource<PokemonHabitat>>>
+    fun getPokemonHabitatList(): Call<NamedApiResourceList<PokemonHabitat>>
 
     @GET("pokemon-shape/")
-    fun getPokemonShapeList(): Call<List<NamedApiResource<PokemonShape>>>
+    fun getPokemonShapeList(): Call<NamedApiResourceList<PokemonShape>>
 
     @GET("pokemon-species/")
-    fun getPokemonSpeciesList(): Call<List<NamedApiResource<PokemonSpecies>>>
+    fun getPokemonSpeciesList(): Call<NamedApiResourceList<PokemonSpecies>>
 
     @GET("stat/")
-    fun getStatList(): Call<List<NamedApiResource<Stat>>>
+    fun getStatList(): Call<NamedApiResourceList<Stat>>
 
     @GET("type/")
-    fun getTypeList(): Call<List<NamedApiResource<Type>>>
+    fun getTypeList(): Call<NamedApiResourceList<Type>>
 
     // endregion
 
     // region Utility
 
     @GET("language/")
-    fun getLanguageList(): Call<List<NamedApiResource<Language>>>
+    fun getLanguageList(): Call<NamedApiResourceList<Language>>
 
     // endregion
 
