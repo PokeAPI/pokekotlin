@@ -11,5 +11,5 @@ data class NamedApiResourceList<T>(
         val count: Int,
         val next: String,
         val previous: Boolean,
-        val results: List<NamedApiResourceList<T>>
+        val results: List<NamedApiResource<T>>
 )
