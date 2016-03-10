@@ -13,7 +13,7 @@ class EncounterTest {
         PokeApi.getEncounterMethod(5).promise.get().apply {
             assertEquals(5, id)
             assertEquals("surf", name)
-            assertEquals(10, order)
+            assertEquals(14, order)
             assert(names) {
                 containsAll(
                         Name(
