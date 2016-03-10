@@ -206,7 +206,7 @@ data class PokemonSpecies(
         val names: List<Name>,
         val pal_park_encounters: List<PalParkEncounterArea>,
         val form_description: List<Description>,
-        val genera: Genus,
+        val genera: List<Genus>,
         val varieties: List<NamedApiResource<Pokemon>>
 )
 
