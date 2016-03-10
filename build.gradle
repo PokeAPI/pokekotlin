@@ -23,3 +23,7 @@ dependencies {
    testCompile "org.jetbrains.kotlin:kotlin-test:1.0.0"
    testCompile "org.testng:testng:6.9.10"
 }
+
+test {
+   useTestNG()
+}
