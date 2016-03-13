@@ -7,7 +7,7 @@ val repos = repos()
 
 object Versions {
     val kotlin = "1.0.0"
-    val retrofit = "2.0.0-beta4"
+    val retrofit = "2.0.0"
     val kovenant = "3.1.0"
     val testng = "6.9.10"
 }
