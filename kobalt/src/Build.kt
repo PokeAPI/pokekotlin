@@ -6,9 +6,9 @@ import com.beust.kobalt.plugin.publish.bintray
 val repos = repos()
 
 object Versions {
-    val kotlin = "1.0.0"
-    val retrofit = "2.0.0"
-    val kovenant = "3.1.0"
+    val kotlin = "1.0.1-2"
+    val retrofit = "2.0.2"
+    val kovenant = "3.2.2"
     val testng = "6.9.10"
 }
 
@@ -17,7 +17,7 @@ val p = project {
     name = "PokeKotlin"
     group = "me.sargunvohra.lib"
     artifactId = name
-    version = "0.8.0"
+    version = "0.9.0"
 
     sourceDirectories {
         path("src/main/kotlin")
