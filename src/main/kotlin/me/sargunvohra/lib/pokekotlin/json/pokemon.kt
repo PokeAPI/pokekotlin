@@ -135,7 +135,7 @@ data class PokemonAbility(
 
 data class PokemonType(
         val slot: Int,
-        val type: String
+        val type: NamedApiResource<Type>
 )
 
 data class LocationAreaEncounter(
