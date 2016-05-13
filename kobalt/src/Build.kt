@@ -6,7 +6,7 @@ import com.beust.kobalt.plugin.publish.bintray
 val repos = repos()
 
 object Versions {
-    val kotlin = "1.0.1-2"
+    val kotlin = "1.0.2"
     val retrofit = "2.0.2"
     val kovenant = "3.2.2"
     val testng = "6.9.10"
