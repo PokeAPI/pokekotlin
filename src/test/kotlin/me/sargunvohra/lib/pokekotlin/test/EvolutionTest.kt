@@ -2,7 +2,6 @@ package me.sargunvohra.lib.pokekotlin.test
 
 import me.sargunvohra.lib.pokekotlin.api.PokeApi
 import me.sargunvohra.lib.pokekotlin.api.promise
-import me.sargunvohra.lib.pokekotlin.json.*
 import org.testng.annotations.Test
 import kotlin.test.*
 

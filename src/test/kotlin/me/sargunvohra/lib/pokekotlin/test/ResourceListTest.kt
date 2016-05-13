@@ -11,43 +11,43 @@ class ResourceListTest {
     final val pageSize = 50
 
     fun <T> test(path: String, name: String, call: () -> Call<NamedApiResourceList<T>>) {
-        assert(call().promise.get().results) {
-            collection.indices.forEach {
-                elementAtShouldComply(it, "it should have a name") {
-                    it.name.isNotEmpty()
-                }
-                elementAtShouldComply(it, "it should have a url") {
-                    it.url.isNotEmpty()
-                }
-                elementAtShouldComply(it, "it should be able to parse id") {
-                    it.url.contains("/${it.id}/")
-                }
+        call().promise.get().apply {
+            assert(results.count() <= pageSize)
+            if (pageSize >= count) {
+                assertEquals(count, results.count())
+                assertEquals(null, next)
+            } else {
+                assertEquals(pageSize, results.count())
+                assertNotEquals(null, next)
             }
-            assert(collection.contains(NamedApiResource(name, PokeApi.rootUrl + path))) {
-                "list should contain a specific element"
+
+            results.forEach {
+                assert(it.name.isNotEmpty())
+                assert(it.url.isNotEmpty())
+                assert(it.url.contains("/${it.id}/"))
             }
-            assert(collection.count() <= pageSize) {
-                "collection should be limited to $pageSize elements"
-            }
+
+            assert(NamedApiResource(name, PokeApi.rootUrl + path) in results)
         }
     }
 
     fun <T> test(path: String, call: () -> Call<ApiResourceList<T>>) {
-        assert(call().promise.get().results) {
-            collection.indices.forEach {
-                elementAtShouldComply(it, "it should have a url") {
-                    it.url.isNotEmpty()
-                }
-                elementAtShouldComply(it, "it should be able to parse id") {
-                    it.url.contains("/${it.id}/")
-                }
+        call().promise.get().apply {
+            assert(results.count() <= pageSize)
+            if (pageSize >= count) {
+                assertEquals(count, results.count())
+                assertEquals(null, next)
+            } else {
+                assertEquals(pageSize, results.count())
+                assertNotEquals(null, next)
             }
-            assert(collection.contains(ApiResource("http://pokeapi.co/api/v2/$path"))) {
-                "list should contain a specific element"
+
+            results.forEach {
+                assert(it.url.isNotEmpty())
+                assert(it.url.contains("/${it.id}/"))
             }
-            assert(collection.count() <= pageSize) {
-                "collection should be limited to $pageSize elements"
-            }
+
+            assert(ApiResource(PokeApi.rootUrl + path) in results)
         }
     }
 

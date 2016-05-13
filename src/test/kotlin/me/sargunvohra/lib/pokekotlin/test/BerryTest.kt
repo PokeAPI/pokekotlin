@@ -42,25 +42,17 @@ class BerryTest {
         PokeApi.getBerryFirmness(3).promise.get().apply {
             assertEquals(3, id)
             assertEquals("hard", name)
-            assert(berries) {
-                containsAll(
-                        NamedApiResource(
-                                name = "rawst",
-                                url = PokeApi.rootUrl + "berry/4/"
-                        )
-                )
-            }
-            assert(names) {
-                containsAll(
-                        Name(
-                                name = "Hard",
-                                language = NamedApiResource(
-                                        name = "en",
-                                        url = PokeApi.rootUrl + "language/9/"
-                                )
-                        )
-                )
-            }
+            assert(NamedApiResource(
+                    name = "rawst",
+                    url = PokeApi.rootUrl + "berry/4/"
+            ) in berries)
+            assert(Name(
+                    name = "Hard",
+                    language = NamedApiResource(
+                            name = "en",
+                            url = PokeApi.rootUrl + "language/9/"
+                    )
+            ) in names)
         }
     }
 
@@ -73,28 +65,20 @@ class BerryTest {
                 assertEquals("cute", name)
                 assertEquals(PokeApi.rootUrl + "contest-type/3/", url)
             }
-            assert(berries) {
-                containsAll(
-                        FlavorBerryMap(
-                                potency = 10,
-                                berry = NamedApiResource(
-                                        "leppa",
-                                        PokeApi.rootUrl + "berry/6/"
-                                )
-                        )
-                )
-            }
-            assert(names) {
-                containsAll(
-                        Name(
-                                name = "Sweet",
-                                language = NamedApiResource(
-                                        name = "en",
-                                        url = PokeApi.rootUrl + "language/9/"
-                                )
-                        )
-                )
-            }
+            assert(FlavorBerryMap(
+                    potency = 10,
+                    berry = NamedApiResource(
+                            "leppa",
+                            PokeApi.rootUrl + "berry/6/"
+                    )
+            ) in berries)
+            assert(Name(
+                    name = "Sweet",
+                    language = NamedApiResource(
+                            name = "en",
+                            url = PokeApi.rootUrl + "language/9/"
+                    )
+            ) in names)
         }
     }
 }

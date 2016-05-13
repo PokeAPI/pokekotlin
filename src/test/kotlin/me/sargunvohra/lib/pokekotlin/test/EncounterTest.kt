@@ -14,17 +14,13 @@ class EncounterTest {
             assertEquals(5, id)
             assertEquals("surf", name)
             assertEquals(14, order)
-            assert(names) {
-                containsAll(
-                        Name(
-                                name = "Surfing",
-                                language = NamedApiResource(
-                                        name = "en",
-                                        url = PokeApi.rootUrl + "language/9/"
-                                )
-                        )
-                )
-            }
+            assert(Name(
+                    name = "Surfing",
+                    language = NamedApiResource(
+                            name = "en",
+                            url = PokeApi.rootUrl + "language/9/"
+                    )
+            ) in names)
         }
     }
 
@@ -33,25 +29,17 @@ class EncounterTest {
         PokeApi.getEncounterCondition(5).promise.get().apply {
             assertEquals(5, id)
             assertEquals("radio", name)
-            assert(values) {
-                containsAll(
-                        NamedApiResource(
-                                name = "radio-hoenn",
-                                url = PokeApi.rootUrl + "encounter-condition-value/15/"
-                        )
-                )
-            }
-            assert(names) {
-                containsAll(
-                        Name(
-                                name = "Radio",
-                                language = NamedApiResource(
-                                        name = "en",
-                                        url = PokeApi.rootUrl + "language/9/"
-                                )
-                        )
-                )
-            }
+            assert(NamedApiResource(
+                    name = "radio-hoenn",
+                    url = PokeApi.rootUrl + "encounter-condition-value/15/"
+            ) in values)
+            assert(Name(
+                    name = "Radio",
+                    language = NamedApiResource(
+                            name = "en",
+                            url = PokeApi.rootUrl + "language/9/"
+                    )
+            ) in names)
         }
     }
 
@@ -64,17 +52,13 @@ class EncounterTest {
                 assertEquals("time", name)
                 assertEquals(PokeApi.rootUrl + "encounter-condition/2/", url)
             }
-            assert(names) {
-                containsAll(
-                        Name(
-                                name = "At night",
-                                language = NamedApiResource(
-                                        name = "en",
-                                        url = PokeApi.rootUrl + "language/9/"
-                                )
-                        )
-                )
-            }
+            assert(Name(
+                    name = "At night",
+                    language = NamedApiResource(
+                            name = "en",
+                            url = PokeApi.rootUrl + "language/9/"
+                    )
+            ) in names)
         }
     }
 }
