@@ -40,7 +40,7 @@ dependencies {
 ```kotlin
 val p = project {
     dependencies {
-            compile("me.sargunvohra.lib:PokeKotlin:<version>")
-        }
+        compile("me.sargunvohra.lib:PokeKotlin:<version>")
+    }
 }
 ```
