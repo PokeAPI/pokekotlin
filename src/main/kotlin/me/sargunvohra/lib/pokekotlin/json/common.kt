@@ -30,7 +30,7 @@ data class Encounter(
         val maxLevel: Int,
         @Json(name = "condition_values")
         val conditionValues: List<NamedApiResource<EncounterConditionValue>>,
-        val integer: Int,
+        val chance: Int,
         val method: NamedApiResource<EncounterMethod>
 )
 
