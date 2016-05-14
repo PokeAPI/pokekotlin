@@ -15,13 +15,35 @@ Testing: about 75%
 
 ## Example
 
+### Kotlin
+
 ```kotlin
 fun main(args: Array<String>) {
-  PokeApi.getPokemon(1).promise success {
-    println(it)
-  } fail {
-    println(it.message)
-  }
+    PokeApi.getPokemon(1).promise success {
+        println(it)
+    } fail {
+        println(it.message)
+    }
+}
+```
+
+### Java
+
+```java
+public class Example {
+    public static void main(String[] args) {
+        PokeApi.INSTANCE.getPokemon(1).enqueue(new Callback<Pokemon>() {
+            @Override
+            public void onResponse(Call<Pokemon> call, Response<Pokemon> response) {
+                System.out.println(response.body());
+            }
+
+            @Override
+            public void onFailure(Call<Pokemon> call, Throwable throwable) {
+                throwable.printStackTrace();
+            }
+        });
+    }
 }
 ```
 
