@@ -1,38 +1,49 @@
 package me.sargunvohra.lib.pokekotlin.json
 
+import com.squareup.moshi.Json
+
 data class Generation(
         val id: Int,
         val name: String,
-        val abilities: List<Ability>,
+        val abilities: List<NamedApiResource<Ability>>,
         val names: List<Name>,
-        val main_region: NamedApiResource<Region>,
+        @Json(name = "main_region")
+        val mainRegion: NamedApiResource<Region>,
         val moves: List<NamedApiResource<Move>>,
-        val pokemon_species: List<NamedApiResource<PokemonSpecies>>,
+        @Json(name = "pokemon_species")
+        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>,
         val types: List<NamedApiResource<Type>>,
-        val version_groups: List<NamedApiResource<VersionGroup>>
+        @Json(name = "version_groups")
+        val versionGroups: List<NamedApiResource<VersionGroup>>
 )
 
 data class Pokedex(
         val id: Int,
         val name: String,
-        val is_main_series: Boolean,
+        @Json(name = "is_main_series")
+        val isMainSeries: Boolean,
         val descriptions: List<Description>,
         val names: List<Name>,
-        val pokemon_entries: List<PokemonEntry>,
+        @Json(name = "pokemon_entries")
+        val pokemonEntries: List<PokemonEntry>,
         val region: NamedApiResource<Region>,
-        val version_groups: List<NamedApiResource<VersionGroup>>
+        @Json(name = "version_groups")
+        val versionGroups: List<NamedApiResource<VersionGroup>>
 )
 
 data class PokemonEntry(
-        val entry_number: Int,
-        val pokemon_species: NamedApiResource<PokemonSpecies>
+        @Json(name = "entry_number")
+        val entryNumber: Int,
+        @Json(name = "pokemon_species")
+        val pokemonSpecies: NamedApiResource<PokemonSpecies>
 )
 
 data class Version(
         val id: Int,
         val name: String,
         val names: List<Name>,
-        val version_group: NamedApiResource<VersionGroup>
+        @Json(name = "version_group")
+        val versionGroup: NamedApiResource<VersionGroup>
 )
 
 data class VersionGroup(
@@ -40,8 +51,8 @@ data class VersionGroup(
         val name: String,
         val order: Int,
         val generation: NamedApiResource<Generation>,
-        val move_learn_methods: List<NamedApiResource<MoveLearnMethod>>,
-        val names: List<Name>,
+        @Json(name = "move_learn_methods")
+        val moveLearnMethods: List<NamedApiResource<MoveLearnMethod>>,
         val pokedexes: List<NamedApiResource<Pokedex>>,
         val regions: List<NamedApiResource<Region>>,
         val versions: List<NamedApiResource<Version>>
