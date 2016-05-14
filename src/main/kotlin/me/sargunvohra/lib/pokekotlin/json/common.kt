@@ -24,9 +24,12 @@ data class Effect(
 )
 
 data class Encounter(
-        val min_level: Int,
-        val max_level: Int,
-        val condition_values: List<NamedApiResource<EncounterConditionValue>>,
+        @Json(name = "min_level")
+        val minLevel: Int,
+        @Json(name = "max_level")
+        val maxLevel: Int,
+        @Json(name = "condition_values")
+        val conditionValues: List<NamedApiResource<EncounterConditionValue>>,
         val integer: Int,
         val method: NamedApiResource<EncounterMethod>
 )
@@ -58,23 +61,28 @@ data class NamedApiResource<T>(
 
 data class VerboseEffect(
         val effect: String,
-        val short_effect: String,
+        @Json(name = "short_effect")
+        val shortEffect: String,
         val language: NamedApiResource<Language>
 )
 
 data class VersionEncounterDetail(
         val version: NamedApiResource<Version>,
-        val max_chance: Int,
-        val encounter_details: List<Encounter>
+        @Json(name = "max_chance")
+        val maxChance: Int,
+        @Json(name = "encounter_details")
+        val encounterDetails: List<Encounter>
 )
 
 data class VersionGameIndex(
-        val game_index: Int,
+        @Json(name = "game_index")
+        val gameIndex: Int,
         val version: NamedApiResource<Version>
 )
 
 data class VersionGroupFlavorText(
         val text: String,
         val language: NamedApiResource<Language>,
-        val version_group: NamedApiResource<VersionGroup>
+        @Json(name = "version_group")
+        val versionGroup: NamedApiResource<VersionGroup>
 )

@@ -1,5 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.json
 
+import com.squareup.moshi.Json
+
 data class Location(
         val id: Int,
         val name: String,
@@ -26,7 +28,8 @@ data class EncounterMethodRate(
 
 data class PokemonEncounter(
         val pokemon: NamedApiResource<Pokemon>,
-        val version_details: List<VersionEncounterDetail>
+        @Json(name = "version_details")
+        val versionDetails: List<VersionEncounterDetail>
 )
 
 data class PalParkArea(
