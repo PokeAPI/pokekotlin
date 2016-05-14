@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
     PokeApi.getPokemon(1).promise success {
         println(it)
     } fail {
-        println(it.message)
+        it.printStackTrace()
     }
 }
 ```
