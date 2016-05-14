@@ -27,8 +27,20 @@ fun main(args: Array<String>) {
 
 ## Download
 
-```kotlin
+### Gradle
+
+```groovy
 dependencies {
-    compile("me.sargunvohra.lib:PokeKotlin:<version>")
+    compile 'me.sargunvohra.lib:PokeKotlin:<version>'
+}
+```
+
+### Kobalt
+
+```kotlin
+val p = project {
+    dependencies {
+            compile("me.sargunvohra.lib:PokeKotlin:<version>")
+        }
 }
 ```
