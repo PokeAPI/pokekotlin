@@ -6,7 +6,7 @@ import me.sargunvohra.lib.pokekotlin.json.*
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
-class GamesTest {
+class GameTest {
 
     @Test
     fun getGeneration() {
