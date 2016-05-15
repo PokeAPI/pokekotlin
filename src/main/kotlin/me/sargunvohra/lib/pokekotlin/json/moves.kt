@@ -1,51 +1,76 @@
 package me.sargunvohra.lib.pokekotlin.json
 
+import com.squareup.moshi.Json
+
 data class Move(
         val id: Int,
         val name: String,
-        val accuracy: Int,
-        val effect_chance: Int,
-        val pp: Int,
+        val accuracy: Int?,
+        @Json(name = "effect_chance")
+        val effectChance: Int?,
+        val pp: Int?,
         val priority: Int,
-        val power: Int,
-        val contest_combos: List<ContestComboSets>,
-        val contest_type: ContestType,
-        val contest_effect: NamedApiResource<ContestEffect>,
-        val damage_class: NamedApiResource<MoveDamageClass>,
-        val effect_entries: List<VerboseEffect>,
-        val effect_changes: List<AbilityEffectChange>,
+        val power: Int?,
+        @Json(name = "contest_combos")
+        val contestCombos: ContestComboSets?,
+        @Json(name = "contest_type")
+        val contestType: NamedApiResource<ContestType>,
+        @Json(name = "contest_effect")
+        val contestEffect: ApiResource<ContestEffect>,
+        @Json(name = "super_contest_effect")
+        val superContestEffect: ApiResource<SuperContestEffect>,
+        @Json(name = "damage_class")
+        val damageClass: NamedApiResource<MoveDamageClass>,
+        @Json(name = "effect_entries")
+        val effectEntries: List<VerboseEffect>,
+        @Json(name = "effect_changes")
+        val effectChanges: List<AbilityEffectChange>,
         val generation: NamedApiResource<Generation>,
         val meta: MoveMetaData,
         val names: List<Name>,
-        val past_values: List<PastMoveStatValues>,
-        val stat_changes: List<MoveStatChange>,
-        val target: MoveTarget,
-        val type: Type
+        @Json(name = "past_values")
+        val pastValues: List<PastMoveStatValues>,
+        @Json(name = "stat_changes")
+        val statChanges: List<MoveStatChange>,
+        val target: NamedApiResource<MoveTarget>,
+        val type: NamedApiResource<Type>
 )
 
 data class ContestComboSets(
-        val normal: List<ContestComboDetail>,
-        val `super`: List<ContestComboDetail>
+        @Json(name = "normal")
+        val normalSet: ContestComboDetail,
+        @Json(name = "super")
+        val superSet: ContestComboDetail
 )
 
 data class ContestComboDetail(
-        val use_before: List<NamedApiResource<Move>>,
-        val use_after: List<NamedApiResource<Move>>
+        @Json(name = "use_before")
+        val useBefore: List<NamedApiResource<Move>>?,
+        @Json(name = "use_after")
+        val useAfter: List<NamedApiResource<Move>>?
 )
 
 data class MoveMetaData(
         val ailment: NamedApiResource<MoveAilment>,
         val category: NamedApiResource<Move>,
-        val min_hits: Int,
-        val max_hits: Int,
-        val min_turns: Int,
-        val max_turns: Int,
+        @Json(name = "min_hits")
+        val minHits: Int?,
+        @Json(name = "max_hits")
+        val maxHits: Int?,
+        @Json(name = "min_turns")
+        val minTurns: Int?,
+        @Json(name = "max_turns")
+        val maxTurns: Int?,
         val drain: Int,
         val healing: Int,
-        val crit_rate: Int,
-        val ailment_chance: Int,
-        val flinch_chance: Int,
-        val stat_chance: Int
+        @Json(name = "crit_rate")
+        val critRate: Int,
+        @Json(name = "ailment_chance")
+        val ailmentChance: Int,
+        @Json(name = "flinch_chance")
+        val flinchChance: Int,
+        @Json(name = "stat_chance")
+        val statChance: Int
 )
 
 data class MoveStatChange(
@@ -54,13 +79,16 @@ data class MoveStatChange(
 )
 
 data class PastMoveStatValues(
-        val accuracy: Int,
-        val effect_chance: Int,
-        val power: Int,
-        val pp: Int,
-        val effect_entries: List<VerboseEffect>,
-        val type: Type,
-        val version_group: NamedApiResource<VersionGroup>
+        val accuracy: Int?,
+        @Json(name = "effect_chance")
+        val effectChance: Int?,
+        val power: Int?,
+        val pp: Int?,
+        @Json(name = "effect_entries")
+        val effectEntries: List<VerboseEffect>,
+        val type: NamedApiResource<Type>?,
+        @Json(name = "version_group")
+        val versionGroup: NamedApiResource<VersionGroup>
 )
 
 data class MoveAilment(
@@ -96,7 +124,8 @@ data class MoveLearnMethod(
         val name: String,
         val descriptions: List<Description>,
         val names: List<Name>,
-        val version_groups: List<NamedApiResource<VersionGroup>>
+        @Json(name = "version_groups")
+        val versionGroups: List<NamedApiResource<VersionGroup>>
 )
 
 data class MoveTarget(
