@@ -10,7 +10,8 @@ data class EvolutionChain(
 )
 
 data class ChainLink(
-        val is_baby: Boolean,
+        @Json(name = "is_baby")
+        val isBaby: Boolean,
         val species: NamedApiResource<PokemonSpecies>,
         @Json(name = "evolution_details")
         val evolutionDetails: EvolutionDetail?,
