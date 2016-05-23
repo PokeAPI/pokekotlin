@@ -20,38 +20,38 @@ data class ChainLink(
 )
 
 data class EvolutionDetail(
-        val item: NamedApiResource<Item>?,
         val trigger: NamedApiResource<EvolutionTrigger>,
-        val gender: NamedApiResource<Gender>?,
+        val item: NamedApiResource<Item>? = null,
+        val gender: NamedApiResource<Gender>? = null,
         @Json(name = "held_item")
-        val heldItem: NamedApiResource<Item>?,
+        val heldItem: NamedApiResource<Item>? = null,
         @Json(name = "known_move")
-        val knownMove: NamedApiResource<Move>?,
+        val knownMove: NamedApiResource<Move>? = null,
         @Json(name = "known_move_type")
-        val knownMoveType: NamedApiResource<Move>?,
-        val location: NamedApiResource<Location>?,
+        val knownMoveType: NamedApiResource<Move>? = null,
+        val location: NamedApiResource<Location>? = null,
         @Json(name = "min_level")
-        val minLevel: Int?,
+        val minLevel: Int? = null,
         @Json(name = "min_happiness")
-        val minHappiness: Int?,
+        val minHappiness: Int? = null,
         @Json(name = "min_beauty")
-        val minBeauty: Int?,
+        val minBeauty: Int? = null,
         @Json(name = "min_affection")
-        val minAffection: Int?,
-        @Json(name = "needs_overworld_rain")
-        val needsOverworldRain: Boolean,
+        val minAffection: Int? = null,
         @Json(name = "party_species")
-        val partySpecies: NamedApiResource<PokemonSpecies>?,
+        val partySpecies: NamedApiResource<PokemonSpecies>? = null,
         @Json(name = "party_type")
-        val partyType: NamedApiResource<Type>?,
+        val partyType: NamedApiResource<Type>? = null,
         @Json(name = "relative_physical_stats")
-        val relativePhysicalStats: Int?,
+        val relativePhysicalStats: Int? = null,
         @Json(name = "time_of_day")
-        val timeOfDay: String?,
+        val timeOfDay: String = "",
         @Json(name = "trade_species")
-        val tradeSpecies: NamedApiResource<PokemonSpecies>?,
+        val tradeSpecies: NamedApiResource<PokemonSpecies>? = null,
+        @Json(name = "needs_overworld_rain")
+        val needsOverworldRain: Boolean = false,
         @Json(name = "turn_upside_down")
-        val turnUpsideDown: Boolean
+        val turnUpsideDown: Boolean = false
 )
 
 data class EvolutionTrigger(
