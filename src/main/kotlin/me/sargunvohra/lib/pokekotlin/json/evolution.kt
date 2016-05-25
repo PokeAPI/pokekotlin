@@ -14,7 +14,7 @@ data class ChainLink(
         val isBaby: Boolean,
         val species: NamedApiResource<PokemonSpecies>,
         @Json(name = "evolution_details")
-        val evolutionDetails: EvolutionDetail?,
+        val evolutionDetails: List<EvolutionDetail>,
         @Json(name = "evolves_to")
         val evolvesTo: List<ChainLink>
 )
@@ -22,7 +22,7 @@ data class ChainLink(
 data class EvolutionDetail(
         val trigger: NamedApiResource<EvolutionTrigger>,
         val item: NamedApiResource<Item>? = null,
-        val gender: NamedApiResource<Gender>? = null,
+        val gender: Int? = null,
         @Json(name = "held_item")
         val heldItem: NamedApiResource<Item>? = null,
         @Json(name = "known_move")
@@ -39,7 +39,7 @@ data class EvolutionDetail(
         @Json(name = "min_affection")
         val minAffection: Int? = null,
         @Json(name = "party_species")
-        val partySpecies: NamedApiResource<PokemonSpecies>? = null,
+        val partySpecies: NamedApiResource<PokemonSpecies>? = null, // TODO
         @Json(name = "party_type")
         val partyType: NamedApiResource<Type>? = null,
         @Json(name = "relative_physical_stats")
@@ -47,7 +47,7 @@ data class EvolutionDetail(
         @Json(name = "time_of_day")
         val timeOfDay: String = "",
         @Json(name = "trade_species")
-        val tradeSpecies: NamedApiResource<PokemonSpecies>? = null,
+        val tradeSpecies: NamedApiResource<PokemonSpecies>? = null, // TODO
         @Json(name = "needs_overworld_rain")
         val needsOverworldRain: Boolean = false,
         @Json(name = "turn_upside_down")
