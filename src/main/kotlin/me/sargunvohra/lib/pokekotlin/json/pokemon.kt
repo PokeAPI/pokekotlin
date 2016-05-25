@@ -54,7 +54,7 @@ data class EggGroup(
         val name: String,
         val names: List<Name>,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: NamedApiResource<PokemonSpecies>
+        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>
 )
 
 data class Gender(
