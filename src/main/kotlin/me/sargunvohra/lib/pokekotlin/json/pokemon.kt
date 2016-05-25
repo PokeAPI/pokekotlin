@@ -106,8 +106,10 @@ data class Nature(
 )
 
 data class NatureStatChange(
-        val change: Int,
-        val stat: NamedApiResource<PokeathlonStat>
+        @Json(name = "max_change")
+        val maxChange: Int,
+        @Json(name = "pokeathlon_stat")
+        val pokeathlonStat: NamedApiResource<PokeathlonStat>
 )
 
 data class MoveBattleStylePreference(
