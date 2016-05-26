@@ -1,5 +1,8 @@
 package me.sargunvohra.lib.pokekotlin.retrofit
 
+import com.squareup.moshi.Moshi
+import me.sargunvohra.lib.pokekotlin.json.ApiResourceAdapter
+import me.sargunvohra.lib.pokekotlin.json.NamedApiResourceAdapter
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
@@ -15,7 +18,12 @@ class PokeApiRetrofit(
                 .build()
 ) : IPokeApiRetrofit by Retrofit.Builder()
         .baseUrl(rootUrl)
-        .addConverterFactory(MoshiConverterFactory.create())
+        .addConverterFactory(MoshiConverterFactory.create(
+                Moshi.Builder().apply {
+                    add(ApiResourceAdapter())
+                    add(NamedApiResourceAdapter())
+                }.build()
+        ))
         .client(httpClient)
         .build()
         .create(IPokeApiRetrofit::class.java)

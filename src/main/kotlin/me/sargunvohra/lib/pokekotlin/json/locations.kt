@@ -5,11 +5,11 @@ import com.squareup.moshi.Json
 data class Location(
         val id: Int,
         val name: String,
-        val region: NamedApiResource<Region>,
+        val region: NamedApiResource,
         val names: List<Name>,
         @Json(name = "game_indices")
         val gameIndices: List<GenerationGameIndex>,
-        val areas: List<NamedApiResource<LocationArea>>
+        val areas: List<NamedApiResource>
 )
 
 data class LocationArea(
@@ -19,7 +19,7 @@ data class LocationArea(
         val gameIndex: Int,
         @Json(name = "encounter_method_rates")
         val encounterMethodRates: List<EncounterMethodRate>,
-        val location: NamedApiResource<Region>,
+        val location: NamedApiResource,
         val names: List<Name>,
         @Json(name = "pokemon_encounters")
         val pokemonEncounters: List<PokemonEncounter>
@@ -27,18 +27,18 @@ data class LocationArea(
 
 data class EncounterMethodRate(
         @Json(name = "encounter_method")
-        val encounterMethod: NamedApiResource<EncounterMethod>,
+        val encounterMethod: NamedApiResource,
         @Json(name = "version_details")
         val versionDetails: List<EncounterMethodRateVersionDetail>
 )
 
 data class EncounterMethodRateVersionDetail(
         val rate: Int,
-        val version: NamedApiResource<Version>
+        val version: NamedApiResource
 )
 
 data class PokemonEncounter(
-        val pokemon: NamedApiResource<Pokemon>,
+        val pokemon: NamedApiResource,
         @Json(name = "version_details")
         val versionDetails: List<VersionEncounterDetail>
 )
@@ -56,17 +56,17 @@ data class PalParkEncounterSpecies(
         val baseScore: Int,
         val rate: Int,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: NamedApiResource<PokemonSpecies>
+        val pokemonSpecies: NamedApiResource
 )
 
 data class Region(
         val id: Int,
         val name: String,
-        val locations: List<NamedApiResource<Location>>,
+        val locations: List<NamedApiResource>,
         @Json(name = "main_generation")
-        val mainGeneration: NamedApiResource<Generation>,
+        val mainGeneration: NamedApiResource,
         val names: List<Name>,
-        val pokedexes: List<NamedApiResource<Pokedex>>,
+        val pokedexes: List<NamedApiResource>,
         @Json(name = "version_groups")
-        val versionGroups: List<NamedApiResource<VersionGroup>>
+        val versionGroups: List<NamedApiResource>
 )

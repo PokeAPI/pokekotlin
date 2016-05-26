@@ -15,17 +15,11 @@ class ContestTest {
         PokeApi.getContestType(4).apply {
             assertEquals(4, id)
             assertEquals("smart", name)
-            berryFlavor.apply {
-                assertEquals("bitter", name)
-                assertEquals(PokeApi.rootUrl + "berry-flavor/4/", url)
-            }
+            assertEquals(NamedApiResource("bitter", "berry-flavor", 4), berryFlavor)
             assert(ContestName(
                     name = "Smart",
                     color = "Green",
-                    language = NamedApiResource(
-                            name = "en",
-                            url = PokeApi.rootUrl + "language/9/"
-                    )
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
         }
     }
@@ -38,17 +32,11 @@ class ContestTest {
             assertEquals(0, jam)
             assert(Effect(
                     effect = "If user appeals first this turn, earns six points instead of two.",
-                    language = NamedApiResource(
-                            name = "en",
-                            url = PokeApi.rootUrl + "language/9/"
-                    )
+                    language = NamedApiResource("en", "language", 9)
             ) in effectEntries)
             assert(FlavorText(
                     flavorText = "The appeal works great if performed first.",
-                    language = NamedApiResource(
-                            name = "en",
-                            url = PokeApi.rootUrl + "language/9/"
-                    )
+                    language = NamedApiResource("en", "language", 9)
             ) in flavorTextEntries)
         }
     }
@@ -60,15 +48,9 @@ class ContestTest {
             assertEquals(2, appeal)
             assert(FlavorText(
                     flavorText = "Makes the order of contestants random in the next turn.",
-                    language = NamedApiResource(
-                            name = "en",
-                            url = PokeApi.rootUrl + "language/9/"
-                    )
+                    language = NamedApiResource("en", "language", 9)
             ) in flavorTextEntries)
-            assert(NamedApiResource(
-                    name = "assist",
-                    url = PokeApi.rootUrl + "move/274/"
-            ) in moves)
+            assert(NamedApiResource("assist", "move", 274) in moves)
         }
     }
 }

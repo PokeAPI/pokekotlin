@@ -7,7 +7,7 @@ data class Ability(
         val name: String,
         @Json(name = "is_main_series")
         val isMainSeries: Boolean,
-        val generation: NamedApiResource<Generation>,
+        val generation: NamedApiResource,
         val names: List<Name>,
         @Json(name = "effect_entries")
         val effectEntries: List<VerboseEffect>,
@@ -22,22 +22,22 @@ data class AbilityEffectChange(
         @Json(name = "effect_entries")
         val effectEntries: List<Effect>,
         @Json(name = "version_group")
-        val versionGroup: NamedApiResource<VersionGroup>
+        val versionGroup: NamedApiResource
 )
 
 data class AbilityFlavorText(
         @Json(name = "flavor_text")
         val flavorText: String,
-        val language: NamedApiResource<Language>,
+        val language: NamedApiResource,
         @Json(name = "version_group")
-        val versionGroup: NamedApiResource<VersionGroup>
+        val versionGroup: NamedApiResource
 )
 
 data class AbilityPokemon(
         @Json(name = "is_hidden")
         val isHidden: Boolean,
         val slot: Int,
-        val pokemon: NamedApiResource<Pokemon>
+        val pokemon: NamedApiResource
 )
 
 data class Characteristic(
@@ -54,7 +54,7 @@ data class EggGroup(
         val name: String,
         val names: List<Name>,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>
+        val pokemonSpecies: List<NamedApiResource>
 )
 
 data class Gender(
@@ -63,13 +63,13 @@ data class Gender(
         @Json(name = "pokemon_species_details")
         val pokemonSpeciesDetails: List<PokemonSpeciesGender>,
         @Json(name = "required_for_evolution")
-        val requiredForEvolution: List<NamedApiResource<PokemonSpecies>>
+        val requiredForEvolution: List<NamedApiResource>
 )
 
 data class PokemonSpeciesGender(
         val rate: Int,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: NamedApiResource<PokemonSpecies>
+        val pokemonSpecies: NamedApiResource
 )
 
 data class GrowthRate(
@@ -79,7 +79,7 @@ data class GrowthRate(
         val descriptions: List<Description>,
         val levels: List<GrowthRateExperienceLevel>,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>
+        val pokemonSpecies: List<NamedApiResource>
 )
 
 data class GrowthRateExperienceLevel(
@@ -91,13 +91,13 @@ data class Nature(
         val id: Int,
         val name: String,
         @Json(name = "decreased_stat")
-        val decreasedStat: NamedApiResource<Stat>,
+        val decreasedStat: NamedApiResource,
         @Json(name = "increased_stat")
-        val increasedStat: NamedApiResource<Stat>,
+        val increasedStat: NamedApiResource,
         @Json(name = "hates_flavor")
-        val hatesFlavor: NamedApiResource<BerryFlavor>,
+        val hatesFlavor: NamedApiResource,
         @Json(name = "likes_flavor")
-        val likesFlavor: NamedApiResource<BerryFlavor>,
+        val likesFlavor: NamedApiResource,
         @Json(name = "pokeathlon_stat_changes")
         val pokeathlonStatChanges: List<NatureStatChange>,
         @Json(name = "move_battle_style_preferences")
@@ -109,7 +109,7 @@ data class NatureStatChange(
         @Json(name = "max_change")
         val maxChange: Int,
         @Json(name = "pokeathlon_stat")
-        val pokeathlonStat: NamedApiResource<PokeathlonStat>
+        val pokeathlonStat: NamedApiResource
 )
 
 data class MoveBattleStylePreference(
@@ -118,7 +118,7 @@ data class MoveBattleStylePreference(
         @Json(name = "high_hp_preference")
         val highHpPreference: Int,
         @Json(name = "move_battle_style")
-        val moveBattleStyle: NamedApiResource<MoveBattleStyle>
+        val moveBattleStyle: NamedApiResource
 )
 
 data class PokeathlonStat(
@@ -137,7 +137,7 @@ data class NaturePokeathlonStatAffectSets(
 data class NaturePokeathlonStatAffect(
         @Json(name = "max_change")
         val maxChange: Int,
-        val nature: NamedApiResource<Nature>
+        val nature: NamedApiResource
 )
 
 data class Pokemon(
@@ -150,9 +150,9 @@ data class Pokemon(
         val isDefault: Boolean,
         val order: Int,
         val weight: Int,
-        val species: NamedApiResource<PokemonSpecies>,
+        val species: NamedApiResource,
         val abilities: List<PokemonAbility>,
-        val forms: List<NamedApiResource<PokemonForm>>,
+        val forms: List<NamedApiResource>,
         @Json(name = "game_indices")
         val gameIndices: List<VersionGameIndex>,
         @Json(name = "held_items")
@@ -168,49 +168,49 @@ data class PokemonAbility(
         @Json(name = "is_hidden")
         val isHidden: Boolean,
         val slot: Int,
-        val ability: NamedApiResource<Ability>
+        val ability: NamedApiResource
 )
 
 data class PokemonHeldItem(
-        val item: NamedApiResource<Item>,
+        val item: NamedApiResource,
         @Json(name = "version_details")
         val versionDetails: List<PokemonHeldItemVersion>
 )
 
 data class PokemonHeldItemVersion(
-        val version: NamedApiResource<Version>,
+        val version: NamedApiResource,
         val rarity: Int
 )
 
 data class PokemonMove(
-        val move: NamedApiResource<Move>,
+        val move: NamedApiResource,
         @Json(name = "version_group_details")
         val versionGroupDetails: List<PokemonMoveVersion>
 )
 
 data class PokemonMoveVersion(
         @Json(name = "move_learn_method")
-        val moveLearnMethod: NamedApiResource<MoveLearnMethod>,
+        val moveLearnMethod: NamedApiResource,
         @Json(name = "version_group")
-        val versionGroup: NamedApiResource<VersionGroup>,
+        val versionGroup: NamedApiResource,
         @Json(name = "level_learned_at")
         val levelLearnedAt: Int
 )
 
 data class PokemonStat(
-        val stat: NamedApiResource<Stat>,
+        val stat: NamedApiResource,
         val effort: Int,
         val baseStat: Int
 )
 
 data class PokemonType(
         val slot: Int,
-        val type: NamedApiResource<Type>
+        val type: NamedApiResource
 )
 
 data class LocationAreaEncounter(
         @Json(name = "location_area")
-        val locationArea: NamedApiResource<LocationArea>,
+        val locationArea: NamedApiResource,
         @Json(name = "version_details")
         val versionDetails: List<VersionEncounterDetail>
 )
@@ -220,7 +220,7 @@ data class PokemonColor(
         val name: String,
         val names: List<Name>,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>
+        val pokemonSpecies: List<NamedApiResource>
 )
 
 data class PokemonForm(
@@ -237,9 +237,9 @@ data class PokemonForm(
         val isMega: Boolean,
         @Json(name = "form_name")
         val formName: String,
-        val pokemon: NamedApiResource<Pokemon>,
+        val pokemon: NamedApiResource,
         @Json(name = "version_group")
-        val versionGroup: NamedApiResource<VersionGroup>
+        val versionGroup: NamedApiResource
 )
 
 data class PokemonHabitat(
@@ -247,7 +247,7 @@ data class PokemonHabitat(
         val name: String,
         val names: List<Name>,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>
+        val pokemonSpecies: List<NamedApiResource>
 )
 
 data class PokemonShape(
@@ -257,13 +257,13 @@ data class PokemonShape(
         val awesomeNames: List<AwesomeName>,
         val names: List<Name>,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>
+        val pokemonSpecies: List<NamedApiResource>
 )
 
 data class AwesomeName(
         @Json(name = "awesome_name")
         val awesomeName: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
 data class PokemonSpecies(
@@ -285,19 +285,19 @@ data class PokemonSpecies(
         @Json(name = "forms_switchable")
         val formsSwitchable: Boolean,
         @Json(name = "growth_rate")
-        val growthRate: NamedApiResource<GrowthRate>,
+        val growthRate: NamedApiResource,
         @Json(name = "pokedex_numbers")
         val pokedexNumbers: List<PokemonSpeciesDexEntry>,
         @Json(name = "egg_groups")
-        val eggGroups: List<NamedApiResource<EggGroup>>,
-        val color: NamedApiResource<PokemonColor>,
-        val shape: NamedApiResource<PokemonShape>,
+        val eggGroups: List<NamedApiResource>,
+        val color: NamedApiResource,
+        val shape: NamedApiResource,
         @Json(name = "evolves_from_species")
-        val evolvesFromSpecies: NamedApiResource<PokemonSpecies>?,
+        val evolvesFromSpecies: NamedApiResource?,
         @Json(name = "evolution_chain")
-        val evolutionChain: ApiResource<EvolutionChain>,
-        val habitat: NamedApiResource<PokemonHabitat>,
-        val generation: NamedApiResource<Generation>,
+        val evolutionChain: ApiResource,
+        val habitat: NamedApiResource,
+        val generation: NamedApiResource,
         val names: List<Name>,
         @Json(name = "pal_park_encounters")
         val palParkEncounters: List<PalParkEncounterArea>,
@@ -309,26 +309,26 @@ data class PokemonSpecies(
 
 data class Genus(
         val genus: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
 data class PokemonSpeciesDexEntry(
         @Json(name = "entry_number")
         val entryNumber: Int,
-        val pokedex: NamedApiResource<Pokedex>
+        val pokedex: NamedApiResource
 )
 
 data class PalParkEncounterArea(
         @Json(name = "base_score")
         val baseScore: Int,
         val rate: Int,
-        val area: NamedApiResource<PalParkArea>
+        val area: NamedApiResource
 )
 
 data class PokemonSpeciesVariety(
         @Json(name = "is_default")
         val isDefault: Boolean,
-        val pokemon: NamedApiResource<Pokemon>
+        val pokemon: NamedApiResource
 )
 
 data class Stat(
@@ -342,9 +342,9 @@ data class Stat(
         val affectingMoves: MoveStatAffectSets,
         @Json(name = "affecting_natures")
         val affectingNatures: NatureStatAffectSets,
-        val characteristics: List<ApiResource<Characteristic>>,
+        val characteristics: List<ApiResource>,
         @Json(name = "move_damage_class")
-        val moveDamageClass: NamedApiResource<MoveDamageClass>,
+        val moveDamageClass: NamedApiResource,
         val names: List<Name>
 )
 
@@ -355,12 +355,12 @@ data class MoveStatAffectSets(
 
 data class MoveStatAffect(
         val change: Int,
-        val move: NamedApiResource<Move>
+        val move: NamedApiResource
 )
 
 data class NatureStatAffectSets(
-        val increase: List<NamedApiResource<Nature>>,
-        val decrease: List<NamedApiResource<Nature>>
+        val increase: List<NamedApiResource>,
+        val decrease: List<NamedApiResource>
 )
 
 data class Type(
@@ -370,30 +370,30 @@ data class Type(
         val damageRelations: TypeRelations,
         @Json(name = "game_indices")
         val gameIndices: List<GenerationGameIndex>,
-        val generation: NamedApiResource<Generation>,
+        val generation: NamedApiResource,
         @Json(name = "move_damage_class")
-        val moveDamageClass: NamedApiResource<MoveDamageClass>,
+        val moveDamageClass: NamedApiResource,
         val names: List<Name>,
         val pokemon: List<TypePokemon>,
-        val moves: List<NamedApiResource<Move>>
+        val moves: List<NamedApiResource>
 )
 
 data class TypePokemon(
         val slot: Int,
-        val pokemon: NamedApiResource<Pokemon>
+        val pokemon: NamedApiResource
 )
 
 data class TypeRelations(
         @Json(name = "no_damage_to")
-        val noDamageTo: List<NamedApiResource<Type>>,
+        val noDamageTo: List<NamedApiResource>,
         @Json(name = "half_damage_to")
-        val halfDamageTo: List<NamedApiResource<Type>>,
+        val halfDamageTo: List<NamedApiResource>,
         @Json(name = "double_damage_to")
-        val doubleDamageTo: List<NamedApiResource<Type>>,
+        val doubleDamageTo: List<NamedApiResource>,
         @Json(name = "no_damage_from")
-        val noDamageFrom: List<NamedApiResource<Type>>,
+        val noDamageFrom: List<NamedApiResource>,
         @Json(name = "half_damage_from")
-        val halfDamageFrom: List<NamedApiResource<Type>>,
+        val halfDamageFrom: List<NamedApiResource>,
         @Json(name = "double_damage_from")
-        val doubleDamageFrom: List<NamedApiResource<Type>>
+        val doubleDamageFrom: List<NamedApiResource>
 )

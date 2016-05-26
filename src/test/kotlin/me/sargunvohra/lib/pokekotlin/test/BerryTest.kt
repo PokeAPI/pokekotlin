@@ -20,19 +20,10 @@ class BerryTest {
             assertEquals(280, size)
             assertEquals(35, smoothness)
             assertEquals(8, soilDryness)
-            firmness.apply {
-                assertEquals("hard", name)
-                assertEquals(PokeApi.rootUrl + "berry-firmness/3/", url)
-            }
+            assertEquals(NamedApiResource("hard", "berry-firmness", 3), firmness)
             assert(flavors.isNotEmpty())
-            item.apply {
-                assertEquals("durin-berry", name)
-                assertEquals(PokeApi.rootUrl + "item/159/", url)
-            }
-            naturalGiftType.apply {
-                assertEquals("water", name)
-                assertEquals(PokeApi.rootUrl + "type/11/", url)
-            }
+            assertEquals(NamedApiResource("durin-berry", "item", 159), item)
+            assertEquals(NamedApiResource("water", "type", 11), naturalGiftType)
         }
     }
 
@@ -41,16 +32,10 @@ class BerryTest {
         PokeApi.getBerryFirmness(3).apply {
             assertEquals(3, id)
             assertEquals("hard", name)
-            assert(NamedApiResource(
-                    name = "rawst",
-                    url = PokeApi.rootUrl + "berry/4/"
-            ) in berries)
+            assert(NamedApiResource("rawst", "berry", 4) in berries)
             assert(Name(
                     name = "Hard",
-                    language = NamedApiResource(
-                            name = "en",
-                            url = PokeApi.rootUrl + "language/9/"
-                    )
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
         }
     }
@@ -60,23 +45,14 @@ class BerryTest {
         PokeApi.getBerryFlavor(3).apply {
             assertEquals(3, id)
             assertEquals("sweet", name)
-            contestType.apply {
-                assertEquals("cute", name)
-                assertEquals(PokeApi.rootUrl + "contest-type/3/", url)
-            }
+            assertEquals(NamedApiResource("cute", "contest-type", 3), contestType)
             assert(FlavorBerryMap(
                     potency = 10,
-                    berry = NamedApiResource(
-                            "leppa",
-                            PokeApi.rootUrl + "berry/6/"
-                    )
+                    berry = NamedApiResource("leppa", "berry", 6)
             ) in berries)
             assert(Name(
                     name = "Sweet",
-                    language = NamedApiResource(
-                            name = "en",
-                            url = PokeApi.rootUrl + "language/9/"
-                    )
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
         }
     }

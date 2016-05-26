@@ -2,25 +2,19 @@ package me.sargunvohra.lib.pokekotlin.json
 
 import com.squareup.moshi.Json
 
-internal fun urlToId(url: String): Int {
-    return "\\/-?[0-9]*\\/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
-}
-
-@Suppress("unused")
-data class ApiResource<T>(
-        val url: String
-) {
-    val id: Int get() = urlToId(url)
-}
+data class ApiResource(
+        val category: String,
+        val id: Int
+)
 
 data class Description(
         val description: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
 data class Effect(
         val effect: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
 data class Encounter(
@@ -29,45 +23,43 @@ data class Encounter(
         @Json(name = "max_level")
         val maxLevel: Int,
         @Json(name = "condition_values")
-        val conditionValues: List<NamedApiResource<EncounterConditionValue>>,
+        val conditionValues: List<NamedApiResource>,
         val chance: Int,
-        val method: NamedApiResource<EncounterMethod>
+        val method: NamedApiResource
 )
 
 data class FlavorText(
         @Json(name = "flavor_text")
         val flavorText: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
 data class GenerationGameIndex(
         @Json(name = "game_index")
         val gameIndex: Int,
-        val generation: NamedApiResource<Generation>
+        val generation: NamedApiResource
 )
 
 data class Name(
         val name: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
-@Suppress("unused")
-data class NamedApiResource<T>(
+data class NamedApiResource(
         val name: String,
-        val url: String
-) {
-    val id: Int get() = urlToId(url)
-}
+        val category: String,
+        val id: Int
+)
 
 data class VerboseEffect(
         val effect: String,
         @Json(name = "short_effect")
         val shortEffect: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
 data class VersionEncounterDetail(
-        val version: NamedApiResource<Version>,
+        val version: NamedApiResource,
         @Json(name = "max_chance")
         val maxChance: Int,
         @Json(name = "encounter_details")
@@ -77,12 +69,12 @@ data class VersionEncounterDetail(
 data class VersionGameIndex(
         @Json(name = "game_index")
         val gameIndex: Int,
-        val version: NamedApiResource<Version>
+        val version: NamedApiResource
 )
 
 data class VersionGroupFlavorText(
         val text: String,
-        val language: NamedApiResource<Language>,
+        val language: NamedApiResource,
         @Json(name = "version_group")
-        val versionGroup: NamedApiResource<VersionGroup>
+        val versionGroup: NamedApiResource
 )

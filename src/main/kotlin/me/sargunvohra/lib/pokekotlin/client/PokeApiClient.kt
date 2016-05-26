@@ -3,7 +3,6 @@ package me.sargunvohra.lib.pokekotlin.client
 import me.sargunvohra.lib.pokekotlin.json.*
 import me.sargunvohra.lib.pokekotlin.retrofit.IPokeApiRetrofit
 import me.sargunvohra.lib.pokekotlin.retrofit.PokeApiRetrofit
-import okhttp3.ResponseBody
 
 class PokeApiClient(
         private val retrofitClient: IPokeApiRetrofit = PokeApiRetrofit()
@@ -13,17 +12,17 @@ class PokeApiClient(
 
     // region Berries
 
-    override fun getBerryList(offset: Int, limit: Int): NamedApiResourceList<Berry> {
+    override fun getBerryList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getBerryList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getBerryFirmnessList(offset: Int, limit: Int): NamedApiResourceList<BerryFirmness> {
+    override fun getBerryFirmnessList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getBerryFirmnessList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getBerryFlavorList(offset: Int, limit: Int): NamedApiResourceList<BerryFlavor> {
+    override fun getBerryFlavorList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getBerryFlavorList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -32,17 +31,17 @@ class PokeApiClient(
 
     // region Contests
 
-    override fun getContestTypeList(offset: Int, limit: Int): NamedApiResourceList<ContestType> {
+    override fun getContestTypeList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getContestTypeList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getContestEffectList(offset: Int, limit: Int): ApiResourceList<ContestEffect> {
+    override fun getContestEffectList(offset: Int, limit: Int): ApiResourceList {
         val response = retrofitClient.getContestEffectList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getSuperContestEffectList(offset: Int, limit: Int): ApiResourceList<SuperContestEffect> {
+    override fun getSuperContestEffectList(offset: Int, limit: Int): ApiResourceList {
         val response = retrofitClient.getSuperContestEffectList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -51,17 +50,17 @@ class PokeApiClient(
 
     // region Encounters
 
-    override fun getEncounterMethodList(offset: Int, limit: Int): NamedApiResourceList<EncounterMethod> {
+    override fun getEncounterMethodList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getEncounterMethodList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getEncounterConditionList(offset: Int, limit: Int): NamedApiResourceList<EncounterCondition> {
+    override fun getEncounterConditionList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getEncounterConditionList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getEncounterConditionValueList(offset: Int, limit: Int): NamedApiResourceList<EncounterConditionValue> {
+    override fun getEncounterConditionValueList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getEncounterConditionValueList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -70,12 +69,12 @@ class PokeApiClient(
 
     // region Evolution
 
-    override fun getEvolutionChainList(offset: Int, limit: Int): ApiResourceList<EvolutionChain> {
+    override fun getEvolutionChainList(offset: Int, limit: Int): ApiResourceList {
         val response = retrofitClient.getEvolutionChainList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getEvolutionTriggerList(offset: Int, limit: Int): NamedApiResourceList<EvolutionTrigger> {
+    override fun getEvolutionTriggerList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getEvolutionTriggerList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -84,22 +83,22 @@ class PokeApiClient(
 
     //region Games
 
-    override fun getGenerationList(offset: Int, limit: Int): NamedApiResourceList<Generation> {
+    override fun getGenerationList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getGenerationList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokedexList(offset: Int, limit: Int): NamedApiResourceList<Pokedex> {
+    override fun getPokedexList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokedexList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getVersionList(offset: Int, limit: Int): NamedApiResourceList<Version> {
+    override fun getVersionList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getVersionList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getVersionGroupList(offset: Int, limit: Int): NamedApiResourceList<VersionGroup> {
+    override fun getVersionGroupList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getVersionGroupList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -108,27 +107,27 @@ class PokeApiClient(
 
     // region Items
 
-    override fun getItemList(offset: Int, limit: Int): NamedApiResourceList<Item> {
+    override fun getItemList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getItemList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getItemAttributeList(offset: Int, limit: Int): NamedApiResourceList<ItemAttribute> {
+    override fun getItemAttributeList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getItemAttributeList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getItemCategoryList(offset: Int, limit: Int): NamedApiResourceList<ItemCategory> {
+    override fun getItemCategoryList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getItemCategoryList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getItemFlingEffectList(offset: Int, limit: Int): NamedApiResourceList<ItemFlingEffect> {
+    override fun getItemFlingEffectList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getItemFlingEffectList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getItemPocketList(offset: Int, limit: Int): NamedApiResourceList<ItemPocket> {
+    override fun getItemPocketList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getItemPocketList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -137,37 +136,37 @@ class PokeApiClient(
 
     //region Moves
 
-    override fun getMoveList(offset: Int, limit: Int): NamedApiResourceList<Move> {
+    override fun getMoveList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getMoveList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getMoveAilmentList(offset: Int, limit: Int): NamedApiResourceList<MoveAilment> {
+    override fun getMoveAilmentList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getMoveAilmentList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getMoveBattleStyleList(offset: Int, limit: Int): NamedApiResourceList<MoveBattleStyle> {
+    override fun getMoveBattleStyleList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getMoveBattleStyleList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getMoveCategoryList(offset: Int, limit: Int): NamedApiResourceList<MoveCategory> {
+    override fun getMoveCategoryList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getMoveCategoryList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getMoveDamageClassList(offset: Int, limit: Int): NamedApiResourceList<MoveDamageClass> {
+    override fun getMoveDamageClassList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getMoveDamageClassList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getMoveLearnMethodList(offset: Int, limit: Int): NamedApiResourceList<MoveLearnMethod> {
+    override fun getMoveLearnMethodList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getMoveLearnMethodList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getMoveTargetList(offset: Int, limit: Int): NamedApiResourceList<MoveTarget> {
+    override fun getMoveTargetList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getMoveTargetList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -176,22 +175,22 @@ class PokeApiClient(
 
     // region Locations
 
-    override fun getLocationList(offset: Int, limit: Int): NamedApiResourceList<Location> {
+    override fun getLocationList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getLocationList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getLocationAreaList(offset: Int, limit: Int): NamedApiResourceList<LocationArea> {
+    override fun getLocationAreaList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getLocationAreaList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPalParkAreaList(offset: Int, limit: Int): NamedApiResourceList<PalParkArea> {
+    override fun getPalParkAreaList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPalParkAreaList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getRegionList(offset: Int, limit: Int): NamedApiResourceList<Region> {
+    override fun getRegionList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getRegionList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -200,77 +199,77 @@ class PokeApiClient(
 
     // region Pokemon
 
-    override fun getAbilityList(offset: Int, limit: Int): NamedApiResourceList<Ability> {
+    override fun getAbilityList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getAbilityList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getCharacteristicList(offset: Int, limit: Int): ApiResourceList<Characteristic> {
+    override fun getCharacteristicList(offset: Int, limit: Int): ApiResourceList {
         val response = retrofitClient.getCharacteristicList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getEggGroupList(offset: Int, limit: Int): NamedApiResourceList<EggGroup> {
+    override fun getEggGroupList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getEggGroupList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getGenderList(offset: Int, limit: Int): NamedApiResourceList<Gender> {
+    override fun getGenderList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getGenderList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getGrowthRateList(offset: Int, limit: Int): NamedApiResourceList<GrowthRate> {
+    override fun getGrowthRateList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getGrowthRateList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getNatureList(offset: Int, limit: Int): NamedApiResourceList<Nature> {
+    override fun getNatureList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getNatureList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokeathlonList(offset: Int, limit: Int): NamedApiResourceList<PokeathlonStat> {
+    override fun getPokeathlonList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokeathlonList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokemonList(offset: Int, limit: Int): NamedApiResourceList<Pokemon> {
+    override fun getPokemonList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokemonList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokemonColorList(offset: Int, limit: Int): NamedApiResourceList<PokemonColor> {
+    override fun getPokemonColorList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokemonColorList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokemonFormList(offset: Int, limit: Int): NamedApiResourceList<PokemonForm> {
+    override fun getPokemonFormList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokemonFormList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokemonHabitatList(offset: Int, limit: Int): NamedApiResourceList<PokemonHabitat> {
+    override fun getPokemonHabitatList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokemonHabitatList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokemonShapeList(offset: Int, limit: Int): NamedApiResourceList<PokemonShape> {
+    override fun getPokemonShapeList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokemonShapeList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokemonSpeciesList(offset: Int, limit: Int): NamedApiResourceList<PokemonSpecies> {
+    override fun getPokemonSpeciesList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getPokemonSpeciesList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getStatList(offset: Int, limit: Int): NamedApiResourceList<Stat> {
+    override fun getStatList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getStatList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getTypeList(offset: Int, limit: Int): NamedApiResourceList<Type> {
+    override fun getTypeList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getTypeList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
@@ -279,7 +278,7 @@ class PokeApiClient(
 
     // region Utility
 
-    override fun getLanguageList(offset: Int, limit: Int): NamedApiResourceList<Language> {
+    override fun getLanguageList(offset: Int, limit: Int): NamedApiResourceList {
         val response = retrofitClient.getLanguageList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }

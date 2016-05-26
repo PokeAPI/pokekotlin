@@ -6,14 +6,14 @@ data class ContestType(
         val id: Int,
         val name: String,
         @Json(name = "berry_flavor")
-        val berryFlavor: NamedApiResource<BerryFlavor>,
+        val berryFlavor: NamedApiResource,
         val names: List<ContestName>
 )
 
 data class ContestName(
         val name: String,
         val color: String,
-        val language: NamedApiResource<Language>
+        val language: NamedApiResource
 )
 
 data class ContestEffect(
@@ -31,5 +31,5 @@ data class SuperContestEffect(
         val appeal: Int,
         @Json(name = "flavor_text_entries")
         val flavorTextEntries: List<FlavorText>,
-        val moves: List<NamedApiResource<Move>>
+        val moves: List<NamedApiResource>
 )

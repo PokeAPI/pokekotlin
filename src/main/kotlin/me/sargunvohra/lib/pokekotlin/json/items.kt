@@ -9,9 +9,9 @@ data class Item(
         @Json(name = "fling_power")
         val flingPower: Int,
         @Json(name = "fling_effect")
-        val flingEffect: NamedApiResource<ItemFlingEffect>?,
-        val attributes: List<NamedApiResource<ItemAttribute>>,
-        val category: NamedApiResource<ItemCategory>,
+        val flingEffect: NamedApiResource?,
+        val attributes: List<NamedApiResource>,
+        val category: NamedApiResource,
         @Json(name = "effect_entries")
         val effectEntries: List<VerboseEffect>,
         @Json(name = "flavor_text_entries")
@@ -22,24 +22,24 @@ data class Item(
         @Json(name = "held_by_pokemon")
         val heldByPokemon: List<ItemHolderPokemon>,
         @Json(name = "baby_trigger_for")
-        val babyTriggerFor: ApiResource<EvolutionChain>?
+        val babyTriggerFor: ApiResource?
 )
 
 data class ItemHolderPokemon(
-        val pokemon: NamedApiResource<Pokemon>,
+        val pokemon: NamedApiResource,
         @Json(name = "version_details")
         val versionDetails: List<ItemHolderPokemonVersionDetail>
 )
 
 data class ItemHolderPokemonVersionDetail(
         val rarity: Int,
-        val version: NamedApiResource<Version>
+        val version: NamedApiResource
 )
 
 data class ItemAttribute(
         val id: Int,
         val name: String,
-        val items: List<NamedApiResource<Item>>,
+        val items: List<NamedApiResource>,
         val names: List<Name>,
         val descriptions: List<Description>
 )
@@ -47,9 +47,9 @@ data class ItemAttribute(
 data class ItemCategory(
         val id: Int,
         val name: String,
-        val items: List<NamedApiResource<Item>>,
+        val items: List<NamedApiResource>,
         val names: List<Name>,
-        val pocket: NamedApiResource<ItemPocket>
+        val pocket: NamedApiResource
 )
 
 data class ItemFlingEffect(
@@ -57,12 +57,12 @@ data class ItemFlingEffect(
         val name: String,
         @Json(name = "effect_entries")
         val effectEntries: List<Effect>,
-        val items: List<NamedApiResource<Item>>
+        val items: List<NamedApiResource>
 )
 
 data class ItemPocket(
         val id: Int,
         val name: String,
-        val categories: List<NamedApiResource<ItemCategory>>,
+        val categories: List<NamedApiResource>,
         val names: List<Name>
 )

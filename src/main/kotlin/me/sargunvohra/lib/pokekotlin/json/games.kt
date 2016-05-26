@@ -5,16 +5,16 @@ import com.squareup.moshi.Json
 data class Generation(
         val id: Int,
         val name: String,
-        val abilities: List<NamedApiResource<Ability>>,
+        val abilities: List<NamedApiResource>,
         val names: List<Name>,
         @Json(name = "main_region")
-        val mainRegion: NamedApiResource<Region>,
-        val moves: List<NamedApiResource<Move>>,
+        val mainRegion: NamedApiResource,
+        val moves: List<NamedApiResource>,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: List<NamedApiResource<PokemonSpecies>>,
-        val types: List<NamedApiResource<Type>>,
+        val pokemonSpecies: List<NamedApiResource>,
+        val types: List<NamedApiResource>,
         @Json(name = "version_groups")
-        val versionGroups: List<NamedApiResource<VersionGroup>>
+        val versionGroups: List<NamedApiResource>
 )
 
 data class Pokedex(
@@ -26,16 +26,16 @@ data class Pokedex(
         val names: List<Name>,
         @Json(name = "pokemon_entries")
         val pokemonEntries: List<PokemonEntry>,
-        val region: NamedApiResource<Region>,
+        val region: NamedApiResource,
         @Json(name = "version_groups")
-        val versionGroups: List<NamedApiResource<VersionGroup>>
+        val versionGroups: List<NamedApiResource>
 )
 
 data class PokemonEntry(
         @Json(name = "entry_number")
         val entryNumber: Int,
         @Json(name = "pokemon_species")
-        val pokemonSpecies: NamedApiResource<PokemonSpecies>
+        val pokemonSpecies: NamedApiResource
 )
 
 data class Version(
@@ -43,17 +43,17 @@ data class Version(
         val name: String,
         val names: List<Name>,
         @Json(name = "version_group")
-        val versionGroup: NamedApiResource<VersionGroup>
+        val versionGroup: NamedApiResource
 )
 
 data class VersionGroup(
         val id: Int,
         val name: String,
         val order: Int,
-        val generation: NamedApiResource<Generation>,
+        val generation: NamedApiResource,
         @Json(name = "move_learn_methods")
-        val moveLearnMethods: List<NamedApiResource<MoveLearnMethod>>,
-        val pokedexes: List<NamedApiResource<Pokedex>>,
-        val regions: List<NamedApiResource<Region>>,
-        val versions: List<NamedApiResource<Version>>
+        val moveLearnMethods: List<NamedApiResource>,
+        val pokedexes: List<NamedApiResource>,
+        val regions: List<NamedApiResource>,
+        val versions: List<NamedApiResource>
 )

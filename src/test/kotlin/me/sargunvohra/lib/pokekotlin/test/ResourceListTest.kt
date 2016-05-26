@@ -13,7 +13,7 @@ class ResourceListTest {
 
     final val pageSize = 50
 
-    fun <T> test(path: String, name: String, call: () -> NamedApiResourceList<T>) {
+    fun test(category: String, id: Int, name: String, call: () -> NamedApiResourceList) {
         call().apply {
             assert(results.count() <= pageSize)
             if (pageSize >= count) {
@@ -26,15 +26,15 @@ class ResourceListTest {
 
             results.forEach {
                 assert(it.name.isNotEmpty())
-                assert(it.url.isNotEmpty())
-                assert(it.url.contains("/${it.id}/"))
+                assert(it.category.isNotEmpty())
+                it.id
             }
 
-            assert(NamedApiResource(name, PokeApi.rootUrl + path) in results)
+            assert(NamedApiResource(name, category, id) in results)
         }
     }
 
-    fun <T> test(path: String, call: () -> ApiResourceList<T>) {
+    fun test(category: String, id: Int, call: () -> ApiResourceList) {
         call().apply {
             assert(results.count() <= pageSize)
             if (pageSize >= count) {
@@ -46,339 +46,339 @@ class ResourceListTest {
             }
 
             results.forEach {
-                assert(it.url.isNotEmpty())
-                assert(it.url.contains("/${it.id}/"))
+                assert(it.category.isNotEmpty())
+                it.id
             }
 
-            assert(ApiResource(PokeApi.rootUrl + path) in results)
+            assert(ApiResource(category, id) in results)
         }
     }
 
     @Test
     fun getBerryList() {
-        test("berry/4/", "rawst") {
+        test("berry", 4, "rawst") {
             PokeApi.getBerryList(0, pageSize)
         }
     }
 
     @Test
     fun getBerryFirmnessList() {
-        test("berry-firmness/4/", "very-hard") {
+        test("berry-firmness", 4, "very-hard") {
             PokeApi.getBerryFirmnessList(0, pageSize)
         }
     }
 
     @Test
     fun getBerryFlavorList() {
-        test("berry-flavor/4/", "bitter") {
+        test("berry-flavor", 4, "bitter") {
             PokeApi.getBerryFlavorList(0, pageSize)
         }
     }
 
     @Test
     fun getContestTypeList() {
-        test("contest-type/4/", "smart") {
+        test("contest-type", 4, "smart") {
             PokeApi.getContestTypeList(0, pageSize)
         }
     }
 
     @Test
     fun getContestEffectList() {
-        test("contest-effect/4/") {
+        test("contest-effect", 4) {
             PokeApi.getContestEffectList(0, pageSize)
         }
     }
 
     @Test
     fun getSuperContestEffectList() {
-        test("super-contest-effect/2/") {
+        test("super-contest-effect", 2) {
             PokeApi.getSuperContestEffectList(0, pageSize)
         }
     }
 
     @Test
     fun getEncounterMethodList() {
-        test("encounter-method/5/", "surf") {
+        test("encounter-method", 5, "surf") {
             PokeApi.getEncounterMethodList(0, pageSize)
         }
     }
 
     @Test
     fun getEncounterConditionList() {
-        test("encounter-condition/3/", "radar") {
+        test("encounter-condition", 3, "radar") {
             PokeApi.getEncounterConditionList(0, pageSize)
         }
     }
 
     @Test
     fun getEncounterConditionValueList() {
-        test("encounter-condition-value/4/", "time-day") {
+        test("encounter-condition-value", 4, "time-day") {
             PokeApi.getEncounterConditionValueList(0, pageSize)
         }
     }
 
     @Test
     fun getEvolutionChainList() {
-        test("evolution-chain/5/") {
+        test("evolution-chain", 5) {
             PokeApi.getEvolutionChainList(0, pageSize)
         }
     }
 
     @Test
     fun getEvolutionTriggerList() {
-        test("evolution-trigger/2/", "trade") {
+        test("evolution-trigger", 2, "trade") {
             PokeApi.getEvolutionTriggerList(0, pageSize)
         }
     }
 
     @Test
     fun getGenerationList() {
-        test("generation/3/", "generation-iii") {
+        test("generation", 3, "generation-iii") {
             PokeApi.getGenerationList(0, pageSize)
         }
     }
 
     @Test
     fun getPokedexList() {
-        test("pokedex/2/", "kanto") {
+        test("pokedex", 2, "kanto") {
             PokeApi.getPokedexList(0, pageSize)
         }
     }
 
     @Test
     fun getVersionList() {
-        test("version/4/", "gold") {
+        test("version", 4, "gold") {
             PokeApi.getVersionList(0, pageSize)
         }
     }
 
     @Test
     fun getVersionGroupList() {
-        test("version-group/3/", "gold-silver") {
+        test("version-group", 3, "gold-silver") {
             PokeApi.getVersionGroupList(0, pageSize)
         }
     }
 
     @Test
     fun getItemList() {
-        test("item/16/", "cherish-ball") {
+        test("item", 16, "cherish-ball") {
             PokeApi.getItemList(0, pageSize)
         }
     }
 
     @Test
     fun getItemAttributeList() {
-        test("item-attribute/2/", "consumable") {
+        test("item-attribute", 2, "consumable") {
             PokeApi.getItemAttributeList(0, pageSize)
         }
     }
 
     @Test
     fun getItemCategoryList() {
-        test("item-category/2/", "effort-drop") {
+        test("item-category", 2, "effort-drop") {
             PokeApi.getItemCategoryList(0, pageSize)
         }
     }
 
     @Test
     fun getItemFlingEffectList() {
-        test("item-fling-effect/4/", "herb-effect") {
+        test("item-fling-effect", 4, "herb-effect") {
             PokeApi.getItemFlingEffectList(0, pageSize)
         }
     }
 
     @Test
     fun getItemPocketList() {
-        test("item-pocket/3/", "pokeballs") {
+        test("item-pocket", 3, "pokeballs") {
             PokeApi.getItemPocketList(0, pageSize)
         }
     }
 
     @Test
     fun getMoveList() {
-        test("move/481/", "flame-burst") {
+        test("move", 481, "flame-burst") {
             PokeApi.getMoveList(450, pageSize)
         }
     }
 
     @Test
     fun getMoveAilmentList() {
-        test("move-ailment/5/", "poison") {
+        test("move-ailment", 5, "poison") {
             PokeApi.getMoveAilmentList(0, pageSize)
         }
     }
 
     @Test
     fun getMoveBattleStyleList() {
-        test("move-battle-style/2/", "defense") {
+        test("move-battle-style", 2, "defense") {
             PokeApi.getMoveBattleStyleList(0, pageSize)
         }
     }
 
     @Test
     fun getMoveCategoryList() {
-        test("move-category/11/", "field-effect") {
+        test("move-category", 11, "field-effect") {
             PokeApi.getMoveCategoryList(0, pageSize)
         }
     }
 
     @Test
     fun getMoveDamageClassList() {
-        test("move-damage-class/2/", "physical") {
+        test("move-damage-class", 2, "physical") {
             PokeApi.getMoveDamageClassList(0, pageSize)
         }
     }
 
     @Test
     fun getMoveLearnMethodList() {
-        test("move-learn-method/4/", "machine") {
+        test("move-learn-method", 4, "machine") {
             PokeApi.getMoveLearnMethodList(0, pageSize)
         }
     }
 
     @Test
     fun getMoveTargetList() {
-        test("move-target/14/", "all-pokemon") {
+        test("move-target", 14, "all-pokemon") {
             PokeApi.getMoveTargetList(0, pageSize)
         }
     }
 
     @Test
     fun getLocationList() {
-        test("location/31/", "sinnoh-route-201") {
+        test("location", 31, "sinnoh-route-201") {
             PokeApi.getLocationList(0, pageSize)
         }
     }
 
     @Test
     fun getLocationAreaList() {
-        test("location-area/34/", "solaceon-ruins-b1f-c") {
+        test("location-area", 34, "solaceon-ruins-b1f-c") {
             PokeApi.getLocationAreaList(0, pageSize)
         }
     }
 
     @Test
     fun getPalParkAreaList() {
-        test("pal-park-area/3/", "mountain") {
+        test("pal-park-area", 3, "mountain") {
             PokeApi.getPalParkAreaList(0, pageSize)
         }
     }
 
     @Test
     fun getRegionList() {
-        test("region/1/", "kanto") {
+        test("region", 1, "kanto") {
             PokeApi.getRegionList(0, pageSize)
         }
     }
 
     @Test
     fun getAbilityList() {
-        test("ability/5/", "sturdy") {
+        test("ability", 5, "sturdy") {
             PokeApi.getAbilityList(0, pageSize)
         }
     }
 
     @Test
     fun getCharacteristicList() {
-        test("characteristic/4/") {
+        test("characteristic", 4) {
             PokeApi.getCharacteristicList(0, pageSize)
         }
     }
 
     @Test
     fun getEggGroupList() {
-        test("egg-group/1/", "monster") {
+        test("egg-group", 1, "monster") {
             PokeApi.getEggGroupList(0, pageSize)
         }
     }
 
     @Test
     fun getGenderList() {
-        test("gender/2/", "male") {
+        test("gender", 2, "male") {
             PokeApi.getGenderList(0, pageSize)
         }
     }
 
     @Test
     fun getGrowthRateList() {
-        test("growth-rate/3/", "fast") {
+        test("growth-rate", 3, "fast") {
             PokeApi.getGrowthRateList(0, pageSize)
         }
     }
 
     @Test
     fun getNatureList() {
-        test("nature/5/", "timid") {
+        test("nature", 5, "timid") {
             PokeApi.getNatureList(0, pageSize)
         }
     }
 
     @Test
     fun getPokeathlonList() {
-        test("pokeathlon-stat/5/", "jump") {
+        test("pokeathlon-stat", 5, "jump") {
             PokeApi.getPokeathlonList(0, pageSize)
         }
     }
 
     @Test
     fun getPokemonList() {
-        test("pokemon/3/", "venusaur") {
+        test("pokemon", 3, "venusaur") {
             PokeApi.getPokemonList(0, pageSize)
         }
     }
 
     @Test
     fun getPokemonColorList() {
-        test("pokemon-color/8/", "red") {
+        test("pokemon-color", 8, "red") {
             PokeApi.getPokemonColorList(0, pageSize)
         }
     }
 
     @Test
     fun getPokemonFormList() {
-        test("pokemon-form/18/", "pidgeot") {
+        test("pokemon-form", 18, "pidgeot") {
             PokeApi.getPokemonFormList(0, pageSize)
         }
     }
 
     @Test
     fun getPokemonHabitatList() {
-        test("pokemon-habitat/8/", "urban") {
+        test("pokemon-habitat", 8, "urban") {
             PokeApi.getPokemonHabitatList(0, pageSize)
         }
     }
 
     @Test
     fun getPokemonShapeList() {
-        test("pokemon-shape/13/", "bug-wings") {
+        test("pokemon-shape", 13, "bug-wings") {
             PokeApi.getPokemonShapeList(0, pageSize)
         }
     }
 
     @Test
     fun getPokemonSpeciesList() {
-        test("pokemon-species/179/", "mareep") {
+        test("pokemon-species", 179, "mareep") {
             PokeApi.getPokemonSpeciesList(150, pageSize)
         }
     }
 
     @Test
     fun getPokemonStatList() {
-        test("stat/6/", "speed") {
+        test("stat", 6, "speed") {
             PokeApi.getStatList(0, pageSize)
         }
     }
 
     @Test
     fun getPokemonTypeList() {
-        test("type/18/", "fairy") {
+        test("type", 18, "fairy") {
             PokeApi.getTypeList(0, pageSize)
         }
     }
 
     @Test
     fun getLanguageList() {
-        test("language/9/", "en") {
+        test("language", 9, "en") {
             PokeApi.getLanguageList(0, pageSize)
         }
     }

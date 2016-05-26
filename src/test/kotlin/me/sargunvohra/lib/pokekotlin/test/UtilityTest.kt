@@ -15,12 +15,10 @@ class UtilityTest {
             assertEquals("us", iso3166)
             assertEquals("en", iso639)
             assertEquals("en", name)
+            println(names)
             assert(Name(
                     name = "English",
-                    language = NamedApiResource(
-                            name = "en",
-                            url = PokeApi.rootUrl + "language/9/"
-                    )
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
         }
     }

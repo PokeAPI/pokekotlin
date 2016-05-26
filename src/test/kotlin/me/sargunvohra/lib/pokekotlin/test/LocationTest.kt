@@ -13,16 +13,16 @@ class LocationTest {
         PokeApi.getLocation(20).apply {
             assertEquals(20, id)
             assertEquals("wayward-cave", name)
-            assertEquals(NamedApiResource("sinnoh", PokeApi.rootUrl + "region/4/"), region)
+            assertEquals(NamedApiResource("sinnoh", "region", 4), region)
             assert(Name(
                     name = "Wayward Cave",
-                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
             assert(GenerationGameIndex(
                     gameIndex = 65,
-                    generation = NamedApiResource("generation-iv", PokeApi.rootUrl + "generation/4/")
+                    generation = NamedApiResource("generation-iv", "generation", 4)
             ) in gameIndices)
-            assert(NamedApiResource("wayward-cave-1f", PokeApi.rootUrl + "location-area/113/") in areas)
+            assert(NamedApiResource("wayward-cave-1f", "location-area", 113) in areas)
         }
     }
 
@@ -32,26 +32,26 @@ class LocationTest {
             assertEquals(20, id)
             assertEquals("mt-coronet-cave", name)
             assertEquals(20, gameIndex)
-            assertEquals(NamedApiResource("mt-coronet", PokeApi.rootUrl + "location/10/"), location)
+            assertEquals(NamedApiResource("mt-coronet", "location", 10), location)
             assert(Name(
                     name = "cave",
-                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
             assertNotNull(encounterMethodRates.find {
-                it.encounterMethod == NamedApiResource<EncounterMethod>("walk", PokeApi.rootUrl + "encounter-method/1/") &&
-                        EncounterMethodRateVersionDetail(10, NamedApiResource("platinum", PokeApi.rootUrl + "version/14/")) in it.versionDetails
+                it.encounterMethod == NamedApiResource("walk", "encounter-method", 1) &&
+                        EncounterMethodRateVersionDetail(10, NamedApiResource("platinum", "version", 14)) in it.versionDetails
             })
             assertNotNull(pokemonEncounters.find {
-                it.pokemon == NamedApiResource<Pokemon>("clefairy", PokeApi.rootUrl + "pokemon/35/") &&
+                it.pokemon == NamedApiResource("clefairy", "pokemon", 35) &&
                         it.versionDetails.find {
-                            it.version == NamedApiResource<Version>("diamond", PokeApi.rootUrl + "version/12/") &&
+                            it.version == NamedApiResource("diamond", "version", 12) &&
                                     it.maxChance == 27 &&
                                     it.encounterDetails.find {
                                         it.minLevel == 39 &&
                                                 it.maxLevel == 39 &&
                                                 it.chance == 4 &&
-                                                it.method == NamedApiResource<EncounterMethod>("walk", PokeApi.rootUrl + "encounter-method/1/") &&
-                                                NamedApiResource("slot2-none", PokeApi.rootUrl + "encounter-condition-value/8/") in it.conditionValues
+                                                it.method == NamedApiResource("walk", "encounter-method", 1) &&
+                                                NamedApiResource("slot2-none", "encounter-condition-value", 8) in it.conditionValues
                                     } != null
                         } != null
             })
@@ -65,12 +65,12 @@ class LocationTest {
             assertEquals("field", name)
             assert(Name(
                     name = "Field",
-                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
             assert(PalParkEncounterSpecies(
                     baseScore = 100,
                     rate = 1,
-                    pokemonSpecies = NamedApiResource("shaymin", PokeApi.rootUrl + "pokemon-species/492/")
+                    pokemonSpecies = NamedApiResource("shaymin", "pokemon-species", 492)
             ) in pokemonEncounters)
         }
     }
@@ -80,14 +80,14 @@ class LocationTest {
         PokeApi.getRegion(1).apply {
             assertEquals(1, id)
             assertEquals("kanto", name)
-            assertEquals(NamedApiResource("generation-i", PokeApi.rootUrl + "generation/1/"), mainGeneration)
-            assert(NamedApiResource("celadon-city", PokeApi.rootUrl + "location/67/") in locations)
+            assertEquals(NamedApiResource("generation-i", "generation", 1), mainGeneration)
+            assert(NamedApiResource("celadon-city", "location", 67) in locations)
             assert(Name(
                     name = "Kanto",
-                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+                    language = NamedApiResource("en", "language", 9)
             ) in names)
-            assert(NamedApiResource("kanto", PokeApi.rootUrl + "pokedex/2/") in pokedexes)
-            assert(NamedApiResource("red-blue", PokeApi.rootUrl + "version-group/1/") in versionGroups)
+            assert(NamedApiResource("kanto", "pokedex", 2) in pokedexes)
+            assert(NamedApiResource("red-blue", "version-group", 1) in versionGroups)
         }
     }
 }

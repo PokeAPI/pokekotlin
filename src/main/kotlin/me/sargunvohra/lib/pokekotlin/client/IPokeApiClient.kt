@@ -8,135 +8,135 @@ interface IPokeApiClient {
 
     // region Berries
 
-    fun getBerryList(offset: Int, limit: Int): NamedApiResourceList<Berry>
+    fun getBerryList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getBerryFirmnessList(offset: Int, limit: Int): NamedApiResourceList<BerryFirmness>
+    fun getBerryFirmnessList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getBerryFlavorList(offset: Int, limit: Int): NamedApiResourceList<BerryFlavor>
+    fun getBerryFlavorList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion Berries
 
     // region Contests
 
-    fun getContestTypeList(offset: Int, limit: Int): NamedApiResourceList<ContestType>
+    fun getContestTypeList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getContestEffectList(offset: Int, limit: Int): ApiResourceList<ContestEffect>
+    fun getContestEffectList(offset: Int, limit: Int): ApiResourceList
 
-    fun getSuperContestEffectList(offset: Int, limit: Int): ApiResourceList<SuperContestEffect>
+    fun getSuperContestEffectList(offset: Int, limit: Int): ApiResourceList
 
     // endregion Contests
 
     // region Encounters
 
-    fun getEncounterMethodList(offset: Int, limit: Int): NamedApiResourceList<EncounterMethod>
+    fun getEncounterMethodList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getEncounterConditionList(offset: Int, limit: Int): NamedApiResourceList<EncounterCondition>
+    fun getEncounterConditionList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getEncounterConditionValueList(offset: Int, limit: Int): NamedApiResourceList<EncounterConditionValue>
+    fun getEncounterConditionValueList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 
     // region Evolution
 
-    fun getEvolutionChainList(offset: Int, limit: Int): ApiResourceList<EvolutionChain>
+    fun getEvolutionChainList(offset: Int, limit: Int): ApiResourceList
 
-    fun getEvolutionTriggerList(offset: Int, limit: Int): NamedApiResourceList<EvolutionTrigger>
+    fun getEvolutionTriggerList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 
     //region Games
 
-    fun getGenerationList(offset: Int, limit: Int): NamedApiResourceList<Generation>
+    fun getGenerationList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokedexList(offset: Int, limit: Int): NamedApiResourceList<Pokedex>
+    fun getPokedexList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getVersionList(offset: Int, limit: Int): NamedApiResourceList<Version>
+    fun getVersionList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getVersionGroupList(offset: Int, limit: Int): NamedApiResourceList<VersionGroup>
+    fun getVersionGroupList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 
     // region Items
 
-    fun getItemList(offset: Int, limit: Int): NamedApiResourceList<Item>
+    fun getItemList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getItemAttributeList(offset: Int, limit: Int): NamedApiResourceList<ItemAttribute>
+    fun getItemAttributeList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getItemCategoryList(offset: Int, limit: Int): NamedApiResourceList<ItemCategory>
+    fun getItemCategoryList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getItemFlingEffectList(offset: Int, limit: Int): NamedApiResourceList<ItemFlingEffect>
+    fun getItemFlingEffectList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getItemPocketList(offset: Int, limit: Int): NamedApiResourceList<ItemPocket>
+    fun getItemPocketList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 
     //region Moves
 
-    fun getMoveList(offset: Int, limit: Int): NamedApiResourceList<Move>
+    fun getMoveList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getMoveAilmentList(offset: Int, limit: Int): NamedApiResourceList<MoveAilment>
+    fun getMoveAilmentList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getMoveBattleStyleList(offset: Int, limit: Int): NamedApiResourceList<MoveBattleStyle>
+    fun getMoveBattleStyleList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getMoveCategoryList(offset: Int, limit: Int): NamedApiResourceList<MoveCategory>
+    fun getMoveCategoryList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getMoveDamageClassList(offset: Int, limit: Int): NamedApiResourceList<MoveDamageClass>
+    fun getMoveDamageClassList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getMoveLearnMethodList(offset: Int, limit: Int): NamedApiResourceList<MoveLearnMethod>
+    fun getMoveLearnMethodList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getMoveTargetList(offset: Int, limit: Int): NamedApiResourceList<MoveTarget>
+    fun getMoveTargetList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 
     // region Locations
 
-    fun getLocationList(offset: Int, limit: Int): NamedApiResourceList<Location>
+    fun getLocationList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getLocationAreaList(offset: Int, limit: Int): NamedApiResourceList<LocationArea>
+    fun getLocationAreaList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPalParkAreaList(offset: Int, limit: Int): NamedApiResourceList<PalParkArea>
+    fun getPalParkAreaList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getRegionList(offset: Int, limit: Int): NamedApiResourceList<Region>
+    fun getRegionList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 
     // region Pokemon
 
-    fun getAbilityList(offset: Int, limit: Int): NamedApiResourceList<Ability>
+    fun getAbilityList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getCharacteristicList(offset: Int, limit: Int): ApiResourceList<Characteristic>
+    fun getCharacteristicList(offset: Int, limit: Int): ApiResourceList
 
-    fun getEggGroupList(offset: Int, limit: Int): NamedApiResourceList<EggGroup>
+    fun getEggGroupList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getGenderList(offset: Int, limit: Int): NamedApiResourceList<Gender>
+    fun getGenderList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getGrowthRateList(offset: Int, limit: Int): NamedApiResourceList<GrowthRate>
+    fun getGrowthRateList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getNatureList(offset: Int, limit: Int): NamedApiResourceList<Nature>
+    fun getNatureList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokeathlonList(offset: Int, limit: Int): NamedApiResourceList<PokeathlonStat>
+    fun getPokeathlonList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokemonList(offset: Int, limit: Int): NamedApiResourceList<Pokemon>
+    fun getPokemonList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokemonColorList(offset: Int, limit: Int): NamedApiResourceList<PokemonColor>
+    fun getPokemonColorList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokemonFormList(offset: Int, limit: Int): NamedApiResourceList<PokemonForm>
+    fun getPokemonFormList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokemonHabitatList(offset: Int, limit: Int): NamedApiResourceList<PokemonHabitat>
+    fun getPokemonHabitatList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokemonShapeList(offset: Int, limit: Int): NamedApiResourceList<PokemonShape>
+    fun getPokemonShapeList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokemonSpeciesList(offset: Int, limit: Int): NamedApiResourceList<PokemonSpecies>
+    fun getPokemonSpeciesList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getStatList(offset: Int, limit: Int): NamedApiResourceList<Stat>
+    fun getStatList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getTypeList(offset: Int, limit: Int): NamedApiResourceList<Type>
+    fun getTypeList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 
     // region Utility
 
-    fun getLanguageList(offset: Int, limit: Int): NamedApiResourceList<Language>
+    fun getLanguageList(offset: Int, limit: Int): NamedApiResourceList
 
     // endregion
 

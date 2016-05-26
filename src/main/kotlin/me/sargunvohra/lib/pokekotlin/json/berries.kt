@@ -15,22 +15,22 @@ data class Berry(
         val smoothness: Int,
         @Json(name = "soil_dryness")
         val soilDryness: Int,
-        val firmness: NamedApiResource<BerryFirmness>,
+        val firmness: NamedApiResource,
         val flavors: List<BerryFlavorMap>,
-        val item: NamedApiResource<Item>,
+        val item: NamedApiResource,
         @Json(name = "natural_gift_type")
-        val naturalGiftType: NamedApiResource<Type>
+        val naturalGiftType: NamedApiResource
 )
 
 data class BerryFlavorMap(
         val potency: Int,
-        val flavor: NamedApiResource<BerryFlavor>
+        val flavor: NamedApiResource
 )
 
 data class BerryFirmness(
         val id: Int,
         val name: String,
-        val berries: List<NamedApiResource<Berry>>,
+        val berries: List<NamedApiResource>,
         val names: List<Name>
 )
 
@@ -39,11 +39,11 @@ data class BerryFlavor(
         val name: String,
         val berries: List<FlavorBerryMap>,
         @Json(name = "contest_type")
-        val contestType: NamedApiResource<ContestType>,
+        val contestType: NamedApiResource,
         val names: List<Name>
 )
 
 data class FlavorBerryMap(
         val potency: Int,
-        val berry: NamedApiResource<Berry>
+        val berry: NamedApiResource
 )
