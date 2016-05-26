@@ -143,9 +143,78 @@ class PokemonTest {
     }
 
     @Test
-    fun getPokemon() {
+    fun getPokemon1() {
         PokeApi.getPokemon(1).promise.get().apply {
-            // TODO
+            assertEquals(1, id)
+            assertEquals("bulbasaur", name)
+            assertEquals(64, baseExperience)
+            assertEquals(7, height)
+            assertEquals(true, isDefault)
+            assertEquals(1, order)
+            assertEquals(69, weight)
+            assertEquals(NamedApiResource("bulbasaur", PokeApi.rootUrl + "pokemon-species/1/"), species)
+            assert(PokemonAbility(
+                    slot = 1,
+                    isHidden = false,
+                    ability = NamedApiResource("overgrow", PokeApi.rootUrl + "ability/65/")
+            ) in abilities)
+            assert(NamedApiResource("bulbasaur", PokeApi.rootUrl + "pokemon-form/1/") in forms)
+            assert(VersionGameIndex(
+                    version = NamedApiResource("white-2", PokeApi.rootUrl + "version/22/"),
+                    gameIndex = 1
+            ) in gameIndices)
+            assertEquals(emptyList(), heldItems)
+            assertEquals(emptyList(), locationAreaEncounters)
+            assert(moves.find {
+                it.move == NamedApiResource<Move>("razor-wind", PokeApi.rootUrl + "move/13/") &&
+                        PokemonMoveVersion(
+                                levelLearnedAt = 0,
+                                versionGroup = NamedApiResource("gold-silver", PokeApi.rootUrl + "version-group/3/"),
+                                moveLearnMethod = NamedApiResource("egg", PokeApi.rootUrl + "move-learn-method/2/")
+                        ) in it.versionGroupDetails
+            } != null)
+            assert(PokemonStat(
+                    effort = 0,
+                    baseStat = 0,
+                    stat = NamedApiResource("hp", PokeApi.rootUrl + "stat/1/")
+            ) in stats)
+            assert(PokemonType(
+                    slot = 1,
+                    type = NamedApiResource("grass", PokeApi.rootUrl + "type/12/")
+            ) in types)
+        }
+    }
+
+    @Test
+    fun getPokemon2() {
+        PokeApi.getPokemon(12).promise.get().apply {
+            assert(heldItems.find {
+                it.item == NamedApiResource<Item>("silver-powder", PokeApi.rootUrl + "item/199/") &&
+                        PokemonHeldItemVersion(
+                                version = NamedApiResource("ruby", PokeApi.rootUrl + "version/7/"),
+                                rarity = 5
+                        ) in it.versionDetails
+            } != null)
+        }
+    }
+
+    @Test
+    fun getPokemon3() {
+        PokeApi.getPokemon(12).promise.get().apply {
+            assert(locationAreaEncounters.find {
+                it.locationArea == NamedApiResource<LocationArea>("kanto-route-2-south-towards-viridian-city", PokeApi.rootUrl + "location-area/296/") &&
+                        it.versionDetails.find {
+                            it.maxChance == 10
+                            it.version == NamedApiResource<Version>("heartgold", PokeApi.rootUrl + "version/15/")
+                            it.encounterDetails.find {
+                                it.minLevel == 8 &&
+                                        it.maxLevel == 8 &&
+                                        it.chance == 5 &&
+                                        it.method == NamedApiResource<EncounterMethod>("walk", PokeApi.rootUrl + "encounter-method/1/") &&
+                                        NamedApiResource("time-morning", PokeApi.rootUrl + "encounter-condition-value/3/") in it.conditionValues
+                            } != null
+                        } != null
+            } != null)
         }
     }
 
@@ -209,9 +278,65 @@ class PokemonTest {
     }
 
     @Test
-    fun getPokemonSpecies() {
+    fun getPokemonSpecies1() {
         PokeApi.getPokemonSpecies(1).promise.get().apply {
-            // TODO
+            assertEquals(1, id)
+            assertEquals("bulbasaur", name)
+            assertEquals(1, order)
+            assertEquals(1, genderRate)
+            assertEquals(45, captureRate)
+            assertEquals(70, baseHappiness)
+            assertEquals(false, isBaby)
+            assertEquals(20, hatchCounter)
+            assertEquals(false, hasGenderDifferences)
+            assertEquals(false, formsSwitchable)
+            assertEquals(NamedApiResource("medium-slow", PokeApi.rootUrl + "growth-rate/4/"), growthRate)
+            assert(PokemonSpeciesDexEntry(
+                    entryNumber = 80,
+                    pokedex = NamedApiResource("kalos-central", PokeApi.rootUrl + "pokedex/12/")
+            ) in pokedexNumbers)
+            assert(NamedApiResource("plant", PokeApi.rootUrl + "egg-group/7/") in eggGroups)
+            assertEquals(NamedApiResource("green", PokeApi.rootUrl + "pokemon-color/5/"), color)
+            assertEquals(NamedApiResource("quadruped", PokeApi.rootUrl + "pokemon-shape/8/"), shape)
+            assertEquals(null, evolvesFromSpecies)
+            assertEquals(ApiResource(PokeApi.rootUrl + "evolution-chain/1/"), evolutionChain)
+            assertEquals(NamedApiResource("grassland", PokeApi.rootUrl + "pokemon-habitat/3/"), habitat)
+            assertEquals(NamedApiResource("generation-i", PokeApi.rootUrl + "generation/1/"), generation)
+            assert(Name(
+                    name = "Bulbasaur",
+                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+            ) in names)
+            assert(PalParkEncounterArea(
+                    rate = 30,
+                    baseScore = 50,
+                    area = NamedApiResource("field", PokeApi.rootUrl + "pal-park-area/2/")
+            ) in palParkEncounters)
+            assertEquals(emptyList(), formDescriptions)
+            assert(Genus(
+                    genus = "Seed",
+                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+            ) in genera)
+            assert(PokemonSpeciesVariety(
+                    isDefault = true,
+                    pokemon = NamedApiResource("bulbasaur", PokeApi.rootUrl + "pokemon/1/")
+            ) in varieties)
+        }
+    }
+
+    @Test
+    fun getPokemonSpecies2() {
+        PokeApi.getPokemonSpecies(2).promise.get().apply {
+            assertEquals(NamedApiResource("bulbasaur", PokeApi.rootUrl + "pokemon-species/1/"), evolvesFromSpecies)
+        }
+    }
+
+    @Test
+    fun getPokemonSpecies3() {
+        PokeApi.getPokemonSpecies(351).promise.get().apply {
+            assert(Description(
+                    description = "Form changes along with type to match the weather in battle, due to forecast.  Castform is always in its normal form outside of battle, regardless of weather.",
+                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+            ) in formDescriptions)
         }
     }
 

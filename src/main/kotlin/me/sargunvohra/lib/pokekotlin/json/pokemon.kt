@@ -150,16 +150,17 @@ data class Pokemon(
         val isDefault: Boolean,
         val order: Int,
         val weight: Int,
+        val species: NamedApiResource<PokemonSpecies>,
         val abilities: List<PokemonAbility>,
         val forms: List<NamedApiResource<PokemonForm>>,
         @Json(name = "game_indices")
         val gameIndices: List<VersionGameIndex>,
         @Json(name = "held_items")
-        val heldItems: List<NamedApiResource<Item>>,
+        val heldItems: List<PokemonHeldItem>,
         @Json(name = "location_area_encounters")
         val locationAreaEncounters: List<LocationAreaEncounter>,
-        val moves: List<NamedApiResource<Move>>,
-        val stats: List<NamedApiResource<Stat>>,
+        val moves: List<PokemonMove>,
+        val stats: List<PokemonStat>,
         val types: List<PokemonType>
 )
 
@@ -170,6 +171,38 @@ data class PokemonAbility(
         val ability: NamedApiResource<Ability>
 )
 
+data class PokemonHeldItem(
+        val item: NamedApiResource<Item>,
+        @Json(name = "version_details")
+        val versionDetails: List<PokemonHeldItemVersion>
+)
+
+data class PokemonHeldItemVersion(
+        val version: NamedApiResource<Version>,
+        val rarity: Int
+)
+
+data class PokemonMove(
+        val move: NamedApiResource<Move>,
+        @Json(name = "version_group_details")
+        val versionGroupDetails: List<PokemonMoveVersion>
+)
+
+data class PokemonMoveVersion(
+        @Json(name = "move_learn_method")
+        val moveLearnMethod: NamedApiResource<MoveLearnMethod>,
+        @Json(name = "version_group")
+        val versionGroup: NamedApiResource<VersionGroup>,
+        @Json(name = "level_learned_at")
+        val levelLearnedAt: Int
+)
+
+data class PokemonStat(
+        val stat: NamedApiResource<Stat>,
+        val effort: Int,
+        val baseStat: Int
+)
+
 data class PokemonType(
         val slot: Int,
         val type: NamedApiResource<Type>
@@ -177,7 +210,7 @@ data class PokemonType(
 
 data class LocationAreaEncounter(
         @Json(name = "location_area")
-        val locationArea: ApiResource<LocationArea>,
+        val locationArea: NamedApiResource<LocationArea>,
         @Json(name = "version_details")
         val versionDetails: List<VersionEncounterDetail>
 )
@@ -260,7 +293,7 @@ data class PokemonSpecies(
         val color: NamedApiResource<PokemonColor>,
         val shape: NamedApiResource<PokemonShape>,
         @Json(name = "evolves_from_species")
-        val evolvesFromSpecies: NamedApiResource<PokemonSpecies>,
+        val evolvesFromSpecies: NamedApiResource<PokemonSpecies>?,
         @Json(name = "evolution_chain")
         val evolutionChain: ApiResource<EvolutionChain>,
         val habitat: NamedApiResource<PokemonHabitat>,
@@ -268,10 +301,10 @@ data class PokemonSpecies(
         val names: List<Name>,
         @Json(name = "pal_park_encounters")
         val palParkEncounters: List<PalParkEncounterArea>,
-        @Json(name = "form_description")
-        val formDescription: List<Description>,
+        @Json(name = "form_descriptions")
+        val formDescriptions: List<Description>,
         val genera: List<Genus>,
-        val varieties: List<NamedApiResource<Pokemon>>
+        val varieties: List<PokemonSpeciesVariety>
 )
 
 data class Genus(
@@ -282,7 +315,7 @@ data class Genus(
 data class PokemonSpeciesDexEntry(
         @Json(name = "entry_number")
         val entryNumber: Int,
-        val name: NamedApiResource<Pokedex>
+        val pokedex: NamedApiResource<Pokedex>
 )
 
 data class PalParkEncounterArea(
@@ -290,6 +323,12 @@ data class PalParkEncounterArea(
         val baseScore: Int,
         val rate: Int,
         val area: NamedApiResource<PalParkArea>
+)
+
+data class PokemonSpeciesVariety(
+        @Json(name = "is_default")
+        val isDefault: Boolean,
+        val pokemon: NamedApiResource<Pokemon>
 )
 
 data class Stat(
