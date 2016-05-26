@@ -8,7 +8,6 @@ val repos = repos()
 object Versions {
     val kotlin = "1.0.2"
     val retrofit = "2.0.2"
-    val kovenant = "3.2.2"
     val testng = "6.9.10"
 }
 
@@ -29,10 +28,7 @@ val p = project {
     }
 
     dependencies {
-        // kotlin
         compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
-
-        // retrofit
         compile("com.squareup.retrofit2:retrofit:${Versions.retrofit}")
         compile("com.squareup.retrofit2:converter-moshi:${Versions.retrofit}")
     }
