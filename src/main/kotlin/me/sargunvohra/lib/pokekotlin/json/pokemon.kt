@@ -315,20 +315,13 @@ data class MoveStatAffectSets(
 )
 
 data class MoveStatAffect(
-        @Json(name = "max_change")
-        val maxChange: Int,
+        val change: Int,
         val move: NamedApiResource<Move>
 )
 
 data class NatureStatAffectSets(
-        val increase: List<NatureStatAffect>,
-        val decrease: List<NatureStatAffect>
-)
-
-data class NatureStatAffect(
-        @Json(name = "max_change")
-        val maxChange: Int,
-        val nature: NamedApiResource<Nature>
+        val increase: List<NamedApiResource<Nature>>,
+        val decrease: List<NamedApiResource<Nature>>
 )
 
 data class Type(

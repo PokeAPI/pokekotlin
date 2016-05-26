@@ -145,7 +145,7 @@ class PokemonTest {
     @Test
     fun getPokemon() {
         PokeApi.getPokemon(1).promise.get().apply {
-
+            // TODO
         }
     }
 
@@ -165,7 +165,16 @@ class PokemonTest {
     @Test
     fun getPokemonForm() {
         PokeApi.getPokemonForm(1).promise.get().apply {
-
+            assertEquals(1, id)
+            assertEquals("bulbasaur", name)
+            assertEquals(1, order)
+            assertEquals(1, formOrder)
+            assertEquals(true, isDefault)
+            assertEquals(false, isBattleOnly)
+            assertEquals(false, isMega)
+            assertEquals("", formName)
+            assertEquals(NamedApiResource("bulbasaur", PokeApi.rootUrl + "pokemon/1/"), pokemon)
+            assertEquals(NamedApiResource("red-blue", PokeApi.rootUrl + "version-group/1/"), versionGroup)
         }
     }
 
@@ -202,21 +211,62 @@ class PokemonTest {
     @Test
     fun getPokemonSpecies() {
         PokeApi.getPokemonSpecies(1).promise.get().apply {
-
+            // TODO
         }
     }
 
     @Test
     fun getStat() {
-        PokeApi.getStat(1).promise.get().apply {
-
+        PokeApi.getStat(2).promise.get().apply {
+            assertEquals(2, id)
+            assertEquals("attack", name)
+            assertEquals(2, gameIndex)
+            assertEquals(false, isBattleOnly)
+            assert(MoveStatAffect(
+                    change = 2,
+                    move = NamedApiResource("swords-dance", PokeApi.rootUrl + "move/14/")
+            ) in affectingMoves.increase)
+            assert(MoveStatAffect(
+                    change = -1,
+                    move = NamedApiResource("growl", PokeApi.rootUrl + "move/45/")
+            ) in affectingMoves.decrease)
+            assert(NamedApiResource("lonely", PokeApi.rootUrl + "nature/6/") in affectingNatures.increase)
+            assert(NamedApiResource("bold", PokeApi.rootUrl + "nature/2/") in affectingNatures.decrease)
+            assertEquals(NamedApiResource("physical", PokeApi.rootUrl + "move-damage-class/2/"), moveDamageClass)
+            assert(Name(
+                    name = "Attack",
+                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+            ) in names)
         }
     }
 
     @Test
     fun getType() {
-        PokeApi.getType(1).promise.get().apply {
-
+        PokeApi.getType(8).promise.get().apply {
+            assertEquals(8, id)
+            assertEquals("ghost", name)
+            damageRelations.apply {
+                assert(NamedApiResource("poison", PokeApi.rootUrl + "type/4/") in halfDamageFrom)
+                assert(NamedApiResource("normal", PokeApi.rootUrl + "type/1/") in noDamageFrom)
+                assert(NamedApiResource("dark", PokeApi.rootUrl + "type/17/") in halfDamageTo)
+                assert(NamedApiResource("ghost", PokeApi.rootUrl + "type/8/") in doubleDamageFrom)
+                assert(NamedApiResource("normal", PokeApi.rootUrl + "type/1/") in noDamageTo)
+                assert(NamedApiResource("psychic", PokeApi.rootUrl + "type/14/") in doubleDamageTo)
+            }
+            assert(GenerationGameIndex(
+                    gameIndex = 7,
+                    generation = NamedApiResource("generation-vi", PokeApi.rootUrl + "generation/6/")
+            ) in gameIndices)
+            assertEquals(NamedApiResource("physical", PokeApi.rootUrl + "move-damage-class/2/"), moveDamageClass)
+            assert(Name(
+                    name = "Ghost",
+                    language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
+            ) in names)
+            assert(TypePokemon(
+                    slot = 1,
+                    pokemon = NamedApiResource("litwick", PokeApi.rootUrl + "pokemon/607/")
+            ) in pokemon)
+            assert(NamedApiResource("hex", PokeApi.rootUrl + "move/506/") in moves)
         }
     }
 }
