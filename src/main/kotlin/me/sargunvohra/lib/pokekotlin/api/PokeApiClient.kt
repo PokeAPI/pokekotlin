@@ -7,7 +7,6 @@ import java.util.concurrent.TimeUnit
 
 open class PokeApiClient(
         val rootUrl: String = "http://pokeapi.co/api/v2/",
-//        val rootUrl: String = "http://localhost:8000/api/v2/",
         val httpClient: OkHttpClient = OkHttpClient.Builder()
                 .retryOnConnectionFailure(false)
                 .connectTimeout(20, TimeUnit.SECONDS)
