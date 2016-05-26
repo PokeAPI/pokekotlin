@@ -11,7 +11,7 @@ Model classes: 100%
 
 API interface: 100%
 
-Testing: about 75%
+Testing: about 95%
 
 ## Example
 
