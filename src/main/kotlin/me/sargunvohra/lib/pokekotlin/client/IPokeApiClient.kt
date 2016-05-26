@@ -1,6 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.client
 
 import me.sargunvohra.lib.pokekotlin.json.*
+
 interface IPokeApiClient {
 
     // region Resource Lists

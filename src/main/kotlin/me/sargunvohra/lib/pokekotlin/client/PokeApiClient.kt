@@ -564,4 +564,3 @@ class PokeApiClient(
     // endregion Utility
 }
 
-class ErrorResponse(val body: ResponseBody): Throwable()
