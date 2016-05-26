@@ -1,17 +1,20 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.api.*
-import me.sargunvohra.lib.pokekotlin.json.*
-import org.testng.annotations.*
-import retrofit2.Call
-import kotlin.test.*
+import me.sargunvohra.lib.pokekotlin.PokeApi
+import me.sargunvohra.lib.pokekotlin.json.ApiResource
+import me.sargunvohra.lib.pokekotlin.json.ApiResourceList
+import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.json.NamedApiResourceList
+import org.testng.annotations.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertNotEquals
 
 class ResourceListTest {
 
     final val pageSize = 50
 
-    fun <T> test(path: String, name: String, call: () -> Call<NamedApiResourceList<T>>) {
-        call().promise.get().apply {
+    fun <T> test(path: String, name: String, call: () -> NamedApiResourceList<T>) {
+        call().apply {
             assert(results.count() <= pageSize)
             if (pageSize >= count) {
                 assertEquals(count, results.count())
@@ -31,8 +34,8 @@ class ResourceListTest {
         }
     }
 
-    fun <T> test(path: String, call: () -> Call<ApiResourceList<T>>) {
-        call().promise.get().apply {
+    fun <T> test(path: String, call: () -> ApiResourceList<T>) {
+        call().apply {
             assert(results.count() <= pageSize)
             if (pageSize >= count) {
                 assertEquals(count, results.count())

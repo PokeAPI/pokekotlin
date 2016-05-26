@@ -1,16 +1,16 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.api.PokeApi
-import me.sargunvohra.lib.pokekotlin.api.promise
-import me.sargunvohra.lib.pokekotlin.json.*
+import me.sargunvohra.lib.pokekotlin.PokeApi
+import me.sargunvohra.lib.pokekotlin.json.Name
+import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
 import org.testng.annotations.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
 
 class EncounterTest {
 
     @Test
     fun getEncounterMethod() {
-        PokeApi.getEncounterMethod(5).promise.get().apply {
+        PokeApi.getEncounterMethod(5).apply {
             assertEquals(5, id)
             assertEquals("surf", name)
             assertEquals(14, order)
@@ -26,7 +26,7 @@ class EncounterTest {
 
     @Test
     fun getEncounterCondition() {
-        PokeApi.getEncounterCondition(5).promise.get().apply {
+        PokeApi.getEncounterCondition(5).apply {
             assertEquals(5, id)
             assertEquals("radio", name)
             assert(NamedApiResource(
@@ -45,7 +45,7 @@ class EncounterTest {
 
     @Test
     fun getEncounterConditionValue() {
-        PokeApi.getEncounterConditionValue(5).promise.get().apply {
+        PokeApi.getEncounterConditionValue(5).apply {
             assertEquals(5, id)
             assertEquals("time-night", name)
             condition.apply {

@@ -1,4 +1,4 @@
-package me.sargunvohra.lib.pokekotlin.api
+package me.sargunvohra.lib.pokekotlin.retrofit
 
 import me.sargunvohra.lib.pokekotlin.json.*
 import retrofit2.Call
@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-interface IPokeApi {
+interface IPokeApiRetrofit {
 
     // region Resource Lists
 

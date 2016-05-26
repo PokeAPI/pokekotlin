@@ -1,7 +1,6 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.api.PokeApi
-import me.sargunvohra.lib.pokekotlin.api.promise
+import me.sargunvohra.lib.pokekotlin.PokeApi
 import me.sargunvohra.lib.pokekotlin.json.*
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
@@ -10,7 +9,7 @@ class PokemonTest {
 
     @Test
     fun getAbility() {
-        PokeApi.getAbility(1).promise.get().apply {
+        PokeApi.getAbility(1).apply {
             assertEquals(1, id)
             assertEquals("stench", name)
             assertEquals(true, isMainSeries)
@@ -41,7 +40,7 @@ class PokemonTest {
 
     @Test
     fun getCharacteristic() {
-        PokeApi.getCharacteristic(1).promise.get().apply {
+        PokeApi.getCharacteristic(1).apply {
             assertEquals(1, id)
             assertEquals(0, geneModulo)
             assertEquals((0..6).map { it * 5 }.toList(), possibleValues)
@@ -54,7 +53,7 @@ class PokemonTest {
 
     @Test
     fun getEggGroup() {
-        PokeApi.getEggGroup(1).promise.get().apply {
+        PokeApi.getEggGroup(1).apply {
             assertEquals(1, id)
             assertEquals("monster", name)
             assert(Name(
@@ -68,7 +67,7 @@ class PokemonTest {
 
     @Test
     fun getGender() {
-        PokeApi.getGender(1).promise.get().apply {
+        PokeApi.getGender(1).apply {
             assertEquals(1, id)
             assertEquals("female", name)
             assert(PokemonSpeciesGender(
@@ -81,7 +80,7 @@ class PokemonTest {
 
     @Test
     fun getGrowthRate() {
-        PokeApi.getGrowthRate(1).promise.get().apply {
+        PokeApi.getGrowthRate(1).apply {
             assertEquals(1, id)
             assertEquals("slow", name)
             assertEquals("\\frac{5x^3}{4}", formula)
@@ -99,7 +98,7 @@ class PokemonTest {
 
     @Test
     fun getNature() {
-        PokeApi.getNature(10).promise.get().apply {
+        PokeApi.getNature(10).apply {
             assertEquals(10, id)
             assertEquals("hasty", name)
             assertEquals(NamedApiResource("speed", PokeApi.rootUrl + "stat/6/"), increasedStat)
@@ -124,7 +123,7 @@ class PokemonTest {
 
     @Test
     fun getPokeathlonStat() {
-        PokeApi.getPokeathlonStat(1).promise.get().apply {
+        PokeApi.getPokeathlonStat(1).apply {
             assertEquals(1, id)
             assertEquals("speed", name)
             assert(Name(
@@ -144,7 +143,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon1() {
-        PokeApi.getPokemon(1).promise.get().apply {
+        PokeApi.getPokemon(1).apply {
             assertEquals(1, id)
             assertEquals("bulbasaur", name)
             assertEquals(64, baseExperience)
@@ -187,7 +186,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon2() {
-        PokeApi.getPokemon(12).promise.get().apply {
+        PokeApi.getPokemon(12).apply {
             assert(heldItems.find {
                 it.item == NamedApiResource<Item>("silver-powder", PokeApi.rootUrl + "item/199/") &&
                         PokemonHeldItemVersion(
@@ -200,7 +199,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon3() {
-        PokeApi.getPokemon(12).promise.get().apply {
+        PokeApi.getPokemon(12).apply {
             assert(locationAreaEncounters.find {
                 it.locationArea == NamedApiResource<LocationArea>("kanto-route-2-south-towards-viridian-city", PokeApi.rootUrl + "location-area/296/") &&
                         it.versionDetails.find {
@@ -220,7 +219,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonColor() {
-        PokeApi.getPokemonColor(1).promise.get().apply {
+        PokeApi.getPokemonColor(1).apply {
             assertEquals(1, id)
             assertEquals("black", name)
             assert(Name(
@@ -233,7 +232,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonForm() {
-        PokeApi.getPokemonForm(1).promise.get().apply {
+        PokeApi.getPokemonForm(1).apply {
             assertEquals(1, id)
             assertEquals("bulbasaur", name)
             assertEquals(1, order)
@@ -249,7 +248,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonHabitat() {
-        PokeApi.getPokemonHabitat(1).promise.get().apply {
+        PokeApi.getPokemonHabitat(1).apply {
             assertEquals(1, id)
             assertEquals("cave", name)
             assert(Name(
@@ -262,7 +261,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonShape() {
-        PokeApi.getPokemonShape(1).promise.get().apply {
+        PokeApi.getPokemonShape(1).apply {
             assertEquals(1, id)
             assertEquals("ball", name)
             assert(Name(
@@ -279,7 +278,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonSpecies1() {
-        PokeApi.getPokemonSpecies(1).promise.get().apply {
+        PokeApi.getPokemonSpecies(1).apply {
             assertEquals(1, id)
             assertEquals("bulbasaur", name)
             assertEquals(1, order)
@@ -325,14 +324,14 @@ class PokemonTest {
 
     @Test
     fun getPokemonSpecies2() {
-        PokeApi.getPokemonSpecies(2).promise.get().apply {
+        PokeApi.getPokemonSpecies(2).apply {
             assertEquals(NamedApiResource("bulbasaur", PokeApi.rootUrl + "pokemon-species/1/"), evolvesFromSpecies)
         }
     }
 
     @Test
     fun getPokemonSpecies3() {
-        PokeApi.getPokemonSpecies(351).promise.get().apply {
+        PokeApi.getPokemonSpecies(351).apply {
             assert(Description(
                     description = "Form changes along with type to match the weather in battle, due to forecast.  Castform is always in its normal form outside of battle, regardless of weather.",
                     language = NamedApiResource("en", PokeApi.rootUrl + "language/9/")
@@ -342,7 +341,7 @@ class PokemonTest {
 
     @Test
     fun getStat() {
-        PokeApi.getStat(2).promise.get().apply {
+        PokeApi.getStat(2).apply {
             assertEquals(2, id)
             assertEquals("attack", name)
             assertEquals(2, gameIndex)
@@ -367,7 +366,7 @@ class PokemonTest {
 
     @Test
     fun getType() {
-        PokeApi.getType(8).promise.get().apply {
+        PokeApi.getType(8).apply {
             assertEquals(8, id)
             assertEquals("ghost", name)
             damageRelations.apply {

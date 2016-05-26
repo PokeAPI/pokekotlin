@@ -35,9 +35,6 @@ val p = project {
         // retrofit
         compile("com.squareup.retrofit2:retrofit:${Versions.retrofit}")
         compile("com.squareup.retrofit2:converter-moshi:${Versions.retrofit}")
-
-        // kovenant
-        compile("nl.komponents.kovenant:kovenant:${Versions.kovenant}")
     }
 
     dependenciesTest {

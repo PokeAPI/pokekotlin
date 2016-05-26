@@ -1,8 +1,10 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.api.PokeApi
-import me.sargunvohra.lib.pokekotlin.api.promise
-import me.sargunvohra.lib.pokekotlin.json.*
+import me.sargunvohra.lib.pokekotlin.PokeApi
+import me.sargunvohra.lib.pokekotlin.json.Description
+import me.sargunvohra.lib.pokekotlin.json.Name
+import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.json.PokemonEntry
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
@@ -10,7 +12,7 @@ class GameTest {
 
     @Test
     fun getGeneration() {
-        PokeApi.getGeneration(6).promise.get().apply {
+        PokeApi.getGeneration(6).apply {
             assertEquals(6, id)
             assertEquals("generation-vi", name)
             assert(NamedApiResource("primordial-sea", PokeApi.rootUrl + "ability/189/") in abilities)
@@ -28,7 +30,7 @@ class GameTest {
 
     @Test
     fun getPokedex() {
-        PokeApi.getPokedex(12).promise.get().apply {
+        PokeApi.getPokedex(12).apply {
             assertEquals(12, id)
             assertEquals("kalos-central", name)
             assertEquals(true, isMainSeries)
@@ -51,7 +53,7 @@ class GameTest {
 
     @Test
     fun getVersion() {
-        PokeApi.getVersion(9).promise.get().apply {
+        PokeApi.getVersion(9).apply {
             assertEquals(9, id)
             assertEquals("emerald", name)
             assert(Name(
@@ -64,7 +66,7 @@ class GameTest {
 
     @Test
     fun getVersionGroup() {
-        PokeApi.getVersionGroup(1).promise.get().apply {
+        PokeApi.getVersionGroup(1).apply {
             assertEquals(1, id)
             assertEquals("red-blue", name)
             assertEquals(1, order)

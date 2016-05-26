@@ -1,7 +1,6 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.api.PokeApi
-import me.sargunvohra.lib.pokekotlin.api.promise
+import me.sargunvohra.lib.pokekotlin.PokeApi
 import me.sargunvohra.lib.pokekotlin.json.*
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
@@ -11,7 +10,7 @@ class ItemTest {
 
     @Test
     fun getItem1() {
-        PokeApi.getItem(20).promise.get().apply {
+        PokeApi.getItem(20).apply {
             assertEquals(20, id)
             assertEquals("ice-heal", name)
             assertEquals(250, cost)
@@ -45,7 +44,7 @@ class ItemTest {
 
     @Test
     fun getItem2() {
-        PokeApi.getItem(33).promise.get().apply {
+        PokeApi.getItem(33).apply {
             assertNotEquals(null, heldByPokemon.find {
                 it.pokemon == NamedApiResource<Pokemon>("miltank", PokeApi.rootUrl + "pokemon/241/") &&
                         it.versionDetails.contains(ItemHolderPokemonVersionDetail(
@@ -58,21 +57,21 @@ class ItemTest {
 
     @Test
     fun getItem3() {
-        PokeApi.getItem(249).promise.get().apply {
+        PokeApi.getItem(249).apply {
             assertEquals(NamedApiResource("badly-poison", PokeApi.rootUrl + "item-fling-effect/1/"), flingEffect)
         }
     }
 
     @Test
     fun getItem4() {
-        PokeApi.getItem(231).promise.get().apply {
+        PokeApi.getItem(231).apply {
             assertEquals(ApiResource(PokeApi.rootUrl + "evolution-chain/90/"), babyTriggerFor)
         }
     }
 
     @Test
     fun getItemAttribute() {
-        PokeApi.getItemAttribute(3).promise.get().apply {
+        PokeApi.getItemAttribute(3).apply {
             assertEquals(3, id)
             assertEquals("usable-overworld", name)
             assert(Description(
@@ -89,7 +88,7 @@ class ItemTest {
 
     @Test
     fun getItemCategory() {
-        PokeApi.getItemCategory(34).promise.get().apply {
+        PokeApi.getItemCategory(34).apply {
             assertEquals(34, id)
             assertEquals("standard-balls", name)
             assertEquals(NamedApiResource("pokeballs", PokeApi.rootUrl + "item-pocket/3/"), pocket)
@@ -103,7 +102,7 @@ class ItemTest {
 
     @Test
     fun getItemFlingEffect() {
-        PokeApi.getItemFlingEffect(1).promise.get().apply {
+        PokeApi.getItemFlingEffect(1).apply {
             assertEquals(1, id)
             assertEquals("badly-poison", name)
             assert(Effect(
@@ -116,7 +115,7 @@ class ItemTest {
 
     @Test
     fun getItemPocket() {
-        PokeApi.getItemPocket(4).promise.get().apply {
+        PokeApi.getItemPocket(4).apply {
             assertEquals(4, id)
             assertEquals("machines", name)
             assert(NamedApiResource("all-machines", PokeApi.rootUrl + "item-category/37/") in categories)
