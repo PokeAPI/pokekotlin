@@ -7,7 +7,7 @@ data class Item(
         val name: String,
         val cost: Int,
         @Json(name = "fling_power")
-        val flingPower: Int,
+        val flingPower: Int?,
         @Json(name = "fling_effect")
         val flingEffect: NamedApiResource?,
         val attributes: List<NamedApiResource>,

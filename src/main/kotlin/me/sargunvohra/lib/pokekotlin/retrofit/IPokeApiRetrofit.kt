@@ -156,7 +156,7 @@ interface IPokeApiRetrofit {
     fun getNatureList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList>
 
     @GET("pokeathlon-stat/")
-    fun getPokeathlonList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList>
+    fun getPokeathlonStatList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList>
 
     @GET("pokemon/")
     fun getPokemonList(@Query("offset") offset: Int, @Query("limit") limit: Int): Call<NamedApiResourceList>

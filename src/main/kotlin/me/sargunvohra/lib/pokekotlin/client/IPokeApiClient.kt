@@ -114,7 +114,7 @@ interface IPokeApiClient {
 
     fun getNatureList(offset: Int, limit: Int): NamedApiResourceList
 
-    fun getPokeathlonList(offset: Int, limit: Int): NamedApiResourceList
+    fun getPokeathlonStatList(offset: Int, limit: Int): NamedApiResourceList
 
     fun getPokemonList(offset: Int, limit: Int): NamedApiResourceList
 

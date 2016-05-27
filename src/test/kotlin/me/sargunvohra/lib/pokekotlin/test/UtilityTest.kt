@@ -15,7 +15,6 @@ class UtilityTest {
             assertEquals("us", iso3166)
             assertEquals("en", iso639)
             assertEquals("en", name)
-            println(names)
             assert(Name(
                     name = "English",
                     language = NamedApiResource("en", "language", 9)

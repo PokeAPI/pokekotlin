@@ -229,8 +229,8 @@ class PokeApiClient(
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 
-    override fun getPokeathlonList(offset: Int, limit: Int): NamedApiResourceList {
-        val response = retrofitClient.getPokeathlonList(offset, limit).execute()
+    override fun getPokeathlonStatList(offset: Int, limit: Int): NamedApiResourceList {
+        val response = retrofitClient.getPokeathlonStatList(offset, limit).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
 

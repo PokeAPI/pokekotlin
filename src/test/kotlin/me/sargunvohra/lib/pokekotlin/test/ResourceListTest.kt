@@ -314,9 +314,9 @@ class ResourceListTest {
     }
 
     @Test
-    fun getPokeathlonList() {
+    fun getPokeathlonStatList() {
         test("pokeathlon-stat", 5, "jump") {
-            PokeApi.getPokeathlonList(0, pageSize)
+            PokeApi.getPokeathlonStatList(0, pageSize)
         }
     }
 
