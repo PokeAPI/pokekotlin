@@ -423,6 +423,7 @@ class PokeApiClient(
         if (id < 0) {
             val newId = getMoveAilmentList(0, getMoveAilmentList(0, 0).count).results.find { it.id == id }?.name
             if (newId != null) {
+                @Suppress("DEPRECATION")
                 val response = retrofitClient.getMoveAilment(newId).execute()
                 if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
             }

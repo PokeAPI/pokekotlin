@@ -286,6 +286,7 @@ interface IPokeApiRetrofit {
     fun getMoveAilment(@Path("id") id: Int): Call<MoveAilment>
 
     // TODO workaround for issue #11
+    @Deprecated(message = "WILL BE REMOVED SOON!")
     @GET("move-ailment/{id}/")
     fun getMoveAilment(@Path("id") id: String): Call<MoveAilment>
     // end workaround
