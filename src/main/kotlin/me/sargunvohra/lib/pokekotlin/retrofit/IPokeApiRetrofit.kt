@@ -285,6 +285,11 @@ interface IPokeApiRetrofit {
     @GET("move-ailment/{id}/")
     fun getMoveAilment(@Path("id") id: Int): Call<MoveAilment>
 
+    // TODO workaround for issue #11
+    @GET("move-ailment/{id}/")
+    fun getMoveAilment(@Path("id") id: String): Call<MoveAilment>
+    // end workaround
+
     @GET("move-battle-style/{id}/")
     fun getMoveBattleStyle(@Path("id") id: Int): Call<MoveBattleStyle>
 

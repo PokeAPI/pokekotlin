@@ -419,6 +419,15 @@ class PokeApiClient(
     }
 
     override fun getMoveAilment(id: Int): MoveAilment {
+        // TODO workaround for issue #11
+        if (id < 0) {
+            val newId = getMoveAilmentList(0, getMoveAilmentList(0, 0).count).results.find { it.id == id }?.name
+            if (newId != null) {
+                val response = retrofitClient.getMoveAilment(newId).execute()
+                if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
+            }
+        }
+        // end workaround
         val response = retrofitClient.getMoveAilment(id).execute()
         if (response.isSuccessful) return response.body() else throw ErrorResponse(response.errorBody())
     }
