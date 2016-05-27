@@ -1,5 +1,3 @@
 package me.sargunvohra.lib.pokekotlin.client
 
-import okhttp3.ResponseBody
-
-class ErrorResponse(val body: ResponseBody): Throwable()
+class ErrorResponse(val code: Int, message: String): Throwable("($code) $message")

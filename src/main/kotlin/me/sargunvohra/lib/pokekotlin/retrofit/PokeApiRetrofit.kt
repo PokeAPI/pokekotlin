@@ -12,9 +12,9 @@ class PokeApiRetrofit(
         val rootUrl: String = "http://pokeapi.co/api/v2/",
         val httpClient: OkHttpClient = OkHttpClient.Builder()
                 .retryOnConnectionFailure(false)
-                .connectTimeout(20, TimeUnit.SECONDS)
-                .readTimeout(20, TimeUnit.SECONDS)
-                .writeTimeout(20, TimeUnit.SECONDS)
+                .connectTimeout(60, TimeUnit.SECONDS)
+                .readTimeout(60, TimeUnit.SECONDS)
+                .writeTimeout(60, TimeUnit.SECONDS)
                 .build()
 ) : IPokeApiRetrofit by Retrofit.Builder()
         .baseUrl(rootUrl)
