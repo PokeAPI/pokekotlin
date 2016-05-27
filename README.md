@@ -3,15 +3,7 @@
 
 # PokeKotlin
 
-Kotlin wrapper for [PokeApi](https://github.com/phalt/pokeapi). Currently under development.
-
-## Status
-
-Model classes: 100%
-
-API interface: 100%
-
-Testing: about 95%
+This is a Kotlin client for [PokeApi](https://github.com/phalt/pokeapi). It's also usable under Java.
 
 ## Example
 
