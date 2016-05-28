@@ -4,6 +4,7 @@ import me.sargunvohra.lib.pokekotlin.PokeApi
 import me.sargunvohra.lib.pokekotlin.json.ApiResourceList
 import me.sargunvohra.lib.pokekotlin.json.NamedApiResourceList
 import org.testng.annotations.Test
+import kotlin.reflect.memberProperties
 import kotlin.test.fail
 
 class BulkTest {
@@ -12,30 +13,54 @@ class BulkTest {
         private const val enabled = false
     }
 
-    fun runTest(cat: String, ids: List<Int>, getObject: (Int) -> Any) {
+    private fun checkNulls(obj: Any) {
+        if (obj is Collection<*>) {
+            obj.forEach { checkNulls(it!!) }
+            return
+        }
+
+        val cls = obj.javaClass.kotlin
+        if (cls.javaPrimitiveType != null || cls == String::class) {
+            return
+        }
+
+        cls.memberProperties.forEach {
+            val o = it.get(obj)
+            if (o == null) {
+                assert(it.returnType.isMarkedNullable)
+            } else {
+                checkNulls(o)
+            }
+        }
+    }
+
+    private fun runTest(cat: String, ids: List<Int>, getObject: (Int) -> Any) {
         var pass = true
         val count = ids.size
         println("$cat: $count total")
         ids.forEachIndexed { i, id ->
             print(" ${i+1}/$count ... ")
             try {
-                getObject(id)
-                println("OK")
+                val o = getObject(id)
+                print("deserialized ... ")
+                checkNulls(o)
+                print("checked!")
+                println()
             } catch (e: Throwable) {
-                println("${e.javaClass.simpleName}: ${e.message}")
+                println("ERROR: ${e.javaClass.simpleName}: ${e.message}")
                 pass = false
             }
         }
         if (!pass) fail()
     }
 
-    fun runTest1(getList: (Int, Int) -> NamedApiResourceList, getObject: (Int) -> Any) {
+    private fun runTest1(getList: (Int, Int) -> NamedApiResourceList, getObject: (Int) -> Any) {
         val count = getList(0, 0).count
         val list = getList(0, count).results
         runTest(list[0].category, list.map { it.id }, getObject)
     }
 
-    fun runTest2(getList: (Int, Int) -> ApiResourceList, getObject: (Int) -> Any) {
+    private fun runTest2(getList: (Int, Int) -> ApiResourceList, getObject: (Int) -> Any) {
         val list = getList(0, getList(0, 0).count).results
         runTest(list[0].category, list.map { it.id }, getObject)
     }
