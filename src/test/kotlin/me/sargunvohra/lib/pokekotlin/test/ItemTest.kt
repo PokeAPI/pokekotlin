@@ -39,6 +39,7 @@ class ItemTest {
             assertEquals(emptyList(), heldByPokemon)
             assertEquals(null, flingEffect)
             assertEquals(null, babyTriggerFor)
+            assert(sprites.default.endsWith("/media/sprites/items/ice-heal.png"))
         }
     }
 

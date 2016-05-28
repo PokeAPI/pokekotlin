@@ -23,7 +23,7 @@ data class Item(
         val heldByPokemon: List<ItemHolderPokemon>,
         @Json(name = "baby_trigger_for")
         val babyTriggerFor: ApiResource?,
-        val sprites: ItemSprites // TODO test
+        val sprites: ItemSprites
 )
 
 data class ItemSprites(

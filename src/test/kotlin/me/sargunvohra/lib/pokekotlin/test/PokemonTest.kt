@@ -218,6 +218,22 @@ class PokemonTest {
     }
 
     @Test
+    fun getPokemon4() {
+        PokeApi.getPokemon(399).apply {
+            sprites.apply {
+                assert(backFemale!!.endsWith("/media/sprites/pokemon/back/female/399.png"))
+                assert(backShinyFemale!!.endsWith("/media/sprites/pokemon/back/shiny/female/399.png"))
+                assert(backDefault.endsWith("/media/sprites/pokemon/back/399.png"))
+                assert(frontFemale!!.endsWith("/media/sprites/pokemon/female/399.png"))
+                assert(frontShinyFemale!!.endsWith("/media/sprites/pokemon/shiny/female/399.png"))
+                assert(backShiny.endsWith("/media/sprites/pokemon/back/shiny/399.png"))
+                assert(frontDefault.endsWith("/media/sprites/pokemon/399.png"))
+                assert(frontShiny.endsWith("/media/sprites/pokemon/shiny/399.png"))
+            }
+        }
+    }
+
+    @Test
     fun getPokemonColor() {
         PokeApi.getPokemonColor(1).apply {
             assertEquals(1, id)
@@ -243,6 +259,12 @@ class PokemonTest {
             assertEquals("", formName)
             assertEquals(NamedApiResource("bulbasaur", "pokemon", 1), pokemon)
             assertEquals(NamedApiResource("red-blue", "version-group", 1), versionGroup)
+            sprites.apply {
+                assert(frontDefault.endsWith("/media/sprites/pokemon/1.png"))
+                assert(backDefault.endsWith("/media/sprites/pokemon/back/1.png"))
+                assert(frontShiny.endsWith("/media/sprites/pokemon/shiny/1.png"))
+                assert(backShiny.endsWith("/media/sprites/pokemon/back/shiny/1.png"))
+            }
         }
     }
 
