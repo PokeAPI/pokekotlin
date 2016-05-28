@@ -222,7 +222,7 @@ class PokeApiClient(
     override fun getMove(id: Int) = retrofitClient.getMove(id).result()
 
     override fun getMoveAilment(id: Int): MoveAilment {
-        // TODO workaround for issue #11
+        // workaround for issue #11
         if (id < 0) {
             val newId = getMoveAilmentList(0, getMoveAilmentList(0, 0).count).results.find { it.id == id }?.name
             if (newId != null) {

@@ -39,7 +39,7 @@ data class EvolutionDetail(
         @Json(name = "min_affection")
         val minAffection: Int? = null,
         @Json(name = "party_species")
-        val partySpecies: NamedApiResource? = null, // TODO
+        val partySpecies: NamedApiResource? = null,
         @Json(name = "party_type")
         val partyType: NamedApiResource? = null,
         @Json(name = "relative_physical_stats")
@@ -47,7 +47,7 @@ data class EvolutionDetail(
         @Json(name = "time_of_day")
         val timeOfDay: String = "",
         @Json(name = "trade_species")
-        val tradeSpecies: NamedApiResource? = null, // TODO
+        val tradeSpecies: NamedApiResource? = null,
         @Json(name = "needs_overworld_rain")
         val needsOverworldRain: Boolean = false,
         @Json(name = "turn_upside_down")

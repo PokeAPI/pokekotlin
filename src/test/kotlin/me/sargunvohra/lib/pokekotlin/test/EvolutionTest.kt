@@ -193,6 +193,30 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain14() {
+        PokeApi.getEvolutionChain(352).apply {
+            assertNotNull(chain.evolvesTo.find {
+                it.evolutionDetails.contains(EvolutionDetail(
+                        trigger = NamedApiResource("level-up", "evolution-trigger", 1),
+                        partySpecies = NamedApiResource("remoraid", "pokemon-species", 223)
+                ))
+            })
+        }
+    }
+
+    @Test
+    fun getEvolutionChain15() {
+        PokeApi.getEvolutionChain(312).apply {
+            assertNotNull(chain.evolvesTo.find {
+                it.evolutionDetails.contains(EvolutionDetail(
+                        trigger = NamedApiResource("trade", "evolution-trigger", 2),
+                        tradeSpecies= NamedApiResource("karrablast", "pokemon-species", 588)
+                ))
+            })
+        }
+    }
+
+    @Test
+    fun getEvolutionChain16() {
         PokeApi.getEvolutionChain(72).apply {
             assertEquals(NamedApiResource("full-incense", "item", 293), babyTriggerItem)
             assertEquals(true, chain.isBaby)
