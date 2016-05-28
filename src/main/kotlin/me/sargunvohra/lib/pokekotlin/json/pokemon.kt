@@ -161,7 +161,28 @@ data class Pokemon(
         val locationAreaEncounters: List<LocationAreaEncounter>,
         val moves: List<PokemonMove>,
         val stats: List<PokemonStat>,
-        val types: List<PokemonType>
+        val types: List<PokemonType>,
+        val sprites: PokemonSprites // TODO test
+)
+
+data class PokemonSprites(
+        @Json(name = "back_default")
+        val backDefault: String,
+        @Json(name = "back_shiny")
+        val backShiny: String,
+        @Json(name = "front_default")
+        val frontDefault: String,
+        @Json(name = "front_shiny")
+        val frontShiny: String,
+        @Json(name = "back_default_female")
+        val backDefaultFemale: String?,
+        @Json(name = "back_shiny_female")
+        val backShinyFemale: String?,
+        @Json(name = "front_default_female")
+        val frontDefaultFemale: String?,
+        @Json(name = "front_shiny_female")
+        val frontShinyFemale: String?
+
 )
 
 data class PokemonAbility(
@@ -239,7 +260,19 @@ data class PokemonForm(
         val formName: String,
         val pokemon: NamedApiResource,
         @Json(name = "version_group")
-        val versionGroup: NamedApiResource
+        val versionGroup: NamedApiResource,
+        val sprites: PokemonFormSprites // TODO test
+)
+
+data class PokemonFormSprites(
+        @Json(name = "back_default")
+        val backDefault: String,
+        @Json(name = "back_shiny")
+        val backShiny: String,
+        @Json(name = "front_default")
+        val frontDefault: String,
+        @Json(name = "front_shiny")
+        val frontShiny: String
 )
 
 data class PokemonHabitat(
