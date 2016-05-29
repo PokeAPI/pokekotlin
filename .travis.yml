@@ -6,3 +6,8 @@ jdk:
 install: true
 
 script: ./kobaltw test --log 1
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
