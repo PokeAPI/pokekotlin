@@ -91,13 +91,13 @@ data class Nature(
         val id: Int,
         val name: String,
         @Json(name = "decreased_stat")
-        val decreasedStat: NamedApiResource,
+        val decreasedStat: NamedApiResource?,
         @Json(name = "increased_stat")
-        val increasedStat: NamedApiResource,
+        val increasedStat: NamedApiResource?,
         @Json(name = "hates_flavor")
-        val hatesFlavor: NamedApiResource,
+        val hatesFlavor: NamedApiResource?,
         @Json(name = "likes_flavor")
-        val likesFlavor: NamedApiResource,
+        val likesFlavor: NamedApiResource?,
         @Json(name = "pokeathlon_stat_changes")
         val pokeathlonStatChanges: List<NatureStatChange>,
         @Json(name = "move_battle_style_preferences")
@@ -167,13 +167,13 @@ data class Pokemon(
 
 data class PokemonSprites(
         @Json(name = "back_default")
-        val backDefault: String,
+        val backDefault: String?,
         @Json(name = "back_shiny")
-        val backShiny: String,
+        val backShiny: String?,
         @Json(name = "front_default")
-        val frontDefault: String,
+        val frontDefault: String?,
         @Json(name = "front_shiny")
-        val frontShiny: String,
+        val frontShiny: String?,
         @Json(name = "back_female")
         val backFemale: String?,
         @Json(name = "back_shiny_female")
@@ -266,13 +266,13 @@ data class PokemonForm(
 
 data class PokemonFormSprites(
         @Json(name = "back_default")
-        val backDefault: String,
+        val backDefault: String?,
         @Json(name = "back_shiny")
-        val backShiny: String,
+        val backShiny: String?,
         @Json(name = "front_default")
-        val frontDefault: String,
+        val frontDefault: String?,
         @Json(name = "front_shiny")
-        val frontShiny: String
+        val frontShiny: String?
 )
 
 data class PokemonHabitat(
@@ -329,7 +329,7 @@ data class PokemonSpecies(
         val evolvesFromSpecies: NamedApiResource?,
         @Json(name = "evolution_chain")
         val evolutionChain: ApiResource,
-        val habitat: NamedApiResource,
+        val habitat: NamedApiResource?,
         val generation: NamedApiResource,
         val names: List<Name>,
         @Json(name = "pal_park_encounters")
@@ -377,7 +377,7 @@ data class Stat(
         val affectingNatures: NatureStatAffectSets,
         val characteristics: List<ApiResource>,
         @Json(name = "move_damage_class")
-        val moveDamageClass: NamedApiResource,
+        val moveDamageClass: NamedApiResource?,
         val names: List<Name>
 )
 
@@ -405,7 +405,7 @@ data class Type(
         val gameIndices: List<GenerationGameIndex>,
         val generation: NamedApiResource,
         @Json(name = "move_damage_class")
-        val moveDamageClass: NamedApiResource,
+        val moveDamageClass: NamedApiResource?,
         val names: List<Name>,
         val pokemon: List<TypePokemon>,
         val moves: List<NamedApiResource>

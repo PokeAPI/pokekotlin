@@ -35,6 +35,7 @@ val p = project {
 
     dependenciesTest {
         compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
+        compile("org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlin}")
         compile("org.testng:testng:${Versions.testng}")
     }
 

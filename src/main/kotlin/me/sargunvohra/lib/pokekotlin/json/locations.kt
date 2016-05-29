@@ -5,7 +5,7 @@ import com.squareup.moshi.Json
 data class Location(
         val id: Int,
         val name: String,
-        val region: NamedApiResource,
+        val region: NamedApiResource?,
         val names: List<Name>,
         @Json(name = "game_indices")
         val gameIndices: List<GenerationGameIndex>,

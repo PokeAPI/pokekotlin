@@ -26,7 +26,7 @@ data class Pokedex(
         val names: List<Name>,
         @Json(name = "pokemon_entries")
         val pokemonEntries: List<PokemonEntry>,
-        val region: NamedApiResource,
+        val region: NamedApiResource?,
         @Json(name = "version_groups")
         val versionGroups: List<NamedApiResource>
 )

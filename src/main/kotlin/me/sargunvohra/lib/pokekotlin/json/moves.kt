@@ -14,11 +14,11 @@ data class Move(
         @Json(name = "contest_combos")
         val contestCombos: ContestComboSets?,
         @Json(name = "contest_type")
-        val contestType: NamedApiResource,
+        val contestType: NamedApiResource?,
         @Json(name = "contest_effect")
-        val contestEffect: ApiResource,
+        val contestEffect: ApiResource?,
         @Json(name = "super_contest_effect")
-        val superContestEffect: ApiResource,
+        val superContestEffect: ApiResource?,
         @Json(name = "damage_class")
         val damageClass: NamedApiResource,
         @Json(name = "effect_entries")
@@ -26,7 +26,7 @@ data class Move(
         @Json(name = "effect_changes")
         val effectChanges: List<AbilityEffectChange>,
         val generation: NamedApiResource,
-        val meta: MoveMetaData,
+        val meta: MoveMetaData?,
         val names: List<Name>,
         @Json(name = "past_values")
         val pastValues: List<PastMoveStatValues>,

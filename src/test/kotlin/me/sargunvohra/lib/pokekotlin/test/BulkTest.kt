@@ -4,6 +4,7 @@ import me.sargunvohra.lib.pokekotlin.PokeApi
 import me.sargunvohra.lib.pokekotlin.json.ApiResourceList
 import me.sargunvohra.lib.pokekotlin.json.NamedApiResourceList
 import org.testng.annotations.Test
+import java.util.*
 import kotlin.reflect.memberProperties
 import kotlin.test.fail
 
@@ -24,14 +25,19 @@ class BulkTest {
             return
         }
 
+        val names = LinkedList<String>()
+
         cls.memberProperties.forEach {
             val o = it.get(obj)
             if (o == null) {
-                assert(it.returnType.isMarkedNullable)
+                if (!it.returnType.isMarkedNullable)
+                    names += it.name
             } else {
                 checkNulls(o)
             }
         }
+
+        assert(names.isEmpty()) { "nullable errors: $names" }
     }
 
     private fun runTest(cat: String, ids: List<Int>, getObject: (Int) -> Any) {
@@ -39,7 +45,7 @@ class BulkTest {
         val count = ids.size
         println("$cat: $count total")
         ids.forEachIndexed { i, id ->
-            print(" ${i+1}/$count ... ")
+            print("${i+1}/$count ($id) ... ")
             try {
                 val o = getObject(id)
                 print("deserialized ... ")

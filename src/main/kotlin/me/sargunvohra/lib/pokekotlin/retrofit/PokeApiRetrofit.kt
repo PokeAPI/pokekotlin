@@ -9,7 +9,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.concurrent.TimeUnit
 
 class PokeApiRetrofit(
-        val rootUrl: String = "http://pokeapi.co/api/v2/",
+        val rootUrl: String = "https://pokeapi.co/api/v2/",
         val httpClient: OkHttpClient = OkHttpClient.Builder()
                 .retryOnConnectionFailure(false)
                 .connectTimeout(60, TimeUnit.SECONDS)
