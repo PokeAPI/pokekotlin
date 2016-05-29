@@ -174,7 +174,7 @@ class PokemonTest {
             } != null)
             assert(PokemonStat(
                     effort = 0,
-                    baseStat = 0,
+                    baseStat = 45,
                     stat = NamedApiResource("hp", "stat", 1)
             ) in stats)
             assert(PokemonType(

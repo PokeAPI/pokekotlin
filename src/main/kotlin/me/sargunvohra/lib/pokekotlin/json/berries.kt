@@ -1,24 +1,17 @@
 package me.sargunvohra.lib.pokekotlin.json
 
-import com.squareup.moshi.Json
-
 data class Berry(
         val id: Int,
         val name: String,
-        @Json(name = "growth_time")
         val growthTime: Int,
-        @Json(name = "max_harvest")
         val maxHarvest: Int,
-        @Json(name = "natural_gift_power")
         val naturalGiftPower: Int,
         val size: Int,
         val smoothness: Int,
-        @Json(name = "soil_dryness")
         val soilDryness: Int,
         val firmness: NamedApiResource,
         val flavors: List<BerryFlavorMap>,
         val item: NamedApiResource,
-        @Json(name = "natural_gift_type")
         val naturalGiftType: NamedApiResource
 )
 
@@ -38,7 +31,6 @@ data class BerryFlavor(
         val id: Int,
         val name: String,
         val berries: List<FlavorBerryMap>,
-        @Json(name = "contest_type")
         val contestType: NamedApiResource,
         val names: List<Name>
 )

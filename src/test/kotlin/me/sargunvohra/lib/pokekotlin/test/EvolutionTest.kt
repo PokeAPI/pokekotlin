@@ -193,7 +193,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain14() {
-        PokeApi.getEvolutionChain(352).apply {
+        PokeApi.getEvolutionChain(116).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),

@@ -1,11 +1,14 @@
 package me.sargunvohra.lib.pokekotlin.retrofit
 
-import com.squareup.moshi.Moshi
-import me.sargunvohra.lib.pokekotlin.json.ApiResourceAdapter
-import me.sargunvohra.lib.pokekotlin.json.NamedApiResourceAdapter
+import com.fasterxml.jackson.databind.DeserializationFeature
+import com.fasterxml.jackson.databind.ObjectMapper
+import com.fasterxml.jackson.databind.PropertyNamingStrategy
+import com.fasterxml.jackson.databind.module.SimpleModule
+import com.fasterxml.jackson.module.kotlin.registerKotlinModule
+import me.sargunvohra.lib.pokekotlin.json.*
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
-import retrofit2.converter.moshi.MoshiConverterFactory
+import retrofit2.converter.jackson.JacksonConverterFactory
 import java.util.concurrent.TimeUnit
 
 class PokeApiRetrofit(
@@ -18,11 +21,17 @@ class PokeApiRetrofit(
                 .build()
 ) : IPokeApiRetrofit by Retrofit.Builder()
         .baseUrl(rootUrl)
-        .addConverterFactory(MoshiConverterFactory.create(
-                Moshi.Builder().apply {
-                    add(ApiResourceAdapter())
-                    add(NamedApiResourceAdapter())
-                }.build()
+        .addConverterFactory(JacksonConverterFactory.create(
+                ObjectMapper().apply {
+                    registerKotlinModule()
+                    registerModule(SimpleModule().apply {
+                        addDeserializer(ApiResource::class.java, ApiResourceAdapter())
+                        addDeserializer(NamedApiResource::class.java, NamedApiResourceAdapter())
+                    })
+                    configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+                    configure(DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES, true)
+                    propertyNamingStrategy = PropertyNamingStrategy.SNAKE_CASE
+                }
         ))
         .client(httpClient)
         .build()
