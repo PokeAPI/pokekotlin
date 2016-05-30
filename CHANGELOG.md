@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+ - Removed `Pokemon.locationAreaEncounters: List<LocationAreaEncounter>`
+ - Added `getPokemonEncounters(id: Int): List<LocationAreaEncounter>`
+
 ## 1.1.1
 
  - Fixed some fields that should be nullable but were not
