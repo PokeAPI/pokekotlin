@@ -15,7 +15,7 @@ object Versions {
 @Suppress("unused")
 val p = project {
 
-    name = "PokeKotlin"
+    name = "pokekotlin"
     group = "me.sargunvohra.lib"
     artifactId = name
     version = "1.2.0"

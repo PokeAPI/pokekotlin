@@ -29,11 +29,13 @@ public class Example {
 
 ## Download
 
+PokeKotlin is available from the JCenter repository.
+
 ### Gradle
 
 ```groovy
 dependencies {
-    compile 'me.sargunvohra.lib:PokeKotlin:<version>'
+    compile 'me.sargunvohra.lib:pokekotlin:<version>'
 }
 ```
 
@@ -42,7 +44,7 @@ dependencies {
 ```kotlin
 val p = project {
     dependencies {
-        compile("me.sargunvohra.lib:PokeKotlin:<version>")
+        compile("me.sargunvohra.lib:pokekotlin:<version>")
     }
 }
 ```
