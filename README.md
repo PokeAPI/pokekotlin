@@ -35,7 +35,7 @@ PokeKotlin is available from the JCenter repository.
 
 ```groovy
 dependencies {
-    compile 'me.sargunvohra.lib:pokekotlin:<version>'
+    compile 'me.sargunvohra.lib:pokekotlin:1.2.0'
 }
 ```
 
@@ -44,7 +44,7 @@ dependencies {
 ```kotlin
 val p = project {
     dependencies {
-        compile("me.sargunvohra.lib:pokekotlin:<version>")
+        compile("me.sargunvohra.lib:pokekotlin:1.2.0")
     }
 }
 ```
