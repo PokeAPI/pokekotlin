@@ -254,6 +254,8 @@ interface IPokeApiClient {
 
     fun getPokemon(id: Int): Pokemon
 
+    fun getPokemonEncounters(id: Int): List<LocationAreaEncounter>
+
     fun getPokemonColor(id: Int): PokemonColor
 
     fun getPokemonForm(id: Int): PokemonForm

@@ -122,7 +122,6 @@ data class Pokemon(
         val forms: List<NamedApiResource>,
         val gameIndices: List<VersionGameIndex>,
         val heldItems: List<PokemonHeldItem>,
-        val locationAreaEncounters: List<LocationAreaEncounter>,
         val moves: List<PokemonMove>,
         val stats: List<PokemonStat>,
         val types: List<PokemonType>,

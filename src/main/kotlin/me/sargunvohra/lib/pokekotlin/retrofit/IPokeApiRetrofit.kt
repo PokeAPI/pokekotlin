@@ -350,6 +350,9 @@ interface IPokeApiRetrofit {
     @GET("pokemon/{id}/")
     fun getPokemon(@Path("id") id: Int): Call<Pokemon>
 
+    @GET("pokemon/{id}/encounters/")
+    fun getPokemonEncounters(@Path("id") id: Int): Call<List<LocationAreaEncounter>>
+
     @GET("pokemon-color/{id}/")
     fun getPokemonColor(@Path("id") id: Int): Call<PokemonColor>
 

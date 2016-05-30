@@ -163,7 +163,6 @@ class PokemonTest {
                     gameIndex = 1
             ) in gameIndices)
             assertEquals(emptyList(), heldItems)
-            assertEquals(emptyList(), locationAreaEncounters)
             assert(moves.find {
                 it.move == NamedApiResource("razor-wind", "move", 13) &&
                         PokemonMoveVersion(
@@ -199,8 +198,8 @@ class PokemonTest {
 
     @Test
     fun getPokemon3() {
-        PokeApi.getPokemon(12).apply {
-            assert(locationAreaEncounters.find {
+        PokeApi.getPokemonEncounters(12).apply {
+            assert(find {
                 it.locationArea == NamedApiResource("kanto-route-2-south-towards-viridian-city", "location-area", 296) &&
                         it.versionDetails.find {
                             it.maxChance == 10

@@ -276,6 +276,8 @@ class PokeApiClient(
 
     override fun getPokemon(id: Int) = retrofitClient.getPokemon(id).result()
 
+    override fun getPokemonEncounters(id: Int) = retrofitClient.getPokemonEncounters(id).result()
+
     override fun getPokemonColor(id: Int) = retrofitClient.getPokemonColor(id).result()
 
     override fun getPokemonForm(id: Int) = retrofitClient.getPokemonForm(id).result()
