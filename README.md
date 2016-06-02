@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/pokesource/pokekotlin.svg?branch=master)](https://travis-ci.org/pokesource/pokekotlin)
+[![Build Status](https://travis-ci.org/PokeAPI/pokekotlin.svg?branch=master)](https://travis-ci.org/PokeAPI/pokekotlin)
 [![Download](https://api.bintray.com/packages/sargunster/maven/pokekotlin/images/download.svg) ](https://bintray.com/sargunster/maven/pokekotlin/_latestVersion)
 
 # PokeKotlin
