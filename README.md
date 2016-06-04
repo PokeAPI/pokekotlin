@@ -3,9 +3,11 @@
 
 # PokeKotlin
 
-This is a Kotlin client for [PokeApi](https://github.com/phalt/pokeapi). It's also usable under Java.
+This is a Java (and Kotlin, Scala, etc) client for [PokeApi](https://github.com/PokeAPI/pokeapi). It's written in Kotlin.
 
 ## Example
+
+Full documentation coming soon. Meanwhile, look at these usage examples:
 
 ### Kotlin
 
