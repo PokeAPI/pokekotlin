@@ -2,9 +2,6 @@ import com.beust.kobalt.*
 import com.beust.kobalt.plugin.packaging.assemble
 import com.beust.kobalt.plugin.publish.bintray
 
-@Suppress("unused")
-val repos = repos()
-
 object Versions {
     val kotlin = "1.0.2"
     val retrofit = "2.0.2"
@@ -42,10 +39,8 @@ val p = project {
     }
 
     assemble {
-        jar {
-        }
-        mavenJars {
-        }
+        jar {}
+        mavenJars {}
     }
 
     bintray {
