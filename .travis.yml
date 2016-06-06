@@ -7,6 +7,10 @@ install: true
 
 script: ./kobaltw test --log 1
 
+branches:
+  only: 
+    - master
+
 notifications:
   email:
     on_success: change
