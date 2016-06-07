@@ -267,6 +267,11 @@ class BulkTest {
     }
 
     @Test(enabled = enabled)
+    fun bulkPokemonEncounters() {
+        runTest1({ o, l -> PokeApi.getPokemonList(o, l) }, { i -> PokeApi.getPokemonEncounters(i) })
+    }
+
+    @Test(enabled = enabled)
     fun bulkPokemonColor() {
         runTest1({ o, l -> PokeApi.getPokemonColorList(o, l) }, { i -> PokeApi.getPokemonColor(i) })
     }
