@@ -221,7 +221,7 @@ class PokeApiClient(
 
     override fun getMove(id: Int) = retrofitClient.getMove(id).result()
 
-    override fun getMoveAilment(id: Int) = return retrofitClient.getMoveAilment(id).result()
+    override fun getMoveAilment(id: Int) = retrofitClient.getMoveAilment(id).result()
 
     override fun getMoveBattleStyle(id: Int) = retrofitClient.getMoveBattleStyle(id).result()
 
