@@ -11,7 +11,7 @@ else.
 
 This project written in [Kotlin] and built with
 [Kobalt]. To build the project from the command line,
-clone the project and run the command `./kobaltw compile` from the project root
+clone the project and run the command `./bin/kobaltw compile` from the project root
 directory. You can also open the project in [IntelliJ IDEA] if you have the
 Kobalt plugin.
 
