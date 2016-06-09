@@ -4,7 +4,7 @@ import me.sargunvohra.lib.pokekotlin.json.ChainLink
 import me.sargunvohra.lib.pokekotlin.json.EvolutionDetail
 import me.sargunvohra.lib.pokekotlin.json.Name
 import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
-import me.sargunvohra.lib.pokekotlin.test.utils.TestClient
+import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
@@ -13,7 +13,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain1() {
-        TestClient.getEvolutionChain(1).apply {
+        MockClient.getEvolutionChain(1).apply {
             assertEquals(1, id)
             assertEquals(null, babyTriggerItem)
             assertEquals(ChainLink(
@@ -43,7 +43,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain2() {
-        TestClient.getEvolutionChain(109).apply {
+        MockClient.getEvolutionChain(109).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -56,7 +56,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain3() {
-        TestClient.getEvolutionChain(67).apply {
+        MockClient.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("use-item", "evolution-trigger", 3),
@@ -68,7 +68,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain4() {
-        TestClient.getEvolutionChain(67).apply {
+        MockClient.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -80,7 +80,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain5() {
-        TestClient.getEvolutionChain(67).apply {
+        MockClient.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -93,7 +93,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain6() {
-        TestClient.getEvolutionChain(67).apply {
+        MockClient.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -106,7 +106,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain7() {
-        TestClient.getEvolutionChain(112).apply {
+        MockClient.getEvolutionChain(112).apply {
             assert(chain.evolvesTo[0].evolvesTo[0].evolutionDetails.contains(EvolutionDetail(
                     trigger = NamedApiResource("level-up", "evolution-trigger", 1),
                     knownMove = NamedApiResource("ancient-power", "move", 246)
@@ -116,7 +116,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain8() {
-        TestClient.getEvolutionChain(213).apply {
+        MockClient.getEvolutionChain(213).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -129,7 +129,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain9() {
-        TestClient.getEvolutionChain(178).apply {
+        MockClient.getEvolutionChain(178).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -141,7 +141,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain10() {
-        TestClient.getEvolutionChain(346).apply {
+        MockClient.getEvolutionChain(346).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -154,7 +154,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain11() {
-        TestClient.getEvolutionChain(47).apply {
+        MockClient.getEvolutionChain(47).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -167,7 +167,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain12() {
-        TestClient.getEvolutionChain(362).apply {
+        MockClient.getEvolutionChain(362).apply {
             assertNotNull(chain.evolvesTo[0].evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -180,7 +180,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain13() {
-        TestClient.getEvolutionChain(352).apply {
+        MockClient.getEvolutionChain(352).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -193,7 +193,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain14() {
-        TestClient.getEvolutionChain(116).apply {
+        MockClient.getEvolutionChain(116).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("level-up", "evolution-trigger", 1),
@@ -205,7 +205,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain15() {
-        TestClient.getEvolutionChain(312).apply {
+        MockClient.getEvolutionChain(312).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("trade", "evolution-trigger", 2),
@@ -217,7 +217,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain16() {
-        TestClient.getEvolutionChain(72).apply {
+        MockClient.getEvolutionChain(72).apply {
             assertEquals(NamedApiResource("full-incense", "item", 293), babyTriggerItem)
             assertEquals(true, chain.isBaby)
         }
@@ -225,7 +225,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionTrigger() {
-        TestClient.getEvolutionTrigger(1).apply {
+        MockClient.getEvolutionTrigger(1).apply {
             assertEquals(1, id)
             assertEquals("level-up", name)
             assert(Name(

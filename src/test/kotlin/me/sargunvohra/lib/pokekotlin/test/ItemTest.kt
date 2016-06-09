@@ -1,7 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.test
 
 import me.sargunvohra.lib.pokekotlin.json.*
-import me.sargunvohra.lib.pokekotlin.test.utils.TestClient
+import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
@@ -10,7 +10,7 @@ class ItemTest {
 
     @Test
     fun getItem1() {
-        TestClient.getItem(20).apply {
+        MockClient.getItem(20).apply {
             assertEquals(20, id)
             assertEquals("ice-heal", name)
             assertEquals(250, cost)
@@ -45,7 +45,7 @@ class ItemTest {
 
     @Test
     fun getItem2() {
-        TestClient.getItem(33).apply {
+        MockClient.getItem(33).apply {
             assertNotEquals(null, heldByPokemon.find {
                 it.pokemon == NamedApiResource("miltank", "pokemon", 241) &&
                         it.versionDetails.contains(ItemHolderPokemonVersionDetail(
@@ -58,21 +58,21 @@ class ItemTest {
 
     @Test
     fun getItem3() {
-        TestClient.getItem(249).apply {
+        MockClient.getItem(249).apply {
             assertEquals(NamedApiResource("badly-poison", "item-fling-effect", 1), flingEffect)
         }
     }
 
     @Test
     fun getItem4() {
-        TestClient.getItem(231).apply {
+        MockClient.getItem(231).apply {
             assertEquals(ApiResource("evolution-chain", 90), babyTriggerFor)
         }
     }
 
     @Test
     fun getItemAttribute() {
-        TestClient.getItemAttribute(3).apply {
+        MockClient.getItemAttribute(3).apply {
             assertEquals(3, id)
             assertEquals("usable-overworld", name)
             assert(Description(
@@ -89,7 +89,7 @@ class ItemTest {
 
     @Test
     fun getItemCategory() {
-        TestClient.getItemCategory(34).apply {
+        MockClient.getItemCategory(34).apply {
             assertEquals(34, id)
             assertEquals("standard-balls", name)
             assertEquals(NamedApiResource("pokeballs", "item-pocket", 3), pocket)
@@ -103,7 +103,7 @@ class ItemTest {
 
     @Test
     fun getItemFlingEffect() {
-        TestClient.getItemFlingEffect(1).apply {
+        MockClient.getItemFlingEffect(1).apply {
             assertEquals(1, id)
             assertEquals("badly-poison", name)
             assert(Effect(
@@ -116,7 +116,7 @@ class ItemTest {
 
     @Test
     fun getItemPocket() {
-        TestClient.getItemPocket(4).apply {
+        MockClient.getItemPocket(4).apply {
             assertEquals(4, id)
             assertEquals("machines", name)
             assert(NamedApiResource("all-machines", "item-category", 37) in categories)

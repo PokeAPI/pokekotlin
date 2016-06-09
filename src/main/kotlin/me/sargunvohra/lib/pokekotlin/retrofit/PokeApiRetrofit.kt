@@ -6,13 +6,14 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy
 import com.fasterxml.jackson.databind.module.SimpleModule
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import me.sargunvohra.lib.pokekotlin.json.*
+import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.jackson.JacksonConverterFactory
 import java.util.concurrent.TimeUnit
 
 class PokeApiRetrofit(
-        val rootUrl: String = "https://pokeapi.co/api/v2/",
+        val rootUrl: HttpUrl = HttpUrl.parse("https://pokeapi.co/api/v2/"),
         val httpClient: OkHttpClient = OkHttpClient.Builder()
                 .retryOnConnectionFailure(false)
                 .connectTimeout(60, TimeUnit.SECONDS)
