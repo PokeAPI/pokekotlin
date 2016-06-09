@@ -8,17 +8,12 @@ import kotlin.test.assertEquals
 class LiveTest {
 
     @Test
-    fun liveOne() {
+    fun liveObject() {
         assertEquals(MockClient.getBerry(10), PokeApi.getBerry(10))
     }
 
     @Test
-    fun liveTwo() {
-        assertEquals(MockClient.getMove(100), PokeApi.getMove(100))
-    }
-
-    @Test
-    fun liveFour() {
+    fun liveList() {
         assertEquals(PokeApi.getMoveList(0, 50).results[25], PokeApi.getMoveList(25, 50).results[0])
     }
 }
