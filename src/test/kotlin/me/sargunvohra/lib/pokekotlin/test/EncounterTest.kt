@@ -1,8 +1,8 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.PokeApi
 import me.sargunvohra.lib.pokekotlin.json.Name
 import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
@@ -10,7 +10,7 @@ class EncounterTest {
 
     @Test
     fun getEncounterMethod() {
-        PokeApi.getEncounterMethod(5).apply {
+        MockClient.getEncounterMethod(5).apply {
             assertEquals(5, id)
             assertEquals("surf", name)
             assertEquals(14, order)
@@ -23,7 +23,7 @@ class EncounterTest {
 
     @Test
     fun getEncounterCondition() {
-        PokeApi.getEncounterCondition(5).apply {
+        MockClient.getEncounterCondition(5).apply {
             assertEquals(5, id)
             assertEquals("radio", name)
             assert(NamedApiResource("radio-hoenn", "encounter-condition-value", 15) in values)
@@ -36,7 +36,7 @@ class EncounterTest {
 
     @Test
     fun getEncounterConditionValue() {
-        PokeApi.getEncounterConditionValue(5).apply {
+        MockClient.getEncounterConditionValue(5).apply {
             assertEquals(5, id)
             assertEquals("time-night", name)
             assertEquals(NamedApiResource("time", "encounter-condition", 2), condition)

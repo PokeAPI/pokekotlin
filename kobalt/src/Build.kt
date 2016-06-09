@@ -5,8 +5,10 @@ import com.beust.kobalt.plugin.publish.bintray
 object Versions {
     val kotlin = "1.0.2"
     val retrofit = "2.0.2"
-    val testng = "6.9.10"
+    val testNg = "6.9.10"
     val jacksonModuleKotlin = "2.7.1-2"
+    val okHttp = "3.2.0"
+    val trueZip = "7.7.9"
 }
 
 @Suppress("unused")
@@ -35,7 +37,10 @@ val p = project {
     dependenciesTest {
         compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
         compile("org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlin}")
-        compile("org.testng:testng:${Versions.testng}")
+        compile("org.testng:testng:${Versions.testNg}")
+        compile("com.squareup.okhttp3:mockwebserver:${Versions.okHttp}")
+        compile("de.schlichtherle.truezip:truezip-file:${Versions.trueZip}")
+        compile("de.schlichtherle.truezip:truezip-driver-tar:${Versions.trueZip}")
     }
 
     assemble {
