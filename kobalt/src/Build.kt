@@ -41,6 +41,7 @@ val p = project {
         compile("com.squareup.okhttp3:mockwebserver:${Versions.okHttp}")
         compile("de.schlichtherle.truezip:truezip-file:${Versions.trueZip}")
         compile("de.schlichtherle.truezip:truezip-driver-tar:${Versions.trueZip}")
+        compile("de.schlichtherle.truezip:truezip-driver-zip:${Versions.trueZip}")
     }
 
     assemble {

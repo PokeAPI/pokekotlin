@@ -16,7 +16,7 @@ object MockServer {
     val url = server.url("/api/v2/")
 
     init {
-        val resourcePath = MockServer::class.java.getResource("/api.tar.gz").path
+        val resourcePath = MockServer::class.java.getResource("/api.zip").toURI().path
         server.setDispatcher(object : Dispatcher() {
             override fun dispatch(request: RecordedRequest): MockResponse {
                 val basePath = request.path.dropLastWhile { it != '/' }
