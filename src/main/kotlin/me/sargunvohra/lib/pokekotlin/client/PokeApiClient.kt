@@ -3,7 +3,7 @@ package me.sargunvohra.lib.pokekotlin.client
 import retrofit2.Call
 
 class PokeApiClient(
-        private val apiCaller: ApiCaller = RetrofitApiCaller(ClientConfig())
+        private val apiCaller: ApiCaller = RetrofitApiCaller()
 ) {
     private fun <T> Call<T>.result(): T {
         return execute().let {
