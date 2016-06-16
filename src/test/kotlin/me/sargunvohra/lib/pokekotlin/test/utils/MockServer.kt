@@ -8,6 +8,8 @@ import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import okio.Buffer
 import java.nio.charset.Charset
+import java.util.logging.Level
+import java.util.logging.LogManager
 
 object MockServer {
 
@@ -16,7 +18,13 @@ object MockServer {
     val url = server.url("/api/v2/")
 
     init {
+        // disable MockWebServer logging
+        LogManager.getLogManager().getLogger(MockWebServer::class.qualifiedName).level = Level.OFF
+
+        // get path to sample API responses archive
         val resourcePath = MockServer::class.java.getResource("/api.zip").toURI().path
+
+        // setup the dispatcher to use files in the archive as the mock responses
         server.setDispatcher(object : Dispatcher() {
             override fun dispatch(request: RecordedRequest): MockResponse {
                 val basePath = request.path.dropLastWhile { it != '/' }
