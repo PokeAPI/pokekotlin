@@ -1,10 +1,10 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.json.Description
-import me.sargunvohra.lib.pokekotlin.json.Name
-import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
-import me.sargunvohra.lib.pokekotlin.json.PokemonEntry
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.model.Description
+import me.sargunvohra.lib.pokekotlin.model.Name
+import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.model.PokemonEntry
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
@@ -12,7 +12,7 @@ class GameTest {
 
     @Test
     fun getGeneration() {
-        MockClient.getGeneration(6).apply {
+        mockClient.getGeneration(6).apply {
             assertEquals(6, id)
             assertEquals("generation-vi", name)
             assert(NamedApiResource("primordial-sea", "ability", 189) in abilities)
@@ -30,7 +30,7 @@ class GameTest {
 
     @Test
     fun getPokedex() {
-        MockClient.getPokedex(12).apply {
+        mockClient.getPokedex(12).apply {
             assertEquals(12, id)
             assertEquals("kalos-central", name)
             assertEquals(true, isMainSeries)
@@ -53,7 +53,7 @@ class GameTest {
 
     @Test
     fun getVersion() {
-        MockClient.getVersion(9).apply {
+        mockClient.getVersion(9).apply {
             assertEquals(9, id)
             assertEquals("emerald", name)
             assert(Name(
@@ -66,7 +66,7 @@ class GameTest {
 
     @Test
     fun getVersionGroup() {
-        MockClient.getVersionGroup(1).apply {
+        mockClient.getVersionGroup(1).apply {
             assertEquals(1, id)
             assertEquals("red-blue", name)
             assertEquals(1, order)

@@ -1,7 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.json.*
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.model.*
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
@@ -10,7 +10,7 @@ class MoveTest {
 
     @Test
     fun getMove1() {
-        MockClient.getMove(34).apply {
+        mockClient.getMove(34).apply {
             assertEquals(34, id)
             assertEquals("body-slam", name)
             assertEquals(100, accuracy)
@@ -57,7 +57,7 @@ class MoveTest {
 
     @Test
     fun getMove2() {
-        MockClient.getMove(400).apply {
+        mockClient.getMove(400).apply {
             assertEquals(ContestComboSets(
                     normalSet = ContestComboDetail(null, null),
                     superSet = ContestComboDetail(null, listOf(NamedApiResource("focus-energy", "move", 116)))
@@ -67,7 +67,7 @@ class MoveTest {
 
     @Test
     fun getMove3() {
-        MockClient.getMove(16).apply {
+        mockClient.getMove(16).apply {
             assertNotNull(effectChanges.find {
                 it.versionGroup == NamedApiResource("gold-silver", "version-group", 3) &&
                         Effect(
@@ -80,7 +80,7 @@ class MoveTest {
 
     @Test
     fun getMove4() {
-        MockClient.getMove(14).apply {
+        mockClient.getMove(14).apply {
             assert(MoveStatChange(
                     change = 2,
                     stat = NamedApiResource("attack", "stat", 2)
@@ -90,7 +90,7 @@ class MoveTest {
 
     @Test
     fun getMove5() {
-        MockClient.getMove(2).apply {
+        mockClient.getMove(2).apply {
             assert(PastMoveStatValues(
                     accuracy = null,
                     power = null,
@@ -105,7 +105,7 @@ class MoveTest {
 
     @Test
     fun getMoveAilment() {
-        MockClient.getMoveAilment(1).apply {
+        mockClient.getMoveAilment(1).apply {
             assertEquals(1, id)
             assertEquals("paralysis", name)
             assert(Name(
@@ -118,7 +118,7 @@ class MoveTest {
 
     @Test
     fun getMoveBattleStyle() {
-        MockClient.getMoveBattleStyle(1).apply {
+        mockClient.getMoveBattleStyle(1).apply {
             assertEquals(1, id)
             assertEquals("attack", name)
             assert(Name(
@@ -130,7 +130,7 @@ class MoveTest {
 
     @Test
     fun getMoveCategory() {
-        MockClient.getMoveCategory(1).apply {
+        mockClient.getMoveCategory(1).apply {
             assertEquals(1, id)
             assertEquals("ailment", name)
             assert(Description(
@@ -143,7 +143,7 @@ class MoveTest {
 
     @Test
     fun getMoveDamageClass() {
-        MockClient.getMoveDamageClass(1).apply {
+        mockClient.getMoveDamageClass(1).apply {
             assertEquals(1, id)
             assertEquals("status", name)
             assert(Name(
@@ -160,7 +160,7 @@ class MoveTest {
 
     @Test
     fun getMoveLearnMethod() {
-        MockClient.getMoveLearnMethod(10).apply {
+        mockClient.getMoveLearnMethod(10).apply {
             assertEquals(10, id)
             assertEquals("form-change", name)
             assert(Name(
@@ -177,7 +177,7 @@ class MoveTest {
 
     @Test
     fun getMoveTarget() {
-        MockClient.getMoveTarget(8).apply {
+        mockClient.getMoveTarget(8).apply {
             assertEquals(8, id)
             assertEquals("random-opponent", name)
             assert(Name(

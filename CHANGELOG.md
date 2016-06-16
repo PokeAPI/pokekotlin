@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0
+
+ - Redesigned how the client instance is obtained
+ - Changed packaging structure
+
 ## 1.2.1
 
  - Removed workaround for negative IDs since it's now fixed on PokeApi's end

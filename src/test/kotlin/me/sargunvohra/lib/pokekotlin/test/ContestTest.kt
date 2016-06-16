@@ -1,10 +1,10 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.json.ContestName
-import me.sargunvohra.lib.pokekotlin.json.Effect
-import me.sargunvohra.lib.pokekotlin.json.FlavorText
-import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.model.ContestName
+import me.sargunvohra.lib.pokekotlin.model.Effect
+import me.sargunvohra.lib.pokekotlin.model.FlavorText
+import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
@@ -12,7 +12,7 @@ class ContestTest {
 
     @Test
     fun getContestType() {
-        MockClient.getContestType(4).apply {
+        mockClient.getContestType(4).apply {
             assertEquals(4, id)
             assertEquals("smart", name)
             assertEquals(NamedApiResource("bitter", "berry-flavor", 4), berryFlavor)
@@ -26,7 +26,7 @@ class ContestTest {
 
     @Test
     fun getContestEffect() {
-        MockClient.getContestEffect(27).apply {
+        mockClient.getContestEffect(27).apply {
             assertEquals(27, id)
             assertEquals(2, appeal)
             assertEquals(0, jam)
@@ -43,7 +43,7 @@ class ContestTest {
 
     @Test
     fun getSuperContestEffect() {
-        MockClient.getSuperContestEffect(14).apply {
+        mockClient.getSuperContestEffect(14).apply {
             assertEquals(14, id)
             assertEquals(2, appeal)
             assert(FlavorText(

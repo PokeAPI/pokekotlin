@@ -1,8 +1,8 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.json.ApiResourceList
-import me.sargunvohra.lib.pokekotlin.json.NamedApiResourceList
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.model.ApiResourceList
+import me.sargunvohra.lib.pokekotlin.model.NamedApiResourceList
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import java.util.*
 import kotlin.reflect.memberProperties
@@ -73,241 +73,241 @@ class BulkTest {
 
     @Test(enabled = enabled)
     fun bulkBerry() {
-        runTest1({ o, l -> MockClient.getBerryList(o, l) }, { i -> MockClient.getBerry(i) })
+        runTest1({ o, l -> mockClient.getBerryList(o, l) }, { i -> mockClient.getBerry(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkBerryFirmness() {
-        runTest1({ o, l -> MockClient.getBerryFirmnessList(o, l) }, { i -> MockClient.getBerryFirmness(i) })
+        runTest1({ o, l -> mockClient.getBerryFirmnessList(o, l) }, { i -> mockClient.getBerryFirmness(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkBerryFlavor() {
-        runTest1({ o, l -> MockClient.getBerryFlavorList(o, l) }, { i -> MockClient.getBerryFlavor(i) })
+        runTest1({ o, l -> mockClient.getBerryFlavorList(o, l) }, { i -> mockClient.getBerryFlavor(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkContestType() {
-        runTest1({ o, l -> MockClient.getContestTypeList(o, l) }, { i -> MockClient.getContestType(i) })
+        runTest1({ o, l -> mockClient.getContestTypeList(o, l) }, { i -> mockClient.getContestType(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkContestEffect() {
-        runTest2({ o, l -> MockClient.getContestEffectList(o, l) }, { i -> MockClient.getContestEffect(i) })
+        runTest2({ o, l -> mockClient.getContestEffectList(o, l) }, { i -> mockClient.getContestEffect(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkSuperContestEffect() {
-        runTest2({ o, l -> MockClient.getSuperContestEffectList(o, l) }, { i -> MockClient.getSuperContestEffect(i) })
+        runTest2({ o, l -> mockClient.getSuperContestEffectList(o, l) }, { i -> mockClient.getSuperContestEffect(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkEncounterMethod() {
-        runTest1({ o, l -> MockClient.getEncounterMethodList(o, l) }, { i -> MockClient.getEncounterMethod(i) })
+        runTest1({ o, l -> mockClient.getEncounterMethodList(o, l) }, { i -> mockClient.getEncounterMethod(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkEncounterCondition() {
-        runTest1({ o, l -> MockClient.getEncounterConditionList(o, l) }, { i -> MockClient.getEncounterCondition(i) })
+        runTest1({ o, l -> mockClient.getEncounterConditionList(o, l) }, { i -> mockClient.getEncounterCondition(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkEncounterConditionValue() {
-        runTest1({ o, l -> MockClient.getEncounterConditionValueList(o, l) }, { i -> MockClient.getEncounterConditionValue(i) })
+        runTest1({ o, l -> mockClient.getEncounterConditionValueList(o, l) }, { i -> mockClient.getEncounterConditionValue(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkEvolutionChain() {
-        runTest2({ o, l -> MockClient.getEvolutionChainList(o, l) }, { i -> MockClient.getEvolutionChain(i) })
+        runTest2({ o, l -> mockClient.getEvolutionChainList(o, l) }, { i -> mockClient.getEvolutionChain(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkEvolutionTrigger() {
-        runTest1({ o, l -> MockClient.getEvolutionTriggerList(o, l) }, { i -> MockClient.getEvolutionTrigger(i) })
+        runTest1({ o, l -> mockClient.getEvolutionTriggerList(o, l) }, { i -> mockClient.getEvolutionTrigger(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkGeneration() {
-        runTest1({ o, l -> MockClient.getGenerationList(o, l) }, { i -> MockClient.getGeneration(i) })
+        runTest1({ o, l -> mockClient.getGenerationList(o, l) }, { i -> mockClient.getGeneration(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokedex() {
-        runTest1({ o, l -> MockClient.getPokedexList(o, l) }, { i -> MockClient.getPokedex(i) })
+        runTest1({ o, l -> mockClient.getPokedexList(o, l) }, { i -> mockClient.getPokedex(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkVersion() {
-        runTest1({ o, l -> MockClient.getVersionList(o, l) }, { i -> MockClient.getVersion(i) })
+        runTest1({ o, l -> mockClient.getVersionList(o, l) }, { i -> mockClient.getVersion(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkVersionGroup() {
-        runTest1({ o, l -> MockClient.getVersionGroupList(o, l) }, { i -> MockClient.getVersionGroup(i) })
+        runTest1({ o, l -> mockClient.getVersionGroupList(o, l) }, { i -> mockClient.getVersionGroup(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkItem() {
-        runTest1({ o, l -> MockClient.getItemList(o, l) }, { i -> MockClient.getItem(i) })
+        runTest1({ o, l -> mockClient.getItemList(o, l) }, { i -> mockClient.getItem(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkItemAttribute() {
-        runTest1({ o, l -> MockClient.getItemAttributeList(o, l) }, { i -> MockClient.getItemAttribute(i) })
+        runTest1({ o, l -> mockClient.getItemAttributeList(o, l) }, { i -> mockClient.getItemAttribute(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkItemCategory() {
-        runTest1({ o, l -> MockClient.getItemCategoryList(o, l) }, { i -> MockClient.getItemCategory(i) })
+        runTest1({ o, l -> mockClient.getItemCategoryList(o, l) }, { i -> mockClient.getItemCategory(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkItemFlingEffect() {
-        runTest1({ o, l -> MockClient.getItemFlingEffectList(o, l) }, { i -> MockClient.getItemFlingEffect(i) })
+        runTest1({ o, l -> mockClient.getItemFlingEffectList(o, l) }, { i -> mockClient.getItemFlingEffect(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkItemPocket() {
-        runTest1({ o, l -> MockClient.getItemPocketList(o, l) }, { i -> MockClient.getItemPocket(i) })
+        runTest1({ o, l -> mockClient.getItemPocketList(o, l) }, { i -> mockClient.getItemPocket(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkMove() {
-        runTest1({ o, l -> MockClient.getMoveList(o, l) }, { i -> MockClient.getMove(i) })
+        runTest1({ o, l -> mockClient.getMoveList(o, l) }, { i -> mockClient.getMove(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkMoveAilment() {
-        runTest1({ o, l -> MockClient.getMoveAilmentList(o, l) }, { i -> MockClient.getMoveAilment(i) })
+        runTest1({ o, l -> mockClient.getMoveAilmentList(o, l) }, { i -> mockClient.getMoveAilment(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkMoveBattleStyle() {
-        runTest1({ o, l -> MockClient.getMoveBattleStyleList(o, l) }, { i -> MockClient.getMoveBattleStyle(i) })
+        runTest1({ o, l -> mockClient.getMoveBattleStyleList(o, l) }, { i -> mockClient.getMoveBattleStyle(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkMoveCategory() {
-        runTest1({ o, l -> MockClient.getMoveCategoryList(o, l) }, { i -> MockClient.getMoveCategory(i) })
+        runTest1({ o, l -> mockClient.getMoveCategoryList(o, l) }, { i -> mockClient.getMoveCategory(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkMoveDamageClass() {
-        runTest1({ o, l -> MockClient.getMoveDamageClassList(o, l) }, { i -> MockClient.getMoveDamageClass(i) })
+        runTest1({ o, l -> mockClient.getMoveDamageClassList(o, l) }, { i -> mockClient.getMoveDamageClass(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkMoveLearnMethod() {
-        runTest1({ o, l -> MockClient.getMoveLearnMethodList(o, l) }, { i -> MockClient.getMoveLearnMethod(i) })
+        runTest1({ o, l -> mockClient.getMoveLearnMethodList(o, l) }, { i -> mockClient.getMoveLearnMethod(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkMoveTarget() {
-        runTest1({ o, l -> MockClient.getMoveTargetList(o, l) }, { i -> MockClient.getMoveTarget(i) })
+        runTest1({ o, l -> mockClient.getMoveTargetList(o, l) }, { i -> mockClient.getMoveTarget(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkLocation() {
-        runTest1({ o, l -> MockClient.getLocationList(o, l) }, { i -> MockClient.getLocation(i) })
+        runTest1({ o, l -> mockClient.getLocationList(o, l) }, { i -> mockClient.getLocation(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkLocationArea() {
-        runTest1({ o, l -> MockClient.getLocationAreaList(o, l) }, { i -> MockClient.getLocationArea(i) })
+        runTest1({ o, l -> mockClient.getLocationAreaList(o, l) }, { i -> mockClient.getLocationArea(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPalParkArea() {
-        runTest1({ o, l -> MockClient.getPalParkAreaList(o, l) }, { i -> MockClient.getPalParkArea(i) })
+        runTest1({ o, l -> mockClient.getPalParkAreaList(o, l) }, { i -> mockClient.getPalParkArea(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkRegion() {
-        runTest1({ o, l -> MockClient.getRegionList(o, l) }, { i -> MockClient.getRegion(i) })
+        runTest1({ o, l -> mockClient.getRegionList(o, l) }, { i -> mockClient.getRegion(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkAbility() {
-        runTest1({ o, l -> MockClient.getAbilityList(o, l) }, { i -> MockClient.getAbility(i) })
+        runTest1({ o, l -> mockClient.getAbilityList(o, l) }, { i -> mockClient.getAbility(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkCharacteristic() {
-        runTest2({ o, l -> MockClient.getCharacteristicList(o, l) }, { i -> MockClient.getCharacteristic(i) })
+        runTest2({ o, l -> mockClient.getCharacteristicList(o, l) }, { i -> mockClient.getCharacteristic(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkEggGroup() {
-        runTest1({ o, l -> MockClient.getEggGroupList(o, l) }, { i -> MockClient.getEggGroup(i) })
+        runTest1({ o, l -> mockClient.getEggGroupList(o, l) }, { i -> mockClient.getEggGroup(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkGender() {
-        runTest1({ o, l -> MockClient.getGenderList(o, l) }, { i -> MockClient.getGender(i) })
+        runTest1({ o, l -> mockClient.getGenderList(o, l) }, { i -> mockClient.getGender(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkGrowthRate() {
-        runTest1({ o, l -> MockClient.getGrowthRateList(o, l) }, { i -> MockClient.getGrowthRate(i) })
+        runTest1({ o, l -> mockClient.getGrowthRateList(o, l) }, { i -> mockClient.getGrowthRate(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkNature() {
-        runTest1({ o, l -> MockClient.getNatureList(o, l) }, { i -> MockClient.getNature(i) })
+        runTest1({ o, l -> mockClient.getNatureList(o, l) }, { i -> mockClient.getNature(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokeathlonStat() {
-        runTest1({ o, l -> MockClient.getPokeathlonStatList(o, l) }, { i -> MockClient.getPokeathlonStat(i) })
+        runTest1({ o, l -> mockClient.getPokeathlonStatList(o, l) }, { i -> mockClient.getPokeathlonStat(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokemon() {
-        runTest1({ o, l -> MockClient.getPokemonList(o, l) }, { i -> MockClient.getPokemon(i) })
+        runTest1({ o, l -> mockClient.getPokemonList(o, l) }, { i -> mockClient.getPokemon(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokemonEncounters() {
-        runTest1({ o, l -> MockClient.getPokemonList(o, l) }, { i -> MockClient.getPokemonEncounters(i) })
+        runTest1({ o, l -> mockClient.getPokemonList(o, l) }, { i -> mockClient.getPokemonEncounters(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokemonColor() {
-        runTest1({ o, l -> MockClient.getPokemonColorList(o, l) }, { i -> MockClient.getPokemonColor(i) })
+        runTest1({ o, l -> mockClient.getPokemonColorList(o, l) }, { i -> mockClient.getPokemonColor(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokemonForm() {
-        runTest1({ o, l -> MockClient.getPokemonFormList(o, l) }, { i -> MockClient.getPokemonForm(i) })
+        runTest1({ o, l -> mockClient.getPokemonFormList(o, l) }, { i -> mockClient.getPokemonForm(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokemonHabitat() {
-        runTest1({ o, l -> MockClient.getPokemonHabitatList(o, l) }, { i -> MockClient.getPokemonHabitat(i) })
+        runTest1({ o, l -> mockClient.getPokemonHabitatList(o, l) }, { i -> mockClient.getPokemonHabitat(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokemonShape() {
-        runTest1({ o, l -> MockClient.getPokemonShapeList(o, l) }, { i -> MockClient.getPokemonShape(i) })
+        runTest1({ o, l -> mockClient.getPokemonShapeList(o, l) }, { i -> mockClient.getPokemonShape(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkPokemonSpecies() {
-        runTest1({ o, l -> MockClient.getPokemonSpeciesList(o, l) }, { i -> MockClient.getPokemonSpecies(i) })
+        runTest1({ o, l -> mockClient.getPokemonSpeciesList(o, l) }, { i -> mockClient.getPokemonSpecies(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkStat() {
-        runTest1({ o, l -> MockClient.getStatList(o, l) }, { i -> MockClient.getStat(i) })
+        runTest1({ o, l -> mockClient.getStatList(o, l) }, { i -> mockClient.getStat(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkType() {
-        runTest1({ o, l -> MockClient.getTypeList(o, l) }, { i -> MockClient.getType(i) })
+        runTest1({ o, l -> mockClient.getTypeList(o, l) }, { i -> mockClient.getType(i) })
     }
 
     @Test(enabled = enabled)
     fun bulkLanguage() {
-        runTest1({ o, l -> MockClient.getLanguageList(o, l) }, { i -> MockClient.getLanguage(i) })
+        runTest1({ o, l -> mockClient.getLanguageList(o, l) }, { i -> mockClient.getLanguage(i) })
     }
 }

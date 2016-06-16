@@ -1,19 +1,21 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.PokeApi
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.client.PokeApiClient
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
 class LiveTest {
 
+    val liveClient = PokeApiClient()
+
     @Test
     fun liveObject() {
-        assertEquals(MockClient.getBerry(10), PokeApi.getBerry(10))
+        assertEquals(mockClient.getBerry(10), liveClient.getBerry(10))
     }
 
     @Test
     fun liveList() {
-        assertEquals(PokeApi.getMoveList(0, 50).results[25], PokeApi.getMoveList(25, 50).results[0])
+        assertEquals(liveClient.getMoveList(0, 50).results[25], liveClient.getMoveList(25, 50).results[0])
     }
 }

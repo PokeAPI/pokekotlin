@@ -1,8 +1,8 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.json.Name
-import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.model.Name
+import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
@@ -10,7 +10,7 @@ class UtilityTest {
 
     @Test
     fun getLanguage() {
-        MockClient.getLanguage(9).apply {
+        mockClient.getLanguage(9).apply {
             assertEquals(9, id)
             assertEquals("us", iso3166)
             assertEquals("en", iso639)

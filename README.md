@@ -9,23 +9,25 @@ This is a Java (and Kotlin, Scala, etc) client for [PokeApi](https://github.com/
 
 Full documentation coming soon. Meanwhile, look at these usage examples:
 
-### Kotlin
-
-```kotlin
-fun main(args: Array<String>) {
-    val bulbasaur = PokeApi.getPokemonSpecies(1)
-    println(bulbasaur)
-}
-```
-
 ### Java
 
 ```java
 public class Example {
     public static void main(String[] args) {
-        PokemonSpecies bulbasaur = PokeApi.INSTANCE.getPokemonSpecies(1);
+        PokeApiClient pokeApi = new PokeApiClient();
+        PokemonSpecies bulbasaur = pokeApi.getPokemonSpecies(1);
         System.out.println(bulbasaur);
     }
+}
+```
+
+### Kotlin
+
+```kotlin
+fun main(args: Array<String>) {
+    val pokeApi = PokeApiClient()
+    val bulbasaur = pokeApi.getPokemonSpecies(1)
+    println(bulbasaur)
 }
 ```
 
@@ -37,7 +39,7 @@ PokeKotlin is available from the JCenter repository.
 
 ```groovy
 dependencies {
-    compile 'me.sargunvohra.lib:pokekotlin:1.2.0'
+    compile 'me.sargunvohra.lib:pokekotlin:2.0.0'
 }
 ```
 
@@ -46,7 +48,7 @@ dependencies {
 ```kotlin
 val p = project {
     dependencies {
-        compile("me.sargunvohra.lib:pokekotlin:1.2.0")
+        compile("me.sargunvohra.lib:pokekotlin:2.0.0")
     }
 }
 ```

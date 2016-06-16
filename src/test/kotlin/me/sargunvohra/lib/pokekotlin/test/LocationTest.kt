@@ -1,7 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.json.*
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.model.*
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
@@ -10,7 +10,7 @@ class LocationTest {
 
     @Test
     fun getLocation() {
-        MockClient.getLocation(20).apply {
+        mockClient.getLocation(20).apply {
             assertEquals(20, id)
             assertEquals("wayward-cave", name)
             assertEquals(NamedApiResource("sinnoh", "region", 4), region)
@@ -28,7 +28,7 @@ class LocationTest {
 
     @Test
     fun getLocationArea() {
-        MockClient.getLocationArea(20).apply {
+        mockClient.getLocationArea(20).apply {
             assertEquals(20, id)
             assertEquals("mt-coronet-cave", name)
             assertEquals(20, gameIndex)
@@ -60,7 +60,7 @@ class LocationTest {
 
     @Test
     fun getPalParkArea() {
-        MockClient.getPalParkArea(2).apply {
+        mockClient.getPalParkArea(2).apply {
             assertEquals(2, id)
             assertEquals("field", name)
             assert(Name(
@@ -77,7 +77,7 @@ class LocationTest {
 
     @Test
     fun getRegion() {
-        MockClient.getRegion(1).apply {
+        mockClient.getRegion(1).apply {
             assertEquals(1, id)
             assertEquals("kanto", name)
             assertEquals(NamedApiResource("generation-i", "generation", 1), mainGeneration)

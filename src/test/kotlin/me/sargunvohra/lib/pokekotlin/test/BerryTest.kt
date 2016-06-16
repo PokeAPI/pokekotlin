@@ -1,9 +1,9 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.json.FlavorBerryMap
-import me.sargunvohra.lib.pokekotlin.json.Name
-import me.sargunvohra.lib.pokekotlin.json.NamedApiResource
-import me.sargunvohra.lib.pokekotlin.test.utils.MockClient
+import me.sargunvohra.lib.pokekotlin.model.FlavorBerryMap
+import me.sargunvohra.lib.pokekotlin.model.Name
+import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
@@ -11,7 +11,7 @@ class BerryTest {
 
     @Test
     fun getBerry() {
-        MockClient.getBerry(34).apply {
+        mockClient.getBerry(34).apply {
             assertEquals(34, id)
             assertEquals("durin", name)
             assertEquals(15, growthTime)
@@ -29,7 +29,7 @@ class BerryTest {
 
     @Test
     fun getBerryFirmness() {
-        MockClient.getBerryFirmness(3).apply {
+        mockClient.getBerryFirmness(3).apply {
             assertEquals(3, id)
             assertEquals("hard", name)
             assert(NamedApiResource("rawst", "berry", 4) in berries)
@@ -42,7 +42,7 @@ class BerryTest {
 
     @Test
     fun getBerryFlavor() {
-        MockClient.getBerryFlavor(3).apply {
+        mockClient.getBerryFlavor(3).apply {
             assertEquals(3, id)
             assertEquals("sweet", name)
             assertEquals(NamedApiResource("cute", "contest-type", 3), contestType)

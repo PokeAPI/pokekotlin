@@ -1,14 +1,10 @@
 package me.sargunvohra.lib.pokekotlin.client
 
-import me.sargunvohra.lib.pokekotlin.json.*
-import me.sargunvohra.lib.pokekotlin.retrofit.IPokeApiRetrofit
-import me.sargunvohra.lib.pokekotlin.retrofit.PokeApiRetrofit
 import retrofit2.Call
 
 class PokeApiClient(
-        private val retrofitClient: IPokeApiRetrofit = PokeApiRetrofit()
-): IPokeApiClient {
-
+        private val apiCaller: ApiCaller = RetrofitApiCaller(ClientConfig())
+) {
     private fun <T> Call<T>.result(): T {
         return execute().let {
             if (it.isSuccessful) it.body() else throw ErrorResponse(it.code(), it.message())
@@ -19,135 +15,135 @@ class PokeApiClient(
 
     // region Berries
 
-    override fun getBerryList(offset: Int, limit: Int) = retrofitClient.getBerryList(offset, limit).result()
+    fun getBerryList(offset: Int, limit: Int) = apiCaller.getBerryList(offset, limit).result()
 
-    override fun getBerryFirmnessList(offset: Int, limit: Int) = retrofitClient.getBerryFirmnessList(offset, limit).result()
+    fun getBerryFirmnessList(offset: Int, limit: Int) = apiCaller.getBerryFirmnessList(offset, limit).result()
 
-    override fun getBerryFlavorList(offset: Int, limit: Int) = retrofitClient.getBerryFlavorList(offset, limit).result()
+    fun getBerryFlavorList(offset: Int, limit: Int) = apiCaller.getBerryFlavorList(offset, limit).result()
 
     // endregion Berries
 
     // region Contests
 
-    override fun getContestTypeList(offset: Int, limit: Int) = retrofitClient.getContestTypeList(offset, limit).result()
+    fun getContestTypeList(offset: Int, limit: Int) = apiCaller.getContestTypeList(offset, limit).result()
 
-    override fun getContestEffectList(offset: Int, limit: Int) = retrofitClient.getContestEffectList(offset, limit).result()
+    fun getContestEffectList(offset: Int, limit: Int) = apiCaller.getContestEffectList(offset, limit).result()
 
-    override fun getSuperContestEffectList(offset: Int, limit: Int) = retrofitClient.getSuperContestEffectList(offset, limit).result()
+    fun getSuperContestEffectList(offset: Int, limit: Int) = apiCaller.getSuperContestEffectList(offset, limit).result()
 
     // endregion Contests
 
     // region Encounters
 
-    override fun getEncounterMethodList(offset: Int, limit: Int) = retrofitClient.getEncounterMethodList(offset, limit).result()
+    fun getEncounterMethodList(offset: Int, limit: Int) = apiCaller.getEncounterMethodList(offset, limit).result()
 
-    override fun getEncounterConditionList(offset: Int, limit: Int) = retrofitClient.getEncounterConditionList(offset, limit).result()
+    fun getEncounterConditionList(offset: Int, limit: Int) = apiCaller.getEncounterConditionList(offset, limit).result()
 
-    override fun getEncounterConditionValueList(offset: Int, limit: Int) = retrofitClient.getEncounterConditionValueList(offset, limit).result()
+    fun getEncounterConditionValueList(offset: Int, limit: Int) = apiCaller.getEncounterConditionValueList(offset, limit).result()
 
     // endregion
 
     // region Evolution
 
-    override fun getEvolutionChainList(offset: Int, limit: Int) = retrofitClient.getEvolutionChainList(offset, limit).result()
+    fun getEvolutionChainList(offset: Int, limit: Int) = apiCaller.getEvolutionChainList(offset, limit).result()
 
-    override fun getEvolutionTriggerList(offset: Int, limit: Int) = retrofitClient.getEvolutionTriggerList(offset, limit).result()
+    fun getEvolutionTriggerList(offset: Int, limit: Int) = apiCaller.getEvolutionTriggerList(offset, limit).result()
 
     // endregion
 
     //region Games
 
-    override fun getGenerationList(offset: Int, limit: Int) = retrofitClient.getGenerationList(offset, limit).result()
+    fun getGenerationList(offset: Int, limit: Int) = apiCaller.getGenerationList(offset, limit).result()
 
-    override fun getPokedexList(offset: Int, limit: Int) = retrofitClient.getPokedexList(offset, limit).result()
+    fun getPokedexList(offset: Int, limit: Int) = apiCaller.getPokedexList(offset, limit).result()
 
-    override fun getVersionList(offset: Int, limit: Int) = retrofitClient.getVersionList(offset, limit).result()
+    fun getVersionList(offset: Int, limit: Int) = apiCaller.getVersionList(offset, limit).result()
 
-    override fun getVersionGroupList(offset: Int, limit: Int) = retrofitClient.getVersionGroupList(offset, limit).result()
+    fun getVersionGroupList(offset: Int, limit: Int) = apiCaller.getVersionGroupList(offset, limit).result()
 
     // endregion
 
     // region Items
 
-    override fun getItemList(offset: Int, limit: Int) = retrofitClient.getItemList(offset, limit).result()
+    fun getItemList(offset: Int, limit: Int) = apiCaller.getItemList(offset, limit).result()
 
-    override fun getItemAttributeList(offset: Int, limit: Int) = retrofitClient.getItemAttributeList(offset, limit).result()
+    fun getItemAttributeList(offset: Int, limit: Int) = apiCaller.getItemAttributeList(offset, limit).result()
 
-    override fun getItemCategoryList(offset: Int, limit: Int) = retrofitClient.getItemCategoryList(offset, limit).result()
+    fun getItemCategoryList(offset: Int, limit: Int) = apiCaller.getItemCategoryList(offset, limit).result()
 
-    override fun getItemFlingEffectList(offset: Int, limit: Int) = retrofitClient.getItemFlingEffectList(offset, limit).result()
+    fun getItemFlingEffectList(offset: Int, limit: Int) = apiCaller.getItemFlingEffectList(offset, limit).result()
 
-    override fun getItemPocketList(offset: Int, limit: Int) = retrofitClient.getItemPocketList(offset, limit).result()
+    fun getItemPocketList(offset: Int, limit: Int) = apiCaller.getItemPocketList(offset, limit).result()
 
     // endregion
 
     //region Moves
 
-    override fun getMoveList(offset: Int, limit: Int) = retrofitClient.getMoveList(offset, limit).result()
+    fun getMoveList(offset: Int, limit: Int) = apiCaller.getMoveList(offset, limit).result()
 
-    override fun getMoveAilmentList(offset: Int, limit: Int) = retrofitClient.getMoveAilmentList(offset, limit).result()
+    fun getMoveAilmentList(offset: Int, limit: Int) = apiCaller.getMoveAilmentList(offset, limit).result()
 
-    override fun getMoveBattleStyleList(offset: Int, limit: Int) = retrofitClient.getMoveBattleStyleList(offset, limit).result()
+    fun getMoveBattleStyleList(offset: Int, limit: Int) = apiCaller.getMoveBattleStyleList(offset, limit).result()
 
-    override fun getMoveCategoryList(offset: Int, limit: Int) = retrofitClient.getMoveCategoryList(offset, limit).result()
+    fun getMoveCategoryList(offset: Int, limit: Int) = apiCaller.getMoveCategoryList(offset, limit).result()
 
-    override fun getMoveDamageClassList(offset: Int, limit: Int) = retrofitClient.getMoveDamageClassList(offset, limit).result()
+    fun getMoveDamageClassList(offset: Int, limit: Int) = apiCaller.getMoveDamageClassList(offset, limit).result()
 
-    override fun getMoveLearnMethodList(offset: Int, limit: Int) = retrofitClient.getMoveLearnMethodList(offset, limit).result()
+    fun getMoveLearnMethodList(offset: Int, limit: Int) = apiCaller.getMoveLearnMethodList(offset, limit).result()
 
-    override fun getMoveTargetList(offset: Int, limit: Int) = retrofitClient.getMoveTargetList(offset, limit).result()
+    fun getMoveTargetList(offset: Int, limit: Int) = apiCaller.getMoveTargetList(offset, limit).result()
 
     // endregion
 
     // region Locations
 
-    override fun getLocationList(offset: Int, limit: Int) = retrofitClient.getLocationList(offset, limit).result()
+    fun getLocationList(offset: Int, limit: Int) = apiCaller.getLocationList(offset, limit).result()
 
-    override fun getLocationAreaList(offset: Int, limit: Int) = retrofitClient.getLocationAreaList(offset, limit).result()
+    fun getLocationAreaList(offset: Int, limit: Int) = apiCaller.getLocationAreaList(offset, limit).result()
 
-    override fun getPalParkAreaList(offset: Int, limit: Int) = retrofitClient.getPalParkAreaList(offset, limit).result()
+    fun getPalParkAreaList(offset: Int, limit: Int) = apiCaller.getPalParkAreaList(offset, limit).result()
 
-    override fun getRegionList(offset: Int, limit: Int) = retrofitClient.getRegionList(offset, limit).result()
+    fun getRegionList(offset: Int, limit: Int) = apiCaller.getRegionList(offset, limit).result()
 
     // endregion
 
     // region Pokemon
 
-    override fun getAbilityList(offset: Int, limit: Int) = retrofitClient.getAbilityList(offset, limit).result()
+    fun getAbilityList(offset: Int, limit: Int) = apiCaller.getAbilityList(offset, limit).result()
 
-    override fun getCharacteristicList(offset: Int, limit: Int) = retrofitClient.getCharacteristicList(offset, limit).result()
+    fun getCharacteristicList(offset: Int, limit: Int) = apiCaller.getCharacteristicList(offset, limit).result()
 
-    override fun getEggGroupList(offset: Int, limit: Int) = retrofitClient.getEggGroupList(offset, limit).result()
+    fun getEggGroupList(offset: Int, limit: Int) = apiCaller.getEggGroupList(offset, limit).result()
 
-    override fun getGenderList(offset: Int, limit: Int) = retrofitClient.getGenderList(offset, limit).result()
+    fun getGenderList(offset: Int, limit: Int) = apiCaller.getGenderList(offset, limit).result()
 
-    override fun getGrowthRateList(offset: Int, limit: Int) = retrofitClient.getGrowthRateList(offset, limit).result()
+    fun getGrowthRateList(offset: Int, limit: Int) = apiCaller.getGrowthRateList(offset, limit).result()
 
-    override fun getNatureList(offset: Int, limit: Int) = retrofitClient.getNatureList(offset, limit).result()
+    fun getNatureList(offset: Int, limit: Int) = apiCaller.getNatureList(offset, limit).result()
 
-    override fun getPokeathlonStatList(offset: Int, limit: Int) = retrofitClient.getPokeathlonStatList(offset, limit).result()
+    fun getPokeathlonStatList(offset: Int, limit: Int) = apiCaller.getPokeathlonStatList(offset, limit).result()
 
-    override fun getPokemonList(offset: Int, limit: Int) = retrofitClient.getPokemonList(offset, limit).result()
+    fun getPokemonList(offset: Int, limit: Int) = apiCaller.getPokemonList(offset, limit).result()
 
-    override fun getPokemonColorList(offset: Int, limit: Int) = retrofitClient.getPokemonColorList(offset, limit).result()
+    fun getPokemonColorList(offset: Int, limit: Int) = apiCaller.getPokemonColorList(offset, limit).result()
 
-    override fun getPokemonFormList(offset: Int, limit: Int) = retrofitClient.getPokemonFormList(offset, limit).result()
+    fun getPokemonFormList(offset: Int, limit: Int) = apiCaller.getPokemonFormList(offset, limit).result()
 
-    override fun getPokemonHabitatList(offset: Int, limit: Int) = retrofitClient.getPokemonHabitatList(offset, limit).result()
+    fun getPokemonHabitatList(offset: Int, limit: Int) = apiCaller.getPokemonHabitatList(offset, limit).result()
 
-    override fun getPokemonShapeList(offset: Int, limit: Int) = retrofitClient.getPokemonShapeList(offset, limit).result()
+    fun getPokemonShapeList(offset: Int, limit: Int) = apiCaller.getPokemonShapeList(offset, limit).result()
 
-    override fun getPokemonSpeciesList(offset: Int, limit: Int) = retrofitClient.getPokemonSpeciesList(offset, limit).result()
+    fun getPokemonSpeciesList(offset: Int, limit: Int) = apiCaller.getPokemonSpeciesList(offset, limit).result()
 
-    override fun getStatList(offset: Int, limit: Int) = retrofitClient.getStatList(offset, limit).result()
+    fun getStatList(offset: Int, limit: Int) = apiCaller.getStatList(offset, limit).result()
 
-    override fun getTypeList(offset: Int, limit: Int) = retrofitClient.getTypeList(offset, limit).result()
+    fun getTypeList(offset: Int, limit: Int) = apiCaller.getTypeList(offset, limit).result()
 
     // endregion
 
     // region Utility
 
-    override fun getLanguageList(offset: Int, limit: Int) = retrofitClient.getLanguageList(offset, limit).result()
+    fun getLanguageList(offset: Int, limit: Int) = apiCaller.getLanguageList(offset, limit).result()
 
     // endregion
 
@@ -155,137 +151,137 @@ class PokeApiClient(
 
     // region Berries
 
-    override fun getBerry(id: Int) = retrofitClient.getBerry(id).result()
+    fun getBerry(id: Int) = apiCaller.getBerry(id).result()
 
-    override fun getBerryFirmness(id: Int) = retrofitClient.getBerryFirmness(id).result()
+    fun getBerryFirmness(id: Int) = apiCaller.getBerryFirmness(id).result()
 
-    override fun getBerryFlavor(id: Int) = retrofitClient.getBerryFlavor(id).result()
+    fun getBerryFlavor(id: Int) = apiCaller.getBerryFlavor(id).result()
 
     // endregion Berries
 
     // region Contests
 
-    override fun getContestType(id: Int) = retrofitClient.getContestType(id).result()
+    fun getContestType(id: Int) = apiCaller.getContestType(id).result()
 
-    override fun getContestEffect(id: Int) = retrofitClient.getContestEffect(id).result()
+    fun getContestEffect(id: Int) = apiCaller.getContestEffect(id).result()
 
-    override fun getSuperContestEffect(id: Int) = retrofitClient.getSuperContestEffect(id).result()
+    fun getSuperContestEffect(id: Int) = apiCaller.getSuperContestEffect(id).result()
 
     // endregion Contests
 
     // region Encounters
 
-    override fun getEncounterMethod(id: Int) = retrofitClient.getEncounterMethod(id).result()
+    fun getEncounterMethod(id: Int) = apiCaller.getEncounterMethod(id).result()
 
-    override fun getEncounterCondition(id: Int) = retrofitClient.getEncounterCondition(id).result()
+    fun getEncounterCondition(id: Int) = apiCaller.getEncounterCondition(id).result()
 
-    override fun getEncounterConditionValue(id: Int) = retrofitClient.getEncounterConditionValue(id).result()
+    fun getEncounterConditionValue(id: Int) = apiCaller.getEncounterConditionValue(id).result()
 
     // endregion Contests
 
     // region Evolution
 
-    override fun getEvolutionChain(id: Int) = retrofitClient.getEvolutionChain(id).result()
+    fun getEvolutionChain(id: Int) = apiCaller.getEvolutionChain(id).result()
 
-    override fun getEvolutionTrigger(id: Int) = retrofitClient.getEvolutionTrigger(id).result()
+    fun getEvolutionTrigger(id: Int) = apiCaller.getEvolutionTrigger(id).result()
 
     // endregion Evolution
 
     // region Games
 
-    override fun getGeneration(id: Int) = retrofitClient.getGeneration(id).result()
+    fun getGeneration(id: Int) = apiCaller.getGeneration(id).result()
 
-    override fun getPokedex(id: Int) = retrofitClient.getPokedex(id).result()
+    fun getPokedex(id: Int) = apiCaller.getPokedex(id).result()
 
-    override fun getVersion(id: Int) = retrofitClient.getVersion(id).result()
+    fun getVersion(id: Int) = apiCaller.getVersion(id).result()
 
-    override fun getVersionGroup(id: Int) = retrofitClient.getVersionGroup(id).result()
+    fun getVersionGroup(id: Int) = apiCaller.getVersionGroup(id).result()
 
     // endregion Games
 
     // region Items
 
-    override fun getItem(id: Int) = retrofitClient.getItem(id).result()
+    fun getItem(id: Int) = apiCaller.getItem(id).result()
 
-    override fun getItemAttribute(id: Int) = retrofitClient.getItemAttribute(id).result()
+    fun getItemAttribute(id: Int) = apiCaller.getItemAttribute(id).result()
 
-    override fun getItemCategory(id: Int) = retrofitClient.getItemCategory(id).result()
+    fun getItemCategory(id: Int) = apiCaller.getItemCategory(id).result()
 
-    override fun getItemFlingEffect(id: Int) = retrofitClient.getItemFlingEffect(id).result()
+    fun getItemFlingEffect(id: Int) = apiCaller.getItemFlingEffect(id).result()
 
-    override fun getItemPocket(id: Int) = retrofitClient.getItemPocket(id).result()
+    fun getItemPocket(id: Int) = apiCaller.getItemPocket(id).result()
 
     // endregion Items
 
     // region Moves
 
-    override fun getMove(id: Int) = retrofitClient.getMove(id).result()
+    fun getMove(id: Int) = apiCaller.getMove(id).result()
 
-    override fun getMoveAilment(id: Int) = retrofitClient.getMoveAilment(id).result()
+    fun getMoveAilment(id: Int) = apiCaller.getMoveAilment(id).result()
 
-    override fun getMoveBattleStyle(id: Int) = retrofitClient.getMoveBattleStyle(id).result()
+    fun getMoveBattleStyle(id: Int) = apiCaller.getMoveBattleStyle(id).result()
 
-    override fun getMoveCategory(id: Int) = retrofitClient.getMoveCategory(id).result()
+    fun getMoveCategory(id: Int) = apiCaller.getMoveCategory(id).result()
 
-    override fun getMoveDamageClass(id: Int) = retrofitClient.getMoveDamageClass(id).result()
+    fun getMoveDamageClass(id: Int) = apiCaller.getMoveDamageClass(id).result()
 
-    override fun getMoveLearnMethod(id: Int) = retrofitClient.getMoveLearnMethod(id).result()
+    fun getMoveLearnMethod(id: Int) = apiCaller.getMoveLearnMethod(id).result()
 
-    override fun getMoveTarget(id: Int) = retrofitClient.getMoveTarget(id).result()
+    fun getMoveTarget(id: Int) = apiCaller.getMoveTarget(id).result()
 
     // endregion Moves
 
     // region Locations
 
-    override fun getLocation(id: Int) = retrofitClient.getLocation(id).result()
+    fun getLocation(id: Int) = apiCaller.getLocation(id).result()
 
-    override fun getLocationArea(id: Int) = retrofitClient.getLocationArea(id).result()
+    fun getLocationArea(id: Int) = apiCaller.getLocationArea(id).result()
 
-    override fun getPalParkArea(id: Int) = retrofitClient.getPalParkArea(id).result()
+    fun getPalParkArea(id: Int) = apiCaller.getPalParkArea(id).result()
 
-    override fun getRegion(id: Int) = retrofitClient.getRegion(id).result()
+    fun getRegion(id: Int) = apiCaller.getRegion(id).result()
 
     // endregion Locations
 
     // region Pokemon
 
-    override fun getAbility(id: Int) = retrofitClient.getAbility(id).result()
+    fun getAbility(id: Int) = apiCaller.getAbility(id).result()
 
-    override fun getCharacteristic(id: Int) = retrofitClient.getCharacteristic(id).result()
+    fun getCharacteristic(id: Int) = apiCaller.getCharacteristic(id).result()
 
-    override fun getEggGroup(id: Int) = retrofitClient.getEggGroup(id).result()
+    fun getEggGroup(id: Int) = apiCaller.getEggGroup(id).result()
 
-    override fun getGender(id: Int) = retrofitClient.getGender(id).result()
+    fun getGender(id: Int) = apiCaller.getGender(id).result()
 
-    override fun getGrowthRate(id: Int) = retrofitClient.getGrowthRate(id).result()
+    fun getGrowthRate(id: Int) = apiCaller.getGrowthRate(id).result()
 
-    override fun getNature(id: Int) = retrofitClient.getNature(id).result()
+    fun getNature(id: Int) = apiCaller.getNature(id).result()
 
-    override fun getPokeathlonStat(id: Int) = retrofitClient.getPokeathlonStat(id).result()
+    fun getPokeathlonStat(id: Int) = apiCaller.getPokeathlonStat(id).result()
 
-    override fun getPokemon(id: Int) = retrofitClient.getPokemon(id).result()
+    fun getPokemon(id: Int) = apiCaller.getPokemon(id).result()
 
-    override fun getPokemonEncounters(id: Int) = retrofitClient.getPokemonEncounters(id).result()
+    fun getPokemonEncounters(id: Int) = apiCaller.getPokemonEncounters(id).result()
 
-    override fun getPokemonColor(id: Int) = retrofitClient.getPokemonColor(id).result()
+    fun getPokemonColor(id: Int) = apiCaller.getPokemonColor(id).result()
 
-    override fun getPokemonForm(id: Int) = retrofitClient.getPokemonForm(id).result()
+    fun getPokemonForm(id: Int) = apiCaller.getPokemonForm(id).result()
 
-    override fun getPokemonHabitat(id: Int) = retrofitClient.getPokemonHabitat(id).result()
+    fun getPokemonHabitat(id: Int) = apiCaller.getPokemonHabitat(id).result()
 
-    override fun getPokemonShape(id: Int) = retrofitClient.getPokemonShape(id).result()
+    fun getPokemonShape(id: Int) = apiCaller.getPokemonShape(id).result()
 
-    override fun getPokemonSpecies(id: Int) = retrofitClient.getPokemonSpecies(id).result()
+    fun getPokemonSpecies(id: Int) = apiCaller.getPokemonSpecies(id).result()
 
-    override fun getStat(id: Int) = retrofitClient.getStat(id).result()
+    fun getStat(id: Int) = apiCaller.getStat(id).result()
 
-    override fun getType(id: Int) = retrofitClient.getType(id).result()
+    fun getType(id: Int) = apiCaller.getType(id).result()
 
     // endregion Pokemon
 
     // region Utility
 
-    override fun getLanguage(id: Int) = retrofitClient.getLanguage(id).result()
+    fun getLanguage(id: Int) = apiCaller.getLanguage(id).result()
 
     // endregion Utility
 }
