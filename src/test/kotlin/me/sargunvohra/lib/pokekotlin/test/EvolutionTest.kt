@@ -209,7 +209,7 @@ class EvolutionTest {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(EvolutionDetail(
                         trigger = NamedApiResource("trade", "evolution-trigger", 2),
-                        tradeSpecies= NamedApiResource("karrablast", "pokemon-species", 588)
+                        tradeSpecies = NamedApiResource("karrablast", "pokemon-species", 588)
                 ))
             })
         }
