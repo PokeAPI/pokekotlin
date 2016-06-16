@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+ - Removed workaround for negative IDs since it's now fixed on PokeApi's end
+
 ## 1.2.0
 
  - Removed `Pokemon.locationAreaEncounters: List<LocationAreaEncounter>`
