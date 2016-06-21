@@ -15,8 +15,8 @@ Full documentation coming soon. Meanwhile, look at these usage examples:
 public class Example {
     public static void main(String[] args) {
         PokeApi pokeApi = new PokeApiClient();
-        PokemonSpecies bulbasaur = pokeApi.getPokemonSpecies(1);
-        System.out.println(bulbasaur);
+        PokemonSpecies pokemon = pokeApi.getPokemonSpecies("bulbasaur");
+        System.out.println(pokemon);
     }
 }
 ```
@@ -26,8 +26,8 @@ public class Example {
 ```kotlin
 fun main(args: Array<String>) {
     val pokeApi = PokeApiClient()
-    val bulbasaur = pokeApi.getPokemonSpecies(1)
-    println(bulbasaur)
+    val pokemon = pokeApi.getPokemonSpecies("bulbasaur")
+    println(pokemon)
 }
 ```
 
