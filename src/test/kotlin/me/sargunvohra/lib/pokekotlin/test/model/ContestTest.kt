@@ -1,4 +1,4 @@
-package me.sargunvohra.lib.pokekotlin.test
+package me.sargunvohra.lib.pokekotlin.test.model
 
 import me.sargunvohra.lib.pokekotlin.model.ContestName
 import me.sargunvohra.lib.pokekotlin.model.Effect

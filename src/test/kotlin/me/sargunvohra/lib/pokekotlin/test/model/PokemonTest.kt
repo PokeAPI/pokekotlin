@@ -1,4 +1,4 @@
-package me.sargunvohra.lib.pokekotlin.test
+package me.sargunvohra.lib.pokekotlin.test.model
 
 import me.sargunvohra.lib.pokekotlin.model.*
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
@@ -198,7 +198,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon3() {
-        mockClient.getPokemonEncounters(12).apply {
+        mockClient.getPokemonEncounterList(12).apply {
             assert(find {
                 it.locationArea == NamedApiResource("kanto-route-2-south-towards-viridian-city", "location-area", 296) &&
                         it.versionDetails.find {

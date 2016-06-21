@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-interface ApiCaller {
+interface RetrofitPokeApi {
 
     // region Resource Lists
 
@@ -345,7 +345,7 @@ interface ApiCaller {
     fun getPokemon(@Path("id") id: Int): Call<Pokemon>
 
     @GET("pokemon/{id}/encounters/")
-    fun getPokemonEncounters(@Path("id") id: Int): Call<List<LocationAreaEncounter>>
+    fun getPokemonEncounterList(@Path("id") id: Int): Call<List<LocationAreaEncounter>>
 
     @GET("pokemon-color/{id}/")
     fun getPokemonColor(@Path("id") id: Int): Call<PokemonColor>

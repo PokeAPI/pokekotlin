@@ -1,4 +1,4 @@
-package me.sargunvohra.lib.pokekotlin.test
+package me.sargunvohra.lib.pokekotlin.test.model
 
 import me.sargunvohra.lib.pokekotlin.model.Description
 import me.sargunvohra.lib.pokekotlin.model.Name

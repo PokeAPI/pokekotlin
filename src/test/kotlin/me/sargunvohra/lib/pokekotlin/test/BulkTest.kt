@@ -268,7 +268,7 @@ class BulkTest {
 
     @Test(enabled = enabled)
     fun bulkPokemonEncounters() {
-        runTest1({ o, l -> mockClient.getPokemonList(o, l) }, { i -> mockClient.getPokemonEncounters(i) })
+        runTest1({ o, l -> mockClient.getPokemonList(o, l) }, { i -> mockClient.getPokemonEncounterList(i) })
     }
 
     @Test(enabled = enabled)

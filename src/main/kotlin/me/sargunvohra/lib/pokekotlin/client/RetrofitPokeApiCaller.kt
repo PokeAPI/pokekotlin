@@ -13,9 +13,9 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.jackson.JacksonConverterFactory
 
-class RetrofitApiCaller(
-        val config: ClientConfig = ClientConfig()
-) : ApiCaller by Retrofit.Builder()
+class RetrofitPokeApiCaller(
+        private val config: ClientConfig
+) : RetrofitPokeApi by Retrofit.Builder()
         .baseUrl(config.rootUrl)
         .addConverterFactory(JacksonConverterFactory.create(
                 ObjectMapper().apply {
@@ -31,4 +31,4 @@ class RetrofitApiCaller(
         ))
         .client(OkHttpClient.Builder().(config.okHttpConfig)().build())
         .build()
-        .create(ApiCaller::class.java)
+        .create(RetrofitPokeApi::class.java)

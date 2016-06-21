@@ -3,8 +3,7 @@ package me.sargunvohra.lib.pokekotlin.test.util
 import de.schlichtherle.truezip.file.TFile
 import de.schlichtherle.truezip.file.TFileReader
 import me.sargunvohra.lib.pokekotlin.client.ClientConfig
-import me.sargunvohra.lib.pokekotlin.client.PokeApiClient
-import me.sargunvohra.lib.pokekotlin.client.RetrofitApiCaller
+import me.sargunvohra.lib.pokekotlin.client.PokeApiHttp
 import okhttp3.mockwebserver.Dispatcher
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
@@ -12,7 +11,7 @@ import okhttp3.mockwebserver.RecordedRequest
 import okio.Buffer
 import java.nio.charset.Charset
 
-val mockClient = PokeApiClient(RetrofitApiCaller(ClientConfig(MockServer.url)))
+val mockClient = PokeApiHttp(ClientConfig(MockServer.url))
 
 object MockServer {
 

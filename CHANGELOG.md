@@ -4,6 +4,7 @@
 
  - Redesigned how the client instance is obtained
  - Changed packaging structure
+ - Changed some class names
 
 ## 1.2.1
 
