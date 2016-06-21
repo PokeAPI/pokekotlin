@@ -14,7 +14,7 @@ private fun urlToCat(url: String): String {
     return "\\/[a-z\\-]+\\/-?[0-9]+\\/$".toRegex().find(url)!!.value.filter { it.isLetter() || it == '-' }
 }
 
-class ApiResourceAdapter : JsonDeserializer<ApiResource>() {
+internal class ApiResourceAdapter : JsonDeserializer<ApiResource>() {
 
     data class Json(val url: String)
 
@@ -24,7 +24,7 @@ class ApiResourceAdapter : JsonDeserializer<ApiResource>() {
     }
 }
 
-class NamedApiResourceAdapter : JsonDeserializer<NamedApiResource>() {
+internal class NamedApiResourceAdapter : JsonDeserializer<NamedApiResource>() {
 
     data class Json(val name: String, val url: String)
 

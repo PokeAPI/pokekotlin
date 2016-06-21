@@ -1,13 +1,13 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import me.sargunvohra.lib.pokekotlin.client.PokeApiHttp
+import me.sargunvohra.lib.pokekotlin.client.PokeApiClient
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.testng.annotations.Test
 import kotlin.test.assertEquals
 
 class LiveTest {
 
-    val liveClient = PokeApiHttp()
+    val liveClient = PokeApiClient()
 
     @Test(enabled = false)
     fun liveObject() {

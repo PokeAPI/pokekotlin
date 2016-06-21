@@ -13,9 +13,9 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.jackson.JacksonConverterFactory
 
-class RetrofitPokeApiCaller(
+internal class PokeApiServiceClient(
         private val config: ClientConfig
-) : RetrofitPokeApi by Retrofit.Builder()
+) : PokeApiService by Retrofit.Builder()
         .baseUrl(config.rootUrl)
         .addConverterFactory(JacksonConverterFactory.create(
                 ObjectMapper().apply {
@@ -31,4 +31,4 @@ class RetrofitPokeApiCaller(
         ))
         .client(OkHttpClient.Builder().(config.okHttpConfig)().build())
         .build()
-        .create(RetrofitPokeApi::class.java)
+        .create(PokeApiService::class.java)

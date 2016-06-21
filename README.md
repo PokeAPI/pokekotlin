@@ -14,7 +14,7 @@ Full documentation coming soon. Meanwhile, look at these usage examples:
 ```java
 public class Example {
     public static void main(String[] args) {
-        PokeApi pokeApi = new PokeApiHttp();
+        PokeApi pokeApi = new PokeApiClient();
         PokemonSpecies bulbasaur = pokeApi.getPokemonSpecies(1);
         System.out.println(bulbasaur);
     }
@@ -25,7 +25,7 @@ public class Example {
 
 ```kotlin
 fun main(args: Array<String>) {
-    val pokeApi = PokeApiHttp()
+    val pokeApi = PokeApiClient()
     val bulbasaur = pokeApi.getPokemonSpecies(1)
     println(bulbasaur)
 }
