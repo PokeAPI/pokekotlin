@@ -2,9 +2,10 @@
 
 ## 2.0.0
 
- - Redesigned how the client instance is obtained
- - Changed packaging structure
- - Changed some class names
+ - Changed how the client instance is obtained
+ - Added the ability to get resources by name
+ - Changed some class names and package structure
+ - Stopped exposing some internal implementation details
 
 ## 1.2.1
 
