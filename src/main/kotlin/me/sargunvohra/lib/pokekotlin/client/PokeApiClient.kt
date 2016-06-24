@@ -6,7 +6,7 @@ class PokeApiClient(
         private val clientConfig: ClientConfig = ClientConfig()
 ) : PokeApi {
 
-    private val service: PokeApiService = PokeApiServiceClient(clientConfig)
+    private val service = PokeApiServiceImpl(clientConfig)
 
     private fun <T> Call<T>.result(): T {
         return execute().let {

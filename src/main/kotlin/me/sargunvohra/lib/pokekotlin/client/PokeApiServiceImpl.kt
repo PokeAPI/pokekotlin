@@ -13,7 +13,7 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.jackson.JacksonConverterFactory
 
-internal class PokeApiServiceClient(
+internal class PokeApiServiceImpl(
         private val config: ClientConfig
 ) : PokeApiService by Retrofit.Builder()
         .baseUrl(config.rootUrl)
