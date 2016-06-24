@@ -1,0 +1,63 @@
+package me.sargunvohra.lib.pokekotlin.test
+
+import com.fasterxml.jackson.module.kotlin.*
+import me.sargunvohra.lib.pokekotlin.client.PokeApi
+import me.sargunvohra.lib.pokekotlin.test.util.MockServer
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.junit.Test
+import kotlin.reflect.declaredMemberFunctions
+import kotlin.test.assertEquals
+
+class EndpointTest {
+
+    private val httpClient = OkHttpClient()
+
+    private val objectMapper = jacksonObjectMapper()
+
+    @Test
+    fun checkAllEndpoints() {
+        // call the mock API to get a list of resource endpoints
+
+        val json = httpClient
+                .newCall(Request.Builder()
+                        .get()
+                        .url(MockServer.url)
+                        .build())
+                .execute()
+                .body()
+                .string()
+
+        // parse the expected resources using the list
+
+        val expectedSingleResources = objectMapper
+                .readValue<Map<String, String>>(json)
+                .keys
+                .map { endpoint ->
+                    endpoint.split('-')
+                            .map { it.capitalize() }
+                            .joinToString(separator = "")
+                }
+                .toSet()
+
+        val expectedListResources = expectedSingleResources
+                .map { it + "List" }
+                .toSet() + "PokemonEncounterList"
+
+        // use reflection to determine the actual resources in the client
+
+        val actualResources = PokeApi::class
+                .declaredMemberFunctions
+                .map { it.name.removePrefix("get") }
+                .groupBy { it.endsWith("List") }
+
+        val actualSingleResources = actualResources[false]!!.toSet()
+
+        val actualListResources = actualResources[true]!!.toSet()
+
+        // make sure the resources in the client match the ones in the API
+
+        assertEquals(expectedSingleResources, actualSingleResources)
+        assertEquals(expectedListResources, actualListResources)
+    }
+}

@@ -1,6 +1,6 @@
-import com.beust.kobalt.*
 import com.beust.kobalt.plugin.packaging.assemble
 import com.beust.kobalt.plugin.publish.bintray
+import com.beust.kobalt.project
 
 object Versions {
     val kotlin = "1.0.2"
@@ -17,7 +17,7 @@ val p = project {
     name = "pokekotlin"
     group = "me.sargunvohra.lib"
     artifactId = name
-    version = "1.2.1"
+    version = "2.0.0"
 
     sourceDirectories {
         path("src/main/kotlin")
