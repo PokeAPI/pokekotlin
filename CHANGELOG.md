@@ -1,9 +1,13 @@
 # Changelog
 
+## 2.1.0
+
+ - `ApiResource` and `NamedApiResource` implement `ResourceSummary`
+ - `ApiResourceList` and `NamedApiResourceList` implement `ResourceSummaryList`
+
 ## 2.0.0
 
  - Changed how the client instance is obtained
- - Added the ability to get resources by name
  - Changed some class names and package structure
  - Stopped exposing some internal implementation details
 
