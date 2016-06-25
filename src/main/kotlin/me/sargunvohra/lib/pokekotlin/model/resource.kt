@@ -6,14 +6,14 @@ interface ResourceSummary {
 }
 
 data class ApiResource(
-        override val id: Int,
-        override val category: String
+        override val category: String,
+        override val id: Int
 ) : ResourceSummary
 
 data class NamedApiResource(
-        override val id: Int,
+        val name: String,
         override val category: String,
-        val name: String
+        override val id: Int
 ) : ResourceSummary
 
 interface ResourceSummaryList<T : ResourceSummary> {
