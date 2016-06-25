@@ -17,7 +17,7 @@ val p = project {
     name = "pokekotlin"
     group = "me.sargunvohra.lib"
     artifactId = name
-    version = "2.0.0"
+    version = "2.1.0"
 
     sourceDirectories {
         path("src/main/kotlin")
