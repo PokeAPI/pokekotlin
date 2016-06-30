@@ -3,11 +3,11 @@ import com.beust.kobalt.plugin.publish.bintray
 import com.beust.kobalt.project
 
 object Versions {
-    val kotlin = "1.0.2"
-    val retrofit = "2.0.2"
+    val kotlin = "1.0.3"
+    val retrofit = "2.1.0"
     val testNg = "6.9.10"
-    val jacksonModuleKotlin = "2.7.1-2"
-    val okHttp = "3.2.0"
+    val jacksonModuleKotlin = "2.7.5"
+    val okHttp = "3.3.1"
     val trueZip = "7.7.9"
 }
 
