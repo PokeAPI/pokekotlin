@@ -55,6 +55,7 @@ val core = project {
 val skaffold = project(core) {
 
     name = "pokekotlin-skaffold"
+    group = "me.sargunvohra.lib"
     artifactId = name
     version = Versions.pokekotlin
     directory = name
@@ -68,6 +69,10 @@ val skaffold = project(core) {
     assemble {
         jar {}
         mavenJars {}
+    }
+    
+    bintray {
+        publish = true
     }
 
 }
