@@ -1,31 +1,29 @@
 import com.beust.kobalt.plugin.packaging.assemble
 import com.beust.kobalt.plugin.publish.bintray
 import com.beust.kobalt.project
+import com.beust.kobalt.repos
 
 object Versions {
+    val pokekotlin = "2.1.0"
     val kotlin = "1.0.3"
     val retrofit = "2.1.0"
     val testNg = "6.9.10"
     val jacksonModuleKotlin = "2.7.5"
     val okHttp = "3.3.1"
     val trueZip = "7.7.9"
+    val skaffold = "f6ab11f"
 }
 
+val repos = repos("https://jitpack.io")
+
 @Suppress("unused")
-val p = project {
+val core = project {
 
     name = "pokekotlin"
     group = "me.sargunvohra.lib"
     artifactId = name
-    version = "2.1.0"
-
-    sourceDirectories {
-        path("src/main/kotlin")
-    }
-
-    sourceDirectoriesTest {
-        path("src/test/kotlin")
-    }
+    version = Versions.pokekotlin
+    directory = name
 
     dependencies {
         compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
@@ -51,4 +49,25 @@ val p = project {
     bintray {
         publish = true
     }
+}
+
+@Suppress("unused")
+val skaffold = project(core) {
+
+    name = "pokekotlin-skaffold"
+    artifactId = name
+    version = Versions.pokekotlin
+    directory = name
+
+    dependencies {
+        compile("com.github.pokesource.skaffold:skaffold-data:${Versions.skaffold}")
+    }
+
+    dependenciesTest {}
+
+    assemble {
+        jar {}
+        mavenJars {}
+    }
+
 }
