@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0
+
+ - Support for [Skaffold](https://github.com/pokesource/skaffold) data sources
+
 ## 2.1.0
 
  - `ApiResource` and `NamedApiResource` implement `ResourceSummary`

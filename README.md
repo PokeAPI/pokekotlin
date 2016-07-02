@@ -39,7 +39,7 @@ PokeKotlin is available from the JCenter repository.
 
 ```groovy
 dependencies {
-    compile 'me.sargunvohra.lib:pokekotlin:2.1.0'
+    compile 'me.sargunvohra.lib:pokekotlin:2.2.0'
 }
 ```
 
@@ -48,7 +48,7 @@ dependencies {
 ```kotlin
 val p = project {
     dependencies {
-        compile("me.sargunvohra.lib:pokekotlin:2.1.0")
+        compile("me.sargunvohra.lib:pokekotlin:2.2.0")
     }
 }
 ```
