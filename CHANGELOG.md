@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.3
+
+ - Fix pokekotlin-skaffold to pokekotlin dependency
+
 ## 2.2.2
 
  - Switch to GSON because Jackson was bloating the method count
