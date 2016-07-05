@@ -16,7 +16,7 @@ data class NamedApiResource(
         override val id: Int
 ) : ResourceSummary
 
-interface ResourceSummaryList<T : ResourceSummary> {
+interface ResourceSummaryList<out T : ResourceSummary> {
     val count: Int
     val next: String?
     val previous: String?

@@ -4,16 +4,16 @@ import com.beust.kobalt.project
 import com.beust.kobalt.repos
 
 object Versions {
-    val pokekotlin = "2.2.1"
+    val pokekotlin = "2.2.2"
     val kotlin = "1.0.3"
     val retrofit = "2.1.0"
     val testNg = "6.9.10"
-    val jacksonModuleKotlin = "2.7.5"
     val okHttp = "3.3.1"
     val trueZip = "7.7.9"
     val skaffold = "f6ab11f"
 }
 
+@Suppress("unused")
 val repos = repos("https://jitpack.io")
 
 @Suppress("unused")
@@ -28,8 +28,7 @@ val core = project {
     dependencies {
         compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
         compile("com.squareup.retrofit2:retrofit:${Versions.retrofit}")
-        compile("com.squareup.retrofit2:converter-jackson:${Versions.retrofit}")
-        compile("com.fasterxml.jackson.module:jackson-module-kotlin:${Versions.jacksonModuleKotlin}")
+        compile("com.squareup.retrofit2:converter-gson:${Versions.retrofit}")
     }
 
     dependenciesTest {

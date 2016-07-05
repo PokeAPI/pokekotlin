@@ -1,6 +1,6 @@
 package me.sargunvohra.lib.pokekotlin.model
 
-import com.fasterxml.jackson.annotation.JsonProperty
+import com.google.gson.annotations.SerializedName
 
 data class Move(
         val id: Int,
@@ -27,9 +27,9 @@ data class Move(
 )
 
 data class ContestComboSets(
-        @JsonProperty("normal")
+        @SerializedName("normal")
         val normalSet: ContestComboDetail,
-        @JsonProperty("super")
+        @SerializedName("super")
         val superSet: ContestComboDetail
 )
 
