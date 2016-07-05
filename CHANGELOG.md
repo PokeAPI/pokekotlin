@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.2
+
+ - Switch to GSON because Jackson was bloating the method count
+
 ## 2.2.1
 
  - Fix a dependency typo

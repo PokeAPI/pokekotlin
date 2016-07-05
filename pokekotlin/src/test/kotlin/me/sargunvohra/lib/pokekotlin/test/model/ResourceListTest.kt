@@ -11,7 +11,7 @@ import kotlin.test.assertNotEquals
 
 class ResourceListTest {
 
-    final val pageSize = 50
+    val pageSize = 50
 
     fun test(category: String, id: Int, name: String, call: () -> NamedApiResourceList) {
         call().apply {

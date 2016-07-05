@@ -19,7 +19,7 @@ object MockServer {
 
     private val server = MockWebServer()
 
-    val url = server.url("/api/v2/")
+    val url = server.url("/api/v2/")!!
 
     init {
         // disable MockWebServer logging

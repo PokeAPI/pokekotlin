@@ -1,11 +1,12 @@
 package me.sargunvohra.lib.pokekotlin.test
 
-import com.fasterxml.jackson.module.kotlin.*
+import com.google.gson.Gson
 import me.sargunvohra.lib.pokekotlin.client.PokeApi
 import me.sargunvohra.lib.pokekotlin.test.util.MockServer
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.junit.Test
+import org.testng.annotations.Test
+import java.util.*
 import kotlin.reflect.declaredMemberFunctions
 import kotlin.test.assertEquals
 
@@ -13,7 +14,7 @@ class EndpointTest {
 
     private val httpClient = OkHttpClient()
 
-    private val objectMapper = jacksonObjectMapper()
+    private val objectMapper = Gson()
 
     @Test
     fun checkAllEndpoints() {
@@ -30,15 +31,17 @@ class EndpointTest {
 
         // parse the expected resources using the list
 
-        val expectedSingleResources = objectMapper
-                .readValue<Map<String, String>>(json)
-                .keys
-                .map { endpoint ->
-                    endpoint.split('-')
-                            .map { it.capitalize() }
-                            .joinToString(separator = "")
-                }
-                .toSet()
+        val expectedSingleResources = with(objectMapper) {
+            @Suppress("UNCHECKED_CAST")
+            (fromJson(json, HashMap::class.java) as HashMap<String, String>)
+                    .keys
+                    .map { endpoint ->
+                        endpoint.split('-')
+                                .map { it.capitalize() }
+                                .joinToString(separator = "")
+                    }
+                    .toSet()
+        }
 
         val expectedListResources = expectedSingleResources
                 .map { it + "List" }
