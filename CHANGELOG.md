@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.4
+
+ - Update Kobalt to fix an issue with the POM
+
 ## 2.2.3
 
  - Fix pokekotlin-skaffold to pokekotlin dependency
