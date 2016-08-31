@@ -5,7 +5,7 @@ import me.sargunvohra.lib.pokekotlin.model.ApiResourceList
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResourceList
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
-import org.testng.annotations.Test
+import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 

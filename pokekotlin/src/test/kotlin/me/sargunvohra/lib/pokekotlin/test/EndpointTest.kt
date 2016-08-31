@@ -5,7 +5,7 @@ import me.sargunvohra.lib.pokekotlin.client.PokeApi
 import me.sargunvohra.lib.pokekotlin.test.util.MockServer
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.testng.annotations.Test
+import org.junit.Test
 import java.util.*
 import kotlin.reflect.declaredMemberFunctions
 import kotlin.test.assertEquals

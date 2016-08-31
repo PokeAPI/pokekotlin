@@ -2,7 +2,7 @@ package me.sargunvohra.lib.pokekotlin.test.model
 
 import me.sargunvohra.lib.pokekotlin.model.*
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
-import org.testng.annotations.Test
+import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 
