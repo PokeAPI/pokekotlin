@@ -2,7 +2,7 @@ package me.sargunvohra.lib.pokekotlin.test.model
 
 import me.sargunvohra.lib.pokekotlin.model.*
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
-import org.testng.annotations.Test
+import org.junit.Test
 import kotlin.test.assertEquals
 
 class PokemonTest {
@@ -340,6 +340,11 @@ class PokemonTest {
                     isDefault = true,
                     pokemon = NamedApiResource("bulbasaur", "pokemon", 1)
             ) in varieties)
+            assert(PokemonSpeciesFlavorText(
+                    flavorText = "Bulbasaur can be seen napping in bright sunlight.\nThere is a seed on its back. By soaking up the sun\u2019s rays,\nthe seed grows progressively larger.",
+                    language = NamedApiResource("en", "language", 9),
+                    version = NamedApiResource("alpha-sapphire", "version", 26)
+            ) in flavorTextEntries)
         }
     }
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.3.0
+
+ - Add model `PokemonSpeciesFlavorText`
+ - Add property `flavorTextEntries` to model `PokemonSpecies`
+
 ## 2.2.4
 
  - Update Kobalt to fix an issue with the POM

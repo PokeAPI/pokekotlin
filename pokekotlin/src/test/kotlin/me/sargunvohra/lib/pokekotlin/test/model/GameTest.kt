@@ -5,7 +5,7 @@ import me.sargunvohra.lib.pokekotlin.model.Name
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import me.sargunvohra.lib.pokekotlin.model.PokemonEntry
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
-import org.testng.annotations.Test
+import org.junit.Test
 import kotlin.test.assertEquals
 
 class GameTest {

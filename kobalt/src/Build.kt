@@ -2,15 +2,16 @@ import com.beust.kobalt.plugin.packaging.assemble
 import com.beust.kobalt.plugin.publish.bintray
 import com.beust.kobalt.project
 import com.beust.kobalt.repos
+import com.beust.kobalt.test
 
 object Versions {
-    val pokekotlin = "2.2.4"
+    val pokekotlin = "2.3.0"
     val kotlin = "1.0.3"
     val retrofit = "2.1.0"
-    val testNg = "6.9.10"
-    val okHttp = "3.3.1"
+    val junit = "4.12"
+    val okHttp = "3.4.1"
     val trueZip = "7.7.9"
-    val skaffold = "f6ab11f"
+    val skaffold = "7898fae"
 }
 
 @Suppress("unused")
@@ -34,10 +35,13 @@ val core = project {
     dependenciesTest {
         compile("org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}")
         compile("org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlin}")
-        compile("org.testng:testng:${Versions.testNg}")
+        compile("junit:junit:${Versions.junit}")
         compile("com.squareup.okhttp3:mockwebserver:${Versions.okHttp}")
         compile("de.schlichtherle.truezip:truezip-file:${Versions.trueZip}")
         compile("de.schlichtherle.truezip:truezip-driver-zip:${Versions.trueZip}")
+    }
+
+    test {
     }
 
     assemble {
