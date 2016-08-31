@@ -255,7 +255,14 @@ data class PokemonSpecies(
         val palParkEncounters: List<PalParkEncounterArea>,
         val formDescriptions: List<Description>,
         val genera: List<Genus>,
-        val varieties: List<PokemonSpeciesVariety>
+        val varieties: List<PokemonSpeciesVariety>,
+        val flavorTextEntries: List<PokemonSpeciesFlavorText>
+)
+
+data class PokemonSpeciesFlavorText(
+        val flavorText: String,
+        val language: NamedApiResource,
+        val version: NamedApiResource
 )
 
 data class Genus(

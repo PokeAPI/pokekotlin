@@ -7,10 +7,10 @@ object Versions {
     val pokekotlin = "2.2.4"
     val kotlin = "1.0.3"
     val retrofit = "2.1.0"
-    val testNg = "6.9.10"
-    val okHttp = "3.3.1"
+    val testNg = "6.9.12"
+    val okHttp = "3.4.1"
     val trueZip = "7.7.9"
-    val skaffold = "f6ab11f"
+    val skaffold = "7898fae"
 }
 
 @Suppress("unused")
