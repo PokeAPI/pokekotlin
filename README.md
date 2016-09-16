@@ -67,11 +67,13 @@ val p = project {
             <url>http://jcenter.bintray.com</url>
         </repository>
     </repositories>
-    <dependency>
-        <groupId>me.sargunvohra.lib</groupId>
-        <artifactId>pokekotlin</artifactId>
-        <version>2.3.0</version>
-        <type>jar</type>
-    </dependency>
+    <dependencies>
+        <dependency>
+            <groupId>me.sargunvohra.lib</groupId>
+            <artifactId>pokekotlin</artifactId>
+            <version>2.3.0</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>
 ```
