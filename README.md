@@ -38,6 +38,9 @@ PokeKotlin is available from the JCenter repository.
 ### Gradle
 
 ```groovy
+repositories {
+    maven { url 'http://jcenter.bintray.com' }
+}
 dependencies {
     compile 'me.sargunvohra.lib:pokekotlin:2.3.0'
 }
@@ -51,4 +54,24 @@ val p = project {
         compile("me.sargunvohra.lib:pokekotlin:2.3.0")
     }
 }
+```
+
+### Maven
+
+```xml
+<project>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>bintray</name>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
+    <dependency>
+        <groupId>me.sargunvohra.lib</groupId>
+        <artifactId>pokekotlin</artifactId>
+        <version>2.3.0</version>
+        <type>jar</type>
+    </dependency>
+</project>
 ```
