@@ -30,6 +30,7 @@ val core = project {
         compile("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
         compile("com.squareup.retrofit2:retrofit:${Versions.retrofit}")
         compile("com.squareup.retrofit2:converter-gson:${Versions.retrofit}")
+        compile("com.squareup.retrofit2:adapter-rxjava:${Versions.retrofit}")
     }
 
     dependenciesTest {
