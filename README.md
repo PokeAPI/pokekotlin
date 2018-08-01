@@ -42,7 +42,7 @@ repositories {
     maven { url 'http://jcenter.bintray.com' }
 }
 dependencies {
-    compile 'me.sargunvohra.lib:pokekotlin:2.3.0'
+    implementation 'me.sargunvohra.lib:pokekotlin:2.3.0'
 }
 ```
 
