@@ -3,6 +3,8 @@
 
 # PokeKotlin
 
+Maintainer: [sargunv](https://github.com/sargunv)
+
 This is a Java (and Kotlin, Scala, etc) client for [PokeApi](https://github.com/PokeAPI/pokeapi). It's written in Kotlin.
 
 ## Example
