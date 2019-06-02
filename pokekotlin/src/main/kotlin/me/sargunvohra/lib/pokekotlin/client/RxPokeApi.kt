@@ -177,6 +177,8 @@ interface RxPokeApi {
 
     fun getPokemon(id: Int): Observable<Pokemon>
 
+    fun getPokemon(name: String): Observable<Pokemon>
+
     fun getPokemonEncounterList(id: Int): Observable<List<LocationAreaEncounter>>
 
     fun getPokemonColor(id: Int): Observable<PokemonColor>

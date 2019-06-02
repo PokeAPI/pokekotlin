@@ -256,6 +256,8 @@ class RxPokeApiClient(
 
     override fun getPokemon(id: Int) = service.getPokemon(id)
 
+    override fun getPokemon(name: String) = service.getPokemon(name)
+
     override fun getPokemonEncounterList(id: Int) = service.getPokemonEncounterList(id)
 
     override fun getPokemonColor(id: Int) = service.getPokemonColor(id)

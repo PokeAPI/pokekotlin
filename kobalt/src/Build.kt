@@ -5,7 +5,7 @@ import com.beust.kobalt.repos
 import com.beust.kobalt.test
 
 object Versions {
-    val pokekotlin = "2.3.0"
+    val pokekotlin = "2.3.1"
     val kotlin = "1.0.3"
     val retrofit = "2.1.0"
     val junit = "4.12"

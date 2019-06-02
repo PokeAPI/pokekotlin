@@ -264,6 +264,8 @@ class PokeApiClient(
 
     override fun getPokemon(id: Int) = service.getPokemon(id).result()
 
+    override fun getPokemon(name: String) = service.getPokemon(name).result()
+
     override fun getPokemonEncounterList(id: Int) = service.getPokemonEncounterList(id).result()
 
     override fun getPokemonColor(id: Int) = service.getPokemonColor(id).result()

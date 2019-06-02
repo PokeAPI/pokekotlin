@@ -344,6 +344,9 @@ internal interface RxPokeApiService {
     @GET("pokemon/{id}/")
     fun getPokemon(@Path("id") id: Int): Observable<Pokemon>
 
+    @GET("pokemon/{name}/")
+    fun getPokemon(@Path("name") name: String): Observable<Pokemon>
+
     @GET("pokemon/{id}/encounters/")
     fun getPokemonEncounterList(@Path("id") id: Int): Observable<List<LocationAreaEncounter>>
 
