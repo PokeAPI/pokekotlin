@@ -4,6 +4,7 @@
 
  - Update dependencies
  - Publish on GitHub Packages since Bintray can't be relied on
+ - Make `ItemSprites.default` nullable
 
 ## 2.3.0
 
