@@ -1,5 +1,7 @@
-[![Build](https://img.shields.io/github/workflow/status/pokeapi/pokekotlin/Java%20CI%20with%20Gradle?style=flat-square)][Build]
-[![JitPack](https://img.shields.io/jitpack/v/github/PokeAPI/pokekotlin?style=flat-square)][Jitpack]
+[![JitPack](https://img.shields.io/jitpack/v/github/PokeAPI/pokekotlin)](https://jitpack.io/#PokeAPI/pokekotlin/)
+[![License](https://img.shields.io/github/license/PokeAPI/pokekotlin)](https://github.com/PokeAPI/pokekotlin/blob/master/LICENSE)
+[![Build](https://img.shields.io/github/workflow/status/pokeapi/pokekotlin/Java%20CI%20with%20Gradle)](https://github.com/PokeAPI/pokekotlin/actions?query=workflow%3A%22Java+CI+with+Gradle%22)
+[![Codecov](https://img.shields.io/codecov/c/github/PokeAPI/pokekotlin)](https://codecov.io/gh/PokeAPI/pokekotlin)
 
 # PokeKotlin
 
@@ -46,6 +48,3 @@ dependencies {
     implementation 'com.github.PokeAPI:pokekotlin:<VERSION>'
 }
 ```
-
-[Build]: https://github.com/PokeAPI/pokekotlin/actions?query=workflow%3A%22Java+CI+with+Gradle%22
-[Jitpack]: https://jitpack.io/#PokeAPI/pokekotlin/
