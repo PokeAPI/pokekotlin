@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.3.70"
+    jacoco
     id("maven-publish")
 }
 
@@ -21,8 +22,6 @@ dependencies {
     testImplementation(kotlin("reflect"))
     testImplementation("junit:junit:4.13")
     testImplementation("com.squareup.okhttp3:mockwebserver:3.14.8")
-    testImplementation("de.schlichtherle.truezip:truezip-file:7.7.10")
-    testImplementation("de.schlichtherle.truezip:truezip-driver-zip:7.7.10")
 }
 
 publishing {
@@ -41,5 +40,21 @@ publishing {
         register("gpr", MavenPublication::class) {
             from(components["java"])
         }
+    }
+}
+
+jacoco {
+    toolVersion = "0.8.5"
+}
+
+tasks.test {
+    finalizedBy(tasks.jacocoTestReport)
+}
+
+tasks.jacocoTestReport {
+    reports {
+        xml.isEnabled = true
+        csv.isEnabled = true
+        html.isEnabled = true
     }
 }
