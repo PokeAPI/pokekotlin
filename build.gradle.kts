@@ -30,7 +30,7 @@ publishing {
         mavenLocal()
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/")
+            url = uri("https://maven.pkg.github.com/pokeapi")
             credentials {
                 username = project.findProperty("gpr.user") as String? ?: System.getenv("GH_USERNAME")
                 password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
