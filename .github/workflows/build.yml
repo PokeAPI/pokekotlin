@@ -25,4 +25,4 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build --info
       - name: Upload coverage report to Codecov
-      - uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v1
