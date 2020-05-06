@@ -1,13 +1,13 @@
 package me.sargunvohra.lib.pokekotlin.test.model
 
+import kotlin.test.assertEquals
+import kotlin.test.assertNotEquals
 import me.sargunvohra.lib.pokekotlin.model.ApiResource
 import me.sargunvohra.lib.pokekotlin.model.ApiResourceList
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResourceList
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.junit.Test
-import kotlin.test.assertEquals
-import kotlin.test.assertNotEquals
 
 class ResourceListTest {
 

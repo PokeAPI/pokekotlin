@@ -1,10 +1,18 @@
 package me.sargunvohra.lib.pokekotlin.test.model
 
-import me.sargunvohra.lib.pokekotlin.model.*
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
-import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
+import me.sargunvohra.lib.pokekotlin.model.ApiResource
+import me.sargunvohra.lib.pokekotlin.model.Description
+import me.sargunvohra.lib.pokekotlin.model.Effect
+import me.sargunvohra.lib.pokekotlin.model.GenerationGameIndex
+import me.sargunvohra.lib.pokekotlin.model.ItemHolderPokemonVersionDetail
+import me.sargunvohra.lib.pokekotlin.model.Name
+import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.model.VerboseEffect
+import me.sargunvohra.lib.pokekotlin.model.VersionGroupFlavorText
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import org.junit.Test
 
 class ItemTest {
 
@@ -17,24 +25,32 @@ class ItemTest {
             assertEquals(30, flingPower)
             assert(NamedApiResource("holdable", "item-attribute", 5) in attributes)
             assertEquals(NamedApiResource("status-cures", "item-category", 30), category)
-            assert(VerboseEffect(
+            assert(
+                VerboseEffect(
                     effect = "Used on a party Pokémon\n:   Cures freezing.",
                     shortEffect = "Cures freezing.",
                     language = NamedApiResource("en", "language", 9)
-            ) in effectEntries)
-            assert(VersionGroupFlavorText(
+                ) in effectEntries
+            )
+            assert(
+                VersionGroupFlavorText(
                     text = "Defrosts a frozen\nPOKéMON.",
                     versionGroup = NamedApiResource("ruby-sapphire", "version-group", 5),
                     language = NamedApiResource("en", "language", 9)
-            ) in flavorTextEntries)
-            assert(GenerationGameIndex(
+                ) in flavorTextEntries
+            )
+            assert(
+                GenerationGameIndex(
                     gameIndex = 20,
                     generation = NamedApiResource("generation-vi", "generation", 6)
-            ) in gameIndices)
-            assert(Name(
+                ) in gameIndices
+            )
+            assert(
+                Name(
                     name = "Ice Heal",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
 
             assertEquals(emptyList(), heldByPokemon)
             assertEquals(null, flingEffect)
@@ -48,10 +64,12 @@ class ItemTest {
         mockClient.getItem(33).apply {
             assertNotEquals(null, heldByPokemon.find {
                 it.pokemon == NamedApiResource("miltank", "pokemon", 241) &&
-                        it.versionDetails.contains(ItemHolderPokemonVersionDetail(
-                                rarity = 100,
-                                version = NamedApiResource("y", "version", 24)
-                        ))
+                    it.versionDetails.contains(
+                        ItemHolderPokemonVersionDetail(
+                            rarity = 100,
+                            version = NamedApiResource("y", "version", 24)
+                        )
+                    )
             })
         }
     }
@@ -80,15 +98,19 @@ class ItemTest {
         mockClient.getItemAttribute(3).apply {
             assertEquals(3, id)
             assertEquals("usable-overworld", name)
-            assert(Description(
+            assert(
+                Description(
                     description = "Usable outside battle",
                     language = NamedApiResource("en", "language", 9)
-            ) in descriptions)
+                ) in descriptions
+            )
             assert(NamedApiResource("potion", "item", 17) in items)
-            assert(Name(
+            assert(
+                Name(
                     name = "Usable_overworld",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
         }
     }
 
@@ -99,10 +121,12 @@ class ItemTest {
             assertEquals("standard-balls", name)
             assertEquals(NamedApiResource("pokeballs", "item-pocket", 3), pocket)
             assert(NamedApiResource("poke-ball", "item", 4) in items)
-            assert(Name(
+            assert(
+                Name(
                     name = "Standard balls",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
         }
     }
 
@@ -111,10 +135,12 @@ class ItemTest {
         mockClient.getItemFlingEffect(1).apply {
             assertEquals(1, id)
             assertEquals("badly-poison", name)
-            assert(Effect(
+            assert(
+                Effect(
                     effect = "Badly poisons the target.",
                     language = NamedApiResource("en", "language", 9)
-            ) in effectEntries)
+                ) in effectEntries
+            )
             assert(NamedApiResource("toxic-orb", "item", 249) in items)
         }
     }
@@ -125,10 +151,12 @@ class ItemTest {
             assertEquals(4, id)
             assertEquals("machines", name)
             assert(NamedApiResource("all-machines", "item-category", 37) in categories)
-            assert(Name(
+            assert(
+                Name(
                     name = "TMs and HMs",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
         }
     }
 }

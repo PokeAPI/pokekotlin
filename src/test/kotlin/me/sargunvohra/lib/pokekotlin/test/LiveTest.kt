@@ -1,10 +1,10 @@
 package me.sargunvohra.lib.pokekotlin.test
 
+import kotlin.test.assertEquals
 import me.sargunvohra.lib.pokekotlin.client.PokeApiClient
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.junit.Ignore
 import org.junit.Test
-import kotlin.test.assertEquals
 
 @Ignore
 class LiveTest {
@@ -18,6 +18,9 @@ class LiveTest {
 
     @Test
     fun liveList() {
-        assertEquals(liveClient.getMoveList(0, 50).results[25], liveClient.getMoveList(25, 50).results[0])
+        assertEquals(
+            liveClient.getMoveList(0, 50).results[25],
+            liveClient.getMoveList(25, 50).results[0]
+        )
     }
 }

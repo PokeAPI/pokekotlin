@@ -1,10 +1,20 @@
 package me.sargunvohra.lib.pokekotlin.test.model
 
-import me.sargunvohra.lib.pokekotlin.model.*
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
-import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
+import me.sargunvohra.lib.pokekotlin.model.ApiResource
+import me.sargunvohra.lib.pokekotlin.model.ContestComboDetail
+import me.sargunvohra.lib.pokekotlin.model.ContestComboSets
+import me.sargunvohra.lib.pokekotlin.model.Description
+import me.sargunvohra.lib.pokekotlin.model.Effect
+import me.sargunvohra.lib.pokekotlin.model.MoveMetaData
+import me.sargunvohra.lib.pokekotlin.model.MoveStatChange
+import me.sargunvohra.lib.pokekotlin.model.Name
+import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
+import me.sargunvohra.lib.pokekotlin.model.PastMoveStatValues
+import me.sargunvohra.lib.pokekotlin.model.VerboseEffect
+import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import org.junit.Test
 
 class MoveTest {
 
@@ -23,14 +33,18 @@ class MoveTest {
             assertEquals(ApiResource("contest-effect", 4), contestEffect)
             assertEquals(ApiResource("super-contest-effect", 5), superContestEffect)
             assertEquals(NamedApiResource("physical", "move-damage-class", 2), damageClass)
-            assert(VerboseEffect(
-                    effect = "Inflicts regular damage.  Has a \$effect_chance% chance to paralyze the target.",
+            assert(
+                VerboseEffect(
+                    effect = "Inflicts regular damage.  Has a \$effect_chance% chance to paralyze" +
+                        " the target.",
                     shortEffect = "Has a \$effect_chance% chance to paralyze the target.",
                     language = NamedApiResource("en", "language", 9)
-            ) in effectEntries)
+                ) in effectEntries
+            )
             assertEquals(emptyList(), effectChanges)
             assertEquals(NamedApiResource("generation-i", "generation", 1), generation)
-            assertEquals(MoveMetaData(
+            assertEquals(
+                MoveMetaData(
                     ailment = NamedApiResource("paralysis", "move-ailment", 1),
                     category = NamedApiResource("damage+ailment", "move-category", 4),
                     minHits = null,
@@ -43,11 +57,14 @@ class MoveTest {
                     ailmentChance = 30,
                     flinchChance = 0,
                     statChance = 0
-            ), meta)
-            assert(Name(
+                ), meta
+            )
+            assert(
+                Name(
                     name = "Body Slam",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
             assertEquals(emptyList(), pastValues)
             assertEquals(emptyList(), statChanges)
             assertEquals(NamedApiResource("selected-pokemon", "move-target", 10), target)
@@ -58,10 +75,15 @@ class MoveTest {
     @Test
     fun getMove2() {
         mockClient.getMove(400).apply {
-            assertEquals(ContestComboSets(
+            assertEquals(
+                ContestComboSets(
                     normalSet = ContestComboDetail(null, null),
-                    superSet = ContestComboDetail(null, listOf(NamedApiResource("focus-energy", "move", 116)))
-            ), contestCombos)
+                    superSet = ContestComboDetail(
+                        null,
+                        listOf(NamedApiResource("focus-energy", "move", 116))
+                    )
+                ), contestCombos
+            )
         }
     }
 
@@ -70,10 +92,10 @@ class MoveTest {
         mockClient.getMove(16).apply {
             assertNotNull(effectChanges.find {
                 it.versionGroup == NamedApiResource("gold-silver", "version-group", 3) &&
-                        Effect(
-                                effect = "Does not hit Pokémon under the effects of fly.",
-                                language = NamedApiResource("en", "language", 9)
-                        ) in it.effectEntries
+                    Effect(
+                        effect = "Does not hit Pokémon under the effects of fly.",
+                        language = NamedApiResource("en", "language", 9)
+                    ) in it.effectEntries
             })
         }
     }
@@ -81,17 +103,20 @@ class MoveTest {
     @Test
     fun getMove4() {
         mockClient.getMove(14).apply {
-            assert(MoveStatChange(
+            assert(
+                MoveStatChange(
                     change = 2,
                     stat = NamedApiResource("attack", "stat", 2)
-            ) in statChanges)
+                ) in statChanges
+            )
         }
     }
 
     @Test
     fun getMove5() {
         mockClient.getMove(2).apply {
-            assert(PastMoveStatValues(
+            assert(
+                PastMoveStatValues(
                     accuracy = null,
                     power = null,
                     pp = null,
@@ -99,7 +124,8 @@ class MoveTest {
                     effectEntries = emptyList(),
                     type = NamedApiResource("normal", "type", 1),
                     versionGroup = NamedApiResource("gold-silver", "version-group", 3)
-            ) in pastValues)
+                ) in pastValues
+            )
         }
     }
 
@@ -108,10 +134,12 @@ class MoveTest {
         mockClient.getMoveAilment(1).apply {
             assertEquals(1, id)
             assertEquals("paralysis", name)
-            assert(Name(
+            assert(
+                Name(
                     name = "Paralysis",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
             assert(NamedApiResource("stun-spore", "move", 78) in moves)
         }
     }
@@ -121,10 +149,12 @@ class MoveTest {
         mockClient.getMoveBattleStyle(1).apply {
             assertEquals(1, id)
             assertEquals("attack", name)
-            assert(Name(
+            assert(
+                Name(
                     name = "Attack",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
         }
     }
 
@@ -133,10 +163,12 @@ class MoveTest {
         mockClient.getMoveCategory(1).apply {
             assertEquals(1, id)
             assertEquals("ailment", name)
-            assert(Description(
+            assert(
+                Description(
                     description = "No damage; inflicts status ailment",
                     language = NamedApiResource("en", "language", 9)
-            ) in descriptions)
+                ) in descriptions
+            )
             assert(NamedApiResource("sing", "move", 47) in moves)
         }
     }
@@ -146,14 +178,18 @@ class MoveTest {
         mockClient.getMoveDamageClass(1).apply {
             assertEquals(1, id)
             assertEquals("status", name)
-            assert(Name(
+            assert(
+                Name(
                     name = "status",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
-            assert(Description(
+                ) in names
+            )
+            assert(
+                Description(
                     description = "No damage",
                     language = NamedApiResource("en", "language", 9)
-            ) in descriptions)
+                ) in descriptions
+            )
             assert(NamedApiResource("snatch", "move", 289) in moves)
         }
     }
@@ -163,14 +199,20 @@ class MoveTest {
         mockClient.getMoveLearnMethod(10).apply {
             assertEquals(10, id)
             assertEquals("form-change", name)
-            assert(Name(
+            assert(
+                Name(
                     name = "Form Change",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
-            assert(Description(
-                    description = "Appears when Rotom or Cosplay Pikachu changes form.  Disappears if the Pokémon becomes another form and this move can only be learned by form change.",
+                ) in names
+            )
+            assert(
+                Description(
+                    description = "Appears when Rotom or Cosplay Pikachu changes form.  " +
+                        "Disappears if the Pokémon becomes another form and this move can only " +
+                        "be learned by form change.",
                     language = NamedApiResource("en", "language", 9)
-            ) in descriptions)
+                ) in descriptions
+            )
             assert(NamedApiResource("x-y", "version-group", 15) in versionGroups)
         }
     }
@@ -180,14 +222,18 @@ class MoveTest {
         mockClient.getMoveTarget(8).apply {
             assertEquals(8, id)
             assertEquals("random-opponent", name)
-            assert(Name(
+            assert(
+                Name(
                     name = "Random opponent",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
-            assert(Description(
+                ) in names
+            )
+            assert(
+                Description(
                     description = "One opposing Pokémon, selected at random.",
                     language = NamedApiResource("en", "language", 9)
-            ) in descriptions)
+                ) in descriptions
+            )
             assert(NamedApiResource("uproar", "move", 253) in moves)
         }
     }
