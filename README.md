@@ -48,16 +48,6 @@ dependencies {
 }
 ```
 
-### Kobalt
-
-```kotlin
-val p = project {
-    dependencies {
-        compile("me.sargunvohra.lib:pokekotlin:2.3.0")
-    }
-}
-```
-
 ### Maven
 
 ```xml

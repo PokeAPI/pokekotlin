@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.3.1
+
+ - Update dependencies
+ - Publish on GitHub Packages since Bintray can't be relied on
+
 ## 2.3.0
 
  - Add model `PokemonSpeciesFlavorText`
