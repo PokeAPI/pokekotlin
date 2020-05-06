@@ -1,12 +1,12 @@
 package me.sargunvohra.lib.pokekotlin.test.model
 
+import kotlin.test.assertEquals
 import me.sargunvohra.lib.pokekotlin.model.ContestName
 import me.sargunvohra.lib.pokekotlin.model.Effect
 import me.sargunvohra.lib.pokekotlin.model.FlavorText
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class ContestTest {
 

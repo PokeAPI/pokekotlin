@@ -3,6 +3,12 @@ package me.sargunvohra.lib.pokekotlin.test.util
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
+import java.io.File
+import java.io.FileReader
+import java.nio.charset.Charset
+import java.nio.file.Paths
+import java.util.logging.Level
+import java.util.logging.LogManager
 import me.sargunvohra.lib.pokekotlin.client.ClientConfig
 import me.sargunvohra.lib.pokekotlin.client.PokeApiClient
 import okhttp3.mockwebserver.Dispatcher
@@ -10,12 +16,6 @@ import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import okio.Buffer
-import java.io.File
-import java.io.FileReader
-import java.nio.charset.Charset
-import java.nio.file.Paths
-import java.util.logging.Level
-import java.util.logging.LogManager
 
 val mockClient = PokeApiClient(ClientConfig(MockServer.url))
 

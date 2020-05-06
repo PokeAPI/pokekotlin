@@ -1,11 +1,11 @@
 package me.sargunvohra.lib.pokekotlin.test.model
 
+import kotlin.test.assertEquals
 import me.sargunvohra.lib.pokekotlin.model.FlavorBerryMap
 import me.sargunvohra.lib.pokekotlin.model.Name
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class BerryTest {
 

@@ -1,7 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.client
 
 class RxPokeApiClient(
-        private val clientConfig: ClientConfig = ClientConfig()
+    private val clientConfig: ClientConfig = ClientConfig()
 ) : RxPokeApi {
 
     private val service = RxPokeApiServiceImpl(clientConfig)
@@ -12,49 +12,61 @@ class RxPokeApiClient(
 
     override fun getBerryList(offset: Int, limit: Int) = service.getBerryList(offset, limit)
 
-    override fun getBerryFirmnessList(offset: Int, limit: Int) = service.getBerryFirmnessList(offset, limit)
+    override fun getBerryFirmnessList(offset: Int, limit: Int) =
+        service.getBerryFirmnessList(offset, limit)
 
-    override fun getBerryFlavorList(offset: Int, limit: Int) = service.getBerryFlavorList(offset, limit)
+    override fun getBerryFlavorList(offset: Int, limit: Int) =
+        service.getBerryFlavorList(offset, limit)
 
     // endregion Berries
 
     // region Contests
 
-    override fun getContestTypeList(offset: Int, limit: Int) = service.getContestTypeList(offset, limit)
+    override fun getContestTypeList(offset: Int, limit: Int) =
+        service.getContestTypeList(offset, limit)
 
-    override fun getContestEffectList(offset: Int, limit: Int) = service.getContestEffectList(offset, limit)
+    override fun getContestEffectList(offset: Int, limit: Int) =
+        service.getContestEffectList(offset, limit)
 
-    override fun getSuperContestEffectList(offset: Int, limit: Int) = service.getSuperContestEffectList(offset, limit)
+    override fun getSuperContestEffectList(offset: Int, limit: Int) =
+        service.getSuperContestEffectList(offset, limit)
 
     // endregion Contests
 
     // region Encounters
 
-    override fun getEncounterMethodList(offset: Int, limit: Int) = service.getEncounterMethodList(offset, limit)
+    override fun getEncounterMethodList(offset: Int, limit: Int) =
+        service.getEncounterMethodList(offset, limit)
 
-    override fun getEncounterConditionList(offset: Int, limit: Int) = service.getEncounterConditionList(offset, limit)
+    override fun getEncounterConditionList(offset: Int, limit: Int) =
+        service.getEncounterConditionList(offset, limit)
 
-    override fun getEncounterConditionValueList(offset: Int, limit: Int) = service.getEncounterConditionValueList(offset, limit)
+    override fun getEncounterConditionValueList(offset: Int, limit: Int) =
+        service.getEncounterConditionValueList(offset, limit)
 
     // endregion
 
     // region Evolution
 
-    override fun getEvolutionChainList(offset: Int, limit: Int) = service.getEvolutionChainList(offset, limit)
+    override fun getEvolutionChainList(offset: Int, limit: Int) =
+        service.getEvolutionChainList(offset, limit)
 
-    override fun getEvolutionTriggerList(offset: Int, limit: Int) = service.getEvolutionTriggerList(offset, limit)
+    override fun getEvolutionTriggerList(offset: Int, limit: Int) =
+        service.getEvolutionTriggerList(offset, limit)
 
     // endregion
 
     //region Games
 
-    override fun getGenerationList(offset: Int, limit: Int) = service.getGenerationList(offset, limit)
+    override fun getGenerationList(offset: Int, limit: Int) =
+        service.getGenerationList(offset, limit)
 
     override fun getPokedexList(offset: Int, limit: Int) = service.getPokedexList(offset, limit)
 
     override fun getVersionList(offset: Int, limit: Int) = service.getVersionList(offset, limit)
 
-    override fun getVersionGroupList(offset: Int, limit: Int) = service.getVersionGroupList(offset, limit)
+    override fun getVersionGroupList(offset: Int, limit: Int) =
+        service.getVersionGroupList(offset, limit)
 
     // endregion
 
@@ -62,13 +74,17 @@ class RxPokeApiClient(
 
     override fun getItemList(offset: Int, limit: Int) = service.getItemList(offset, limit)
 
-    override fun getItemAttributeList(offset: Int, limit: Int) = service.getItemAttributeList(offset, limit)
+    override fun getItemAttributeList(offset: Int, limit: Int) =
+        service.getItemAttributeList(offset, limit)
 
-    override fun getItemCategoryList(offset: Int, limit: Int) = service.getItemCategoryList(offset, limit)
+    override fun getItemCategoryList(offset: Int, limit: Int) =
+        service.getItemCategoryList(offset, limit)
 
-    override fun getItemFlingEffectList(offset: Int, limit: Int) = service.getItemFlingEffectList(offset, limit)
+    override fun getItemFlingEffectList(offset: Int, limit: Int) =
+        service.getItemFlingEffectList(offset, limit)
 
-    override fun getItemPocketList(offset: Int, limit: Int) = service.getItemPocketList(offset, limit)
+    override fun getItemPocketList(offset: Int, limit: Int) =
+        service.getItemPocketList(offset, limit)
 
     // endregion
 
@@ -76,17 +92,23 @@ class RxPokeApiClient(
 
     override fun getMoveList(offset: Int, limit: Int) = service.getMoveList(offset, limit)
 
-    override fun getMoveAilmentList(offset: Int, limit: Int) = service.getMoveAilmentList(offset, limit)
+    override fun getMoveAilmentList(offset: Int, limit: Int) =
+        service.getMoveAilmentList(offset, limit)
 
-    override fun getMoveBattleStyleList(offset: Int, limit: Int) = service.getMoveBattleStyleList(offset, limit)
+    override fun getMoveBattleStyleList(offset: Int, limit: Int) =
+        service.getMoveBattleStyleList(offset, limit)
 
-    override fun getMoveCategoryList(offset: Int, limit: Int) = service.getMoveCategoryList(offset, limit)
+    override fun getMoveCategoryList(offset: Int, limit: Int) =
+        service.getMoveCategoryList(offset, limit)
 
-    override fun getMoveDamageClassList(offset: Int, limit: Int) = service.getMoveDamageClassList(offset, limit)
+    override fun getMoveDamageClassList(offset: Int, limit: Int) =
+        service.getMoveDamageClassList(offset, limit)
 
-    override fun getMoveLearnMethodList(offset: Int, limit: Int) = service.getMoveLearnMethodList(offset, limit)
+    override fun getMoveLearnMethodList(offset: Int, limit: Int) =
+        service.getMoveLearnMethodList(offset, limit)
 
-    override fun getMoveTargetList(offset: Int, limit: Int) = service.getMoveTargetList(offset, limit)
+    override fun getMoveTargetList(offset: Int, limit: Int) =
+        service.getMoveTargetList(offset, limit)
 
     // endregion
 
@@ -94,9 +116,11 @@ class RxPokeApiClient(
 
     override fun getLocationList(offset: Int, limit: Int) = service.getLocationList(offset, limit)
 
-    override fun getLocationAreaList(offset: Int, limit: Int) = service.getLocationAreaList(offset, limit)
+    override fun getLocationAreaList(offset: Int, limit: Int) =
+        service.getLocationAreaList(offset, limit)
 
-    override fun getPalParkAreaList(offset: Int, limit: Int) = service.getPalParkAreaList(offset, limit)
+    override fun getPalParkAreaList(offset: Int, limit: Int) =
+        service.getPalParkAreaList(offset, limit)
 
     override fun getRegionList(offset: Int, limit: Int) = service.getRegionList(offset, limit)
 
@@ -106,29 +130,37 @@ class RxPokeApiClient(
 
     override fun getAbilityList(offset: Int, limit: Int) = service.getAbilityList(offset, limit)
 
-    override fun getCharacteristicList(offset: Int, limit: Int) = service.getCharacteristicList(offset, limit)
+    override fun getCharacteristicList(offset: Int, limit: Int) =
+        service.getCharacteristicList(offset, limit)
 
     override fun getEggGroupList(offset: Int, limit: Int) = service.getEggGroupList(offset, limit)
 
     override fun getGenderList(offset: Int, limit: Int) = service.getGenderList(offset, limit)
 
-    override fun getGrowthRateList(offset: Int, limit: Int) = service.getGrowthRateList(offset, limit)
+    override fun getGrowthRateList(offset: Int, limit: Int) =
+        service.getGrowthRateList(offset, limit)
 
     override fun getNatureList(offset: Int, limit: Int) = service.getNatureList(offset, limit)
 
-    override fun getPokeathlonStatList(offset: Int, limit: Int) = service.getPokeathlonStatList(offset, limit)
+    override fun getPokeathlonStatList(offset: Int, limit: Int) =
+        service.getPokeathlonStatList(offset, limit)
 
     override fun getPokemonList(offset: Int, limit: Int) = service.getPokemonList(offset, limit)
 
-    override fun getPokemonColorList(offset: Int, limit: Int) = service.getPokemonColorList(offset, limit)
+    override fun getPokemonColorList(offset: Int, limit: Int) =
+        service.getPokemonColorList(offset, limit)
 
-    override fun getPokemonFormList(offset: Int, limit: Int) = service.getPokemonFormList(offset, limit)
+    override fun getPokemonFormList(offset: Int, limit: Int) =
+        service.getPokemonFormList(offset, limit)
 
-    override fun getPokemonHabitatList(offset: Int, limit: Int) = service.getPokemonHabitatList(offset, limit)
+    override fun getPokemonHabitatList(offset: Int, limit: Int) =
+        service.getPokemonHabitatList(offset, limit)
 
-    override fun getPokemonShapeList(offset: Int, limit: Int) = service.getPokemonShapeList(offset, limit)
+    override fun getPokemonShapeList(offset: Int, limit: Int) =
+        service.getPokemonShapeList(offset, limit)
 
-    override fun getPokemonSpeciesList(offset: Int, limit: Int) = service.getPokemonSpeciesList(offset, limit)
+    override fun getPokemonSpeciesList(offset: Int, limit: Int) =
+        service.getPokemonSpeciesList(offset, limit)
 
     override fun getStatList(offset: Int, limit: Int) = service.getStatList(offset, limit)
 
@@ -280,4 +312,3 @@ class RxPokeApiClient(
 
     // endregion Utility
 }
-

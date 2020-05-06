@@ -1,7 +1,8 @@
 plugins {
     kotlin("jvm") version "1.3.70"
-    jacoco
     id("maven-publish")
+    jacoco
+    id("org.jlleitschuh.gradle.ktlint") version "9.2.1"
 }
 
 group = "me.sargunvohra.lib"
@@ -31,8 +32,10 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/pokeapi/pokekotlin")
             credentials {
-                username = project.findProperty("gpr.user") as String? ?: System.getenv("GH_USERNAME")
-                password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
+                username = project.findProperty("gpr.user") as String?
+                    ?: System.getenv("GH_USERNAME")
+                password = project.findProperty("gpr.key") as String?
+                    ?: System.getenv("GH_TOKEN")
             }
         }
     }

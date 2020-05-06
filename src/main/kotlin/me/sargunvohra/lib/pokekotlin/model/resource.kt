@@ -6,14 +6,14 @@ interface ResourceSummary {
 }
 
 data class ApiResource(
-        override val category: String,
-        override val id: Int
+    override val category: String,
+    override val id: Int
 ) : ResourceSummary
 
 data class NamedApiResource(
-        val name: String,
-        override val category: String,
-        override val id: Int
+    val name: String,
+    override val category: String,
+    override val id: Int
 ) : ResourceSummary
 
 interface ResourceSummaryList<out T : ResourceSummary> {
@@ -24,15 +24,15 @@ interface ResourceSummaryList<out T : ResourceSummary> {
 }
 
 data class ApiResourceList(
-        override val count: Int,
-        override val next: String?,
-        override val previous: String?,
-        override val results: List<ApiResource>
+    override val count: Int,
+    override val next: String?,
+    override val previous: String?,
+    override val results: List<ApiResource>
 ) : ResourceSummaryList<ApiResource>
 
 data class NamedApiResourceList(
-        override val count: Int,
-        override val next: String?,
-        override val previous: String?,
-        override val results: List<NamedApiResource>
+    override val count: Int,
+    override val next: String?,
+    override val previous: String?,
+    override val results: List<NamedApiResource>
 ) : ResourceSummaryList<NamedApiResource>

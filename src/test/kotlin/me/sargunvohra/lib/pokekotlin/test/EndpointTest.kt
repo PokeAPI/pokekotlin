@@ -1,14 +1,14 @@
 package me.sargunvohra.lib.pokekotlin.test
 
 import com.google.gson.Gson
+import kotlin.collections.HashMap
+import kotlin.reflect.full.declaredMemberFunctions
+import kotlin.test.assertEquals
 import me.sargunvohra.lib.pokekotlin.client.PokeApi
 import me.sargunvohra.lib.pokekotlin.test.util.MockServer
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.junit.Test
-import kotlin.collections.HashMap
-import kotlin.reflect.full.declaredMemberFunctions
-import kotlin.test.assertEquals
 
 class EndpointTest {
 

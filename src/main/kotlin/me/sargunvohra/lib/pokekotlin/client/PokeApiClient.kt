@@ -3,7 +3,7 @@ package me.sargunvohra.lib.pokekotlin.client
 import retrofit2.Call
 
 class PokeApiClient(
-        clientConfig: ClientConfig = ClientConfig()
+    clientConfig: ClientConfig = ClientConfig()
 ) : PokeApi {
 
     private val service = PokeApiServiceImpl(clientConfig)
@@ -18,51 +18,66 @@ class PokeApiClient(
 
     // region Berries
 
-    override fun getBerryList(offset: Int, limit: Int) = service.getBerryList(offset, limit).result()
+    override fun getBerryList(offset: Int, limit: Int) =
+        service.getBerryList(offset, limit).result()
 
-    override fun getBerryFirmnessList(offset: Int, limit: Int) = service.getBerryFirmnessList(offset, limit).result()
+    override fun getBerryFirmnessList(offset: Int, limit: Int) =
+        service.getBerryFirmnessList(offset, limit).result()
 
-    override fun getBerryFlavorList(offset: Int, limit: Int) = service.getBerryFlavorList(offset, limit).result()
+    override fun getBerryFlavorList(offset: Int, limit: Int) =
+        service.getBerryFlavorList(offset, limit).result()
 
     // endregion Berries
 
     // region Contests
 
-    override fun getContestTypeList(offset: Int, limit: Int) = service.getContestTypeList(offset, limit).result()
+    override fun getContestTypeList(offset: Int, limit: Int) =
+        service.getContestTypeList(offset, limit).result()
 
-    override fun getContestEffectList(offset: Int, limit: Int) = service.getContestEffectList(offset, limit).result()
+    override fun getContestEffectList(offset: Int, limit: Int) =
+        service.getContestEffectList(offset, limit).result()
 
-    override fun getSuperContestEffectList(offset: Int, limit: Int) = service.getSuperContestEffectList(offset, limit).result()
+    override fun getSuperContestEffectList(offset: Int, limit: Int) =
+        service.getSuperContestEffectList(offset, limit).result()
 
     // endregion Contests
 
     // region Encounters
 
-    override fun getEncounterMethodList(offset: Int, limit: Int) = service.getEncounterMethodList(offset, limit).result()
+    override fun getEncounterMethodList(offset: Int, limit: Int) =
+        service.getEncounterMethodList(offset, limit).result()
 
-    override fun getEncounterConditionList(offset: Int, limit: Int) = service.getEncounterConditionList(offset, limit).result()
+    override fun getEncounterConditionList(offset: Int, limit: Int) =
+        service.getEncounterConditionList(offset, limit).result()
 
-    override fun getEncounterConditionValueList(offset: Int, limit: Int) = service.getEncounterConditionValueList(offset, limit).result()
+    override fun getEncounterConditionValueList(offset: Int, limit: Int) =
+        service.getEncounterConditionValueList(offset, limit).result()
 
     // endregion
 
     // region Evolution
 
-    override fun getEvolutionChainList(offset: Int, limit: Int) = service.getEvolutionChainList(offset, limit).result()
+    override fun getEvolutionChainList(offset: Int, limit: Int) =
+        service.getEvolutionChainList(offset, limit).result()
 
-    override fun getEvolutionTriggerList(offset: Int, limit: Int) = service.getEvolutionTriggerList(offset, limit).result()
+    override fun getEvolutionTriggerList(offset: Int, limit: Int) =
+        service.getEvolutionTriggerList(offset, limit).result()
 
     // endregion
 
     //region Games
 
-    override fun getGenerationList(offset: Int, limit: Int) = service.getGenerationList(offset, limit).result()
+    override fun getGenerationList(offset: Int, limit: Int) =
+        service.getGenerationList(offset, limit).result()
 
-    override fun getPokedexList(offset: Int, limit: Int) = service.getPokedexList(offset, limit).result()
+    override fun getPokedexList(offset: Int, limit: Int) =
+        service.getPokedexList(offset, limit).result()
 
-    override fun getVersionList(offset: Int, limit: Int) = service.getVersionList(offset, limit).result()
+    override fun getVersionList(offset: Int, limit: Int) =
+        service.getVersionList(offset, limit).result()
 
-    override fun getVersionGroupList(offset: Int, limit: Int) = service.getVersionGroupList(offset, limit).result()
+    override fun getVersionGroupList(offset: Int, limit: Int) =
+        service.getVersionGroupList(offset, limit).result()
 
     // endregion
 
@@ -70,13 +85,17 @@ class PokeApiClient(
 
     override fun getItemList(offset: Int, limit: Int) = service.getItemList(offset, limit).result()
 
-    override fun getItemAttributeList(offset: Int, limit: Int) = service.getItemAttributeList(offset, limit).result()
+    override fun getItemAttributeList(offset: Int, limit: Int) =
+        service.getItemAttributeList(offset, limit).result()
 
-    override fun getItemCategoryList(offset: Int, limit: Int) = service.getItemCategoryList(offset, limit).result()
+    override fun getItemCategoryList(offset: Int, limit: Int) =
+        service.getItemCategoryList(offset, limit).result()
 
-    override fun getItemFlingEffectList(offset: Int, limit: Int) = service.getItemFlingEffectList(offset, limit).result()
+    override fun getItemFlingEffectList(offset: Int, limit: Int) =
+        service.getItemFlingEffectList(offset, limit).result()
 
-    override fun getItemPocketList(offset: Int, limit: Int) = service.getItemPocketList(offset, limit).result()
+    override fun getItemPocketList(offset: Int, limit: Int) =
+        service.getItemPocketList(offset, limit).result()
 
     // endregion
 
@@ -84,59 +103,82 @@ class PokeApiClient(
 
     override fun getMoveList(offset: Int, limit: Int) = service.getMoveList(offset, limit).result()
 
-    override fun getMoveAilmentList(offset: Int, limit: Int) = service.getMoveAilmentList(offset, limit).result()
+    override fun getMoveAilmentList(offset: Int, limit: Int) =
+        service.getMoveAilmentList(offset, limit).result()
 
-    override fun getMoveBattleStyleList(offset: Int, limit: Int) = service.getMoveBattleStyleList(offset, limit).result()
+    override fun getMoveBattleStyleList(offset: Int, limit: Int) =
+        service.getMoveBattleStyleList(offset, limit).result()
 
-    override fun getMoveCategoryList(offset: Int, limit: Int) = service.getMoveCategoryList(offset, limit).result()
+    override fun getMoveCategoryList(offset: Int, limit: Int) =
+        service.getMoveCategoryList(offset, limit).result()
 
-    override fun getMoveDamageClassList(offset: Int, limit: Int) = service.getMoveDamageClassList(offset, limit).result()
+    override fun getMoveDamageClassList(offset: Int, limit: Int) =
+        service.getMoveDamageClassList(offset, limit).result()
 
-    override fun getMoveLearnMethodList(offset: Int, limit: Int) = service.getMoveLearnMethodList(offset, limit).result()
+    override fun getMoveLearnMethodList(offset: Int, limit: Int) =
+        service.getMoveLearnMethodList(offset, limit).result()
 
-    override fun getMoveTargetList(offset: Int, limit: Int) = service.getMoveTargetList(offset, limit).result()
+    override fun getMoveTargetList(offset: Int, limit: Int) =
+        service.getMoveTargetList(offset, limit).result()
 
     // endregion
 
     // region Locations
 
-    override fun getLocationList(offset: Int, limit: Int) = service.getLocationList(offset, limit).result()
+    override fun getLocationList(offset: Int, limit: Int) =
+        service.getLocationList(offset, limit).result()
 
-    override fun getLocationAreaList(offset: Int, limit: Int) = service.getLocationAreaList(offset, limit).result()
+    override fun getLocationAreaList(offset: Int, limit: Int) =
+        service.getLocationAreaList(offset, limit).result()
 
-    override fun getPalParkAreaList(offset: Int, limit: Int) = service.getPalParkAreaList(offset, limit).result()
+    override fun getPalParkAreaList(offset: Int, limit: Int) =
+        service.getPalParkAreaList(offset, limit).result()
 
-    override fun getRegionList(offset: Int, limit: Int) = service.getRegionList(offset, limit).result()
+    override fun getRegionList(offset: Int, limit: Int) =
+        service.getRegionList(offset, limit).result()
 
     // endregion
 
     // region Pokemon
 
-    override fun getAbilityList(offset: Int, limit: Int) = service.getAbilityList(offset, limit).result()
+    override fun getAbilityList(offset: Int, limit: Int) =
+        service.getAbilityList(offset, limit).result()
 
-    override fun getCharacteristicList(offset: Int, limit: Int) = service.getCharacteristicList(offset, limit).result()
+    override fun getCharacteristicList(offset: Int, limit: Int) =
+        service.getCharacteristicList(offset, limit).result()
 
-    override fun getEggGroupList(offset: Int, limit: Int) = service.getEggGroupList(offset, limit).result()
+    override fun getEggGroupList(offset: Int, limit: Int) =
+        service.getEggGroupList(offset, limit).result()
 
-    override fun getGenderList(offset: Int, limit: Int) = service.getGenderList(offset, limit).result()
+    override fun getGenderList(offset: Int, limit: Int) =
+        service.getGenderList(offset, limit).result()
 
-    override fun getGrowthRateList(offset: Int, limit: Int) = service.getGrowthRateList(offset, limit).result()
+    override fun getGrowthRateList(offset: Int, limit: Int) =
+        service.getGrowthRateList(offset, limit).result()
 
-    override fun getNatureList(offset: Int, limit: Int) = service.getNatureList(offset, limit).result()
+    override fun getNatureList(offset: Int, limit: Int) =
+        service.getNatureList(offset, limit).result()
 
-    override fun getPokeathlonStatList(offset: Int, limit: Int) = service.getPokeathlonStatList(offset, limit).result()
+    override fun getPokeathlonStatList(offset: Int, limit: Int) =
+        service.getPokeathlonStatList(offset, limit).result()
 
-    override fun getPokemonList(offset: Int, limit: Int) = service.getPokemonList(offset, limit).result()
+    override fun getPokemonList(offset: Int, limit: Int) =
+        service.getPokemonList(offset, limit).result()
 
-    override fun getPokemonColorList(offset: Int, limit: Int) = service.getPokemonColorList(offset, limit).result()
+    override fun getPokemonColorList(offset: Int, limit: Int) =
+        service.getPokemonColorList(offset, limit).result()
 
-    override fun getPokemonFormList(offset: Int, limit: Int) = service.getPokemonFormList(offset, limit).result()
+    override fun getPokemonFormList(offset: Int, limit: Int) =
+        service.getPokemonFormList(offset, limit).result()
 
-    override fun getPokemonHabitatList(offset: Int, limit: Int) = service.getPokemonHabitatList(offset, limit).result()
+    override fun getPokemonHabitatList(offset: Int, limit: Int) =
+        service.getPokemonHabitatList(offset, limit).result()
 
-    override fun getPokemonShapeList(offset: Int, limit: Int) = service.getPokemonShapeList(offset, limit).result()
+    override fun getPokemonShapeList(offset: Int, limit: Int) =
+        service.getPokemonShapeList(offset, limit).result()
 
-    override fun getPokemonSpeciesList(offset: Int, limit: Int) = service.getPokemonSpeciesList(offset, limit).result()
+    override fun getPokemonSpeciesList(offset: Int, limit: Int) =
+        service.getPokemonSpeciesList(offset, limit).result()
 
     override fun getStatList(offset: Int, limit: Int) = service.getStatList(offset, limit).result()
 
@@ -146,7 +188,8 @@ class PokeApiClient(
 
     // region Utility
 
-    override fun getLanguageList(offset: Int, limit: Int) = service.getLanguageList(offset, limit).result()
+    override fun getLanguageList(offset: Int, limit: Int) =
+        service.getLanguageList(offset, limit).result()
 
     // endregion
 
@@ -178,7 +221,8 @@ class PokeApiClient(
 
     override fun getEncounterCondition(id: Int) = service.getEncounterCondition(id).result()
 
-    override fun getEncounterConditionValue(id: Int) = service.getEncounterConditionValue(id).result()
+    override fun getEncounterConditionValue(id: Int) =
+        service.getEncounterConditionValue(id).result()
 
     // endregion Contests
 
@@ -288,4 +332,3 @@ class PokeApiClient(
 
     // endregion Utility
 }
-
