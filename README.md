@@ -37,7 +37,7 @@ fun main(args: Array<String>) {
 
 ## Download
 
-PokeKotlin is available from [Jitpack]. See the Releases tab for the latest version number.
+PokeKotlin is available from Jitpack. See the Releases tab for the latest version number.
 
 ```groovy
 repositories {
