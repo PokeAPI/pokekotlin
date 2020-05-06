@@ -164,11 +164,11 @@ class MoveTest {
             assertEquals(10, id)
             assertEquals("form-change", name)
             assert(Name(
-                    name = "Rotom Form",
+                    name = "Form Change",
                     language = NamedApiResource("en", "language", 9)
             ) in names)
             assert(Description(
-                    description = "Appears when Rotom changes to this form.  Disappears if Rotom becomes another form and this move can only be learned by form change.",
+                    description = "Appears when Rotom or Cosplay Pikachu changes form.  Disappears if the Pokémon becomes another form and this move can only be learned by form change.",
                     language = NamedApiResource("en", "language", 9)
             ) in descriptions)
             assert(NamedApiResource("x-y", "version-group", 15) in versionGroups)

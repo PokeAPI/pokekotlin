@@ -220,14 +220,14 @@ class PokemonTest {
     fun getPokemon4() {
         mockClient.getPokemon(399).apply {
             sprites.apply {
-                assert(backFemale!!.endsWith("/media/sprites/pokemon/back/female/399.png"))
-                assert(backShinyFemale!!.endsWith("/media/sprites/pokemon/back/shiny/female/399.png"))
-                assert(backDefault!!.endsWith("/media/sprites/pokemon/back/399.png"))
-                assert(frontFemale!!.endsWith("/media/sprites/pokemon/female/399.png"))
-                assert(frontShinyFemale!!.endsWith("/media/sprites/pokemon/shiny/female/399.png"))
-                assert(backShiny!!.endsWith("/media/sprites/pokemon/back/shiny/399.png"))
-                assert(frontDefault!!.endsWith("/media/sprites/pokemon/399.png"))
-                assert(frontShiny!!.endsWith("/media/sprites/pokemon/shiny/399.png"))
+                assert(backFemale!!.endsWith("/sprites/pokemon/back/female/399.png"))
+                assert(backShinyFemale!!.endsWith("/sprites/pokemon/back/shiny/female/399.png"))
+                assert(backDefault!!.endsWith("/sprites/pokemon/back/399.png"))
+                assert(frontFemale!!.endsWith("/sprites/pokemon/female/399.png"))
+                assert(frontShinyFemale!!.endsWith("/sprites/pokemon/shiny/female/399.png"))
+                assert(backShiny!!.endsWith("/sprites/pokemon/back/shiny/399.png"))
+                assert(frontDefault!!.endsWith("/sprites/pokemon/399.png"))
+                assert(frontShiny!!.endsWith("/sprites/pokemon/shiny/399.png"))
             }
         }
     }
@@ -241,7 +241,7 @@ class PokemonTest {
                     name = "Black",
                     language = NamedApiResource("en", "language", 9)
             ) in names)
-            assert(NamedApiResource("vivillon", "pokemon-species", 666) in pokemonSpecies)
+            assert(NamedApiResource("snorlax", "pokemon-species", 143) in pokemonSpecies)
         }
     }
 
@@ -259,10 +259,10 @@ class PokemonTest {
             assertEquals(NamedApiResource("bulbasaur", "pokemon", 1), pokemon)
             assertEquals(NamedApiResource("red-blue", "version-group", 1), versionGroup)
             sprites.apply {
-                assert(frontDefault!!.endsWith("/media/sprites/pokemon/1.png"))
-                assert(backDefault!!.endsWith("/media/sprites/pokemon/back/1.png"))
-                assert(frontShiny!!.endsWith("/media/sprites/pokemon/shiny/1.png"))
-                assert(backShiny!!.endsWith("/media/sprites/pokemon/back/shiny/1.png"))
+                assert(frontDefault!!.endsWith("/sprites/pokemon/1.png"))
+                assert(backDefault!!.endsWith("/sprites/pokemon/back/1.png"))
+                assert(frontShiny!!.endsWith("/sprites/pokemon/shiny/1.png"))
+                assert(backShiny!!.endsWith("/sprites/pokemon/back/shiny/1.png"))
             }
         }
     }
@@ -293,7 +293,7 @@ class PokemonTest {
                     awesomeName = "Pomaceous",
                     language = NamedApiResource("en", "language", 9)
             ) in awesomeNames)
-            assert(NamedApiResource("volcanion", "pokemon-species", 721) in pokemonSpecies)
+            assert(NamedApiResource("shellder", "pokemon-species", 90) in pokemonSpecies)
         }
     }
 
@@ -333,7 +333,7 @@ class PokemonTest {
             ) in palParkEncounters)
             assertEquals(emptyList(), formDescriptions)
             assert(Genus(
-                    genus = "Seed",
+                    genus = "Seed Pokémon",
                     language = NamedApiResource("en", "language", 9)
             ) in genera)
             assert(PokemonSpeciesVariety(
@@ -341,7 +341,9 @@ class PokemonTest {
                     pokemon = NamedApiResource("bulbasaur", "pokemon", 1)
             ) in varieties)
             assert(PokemonSpeciesFlavorText(
-                    flavorText = "Bulbasaur can be seen napping in bright sunlight.\nThere is a seed on its back. By soaking up the sun\u2019s rays,\nthe seed grows progressively larger.",
+                    flavorText = "Bulbasaur can be seen napping in bright sunlight.\n" +
+                            "There is a seed on its back. By soaking up the sun’s rays,\n" +
+                            "the seed grows progressively larger.",
                     language = NamedApiResource("en", "language", 9),
                     version = NamedApiResource("alpha-sapphire", "version", 26)
             ) in flavorTextEntries)

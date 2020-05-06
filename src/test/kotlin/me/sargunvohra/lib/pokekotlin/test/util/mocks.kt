@@ -10,6 +10,7 @@ import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import okio.Buffer
 import java.nio.charset.Charset
+import java.nio.file.Paths
 import java.util.logging.Level
 import java.util.logging.LogManager
 
@@ -26,7 +27,8 @@ object MockServer {
         LogManager.getLogManager().getLogger(MockWebServer::class.qualifiedName).level = Level.OFF
 
         // get path to sample API responses archive
-        val resourcePath = MockServer::class.java.getResource("/api.zip").toURI().path
+        val sampleArchivePath = Paths.get(MockServer::class.java.getResource("/api-data-master.zip").toURI())
+                .resolve("api-data-master").resolve("data")
 
         // setup the dispatcher to use files in the archive as the mock responses
         server.dispatcher = object : Dispatcher() {
@@ -34,7 +36,7 @@ object MockServer {
                 val basePath = request.path.dropLastWhile { it != '/' }
                 val limit = server.url(request.path).queryParameter("limit")
                 val filename = if (limit == null) "index.json" else "limit=$limit.json"
-                val file = TFile(resourcePath + basePath + filename)
+                val file = TFile(sampleArchivePath.toString() + basePath + filename)
                 return if (file.exists()) {
                     val text = TFileReader(file).use { it.readText() }
                     MockResponse().setBody(Buffer().writeString(text, Charset.defaultCharset()))

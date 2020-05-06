@@ -13,7 +13,7 @@ class ItemTest {
         mockClient.getItem(20).apply {
             assertEquals(20, id)
             assertEquals("ice-heal", name)
-            assertEquals(250, cost)
+            assertEquals(100, cost)
             assertEquals(30, flingPower)
             assert(NamedApiResource("holdable", "item-attribute", 5) in attributes)
             assertEquals(NamedApiResource("status-cures", "item-category", 30), category)
@@ -39,7 +39,7 @@ class ItemTest {
             assertEquals(emptyList(), heldByPokemon)
             assertEquals(null, flingEffect)
             assertEquals(null, babyTriggerFor)
-            assert(sprites.default.endsWith("/media/sprites/items/ice-heal.png"))
+            assert(sprites.default.endsWith("/sprites/items/ice-heal.png"))
         }
     }
 
