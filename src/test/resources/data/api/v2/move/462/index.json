@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Power directly relates to the target's relative remaining HP, given by `1 + 120 * current HP / max HP`, to a maximum of 121.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Power increases against targets with more HP remaining, up to a maximum of 121 power."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u9a87\u4eba\u7684\u529b\u91cf\u634f\u788e\u5bf9\u624b\u3002\n\u5bf9\u624b\u7684\uff28\uff30\u8d8a\u591a\uff0c\n\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u529b\u3067\u3000\u76f8\u624b\u3092\u3000\u306b\u304e\u308a\u3064\u3076\u3059\u3002\n\u76f8\u624b\u306e\u3000\uff28\uff30\u304c\u3000\u6b8b\u3063\u3066\u3044\u308b\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The target is crushed with great force. The more HP\nthe target has left, the greater this move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con grande forza. Pi\u00f9 PS\nha il Pok\u00e9mon colpito, maggiore \u00e8 la potenza\ndella mossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Estruja al objetivo con gran fuerza. Cuantos m\u00e1s \nPS le queden al objetivo, m\u00e1s fuerte ser\u00e1 el\nataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird mit gro\u00dfer Kraft getroffen. Je h\u00f6her die KP\ndes Zieles, desto st\u00e4rker die Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une force puissante \u00e9crase l\u2019ennemi. Plus il lui\nreste de PV et plus l\u2019attaque est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u9a5a\u4eba\u7684\u529b\u91cf\u634f\u788e\u5c0d\u624b\u3002\n\u5c0d\u624b\u73fe\u6709\u7684\uff28\uff30\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \ud798\uc73c\ub85c \uc0c1\ub300\ub97c \ubb35\uc0ac\ubc1c\ub85c\n\ub9cc\ub4e0\ub2e4. \uc0c1\ub300\uc758 HP\uac00 \ub0a8\uc544 \uc788\uc744\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3061\u304b\u3089\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u306b\u304e\u308a\n\u3064\u3076\u3059\u3002\u3042\u3044\u3066\u306e\u3000\uff28\uff30\u304c\u3000\u306e\u3053\u3063\u3066\u3044\u308b\n\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u9a87\u4eba\u7684\u529b\u91cf\u634f\u788e\u5bf9\u624b\u3002\n\u5bf9\u624b\u7684\uff28\uff30\u8d8a\u591a\uff0c\n\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u529b\u3067\u3000\u76f8\u624b\u3092\u3000\u306b\u304e\u308a\u3064\u3076\u3059\u3002\n\u76f8\u624b\u306e\u3000\uff28\uff30\u304c\u3000\u6b8b\u3063\u3066\u3044\u308b\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The target is crushed with great force. The more HP\nthe target has left, the greater this move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con grande forza. Pi\u00f9 PS\nha il Pok\u00e9mon colpito, maggiore \u00e8 la potenza\ndella mossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Estruja al objetivo con gran fuerza. Cuantos m\u00e1s \nPS le queden al objetivo, m\u00e1s fuerte ser\u00e1 el\nataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird mit gro\u00dfer Kraft getroffen. Je h\u00f6her die KP\ndes Zieles, desto st\u00e4rker die Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une force puissante \u00e9crase l\u2019ennemi. Plus il lui\nreste de PV et plus l\u2019attaque est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u9a5a\u4eba\u7684\u529b\u91cf\u634f\u788e\u5c0d\u624b\u3002\n\u5c0d\u624b\u73fe\u6709\u7684\uff28\uff30\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \ud798\uc73c\ub85c \uc0c1\ub300\ub97c \ubb35\uc0ac\ubc1c\ub85c\n\ub9cc\ub4e0\ub2e4. \uc0c1\ub300\uc758 HP\uac00 \ub0a8\uc544 \uc788\uc744\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3061\u304b\u3089\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u306b\u304e\u308a\n\u3064\u3076\u3059\u3002\u3042\u3044\u3066\u306e\u3000\uff28\uff30\u304c\u3000\u306e\u3053\u3063\u3066\u3044\u308b\n\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u529b\u3067\u3000\u76f8\u624b\u3092\u3000\u306b\u304e\u308a\u3064\u3076\u3059\u3002\n\u76f8\u624b\u306e\u3000\uff28\uff30\u304c\u3000\u6b8b\u3063\u3066\u3044\u308b\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is crushed with great force.\nThe more HP the target has left,\nthe greater this move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con grande forza. Pi\u00f9 PS\nha il Pok\u00e9mon colpito, maggiore \u00e8 la potenza\ndella mossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Estruja al objetivo con gran fuerza. Cuantos m\u00e1s \nPS le queden al objetivo, m\u00e1s fuerte ser\u00e1 el\nataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird mit gro\u00dfer Kraft getroffen. Je h\u00f6her\ndie KP des Zieles, desto st\u00e4rker die Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une force puissante \u00e9crase l\u2019ennemi. Plus il lui\nreste de PV et plus l\u2019attaque est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \ud798\uc73c\ub85c \uc0c1\ub300\ub97c \ubb35\uc0ac\ubc1c\ub85c\n\ub9cc\ub4e0\ub2e4. \uc0c1\ub300\uc758 HP\uac00 \ub0a8\uc544 \uc788\uc744\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3061\u304b\u3089\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u306b\u304e\u308a\n\u3064\u3076\u3059\u3002\u3042\u3044\u3066\u306e\u3000\uff28\uff30\u304c\u3000\u306e\u3053\u3063\u3066\u3044\u308b\n\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u529b\u3067\u3000\u76f8\u624b\u3092\u3000\u306b\u304e\u308a\u3064\u3076\u3059\u3002\n\u76f8\u624b\u306e\u3000\uff28\uff30\u304c\u3000\u6b8b\u3063\u3066\u3044\u308b\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is crushed with great force.\nThe more HP the target has left,\nthe greater this move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con grande forza. Pi\u00f9 PS\nha il Pok\u00e9mon colpito, maggiore \u00e8 la potenza\ndella mossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Estruja al objetivo con gran fuerza. Cuantos m\u00e1s\nPS le queden al objetivo, m\u00e1s fuerte ser\u00e1 el\nataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird mit gro\u00dfer Kraft getroffen. Je h\u00f6her\ndie KP des Zieles, desto st\u00e4rker die Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une force puissante \u00e9crase l\u2019ennemi. Plus il lui\nreste de PV et plus l\u2019attaque est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \ud798\uc73c\ub85c \uc0c1\ub300\ub97c \ubb35\uc0ac\ubc1c\ub85c\n\ub9cc\ub4e0\ub2e4. \uc0c1\ub300\uc758 HP\uac00 \ub0a8\uc544 \uc788\uc744\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3061\u304b\u3089\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u306b\u304e\u308a\n\u3064\u3076\u3059\u3002\u3042\u3044\u3066\u306e\u3000\uff28\uff30\u304c\u3000\u306e\u3053\u3063\u3066\u3044\u308b\n\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is crushed with great force.\nThe attack is more powerful the more\nHP the target has left.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The target is crushed with great force.\nThe attack is more powerful the more\nHP the target has left.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une force puissante \u00e9crase l\u2019ennemi.\nPlus il lui reste de PV et plus l\u2019attaque\nest puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is crushed\nwith great force.\nThe attack is more\npowerful the more HP\nthe foe has left.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is crushed\nwith great force.\nThe attack is more\npowerful the more HP\nthe foe has left.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is crushed\nwith great force.\nThe attack is more\npowerful the more HP\nthe foe has left.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 462,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "crush-grip",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u634f\u788e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306b\u304e\u308a\u3064\u3076\u3059"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Crush Grip"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sbriciolmano"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Agarr\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Quetschgriff"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Presse"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u634f\u788e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubb35\uc0ac\ubc1c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306b\u304e\u308a\u3064\u3076\u3059"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/15/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

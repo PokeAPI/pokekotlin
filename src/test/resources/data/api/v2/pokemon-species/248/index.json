@@ -1,0 +1,940 @@
+{
+    "base_happiness": 35,
+    "capture_rate": 45,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/126/"
+    },
+    "evolves_from_species": {
+        "name": "pupitar",
+        "url": "/api/v2/pokemon-species/247/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f1a\u5728\u5c71\u4e2d\u5f98\u5f8a\u4ee5\u5bfb\u6c42\u6218\u6597\u5bf9\u624b\u3002\n\u4f46\u5982\u679c\u9047\u5230\u7684\u662f\u6bd4\u81ea\u5df1\u5f31\u5c0f\u7684\u5bf9\u624b\uff0c\n\u5b83\u5c31\u4f1a\u89c6\u82e5\u65e0\u7779\u5730\u79bb\u5f00\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6226\u3046\u3000\u76f8\u624b\u3092\u3000\u6c42\u3081\u3066\u3000\u5c71\u3092\n\u3055\u8ff7\u3046\u3002\u3000\u51fa\u4f1a\u3063\u3066\u3082\u3000\u683c\u4e0b\u304c\n\u76f8\u624b\u3060\u3068\u3000\u7121\u8996\u3057\u3066\u3000\u53bb\u3063\u3066\u3044\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It wanders through the mountains seeking\nopponents to fight. If it finds an opponent that\u2019s\nnot worthy, Tyranitar ignores it and wanders on.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Vaga tra i monti alla ricerca di avversari con\ncui lottare. Se per\u00f2 non li ritiene alla sua altezza,\nli ignora e se ne va.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Recorre las monta\u00f1as en busca de rivales para\ncombatir. Si juzga que no est\u00e1n a su altura, los\nignora y pasa de largo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es durchstreift die Berge auf der Suche nach\nGegnern. Begegnet es einem, der ihm nicht\nebenb\u00fcrtig ist, ignoriert es ihn und zieht weiter.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il parcourt les montagnes \u00e0 la recherche d\u2019un\nadversaire. Si ce dernier n\u2019est pas \u00e0 la hauteur,\nil pr\u00e9f\u00e8re l\u2019ignorer et s\u2019en aller.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u5728\u5c71\u4e2d\u5f98\u5f8a\u5c0b\u627e\u5c0d\u624b\u4f86\u6230\u9b25\uff0c\n\u4f46\u5982\u679c\u9047\u5230\u7684\u662f\u6bd4\u81ea\u5df1\u5f31\u5c0f\u7684\u5c0d\u624b\uff0c\n\u7260\u5c31\u6703\u8996\u82e5\u7121\u7779\u5730\u96e2\u958b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc2f8\uc6b8 \uc0c1\ub300\ub97c \ucc3e\uc544 \uc0b0\uc744 \ub5a0\ub3c8\ub2e4.\n\ub9cc\ub098\ub3c4 \uaca9\uc774 \ub5a8\uc5b4\uc9c0\ub294\n\uc0c1\ub300\ub77c\uace0 \ubb34\uc2dc\ud558\uace0 \ub5a0\ub098\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u305f\u304b\u3046\u3000\u3042\u3044\u3066\u3092\u3000\u3082\u3068\u3081\u3066\u3000\u3084\u307e\u3092\n\u3055\u307e\u3088\u3046\u3002\u3000\u3067\u3042\u3063\u3066\u3082\u3000\u304b\u304f\u3057\u305f\u304c\n\u3042\u3044\u3066\u3060\u3068\u3000\u3080\u3057\u3057\u3066\u3000\u3055\u3063\u3066\u3044\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u3059\u202f\u304b\u3092\u3000\u3064\u304f\u308b\u3000\u305f\u3081\u306b\u3000\u5c71\u3092\u3000\u4e00\u3064\n\u5d29\u3057\u3066\u3057\u307e\u3046\u3000\u307b\u3069\u306e\u3000\u5f37\u3044\u3000\u30d1\u30ef\u30fc\u3092\u3000\u6301\u3064\u3002\n\u6226\u3046\u3000\u76f8\u624b\u3092\u3000\u6c42\u3081\u3066\u3000\u5c71\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Tyranitar is so overwhelmingly powerful, it can bring down a\nwhole mountain to make its nest. This Pok\u00e9mon wanders about\nin mountains seeking new opponents to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Tyranitar ha una potenza tale da abbattere anche un\u2019intera\nmontagna per crearsi la tana. Vaga tra i monti alla ricerca\ndi nuovi avversari con cui lottare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Tyranitar tiene una fuerza imponente; es capaz de echar abajo\nuna monta\u00f1a para hacer su nido. Este Pok\u00e9mon suele\nmerodear por las zonas de monta\u00f1a en busca de nuevos\nrivales contra los que luchar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Despotar ist erstaunlich stark. Es kann einen ganzen Berg\nvernichten, um sein Nest zu bauen. Dieses Pok\u00e9mon wandert\nin den Bergen umher und sucht nach Gegnern f\u00fcr einen Kampf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Tyranocif est si incroyablement puissant qu\u2019il peut abattre\nune montagne pour y faire son nid. Ce Pok\u00e9mon se prom\u00e8ne\ndans les montagnes pour y trouver de nouveaux adversaires.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \uac70\ucc98\ub97c \ub9cc\ub4e4\uae30 \uc704\ud574 \uc0b0 \ud558\ub098\ub97c\n\ubd80\uc234\ubc84\ub9b4 \uc815\ub3c4\ub85c \uac15\ud55c \ud30c\uc6cc\ub97c \uc9c0\ub154\ub2e4.\n\uc2f8\uc6b8 \uc0c1\ub300\ub97c \ucc3e\uc544 \uc0b0\uc744 \ub5a0\ub3c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u3059\u202f\u304b\u3092\u3000\u3064\u304f\u308b\u3000\u305f\u3081\u306b\u3000\u3084\u307e\u3000\u3072\u3068\u3064\n\u304f\u305a\u3057\u3066\u3057\u307e\u3046\u3000\u307b\u3069\u306e\u3000\u3064\u3088\u3044\u3000\u30d1\u30ef\u30fc\u3092\u3000\u3082\u3064\u3002\n\u305f\u305f\u304b\u3046\u3000\u3042\u3044\u3066\u3092\u3000\u3082\u3068\u3081\u3066\u3000\u3084\u307e\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u3059\u202f\u304b\u3092\u3000\u3064\u304f\u308b\u3000\u305f\u3081\u306b\u3000\u5c71\u3092\u3000\u4e00\u3064\n\u5d29\u3057\u3066\u3057\u307e\u3046\u3000\u307b\u3069\u306e\u3000\u5f37\u3044\u3000\u30d1\u30ef\u30fc\u3092\u3000\u6301\u3064\u3002\n\u6226\u3046\u3000\u76f8\u624b\u3092\u3000\u6c42\u3081\u3066\u3000\u5c71\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Tyranitar is so overwhelmingly powerful, it can bring down a\nwhole mountain to make its nest. This Pok\u00e9mon wanders about\nin mountains seeking new opponents to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Tyranitar ha una potenza tale da abbattere anche un\u2019intera\nmontagna per crearsi la tana. Vaga tra i monti alla ricerca\ndi nuovi avversari con cui lottare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Tyranitar tiene una fuerza imponente; es capaz de echar abajo\nuna monta\u00f1a para hacer su nido. Este Pok\u00e9mon suele\nmerodear por las zonas de monta\u00f1a en busca de nuevos\nrivales contra los que luchar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Despotar ist erstaunlich stark. Es kann einen ganzen Berg\nvernichten, um sein Nest zu bauen. Dieses Pok\u00e9mon wandert\nin den Bergen umher und sucht nach Gegnern f\u00fcr einen Kampf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Tyranocif est si incroyablement puissant qu\u2019il peut abattre\nune montagne pour y faire son nid. Ce Pok\u00e9mon se prom\u00e8ne\ndans les montagnes pour y trouver de nouveaux adversaires.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \uac70\ucc98\ub97c \ub9cc\ub4e4\uae30 \uc704\ud574 \uc0b0 \ud558\ub098\ub97c\n\ubd80\uc234\ubc84\ub9b4 \uc815\ub3c4\ub85c \uac15\ud55c \ud30c\uc6cc\ub97c \uc9c0\ub154\ub2e4.\n\uc2f8\uc6b8 \uc0c1\ub300\ub97c \ucc3e\uc544 \uc0b0\uc744 \ub5a0\ub3c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u3059\u202f\u304b\u3092\u3000\u3064\u304f\u308b\u3000\u305f\u3081\u306b\u3000\u3084\u307e\u3000\u3072\u3068\u3064\n\u304f\u305a\u3057\u3066\u3057\u307e\u3046\u3000\u307b\u3069\u306e\u3000\u3064\u3088\u3044\u3000\u30d1\u30ef\u30fc\u3092\u3000\u3082\u3064\u3002\n\u305f\u305f\u304b\u3046\u3000\u3042\u3044\u3066\u3092\u3000\u3082\u3068\u3081\u3066\u3000\u3084\u307e\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30d0\u30f3\u30ae\u30e9\u30b9\u304c\u3000\u66b4\u308c\u308b\u3068\n\u5c71\u304c\u3000\u5d29\u308c\u3000\u5ddd\u304c\u3000\u57cb\u307e\u308b\u305f\u3081\n\u5730\u56f3\u3092\u3000\u66f8\u304d\u63db\u3048\u308b\u3000\u3053\u3068\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "If it rampages, it knocks down mountains and buries\nrivers. Maps must be redrawn afterward.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se s\u2019infuria, abbatte le montagne e seppellisce i\nfiumi. In seguito, le mappe devono essere riscritte.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Puede alterar el paisaje derribando monta\u00f1as y\nenterrando r\u00edos. Da mucho trabajo a los cart\u00f3grafos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Bei einem Tobsuchtsanfall zerst\u00f6rt es ganze Gebirge\nund legt Fl\u00fcsse trocken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019il est en col\u00e8re, il abat des montagnes et\nenterre des fleuves. On doit alors modifier les cartes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\uae30\ub77c\uc2a4\uac00 \ub09c\ub3d9\uc744 \ubd80\ub9ac\uba74\n\uc0b0\uc774 \ubb34\ub108\uc9c0\uace0 \uac15\uc774 \uba54\uc6cc\uc9c0\ubbc0\ub85c\n\uc9c0\ub3c4\ub97c \ub2e4\uc2dc \uadf8\ub824\uc57c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30d0\u30f3\u30ae\u30e9\u30b9\u304c\u3000\u3042\u3070\u308c\u308b\u3068\n\u3084\u307e\u304c\u3000\u304f\u305a\u308c\u3000\u304b\u308f\u304c\u3000\u3046\u307e\u308b\u305f\u3081\n\u3061\u305a\u3092\u3000\u304b\u304d\u304b\u3048\u308b\u3000\u3053\u3068\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u7247\u8155\u3092\u3000\u52d5\u304b\u3057\u305f\u3060\u3051\u3067\n\u5c71\u3092\u5d29\u3057\u3000\u5730\u97ff\u304d\u3092\u3000\u8d77\u3053\u3059\n\u3068\u3066\u3064\u3082\u306a\u3044\u3000\u30d1\u30ef\u30fc\u3092\u3000\u79d8\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "In just one of its mighty hands, it has the power to\nmake the ground shake and mountains crumble.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Anche una sola delle sue mani pu\u00f2 far tremare\nla terra e sbriciolare le montagne.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "En una de sus poderosas garras tiene el poder de\nhacer temblar la tierra y las monta\u00f1as.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es besitzt so viel Kraft, dass es mit nur einer Hand\ndie Erde beben lassen und Berge zerbr\u00f6ckeln kann.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "D\u2019une main seulement il a assez de force pour faire\ntrembler la terre et s\u2019\u00e9crouler une montagne.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud55c\ucabd \ud314\uc744 \uc6c0\uc9c1\uc774\ub294 \uac83\ub9cc\uc73c\ub85c\ub3c4\n\uc0b0\uc744 \ubb34\ub108\ub728\ub9ac\uace0 \ub545\uc744 \uc6b8\ub9ac\uac8c \ud558\ub294\n\uc5c4\uccad\ub09c \ud798\uc744 \uac10\ucd94\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305f\u3046\u3067\u3092\u3000\u3046\u3054\u304b\u3057\u305f\u3060\u3051\u3067\n\u3084\u307e\u3092\u304f\u305a\u3057\u3000\u3058\u3072\u3073\u304d\u3092\u3000\u304a\u3053\u3059\n\u3068\u3066\u3064\u3082\u306a\u3044\u3000\u30d1\u30ef\u30fc\u3092\u3000\u3072\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The quakes caused when it walks\nmake even great mountains crumble\nand change the surrounding terrain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The quakes caused when it walks\nmake even great mountains crumble\nand change the surrounding terrain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "If it rampages, it knocks down\nmountains and buries rivers. Maps\nmust be redrawn afterward.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019il est en col\u00e8re, il abat des\nmontagnes et enterre des fleuves.\nOn doit alors modifier les cartes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "If it rampages, it knocks down\nmountains and buries rivers. Maps\nmust be redrawn afterward.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019il est en col\u00e8re, il abat des\nmontagnes et enterre des fleuves.\nOn doit alors modifier les cartes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Extremely strong, it can change the\nlandscape. It has an insolent nature\nthat makes it not care about others.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its body can\u2019t be harmed by any\nsort of attack, so it is very eager\nto make challenges against enemies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "If it rampages, it knocks down\nmountains and buries rivers. Maps\nmust be redrawn afterward.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "If it rampages, it knocks down\nmountains and buries rivers. Maps\nmust be redrawn afterward.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "If it rampages, it knocks down\nmountains and buries rivers. Maps\nmust be redrawn afterward.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Its body can\u2019t be harmed by any sort of\nattack, so it is very eager to make\nchallenges against enemies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Its body can\u2019t be harmed by any sort of\nattack, so it is very eager to make\nchallenges against enemies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A TYRANITAR is so overwhelmingly powerful,\nit can bring down a whole mountain to make\nits nest. It roams in mountains seeking\nnew opponents to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "TYRANITAR is so overwhelmingly\npowerful, it can bring down a whole\nmountain to make its nest.\fThis POK\u00e9MON wanders about in\nmountains seeking new opponents to\nfight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "TYRANITAR is so overwhelmingly\npowerful, it can bring down a whole\nmountain to make its nest.\fThis POK\u00e9MON wanders about in\nmountains seeking new opponents to\nfight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "In just one of its\nmighty hands, it\nhas the power to\fmake the ground\nshake and moun\u00ad\ntains crumble.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "Extremely strong,\nit can change the\nlandscape. It has\fan insolent nature\nthat makes it not\ncare about others.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Its body can't be\nharmed by any sort\nof attack, so it\fis very eager to\nmake challenges\nagainst enemies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": true,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u94e0\u7532\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3088\u308d\u3044\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Armor Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Armatura",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Coraza",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Panzer",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Armure",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u93a7\u7532\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uac11\uc637\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3088\u308d\u3044\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "mountain",
+        "url": "/api/v2/pokemon-habitat/4/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 40,
+    "id": 248,
+    "is_baby": false,
+    "name": "tyranitar",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u73ed\u57fa\u62c9\u65af"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d0\u30f3\u30ae\u30e9\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Tyranitar"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Tyranitar"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Tyranitar"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Despotar"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Tyranocif"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u73ed\u57fa\u62c9\u65af"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9c8\uae30\ub77c\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Bangiras"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d0\u30f3\u30ae\u30e9\u30b9"
+        }
+    ],
+    "order": 273,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 90,
+            "rate": 3
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 104,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 81,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 294,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 251,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 246,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 248,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "tyranitar",
+                "url": "/api/v2/pokemon/248/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "tyranitar-mega",
+                "url": "/api/v2/pokemon/10049/"
+            }
+        }
+    ]
+}

@@ -1,0 +1,686 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has an increased chance for a critical hit."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4ee5\u5f71\u5b50\u505a\u6210\u7684\u9510\u722a\uff0c\n\u5288\u5f00\u5bf9\u624b\u3002\n\u5bb9\u6613\u51fb\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u92ed\u3044\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with a sharp claw made from\nshadows. Critical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli d\u2019ombra che\ncolpiscono con gran forza. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una garra afilada hecha de sombras.\nSuele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit scharfen Klauen aus der\nSchattenwelt attackiert. Hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec une griffe puissante faite d\u2019ombres.\nTaux de critique \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u9ed1\u5f71\u5316\u6210\u7684\u92b3\u5229\u722a\u5b50\n\u6495\u88c2\u5c0d\u624b\u3002\n\u5bb9\u6613\u64ca\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\ub85c \ub9cc\ub4e0 \ub0a0\uce74\ub85c\uc6b4 \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u3059\u308b\u3069\u3044\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4ee5\u5f71\u5b50\u505a\u6210\u7684\u9510\u722a\uff0c\n\u5288\u5f00\u5bf9\u624b\u3002\n\u5bb9\u6613\u51fb\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u92ed\u3044\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with a sharp claw made from\nshadows. Critical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli d\u2019ombra che\ncolpiscono con gran forza. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una garra afilada hecha de sombras.\nSuele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit scharfen Klauen aus der\nSchattenwelt attackiert. Hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec une griffe puissante faite d\u2019ombres.\nTaux de critique \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u9ed1\u5f71\u5316\u6210\u7684\u92b3\u5229\u722a\u5b50\n\u6495\u88c2\u5c0d\u624b\u3002\n\u5bb9\u6613\u64ca\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\ub85c \ub9cc\ub4e0 \ub0a0\uce74\ub85c\uc6b4 \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u3059\u308b\u3069\u3044\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u92ed\u3044\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli d\u2019ombra che\ncolpiscono con gran forza. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una garra afilada hecha de sombras.\nSuele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit scharfen Klauen aus der\nSchattenwelt attackiert. Hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec une griffe puissante faite d\u2019ombres.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\ub85c \ub9cc\ub4e0 \ub0a0\uce74\ub85c\uc6b4 \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u3059\u308b\u3069\u3044\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u92ed\u3044\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli d\u2019ombra che\ncolpiscono con gran forza. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una garra afilada hecha de sombras.\nSuele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit scharfen Klauen aus der\nSchattenwelt attackiert. Hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec une griffe puissante faite d\u2019ombres.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\ub85c \ub9cc\ub4e0 \ub0a0\uce74\ub85c\uc6b4 \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u304b\u3089\u3000\u3064\u304f\u3063\u305f\u3000\u3059\u308b\u3069\u3044\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with a sharp claw made\nfrom shadows.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec une griffe puissante faite\nd\u2019ombres. Taux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 421,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1027/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1028/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1029/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1030/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1031/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1032/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1033/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1034/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1035/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 1,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "shadow-claw",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6697\u5f71\u722a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b7\u30e3\u30c9\u30fc\u30af\u30ed\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Shadow Claw"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Ombrartigli"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Garra Umbr\u00eda"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Dunkelklaue"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Griffe Ombre"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6697\u5f71\u722a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc100\ub3c4\ud06c\ub8e8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b7\u30e3\u30c9\u30fc\u30af\u30ed\u30fc"
+        }
+    ],
+    "past_values": [],
+    "power": 70,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+    }
+}

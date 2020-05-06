@@ -1,0 +1,934 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 235,
+    "color": {
+        "name": "white",
+        "url": "/api/v2/pokemon-color/9/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        },
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/89/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u54a9\u5229\u7f8a\u7684\u6bdb\u5236\u6210\u7684\n\u8863\u670d\u5bb9\u6613\u8d77\u9759\u7535\uff0c\n\u6240\u4ee5\u4f1a\u505a\u7279\u6b8a\u52a0\u5de5\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30e1\u30ea\u30fc\u30d7\u306e\u3000\u6bdb\u3067\u3000\u4f5c\u3063\u305f\u3000\u8863\u670d\u306f\n\u9759\u96fb\u6c17\u304c\u3000\u305f\u307e\u308a\u3084\u3059\u3044\u3000\u306e\u3067\n\u7279\u6b8a\u306a\u3000\u52a0\u5de5\u304c\u3000\u3055\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Clothing made from Mareep\u2019s fleece is easily\ncharged with static electricity, so a special\nprocess is used on it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Gli indumenti fatti con lana di Mareep si caricano\nmolto facilmente di elettricit\u00e0 statica e per\nquesto necessitano di un trattamento speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Las prendas elaboradas con la lana de Mareep\nse cargan f\u00e1cilmente de electricidad est\u00e1tica y\nrequieren de tratamientos especiales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Kleidung aus Voltilamms Wolle erfordert eine\nspezielle Verarbeitung, da sie ansonsten zu\nelektrostatischer Aufladung neigt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "En raison de leur tendance \u00e0 stocker l\u2019\u00e9lectricit\u00e9\nstatique, les v\u00eatements en laine de Wattouat\nsubissent un traitement sp\u00e9cial.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u54a9\u5229\u7f8a\u7684\u6bdb\u88fd\u6210\u7684\n\u8863\u670d\u5f88\u5bb9\u6613\u8d77\u975c\u96fb\uff0c\n\u6240\u4ee5\u6703\u7d93\u904e\u7279\u6b8a\u52a0\u5de5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uba54\ub9ac\ud504\uc758 \ud138\ub85c \ub9cc\ub4e0 \uc758\ubcf5\uc740\n\uc815\uc804\uae30\uac00 \uc798 \uc77c\uc5b4\ub098\uae30 \ub54c\ubb38\uc5d0\n\ud2b9\uc218\ud55c \uac00\uacf5\uc774 \ub418\uc5b4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30e1\u30ea\u30fc\u30d7\u306e\u3000\u3051\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u3044\u3075\u304f\u306f\n\u305b\u3044\u3067\u3093\u304d\u304c\u3000\u305f\u307e\u308a\u3084\u3059\u3044\u3000\u306e\u3067\n\u3068\u304f\u3057\u3085\u306a\u3000\u304b\u3053\u3046\u304c\u3000\u3055\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u6bdb\u304c\u3000\u3053\u3059\u308c\u3066\u3000\u9759\u96fb\u6c17\u304c\u3000\u305f\u307e\u308b\u3002\n\u96fb\u529b\u304c\u3000\u6ca2\u5c71\u3000\u305f\u307e\u308b\u307b\u3069\u3000\u5c3b\u5c3e\u306e\n\u5148\u306b\u3000\u3064\u3044\u305f\u3000\u96fb\u7403\u304c\u3000\u660e\u308b\u304f\u3000\u5149\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mareep\u2019s fluffy coat of wool rubs together and builds a static\ncharge. The more static electricity is charged, the more brightly\nthe lightbulb at the tip of its tail glows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il morbido manto lanoso di Mareep genera una carica\nelettrostatica mediante sfregamento. La luminosit\u00e0\ndella lampadina sulla punta della coda dipende dalla\npotenza della carica elettrica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mareep tiene un pelaje lanudo suave que produce carga\nest\u00e1tica por el roce. Cuanto m\u00e1s se carga de electricidad\nest\u00e1tica, m\u00e1s brilla la bombilla que tiene en el extremo de la\ncola.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Voltilamms flauschiges, wollenes Fell erzeugt Reibung und\nstatische Aufladung. Je h\u00f6her die elektrische Ladung wird,\ndesto heller leuchtet die Gl\u00fchbirne an seinem Schweif.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9paisse fourrure cotonneuse de Wattouat se charge\nd\u2019\u00e9lectricit\u00e9 statique lorsqu\u2019on la frotte. Plus elle est charg\u00e9e,\nplus l\u2019ampoule au bout de sa queue est lumineuse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud138\uc758 \ub9c8\ucc30\ub85c \uc815\uc804\uae30\uac00 \ubaa8\uc778\ub2e4.\n\uc804\ub825\uc774 \ub9ce\uc774 \ubaa8\uc77c\uc218\ub85d \uaf2c\ub9ac\n\ub05d\uc5d0 \ubd99\uc740 \uc804\uad6c\uac00 \ubc1d\uac8c \ube5b\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3082\u3046\u304c\u3000\u3053\u3059\u308c\u3066\u3000\u305b\u3044\u3067\u3093\u304d\u304c\u3000\u305f\u307e\u308b\u3002\n\u3067\u3093\u308a\u3087\u304f\u304c\u3000\u305f\u304f\u3055\u3093\u3000\u305f\u307e\u308b\u307b\u3069\u3000\u3057\u3063\u307d\u306e\n\u3055\u304d\u306b\u3000\u3064\u3044\u305f\u3000\u3067\u3093\u304d\u3085\u3046\u304c\u3000\u3042\u304b\u308b\u304f\u3000\u3072\u304b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u6bdb\u304c\u3000\u3053\u3059\u308c\u3066\u3000\u9759\u96fb\u6c17\u304c\u3000\u305f\u307e\u308b\u3002\n\u96fb\u529b\u304c\u3000\u6ca2\u5c71\u3000\u305f\u307e\u308b\u307b\u3069\u3000\u5c3b\u5c3e\u306e\n\u5148\u306b\u3000\u3064\u3044\u305f\u3000\u96fb\u7403\u304c\u3000\u660e\u308b\u304f\u3000\u5149\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mareep\u2019s fluffy coat of wool rubs together and builds a static\ncharge. The more static electricity is charged, the more brightly\nthe lightbulb at the tip of its tail glows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il morbido manto lanoso di Mareep genera una carica\nelettrostatica mediante sfregamento. La luminosit\u00e0\ndella lampadina sulla punta della coda dipende dalla\npotenza della carica elettrica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mareep tiene un pelaje lanudo suave que produce carga\nest\u00e1tica por el roce. Cuanto m\u00e1s se carga de electricidad\nest\u00e1tica, m\u00e1s brilla la bombilla que tiene en el extremo de la\ncola.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Voltilamms flauschiges, wollenes Fell erzeugt Reibung und\nstatische Aufladung. Je h\u00f6her die elektrische Ladung wird,\ndesto heller leuchtet die Gl\u00fchbirne an seinem Schweif.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9paisse fourrure cotonneuse de Wattouat se charge\nd\u2019\u00e9lectricit\u00e9 statique lorsqu\u2019on la frotte. Plus elle est charg\u00e9e,\nplus l\u2019ampoule au bout de sa queue est lumineuse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud138\uc758 \ub9c8\ucc30\ub85c \uc815\uc804\uae30\uac00 \ubaa8\uc778\ub2e4.\n\uc804\ub825\uc774 \ub9ce\uc774 \ubaa8\uc77c\uc218\ub85d \uaf2c\ub9ac\n\ub05d\uc5d0 \ubd99\uc740 \uc804\uad6c\uac00 \ubc1d\uac8c \ube5b\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3082\u3046\u304c\u3000\u3053\u3059\u308c\u3066\u3000\u305b\u3044\u3067\u3093\u304d\u304c\u3000\u305f\u307e\u308b\u3002\n\u3067\u3093\u308a\u3087\u304f\u304c\u3000\u305f\u304f\u3055\u3093\u3000\u305f\u307e\u308b\u307b\u3069\u3000\u3057\u3063\u307d\u306e\n\u3055\u304d\u306b\u3000\u3064\u3044\u305f\u3000\u3067\u3093\u304d\u3085\u3046\u304c\u3000\u3042\u304b\u308b\u304f\u3000\u3072\u304b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u304b\u3075\u304b\u306e\u3000\u4f53\u6bdb\u306f\u3000\u7a7a\u6c17\u3092\n\u305f\u304f\u3055\u3093\u3000\u542b\u3093\u3067\u3000\u590f\u306f\u3000\u6dbc\u3057\u304f\n\u51ac\u306f\u3000\u6e29\u304b\u3044\u306e\u304c\u3000\u7279\u5fb4\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It stores lots of air in its soft fur, allowing it to stay\ncool in summer and warm in winter.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019aria che raccoglie nella pelliccia gli permette di\nstare fresco d\u2019estate e caldo d\u2019inverno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Almacena aire en el lanudo pelaje que tiene. As\u00ed, se\nmantiene fresco en verano y caliente en invierno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es speichert viel Luft in seinem weichen Pelz.\nDadurch ist es im Sommer kalt und im Winter warm.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il garde une grande quantit\u00e9 d\u2019air dans sa toison pour\nne pas subir les variations de temp\u00e9rature.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud479\uc2e0\ud479\uc2e0\ud55c \ud138\uc740 \uacf5\uae30\ub97c\n\uac00\ub4dd \ud488\uace0 \uc788\uc5b4 \uc5ec\ub984\uc740 \uc2dc\uc6d0\ud558\uace0\n\uaca8\uc6b8\uc740 \ub530\ub73b\ud55c \uac83\uc774 \ud2b9\uc9d5\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u304b\u3075\u304b\u306e\u3000\u305f\u3044\u3082\u3046\u306f\u3000\u304f\u3046\u304d\u3092\n\u305f\u304f\u3055\u3093\u3000\u3075\u304f\u3093\u3067\u3000\u306a\u3064\u306f\u3000\u3059\u305a\u3057\u304f\n\u3075\u3086\u306f\u3000\u3042\u305f\u305f\u304b\u3044\u306e\u304c\u3000\u3068\u304f\u3061\u3087\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u308f\u3075\u308f\u306e\u3000\u4f53\u6bdb\u306f\u3000\u9759\u96fb\u6c17\u304c\n\u305f\u307e\u308b\u3068\u3000\uff12\u500d\u306b\u3000\u3075\u304f\u3089\u3080\u3002\n\u89e6\u308b\u3068\u3000\u611f\u96fb\u3057\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its fluffy coat swells to double when static\nelectricity builds up. Touching it can be shocking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se il manto \u00e8 carico d\u2019elettricit\u00e0, le sue dimensioni\nraddoppiano e pu\u00f2 dare la scossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Su pelaje lanudo dobla su volumen al acumular\nelectricidad est\u00e1tica. Tocarlo puede dar calambre.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sein weiches Fell wird doppelt so dick,\nwenn sich Elektrizit\u00e4t aufbaut.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sa laine fournie enfle lorsqu\u2019il accumule de\nl\u2019\u00e9lectricit\u00e9 statique. Son contact peut choquer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud479\uc2e0\ud479\uc2e0\ud55c \ud138\uc740 \uc815\uc804\uae30\uac00\n\uc313\uc774\uba74 2\ubc30\ub85c \ubd80\ud480\uc5b4 \uc624\ub978\ub2e4.\n\ub9cc\uc9c0\uba74 \uac10\uc804\ub418\uc5b4 \ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u308f\u3075\u308f\u306e\u3000\u305f\u3044\u3082\u3046\u306f\u3000\u305b\u3044\u3067\u3093\u304d\u304c\n\u305f\u307e\u308b\u3068\u3000\uff12\u3070\u3044\u306b\u3000\u3075\u304f\u3089\u3080\u3002\n\u3055\u308f\u308b\u3068\u3000\u304b\u3093\u3067\u3093\u3057\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When cold weather increases static\nelectricity, its wool doubles in size\nand the tip of its tail glows slightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "When cold weather increases static\nelectricity, its wool doubles in size\nand the tip of its tail glows slightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Its fluffy coat swells to double\nwhen static electricity builds up.\nTouching it can be shocking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Sa laine fournie enfle lorsqu\u2019il\naccumule de l\u2019\u00e9lectricit\u00e9 statique.\nSon contact peut choquer. ",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Its fluffy coat swells to double\nwhen static electricity builds up.\nTouching it can be shocking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Sa laine fournie enfle lorsqu\u2019il\naccumule de l\u2019\u00e9lectricit\u00e9 statique.\nSon contact peut choquer. ",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Its fleece grows continually. In\nthe summer, the fleece is fully\nshed, but it grows back in a week.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "If static electricity builds in its\nbody, its fleece doubles in volume.\nTouching it will shock you.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Its fluffy coat swells to double\nwhen static electricity builds up.\nTouching it can be shocking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Its fluffy coat swells to double\nwhen static electricity builds up.\nTouching it can be shocking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Its fluffy coat swells to double\nwhen static electricity builds up.\nTouching it can be shocking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "If static electricity builds in its body,\nits fleece doubles in volume. Touching\nit will shock you.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Its fleece grows continually. In the\nsummer, the fleece is fully shed, but it\ngrows back in a week.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Its fluffy wool rubs together and builds\na static charge. The more energy is\ncharged, the more brightly the lightbulb\nat the tip of its tail glows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "MAREEP\u2019s fluffy coat of wool rubs\ntogether and builds a static charge.\nThe more static electricity is charged,\fthe more brightly the lightbulb at the\ntip of its tail grows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "MAREEP\u2019s fluffy coat of wool rubs\ntogether and builds a static charge.\nThe more static electricity is charged,\fthe more brightly the lightbulb at the\ntip of its tail grows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "It stores lots of\nair in its soft\nfur, allowing it\fto stay cool in\nsummer and warm\nin winter.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "Its fleece grows\ncontinually. In\nthe summer, the\ffleece is fully\nshed, but it grows\nback in a week.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "If static elec\u00ad\ntricity builds in\nits body, its\ffleece doubles in\nvolume. Touching\nit will shock you.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u7ef5\u6bdb\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u308f\u305f\u3052\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Wool Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Lana",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Lana",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Wolle",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Laine",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u7dbf\u6bdb\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc19c\ud138\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u308f\u305f\u3052\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 179,
+    "is_baby": false,
+    "name": "mareep",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u54a9\u5229\u7f8a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e1\u30ea\u30fc\u30d7"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Mareep"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Mareep"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Mareep"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Voltilamm"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Wattouat"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u54a9\u5229\u7f8a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uba54\ub9ac\ud504"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Merriep"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e1\u30ea\u30fc\u30d7"
+        }
+    ],
+    "order": 208,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 127,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 45,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 53,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 53,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 179,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "mareep",
+                "url": "/api/v2/pokemon/179/"
+            }
+        }
+    ]
+}

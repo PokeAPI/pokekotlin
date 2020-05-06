@@ -1,0 +1,944 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 75,
+    "color": {
+        "name": "red",
+        "url": "/api/v2/pokemon-color/8/"
+    },
+    "egg_groups": [
+        {
+            "name": "water2",
+            "url": "/api/v2/egg-group/12/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/114/"
+    },
+    "evolves_from_species": {
+        "name": "remoraid",
+        "url": "/api/v2/pokemon-species/223/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u9003\u8dd1\u65f6\u5410\u51fa\u6765\u7684\u58a8\u6c41\u5f88\u7279\u522b\u3002\n\u91cc\u9762\u6709\u7740\u80fd\u8ba9\u55c5\u89c9\u53d8\u8fdf\u949d\u7684\u6210\u5206\uff0c\n\u8fde\u9f3b\u5b50\u7075\u654f\u7684\u5b9d\u53ef\u68a6\u4e5f\u80fd\u8ff7\u60d1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u9003\u3052\u308b\u3068\u304d\u306b\u3000\u306f\u304f\u3000\u30b9\u30df\u306f\u7279\u5225\u3002\n\u55c5\u899a\u3092\u3000\u920d\u3089\u305b\u308b\u3000\u6210\u5206\u3067\n\u9f3b\u304c\u304d\u304f\u3000\u30dd\u30b1\u30e2\u30f3\u3082\u3000\u60d1\u308f\u3059\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "The ink it spits when escaping is special.\nIt contains a substance that dulls the sense of\nsmell, so Pok\u00e9mon with keen noses get lost.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Mentre fugge dai nemici sputa un inchiostro\nche inibisce le funzioni olfattive persino\ndei Pok\u00e9mon con l\u2019odorato pi\u00f9 sviluppato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La tinta que expulsa al huir inhibe la capacidad\nolfativa del rival y afecta incluso a los Pok\u00e9mon\ncon el olfato m\u00e1s aguzado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Die Tinte, die es w\u00e4hrend der Flucht ausspeit,\nvermindert den Geruchssinn und verwirrt selbst\nPok\u00e9mon mit einer guten Nase.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il projette une encre sp\u00e9ciale quand il s\u2019enfuit.\nCelle-ci perturbe l\u2019odorat des Pok\u00e9mon, m\u00eame\nde ceux dot\u00e9s d\u2019un bon flair.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u9003\u8dd1\u6642\u5410\u51fa\u7279\u5225\u7684\u58a8\u6c41\uff0c\n\u88e1\u982d\u542b\u6709\u6703\u8b93\u55c5\u89ba\u8b8a\u9072\u920d\u7684\u6210\u5206\uff0c\n\u5c31\u7b97\u662f\u9f3b\u5b50\u9748\u654f\u7684\u5bf6\u53ef\u5922\u4e5f\u80fd\u9a19\u904e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ub3c4\ub9dd\uce60 \ub54c \ub0b4\ubfdc\ub294 \uba39\ubb3c\uc740 \ud2b9\ubcc4\ud558\ub2e4.\n\ud6c4\uac01\uc744 \ub454\ud558\uac8c \ud558\ub294 \uc131\ubd84\uc73c\ub85c\n\ud6c4\uac01\uc774 \ubc1c\ub2ec\ud55c \ud3ec\ucf13\ubaac\ub3c4 \ub9d0\ub824\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u306b\u3052\u308b\u3068\u304d\u306b\u3000\u306f\u304f\u3000\u30b9\u30df\u306f\u3068\u304f\u3079\u3064\u3002\n\u304d\u3085\u3046\u304b\u304f\u3092\u3000\u306b\u3076\u3089\u305b\u308b\u3000\u305b\u3044\u3076\u3093\u3067\n\u306f\u306a\u304c\u304d\u304f\u3000\u30dd\u30b1\u30e2\u30f3\u3082\u3000\u307e\u3069\u308f\u3059\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5438\u76e4\u306e\u3000\u8155\u3067\u3000\u76f8\u624b\u306b\u3000\u7d61\u202f\u3064\u304f\u3002\n\u52d5\u3051\u306a\u304f\u306a\u3063\u305f\u3000\u3068\u3053\u308d\u3092\u3000\u4ed5\u7559\u3081\u308b\u306e\u3060\u3002\n\u304b\u306a\u308f\u306a\u3044\u3000\u3068\u304d\u306f\u3000\u30b9\u30df\u3092\u3000\u5410\u3044\u3066\u3000\u9003\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Octillery grabs onto its foe using its tentacles. This Pok\u00e9mon\ntries to immobilize it before delivering the finishing blow. If the\nfoe turns out to be too strong, Octillery spews ink to escape.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Octillery afferra il nemico con i tentacoli immobilizzandolo\nprima di sferrare il colpo finale. Se il nemico \u00e8 molto forte,\nOctillery sputa inchiostro e scappa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Octillery se apodera de su enemigo con los tent\u00e1culos y lo\ndeja inmovilizado antes de propinarle el golpe final. Si el\nenemigo resulta ser demasiado fuerte, Octillery expulsar\u00e1 tinta\npara escapar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Octillery saugt sich mit seinen Tentakeln an einem Feind fest.\nDieses Pok\u00e9mon bet\u00e4ubt seinen Gegner, bevor es ihm den\nRest gibt. Wenn ein Feind zu stark ist, speit es Tinte aus und\nfl\u00fcchtet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Octillery attrape son ennemi avec ses tentacules.\nCe Pok\u00e9mon essaie de l\u2019immobiliser avant de lui ass\u00e9ner\nle coup final. Si l\u2019ennemi s\u2019av\u00e8re trop fort, Octillery lui crache\nde l\u2019encre \u00e0 la figure et s\u2019\u00e9chappe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud761\ubc18\uc774 \ub2ec\ub9b0 \ud314\ub85c \uc0c1\ub300\ub97c \ud718\uac10\ub294\ub2e4.\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud558\uac8c \ub418\uba74 \uc4f0\ub7ec\ud2b8\ub9b0\ub2e4.\n\ubc84\uac70\uc6b8 \ub54c\ub294 \uba39\ubb3c\uc744 \ubfdc\uace0 \ub3c4\ub9dd\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u3085\u3046\u3070\u3093\u306e\u3000\u3046\u3067\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u304b\u3089\u202f\u3064\u304f\u3002\n\u3046\u3054\u3051\u306a\u304f\u306a\u3063\u305f\u3000\u3068\u3053\u308d\u3092\u3000\u3057\u3068\u3081\u308b\u306e\u3060\u3002\n\u304b\u306a\u308f\u306a\u3044\u3000\u3068\u304d\u306f\u3000\u30b9\u30df\u3092\u3000\u306f\u3044\u3066\u3000\u306b\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5438\u76e4\u306e\u3000\u8155\u3067\u3000\u76f8\u624b\u306b\u3000\u7d61\u202f\u3064\u304f\u3002\n\u52d5\u3051\u306a\u304f\u306a\u3063\u305f\u3000\u3068\u3053\u308d\u3092\u3000\u4ed5\u7559\u3081\u308b\u306e\u3060\u3002\n\u304b\u306a\u308f\u306a\u3044\u3000\u3068\u304d\u306f\u3000\u30b9\u30df\u3092\u3000\u5410\u3044\u3066\u3000\u9003\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Octillery grabs onto its foe using its tentacles. This Pok\u00e9mon\ntries to immobilize it before delivering the finishing blow. If the\nfoe turns out to be too strong, Octillery spews ink to escape.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Octillery afferra il nemico con i tentacoli immobilizzandolo\nprima di sferrare il colpo finale. Se il nemico \u00e8 molto forte,\nOctillery sputa inchiostro e scappa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Octillery se apodera de su enemigo con los tent\u00e1culos y lo\ndeja inmovilizado antes de propinarle el golpe final. Si el\nenemigo resulta ser demasiado fuerte, Octillery expulsar\u00e1 tinta\npara escapar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Octillery saugt sich mit seinen Tentakeln an einem Feind fest.\nDieses Pok\u00e9mon bet\u00e4ubt seinen Gegner, bevor es ihm den\nRest gibt. Wenn ein Feind zu stark ist, speit es Tinte aus und\nfl\u00fcchtet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Octillery attrape son ennemi avec ses tentacules.\nCe Pok\u00e9mon essaie de l\u2019immobiliser avant de lui ass\u00e9ner\nle coup final. Si l\u2019ennemi s\u2019av\u00e8re trop fort, Octillery lui crache\nde l\u2019encre \u00e0 la figure et s\u2019\u00e9chappe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud761\ubc18\uc774 \ub2ec\ub9b0 \ud314\ub85c \uc0c1\ub300\ub97c \ud718\uac10\ub294\ub2e4.\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud558\uac8c \ub418\uba74 \uc4f0\ub7ec\ud2b8\ub9b0\ub2e4.\n\ubc84\uac70\uc6b8 \ub54c\ub294 \uba39\ubb3c\uc744 \ubfdc\uace0 \ub3c4\ub9dd\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u3085\u3046\u3070\u3093\u306e\u3000\u3046\u3067\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u304b\u3089\u202f\u3064\u304f\u3002\n\u3046\u3054\u3051\u306a\u304f\u306a\u3063\u305f\u3000\u3068\u3053\u308d\u3092\u3000\u3057\u3068\u3081\u308b\u306e\u3060\u3002\n\u304b\u306a\u308f\u306a\u3044\u3000\u3068\u304d\u306f\u3000\u30b9\u30df\u3092\u3000\u306f\u3044\u3066\u3000\u306b\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u9811\u4e08\u306a\u3000\u77f3\u982d\u3002\n\u5438\u76e4\u3064\u304d\u306e\u3000\u811a\u3092\u3000\u7d61\u307e\u305b\n\u3072\u305f\u3059\u3089\u306b\u3000\u982d\u3067\u3000\u6253\u3061\u3059\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It traps foes with the suction cups on its tentacles,\nthen smashes them with its rock-hard head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cattura i nemici con le ventose dei tentacoli per poi\ncolpirli con il suo capo duro come pietra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa a los enemigos con sus tent\u00e1culos y despu\u00e9s\nlos golpea con su dura cabeza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Beim Beutefang setzt es seine Tentakel ein.\nEs zermalmt seine Beute mit seinem steinharten Kopf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il capture ses ennemis avec ses tentacules et les\n\u00e9crase ensuite avec sa t\u00eate dure comme la pierre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud2bc\ud2bc\ud55c \ub3cc\uba38\ub9ac\ub2e4.\n\ube68\ud310\uc774 \ubd99\uc5b4 \uc788\ub294 \ub2e4\ub9ac\ub97c \ud718\uac10\uc544\n\ud55c\uacb0\uac19\uc774 \uba38\ub9ac\ub85c \uc138\uac8c \ub54c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304c\u3093\u3058\u3087\u3046\u306a\u3000\u3044\u3057\u3042\u305f\u307e\u3002\n\u304d\u3085\u3046\u3070\u3093\u3064\u304d\u306e\u3000\u3042\u3057\u3092\u3000\u304b\u3089\u307e\u305b\n\u3072\u305f\u3059\u3089\u3000\u3042\u305f\u307e\u3067\u3000\u3046\u3061\u3059\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u7a74\u306b\u3000\u5165\u308a\u305f\u304c\u308b\u3000\u6027\u8cea\u3067\n\u5ca9\u7a74\u3084\u3000\u30c4\u30dc\u3092\u3000\u597d\u307f\u3000\u305d\u3053\u304b\u3089\n\u58a8\u3092\u3000\u5674\u304d\u51fa\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It has a tendency to want to be in holes. It prefers\nrock crags or pots and sprays ink from them\nbefore attacking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ama rintanarsi nei vasi o nelle fessure della roccia,\nda dove attacca sparando getti d\u2019inchiostro.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Tiene querencia por los agujeros. Ataca escupiendo\ntinta metido en las grietas de rocas o en recipientes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es verkriecht sich gerne in L\u00f6chern, von wo aus\nes Gegner mit Tinte beschie\u00dft. Es bevorzugt\nFelsspalten und Vasen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il adore se cacher dans les fissures et les \u00e9paves,\nd\u2019o\u00f9 il attaque en crachant de l\u2019encre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uad6c\uba4d\uc5d0 \ub4e4\uc5b4\uac00\uace0 \uc2f6\uc5b4 \ud558\ub294 \uc131\uc9c8\ub85c\n\ubc14\uc704\uad74\uc774\ub098 \ud56d\uc544\ub9ac\ub97c \uc88b\uc544\ud574 \uac70\uae30\uc11c\n\uba39\ubb3c\uc744 \ubfdc\uc5b4\ub0b4 \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u306a\u306b\u3000\u306f\u3044\u308a\u305f\u304c\u308b\u3000\u305b\u3044\u3057\u3064\u3067\n\u3044\u308f\u3042\u306a\u3084\u3000\u30c4\u30dc\u3092\u3000\u3053\u306e\u307f\u3000\u305d\u3053\u304b\u3089\n\u30b9\u30df\u3092\u3000\u3075\u304d\u3060\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It has a tendency to want to be in holes.\nIt prefers rock crags or pots and\nsprays ink from them before attacking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It has a tendency to want to be in holes.\nIt prefers rock crags or pots and\nsprays ink from them before attacking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It loves to lurk inside holes in\nrocks. It sometimes sprays ink on\nprey by sticking out only its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il adore se cacher dans les\nfissures de la roche. Il crache\nparfois de l\u2019encre sur ses proies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It loves to lurk inside holes in\nrocks. It sometimes sprays ink on\nprey by sticking out only its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il adore se cacher dans les\nfissures de la roche. Il crache\nparfois de l\u2019encre sur ses proies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It instinctively sneaks into rocky\nholes. If it gets sleepy, it steals\nthe nest of a fellow OCTILLERY.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It traps foes with the suction cups\non its tentacles, then smashes\nthem with its rock-hard head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It loves to lurk inside holes in\nrocks. It sometimes sprays ink on\nprey by sticking out only its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It obscures its foe\u2019s vision by\nspitting a cloud of murky ink.\nIt makes its nest among boulders.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the gaps of boulders\nand in holes on the seafloor. Its\nsuction cups grip prey tightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It traps enemies with its suction-cupped\ntentacles, then smashes them with its\nrock-hard head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It instinctively sneaks into rocky holes.\nIf it gets sleepy, it steals the nest of a\nfellow OCTILLERY.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It ensnares its foe with its suction-\ncupped tentacles before delivering the\nfinishing blow. If the foe turns out to be\ntoo strong, it spews ink to escape.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "OCTILLERY grabs onto its foe using\nits tentacles. This POK\u00e9MON tries to\nimmobilize it before delivering the\ffinishing blow.\nIf the foe turns out to be too strong,\nOCTILLERY spews ink to escape.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "OCTILLERY grabs onto its foe using\nits tentacles. This POK\u00e9MON tries to\nimmobilize it before delivering the\ffinishing blow.\nIf the foe turns out to be too strong,\nOCTILLERY spews ink to escape.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "Its instinct is to\nbury itself in\nholes. It often\fsteals the nesting\nholes of others to\nsleep in them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It instinctively\nsneaks into rocky\nholes. If it gets\fsleepy, it steals\nthe nest of a fel\u00ad\nlow OCTILLERY.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It traps enemies\nwith its suction-\ncupped tentacles\fthen smashes them\nwith its rock-hard\nhead.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u55b7\u5c04\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3075\u3093\u3057\u3083\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Jet Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Jet",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Reactor",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Hochdruck",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Jet",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5674\u5c04\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubd84\uc0ac\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3075\u3093\u3057\u3083\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "sea",
+        "url": "/api/v2/pokemon-habitat/7/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 224,
+    "is_baby": false,
+    "name": "octillery",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7ae0\u9c7c\u6876"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30aa\u30af\u30bf\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Octillery"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Octillery"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Octillery"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Octillery"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Octillery"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7ae0\u9b5a\u6876"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub300\ud3ec\ubb34\ub178"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Okutank"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30aa\u30af\u30bf\u30f3"
+        }
+    ],
+    "order": 256,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "sea",
+                "url": "/api/v2/pal-park-area/5/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 145,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 236,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 175,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 133,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 133,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 173,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 224,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "tentacles",
+        "url": "/api/v2/pokemon-shape/10/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "octillery",
+                "url": "/api/v2/pokemon/224/"
+            }
+        }
+    ]
+}

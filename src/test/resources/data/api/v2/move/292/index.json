@@ -1,0 +1,657 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "focus-energy",
+                    "url": "/api/v2/move/116/"
+                },
+                {
+                    "name": "fake-out",
+                    "url": "/api/v2/move/252/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/10/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Hits 2\u20135 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Hits 2-5 times in one turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u5f20\u5f00\u7740\u7684\u53cc\u624b\n\u731b\u63a8\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u8fde\u7eed\u653b\u51fb\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u4e21\u624b\u3067\n\u76f8\u624b\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u9593\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user lets loose a flurry of open-palmed arm\nthrusts that hit two to five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Raffica di ceffoni che colpisce da due a\ncinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Fuertes empujones que golpean de dos a cinco\nveces seguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Schl\u00e4ge mit geradem Arm, die das Ziel zwei- bis\nf\u00fcnfmal treffen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un d\u00e9luge de coups adress\u00e9s avec la paume qui\nfrappe de deux \u00e0 cinq fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5f35\u958b\u7684\u96d9\u624b\n\u731b\u63a8\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u9023\u7e8c\u653b\u64ca\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud3bc\uce5c \uc591\uc190\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubc88\uac08\uc544 \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u308a\u3087\u3046\u3066\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5f20\u5f00\u7740\u7684\u53cc\u624b\n\u731b\u63a8\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u8fde\u7eed\u653b\u51fb\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u4e21\u624b\u3067\n\u76f8\u624b\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u9593\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user lets loose a flurry of open-palmed arm\nthrusts that hit two to five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Raffica di ceffoni che colpisce da due a\ncinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Fuertes empujones que golpean de dos a cinco\nveces seguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Schl\u00e4ge mit geradem Arm, die das Ziel zwei- bis\nf\u00fcnfmal treffen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un d\u00e9luge de coups adress\u00e9s avec la paume qui\nfrappe de deux \u00e0 cinq fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5f35\u958b\u7684\u96d9\u624b\n\u731b\u63a8\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u9023\u7e8c\u653b\u64ca\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud3bc\uce5c \uc591\uc190\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubc88\uac08\uc544 \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u308a\u3087\u3046\u3066\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u4e21\u624b\u3067\n\u76f8\u624b\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u3042\u3044\u3060\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user lets loose a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Raffica di ceffoni che colpisce da due a\ncinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Fuertes empujones que golpean de dos a cinco veces \nseguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Schl\u00e4ge mit geradem Arm, die das Ziel\nzwei- bis f\u00fcnfmal treffen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un d\u00e9luge de coups adress\u00e9s avec la paume qui\nfrappe de deux \u00e0 cinq fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud3bc\uce5c \uc591\uc190\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubc88\uac08\uc544 \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u308a\u3087\u3046\u3066\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u4e21\u624b\u3067\n\u76f8\u624b\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u3042\u3044\u3060\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lets loose a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Raffica di ceffoni che colpisce da due a\ncinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Empujones directos que golpean de dos a cinco\nveces seguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Schl\u00e4ge mit geradem Arm, die das Ziel\nzwei- bis f\u00fcnfmal treffen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un d\u00e9luge de coups adress\u00e9s avec la paume qui\nfrappe de deux \u00e0 cinq fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud3bc\uce5c \uc591\uc190\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubc88\uac08\uc544 \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3089\u3044\u305f\u3000\u308a\u3087\u3046\u3066\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3063\u3071\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a flurry of open-palmed\narm thrusts that hit two to five times in\na row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un d\u00e9luge de coups adress\u00e9s avec la\npaume qui frappe de 2 \u00e0 5 fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A quick flurry of\nstraight-arm\npunches that hit\ntwo to five times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Straight-arm punches that\nstrike the foe 2 to 5 times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Straight-arm punches that\nstrike the foe 2 to 5 times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 292,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": 5,
+        "max_turns": null,
+        "min_hits": 2,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "arm-thrust",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u731b\u63a8"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3064\u3063\u3071\u308a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Arm Thrust"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sberletese"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Empuj\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Armsto\u00df"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Cogne"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u731b\u63a8"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc190\ubc14\ub2e5\uce58\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3064\u3063\u3071\u308a"
+        }
+    ],
+    "past_values": [],
+    "power": 15,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/7/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+    }
+}

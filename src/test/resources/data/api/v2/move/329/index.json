@@ -1,0 +1,657 @@
+{
+    "accuracy": 30,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "mind-reader",
+                    "url": "/api/v2/move/170/"
+                },
+                {
+                    "name": "hail",
+                    "url": "/api/v2/move/258/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/14/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Causes a one-hit KO."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7ed9\u5bf9\u624b\u4e00\u51fb\u6fd2\u6b7b\u3002\n\u5982\u679c\u662f\u51b0\u5c5e\u6027\u4ee5\u5916\u7684\u5b9d\u53ef\u68a6\u4f7f\u7528\uff0c\n\u5c31\u4f1a\u96be\u4ee5\u6253\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3092\u3000\u4e00\u6483\u3067\u3000\u7015\u6b7b\u306b\u3000\u3059\u308b\u3002\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3000\u4ee5\u5916\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u4f7f\u3046\u3068\u3000\u5f53\u305f\u308a\u306b\u304f\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The target faints instantly. It\u2019s less likely to hit the\ntarget if it\u2019s used by Pok\u00e9mon other than Ice types.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Il bersaglio esaurisce i PS in un colpo solo.\nSe viene usata da Pok\u00e9mon che non sono di tipo\nGhiaccio, difficilmente va a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Debilita al objetivo de un solo golpe. Si lo usa un\nPok\u00e9mon que no sea de tipo Hielo, es dif\u00edcil que\nacierte.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Diese Attacke f\u00fchrt beim Ziel sofort zum K.O. Wird\nsie von einem Pok\u00e9mon eingesetzt, das nicht dem\nTyp Eis angeh\u00f6rt, trifft sie seltener.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une vague de froid glacial frappe l\u2019ennemi pour le\nmettre K.O. en un coup. A peu de chances de r\u00e9ussir\nsi le lanceur ne poss\u00e8de pas le type Glace.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4e00\u64ca\u8b93\u5c0d\u624b\u9677\u5165\u7015\u6b7b\u3002\n\u51b0\u5c6c\u6027\u4ee5\u5916\u7684\u5bf6\u53ef\u5922\u4f7f\u7528\u6642\uff0c\n\u6703\u6bd4\u8f03\u4e0d\u6613\u547d\u4e2d\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub97c \uc77c\uaca9\uc5d0 \uae30\uc808\uc2dc\ud0a8\ub2e4.\n\uc5bc\uc74c\ud0c0\uc785 \uc774\uc678\uc758 \ud3ec\ucf13\ubaac\uc774\n\uc0ac\uc6a9\ud558\uba74 \uc798 \ub9de\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3000\u3044\u304c\u3044\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u3064\u304b\u3046\u3068\u3000\u3042\u305f\u308a\u306b\u304f\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7ed9\u5bf9\u624b\u4e00\u51fb\u6fd2\u6b7b\u3002\n\u5982\u679c\u662f\u51b0\u5c5e\u6027\u4ee5\u5916\u7684\u5b9d\u53ef\u68a6\u4f7f\u7528\uff0c\n\u5c31\u4f1a\u96be\u4ee5\u6253\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3092\u3000\u4e00\u6483\u3067\u3000\u7015\u6b7b\u306b\u3000\u3059\u308b\u3002\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3000\u4ee5\u5916\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u4f7f\u3046\u3068\u3000\u5f53\u305f\u308a\u306b\u304f\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The target faints instantly. It\u2019s less likely to hit the\ntarget if it\u2019s used by Pok\u00e9mon other than Ice types.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Il bersaglio esaurisce i PS in un colpo solo.\nSe viene usata da Pok\u00e9mon che non sono di tipo\nGhiaccio, difficilmente va a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Debilita al objetivo de un solo golpe. Si lo usa un\nPok\u00e9mon que no sea de tipo Hielo, es dif\u00edcil que\nacierte.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Diese Attacke f\u00fchrt beim Ziel sofort zum K.O. Wird\nsie von einem Pok\u00e9mon eingesetzt, das nicht dem\nTyp Eis angeh\u00f6rt, trifft sie seltener.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une vague de froid glacial frappe l\u2019ennemi pour le\nmettre K.O. en un coup. A peu de chances de r\u00e9ussir\nsi le lanceur ne poss\u00e8de pas le type Glace.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4e00\u64ca\u8b93\u5c0d\u624b\u9677\u5165\u7015\u6b7b\u3002\n\u51b0\u5c6c\u6027\u4ee5\u5916\u7684\u5bf6\u53ef\u5922\u4f7f\u7528\u6642\uff0c\n\u6703\u6bd4\u8f03\u4e0d\u6613\u547d\u4e2d\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub97c \uc77c\uaca9\uc5d0 \uae30\uc808\uc2dc\ud0a8\ub2e4.\n\uc5bc\uc74c\ud0c0\uc785 \uc774\uc678\uc758 \ud3ec\ucf13\ubaac\uc774\n\uc0ac\uc6a9\ud558\uba74 \uc798 \ub9de\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3000\u3044\u304c\u3044\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u3064\u304b\u3046\u3068\u3000\u3042\u305f\u308a\u306b\u304f\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7d76\u5bfe\u96f6\u5ea6\u306e\u3000\u51b7\u305f\u3055\u3067\n\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a blast of\nabsolute-zero cold. The target faints\ninstantly if this attack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ondata di freddo penetrante che, se va a segno,\nfa andare KO il bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de fr\u00edo polar que debilita al objetivo si le \nalcanza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit K\u00e4lte, die das Ziel bei Erfolg besiegt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une vague de froid glacial frappe l\u2019ennemi.\nS\u2019il est touch\u00e9, il est mis K.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc808\ub300\uc601\ub3c4\uc758 \ucd94\uc704\ub85c\n\uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u305c\u3063\u305f\u3044\u308c\u3044\u3069\u306e\u3000\u3064\u3081\u305f\u3055\u3067\n\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u7d76\u5bfe\u96f6\u5ea6\u306e\u3000\u51b7\u305f\u3055\u3067\n\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a blast of\nabsolute-zero cold. The target faints\ninstantly if this attack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ondata di freddo penetrante che, se va a segno,\nfa andare KO il bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de fr\u00edo polar que debilita al objetivo si le\nalcanza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit K\u00e4lte, die das Ziel bei Erfolg besiegt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une vague de froid glacial frappe l\u2019ennemi.\nS\u2019il est touch\u00e9, il est mis K.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc808\ub300\uc601\ub3c4\uc758 \ucd94\uc704\ub85c\n\uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u305c\u3063\u305f\u3044\u308c\u3044\u3069\u306e\u3000\u3064\u3081\u305f\u3055\u3067\n\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a blast of\nabsolute-zero cold.\nThe target instantly faints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a blast of\nabsolute-zero cold.\nThe target instantly faints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une vague de froid glacial frappe\nl\u2019ennemi. S\u2019il est touch\u00e9, il est mis\nK.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith ultimate cold\nthat causes fainting\nif it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A chilling attack that\ncauses fainting if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A chilling attack that\ncauses fainting if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 329,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "ohko",
+            "url": "/api/v2/move-category/9/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "sheer-cold",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7edd\u5bf9\u96f6\u5ea6"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u305c\u3063\u305f\u3044\u308c\u3044\u3069"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Sheer Cold"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Purogelo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Fr\u00edo Polar"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Eisesk\u00e4lte"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Glaciation"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7d55\u5c0d\u96f6\u5ea6"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc808\ub300\uc601\ub3c4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u305c\u3063\u305f\u3044\u308c\u3044\u3069"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/9/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ice",
+        "url": "/api/v2/type/15/"
+    }
+}

@@ -1,0 +1,637 @@
+{
+    "base_happiness": 100,
+    "capture_rate": 3,
+    "color": {
+        "name": "yellow",
+        "url": "/api/v2/pokemon-color/10/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/255/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u30d3\u30af\u30c6\u30a3\u30cb\u304c\u3000\u7121\u9650\u306b\u3000\u751f\u202f\u51fa\u3059\n\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u5206\u3051\u4e0e\u3048\u3066\u3082\u3089\u3046\u3068\n\u5168\u8eab\u306b\u3000\u30d1\u30ef\u30fc\u304c\u3000\u3042\u3075\u308c\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "When it shares the infinite energy it creates,\nthat being\u2019s entire body will be overflowing\nwith power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f2 condividere l\u2019energia infinita che emana, donando un\npotere immenso a chi la riceve.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Cuando Victini comparte su energ\u00eda ilimitada, esa persona o\nPok\u00e9mon irradia abundante poder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jeder, dem Victini seine grenzenlose Energie zuteilwerden\nl\u00e4sst, strotzt nur so vor Kraft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9nergie sans limites qu\u2019il produit donne une force incroyable\n\u00e0 ceux qui entrent en contact avec elle.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ube44\ud06c\ud2f0\ub2c8\uac00 \ubb34\ud55c\ud788 \ub9cc\ub4e4\uc5b4\ub0b4\ub294\n\uc5d0\ub108\uc9c0\ub97c \ub098\ub204\uc5b4 \ubc1b\uc73c\uba74\n\uc804\uc2e0\uc5d0 \ud30c\uc6cc\uac00 \ub118\uce5c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30d3\u30af\u30c6\u30a3\u30cb\u304c\u3000\u3080\u3052\u3093\u306b\u3000\u3046\u202f\u3060\u3059\n\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u308f\u3051\u3042\u305f\u3048\u3066\u3082\u3089\u3046\u3068\n\u305c\u3093\u3057\u3093\u306b\u3000\u30d1\u30ef\u30fc\u304c\u3000\u3042\u3075\u308c\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u52dd\u5229\u3092\u3000\u3082\u305f\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30d3\u30af\u30c6\u30a3\u30cb\u3092\u3000\u9023\u308c\u305f\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306f\n\u3069\u3093\u306a\u3000\u52dd\u8ca0\u306b\u3082\u3000\u52dd\u3066\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon brings victory. It is said that Trainers\nwith Victini always win, regardless of the type\nof encounter.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon che porta la vittoria. Si dice che l\u2019Allenatore che\nha con s\u00e9 Victini possa vincere qualsiasi lotta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon que atrae la victoria. Dicen que el Entrenador que lo\nlleve saldr\u00e1 vencedor de cualquier batalla.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ein siegverhei\u00dfendes Pok\u00e9mon. Man sagt, Trainer, die ein\nVictini in ihrem Team haben, seien unschlagbar.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon qui am\u00e8ne la victoire. On dit que les Dresseurs\nqui le poss\u00e8dent peuvent gagner n\u2019importe quel combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc2b9\ub9ac\ub97c \ubd80\ub974\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ube44\ud06c\ud2f0\ub2c8\uc640 \ud568\uaed8\ud558\ub294 \ud2b8\ub808\uc774\ub108\ub294\n\uadf8 \uc5b4\ub5a4 \uc2b9\ubd80\uc5d0\uc11c\ub3c4 \uc2b9\ub9ac\ud55c\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u308a\u3092\u3000\u3082\u305f\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30d3\u30af\u30c6\u30a3\u30cb\u3092\u3000\u3064\u308c\u305f\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306f\n\u3069\u3093\u306a\u3000\u3057\u3087\u3046\u3076\u306b\u3082\u3000\u304b\u3066\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30d3\u30af\u30c6\u30a3\u30cb\u304c\u3000\u7121\u9650\u306b\u3000\u751f\u307f\u51fa\u3059\n\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u5206\u3051\u4e0e\u3048\u3066\u3082\u3089\u3046\u3068\n\u5168\u8eab\u306b\u3000\u30d1\u30ef\u30fc\u304c\u3000\u3042\u3075\u308c\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "When it shares the infinite energy it creates,\nthat being\u2019s entire body will be overflowing\nwith power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f2 condividere l\u2019energia infinita che emana,\ndonando un potere immenso a chi la riceve.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuando Victini comparte su energ\u00eda ilimitada, esa\npersona o Pok\u00e9mon irradia abundante poder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Jeder, dem Victini seine grenzenlose Energie\nzuteilwerden l\u00e4sst, strotzt nur so vor Kraft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9nergie sans limites qu\u2019il produit donne une force\nincroyable \u00e0 ceux qui entrent en contact avec elle.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ube44\ud06c\ud2f0\ub2c8\uac00 \ubb34\ud55c\ud788 \ub9cc\ub4e4\uc5b4\ub0b4\ub294\n\uc5d0\ub108\uc9c0\ub97c \ub098\ub204\uc5b4 \ubc1b\uc73c\uba74\n\uc804\uc2e0\uc5d0 \ud30c\uc6cc\uac00 \ub118\uce5c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30d3\u30af\u30c6\u30a3\u30cb\u304c\u3000\u3080\u3052\u3093\u306b\u3000\u3046\u307f\u3060\u3059\n\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u308f\u3051\u3042\u305f\u3048\u3066\u3082\u3089\u3046\u3068\n\u305c\u3093\u3057\u3093\u306b\u3000\u30d1\u30ef\u30fc\u304c\u3000\u3042\u3075\u308c\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u52dd\u5229\u3092\u3000\u3082\u305f\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30d3\u30af\u30c6\u30a3\u30cb\u3092\u3000\u9023\u308c\u305f\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306f\n\u3069\u3093\u306a\u3000\u52dd\u8ca0\u306b\u3082\u3000\u52dd\u3066\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon brings victory. It is said that Trainers\nwith Victini always win, regardless of the type\nof encounter.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon che porta la vittoria. Si dice che l\u2019Allenatore\nche ha con s\u00e9 Victini possa vincere qualsiasi lotta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon que atrae la victoria. Dicen que el\nEntrenador que lo lleve saldr\u00e1 vencedor de\ncualquier batalla.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ein siegverhei\u00dfendes Pok\u00e9mon. Man sagt,\nTrainer, die ein Victini in ihrem Team haben,\nseien unschlagbar.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon qui am\u00e8ne la victoire. On dit que les\nDresseurs qui le poss\u00e8dent peuvent gagner n\u2019importe\nquel combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc2b9\ub9ac\ub97c \ubd80\ub974\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ube44\ud06c\ud2f0\ub2c8\uc640 \ud568\uaed8\ud558\ub294 \ud2b8\ub808\uc774\ub108\ub294\n\uadf8 \uc5b4\ub5a4 \uc2b9\ubd80\uc5d0\uc11c\ub3c4 \uc2b9\ub9ac\ud55c\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u308a\u3092\u3000\u3082\u305f\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30d3\u30af\u30c6\u30a3\u30cb\u3092\u3000\u3064\u308c\u305f\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306f\n\u3069\u3093\u306a\u3000\u3057\u3087\u3046\u3076\u306b\u3082\u3000\u304b\u3066\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When it shares the infinite energy\nit creates, that being\u2019s entire\nbody will be overflowing with power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "When it shares the infinite energy\nit creates, that being\u2019s entire\nbody will be overflowing with power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It creates an unlimited supply of\nenergy inside its body, which it\nshares with those who touch it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Son corps produit une \u00e9nergie\nsans limites qu\u2019il peut partager\navec ceux qu\u2019il touche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon brings victory. It is said\nthat Trainers with Victini always win,\nregardless of the type of encounter.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon qui am\u00e8ne la victoire. On dit\nque les Dresseurs qui le poss\u00e8dent\npeuvent gagner n\u2019importe quel combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u80dc\u5229\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3057\u3087\u3046\u308a\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Victory Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Vittoria",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Victoria",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Triumph",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Victoire",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u52dd\u5229\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc2b9\ub9ac\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3057\u3087\u3046\u308a\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 120,
+    "id": 494,
+    "is_baby": false,
+    "name": "victini",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6bd4\u514b\u63d0\u5c3c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d3\u30af\u30c6\u30a3\u30cb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Victini"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Victini"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Victini"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Victini"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Victini"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6bd4\u514b\u63d0\u5c3c"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ube44\ud06c\ud2f0\ub2c8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d3\u30af\u30c6\u30a3\u30cb"
+        }
+    ],
+    "order": 495,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 0,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 0,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 494,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "victini",
+                "url": "/api/v2/pokemon/494/"
+            }
+        }
+    ]
+}

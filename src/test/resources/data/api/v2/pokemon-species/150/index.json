@@ -1,0 +1,867 @@
+{
+    "base_happiness": 0,
+    "capture_rate": 3,
+    "color": {
+        "name": "purple",
+        "url": "/api/v2/pokemon-color/7/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/77/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u907a\u4f1d\u5b50\u64cd\u4f5c\u306b\u3000\u3088\u3063\u3066\u3000\u3064\u304f\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u4eba\u9593\u306e\u3000\u79d1\u5b66\u529b\u3067\u3000\u4f53\u306f\u3000\u3064\u304f\u308c\u3066\u3082\n\u512a\u3057\u3044\u3000\u5fc3\u3092\u3000\u3064\u304f\u308b\u3053\u3068\u306f\u3000\u3067\u304d\u306a\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo is a Pok\u00e9mon that was created by genetic\nmanipulation. However, even though the scientific power\nof humans created this Pok\u00e9mon\u2019s body, they failed to\nendow Mewtwo with a compassionate heart.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo \u00e8 stato creato grazie a una manipolazione genetica.\nTuttavia, sebbene la scienza sia riuscita a creare un corpo\ndi Pok\u00e9mon, ha fallito nell\u2019intento di dare a Mewtwo\nun animo generoso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo fue creado por manipulaci\u00f3n gen\u00e9tica. Pero, a pesar\nde que el hombre cre\u00f3 su cuerpo, dotar a Mewtwo de un\ncoraz\u00f3n compasivo qued\u00f3 en el olvido.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mewtu ist ein Pok\u00e9mon, das durch Genmanipulation\nentstanden ist. Die Menschen haben es zwar mit ihrem\nwissenschaftlichen Sachverstand erzeugt, aber nicht mit\neinem mitf\u00fchlenden Herzen ausgestattet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo est un Pok\u00e9mon cr\u00e9\u00e9 par manipulation g\u00e9n\u00e9tique.\nCependant, bien que les connaissances scientifiques des\nhumains aient r\u00e9ussi \u00e0 cr\u00e9er son corps, elles n\u2019ont pas pu\ndoter Mewtwo d\u2019un c\u0153ur sensible.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc720\uc804\uc790\uc870\uc791\uc744 \ud1b5\ud574 \ub9cc\ub4e4\uc5b4\uc9c4 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc778\uac04\uc740 \uacfc\ud559\uc758 \ud798\uc73c\ub85c \ubab8\uc740 \ub9cc\ub4e4\uc5c8\uc9c0\ub9cc\n\uc0c1\ub0e5\ud55c \ub9c8\uc74c\uc744 \ub9cc\ub4e4 \uc218\ub294 \uc5c6\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3067\u3093\u3057\u305d\u3046\u3055\u306b\u3000\u3088\u3063\u3066\u3000\u3064\u304f\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u306b\u3093\u3052\u3093\u306e\u3000\u304b\u304c\u304f\u308a\u3087\u304f\u3067\u3000\u304b\u3089\u3060\u306f\u3000\u3064\u304f\u308c\u3066\u3082\n\u3084\u3055\u3057\u3044\u3000\u3053\u3053\u308d\u3092\u3000\u3064\u304f\u308b\u3053\u3068\u306f\u3000\u3067\u304d\u306a\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u907a\u4f1d\u5b50\u64cd\u4f5c\u306b\u3000\u3088\u3063\u3066\u3000\u3064\u304f\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u4eba\u9593\u306e\u3000\u79d1\u5b66\u529b\u3067\u3000\u4f53\u306f\u3000\u3064\u304f\u308c\u3066\u3082\n\u512a\u3057\u3044\u3000\u5fc3\u3092\u3000\u3064\u304f\u308b\u3053\u3068\u306f\u3000\u3067\u304d\u306a\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo is a Pok\u00e9mon that was created by genetic\nmanipulation. However, even though the scientific power of\nhumans created this Pok\u00e9mon\u2019s body, they failed to endow\nMewtwo with a compassionate heart.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo \u00e8 stato creato grazie a una manipolazione genetica.\nTuttavia, sebbene la scienza sia riuscita a creare un corpo\ndi Pok\u00e9mon, ha fallito nell\u2019intento di dare a Mewtwo\nun animo generoso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo fue creado por manipulaci\u00f3n gen\u00e9tica. Pero, a pesar\nde que el hombre cre\u00f3 su cuerpo, dotar a Mewtwo de un\ncoraz\u00f3n compasivo qued\u00f3 en el olvido.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mewtu ist ein Pok\u00e9mon, das durch Genmanipulation\nentstanden ist. Die Menschen haben es zwar mit ihrem\nwissenschaftlichen Sachverstand erzeugt, aber nicht mit\neinem mitf\u00fchlenden Herzen ausgestattet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mewtwo est un Pok\u00e9mon cr\u00e9\u00e9 par manipulation g\u00e9n\u00e9tique.\nCependant, bien que les connaissances scientifiques des\nhumains aient r\u00e9ussi \u00e0 cr\u00e9er son corps, elles n\u2019ont pas pu\ndoter Mewtwo d\u2019un c\u0153ur sensible.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc720\uc804\uc790\uc870\uc791\uc744 \ud1b5\ud574 \ub9cc\ub4e4\uc5b4\uc9c4 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc778\uac04\uc740 \uacfc\ud559\uc758 \ud798\uc73c\ub85c \ubab8\uc740 \ub9cc\ub4e4\uc5c8\uc9c0\ub9cc\n\uc0c1\ub0e5\ud55c \ub9c8\uc74c\uc744 \ub9cc\ub4e4 \uc218\ub294 \uc5c6\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3067\u3093\u3057\u305d\u3046\u3055\u306b\u3000\u3088\u3063\u3066\u3000\u3064\u304f\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u306b\u3093\u3052\u3093\u306e\u3000\u304b\u304c\u304f\u308a\u3087\u304f\u3067\u3000\u304b\u3089\u3060\u306f\u3000\u3064\u304f\u308c\u3066\u3082\n\u3084\u3055\u3057\u3044\u3000\u3053\u3053\u308d\u3092\u3000\u3064\u304f\u308b\u3053\u3068\u306f\u3000\u3067\u304d\u306a\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30df\u30e5\u30a6\u306e\u3000\u907a\u4f1d\u5b50\u3092\u3000\u7d44\u307f\u66ff\u3048\u3066\n\u751f\u307f\u51fa\u3055\u308c\u305f\u3002\u30dd\u30b1\u30e2\u30f3\u3067\u3000\u4e00\u756a\n\u51f6\u66b4\u306a\u3000\u5fc3\u3092\u3000\u6301\u3064\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining Mew\u2019s genes.\nIt\u2019s said to have the most savage heart\namong Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon creato usando i geni di Mew. Si dice che\nfra i Pok\u00e9mon sia quello con l\u2019animo pi\u00f9 crudele.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon creado por recombinaci\u00f3n gen\u00e9tica de Mew.\nSe dice que es el m\u00e1s salvaje de los Pok\u00e9mon.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Die Gene von Mew wurden neu angeordnet, wodurch\ndieses Pok\u00e9mon entstand. Es hat ein wildes Herz.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon con\u00e7u en r\u00e9organisant les g\u00e8nes de\nMew. On raconte qu\u2019il s\u2019agit du Pok\u00e9mon le plus\nf\u00e9roce.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ubba4\uc758 \uc720\uc804\uc790\ub97c \uc7ac\uad6c\uc131\ud574\uc11c\n\ub9cc\ub4e4\uc5b4\uc84c\ub2e4. \ud3ec\ucf13\ubaac \uc911\uc5d0\uc11c \uac00\uc7a5\n\ub09c\ud3ed\ud55c \ub9c8\uc74c\uc744 \uac00\uc9c0\uace0 \uc788\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30df\u30e5\u30a6\u306e\u3000\u3044\u3067\u3093\u3057\u3092\u3000\u304f\u307f\u304b\u3048\u3066\n\u3046\u307f\u3060\u3055\u308c\u305f\u3002\u30dd\u30b1\u30e2\u30f3\u3067\u3000\u3044\u3061\u3070\u3093\n\u304d\u3087\u3046\u307c\u3046\u306a\u3000\u3053\u3053\u308d\u3092\u3000\u3082\u3064\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u4eba\u306e\u3000\u79d1\u5b66\u8005\u304c\u3000\u4f55\u5e74\u3082\n\u6050\u308d\u3057\u3044\u3000\u907a\u4f1d\u5b50\u3000\u7814\u7a76\u3092\n\u7d9a\u3051\u305f\u3000\u7d50\u679c\u3000\u8a95\u751f\u3057\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It was created by a scientist after years of horrific\ngene-splicing and DNA-engineering experiments.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Creato da uno scienziato dopo anni di orribili\nesperimenti di ingegneria genetica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Fue creado por un cient\u00edfico tras a\u00f1os de horribles\nexperimentos de ingenier\u00eda gen\u00e9tica.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon ist das Resultat eines jahrelangen\nund skrupellosen Experimentes.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il est le fruit de nombreuses exp\u00e9riences g\u00e9n\u00e9tiques\nhorribles et malsaines.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud55c \uacfc\ud559\uc790\uac00 \uba87 \ub144\uc5d0 \uac78\uccd0\n\ubb34\uc11c\uc6b4 \uc720\uc804\uc790\uc758 \uc5f0\uad6c\ub97c\n\uacc4\uc18d\ud55c \uacb0\uacfc \ud0c4\uc0dd\ud588\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3068\u308a\u306e\u3000\u304b\u304c\u304f\u3057\u3083\u304c\u3000\u306a\u3093\u306d\u3093\u3082\n\u304a\u305d\u308d\u3057\u3044\u3000\u3044\u3067\u3093\u3057\u3000\u3051\u3093\u304d\u3085\u3046\u3092\n\u3064\u3065\u3051\u305f\u3000\u3051\u3063\u304b\u3000\u305f\u3093\u3058\u3087\u3046\u3057\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining\nMew\u2019s genes. It\u2019s said to have the\nmost savage heart among Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining\nMew\u2019s genes. It\u2019s said to have the\nmost savage heart among Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining\nMew\u2019s genes. It\u2019s said to have the\nmost savage heart among Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon con\u00e7u en r\u00e9organisant\nles g\u00e8nes de Mew. On raconte qu\u2019il\ns\u2019agit du Pok\u00e9mon le plus f\u00e9roce.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining\nMew\u2019s genes. It\u2019s said to have the\nmost savage heart among Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon con\u00e7u en r\u00e9organisant\nles g\u00e8nes de Mew. On raconte qu\u2019il\ns\u2019agit du Pok\u00e9mon le plus f\u00e9roce.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It usually remains motionless to\nconserve energy, so that it may\nunleash its full power in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Because its battle abilities were\nraised to the ultimate level,\nit thinks only of defeating its foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining\nMEW\u2019s genes. It\u2019s said to have the\nmost savage heart among Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining\nMEW\u2019s genes. It\u2019s said to have the\nmost savage heart among Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon created by recombining\nMEW\u2019s genes. It\u2019s said to have the\nmost savage heart among Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It was created by a scientist after years\nof horrific gene-splicing and DNA-\nengineering experiments.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON whose genetic code was\nrepeatedly recombined for research.\nIt turned vicious as a result.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON that was created by genetic\nmanipulation. However, even though the\nscientific power of humans made its body,\nthey failed to give it a warm heart.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "MEWTWO is a POK\u00e9MON that was created\nby genetic manipulation.\nHowever, even though the scientific\fpower of humans created this POK\u00e9MON\u2019s\nbody, they failed to endow MEWTWO with\na compassionate heart.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "MEWTWO is a POK\u00e9MON that was created\nby genetic manipulation.\nHowever, even though the scientific\fpower of humans created this POK\u00e9MON\u2019s\nbody, they failed to endow MEWTWO with\na compassionate heart.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "Said to rest qui\u00ad\netly in an\nundiscovered cave,\fthis POK\u00e9MON was\ncreated solely for\nbattling.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It usually remains\nmotionless to con\u00ad\nserve energy, so\fthat it may un\u00ad\nleash its full\npower in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Because its battle\nabilities were\nraised to the\fultimate level, it\nthinks only of de\u00ad\nfeating its foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "Its DNA is almost\nthe same as MEW's.\nHowever, its size\fand disposition\nare vastly dif\u00ad\nferent.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "It was created by\na scientist after\nyears of horrific\fgene splicing and\nDNA engineering\nexperiments.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "It was created by\na scientist after\nyears of horrific\fgene splicing and\nDNA engineering\nexperiments.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": true,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u57fa\u56e0\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3044\u3067\u3093\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Genetic Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Genetico",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gen\u00e9tico",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Genmutant",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon G\u00e9n\u00e9tique",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u57fa\u56e0\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc720\uc804\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3044\u3067\u3093\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "rare",
+        "url": "/api/v2/pokemon-habitat/5/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 120,
+    "id": 150,
+    "is_baby": false,
+    "name": "mewtwo",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8d85\u68a6"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30df\u30e5\u30a6\u30c4\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Mewtwo"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Mewtwo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Mewtwo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Mewtu"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Mewtwo"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8d85\u5922"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubba4\uce20"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Mewtwo"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30df\u30e5\u30a6\u30c4\u30fc"
+        }
+    ],
+    "order": 182,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 90,
+            "rate": 3
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 151,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 196,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 254,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 249,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 150,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 150,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "mewtwo",
+                "url": "/api/v2/pokemon/150/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "mewtwo-mega-x",
+                "url": "/api/v2/pokemon/10043/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "mewtwo-mega-y",
+                "url": "/api/v2/pokemon/10044/"
+            }
+        }
+    ]
+}

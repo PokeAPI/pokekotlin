@@ -1,0 +1,788 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/15/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Protects Pok\u00e9mon on the user's side of the field from major status effects and confusion for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the field.\n\nIf yawn is used while this move is in effect, it will immediately fail.\n\ndefog used by an opponent will end this effect.\n\nThis effect does not prevent the confusion caused by outrage, petal dance, or thrash.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Protects the user's field from major status ailments and confusion for five turns."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\n\u88ab\u795e\u5947\u7684\u529b\u91cf\u5b88\u62a4\uff0c\n\u4ece\u800c\u4e0d\u4f1a\u9677\u5165\u5f02\u5e38\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\n\u4e0d\u601d\u8b70\u306a\u3000\u529b\u306b\u3000\u5b88\u3089\u308c\u3066\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a protective field that prevents\nstatus conditions for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea un campo protettivo che evita\nproblemi di stato per s\u00e9 e gli alleati\nper cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un escudo que protege de problemas de estado, \ncomo el sue\u00f1o o la par\u00e1lisis, durante cinco turnos. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Team des Anwenders ist f\u00fcnf Runden vor\nStatusproblemen gesch\u00fctzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cr\u00e9e un champ protecteur qui emp\u00eache tous\nles probl\u00e8mes de statut pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5167\n\u88ab\u795e\u5947\u7684\u529b\u91cf\u5b88\u8b77\uff0c\n\u4e0d\u6703\u9677\u5165\u7570\u5e38\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548\n\uc774\uc0c1\ud55c \ud798\uc73c\ub85c \ubcf4\ud638\ubc1b\uc544\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u306b\u3000\u307e\u3082\u3089\u308c\u3066\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\n\u88ab\u795e\u5947\u7684\u529b\u91cf\u5b88\u62a4\uff0c\n\u4ece\u800c\u4e0d\u4f1a\u9677\u5165\u5f02\u5e38\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\n\u4e0d\u601d\u8b70\u306a\u3000\u529b\u306b\u3000\u5b88\u3089\u308c\u3066\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a protective field that prevents\nstatus conditions for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea un campo protettivo che evita\nproblemi di stato per s\u00e9 e gli alleati\nper cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un escudo que protege de problemas de estado, \ncomo el sue\u00f1o o la par\u00e1lisis, durante cinco turnos. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Team des Anwenders ist f\u00fcnf Runden vor\nStatusproblemen gesch\u00fctzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cr\u00e9e un champ protecteur qui emp\u00eache tous\nles probl\u00e8mes de statut pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5167\n\u88ab\u795e\u5947\u7684\u529b\u91cf\u5b88\u8b77\uff0c\n\u4e0d\u6703\u9677\u5165\u7570\u5e38\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548\n\uc774\uc0c1\ud55c \ud798\uc73c\ub85c \ubcf4\ud638\ubc1b\uc544\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u306b\u3000\u307e\u3082\u3089\u308c\u3066\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u4e0d\u601d\u8b70\u306a\u3000\u529b\u306b\u3000\u5b88\u3089\u308c\u3066\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a protective field\nthat prevents status conditions\nfor five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea un campo protettivo che evita\nproblemi di stato per s\u00e9 e gli alleati\nper cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un escudo que protege de problemas de estado, \ncomo el sue\u00f1o o la par\u00e1lisis, durante cinco turnos. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Team des Anwenders ist f\u00fcnf Runden\nvor Statusproblemen gesch\u00fctzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cr\u00e9e un champ protecteur qui emp\u00eache tous les\nprobl\u00e8mes de statut pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548\n\uc774\uc0c1\ud55c \ud798\uc73c\ub85c \ubcf4\ud638\ubc1b\uc544\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u306b\u3000\u307e\u3082\u3089\u308c\u3066\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u4e0d\u601d\u8b70\u306a\u3000\u529b\u306b\u3000\u5b88\u3089\u308c\u3066\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a protective field\nthat prevents status conditions\nfor five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea un campo protettivo che evita\nproblemi di stato per s\u00e9 e gli alleati\nper cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un escudo que protege de problemas de estado,\ncomo el sue\u00f1o o la par\u00e1lisis, durante cinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Team des Anwenders ist f\u00fcnf Runden\nvor Statusproblemen gesch\u00fctzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cr\u00e9e un champ protecteur qui emp\u00eache tous les\nprobl\u00e8mes de statut pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548\n\uc774\uc0c1\ud55c \ud798\uc73c\ub85c \ubcf4\ud638\ubc1b\uc544\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u306b\u3000\u307e\u3082\u3089\u308c\u3066\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a protective field that\nprevents status problems for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a protective field that\nprevents status problems for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Champ protecteur emp\u00eachant tous les\nprobl\u00e8mes de statut pendant 5 tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\nprotective field that\nprevents status\nproblems for five\nturns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\nprotective field that\nprevents status\nproblems for five\nturns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\nprotective field that\nprevents status\nproblems for five\nturns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "It protects the\nuser\u2019s party from\nall status problems\nfor five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A mystical force prevents\nall status problems.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A mystical force prevents\nall status problems.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Prevents all\nstatus problems.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Prevents all\nstatus problems.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 219,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/347/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/348/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/349/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/350/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/351/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/352/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/353/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/354/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/355/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/356/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/357/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/358/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/359/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/360/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "field-effect",
+            "url": "/api/v2/move-category/11/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "safeguard",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u795e\u79d8\u5b88\u62a4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3057\u3093\u3074\u306e\u307e\u3082\u308a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Safeguard"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Salvaguardia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Velo Sagrado"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Bodyguard"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Rune Protect"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u795e\u79d8\u5b88\u8b77"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2e0\ube44\uc758\ubd80\uc801"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3057\u3093\u3074\u306e\u307e\u3082\u308a"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 25,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "users-field",
+        "url": "/api/v2/move-target/4/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

@@ -1,0 +1,788 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "dragon-rage",
+                    "url": "/api/v2/move/82/"
+                },
+                {
+                    "name": "dragon-breath",
+                    "url": "/api/v2/move/225/"
+                },
+                {
+                    "name": "dragon-dance",
+                    "url": "/api/v2/move/349/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/23/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Inflicts regular damage with no additional effect."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u5c16\u9510\u7684\u5de8\u722a\n\u5288\u5f00\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u5de8\u5927\u306a\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the target with huge sharp claws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli affilati che graffiano\nil bersaglio rapidamente e con grande forza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ara\u00f1a al objetivo con garras afiladas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit riesigen, scharfen Klauen stark\nverletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lac\u00e8re l\u2019ennemi de ses grandes griffes\naiguis\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5c16\u92b3\u7684\u5de8\u722a\n\u6495\u88c2\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub86d\uace0 \ubfb0\uc871\ud55c \uac70\ub300\ud55c \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac08\ub77c\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u304d\u3087\u3060\u3044\u306a\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5c16\u9510\u7684\u5de8\u722a\n\u5288\u5f00\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u5de8\u5927\u306a\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the target with huge sharp claws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli affilati che graffiano\nil bersaglio rapidamente e con grande forza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ara\u00f1a al objetivo con garras afiladas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit riesigen, scharfen Klauen stark\nverletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lac\u00e8re l\u2019ennemi de ses grandes griffes\naiguis\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5c16\u92b3\u7684\u5de8\u722a\n\u6495\u88c2\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub86d\uace0 \ubfb0\uc871\ud55c \uac70\ub300\ud55c \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac08\ub77c\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u304d\u3087\u3060\u3044\u306a\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u5de8\u5927\u306a\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the target with huge,\nsharp claws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli affilati che graffiano\nil bersaglio rapidamente e con grande forza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ara\u00f1a al objetivo con garras afiladas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit riesigen, scharfen Klauen\nstark verletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lac\u00e8re l\u2019ennemi de ses grandes griffes\naiguis\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub86d\uace0 \ubfb0\uc871\ud55c \uac70\ub300\ud55c \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac08\ub77c\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u304d\u3087\u3060\u3044\u306a\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u5de8\u5927\u306a\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the target with huge,\nsharp claws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con artigli affilati che graffiano\nil bersaglio rapidamente e con grande forza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ara\u00f1a al objetivo con garras afiladas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird mit riesigen, scharfen Klauen\nstark verletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lac\u00e8re l\u2019ennemi de ses grandes griffes\naiguis\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub86d\uace0 \ubfb0\uc871\ud55c \uac70\ub300\ud55c \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac08\ub77c\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u304f\u3000\u3068\u304c\u3063\u305f\u3000\u304d\u3087\u3060\u3044\u306a\u3000\u30c4\u30e1\u3067\n\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the target with huge,\nsharp claws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the target with huge,\nsharp claws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lac\u00e8re l\u2019ennemi de ses\ngrandes griffes aiguis\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the\nfoe with huge, sharp\nclaws.\n\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the\nfoe with huge, sharp\nclaws.\n\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes the\nfoe with huge, sharp\nclaws.\n\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Sharp, huge claws\nhook and slash the\nfoe quickly and\nwith great power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Slashes the foe with sharp\nclaws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Slashes the foe with sharp\nclaws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 337,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/23/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/24/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/25/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/26/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/27/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/28/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/29/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/30/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/31/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/32/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/33/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/34/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/35/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/36/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "dragon-claw",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9f99\u722a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c9\u30e9\u30b4\u30f3\u30af\u30ed\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Dragon Claw"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Dragartigli"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Garra Drag\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Drachenklaue"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Dracogriffe"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9f8d\u722a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub4dc\ub798\uace4\ud06c\ub8e8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c9\u30e9\u30b4\u30f3\u30af\u30ed\u30fc"
+        }
+    ],
+    "past_values": [],
+    "power": 80,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dragon",
+        "url": "/api/v2/type/16/"
+    }
+}

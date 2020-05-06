@@ -1,0 +1,674 @@
+{
+    "accuracy": 85,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "rain-dance",
+                    "url": "/api/v2/move/240/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/10/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 30,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's accuracy by one stage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u55b7\u5c04\n\u6d51\u6d4a\u7684\u6c34\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u547d\u4e2d\u7387\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc1\u3063\u305f\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u547d\u4e2d\u7387\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by shooting muddy water at the\nopposing Pok\u00e9mon. This may also lower\ntheir accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca i nemici che ha intorno con un\ngetto di fango che pu\u00f2 anche ridurne la precisione. ",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con agua lodosa que puede bajar la \nPrecisi\u00f3n del equipo rival.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Greift mit Matsch an und senkt eventuell die\nGenauigkeit des Zieles.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant de l\u2019eau boueuse.\nPeut aussi r\u00e9duire la Pr\u00e9cision de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6e3e\u6fc1\u7684\u6c61\u6c34\u653b\u64ca\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u547d\u4e2d\u7387\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c1\ud574\uc9c4 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud558\uc5ec \uacf5\uaca9\ud55c\ub2e4.\n\uba85\uc911\ub960\uc744 \ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u306b\u3054\u3063\u305f\u3000\u307f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3081\u3044\u3061\u3085\u3046\u308a\u3064\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u55b7\u5c04\n\u6d51\u6d4a\u7684\u6c34\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u547d\u4e2d\u7387\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc1\u3063\u305f\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u547d\u4e2d\u7387\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by shooting muddy water at the\nopposing Pok\u00e9mon. This may also lower\ntheir accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca i nemici che ha intorno con un\ngetto di fango che pu\u00f2 anche ridurne la precisione. ",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con agua lodosa que puede bajar la \nPrecisi\u00f3n del equipo rival.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Greift mit Matsch an und senkt eventuell die\nGenauigkeit des Zieles.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant de l\u2019eau boueuse.\nPeut aussi r\u00e9duire la Pr\u00e9cision de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6e3e\u6fc1\u7684\u6c61\u6c34\u653b\u64ca\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u547d\u4e2d\u7387\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c1\ud574\uc9c4 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud558\uc5ec \uacf5\uaca9\ud55c\ub2e4.\n\uba85\uc911\ub960\uc744 \ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u306b\u3054\u3063\u305f\u3000\u307f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3081\u3044\u3061\u3085\u3046\u308a\u3064\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc1\u3063\u305f\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u547d\u4e2d\u7387\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by shooting muddy water\nat the opposing Pok\u00e9mon.\nThis may also lower their accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca i nemici che ha intorno con un\ngetto di fango che pu\u00f2 anche ridurne la precisione. ",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con agua lodosa que puede bajar la \nPrecisi\u00f3n del equipo rival.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Greift mit Matsch an und senkt eventuell\ndie Genauigkeit des Zieles.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant de l\u2019eau boueuse.\nPeut aussi r\u00e9duire la Pr\u00e9cision de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c1\ud574\uc9c4 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud558\uc5ec \uacf5\uaca9\ud55c\ub2e4.\n\uba85\uc911\ub960\uc744 \ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u306b\u3054\u3063\u305f\u3000\u202f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3081\u3044\u3061\u3085\u3046\u308a\u3064\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc1\u3063\u305f\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u547d\u4e2d\u7387\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by shooting muddy water\nat the opposing Pok\u00e9mon.\nThis may also lower their accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca i nemici che ha intorno con un\ngetto di fango che pu\u00f2 anche ridurne la precisione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con agua lodosa que puede bajar la\nPrecisi\u00f3n del equipo rival.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Greift mit Matsch an und senkt eventuell\ndie Genauigkeit des Zieles.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant de l\u2019eau boueuse.\nPeut aussi r\u00e9duire la Pr\u00e9cision de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c1\ud574\uc9c4 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud558\uc5ec \uacf5\uaca9\ud55c\ub2e4.\n\uba85\uc911\ub960\uc744 \ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u306b\u3054\u3063\u305f\u3000\u307f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3081\u3044\u3061\u3085\u3046\u308a\u3064\u3092\u3000\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by shooting muddy water\nat the opposing team.\nIt may also lower the targets\u2019 accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by shooting muddy water\nat the opposing team.\nIt may also lower the targets\u2019 accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant de l\u2019eau\nboueuse. Peut aussi r\u00e9duire la Pr\u00e9cision\nde l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\nshooting out muddy\nwater.\nIt may also lower the\nfoe\u2019s accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\nshooting out muddy\nwater.\nIt may also lower the\nfoe\u2019s accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\nshooting out muddy\nwater.\nIt may also lower the\nfoe\u2019s accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks\nwith muddy water.\nIt may also lower\nthe foe\u2019s accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Attacks with muddy water.\nMay lower accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Attacks with muddy water.\nMay lower accuracy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 330,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage+lower",
+            "url": "/api/v2/move-category/6/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 30
+    },
+    "name": "muddy-water",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6d4a\u6d41"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3060\u304f\u308a\u3085\u3046"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Muddy Water"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Fanghiglia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Agua Lodosa"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Lehmbr\u00fche"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ocroupi"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6fc1\u6d41"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud0c1\ub958"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3060\u304f\u308a\u3085\u3046"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 95,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 90,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": -1,
+            "stat": {
+                "name": "accuracy",
+                "url": "/api/v2/stat/7/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/18/"
+    },
+    "target": {
+        "name": "all-opponents",
+        "url": "/api/v2/move-target/11/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

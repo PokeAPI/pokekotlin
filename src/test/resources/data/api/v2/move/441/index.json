@@ -1,0 +1,617 @@
+{
+    "accuracy": 80,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": 30,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to poison the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u80ae\u810f\u7684\u5783\u573e\n\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u4e2d\u6bd2\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6c5a\u3044\u3000\u30b4\u30df\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots filthy garbage at the target to\nattack. This may also poison the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con rifiuti sudici\nche possono anche avvelenarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lanza contra el objetivo basura asquerosa. Puede \nenvenenar al objetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schie\u00dft mit M\u00fcll auf das Ziel.\nVergiftet dieses eventuell.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des d\u00e9tritus sur l\u2019ennemi.\nPeut aussi l\u2019empoisonner.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u9aaf\u9ad2\u7684\u5783\u573e\n\u4e1f\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub354\ub7ec\uc6b4 \uc4f0\ub808\uae30\ub97c\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u305f\u306a\u3044\u3000\u30b4\u30df\u3092\n\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u80ae\u810f\u7684\u5783\u573e\n\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u4e2d\u6bd2\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6c5a\u3044\u3000\u30b4\u30df\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots filthy garbage at the target to\nattack. This may also poison the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con rifiuti sudici\nche possono anche avvelenarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lanza contra el objetivo basura asquerosa. Puede \nenvenenar al objetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schie\u00dft mit M\u00fcll auf das Ziel.\nVergiftet dieses eventuell.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des d\u00e9tritus sur l\u2019ennemi.\nPeut aussi l\u2019empoisonner.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u9aaf\u9ad2\u7684\u5783\u573e\n\u4e1f\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub354\ub7ec\uc6b4 \uc4f0\ub808\uae30\ub97c\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u305f\u306a\u3044\u3000\u30b4\u30df\u3092\n\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6c5a\u3044\u3000\u30b4\u30df\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots filthy garbage\nat the target to attack.\nThis may also poison the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con rifiuti sudici\nche possono anche avvelenarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lanza contra el objetivo basura asquerosa. Puede \nenvenenar al objetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schie\u00dft mit M\u00fcll auf das Ziel.\nVergiftet dieses eventuell.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des d\u00e9tritus sur l\u2019ennemi.\nPeut aussi l\u2019empoisonner.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub354\ub7ec\uc6b4 \uc4f0\ub808\uae30\ub97c\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u305f\u306a\u3044\u3000\u30b4\u30df\u3092\n\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6c5a\u3044\u3000\u30b4\u30df\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots filthy garbage\nat the target to attack.\nThis may also poison the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con rifiuti sudici\nche possono anche avvelenarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schie\u00dft mit M\u00fcll auf das Ziel.\nVergiftet dieses eventuell.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des d\u00e9tritus sur l\u2019ennemi.\nPeut aussi l\u2019empoisonner.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub354\ub7ec\uc6b4 \uc4f0\ub808\uae30\ub97c\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u305f\u306a\u3044\u3000\u30b4\u30df\u3092\n\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots filthy garbage\nat the target to attack.\nIt may also poison the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots filthy garbage\nat the target to attack.\nIt may also poison the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des d\u00e9tritus sur\nl\u2019ennemi. Peut aussi l\u2019empoisonner.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots\nfilthy garbage at the\nfoe to attack.\nIt may also poison\nthe target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots\nfilthy garbage at the\nfoe to attack.\nIt may also poison\nthe target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots\nfilthy garbage at the\nfoe to attack.\nIt may also poison\nthe target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 441,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "poison",
+            "url": "/api/v2/move-ailment/5/"
+        },
+        "ailment_chance": 30,
+        "category": {
+            "name": "damage+ailment",
+            "url": "/api/v2/move-category/4/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "gunk-shot",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5783\u573e\u5c04\u51fb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c0\u30b9\u30c8\u30b7\u30e5\u30fc\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Gunk Shot"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sporcolancio"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Lanza Mugre"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "M\u00fclltreffer"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "D\u00e9tricanon"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5783\u573e\u5c04\u64ca"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub354\uc2a4\ud2b8\uc288\ud2b8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c0\u30b9\u30c8\u30b7\u30e5\u30fc\u30c8"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": 70,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 120,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/5/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "poison",
+        "url": "/api/v2/type/4/"
+    }
+}

@@ -1,0 +1,916 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "bug",
+            "url": "/api/v2/egg-group/3/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/102/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f1a\u6302\u5728\u6811\u4e0a\u9759\u9759\u7b49\u5f85\u4f5c\u4e3a\n\u5b83\u730e\u7269\u7684\u866b\u5b9d\u53ef\u68a6\u9001\u4e0a\u95e8\u6765\u3002\n\u5728\u963f\u7f57\u62c9\uff0c\u5b83\u559c\u6b22\u5403\u7684\u662f\u840c\u867b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6728\u306b\u3000\u3076\u3089\u4e0b\u304c\u308a\u3000\u3058\u3063\u3068\u3000\u7372\u7269\u306e\n\u3080\u3057\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u6765\u308b\u306e\u3092\u3000\u5f85\u3063\u3066\u3044\u308b\u3002\n\u30a2\u30ed\u30fc\u30e9\u3067\u306e\u3000\u597d\u7269\u306f\u3000\u30a2\u30d6\u30ea\u30fc\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Motionless, it hangs from trees, waiting for\nits bug Pok\u00e9mon prey to come to it. Its favorite\nin Alola is Cutiefly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si ciba di Pok\u00e9mon Coleottero e attende\npazientemente le prede appeso a un ramo. Quelli\nche vivono ad Alola sono ghiotti di Cutiefly.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Se aposta en los \u00e1rboles y espera inm\u00f3vil a\nque pase un Pok\u00e9mon insecto al que atrapar.\nEn Alola tiene predilecci\u00f3n por los Cutiefly.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es h\u00e4ngt an B\u00e4umen und wartet regungslos auf\nseine Beute, K\u00e4fer-Pok\u00e9mon. In Alola ern\u00e4hrt es\nsich bevorzugt von Wommel.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Accroch\u00e9 \u00e0 sa branche, il attend patiemment\nses proies favorites : les Pok\u00e9mon Insecte.\nLes Bombydou sont son p\u00e9ch\u00e9 mignon.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u639b\u5728\u6a39\u4e0a\u975c\u975c\u7b49\u5f85\u88ab\u7260\n\u7576\u6210\u7375\u7269\u7684\u87f2\u5bf6\u53ef\u5922\u4e0a\u9580\u3002\n\u5728\u963f\u7f85\u62c9\uff0c\u7260\u6700\u611b\u5403\u7684\u662f\u840c\u867b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\ubb34\uc5d0 \ub9e4\ub2ec\ub824 \uac00\ub9cc\ud788 \uba39\uc774\uc778\n\ubc8c\ub808\ud3ec\ucf13\ubaac\uc774 \uc62c \ub54c\ub97c \uae30\ub2e4\ub9b0\ub2e4.\n\uc54c\ub85c\ub77c\uc5d0\uc11c \uc88b\uc544\ud558\ub294 \uac74 \uc5d0\ube14\ub9ac\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u306b\u3000\u3076\u3089\u3055\u304c\u308a\u3000\u3058\u3063\u3068\u3000\u3048\u3082\u306e\u306e\n\u3080\u3057\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304f\u308b\u306e\u3092\u3000\u307e\u3063\u3066\u3044\u308b\u3002\n\u30a2\u30ed\u30fc\u30e9\u3067\u306e\u3000\u3053\u3046\u3076\u3064\u306f\u3000\u30a2\u30d6\u30ea\u30fc\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6728\u306e\u3000\u679d\u306b\u3000\u3076\u3089\u4e0b\u304c\u308a\u3000\u7372\u7269\u3092\u3000\u5f85\u3063\u3066\u3044\u308b\u3002\n\u6728\u3092\u3000\u63fa\u3089\u3055\u308c\u3066\u3000\u98df\u4e8b\u306e\u3000\u90aa\u9b54\u3092\u3000\u3055\u308c\u308b\u3068\n\u5730\u9762\u306b\u3000\u843d\u3061\u3066\u304b\u3089\u3000\u3044\u304d\u306a\u308a\u3000\u7206\u767a\u3059\u308b\u305e\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pineco hangs from a tree branch and patiently waits for prey to\ncome along. If the Pok\u00e9mon is disturbed while eating by\nsomeone shaking its tree, it drops down to the ground and\nexplodes with no warning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pineco pende dal ramo di un albero e attende pazientemente\nl\u2019arrivo della sua preda. Se l\u2019albero viene scosso mentre\nil Pok\u00e9mon mangia, Pineco cade a terra esplodendo\nsenza preavviso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pineco permanece colgado de la rama de un \u00e1rbol esperando\npacientemente a su presa. Si alguien sacude el \u00e1rbol en el\nque est\u00e1 mientras come y le molesta, se tira al suelo y explota\nsin dar ning\u00fan tipo de aviso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Tannza h\u00e4ngt an \u00c4sten und wartet auf Beute. Wenn man dieses\nPok\u00e9mon bei einer Mahlzeit st\u00f6rt, indem man seinen Baum\nsch\u00fcttelt, f\u00e4llt es herunter und explodiert ohne Vorwarnung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pomdepik s\u2019accroche \u00e0 une branche d\u2019arbre et attend\npatiemment que sa proie passe. Si ce Pok\u00e9mon est d\u00e9rang\u00e9\npendant qu\u2019il mange par quelqu\u2019un qui secoue son arbre,\nil tombe au sol et explose sans pr\u00e9venir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\ubb47\uac00\uc9c0\uc5d0 \ub9e4\ub2ec\ub824 \uba39\uc774\ub97c \uae30\ub2e4\ub9b0\ub2e4.\n\ub098\ubb34\uac00 \ud754\ub4e4\ub824 \uc2dd\uc0ac\ub97c \ubc29\ud574\ubc1b\uc73c\uba74\n\ub545\uc73c\ub85c \ub5a8\uc5b4\uc9c4 \ud6c4 \ub290\ub2f7\uc5c6\uc774 \ud3ed\ubc1c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u306e\u3000\u3048\u3060\u306b\u3000\u3076\u3089\u3055\u304c\u308a\u3000\u3048\u3082\u306e\u3092\u3000\u307e\u3063\u3066\u3044\u308b\u3002\n\u304d\u3092\u3000\u3086\u3089\u3055\u308c\u3066\u3000\u3057\u3087\u304f\u3058\u306e\u3000\u3058\u3083\u307e\u3092\u3000\u3055\u308c\u308b\u3068\n\u3058\u3081\u3093\u306b\u3000\u304a\u3061\u3066\u304b\u3089\u3000\u3044\u304d\u306a\u308a\u3000\u3070\u304f\u306f\u3064\u3059\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u6728\u306e\u3000\u679d\u306b\u3000\u3076\u3089\u4e0b\u304c\u308a\u3000\u7372\u7269\u3092\u3000\u5f85\u3063\u3066\u3044\u308b\u3002\n\u6728\u3092\u3000\u63fa\u3089\u3055\u308c\u3066\u3000\u98df\u4e8b\u306e\u3000\u90aa\u9b54\u3092\u3000\u3055\u308c\u308b\u3068\n\u5730\u9762\u306b\u3000\u843d\u3061\u3066\u304b\u3089\u3000\u3044\u304d\u306a\u308a\u3000\u7206\u767a\u3059\u308b\u305e\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pineco hangs from a tree branch and patiently waits for prey to\ncome along. If the Pok\u00e9mon is disturbed while eating by\nsomeone shaking its tree, it drops down to the ground and\nexplodes with no warning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pineco pende dal ramo di un albero e attende pazientemente\nl\u2019arrivo della sua preda. Se l\u2019albero viene scosso mentre\nil Pok\u00e9mon mangia, Pineco cade a terra esplodendo\nsenza preavviso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pineco permanece colgado de la rama de un \u00e1rbol esperando\npacientemente a su presa. Si alguien sacude el \u00e1rbol en el\nque est\u00e1 mientras come y le molesta, se tira al suelo y explota\nsin dar ning\u00fan tipo de aviso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Tannza h\u00e4ngt an \u00c4sten und wartet auf Beute. Wenn man\ndieses Pok\u00e9mon bei einer Mahlzeit st\u00f6rt, indem man den\nBaum, auf dem es sich befindet, sch\u00fcttelt, f\u00e4llt es herunter\nund explodiert ohne Vorwarnung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pomdepik s\u2019accroche \u00e0 une branche d\u2019arbre et attend\npatiemment que sa proie passe. Si ce Pok\u00e9mon est d\u00e9rang\u00e9\npendant qu\u2019il mange par quelqu\u2019un qui secoue son arbre,\nil tombe au sol et explose sans pr\u00e9venir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\ubb47\uac00\uc9c0\uc5d0 \ub9e4\ub2ec\ub824 \uba39\uc774\ub97c \uae30\ub2e4\ub9b0\ub2e4.\n\ub098\ubb34\uac00 \ud754\ub4e4\ub824 \uc2dd\uc0ac\ub97c \ubc29\ud574\ubc1b\uc73c\uba74\n\ub545\uc73c\ub85c \ub5a8\uc5b4\uc9c4 \ud6c4 \ub290\ub2f7\uc5c6\uc774 \ud3ed\ubc1c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u306e\u3000\u3048\u3060\u306b\u3000\u3076\u3089\u3055\u304c\u308a\u3000\u3048\u3082\u306e\u3092\u3000\u307e\u3063\u3066\u3044\u308b\u3002\n\u304d\u3092\u3000\u3086\u3089\u3055\u308c\u3066\u3000\u3057\u3087\u304f\u3058\u306e\u3000\u3058\u3083\u307e\u3092\u3000\u3055\u308c\u308b\u3068\n\u3058\u3081\u3093\u306b\u3000\u304a\u3061\u3066\u304b\u3089\u3000\u3044\u304d\u306a\u308a\u3000\u3070\u304f\u306f\u3064\u3059\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6728\u306e\u5b9f\u306b\u3000\u305d\u3063\u304f\u308a\u3002\u9593\u9055\u308f\u308c\u3066\n\u3068\u308a\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3064\u3064\u304b\u308c\u3066\u3057\u307e\u3046\u304c\n\u786c\u3044\u3000\u6bbb\u3067\u3000\u5b88\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone. Its shell protects it\nfrom bird Pok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ha l\u2019aspetto di una pigna. Il suo guscio lo protegge\ndai Pok\u00e9mon uccello che lo beccano per errore.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es como una pi\u00f1a pi\u00f1onera. Su coraza lo protege de\nlos p\u00e1jaros que lo picotean por error.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es sieht aus wie ein Tannenzapfen. Seine Schale\nsch\u00fctzt es vor Vogel-Pok\u00e9mon, die an ihm picken\nwollen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il ressemble \u00e0 une pomme de pin. Sa carapace le\nprot\u00e8ge des Pok\u00e9mon Oiseaux qui le picorent par\nerreur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\ubb34\uc5f4\ub9e4\uc640 \ub611 \ub2ee\uc558\ub2e4. \uc2e4\uc218\ub85c\n\uc0c8\ud3ec\ucf13\ubaac\uc5d0\uac8c \ucabc\uc774\uae30\ub3c4 \ud558\uc9c0\ub9cc\n\ub2e8\ub2e8\ud55c \uaecd\uc9c8\uc774 \ubab8\uc744 \ubcf4\ud638\ud558\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u306e\u307f\u306b\u3000\u305d\u3063\u304f\u308a\u3002\u307e\u3061\u304c\u308f\u308c\u3066\n\u3068\u308a\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3064\u3064\u304b\u308c\u3066\u3057\u307e\u3046\u304c\n\u304b\u305f\u3044\u3000\u30ab\u30e9\u3067\u3000\u307e\u3082\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u6728\u306e\u3000\u76ae\u3092\u3000\u91cd\u306d\u5408\u308f\u305b\u3066\n\u6bbb\u3092\u3000\u5206\u539a\u304f\u3059\u308b\u306e\u304c\u3000\u5927\u597d\u304d\u3002\n\u91cd\u304f\u306a\u3063\u3066\u3082\u3000\u6c17\u306b\u3057\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It likes to make its shell thicker by adding layers of\ntree bark. The additional weight doesn\u2019t bother it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Inspessisce il guscio aggiungendo strati di corteccia.\nNon lo impensierisce l\u2019aumento di peso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Le gusta engrosar su coraza a\u00f1adiendo cortezas de\n\u00e1rbol. El aumento de peso no le molesta.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es f\u00fcgt seiner Schale schichtenweise Baumrinde\nhinzu. Die zus\u00e4tzliche Belastung ist ihm gleich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il renforce sa carapace en y ajoutant des \u00e9corces\nd\u2019arbre. Il devient alors plus lourd.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\ubb34\uaecd\uc9c8\uc744 \uc9dc \ub9de\ucdb0\uc11c\n\uaecd\uc9c8\uc744 \ub450\uaecd\uac8c \ud558\ub294 \uac83\uc744 \uc88b\uc544\ud55c\ub2e4.\n\ubb34\uac70\uc6cc\uc838\ub3c4 \uc2e0\uacbd \uc4f0\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u306e\u3000\u304b\u308f\u3092\u3000\u304b\u3055\u306d\u3042\u308f\u305b\u3066\n\u30ab\u30e9\u3092\u3000\u3076\u3042\u3064\u304f\u3059\u308b\u306e\u304c\u3000\u3060\u3044\u3059\u304d\u3002\n\u304a\u3082\u304f\u306a\u3063\u3066\u3082\u3000\u304d\u306b\u3057\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone.\nIts shell protects it from bird\nPok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone.\nIts shell protects it from bird\nPok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone.\nIts shell protects it from bird\nPok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il ressemble \u00e0 une pomme de pin.\nSa carapace le prot\u00e8ge des Pok\u00e9mon\nOiseaux qui le picorent par erreur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone.\nIts shell protects it from bird\nPok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il ressemble \u00e0 une pomme de pin.\nSa carapace le prot\u00e8ge des Pok\u00e9mon\nOiseaux qui le picorent par erreur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It hangs and waits for flying insect\nprey to come near. It does not move\nabout much on its own.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It likes to make its shell thicker\nby adding layers of tree bark. The\nadditional weight doesn\u2019t bother it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone.\nIts shell protects it from bird\nPok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone.\nIts shell protects it from bird\nPok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like a pinecone.\nIts shell protects it from bird\nPok\u00e9mon that peck it by mistake.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It likes to make its shell thicker by\nadding layers of tree bark. The extra\nweight doesn\u2019t bother it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It hangs and waits for flying-insect prey\nto come near. It does not move about\nmuch on its own.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A PINECO hangs from a tree branch and\nwaits for prey. While eating, if it is\ndisturbed by someone shaking its tree, it\nfalls on the ground and suddenly explodes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "PINECO hangs from a tree branch and\npatiently waits for prey to come along.\nIf the POK\u00e9MON is disturbed while\feating by someone shaking its tree, it\ndrops down to the ground and explodes\nwith no warning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "PINECO hangs from a tree branch and\npatiently waits for prey to come along.\nIf the POK\u00e9MON is disturbed while\feating by someone shaking its tree, it\ndrops down to the ground and explodes\nwith no warning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "It spits out a\nfluid that it uses\nto glue tree bark\fto its body. The\nfluid hardens when\nit touches air.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It hangs and waits\nfor flying insect\nprey to come near.\fIt does not move\nabout much on its\nown.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It likes to make\nits shell thicker\nby adding layers\fof tree bark. The\nadditional weight\ndoesn't bother it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u84d1\u8863\u866b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u307f\u306e\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Bagworm Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Larva",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Larva",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Beutelwurm",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Ver Cach\u00e9",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u84d1\u8863\u87f2\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub3c4\ub871\uc774\ubc8c\ub808\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u307f\u306e\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 204,
+    "is_baby": false,
+    "name": "pineco",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u699b\u679c\u7403"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30af\u30cc\u30ae\u30c0\u30de"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Pineco"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Pineco"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Pineco"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Tannza"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Pomdepik"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u699b\u679c\u7403"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud53c\ucf58"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Kunugidama"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30af\u30cc\u30ae\u30c0\u30de"
+        }
+    ],
+    "order": 235,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 56,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 93,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 93,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 204,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "ball",
+        "url": "/api/v2/pokemon-shape/1/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "pineco",
+                "url": "/api/v2/pokemon/204/"
+            }
+        }
+    ]
+}

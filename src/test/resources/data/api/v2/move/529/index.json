@@ -1,0 +1,566 @@
+{
+    "accuracy": 95,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has an increased chance for a critical hit."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u50cf\u94a2\u94bb\u4e00\u6837\uff0c\u4e00\u8fb9\u65cb\u8f6c\u8eab\u4f53\n\u4e00\u8fb9\u649e\u51fb\u5bf9\u624b\u3002\n\u5bb9\u6613\u51fb\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u4f53\u3092\u3000\u56de\u8ee2\u3057\u306a\u304c\u3089\n\u76f8\u624b\u306b\u3000\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user crashes into its target while rotating its\nbody like a drill. Critical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si scaglia sul bersaglio ruotando su se\nstesso come un trapano perforante. Probabile\nbrutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "El usuario golpea usando su cuerpo como un taladro. \nSuele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rammt das Ziel, w\u00e4hrend er seinen K\u00f6rper\nwie einen Bohrer dreht. Hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tourne sur lui-m\u00eame comme une perceuse\net se jette sur l\u2019ennemi. Taux de critique \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u50cf\u947d\u982d\u4e00\u6a23\u65cb\u8f49\u8eab\u9ad4\uff0c\n\u731b\u70c8\u5730\u649e\u64ca\u5c0d\u624b\u3002\n\u5bb9\u6613\u64ca\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub4dc\ub9b4\ucc98\ub7fc \ubab8\uc744 \ud68c\uc804\uc2dc\ucf1c\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u304b\u3089\u3060\u3092\u3000\u304b\u3044\u3066\u3093\n\u3057\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u50cf\u94a2\u94bb\u4e00\u6837\uff0c\u4e00\u8fb9\u65cb\u8f6c\u8eab\u4f53\n\u4e00\u8fb9\u649e\u51fb\u5bf9\u624b\u3002\n\u5bb9\u6613\u51fb\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u4f53\u3092\u3000\u56de\u8ee2\u3057\u306a\u304c\u3089\n\u76f8\u624b\u306b\u3000\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user crashes into its target while rotating its\nbody like a drill. Critical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si scaglia sul bersaglio ruotando su se\nstesso come un trapano perforante. Probabile\nbrutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "El usuario golpea usando su cuerpo como un taladro. \nSuele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rammt das Ziel, w\u00e4hrend er seinen K\u00f6rper\nwie einen Bohrer dreht. Hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tourne sur lui-m\u00eame comme une perceuse\net se jette sur l\u2019ennemi. Taux de critique \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u50cf\u947d\u982d\u4e00\u6a23\u65cb\u8f49\u8eab\u9ad4\uff0c\n\u731b\u70c8\u5730\u649e\u64ca\u5c0d\u624b\u3002\n\u5bb9\u6613\u64ca\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub4dc\ub9b4\ucc98\ub7fc \ubab8\uc744 \ud68c\uc804\uc2dc\ucf1c\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u304b\u3089\u3060\u3092\u3000\u304b\u3044\u3066\u3093\n\u3057\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u4f53\u3092\u3000\u56de\u8ee2\u3057\u306a\u304c\u3089\n\u76f8\u624b\u306b\u3000\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si scaglia sul bersaglio ruotando su se\nstesso come un trapano perforante. Probabile\nbrutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El usuario golpea usando su cuerpo como un taladro. \nSuele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rammt das Ziel, w\u00e4hrend er\nseinen K\u00f6rper wie einen Bohrer dreht.\nHohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tourne sur lui-m\u00eame comme une\nperceuse et se jette sur l\u2019ennemi.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub4dc\ub9b4\ucc98\ub7fc \ubab8\uc744 \ud68c\uc804\uc2dc\ucf1c\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u304b\u3089\u3060\u3092\u3000\u304b\u3044\u3066\u3093\n\u3057\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u4f53\u3092\u3000\u56de\u8ee2\u3057\u306a\u304c\u3089\n\u76f8\u624b\u306b\u3000\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si scaglia sul bersaglio ruotando su se\nstesso come un trapano perforante. Probabile\nbrutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El usuario golpea usando su cuerpo como un\ntaladro. Suele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rammt das Ziel, w\u00e4hrend er\nseinen K\u00f6rper wie einen Bohrer dreht.\nHohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tourne sur lui-m\u00eame comme une\nperceuse et se jette sur l\u2019ennemi.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub4dc\ub9b4\ucc98\ub7fc \ubab8\uc744 \ud68c\uc804\uc2dc\ucf1c\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30ea\u30eb\u306e\u3088\u3046\u306b\u3000\u304b\u3089\u3060\u3092\u3000\u304b\u3044\u3066\u3093\n\u3057\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user crashes into its target while\nrotating its body like a drill.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tourne sur lui-m\u00eame comme\nune perceuse et se jette sur l\u2019ennemi.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 529,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 1,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "drill-run",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u76f4\u51b2\u94bb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c9\u30ea\u30eb\u30e9\u30a4\u30ca\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Drill Run"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Giravvita"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Taladradora"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Schlagbohrer"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Tunnelier"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u76f4\u885d\u947d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub4dc\ub9b4\ub77c\uc774\ub108"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c9\u30ea\u30eb\u30e9\u30a4\u30ca\u30fc"
+        }
+    ],
+    "past_values": [],
+    "power": 80,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ground",
+        "url": "/api/v2/type/5/"
+    }
+}

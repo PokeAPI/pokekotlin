@@ -1,0 +1,694 @@
+{
+    "accuracy": 90,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 70,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to raise the user's Special Attack by one stage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to raise the user's Special Attack by one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u53d1\u5c04\u7535\u51fb\u5149\u675f\u3002\n\u7531\u4e8e\u84c4\u6ee1\u7535\u6d41\uff0c\n\u6709\u65f6\u4f1a\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6483\u306e\u3000\u675f\u3092\u3000\u76f8\u624b\u306b\n\u767a\u5c04\u3059\u308b\u3002\u96fb\u6c17\u3092\u3000\u305f\u3081\u3066\u3000\u81ea\u5206\u306e\n\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks with an electric charge. The user\nmay use any remaining electricity to raise its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia un fascio di elettricit\u00e0 molto\nintensa. Pu\u00f2 anche aumentare il suo Attacco\nSpeciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lanza un rayo el\u00e9ctrico contra el objetivo. Puede \nsubir el Ataque Especial de quien lo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird von einem Elektrostrahl getroffen.\nErh\u00f6ht eventuell Spezial-Angriff des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tire un rayon charg\u00e9 d\u2019\u00e9lectricit\u00e9.\nPeut aussi augmenter son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u767c\u5c04\u96fb\u64ca\u5149\u675f\u3002\n\u6709\u6642\u6703\u56e0\u96fb\u6d41\u84c4\u7a4d\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uaca9\uc758 \ub2e4\ubc1c\uc744 \uc0c1\ub300\uc5d0\uac8c\n\ubc1c\uc0ac\ud55c\ub2e4. \uc804\uae30\ub97c \ubaa8\uc544\uc11c \uc790\uc2e0\uc758\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u3052\u304d\u306e\u3000\u305f\u3070\u3092\u3000\u3042\u3044\u3066\u306b\n\u306f\u3063\u3057\u3083\u3059\u308b\u3002\u3067\u3093\u304d\u3092\u3000\u305f\u3081\u3066\u3000\u3058\u3076\u3093\u306e\n\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u53d1\u5c04\u7535\u51fb\u5149\u675f\u3002\n\u7531\u4e8e\u84c4\u6ee1\u7535\u6d41\uff0c\n\u6709\u65f6\u4f1a\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6483\u306e\u3000\u675f\u3092\u3000\u76f8\u624b\u306b\n\u767a\u5c04\u3059\u308b\u3002\u96fb\u6c17\u3092\u3000\u305f\u3081\u3066\u3000\u81ea\u5206\u306e\n\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks with an electric charge. The user\nmay use any remaining electricity to raise its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia un fascio di elettricit\u00e0 molto\nintensa. Pu\u00f2 anche aumentare il suo Attacco\nSpeciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lanza un rayo el\u00e9ctrico contra el objetivo. Puede \nsubir el Ataque Especial de quien lo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird von einem Elektrostrahl getroffen.\nErh\u00f6ht eventuell Spezial-Angriff des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tire un rayon charg\u00e9 d\u2019\u00e9lectricit\u00e9.\nPeut aussi augmenter son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u767c\u5c04\u96fb\u64ca\u5149\u675f\u3002\n\u6709\u6642\u6703\u56e0\u96fb\u6d41\u84c4\u7a4d\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uaca9\uc758 \ub2e4\ubc1c\uc744 \uc0c1\ub300\uc5d0\uac8c\n\ubc1c\uc0ac\ud55c\ub2e4. \uc804\uae30\ub97c \ubaa8\uc544\uc11c \uc790\uc2e0\uc758\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u3052\u304d\u306e\u3000\u305f\u3070\u3092\u3000\u3042\u3044\u3066\u306b\n\u306f\u3063\u3057\u3083\u3059\u308b\u3002\u3067\u3093\u304d\u3092\u3000\u305f\u3081\u3066\u3000\u3058\u3076\u3093\u306e\n\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6483\u306e\u3000\u675f\u3092\u3000\u76f8\u624b\u306b\n\u767a\u5c04\u3059\u308b\u3002\u96fb\u6c17\u3092\u3000\u305f\u3081\u3066\u3000\u81ea\u5206\u306e\n\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia un fascio di elettricit\u00e0 molto\nintensa. Pu\u00f2 anche aumentare il suo Attacco\nSpeciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lanza un rayo el\u00e9ctrico contra el objetivo. Puede \nsubir el Ataque Especial de quien lo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird von einem Elektrostrahl getroffen.\nSteigert eventuell Spezial-Angriff des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tire un rayon charg\u00e9 d\u2019\u00e9lectricit\u00e9.\nPeut aussi augmenter son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uaca9\uc758 \ub2e4\ubc1c\uc744 \uc0c1\ub300\uc5d0\uac8c\n\ubc1c\uc0ac\ud55c\ub2e4. \uc804\uae30\ub97c \ubaa8\uc544\uc11c \uc790\uc2e0\uc758\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u3052\u304d\u306e\u3000\u305f\u3070\u3092\u3000\u3042\u3044\u3066\u306b\n\u306f\u3063\u3057\u3083\u3059\u308b\u3002\u3067\u3093\u304d\u3092\u3000\u305f\u3081\u3066\u3000\u3058\u3076\u3093\u306e\n\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6483\u306e\u3000\u675f\u3092\u3000\u76f8\u624b\u306b\n\u767a\u5c04\u3059\u308b\u3002\u96fb\u6c17\u3092\u3000\u305f\u3081\u3066\u3000\u81ea\u5206\u306e\n\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia un fascio di elettricit\u00e0 molto\nintensa. Pu\u00f2 anche aumentare il suo Attacco\nSpeciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lanza un rayo el\u00e9ctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird von einem Elektrostrahl getroffen.\nSteigert eventuell Spezial-Angriff des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tire un rayon charg\u00e9 d\u2019\u00e9lectricit\u00e9.\nPeut aussi augmenter son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uaca9\uc758 \ub2e4\ubc1c\uc744 \uc0c1\ub300\uc5d0\uac8c\n\ubc1c\uc0ac\ud55c\ub2e4. \uc804\uae30\ub97c \ubaa8\uc544\uc11c \uc790\uc2e0\uc758\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u3052\u304d\u306e\u3000\u305f\u3070\u3092\u3000\u3042\u3044\u3066\u306b\n\u306f\u3063\u3057\u3083\u3059\u308b\u3002\u3067\u3093\u304d\u3092\u3000\u305f\u3081\u3066\u3000\u3058\u3076\u3093\u306e\n\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur tire un rayon charg\u00e9\nd\u2019\u00e9lectricit\u00e9. Peut aussi augmenter\nson Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user fires a\nconcentrated bundle\nof electricity. It may\nalso raise the user\u2019s\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user fires a\nconcentrated bundle\nof electricity. It may\nalso raise the user\u2019s\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user fires a\nconcentrated bundle\nof electricity. It may\nalso raise the user\u2019s\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 451,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/955/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/956/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/957/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/958/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/959/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/960/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/961/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/962/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/963/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage+raise",
+            "url": "/api/v2/move-category/7/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 70
+    },
+    "name": "charge-beam",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5145\u7535\u5149\u675f"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c1\u30e3\u30fc\u30b8\u30d3\u30fc\u30e0"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Charge Beam"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Raggioscossa"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Rayo Carga"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Ladestrahl"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Rayon Charg\u00e9"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5145\u96fb\u5149\u675f"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ucc28\uc9c0\ube54"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c1\u30e3\u30fc\u30b8\u30d3\u30fc\u30e0"
+        }
+    ],
+    "past_values": [],
+    "power": 50,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 1,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "electric",
+        "url": "/api/v2/type/13/"
+    }
+}

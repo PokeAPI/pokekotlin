@@ -1,0 +1,688 @@
+{
+    "accuracy": 85,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "rain-dance",
+                    "url": "/api/v2/move/240/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/24/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": 100,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  For the next 2\u20135 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nrapid spin cancels this effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u975e\u5e38\u575a\u56fa\u4e14\u539a\u5b9e\u7684\u8d1d\u58f3\uff0c\n\u5728\uff14\uff5e\uff15\u56de\u5408\u5185\n\u5939\u4f4f\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u9811\u4e08\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u6bbb\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\n\u76f8\u624b\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The target is clamped and squeezed by the user\u2019s\nvery thick and sturdy shell for four to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola e stritola il bersaglio con\nla sua corazza spessa e forte per quattro\no cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa y atenaza con fuerza durante cuatro o cinco \nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "F\u00e4ngt und quetscht das Ziel \u00fcber vier bis f\u00fcnf\nRunden durch die harte Schale des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pi\u00e8ge l\u2019ennemi dans sa dure coquille et\nl\u2019\u00e9crase pendant quatre \u00e0 cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u975e\u5e38\u5805\u56fa\u4e14\u539a\u5be6\u7684\u8c9d\u6bbc\uff0c\n\u5728\uff14\uff5e\uff15\u56de\u5408\u5167\n\u593e\u4f4f\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub9e4\uc6b0 \ud2bc\ud2bc\ud558\uace0 \ub450\uaebc\uc6b4 \uaecd\uc9c8\uc5d0\n4-5\ud134 \ub3d9\uc548\n\uc0c1\ub300\ub97c \ub07c\uc6cc\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u304c\u3093\u3058\u3087\u3046\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u304b\u3089\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3042\u3044\u3066\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u975e\u5e38\u575a\u56fa\u4e14\u539a\u5b9e\u7684\u8d1d\u58f3\uff0c\n\u5728\uff14\uff5e\uff15\u56de\u5408\u5185\n\u5939\u4f4f\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u9811\u4e08\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u6bbb\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\n\u76f8\u624b\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The target is clamped and squeezed by the user\u2019s\nvery thick and sturdy shell for four to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola e stritola il bersaglio con\nla sua corazza spessa e forte per quattro\no cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa y atenaza con fuerza durante cuatro o cinco \nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "F\u00e4ngt und quetscht das Ziel \u00fcber vier bis f\u00fcnf\nRunden durch die harte Schale des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pi\u00e8ge l\u2019ennemi dans sa dure coquille et\nl\u2019\u00e9crase pendant quatre \u00e0 cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u975e\u5e38\u5805\u56fa\u4e14\u539a\u5be6\u7684\u8c9d\u6bbc\uff0c\n\u5728\uff14\uff5e\uff15\u56de\u5408\u5167\n\u593e\u4f4f\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub9e4\uc6b0 \ud2bc\ud2bc\ud558\uace0 \ub450\uaebc\uc6b4 \uaecd\uc9c8\uc5d0\n4-5\ud134 \ub3d9\uc548\n\uc0c1\ub300\ub97c \ub07c\uc6cc\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u304c\u3093\u3058\u3087\u3046\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u304b\u3089\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3042\u3044\u3066\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u9811\u4e08\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u6bbb\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u76f8\u624b\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is clamped and squeezed by\nthe user\u2019s very thick and sturdy shell for\nfour to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola e stritola il bersaglio con\nla sua corazza spessa e forte per quattro\no cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa y atenaza con fuerza durante cuatro o cinco \nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "F\u00e4ngt und quetscht das Ziel \u00fcber vier bis f\u00fcnf\nRunden durch die harte Schale des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pi\u00e8ge l\u2019ennemi dans sa dure coquille et\nl\u2019\u00e9crase pendant quatre \u00e0 cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub9e4\uc6b0 \ud2bc\ud2bc\ud558\uace0 \ub450\uaebc\uc6b4 \uaecd\uc9c8\uc5d0\n4-5\ud134 \ub3d9\uc548\n\uc0c1\ub300\ub97c \ub07c\uc6cc\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u304c\u3093\u3058\u3087\u3046\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u304b\u3089\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3042\u3044\u3066\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u9811\u4e08\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u6bbb\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u76f8\u624b\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is clamped and squeezed by\nthe user\u2019s very thick and sturdy shell for\nfour to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola e stritola il bersaglio con\nla sua corazza spessa e forte per quattro\no cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa y atenaza con fuerza durante cuatro o cinco\nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "F\u00e4ngt und quetscht das Ziel \u00fcber vier bis f\u00fcnf\nRunden durch die harte Schale des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pi\u00e8ge l\u2019ennemi dans sa dure coquille et\nl\u2019\u00e9crase pendant quatre \u00e0 cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub9e4\uc6b0 \ud2bc\ud2bc\ud558\uace0 \ub450\uaebc\uc6b4 \uaecd\uc9c8\uc5d0\n4-5\ud134 \ub3d9\uc548\n\uc0c1\ub300\ub97c \ub07c\uc6cc\uc11c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u304c\u3093\u3058\u3087\u3046\u306a\u3000\u3076\u3042\u3064\u3044\u3000\u304b\u3089\u306b\n\uff14\u30fc\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3042\u3044\u3066\u3092\u3000\u306f\u3055\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is clamped and squeezed by\nthe user\u2019s very thick and sturdy shell for\nfour to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The target is clamped and squeezed by\nthe user\u2019s very thick and sturdy shell for\nfour to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pi\u00e8ge l\u2019ennemi dans sa dure\ncoquille et l\u2019\u00e9crase pendant 4 \u00e0 5 tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is clamped\nand squeezed by\nthe user\u2019s very thick\nand sturdy shell for\ntwo to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is clamped\nand squeezed by\nthe user\u2019s very thick\nand sturdy shell for\ntwo to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is clamped\nand squeezed by\nthe user\u2019s very thick\nand sturdy shell for\ntwo to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is clamped\nand squeezed by\nthe user\u2019s shell for\ntwo to five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Traps and squeezes the\nfoe for 2 to 5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Traps and squeezes the\nfoe for 2 to 5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Traps the foe for\n2-5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Traps the foe for\n2-5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 128,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "trap",
+            "url": "/api/v2/move-ailment/8/"
+        },
+        "ailment_chance": 100,
+        "category": {
+            "name": "damage+ailment",
+            "url": "/api/v2/move-category/4/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": 6,
+        "min_hits": null,
+        "min_turns": 5,
+        "stat_chance": 0
+    },
+    "name": "clamp",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8d1d\u58f3\u5939\u51fb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304b\u3089\u3067\u306f\u3055\u3080"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Clamp"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Tenaglia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Tenaza"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Schnapper"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Claquoir"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8c9d\u6bbc\u593e\u64ca"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uaecd\uc9c8\ub07c\uc6b0\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304b\u3089\u3067\u306f\u3055\u3080"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": 75,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": 10,
+            "type": null,
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "power": 35,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/5/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

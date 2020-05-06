@@ -1,0 +1,621 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 30,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to burn the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u55b7\u5c04\n\u716e\u5f97\u7ffb\u6eda\u7684\u5f00\u6c34\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u707c\u4f24\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u71b1\u304f\u3000\u716e\u3048\u305f\u304e\u308b\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots boiling hot water at its target.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con un getto\nd\u2019acqua bollente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca arrojando agua hirviendo al objetivo.\nPuede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Heizt dem Ziel mit einem Schwall siedend hei\u00dfen\nKochwassers ein. Das Ziel erleidet dabei eventuell\nVerbrennungen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est attaqu\u00e9 par un jet d\u2019eau bouillante.\nPeut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u5674\u5c04\n\u6efe\u71d9\u7684\u71b1\u6c34\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub728\uac81\uac8c \ub053\uc5b4\uc624\ub974\ub294 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud574\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3064\u304f\u3000\u306b\u3048\u305f\u304e\u308b\u3000\u307f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u55b7\u5c04\n\u716e\u5f97\u7ffb\u6eda\u7684\u5f00\u6c34\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u707c\u4f24\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u71b1\u304f\u3000\u716e\u3048\u305f\u304e\u308b\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots boiling hot water at its target.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con un getto\nd\u2019acqua bollente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca arrojando agua hirviendo al objetivo.\nPuede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Heizt dem Ziel mit einem Schwall siedend hei\u00dfen\nKochwassers ein. Das Ziel erleidet dabei eventuell\nVerbrennungen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est attaqu\u00e9 par un jet d\u2019eau bouillante.\nPeut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u5674\u5c04\n\u6efe\u71d9\u7684\u71b1\u6c34\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub728\uac81\uac8c \ub053\uc5b4\uc624\ub974\ub294 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud574\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3064\u304f\u3000\u306b\u3048\u305f\u304e\u308b\u3000\u307f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u71b1\u304f\u3000\u716e\u3048\u305f\u304e\u308b\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots boiling hot water at\nits target. This may also leave the target\nwith a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con un getto\nd\u2019acqua bollente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca arrojando agua hirviendo al objetivo.\nPuede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Heizt dem Ziel mit einem Schwall siedend hei\u00dfen\nKochwassers ein. Das Ziel erleidet dabei eventuell\nVerbrennungen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est attaqu\u00e9 par un jet d\u2019eau bouillante.\nPeut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub728\uac81\uac8c \ub053\uc5b4\uc624\ub974\ub294 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud574\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3064\u304f\u3000\u306b\u3048\u305f\u304e\u308b\u3000\u202f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u71b1\u304f\u3000\u716e\u3048\u305f\u304e\u308b\u3000\u6c34\u3092\n\u76f8\u624b\u306b\u3000\u767a\u5c04\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots boiling hot water at\nits target. This may also leave the target\nwith a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio con un getto\nd\u2019acqua bollente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca arrojando agua hirviendo al objetivo.\nPuede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Heizt dem Ziel mit einem Schwall siedend hei\u00dfen\nKochwassers ein. Das Ziel erleidet dabei eventuell\nVerbrennungen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est attaqu\u00e9 par un jet d\u2019eau bouillante.\nPeut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub728\uac81\uac8c \ub053\uc5b4\uc624\ub974\ub294 \ubb3c\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubc1c\uc0ac\ud574\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3064\u304f\u3000\u306b\u3048\u305f\u304e\u308b\u3000\u307f\u305a\u3092\n\u3042\u3044\u3066\u306b\u3000\u306f\u3063\u3057\u3083\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots boiling hot water at\nits target. It may also leave the target\nwith a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user shoots boiling hot water at\nits target. It may also leave the target\nwith a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est attaqu\u00e9 par un jet d\u2019eau\nbouillante. Peut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 503,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/940/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/941/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/942/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/943/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/944/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/945/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "burn",
+            "url": "/api/v2/move-ailment/4/"
+        },
+        "ailment_chance": 30,
+        "category": {
+            "name": "damage+ailment",
+            "url": "/api/v2/move-category/4/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "scald",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u70ed\u6c34"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306d\u3063\u3068\u3046"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Scald"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Idrovampata"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Escaldar"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Siedewasser"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "\u00c9bullition"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u71b1\u6c34"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc5f4\ud0d5"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306d\u3063\u3068\u3046"
+        }
+    ],
+    "past_values": [],
+    "power": 80,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

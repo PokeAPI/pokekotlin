@@ -41,12 +41,12 @@ class BulkTest {
         val count = ids.size
         println("$cat: $count total")
         ids.forEachIndexed { i, id ->
-            print("${i + 1}/$count (id=$id) ... ")
+            print("$cat ${i + 1}/$count (id=$id) ... ")
             try {
                 val o = getObject(id)
                 print("deserialized ... ")
                 checkNulls(o)
-                print("checked!")
+                print("verified nullability!")
                 println()
             } catch (e: Throwable) {
                 println("ERROR: ${e.javaClass.simpleName}: ${e.message}")

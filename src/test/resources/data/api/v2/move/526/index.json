@@ -1,0 +1,618 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Raises the user's Attack and Special Attack by one stage each.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Raises the user's Attack and Special Attack by one stage each."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6fc0\u52b1\u81ea\u5df1\uff0c\n\u4ece\u800c\u63d0\u9ad8\u653b\u51fb\u548c\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u3092\u3000\u596e\u3044\u305f\u3066\u3066\n\u653b\u6483\u3068\u3000\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user is roused, and its Attack and Sp. Atk\nstats increase.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si tira su di morale, aumentando\nil proprio Attacco e l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa se concentra y potencia su Ataque y \nsu Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erh\u00e4lt einen Kraftschub, der seinen\nAngriff und Spezial-Angriff erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se rengorge.\nAugmente l\u2019Attaque et l\u2019Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc0\u52f5\u81ea\u5df1\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u64ca\u548c\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc2a4\uc2a4\ub85c \ubd84\ubc1c\ud574\uc11c\n\uacf5\uaca9\uacfc \ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u3092\u3000\u3075\u308b\u3044\u305f\u3066\u3066\n\u3053\u3046\u3052\u304d\u3068\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc0\u52b1\u81ea\u5df1\uff0c\n\u4ece\u800c\u63d0\u9ad8\u653b\u51fb\u548c\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u3092\u3000\u596e\u3044\u305f\u3066\u3066\n\u653b\u6483\u3068\u3000\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user is roused, and its Attack and Sp. Atk\nstats increase.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si tira su di morale, aumentando\nil proprio Attacco e l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa se concentra y potencia su Ataque y \nsu Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erh\u00e4lt einen Kraftschub, der seinen\nAngriff und Spezial-Angriff erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se rengorge.\nAugmente l\u2019Attaque et l\u2019Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc0\u52f5\u81ea\u5df1\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u64ca\u548c\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc2a4\uc2a4\ub85c \ubd84\ubc1c\ud574\uc11c\n\uacf5\uaca9\uacfc \ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u3092\u3000\u3075\u308b\u3044\u305f\u3066\u3066\n\u3053\u3046\u3052\u304d\u3068\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u3092\u3000\u596e\u3044\u305f\u3066\u3066\n\u653b\u6483\u3068\u3000\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user is roused, and its Attack\nand Sp. Atk stats increase.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si tira su di morale, aumentando\nil proprio Attacco e l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa se concentra y potencia su Ataque y \nsu Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erh\u00e4lt einen Kraftschub,\nder seinen Angriff und Spezial-Angriff erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se rengorge.\nAugmente l\u2019Attaque et l\u2019Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc2a4\uc2a4\ub85c \ubd84\ubc1c\ud574\uc11c\n\uacf5\uaca9\uacfc \ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u3092\u3000\u3075\u308b\u3044\u305f\u3066\u3066\n\u3053\u3046\u3052\u304d\u3068\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u3092\u3000\u596e\u3044\u305f\u3066\u3066\n\u653b\u6483\u3068\u3000\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user is roused, and its Attack\nand Sp. Atk stats increase.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si tira su di morale, aumentando\nil proprio Attacco e l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erh\u00e4lt einen Kraftschub,\nder seinen Angriff und Spezial-Angriff erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se rengorge.\nAugmente l\u2019Attaque et l\u2019Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc2a4\uc2a4\ub85c \ubd84\ubc1c\ud574\uc11c\n\uacf5\uaca9\uacfc \ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u3092\u3000\u3075\u308b\u3044\u305f\u3066\u3066\n\u3053\u3046\u3052\u304d\u3068\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user is roused, and its Attack\nand Sp. Atk stats increase.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user is roused, and its Attack\nand Sp. Atk stats increase.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se rengorge.\nAugmente l\u2019Attaque et l\u2019Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 526,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/17/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/18/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1192/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1193/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "work-up",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u81ea\u6211\u6fc0\u52b1"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3075\u308b\u3044\u305f\u3066\u308b"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Work Up"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Cuordileone"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Avivar"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Kraftschub"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Rengorgement"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u81ea\u6211\u6fc0\u52f5"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubd84\ubc1c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3075\u308b\u3044\u305f\u3066\u308b"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 1,
+            "stat": {
+                "name": "attack",
+                "url": "/api/v2/stat/2/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        }
+    ],
+    "super_contest_effect": null,
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

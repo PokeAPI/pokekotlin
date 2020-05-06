@@ -1,0 +1,795 @@
+{
+    "base_happiness": 0,
+    "capture_rate": 3,
+    "color": {
+        "name": "red",
+        "url": "/api/v2/pokemon-color/8/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/202/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5b87\u5b99\u30a6\u30a3\u30eb\u30b9\u304b\u3089\u3000\u8a95\u751f\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u77e5\u80fd\u304c\u3000\u9ad8\u304f\u3000\u8d85\u80fd\u529b\u3092\u3000\u64cd\u308b\u3002\n\u80f8\u306e\u3000\u6c34\u6676\u4f53\u304b\u3089\u3000\u30ec\u30fc\u30b6\u30fc\u3092\u3000\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Deoxys emerged from a virus that came from space. It is highly\nintelligent and wields psychokinetic powers. This Pok\u00e9mon\nshoots lasers from the crystalline organ on its chest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Deoxys \u00e8 nato da un virus proveniente dallo spazio. \u00c8 dotato\ndi estrema intelligenza e di poteri psicocinetici. Spara raggi\nlaser dall\u2019organo cristallino del proprio corpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Deoxys surgi\u00f3 a partir de un virus espacial. Tiene un alto nivel\nintelectual y poderes psicoquin\u00e9ticos. Este Pok\u00e9mon dispara\nrayos l\u00e1ser por el \u00f3rgano cristalino que tiene en el torso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Deoxys ging aus einem Virus aus dem Weltraum hervor.\nEs ist sehr intelligent und nutzt psychokinetische Energie.\nDieses Pok\u00e9mon verschie\u00dft Laserstrahlen aus einem\nkristallartigen Organ auf seinem Brustkorb.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Deoxys \u00e9tait \u00e0 l\u2019origine un virus provenant de l\u2019espace. Il est\nextr\u00eamement intelligent et dispose de pouvoirs t\u00e9l\u00e9kin\u00e9tiques.\nCe Pok\u00e9mon envoie des lasers avec l\u2019organe cristallin situ\u00e9\nsur sa poitrine.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc6b0\uc8fc \ubc14\uc774\ub7ec\uc2a4\uc5d0\uc11c \ud0dc\uc5b4\ub09c \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc9c0\ub2a5\uc774 \ub192\uace0 \ucd08\ub2a5\ub825\uc744 \uc4f8 \uc218 \uc788\ub2e4.\n\uac00\uc2b4\uc758 \uc218\uc815\uccb4\uc5d0\uc11c \ub808\uc774\uc800\ub97c \uc3dc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3061\u3085\u3046\u30a6\u30a3\u30eb\u30b9\u304b\u3089\u3000\u305f\u3093\u3058\u3087\u3046\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3061\u306e\u3046\u304c\u3000\u305f\u304b\u304f\u3000\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3092\u3000\u3042\u3084\u3064\u308b\u3002\n\u3080\u306d\u306e\u3000\u3059\u3044\u3057\u3087\u3046\u305f\u3044\u304b\u3089\u3000\u30ec\u30fc\u30b6\u30fc\u3092\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30ec\u30fc\u30b6\u30fc\u3092\u3000\u6d74\u3073\u305f\u3000\u5b87\u5b99\u30a6\u30a3\u30eb\u30b9\u306e\u3000\uff24\uff2e\uff21\u304c\n\u7a81\u7136\u5909\u7570\u3092\u3000\u8d77\u3053\u3057\u3066\u3000\u751f\u307e\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u80f8\u306e\u3000\u6c34\u6676\u4f53\u304c\u3000\u8133\u202f\u305d\u3000\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "The DNA of a space virus underwent a sudden mutation upon\nexposure to a laser beam and resulted in Deoxys.\nThe crystalline organ on this Pok\u00e9mon\u2019s chest appears to be\nits brain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il DNA di un virus spaziale ha subito un\u2019improvvisa mutazione,\nin seguito all\u2019esposizione a un raggio laser. Questo ha\ndato vita a Deoxys. Pare che l\u2019organo cristallino sul suo petto\ncostituisca il cervello.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Tras estar expuesto a un rayo l\u00e1ser, el ADN de un virus\nespacial sufri\u00f3 una mutaci\u00f3n y dio origen a Deoxys. Seg\u00fan\nparece, el \u00f3rgano cristalino que este Pok\u00e9mon tiene en el\ntorso es el cerebro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Die DNS eines Weltraumvirus hat eine spontane Mutation\nerfahren, da sie einem Laserstrahl ausgesetzt wurde.\nDaraus entstand Deoxys. Das kristallartige Organ auf\nder Brust dieses Pok\u00e9mon ist sein Gehirn.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ADN d\u2019un virus extraterrestre entama une mutation\nnon attendue suite \u00e0 une exposition \u00e0 un rayon laser,\nce qui cr\u00e9a Deoxys. L\u2019organe cristallin se trouvant\nsur la poitrine de ce Pok\u00e9mon semble \u00eatre son cerveau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub808\uc774\uc800\ub97c \ucb14 \uc6b0\uc8fc \ubc14\uc774\ub7ec\uc2a4\uc758 DNA\uac00\n\ub3cc\uc5f0\ubcc0\uc774\ub97c \uc77c\uc73c\ucf1c \ud0dc\uc5b4\ub09c \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uac00\uc2b4\uc758 \uc218\uc815\uccb4\uac00 \ub1cc\uc778 \uac83 \uac19\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30ec\u30fc\u30b6\u30fc\u3092\u3000\u3042\u3073\u305f\u3000\u3046\u3061\u3085\u3046\u30a6\u30a3\u30eb\u30b9\u306e\u3000\uff24\uff2e\uff21\u304c\n\u3068\u3064\u305c\u3093\u3078\u3093\u3044\u3092\u3000\u304a\u3053\u3057\u3066\u3000\u3046\u307e\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3080\u306d\u306e\u3000\u3059\u3044\u3057\u3087\u3046\u305f\u3044\u304c\u3000\u306e\u3046\u202f\u305d\u3000\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5b87\u5b99\u30a6\u30a3\u30eb\u30b9\u304c\u3000\u7a81\u7136\u5909\u7570\u3092\n\u8d77\u3053\u3057\u3066\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u306a\u3063\u305f\u3002\n\u30aa\u30fc\u30ed\u30e9\u306e\u3000\u8fd1\u304f\u306b\u3000\u73fe\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "DNA from a space virus mutated and became a\nPok\u00e9mon. It appears where auroras are seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Una mutazione di virus alieni ha portato alla creazione\ndi questo Pok\u00e9mon. Visibile in prossimit\u00e0 dell\u2019aurora.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon surgido a ra\u00edz de la mutaci\u00f3n de un virus\nalien\u00edgena. Aparece cerca de la aurora.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Deoxys ist ein au\u00dferirdisches Virus, das zu einem\nPok\u00e9mon mutierte. Es erscheint in der N\u00e4he von\nAuroras.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est un virus extraterrestre qui a mut\u00e9 en Pok\u00e9mon.\nIl appara\u00eet \u00e0 proximit\u00e9 des aurores bor\u00e9ales.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc6b0\uc8fc \ubc14\uc774\ub7ec\uc2a4\uac00 \ub3cc\uc5f0\ubcc0\uc774\ub97c\n\uc77c\uc73c\ucf1c \ud3ec\ucf13\ubaac\uc774 \ub418\uc5c8\ub2e4.\n\uc624\ub85c\ub77c \uadfc\ucc98\uc5d0 \ub098\ud0c0\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3061\u3085\u3046\u30a6\u30a3\u30eb\u30b9\u304c\u3000\u3068\u3064\u305c\u3093\u3078\u3093\u3044\u3092\n\u304a\u3053\u3057\u3066\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u306a\u3063\u305f\u3002\n\u30aa\u30fc\u30ed\u30e9\u306e\u3000\u3061\u304b\u304f\u306b\u3000\u3042\u3089\u308f\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u9695\u77f3\u306b\u3000\u4ed8\u7740\u3057\u3066\u3044\u305f\n\u5b87\u5b99\u30a6\u30a4\u30eb\u30b9\u306e\u3000\uff24\uff2e\uff21\u304c\n\u5909\u7570\u3057\u3066\u3000\u751f\u307e\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth on a meteor\nunderwent a DNA mutation to become\nthis Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 il risultato della mutazione genetica di un virus\nalieno giunto con un meteorite.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Surgi\u00f3 a ra\u00edz de la mutaci\u00f3n de ADN de un virus\nalien\u00edgena que cay\u00f3 a la Tierra en un meteorito.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ein au\u00dferirdischer Virus kam mit einem Meteor auf\ndie Erde. Seine DNA mutierte. So entstand Deoxys.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il vient d\u2019un virus extraterrestre arriv\u00e9 avec une\nm\u00e9t\u00e9orite et ayant subi une mutation g\u00e9n\u00e9tique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc6b4\uc11d\uc5d0 \ubd99\uc5b4 \uc788\ub358\n\uc6b0\uc8fc \ubc14\uc774\ub7ec\uc2a4\uc758 DNA\uac00\n\ubcc0\uc774\ud558\uc5ec \uc0dd\uaca8\ub09c \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3093\u305b\u304d\u306b\u3000\u3075\u3061\u3083\u304f\u3057\u3066\u3044\u305f\n\u3046\u3061\u3085\u3046\u30a6\u30a4\u30eb\u30b9\u306e\u3000\uff24\uff2e\uff21\u304c\n\u3078\u3093\u3044\u3057\u3066\u3000\u3046\u307e\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth\non a meteor underwent a DNA\nmutation to become this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth\non a meteor underwent a DNA\nmutation to become this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth\non a meteor underwent a DNA\nmutation to become this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il vient d\u2019un virus extraterrestre\narriv\u00e9 avec une m\u00e9t\u00e9orite et ayant\nsubi une mutation g\u00e9n\u00e9tique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth\non a meteor underwent a DNA\nmutation to become this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il vient d\u2019un virus extraterrestre\narriv\u00e9 avec une m\u00e9t\u00e9orite et ayant\nsubi une mutation g\u00e9n\u00e9tique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "DNA from a space virus mutated and\nbecame a Pok\u00e9mon. It appears\nwhere auroras are seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "DNA from a space virus mutated and\nbecame a Pok\u00e9mon. It appears\nwhere auroras are seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth\non a meteor underwent a DNA\nmutation to become this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth\non a meteor underwent a DNA\nmutation to become this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "An alien virus that fell to earth\non a meteor underwent a DNA\nmutation to become this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "When it changes form, an aurora appears.\nIt absorbs attacks by altering its\ncellular structure.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "This DEOXYS has transformed into its\naggressive guise. It can fool enemies by\naltering its appearance.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON that mutated from an\nextraterrestrial virus exposed to a laser\nbeam. Its body is configured for superior\nagility and speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "DEOXYS emerged from a virus that came\nfrom space. It is highly intelligent and\nwields psychokinetic powers.\fThis POK\u00e9MON shoots lasers from the\ncrystalline organ on its chest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "The DNA of a space virus underwent a\nsudden mutation upon exposure to a\nlaser beam and resulted in DEOXYS.\fThe crystalline organ on this POK\u00e9MON\u2019s\nchest appears to be its brain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [
+        {
+            "description": "Forms have different stats and can learn different moves.  Moves are retained through form changes.\n\nIn Generation III, Deoxys's form depends on the game: Normal Forme in Ruby and Sapphire, Attack Forme in FireRed, Defense Forme in LeafGreen, and Speed Forme in Emerald.  In subsequent games, every form exists.  Meteorites for switching Deoxys's form can be found in the following locations, depending on the game:\n\n* Diamond, Pearl, and Platinum: In the southwest corner of veilstone city.\n* HeartGold and SoulSilver: At the west end of kanto route 3, near pewter city.\n* Black and White 1 & 2: In the museum in nacrene city, there is a single meteorite on display which cycles between all forms.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
+    "forms_switchable": true,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\uff24\uff2e\uff21\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\uff24\uff2e\uff21\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "DNA Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon DNA",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon ADN",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "DNS",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon ADN",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\uff24\uff2e\uff21\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "DNA\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\uff24\uff2e\uff21\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "rare",
+        "url": "/api/v2/pokemon-habitat/5/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 120,
+    "id": 386,
+    "is_baby": false,
+    "name": "deoxys",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u4ee3\u6b27\u5947\u5e0c\u65af"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c7\u30aa\u30ad\u30b7\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Deoxys"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Deoxys"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Deoxys"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Deoxys"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Deoxys"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u4ee3\u6b50\u5947\u5e0c\u65af"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud14c\uc624\ud0a4\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Deoxys"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c7\u30aa\u30ad\u30b7\u30b9"
+        }
+    ],
+    "order": 416,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 100,
+            "rate": 1
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 211,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 202,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 386,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "deoxys-normal",
+                "url": "/api/v2/pokemon/386/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "deoxys-attack",
+                "url": "/api/v2/pokemon/10001/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "deoxys-defense",
+                "url": "/api/v2/pokemon/10002/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "deoxys-speed",
+                "url": "/api/v2/pokemon/10003/"
+            }
+        }
+    ]
+}

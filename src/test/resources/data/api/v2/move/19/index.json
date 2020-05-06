@@ -1,0 +1,871 @@
+{
+    "accuracy": 95,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/15/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "swift can hit the user while in the air, and no other moves can.  Due to a bug, if the user fails to carry out the move's second turn, e.g. due to paralysis, it remains in the air until it switches out or uses Fly again successfully.  It can act as if it were on the ground in the meantime, but moves still miss it.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.\n\nThe damage from hail and sandstorm still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be used while gravity is in effect.\n\nThis move cannot be selected by sleep talk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User flies high into the air, dodging all attacks, and hits next turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7b2c\uff11\u56de\u5408\u98de\u4e0a\u5929\u7a7a\uff0c\n\u7b2c\uff12\u56de\u5408\u653b\u51fb\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u7a7a\u3078\u3000\u98db\u3073\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user soars and then strikes its target on the\nnext turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si alza in volo per attaccare al turno\nseguente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Vuela en el primer turno y ataca en el segundo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 empor und trifft das Ziel in\nRunde 2.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019envole au premier tour et frappe au\nsecond.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u5f8c\u7684\u7b2c\uff11\u56de\u5408\u98db\u4e0a\u5929\u7a7a\uff0c\n\u4e26\u65bc\u7b2c\uff12\u56de\u5408\u653b\u64ca\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \ud558\ub298\uc744 \ub0a0\uc544\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u305d\u3089\u3078\u3000\u3068\u3073\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7b2c\uff11\u56de\u5408\u98de\u4e0a\u5929\u7a7a\uff0c\n\u7b2c\uff12\u56de\u5408\u653b\u51fb\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u7a7a\u3078\u3000\u98db\u3073\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user soars and then strikes its target on the\nnext turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si alza in volo per attaccare al turno\nseguente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Vuela en el primer turno y ataca en el segundo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 empor und trifft das Ziel in\nRunde 2.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019envole au premier tour et frappe au\nsecond.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u5f8c\u7684\u7b2c\uff11\u56de\u5408\u98db\u4e0a\u5929\u7a7a\uff0c\n\u4e26\u65bc\u7b2c\uff12\u56de\u5408\u653b\u64ca\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \ud558\ub298\uc744 \ub0a0\uc544\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u305d\u3089\u3078\u3000\u3068\u3073\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u7a7a\u3078\u3000\u98db\u3073\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u77e5\u3063\u3066\u3044\u308b\u3000\u8857\u306b\u3000\u98db\u3076\u3053\u3068\u3082\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user soars and then strikes\nits target on the next turn. This can\nalso be used to fly to any familiar town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si alza in volo per attaccare al turno\nseguente. Fuori dalla lotta permette di volare\nin citt\u00e0 gi\u00e0 visitate.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Primer turno: vuela. Segundo turno: ataca. Fuera de \ncombate, permite ir a sitios ya conocidos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 empor und trifft das Ziel in\nRunde 2. Erm\u00f6glicht Flug in jede bekannte Stadt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019envole au premier tour et frappe au\nsecond. Permet aussi de voler jusqu\u2019\u00e0 une ville\nd\u00e9j\u00e0 visit\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \ud558\ub298\uc744 \ub0a0\uc544\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc54c\uace0 \uc788\ub294 \ub3c4\uc2dc\ub85c \ub0a0\uc544\uac08 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u305d\u3089\u3078\u3000\u3068\u3073\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3057\u3063\u3066\u3044\u308b\u3000\u307e\u3061\u306b\u3000\u3068\u3076\u3053\u3068\u3082\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u7a7a\u3078\u3000\u98db\u3073\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u77e5\u3063\u3066\u3044\u308b\u3000\u8857\u306b\u3000\u98db\u3076\u3053\u3068\u3082\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user soars and then strikes\nits target on the next turn. This can\nalso be used to fly to any familiar town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si alza in volo per attaccare al turno\nseguente. Fuori dalla lotta permette di volare\nin citt\u00e0 gi\u00e0 visitate.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Primer turno: vuela. Segundo turno: ataca. Fuera\nde combate, permite ir a sitios ya conocidos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 empor und trifft das Ziel in\nRunde 2. Erm\u00f6glicht Flug in jede bekannte Stadt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019envole au premier tour et frappe au\nsecond. Permet aussi de voler jusqu\u2019\u00e0 une ville\nd\u00e9j\u00e0 visit\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \ud558\ub298\uc744 \ub0a0\uc544\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc54c\uace0 \uc788\ub294 \ub3c4\uc2dc\ub85c \ub0a0\uc544\uac08 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u305d\u3089\u3078\u3000\u3068\u3073\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3057\u3063\u3066\u3044\u308b\u3000\u307e\u3061\u306b\u3000\u3068\u3076\u3053\u3068\u3082\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user soars, then strikes its target\non the second turn. It can also be\nused for flying to any familiar town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user soars, then strikes its target\non the second turn. It can also be\nused for flying to any familiar town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019envole au 1er tour et\nfrappe au 2\u00e8. Permet aussi de voler\njusqu\u2019\u00e0 une ville d\u00e9j\u00e0 visit\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user soars, then\nstrikes on the second\nturn. It can also be\nused for flying to\nany familiar town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user soars, then\nstrikes on the second\nturn. It can also be\nused for flying to\nany familiar town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user soars, then\nstrikes on the second\nturn. It can also be\nused for flying to\nany familiar town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A 2-turn move that\nhits on the 2nd\nturn. Use it to fly\nto any known town.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Flies up on the first turn,\nthen strikes the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Flies up on the first turn,\nthen strikes the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "1st turn: Fly\n2nd turn: Attack",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "1st turn: Fly\n2nd turn: Attack",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 19,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1133/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1134/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1335/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1336/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1337/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1338/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1339/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1340/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1341/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1342/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1343/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1344/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1345/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1346/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1347/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1348/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1349/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1350/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1351/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1352/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "fly",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u98de\u7fd4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u305d\u3089\u3092\u3068\u3076"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Fly"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Volo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Vuelo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Fliegen"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Vol"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u98db\u7fd4"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uacf5\uc911\ub0a0\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u305d\u3089\u3092\u3068\u3076"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 70,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "power": 90,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/6/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "flying",
+        "url": "/api/v2/type/3/"
+    }
+}

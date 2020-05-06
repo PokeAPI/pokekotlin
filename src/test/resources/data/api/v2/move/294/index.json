@@ -1,0 +1,660 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/32/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Raises the user's Special Attack by three stages.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Raises the user's Special Attack by three stages."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u51dd\u89c6\u95ea\u70c1\u7684\u5149\u8292\uff0c\n\u96c6\u4e2d\u81ea\u5df1\u7684\u7cbe\u795e\uff0c\n\u4ece\u800c\u5de8\u5e45\u63d0\u9ad8\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u70b9\u6ec5\u3059\u308b\u3000\u5149\u3092\u3000\u773a\u3081\u3066\n\u81ea\u5206\u306e\u3000\u7cbe\u795e\u3092\u3000\u7d71\u4e00\u3057\n\u7279\u653b\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at flashing lights to focus its mind,\ndrastically raising its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fissa una luce forte per concentrarsi\ne aumentare moltissimo l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Se concentra en una r\u00e1faga de luz que sube \nmuch\u00edsimo el Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ein blinkendes Licht, das den Spezial-Angriff\ndrastisch erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regarde un flash lumineux fixement.\nAugmente \u00e9norm\u00e9ment son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u51dd\u8996\u9583\u720d\u7684\u5149\u8292\uff0c\n\u96c6\u4e2d\u7cbe\u795e\uff0c\n\u6975\u5927\u5e45\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uae5c\ube61\uac70\ub9ac\ub294 \ube5b\uc744 \ubc14\ub77c\ubcf4\uace0\n\uc790\uc2e0\uc758 \uc815\uc2e0\uc744 \ud1b5\uc77c\ud558\uc5ec\n\ud2b9\uc218\uacf5\uaca9\uc744 \ub9e4\uc6b0 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3081\u3064\u3059\u308b\u3000\u3072\u304b\u308a\u3092\u3000\u306a\u304c\u3081\u3066\n\u3058\u3076\u3093\u306e\u3000\u305b\u3044\u3057\u3093\u3092\u3000\u3068\u3046\u3044\u3064\u3057\n\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u51dd\u89c6\u95ea\u70c1\u7684\u5149\u8292\uff0c\n\u96c6\u4e2d\u81ea\u5df1\u7684\u7cbe\u795e\uff0c\n\u4ece\u800c\u5de8\u5e45\u63d0\u9ad8\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u70b9\u6ec5\u3059\u308b\u3000\u5149\u3092\u3000\u773a\u3081\u3066\n\u81ea\u5206\u306e\u3000\u7cbe\u795e\u3092\u3000\u7d71\u4e00\u3057\n\u7279\u653b\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at flashing lights to focus its mind,\ndrastically raising its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fissa una luce forte per concentrarsi\ne aumentare moltissimo l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Se concentra en una r\u00e1faga de luz que sube \nmuch\u00edsimo el Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ein blinkendes Licht, das den Spezial-Angriff\ndrastisch erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regarde un flash lumineux fixement.\nAugmente \u00e9norm\u00e9ment son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u51dd\u8996\u9583\u720d\u7684\u5149\u8292\uff0c\n\u96c6\u4e2d\u7cbe\u795e\uff0c\n\u6975\u5927\u5e45\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uae5c\ube61\uac70\ub9ac\ub294 \ube5b\uc744 \ubc14\ub77c\ubcf4\uace0\n\uc790\uc2e0\uc758 \uc815\uc2e0\uc744 \ud1b5\uc77c\ud558\uc5ec\n\ud2b9\uc218\uacf5\uaca9\uc744 \ub9e4\uc6b0 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3081\u3064\u3059\u308b\u3000\u3072\u304b\u308a\u3092\u3000\u306a\u304c\u3081\u3066\n\u3058\u3076\u3093\u306e\u3000\u305b\u3044\u3057\u3093\u3092\u3000\u3068\u3046\u3044\u3064\u3057\n\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u70b9\u6ec5\u3059\u308b\u3000\u5149\u3092\u3000\u773a\u3081\u3066\n\u81ea\u5206\u306e\u3000\u7cbe\u795e\u3092\u3000\u7d71\u4e00\u3057\n\u7279\u653b\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at flashing lights to\nfocus its mind, drastically raising its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fissa una luce forte per concentrarsi\ne aumentare moltissimo l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Se concentra en una r\u00e1faga de luz que sube \nmuch\u00edsimo el Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ein blinkendes Licht, das den Spezial-Angriff\ndrastisch erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regarde un flash lumineux fixement.\nAugmente consid\u00e9rablement son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uae5c\ube61\uac70\ub9ac\ub294 \ube5b\uc744 \ubc14\ub77c\ubcf4\uace0\n\uc790\uc2e0\uc758 \uc815\uc2e0\uc744 \ud1b5\uc77c\ud558\uc5ec\n\ud2b9\uc218\uacf5\uaca9\uc744 \ub9e4\uc6b0 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3081\u3064\u3059\u308b\u3000\u3072\u304b\u308a\u3092\u3000\u306a\u304c\u3081\u3066\n\u3058\u3076\u3093\u306e\u3000\u305b\u3044\u3057\u3093\u3092\u3000\u3068\u3046\u3044\u3064\u3057\n\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u70b9\u6ec5\u3059\u308b\u3000\u5149\u3092\u3000\u773a\u3081\u3066\n\u81ea\u5206\u306e\u3000\u7cbe\u795e\u3092\u3000\u7d71\u4e00\u3057\n\u7279\u653b\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at flashing lights to\nfocus its mind, drastically raising its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fissa una luce forte per concentrarsi\ne aumentare moltissimo l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Se concentra en una r\u00e1faga de luz que sube\nmuch\u00edsimo el Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ein blinkendes Licht, das den Spezial-Angriff\ndrastisch erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regarde un flash lumineux fixement.\nAugmente consid\u00e9rablement son Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uae5c\ube61\uac70\ub9ac\ub294 \ube5b\uc744 \ubc14\ub77c\ubcf4\uace0\n\uc790\uc2e0\uc758 \uc815\uc2e0\uc744 \ud1b5\uc77c\ud558\uc5ec\n\ud2b9\uc218\uacf5\uaca9\uc744 \ub9e4\uc6b0 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3081\u3064\u3059\u308b\u3000\u3072\u304b\u308a\u3092\u3000\u306a\u304c\u3081\u3066\n\u3058\u3076\u3093\u306e\u3000\u305b\u3044\u3057\u3093\u3092\u3000\u3068\u3046\u3044\u3064\u3057\n\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at flashing lights to\nfocus its mind, drastically raising its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at flashing lights to\nfocus its mind, drastically raising its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regarde un flash lumineux\nfixement. Augmente consid\u00e9rablement\nson Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at\nflashing lights to\nfocus its mind,\nsharply raising its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at\nflashing lights to\nfocus its mind,\nsharply raising its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user stares at\nflashing lights to\nfocus its mind,\nsharply raising its\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user flashes a\nlight that sharply\nraises its SP. ATK\nstat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Flashes a light that sharply\nraises SP. ATK.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Flashes a light that sharply\nraises SP. ATK.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 294,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "tail-glow",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8424\u706b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u307b\u305f\u308b\u3073"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Tail Glow"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Codadiluce"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "R\u00e1faga"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Schweifglanz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Lumiqueue"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u87a2\u706b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubc18\ub527\ubd88"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u307b\u305f\u308b\u3073"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 3,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/11/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "bug",
+        "url": "/api/v2/type/7/"
+    }
+}

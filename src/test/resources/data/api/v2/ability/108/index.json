@@ -1,0 +1,606 @@
+{
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "When this Pok\u00e9mon enters battle, it reveals the move with the highest base power known by any opposing Pok\u00e9mon to all participating trainers.\n\nIn the event of a tie, one is chosen at random.\n\nMoves without a listed base power are assigned one as follows:\n\nPower | Moves\n----: | -----\n  160 | One-hit KO moves: fissure, guillotine, horn drill, and sheer cold\n  120 | Counter moves: counter, metal burst, and mirror coat\n   80 | Variable power or set damage: crush grip, dragon rage, electro ball, endeavor, final gambit, flail, frustration, grass knot, gyro ball, heat crash, heavy slam, hidden power, low kick, natural gift, night shade, psywave, return, reversal, seismic toss, sonic boom, trump card, and wring out\n    0 | Any such move not listed\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Reveals the opponents' strongest move upon entering battle."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u51fa\u573a\u65f6\uff0c\n\u53ea\u8bfb\u53d6\uff11\u4e2a\u5bf9\u624b\u62e5\u6709\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u767b\u5834\u3000\u3057\u305f\u3068\u304d\n\u76f8\u624b\u306e\u3000\u6301\u3064\u3000\u6280\u3092\n\u3072\u3068\u3064\u3060\u3051\u3000\u8aad\u307f\u53d6\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "When it enters a battle, the Pok\u00e9mon can tell one of\nthe moves an opposing Pok\u00e9mon has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Quando il Pok\u00e9mon entra in campo, rivela la mossa\npi\u00f9 potente del nemico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Determina el movimiento m\u00e1s potente del rival al\nentrar en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Gibt bei Kampfantritt Auskunft \u00fcber eine Attacke\naus dem Repertoire des Gegners.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "R\u00e9v\u00e8le l\u2019une des capacit\u00e9s de l\u2019ennemi quand\nle combat commence.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u51fa\u5834\u6642\uff0c\u9810\u898b1\u500b\n\u5c0d\u624b\u6301\u6709\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub4f1\uc7a5\ud588\uc744 \ub54c\n\uc0c1\ub300\uac00 \uc9c0\ub2cc \uae30\uc220\uc744\n\ud558\ub098\ub9cc \uaff0\ub6ab\uc5b4\ubcf8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3046\u3058\u3087\u3046\u3000\u3057\u305f\u3068\u304d\n\u3042\u3044\u3066\u306e\u3000\u3082\u3064\u3000\u308f\u3056\u3092\n\u3072\u3068\u3064\u3060\u3051\u3000\u3088\u307f\u3068\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u51fa\u573a\u65f6\uff0c\n\u53ea\u8bfb\u53d6\uff11\u4e2a\u5bf9\u624b\u62e5\u6709\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u767b\u5834\u3000\u3057\u305f\u3068\u304d\n\u76f8\u624b\u306e\u3000\u6301\u3064\u3000\u6280\u3092\n\u3072\u3068\u3064\u3060\u3051\u3000\u8aad\u307f\u53d6\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "When it enters a battle, the Pok\u00e9mon can tell one of\nthe moves an opposing Pok\u00e9mon has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Quando il Pok\u00e9mon entra in campo, rivela la mossa\npi\u00f9 potente del nemico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Determina el movimiento m\u00e1s potente del rival al\nentrar en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Gibt bei Kampfantritt Auskunft \u00fcber eine Attacke\naus dem Repertoire des Gegners.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "R\u00e9v\u00e8le l\u2019une des capacit\u00e9s de l\u2019ennemi quand\nle combat commence.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u51fa\u5834\u6642\uff0c\u9810\u898b1\u500b\n\u5c0d\u624b\u6301\u6709\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub4f1\uc7a5\ud588\uc744 \ub54c\n\uc0c1\ub300\uac00 \uc9c0\ub2cc \uae30\uc220\uc744\n\ud558\ub098\ub9cc \uaff0\ub6ab\uc5b4\ubcf8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3046\u3058\u3087\u3046\u3000\u3057\u305f\u3068\u304d\n\u3042\u3044\u3066\u306e\u3000\u3082\u3064\u3000\u308f\u3056\u3092\n\u3072\u3068\u3064\u3060\u3051\u3000\u3088\u307f\u3068\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u6301\u3064\u3000\u6280\u3092\n\u8aad\u202f\u53d6\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Determines what moves\nan opposing Pok\u00e9mon has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Scopre la mossa pi\u00f9 potente\ndel nemico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Determina el movimiento m\u00e1s\npotente del rival.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Gibt Auskunft \u00fcber das Attacken-\nRepertoire des Gegners.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "D\u00e9couvre la capacit\u00e9 ennemie la\nplus puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \uc9c0\ub2cc \uae30\uc220\uc744\n\uaff0\ub6ab\uc5b4\ubcfc \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3082\u3064\u3000\u308f\u3056\u3092\n\u3088\u202f\u3068\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u6301\u3064\u3000\u6280\u3092\n\u8aad\u307f\u53d6\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Determines what moves\nan opposing Pok\u00e9mon has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Scopre la mossa pi\u00f9 potente\ndel nemico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Determina el movimiento m\u00e1s\npotente del rival.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Gibt Auskunft \u00fcber das Attacken-\nRepertoire des Gegners.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "D\u00e9couvre la capacit\u00e9 ennemie la\nplus puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \uc9c0\ub2cc \uae30\uc220\uc744\n\uaff0\ub6ab\uc5b4\ubcfc \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3082\u3064\u3000\u308f\u3056\u3092\n\u3088\u307f\u3068\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Determines what moves\na foe has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "Determines what moves\na foe has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "D\u00e9couvre la capacit\u00e9\nennemie la plus puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Determines what moves\nthe foe has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Determines what moves\nthe foe has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "Determines what moves\nthe foe has.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 108,
+    "is_main_series": true,
+    "name": "forewarn",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9884\u77e5\u68a6"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3088\u3061\u3080"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Forewarn"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Premonizione"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Alerta"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Vorwarnung"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Pr\u00e9diction"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9810\u77e5\u5922"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc608\uc9c0\ubabd"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3088\u3061\u3080"
+        }
+    ],
+    "pokemon": [
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "drowzee",
+                "url": "/api/v2/pokemon/96/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "hypno",
+                "url": "/api/v2/pokemon/97/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "jynx",
+                "url": "/api/v2/pokemon/124/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "smoochum",
+                "url": "/api/v2/pokemon/238/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "munna",
+                "url": "/api/v2/pokemon/517/"
+            },
+            "slot": 1
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "musharna",
+                "url": "/api/v2/pokemon/518/"
+            },
+            "slot": 1
+        }
+    ]
+}

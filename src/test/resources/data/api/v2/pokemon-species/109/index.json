@@ -1,0 +1,860 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "purple",
+        "url": "/api/v2/pokemon-color/7/"
+    },
+    "egg_groups": [
+        {
+            "name": "indeterminate",
+            "url": "/api/v2/egg-group/11/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/49/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u751f\u30b4\u30df\u3068\u3000\u4f53\u306e\u3000\u6bd2\u7d20\u3092\u3000\u5316\u5b66\u53cd\u5fdc\n\u3055\u305b\u308b\u3000\u3053\u3068\u3067\u3000\u731b\u6bd2\u306e\u3000\u30ac\u30b9\u3092\u3000\u3064\u304f\u308a\u3060\u3059\u3002\n\u6c17\u6e29\u304c\u3000\u9ad8\u3044\u307b\u3069\u3000\u30ac\u30b9\u304c\u3000\u6ca2\u5c71\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Koffing embodies toxic substances. It mixes the toxins with raw\ngarbage to set off a chemical reaction that results in a terribly\npowerful poison gas. The higher the temperature, the more gas\nis concocted by this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Koffing \u00e8 costituito da sostanze velenose. Mischia tossine\ncon rifiuti putrefatti per scatenare reazioni chimiche che\ngenerano un micidiale gas velenoso. Con l\u2019aumento della\ntemperatura, sale la quantit\u00e0 di gas prodotto da Koffing.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Koffing contiene sustancias t\u00f3xicas que mezcla con\ndesperdicios para provocar una reacci\u00f3n qu\u00edmica que libera\nun gas tremendamente venenoso. A mayor temperatura,\nmayor ser\u00e1 la cantidad de gas que cree este Pok\u00e9mon.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Smogons K\u00f6rper enth\u00e4lt giftige Substanzen. Es vermischt\ndie Toxine mit M\u00fcll, um eine chemische Reaktion in Gang\nzu bringen, die ein unheimlich starkes Giftgas hervorbringt.\nJe h\u00f6her die Temperatur, desto mehr Gas produziert es.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Smogo est compos\u00e9 de substances toxiques. Il m\u00e9lange\ndes toxines et des d\u00e9tritus pour d\u00e9clencher une r\u00e9action\nchimique g\u00e9n\u00e9rant un gaz tr\u00e8s dangereux. Plus la temp\u00e9rature\nest \u00e9lev\u00e9e, plus la quantit\u00e9 de gaz est importante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc74c\uc2dd\ubb3c \uc4f0\ub808\uae30\uc640 \ubab8\uc758 \ub3c5\uc18c\ub97c \ud654\ud559\ubc18\uc751\uc2dc\ucf1c\n\ub9f9\ub3c5 \uac00\uc2a4\ub97c \ub9cc\ub4e4\uc5b4 \ub0b8\ub2e4.\n\uae30\uc628\uc774 \ub192\uc744\uc218\ub85d \uac00\uc2a4\uac00 \ub9ce\uc774 \ub9cc\ub4e4\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u307e\u30b4\u30df\u3068\u3000\u304b\u3089\u3060\u306e\u3000\u3069\u304f\u305d\u3092\u3000\u304b\u304c\u304f\u306f\u3093\u306e\u3046\n\u3055\u305b\u308b\u3000\u3053\u3068\u3067\u3000\u3082\u3046\u3069\u304f\u306e\u3000\u30ac\u30b9\u3092\u3000\u3064\u304f\u308a\u3060\u3059\u3002\n\u304d\u304a\u3093\u304c\u3000\u305f\u304b\u3044\u307b\u3069\u3000\u30ac\u30b9\u304c\u3000\u305f\u304f\u3055\u3093\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u523a\u6fc0\u3092\u3000\u4e0e\u3048\u308b\u3068\u3000\u30ac\u30b9\u306e\u3000\u6bd2\u7d20\u304c\u3000\u5f37\u307e\u308a\n\u4f53\u306e\u3000\u3042\u3061\u3053\u3061\u304b\u3089\u3000\u52e2\u3044\u3088\u304f\u3000\u5439\u304d\u51fa\u3059\u3002\n\u771f\u3093\u4e38\u306b\u3000\u81a8\u3089\u3093\u3060\u3000\u5f8c\u3000\u5927\u7206\u767a\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "If Koffing becomes agitated, it raises the toxicity of its internal\ngases and jets them out from all over its body. This Pok\u00e9mon\nmay also overinflate its round body, then explode.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Se Koffing si agita, aumenta la tossicit\u00e0 dei suoi gas interni\ne li espelle violentemente da tutto il corpo. Questo Pok\u00e9mon\nriesce anche a gonfiarsi fino al punto di esplodere.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Si Koffing se pone nervioso, aumenta el nivel de toxicidad de\nlos gases que tiene y los expulsa por todo el cuerpo. Tambi\u00e9n\nsuele hincharse mucho hasta llegar a explotar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Wenn Smogon sich aufregt, l\u00e4sst es das giftige Gas in seinem\nInneren entweichen. Wenn es sich zu sehr aufbl\u00e4ht, explodiert\ndieses Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque Smogo s\u2019agite, \u00e7a augmente la toxicit\u00e9 de ses gaz\ninternes. Il les projette ensuite par les nombreux orifices de\nson corps. Ce Pok\u00e9mon peut aussi gonfler son corps\net le faire exploser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uadf9\ubc1b\uc73c\uba74 \uac00\uc2a4\uc758 \ub3c5\uc18c\uac00 \uac15\ud574\uc838\n\ubab8\uc758 \uc774\uacf3\uc800\uacf3\uc5d0\uc11c \uac15\ud558\uac8c \ub0b4\ubfdc\ub294\ub2e4.\n\ub3d9\uadf8\ub797\uac8c \ubd80\ud480\uc5b4 \uc624\ub978 \ud6c4 \ub300\ud3ed\ubc1c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3052\u304d\u3092\u3000\u3042\u305f\u3048\u308b\u3068\u3000\u30ac\u30b9\u306e\u3000\u3069\u304f\u305d\u304c\u3000\u3064\u3088\u307e\u308a\n\u304b\u3089\u3060\u306e\u3000\u3042\u3061\u3053\u3061\u304b\u3089\u3000\u3044\u304d\u304a\u3044\u3088\u304f\u3000\u3075\u304d\u3060\u3059\u3002\n\u307e\u3093\u307e\u308b\u306b\u3000\u3075\u304f\u3089\u3093\u3060\u3000\u3042\u3068\u3000\u3060\u3044\u3070\u304f\u306f\u3064\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u7a7a\u6c17\u3088\u308a\u3082\u3000\u8efd\u3044\u3000\u30ac\u30b9\u3092\n\u4f53\u306b\u3000\u305f\u3081\u3066\u3000\u6d6e\u304b\u3093\u3067\u3044\u308b\u3002\n\u30ac\u30b9\u306f\u3000\u304f\u3055\u3044\u4e0a\u306b\u3000\u7206\u767a\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Lighter-than-air gases in its body keep it aloft.\nThe gases not only smell, they are also explosive.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Fluttua a mezz\u2019aria grazie ai gas che ha in corpo.\nQuesti sono maleodoranti e altamente esplosivi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Los gases de su cuerpo le permiten flotar. Estos\ngases, adem\u00e1s de oler mal, tambi\u00e9n son explosivos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Gase, die leichter als Luft sind, lassen es schweben.\nDiese Gase stinken und sind explosiv.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il flotte en retenant des gaz plus l\u00e9gers que l\u2019air.\nCeux-ci sont explosifs, en plus d\u2019\u00eatre f\u00e9tides.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uae30\ubcf4\ub2e4\ub3c4 \uac00\ubcbc\uc6b4 \uac00\uc2a4\ub97c\n\ubab8\uc5d0 \ubaa8\uc544\uc11c \ub5a0 \uc788\ub2e4. \uac00\uc2a4\ub294\n\ub0c4\uc0c8\ub098\ub294 \ub370\ub2e4\uac00 \ud3ed\ubc1c\ub3c4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3046\u304d\u3088\u308a\u3082\u3000\u304b\u308b\u3044\u3000\u30ac\u30b9\u3092\n\u304b\u3089\u3060\u306b\u3000\u305f\u3081\u3066\u3000\u3046\u304b\u3093\u3067\u3044\u308b\u3002\n\u30ac\u30b9\u306f\u3000\u304f\u3055\u3044\u3046\u3048\u306b\u3000\u3070\u304f\u306f\u3064\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u8584\u3044\u3000\u30d0\u30eb\u30fc\u30f3\u72b6\u306e\u3000\u4f53\u306b\n\u731b\u6bd2\u306e\u3000\u30ac\u30b9\u304c\u3000\u3064\u307e\u3063\u3066\u3044\u308b\u3002\n\u8fd1\u304f\u306b\u3000\u6765\u308b\u3068\u3000\u304f\u3055\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its thin, balloon-like body is inflated by horribly\ntoxic gases. It reeks when it is nearby.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il suo corpo fatto a pallone \u00e8 pieno di orribili sostanze\ngassose, che emanano un puzzo disgustoso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Tiene forma de globo y es muy ligero. Est\u00e1 compuesto\npor gases t\u00f3xicos y apesta.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sein d\u00fcnner, ballonartiger K\u00f6rper ist mit\nschrecklichem Giftgas gef\u00fcllt. Es verbreitet einen\nheftigen Gestank, wenn es in der N\u00e4he ist.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Son corps tr\u00e8s fin en forme de ballon est rempli\nd\u2019un horrible gaz toxique. L\u2019air est naus\u00e9abond \u00e0\nproximit\u00e9 de ce Pok\u00e9mon.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc587\uace0 \ud48d\uc120 \uac19\uc740 \ubab8\uc5d0\n\ub9f9\ub3c5 \uac00\uc2a4\uac00 \ucc28\uc788\ub2e4.\n\uac00\uae4c\uc774 \uc624\uba74 \uc5ed\uaca8\uc6b4 \ub0c4\uc0c8\uac00 \ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3059\u3044\u3000\u30d0\u30eb\u30fc\u30f3\u3058\u3087\u3046\u306e\u3000\u304b\u3089\u3060\u306b\n\u3082\u3046\u3069\u304f\u306e\u3000\u30ac\u30b9\u304c\u3000\u3064\u307e\u3063\u3066\u3044\u308b\u3002\n\u3061\u304b\u304f\u306b\u304f\u308b\u3068\u3000\u304f\u3055\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Toxic gas is held within its thin,\nballoon-shaped body, so it can\ncause massive explosions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Toxic gas is held within its thin,\nballoon-shaped body, so it can\ncause massive explosions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Lighter-than-air gases in its body\nkeep it aloft. The gases not only\nsmell, they are also explosive.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il flotte en retenant des gaz plus\nl\u00e9gers que l\u2019air. Ceux-ci sont\nexplosifs, en plus d\u2019\u00eatre f\u00e9tides.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Lighter-than-air gases in its body\nkeep it aloft. The gases not only\nsmell, they are also explosive.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il flotte en retenant des gaz plus\nl\u00e9gers que l\u2019air. Ceux-ci sont\nexplosifs, en plus d\u2019\u00eatre f\u00e9tides.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "The poisonous gases it contains\nare a little bit lighter than air,\nkeeping it slightly airborne.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its thin, filmy body is filled\nwith gases that cause constant\nsniffles, coughs and teary eyes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Lighter-than-air gases in its body\nkeep it aloft. The gases not only\nsmell, they are also explosive.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Lighter-than-air gases in its body\nkeep it aloft. The gases not only\nsmell, they are also explosive.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Lighter-than-air gases in its body\nkeep it aloft. The gases not only\nsmell, they are also explosive.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Because it stores several kinds of toxic\ngases in its body, it is prone to\nexploding without warning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Its thin, balloon-like body is inflated by\nhorribly toxic gases. It reeks when it is\nnearby.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Getting up close to a KOFFING will give\nyou a chance to observe, through its thin\nskin, the toxic gases swirling inside. It\nblows up at the slightest stimulation.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "KOFFING embodies toxic substances.\nIt mixes the toxins with raw garbage to\nset off a chemical reaction that\fresults in a terribly powerful poison\ngas. The higher the temperature, the\nmore gas is concocted by this POK\u00e9MON.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "If KOFFING becomes agitated, it raises\nthe toxicity of its internal gases and\njets them out from all over its body.\fThis POK\u00e9MON may also overinflate its\nround body, then explode.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "If one gets close\nenough to it when\nit expels poison\u00ad\fous gas, the gas\nswirling inside it\ncan be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "The poisonous\ngases it contains\nare a little bit\flighter than air,\nkeeping it slight\u00ad\nly airborne.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Its thin, filmy\nbody is filled\nwith gases that\fcause constant\nsniffles, coughs\nand teary eyes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "In hot places, its\ninternal gases\ncould expand and\fexplode without\nany warning. Be\nvery careful!",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "Because it stores\nseveral kinds of\ntoxic gases in\fits body, it is\nprone to exploding\nwithout warning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "Because it stores\nseveral kinds of\ntoxic gases in\fits body, it is\nprone to exploding\nwithout warning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6bd2\u6c14\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3069\u304f\u30ac\u30b9\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Poison Gas Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Velenuvola",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gas Venenoso",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Giftwolke",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gaz Mortel",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6bd2\u6c23\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub3c5\uac00\uc2a4\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3069\u304f\u30ac\u30b9\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "urban",
+        "url": "/api/v2/pokemon-habitat/8/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 109,
+    "is_baby": false,
+    "name": "koffing",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u74e6\u65af\u5f39"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c9\u30ac\u30fc\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Koffing"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Koffing"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Koffing"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Smogon"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Smogo"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u74e6\u65af\u5f48"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub610\uac00\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Dogars"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c9\u30ac\u30fc\u30b9"
+        }
+    ],
+    "order": 121,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 113,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 46,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 115,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 108,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 114,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 109,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 109,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "ball",
+        "url": "/api/v2/pokemon-shape/1/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "koffing",
+                "url": "/api/v2/pokemon/109/"
+            }
+        }
+    ]
+}

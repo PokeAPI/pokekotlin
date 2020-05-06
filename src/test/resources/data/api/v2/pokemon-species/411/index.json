@@ -1,0 +1,938 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/212/"
+    },
+    "evolves_from_species": {
+        "name": "shieldon",
+        "url": "/api/v2/pokemon-species/410/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8138\u90e8\u7684\u9aa8\u5934\u53c8\u5927\u53c8\u786c\uff0c\n\u6240\u4ee5\u5728\u590d\u539f\u6210\u529f\u524d\uff0c\n\u4e00\u76f4\u88ab\u9519\u8bef\u5730\u8ba4\u4f5c\u4e86\u810a\u690e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u9854\u306e\u9aa8\u304c\u3000\u3067\u304b\u304f\u3066\u3000\u786c\u3044\u306e\u3067\n\u5fa9\u5143\u304c\u3000\u6210\u529f\u3059\u308b\u307e\u3067\n\u80cc\u9aa8\u3068\u3000\u52d8\u9055\u3044\u3000\u3055\u308c\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "The bones of its face are huge and hard, so\nthey were mistaken for its spine until after this\nPok\u00e9mon was successfully restored.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Prima che venisse rigenerato si riteneva\nerroneamente che le grandi e solide ossa\ndel muso facessero parte del dorso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Hasta que no se regener\u00f3 por completo a este\nPok\u00e9mon, se pensaba que los grandes y recios\nhuesos de su rostro eran su columna vertebral.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Als man Fossilien noch nicht zur\u00fcckverwandeln\nkonnte, war man der Ansicht, sein gro\u00dfer, harter\nGesichtsknochen sei sein R\u00fccken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Jusqu\u2019\u00e0 ce qu\u2019on reconstitue ce Pok\u00e9mon avec\nsucc\u00e8s, on prenait les grands os solides qui\ncouvrent son visage pour sa colonne vert\u00e9brale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u81c9\u90e8\u7684\u9aa8\u982d\u53c8\u5927\u53c8\u786c\uff0c\n\u6240\u4ee5\u5728\u5fa9\u539f\u6210\u529f\u4e4b\u524d\n\u4e00\u76f4\u88ab\u8aa4\u8a8d\u70ba\u662f\u810a\u690e\u9aa8\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc5bc\uad74\uc758 \ubf08\uac00 \ud06c\uace0 \ub531\ub531\ud574\uc11c\n\ubcf5\uc6d0\uc5d0 \uc131\uacf5\ud560 \ub54c\uae4c\uc9c0\n\ub4f1\ubf08\ub77c\uace0 \uc798\ubabb \uc54c\ub824\uc838 \uc788\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u304a\u306e\u30db\u30cd\u304c\u3000\u3067\u304b\u304f\u3066\u3000\u304b\u305f\u3044\u306e\u3067\n\u3075\u304f\u3052\u3093\u304c\u3000\u305b\u3044\u3053\u3046\u3000\u3059\u308b\u307e\u3067\n\u305b\u307c\u306d\u3068\u3000\u304b\u3093\u3061\u304c\u3044\u3000\u3055\u308c\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0e\u6218\u69cc\u9f99\u751f\u6d3b\u5728\u76f8\u4f3c\u7684\u5730\u65b9\u3002\n\u4e5f\u66fe\u53d1\u73b0\u8fc7\uff12\u53ea\u4e92\u76f8\u4e89\u6597\n\u4e00\u8d77\u5012\u4e0b\u540e\u53d8\u6210\u7684\u5316\u77f3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u30e9\u30e0\u30d1\u30eb\u30c9\u3068\u3000\u4f3c\u305f\u3000\u5834\u6240\u306b\u3000\u3044\u305f\u3002\n\uff12\u5339\u304c\u3000\u4e89\u3044\u3000\u5171\u5012\u308c\u306b\n\u306a\u3063\u305f\u3000\u5316\u77f3\u304c\u3000\u898b\u3064\u304b\u308b\u3053\u3068\u3082\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It lived in the same environments as Rampardos.\nTheir fossils have been found together\u2014\nseemingly from after they\u2019d fought to the finish.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "In passato condivideva l\u2019habitat con Rampardos.\nSpesso i loro scontri finivano in parit\u00e0 e non \u00e8\nraro trovarli fossilizzati insieme.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Compart\u00eda h\u00e1bitat con Rampardos. A veces se\nhan encontrado f\u00f3siles de ambas especies\nyaciendo juntos tras una lucha encarnizada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Es lebte in denselben Gebieten wie Rameidon.\nManche Fossilienfunde legen nahe, dass sie sich\nerbitterte K\u00e4mpfe geliefert haben.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il vivait dans les m\u00eames zones que le Charkos.\nOn trouve parfois leurs fossiles embrass\u00e9s pour\nl\u2019\u00e9ternit\u00e9 suite \u00e0 un K.O. mutuel.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u8207\u6230\u69cc\u9f8d\u751f\u6d3b\u5728\u76f8\u4f3c\u7684\u5730\u65b9\u3002\n\u4e5f\u66fe\u767c\u73fe\u904e\uff12\u96bb\u4e92\u76f8\u722d\u9b25\u5f8c\n\u540c\u6b78\u65bc\u76e1\u800c\u8b8a\u6210\u7684\u5316\u77f3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ub7a8\ud384\ub4dc\uc640 \ube44\uc2b7\ud55c \uc7a5\uc18c\uc5d0 \uc788\uc5c8\ub2e4.\n2\ub9c8\ub9ac\uac00 \uc2f8\uc6cc \uac19\uc774 \uc4f0\ub7ec\uc838\n\uc788\ub294 \ud654\uc11d\uc774 \ubc1c\uacac\ub420 \ub54c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u30e9\u30e0\u30d1\u30eb\u30c9\u3068\u3000\u306b\u305f\u3000\u3070\u3057\u3087\u306b\u3000\u3044\u305f\u3002\n\uff12\u3072\u304d\u304c\u3000\u3042\u3089\u305d\u3044\u3000\u3068\u3082\u3060\u304a\u308c\u306b\n\u306a\u3063\u305f\u3000\u304b\u305b\u304d\u304c\u3000\u307f\u3064\u304b\u308b\u3053\u3068\u3082\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6b63\u9762\u304b\u3089\u306e\u3000\u653b\u6483\u306f\n\u3059\u3079\u3066\u3000\u8df3\u306d\u8fd4\u3059\u3002\u8349\u3084\u3000\u6728\u306e\u5b9f\u3092\n\u98df\u3079\u308b\u3000\u304a\u3068\u306a\u3057\u3044\u3000\u6027\u683c\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Any frontal attack is repulsed. It is a docile\nPok\u00e9mon that feeds on grass and berries.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Respinge qualsiasi attacco frontale. \u00c8 un Pok\u00e9mon docile che\nsi nutre di erba e di bacche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Repele cualquier ataque frontal. Es muy d\u00f3cil y se alimenta\nde hierba y bayas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jeder Frontalangriff wird abgeschmettert. Dieses friedliche\nPok\u00e9mon ern\u00e4hrt sich von Gras und Beeren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il r\u00e9siste \u00e0 toute attaque frontale. C\u2019est un Pok\u00e9mon docile\nqui se nourrit d\u2019herbe et de Baies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc815\uba74\uc5d0\uc11c\uc758 \uacf5\uaca9\uc740 \uc804\ubd80 \ud295\uaca8\ub0b8\ub2e4.\n\ud480\uc774\ub098 \ub098\ubb34\uc5f4\ub9e4\ub97c \uba39\ub294\n\uc58c\uc804\ud55c \uc131\uaca9\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u3081\u3093\u304b\u3089\u306e\u3000\u3053\u3046\u3052\u304d\u306f\n\u3059\u3079\u3066\u3000\u306f\u306d\u304b\u3048\u3059\u3002\u304f\u3055\u3084\u3000\u304d\u306e\u202f\u3092\n\u305f\u3079\u308b\u3000\u304a\u3068\u306a\u3057\u3044\u3000\u305b\u3044\u304b\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u6a2a\u4e00\u5217\u306b\u3000\u4e26\u3076\u3068\u3000\u3069\u3093\u306a\n\u30dd\u30b1\u30e2\u30f3\u3067\u3082\u3000\u7a81\u7834\u3000\u3067\u304d\u306a\u3044\u3002\n\u305d\u3046\u3084\u3063\u3066\u3000\u5b50\u4f9b\u3092\u3000\u5b88\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "When they lined up side by side, no foe could\nbreak through. They shielded their young in\nthat way.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Se si mettono uno di fianco all\u2019altro nessun nemico riesce\na passare. Proteggono cos\u00ec i loro cuccioli.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Se alineaban y creaban una barrera que ning\u00fan enemigo pod\u00eda\ncruzar. As\u00ed proteg\u00edan a sus cr\u00edas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Stellen sie sich Seite an Seite, kann kein Gegner\nhindurchbrechen. So sch\u00fctzen sie auch ihre Jungen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "En groupe, ils prot\u00e8gent leurs petits en formant autour d\u2019eux\nune imp\u00e9n\u00e9trable muraille.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc77c\ub82c\ud6a1\ub300\ub85c \uc8fd \ub298\uc5b4\uc11c\uba74 \uc5b4\ub5a4\n\ud3ec\ucf13\ubaac\uc774\ub77c\ub3c4 \ub3cc\ud30c\ud558\uc9c0 \ubabb\ud55c\ub2e4.\n\uadf8\ub807\uac8c \ud558\uc5ec \uc544\uae30\ub97c \uc9c0\ucf1c\ub0c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3088\u3053\u3044\u3061\u308c\u3064\u306b\u3000\u306a\u3089\u3076\u3068\u3000\u3069\u3093\u306a\n\u30dd\u30b1\u30e2\u30f3\u3067\u3082\u3000\u3068\u3063\u3071\u3000\u3067\u304d\u306a\u3044\u3002\n\u305d\u3046\u3084\u3063\u3066\u3000\u3053\u3069\u3082\u3092\u3000\u307e\u3082\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6b63\u9762\u304b\u3089\u306e\u3000\u653b\u6483\u306f\n\u3059\u3079\u3066\u3000\u8df3\u306d\u8fd4\u3059\u3002\u8349\u3084\u3000\u6728\u306e\u5b9f\u3092\n\u98df\u3079\u308b\u3000\u304a\u3068\u306a\u3057\u3044\u3000\u6027\u683c\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Any frontal attack is repulsed. It is a docile\nPok\u00e9mon that feeds on grass and berries.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Respinge qualsiasi attacco frontale. \u00c8 un Pok\u00e9mon\ndocile che si nutre di erba e di bacche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Repele cualquier ataque frontal. Es muy d\u00f3cil y se\nalimenta de hierba y bayas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Jeder Frontalangriff wird abgeschmettert. Dieses\nfriedliche Pok\u00e9mon ern\u00e4hrt sich von Gras und Beeren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il r\u00e9siste \u00e0 toute attaque frontale. C\u2019est un Pok\u00e9mon\ndocile qui se nourrit d\u2019herbe et de Baies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc815\uba74\uc5d0\uc11c\uc758 \uacf5\uaca9\uc740 \uc804\ubd80 \ud295\uaca8\ub0b8\ub2e4.\n\ud480\uc774\ub098 \ub098\ubb34\uc5f4\ub9e4\ub97c \uba39\ub294\n\uc58c\uc804\ud55c \uc131\uaca9\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u3081\u3093\u304b\u3089\u306e\u3000\u3053\u3046\u3052\u304d\u306f\n\u3059\u3079\u3066\u3000\u306f\u306d\u304b\u3048\u3059\u3002\u304f\u3055\u3084\u3000\u304d\u306e\u307f\u3092\n\u305f\u3079\u308b\u3000\u304a\u3068\u306a\u3057\u3044\u3000\u305b\u3044\u304b\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u6a2a\u4e00\u5217\u306b\u3000\u4e26\u3076\u3068\u3000\u3069\u3093\u306a\n\u30dd\u30b1\u30e2\u30f3\u3067\u3082\u3000\u7a81\u7834\u3000\u3067\u304d\u306a\u3044\u3002\n\u305d\u3046\u3084\u3063\u3066\u3000\u5b50\u4f9b\u3092\u3000\u5b88\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When they lined up side by side, no foe could\nbreak through. They shielded their young in\nthat way.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se si mettono uno di fianco all\u2019altro nessun nemico\nriesce a passare. Proteggono cos\u00ec i loro cuccioli.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se alineaban y creaban una barrera que ning\u00fan\nenemigo pod\u00eda cruzar. As\u00ed proteg\u00edan a sus cr\u00edas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Stellen sie sich Seite an Seite, kann kein Gegner\nhindurchbrechen. So sch\u00fctzen sie auch ihre Jungen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "En groupe, ils prot\u00e8gent leurs petits en formant autour\nd\u2019eux une imp\u00e9n\u00e9trable muraille.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc606\uc5d0 \ud55c \uc904\ub85c \uc138\uc6b0\uba74 \uc5b4\ub5a4\n\ud3ec\ucf13\ubaac\uc774\ub77c\ub3c4 \ub3cc\ud30c\ud558\uc9c0 \ubabb\ud55c\ub2e4.\n\uadf8\ub807\uac8c \ud558\uc5ec \uc544\uae30\ub97c \uc9c0\ucf1c\ub0c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3088\u3053\u3044\u3061\u308c\u3064\u306b\u3000\u306a\u3089\u3076\u3068\u3000\u3069\u3093\u306a\n\u30dd\u30b1\u30e2\u30f3\u3067\u3082\u3000\u3068\u3063\u3071\u3000\u3067\u304d\u306a\u3044\u3002\n\u305d\u3046\u3084\u3063\u3066\u3000\u3053\u3069\u3082\u3092\u3000\u307e\u3082\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When they lined up side by side, no\nfoe could break through. They\nshielded their young in that way.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "When they lined up side by side, no\nfoe could break through. They\nshielded their young in that way.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "When they lined up side by side, no\nfoe could break through. They\nshielded their young in that way.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "En groupe, ils prot\u00e8gent leurs\npetits en formant autour d\u2019eux\nune imp\u00e9n\u00e9trable muraille.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "When they lined up side by side, no\nfoe could break through. They\nshielded their young in that way.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "En groupe, ils prot\u00e8gent leurs\npetits en formant autour d\u2019eux\nune imp\u00e9n\u00e9trable muraille.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "When attacked, they form a wall.\nTheir rock-hard faces serve to\nprotect them from the attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "When attacked, they form a wall.\nTheir rock-hard faces serve to\nprotect them from the attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "When they lined up side by side, no\nfoe could break through. They\nshielded their young in that way.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "When attacked, they form a wall\nwith their shieldlike faces to\nprotect their young.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Any frontal attack is repulsed.\nIt is a docile Pok\u00e9mon that\nfeeds on grass and berries.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u62a4\u76fe\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30b7\u30fc\u30eb\u30c9\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Shield Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Schermo",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Escudo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Schutzschild",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bouclier",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8b77\u76fe\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc2e4\ub4dc\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30b7\u30fc\u30eb\u30c9\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "slow-then-very-fast",
+        "url": "/api/v2/growth-rate/5/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 30,
+    "id": 411,
+    "is_baby": false,
+    "name": "bastiodon",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u62a4\u57ce\u9f99"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c8\u30ea\u30c7\u30d7\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Bastiodon"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Bastiodon"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Bastiodon"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Bollterus"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Bastiodon"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8b77\u57ce\u9f8d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubc14\ub9ac\ud1b1\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Trideps"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c8\u30ea\u30c7\u30d7\u30b9"
+        }
+    ],
+    "order": 439,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 164,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 39,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 39,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 411,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "bastiodon",
+                "url": "/api/v2/pokemon/411/"
+            }
+        }
+    ]
+}

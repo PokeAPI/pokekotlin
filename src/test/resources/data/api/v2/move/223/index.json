@@ -1,0 +1,698 @@
+{
+    "accuracy": 50,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "focus-energy",
+                    "url": "/api/v2/move/116/"
+                },
+                {
+                    "name": "mind-reader",
+                    "url": "/api/v2/move/170/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/10/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": 100,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to confuse the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f7f\u51fa\u6d51\u8eab\u529b\u6c14\u51fa\u62f3\u8fdb\u884c\u653b\u51fb\u3002\n\u5fc5\u5b9a\u4f1a\u4f7f\u5bf9\u624b\u6df7\u4e71\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u8eab\u306e\u3000\u529b\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u5fc5\u305a\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user punches the target with full, concentrated\npower. This confuses the target if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un pugno davvero forte.\nSe va a segno, lo confonde.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo con toda la fuerza concentrada. Causa \nconfusi\u00f3n si atina.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Kr\u00e4ftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur rassemble ses forces et envoie un coup\nde poing \u00e0 l\u2019ennemi. Rend ce dernier confus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u51fa\u6e3e\u8eab\u529b\u91cf\u51fa\u62f3\u9032\u884c\u653b\u64ca\u3002\n\u5fc5\u5b9a\u6703\u4f7f\u5c0d\u624b\u6df7\u4e82\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud63c\uc2e0\uc758 \ud798\uc73c\ub85c\n\ud380\uce58\ub97c \ub0a0\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ubc18\ub4dc\uc2dc \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u3057\u3093\u306e\u3000\u3061\u304b\u3089\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u304b\u306a\u3089\u305a\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u51fa\u6d51\u8eab\u529b\u6c14\u51fa\u62f3\u8fdb\u884c\u653b\u51fb\u3002\n\u5fc5\u5b9a\u4f1a\u4f7f\u5bf9\u624b\u6df7\u4e71\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u8eab\u306e\u3000\u529b\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u5fc5\u305a\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user punches the target with full, concentrated\npower. This confuses the target if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un pugno davvero forte.\nSe va a segno, lo confonde.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo con toda la fuerza concentrada. Causa \nconfusi\u00f3n si atina.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Kr\u00e4ftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur rassemble ses forces et envoie un coup\nde poing \u00e0 l\u2019ennemi. Rend ce dernier confus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u51fa\u6e3e\u8eab\u529b\u91cf\u51fa\u62f3\u9032\u884c\u653b\u64ca\u3002\n\u5fc5\u5b9a\u6703\u4f7f\u5c0d\u624b\u6df7\u4e82\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud63c\uc2e0\uc758 \ud798\uc73c\ub85c\n\ud380\uce58\ub97c \ub0a0\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ubc18\ub4dc\uc2dc \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u3057\u3093\u306e\u3000\u3061\u304b\u3089\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u304b\u306a\u3089\u305a\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u8eab\u306e\u3000\u529b\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u5fc5\u305a\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user punches the target with full,\nconcentrated power.\nThis confuses the target if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un pugno davvero forte.\nSe va a segno, lo confonde.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo con toda la fuerza concentrada. Causa \nconfusi\u00f3n si atina.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Kr\u00e4ftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur rassemble ses forces et envoie un coup\nde poing \u00e0 l\u2019ennemi. Rend ce dernier confus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud63c\uc2e0\uc758 \ud798\uc73c\ub85c\n\ud380\uce58\ub97c \ub0a0\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ubc18\ub4dc\uc2dc \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u3057\u3093\u306e\u3000\u3061\u304b\u3089\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u304b\u306a\u3089\u305a\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u8eab\u306e\u3000\u529b\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u5fc5\u305a\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user punches the target with full,\nconcentrated power.\nThis confuses the target if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un pugno davvero forte.\nSe va a segno, lo confonde.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo con toda la fuerza concentrada. Causa\nconfusi\u00f3n si atina.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Kr\u00e4ftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur rassemble ses forces et envoie un coup\nde poing \u00e0 l\u2019ennemi. Rend ce dernier confus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud63c\uc2e0\uc758 \ud798\uc73c\ub85c\n\ud380\uce58\ub97c \ub0a0\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ubc18\ub4dc\uc2dc \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3093\u3057\u3093\u306e\u3000\u3061\u304b\u3089\u3067\n\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u304b\u306a\u3089\u305a\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user punches the target with full,\nconcentrated power.\nIt confuses the target if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user punches the target with full,\nconcentrated power.\nIt confuses the target if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur rassemble ses forces et\nenvoie un coup de poing \u00e0 l\u2019ennemi.\nS\u2019il est touch\u00e9, il est confus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is punched\nwith the user\u2019s full,\nconcentrated power.\nIt confuses the foe\nif it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is punched\nwith the user\u2019s full,\nconcentrated power.\nIt confuses the foe\nif it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is punched\nwith the user\u2019s full,\nconcentrated power.\nIt confuses the foe\nif it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is punched\nwith the user\u2019s full\npower. It confuses\nthe foe if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Powerful and sure to cause\nconfusion, but inaccurate.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Powerful and sure to cause\nconfusion, but inaccurate.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nalways confuses.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nalways confuses.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 223,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/3/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/4/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "confusion",
+            "url": "/api/v2/move-ailment/6/"
+        },
+        "ailment_chance": 100,
+        "category": {
+            "name": "damage+ailment",
+            "url": "/api/v2/move-category/4/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": 5,
+        "min_hits": null,
+        "min_turns": 2,
+        "stat_chance": 0
+    },
+    "name": "dynamic-punch",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7206\u88c2\u62f3"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3070\u304f\u308c\u3064\u30d1\u30f3\u30c1"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Dynamic Punch"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Dinamipugno"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Pu\u00f1o Din\u00e1mico"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Wuchtschlag"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Dynamopoing"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7206\u88c2\u62f3"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud3ed\ubc1c\ud380\uce58"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3070\u304f\u308c\u3064\u30d1\u30f3\u30c1"
+        }
+    ],
+    "past_values": [],
+    "power": 100,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/18/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+    }
+}

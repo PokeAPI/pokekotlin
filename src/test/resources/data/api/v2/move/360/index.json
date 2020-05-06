@@ -1,0 +1,686 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Power increases with the target's current Speed compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8ba9\u8eab\u4f53\u9ad8\u901f\u65cb\u8f6c\u5e76\u649e\u51fb\u5bf9\u624b\u3002\n\u901f\u5ea6\u6bd4\u5bf9\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Embiste al objetivo con un potente ataque giratorio. \nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto h\u00f6her der Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u9ad8\u901f\u65cb\u8f49\u8eab\u9ad4\uff0c\u649e\u64ca\u5c0d\u624b\u3002\n\u901f\u5ea6\u6bd4\u5c0d\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8ba9\u8eab\u4f53\u9ad8\u901f\u65cb\u8f6c\u5e76\u649e\u51fb\u5bf9\u624b\u3002\n\u901f\u5ea6\u6bd4\u5bf9\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Embiste al objetivo con un potente ataque giratorio. \nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto h\u00f6her der Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u9ad8\u901f\u65cb\u8f49\u8eab\u9ad4\uff0c\u649e\u64ca\u5c0d\u624b\u3002\n\u901f\u5ea6\u6bd4\u5c0d\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Embiste al objetivo con un potente ataque giratorio. \nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger\ndie Initiative des Anwenders, desto h\u00f6her\nder Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger\ndie Initiative des Anwenders, desto h\u00f6her\nder Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur effectue une rotation et\nfrappe l\u2019ennemi. Plus le lanceur est\nlent, plus il fait de d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 360,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1108/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1109/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1110/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1111/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1112/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1113/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1114/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1115/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1116/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "gyro-ball",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9640\u87ba\u7403"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b8\u30e3\u30a4\u30ed\u30dc\u30fc\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Gyro Ball"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Vortexpalla"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Giro Bola"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Gyroball"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Gyroballe"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9640\u87ba\u7403"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc790\uc774\ub85c\ubcfc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b8\u30e3\u30a4\u30ed\u30dc\u30fc\u30eb"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/15/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "steel",
+        "url": "/api/v2/type/9/"
+    }
+}

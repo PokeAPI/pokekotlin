@@ -1,0 +1,625 @@
+{
+    "accuracy": 90,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 100,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage, then lowers the user's Special Attack by two stages.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Lowers the user's Special Attack by two stages after inflicting damage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u5c16\u5c16\u7684\u53f6\u7247\u5411\u5bf9\u624b\u5377\u8d77\u98ce\u66b4\u3002\n\u4f7f\u7528\u4e4b\u540e\u56e0\u4e3a\u53cd\u4f5c\u7528\u529b\n\u81ea\u5df1\u7684\u7279\u653b\u4f1a\u5927\u5e45\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u76f8\u624b\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u4f7f\u3046\u3068\u3000\u53cd\u52d5\u3067\n\u81ea\u5206\u306e\u3000\u7279\u653b\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user whips up a storm of leaves around the\ntarget. The attack\u2019s recoil harshly lowers the user\u2019s\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Si forma una tempesta di foglie affilate.\nIl contraccolpo riduce di molto l\u2019Attacco Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Una lluvia de hojas afiladas envuelve al objetivo.\nEl retroceso baja mucho el Ataque Especial de quien\nlo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erzeugt einen Sturm aus scharfen\nBl\u00e4ttern. R\u00fccksto\u00df senkt Spezial-Angriff des\nAnwenders stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de feuilles ac\u00e9r\u00e9es.\nLe contrecoup r\u00e9duit beaucoup l\u2019Attaque Sp\u00e9ciale\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5c16\u92b3\u7684\u8449\u5b50\u6372\u8d77\u98a8\u66b4\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u4f7f\u7528\u5f8c\u56e0\u70ba\u53cd\u4f5c\u7528\u529b\uff0c\n\u81ea\u5df1\u7684\u7279\u653b\u6703\u5927\u5e45\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubfb0\uc871\ud55c \uc78e\uc0ac\uadc0\ub85c \uc0c1\ub300\uc5d0\uac8c \ubc14\ub78c\uc744\n\uc77c\uc73c\ud0a8\ub2e4. \uc0ac\uc6a9\ud558\uba74 \ubc18\ub3d9\uc73c\ub85c\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc774 \ud06c\uac8c \ub5a8\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u3064\u304b\u3046\u3068\u3000\u306f\u3093\u3069\u3046\u3067\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5c16\u5c16\u7684\u53f6\u7247\u5411\u5bf9\u624b\u5377\u8d77\u98ce\u66b4\u3002\n\u4f7f\u7528\u4e4b\u540e\u56e0\u4e3a\u53cd\u4f5c\u7528\u529b\n\u81ea\u5df1\u7684\u7279\u653b\u4f1a\u5927\u5e45\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u76f8\u624b\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u4f7f\u3046\u3068\u3000\u53cd\u52d5\u3067\n\u81ea\u5206\u306e\u3000\u7279\u653b\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user whips up a storm of leaves around the\ntarget. The attack\u2019s recoil harshly lowers the user\u2019s\nSp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Si forma una tempesta di foglie affilate.\nIl contraccolpo riduce di molto l\u2019Attacco Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Una lluvia de hojas afiladas envuelve al objetivo.\nEl retroceso baja mucho el Ataque Especial de quien\nlo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erzeugt einen Sturm aus scharfen\nBl\u00e4ttern. R\u00fccksto\u00df senkt Spezial-Angriff des\nAnwenders stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de feuilles ac\u00e9r\u00e9es.\nLe contrecoup r\u00e9duit beaucoup l\u2019Attaque Sp\u00e9ciale\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5c16\u92b3\u7684\u8449\u5b50\u6372\u8d77\u98a8\u66b4\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u4f7f\u7528\u5f8c\u56e0\u70ba\u53cd\u4f5c\u7528\u529b\uff0c\n\u81ea\u5df1\u7684\u7279\u653b\u6703\u5927\u5e45\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubfb0\uc871\ud55c \uc78e\uc0ac\uadc0\ub85c \uc0c1\ub300\uc5d0\uac8c \ubc14\ub78c\uc744\n\uc77c\uc73c\ud0a8\ub2e4. \uc0ac\uc6a9\ud558\uba74 \ubc18\ub3d9\uc73c\ub85c\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc774 \ud06c\uac8c \ub5a8\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u3064\u304b\u3046\u3068\u3000\u306f\u3093\u3069\u3046\u3067\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u76f8\u624b\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u4f7f\u3046\u3068\u3000\u53cd\u52d5\u3067\n\u81ea\u5206\u306e\u3000\u7279\u653b\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user whips up a storm of leaves around\nthe target. The attack\u2019s recoil harshly\nlowers the user\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Si forma una tempesta di foglie affilate.\nIl contraccolpo riduce di molto l\u2019Attacco Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erzeugt einen Sturm aus scharfen\nBl\u00e4ttern. R\u00fccksto\u00df senkt Spezial-Angriff des\nAnwenders stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de feuilles ac\u00e9r\u00e9es.\nLe contrecoup r\u00e9duit fortement l\u2019Attaque Sp\u00e9ciale\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubfb0\uc871\ud55c \uc78e\uc0ac\uadc0\ub85c \uc0c1\ub300\uc5d0\uac8c \ubc14\ub78c\uc744\n\uc77c\uc73c\ud0a8\ub2e4. \uc0ac\uc6a9\ud558\uba74 \ubc18\ub3d9\uc73c\ub85c\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc774 \ud06c\uac8c \ub5a8\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u3064\u304b\u3046\u3068\u3000\u306f\u3093\u3069\u3046\u3067\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u76f8\u624b\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u4f7f\u3046\u3068\u3000\u53cd\u52d5\u3067\n\u81ea\u5206\u306e\u3000\u7279\u653b\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user whips up a storm of leaves around\nthe target. The attack\u2019s recoil harshly\nlowers the user\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Si forma una tempesta di foglie affilate.\nIl contraccolpo riduce di molto l\u2019Attacco Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erzeugt einen Sturm aus scharfen\nBl\u00e4ttern. R\u00fccksto\u00df senkt Spezial-Angriff des\nAnwenders stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de feuilles ac\u00e9r\u00e9es.\nLe contrecoup r\u00e9duit fortement l\u2019Attaque Sp\u00e9ciale\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubfb0\uc871\ud55c \uc78e\uc0ac\uadc0\ub85c \uc0c1\ub300\uc5d0\uac8c \ubc14\ub78c\uc744\n\uc77c\uc73c\ud0a8\ub2e4. \uc0ac\uc6a9\ud558\uba74 \ubc18\ub3d9\uc73c\ub85c\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc774 \ud06c\uac8c \ub5a8\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u306f\u3063\u3071\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3042\u3089\u3057\u3092\n\u304a\u3053\u3059\u3002\u3064\u304b\u3046\u3068\u3000\u306f\u3093\u3069\u3046\u3067\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u304c\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user whips up a storm of leaves around\nthe target. The attack\u2019s recoil harshly\nreduces the user\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user whips up a storm of leaves around\nthe target. The attack\u2019s recoil harshly\nreduces the user\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de feuilles ac\u00e9r\u00e9es.\nLe contrecoup r\u00e9duit fortement l\u2019Attaque\nSp\u00e9ciale du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "A storm of sharp\nleaves is whipped up.\nThe attack\u2019s recoil\nsharply reduces the\nuser\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "A storm of sharp\nleaves is whipped up.\nThe attack\u2019s recoil\nsharply reduces the\nuser\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "A storm of sharp\nleaves is whipped up.\nThe attack\u2019s recoil\nsharply reduces the\nuser\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 437,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage+raise",
+            "url": "/api/v2/move-category/7/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 100
+    },
+    "name": "leaf-storm",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u98de\u53f6\u98ce\u66b4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ea\u30fc\u30d5\u30b9\u30c8\u30fc\u30e0"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Leaf Storm"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Verdebufera"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Lluevehojas"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Bl\u00e4ttersturm"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Temp\u00eate Verte"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u98db\u8449\u98a8\u66b4"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9ac\ud504\uc2a4\ud1b0"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ea\u30fc\u30d5\u30b9\u30c8\u30fc\u30e0"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 140,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 130,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": -2,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/22/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+    }
+}

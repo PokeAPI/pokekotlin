@@ -1,0 +1,823 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "indeterminate",
+            "url": "/api/v2/egg-group/11/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/100/"
+    },
+    "evolves_from_species": {
+        "name": "wynaut",
+        "url": "/api/v2/pokemon-species/360/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u3072\u305f\u3059\u3089\u3000\u6211\u6162\u3059\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u304c\u3000\u5c3b\u5c3e\u3092\n\u653b\u6483\u3055\u308c\u308b\u3000\u3053\u3068\u3060\u3051\u306f\u3000\u6211\u6162\u3000\u51fa\u6765\u306a\u3044\u3002\n\u76f8\u624b\u3092\u3000\u9053\u9023\u308c\u306b\u3059\u308b\u3000\u30c1\u30e3\u30f3\u30b9\u3092\u3000\u4f3a\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Wobbuffet does nothing but endure attacks\u2014it won\u2019t attack on\nits own. However, it won\u2019t endure an attack on its tail. When\nthat happens, the Pok\u00e9mon will try to take the foe with it using\nDestiny Bond.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Wobbuffet non fa altro che subire le azioni nemiche:\nnon agisce mai per primo. Tuttavia, non sopporta di essere\nattaccato alla coda. In questo caso cerca di trascinare\ncon s\u00e9 il nemico usando Destinobbligato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Wobbuffet no hace otra cosa que aguantar los golpes que\nrecibe: nunca usa movimientos ofensivos. Pero, si le atacan\na la cola, intentar\u00e1 llevarse con \u00e9l al enemigo usando\nMismo Destino.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Woingenau tut nichts anderes als Angriffe auszuhalten.\nVon sich aus w\u00fcrde es nie angreifen. Eine Attacke auf\nseinen Schweif w\u00fcrde es allerdings niemals dulden.\nWenn das passiert, setzt es Abgangsbund ein.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Qulbutok\u00e9 ne fait rien, \u00e0 part encaisser des coups.\nIl n\u2019attaque jamais de lui-m\u00eame. Cependant, il ne supporte\npas qu\u2019on attaque sa queue. Lorsque \u00e7a arrive, ce Pok\u00e9mon\nessaie d\u2019entra\u00eener son ennemi gr\u00e2ce \u00e0 Pr\u00e9l\u00e8vem. Destin.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud55c\uacb0\uac19\uc774 \ucc38\ub294 \ud3ec\ucf13\ubaac\uc774\uc9c0\ub9cc \uaf2c\ub9ac\ub97c\n\uacf5\uaca9\ub2f9\ud558\ub294 \uac83\ub9cc\uc740 \ucc38\uc9c0 \ubabb\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \uae38\ub3d9\ubb34\ub85c \ub9cc\ub4e4 \uae30\ud68c\ub97c \uc0b4\ud540\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u305f\u3059\u3089\u3000\u304c\u307e\u3093\u3059\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u304c\u3000\u3057\u3063\u307d\u3092\n\u3053\u3046\u3052\u304d\u3055\u308c\u308b\u3000\u3053\u3068\u3060\u3051\u306f\u3000\u304c\u307e\u3093\u3000\u3067\u304d\u306a\u3044\u3002\n\u3042\u3044\u3066\u3092\u3000\u202f\u3061\u3065\u308c\u306b\u3059\u308b\u3000\u30c1\u30e3\u30f3\u30b9\u3092\u3000\u3046\u304b\u304c\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u5339\u3000\u4ee5\u4e0a\u3000\u96c6\u307e\u308b\u3068\u3000\u6211\u6162\u3000\u6bd4\u3079\u3092\n\u59cb\u3081\u308b\u304c\u3000\u7a7a\u8179\u3092\u3000\u6211\u6162\u3057\u3066\u3000\u3057\u307e\u3046\u306e\u3067\n\u30bd\u30fc\u30ca\u30f3\u30b9\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306f\u3000\u6ce8\u610f\u304c\u3000\u5fc5\u8981\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "If two or more Wobbuffet meet, they will turn competitive\nand try to outdo each other\u2019s endurance. However, they may\ntry to see which one can endure the longest without food.\nTrainers need to beware of this habit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Quando due o pi\u00f9 Wobbuffet si incontrano, diventano\ncompetitivi tentando di vanificare la reciproca resistenza.\nTalvolta fanno anche a gara per vedere chi resiste di pi\u00f9\nsenza cibo. Gli Allenatori devono fare attenzione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Si dos o m\u00e1s Wobbuffet se encuentran, se volver\u00e1n\ncompetitivos e intentar\u00e1n superarse en resistencia. Pero\ntambi\u00e9n puede que intenten aguantar sin comer; algo que\nlos Entrenadores deben tener muy en cuenta.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Wenn zwei oder mehr Woingenau aufeinandertreffen,\nversuchen sie, gegenseitig ihre Geduld zu \u00fcbertreffen.\nSie m\u00f6chten herausfinden, welches Pok\u00e9mon es am l\u00e4ngsten\nohne Nahrung aush\u00e4lt. Darauf m\u00fcssen Trainer achten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Si un ou plusieurs Qulbutok\u00e9 se rencontrent, ils se mesurent\nles uns aux autres et font des concours d\u2019endurance. Parfois,\nils tentent de voir qui peut rester le plus longtemps sans\nmanger. Mieux vaut \u00eatre pr\u00e9venu.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub450 \ub9c8\ub9ac \uc774\uc0c1 \ubaa8\uc774\uba74 \ucc38\uae30 \uaca8\ub8e8\uae30\ub97c\n\uc2dc\uc791\ud558\ub294\ub370 \ubc30\uace0\ud514\ub3c4 \ucc38\uc544\ubc84\ub9ac\uae30 \ub54c\ubb38\uc5d0\n\ub9c8\uc790\uc6a9 \ud2b8\ub808\uc774\ub108\ub294 \uc8fc\uc758\uac00 \ud544\uc694\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u3072\u304d\u3000\u3044\u3058\u3087\u3046\u3000\u3042\u3064\u307e\u308b\u3068\u3000\u304c\u307e\u3093\u3000\u304f\u3089\u3079\u3092\n\u306f\u3058\u3081\u308b\u304c\u3000\u304f\u3046\u3075\u304f\u3092\u3000\u304c\u307e\u3093\u3057\u3066\u3000\u3057\u307e\u3046\u306e\u3067\n\u30bd\u30fc\u30ca\u30f3\u30b9\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306f\u3000\u3061\u3085\u3046\u3044\u304c\u3000\u3072\u3064\u3088\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u771f\u3063\u9ed2\u306a\u3000\u5c3b\u5c3e\u3092\u3000\u96a0\u3059\u305f\u3081\n\u6697\u95c7\u3067\u3000\u3072\u3063\u305d\u308a\u3068\u3000\u751f\u304d\u3066\u3044\u308b\u3002\n\u81ea\u5206\u304b\u3089\u306f\u3000\u653b\u6483\u3057\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "To keep its pitch-black tail hidden, it lives quietly in\nthe darkness. It is never first to attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se ne sta sempre tranquillo al buio per nascondere la\ncoda nera come la pece. Non attacca mai per primo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Para mantener oculta su negra cola, vive en silencio\nen la oscuridad. Nunca ataca primero.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt in der Dunkelheit, um seinen schwarzen\nSchweif zu verstecken. Es greift nie zuerst an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pour cacher sa queue noire, il vit discr\u00e8tement dans\nl\u2019obscurit\u00e9. Il n\u2019attaque jamais le premier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c8\uae4c\ub9cc \uaf2c\ub9ac\ub97c \uc228\uae30\uae30 \uc704\ud574\n\uc5b4\ub460 \uc18d\uc5d0\uc11c \uc740\ubc00\ud788 \uc9c0\ub0b4\uace0 \uc788\ub2e4.\n\uc790\uc2e0\uc774 \uba3c\uc800 \uacf5\uaca9\ud558\ub294 \uc77c\uc740 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3063\u304f\u308d\u306a\u3000\u3057\u3063\u307d\u3092\u3000\u304b\u304f\u3059\u305f\u3081\n\u304f\u3089\u3084\u307f\u3067\u3000\u3072\u3063\u305d\u308a\u3068\u3000\u3044\u304d\u3066\u3044\u308b\u3002\n\u3058\u3076\u3093\u304b\u3089\u306f\u3000\u3053\u3046\u3052\u304d\u3000\u3057\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u3084\u3000\u30b7\u30e7\u30c3\u30af\u3092\u3000\u5acc\u3046\u3002\n\u653b\u6483\u3055\u308c\u308b\u3068\u3000\u4f53\u304c\u3000\u3075\u304f\u3089\u307f\n\u53cd\u6483\u304c\u3000\u5f37\u529b\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It hates light and shock. If attacked, it inflates its\nbody to build up its counterstrike.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Odia la luce e gli shock. Se \u00e8 attaccato, gonfia il\ncorpo per preparare il contrattacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Odia la luz y las sacudidas. Si le atacan, infla su\ncuerpo para aumentar su contraataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es hasst Licht und Schl\u00e4ge. Wird es angegriffen,\npumpt es sich auf, um einen Gegenschlag\nvorzubereiten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il d\u00e9teste la lumi\u00e8re et les chocs. S\u2019il est attaqu\u00e9,\nil se gonflera pour riposter violemment.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ube5b\uacfc \uc1fc\ud06c\ub97c \uc2eb\uc5b4\ud55c\ub2e4.\n\uacf5\uaca9\ubc1b\uc73c\uba74 \ubab8\uc774 \ubd80\ud480\uc5b4 \uc62c\ub77c\n\ubc18\uaca9\uc774 \uac15\ub825\ud574\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u304b\u308a\u3084\u3000\u30b7\u30e7\u30c3\u30af\u3092\u3000\u304d\u3089\u3046\u3002\n\u3053\u3046\u3052\u304d\u3055\u308c\u308b\u3068\u3000\u304b\u3089\u3060\u304c\u3000\u3075\u304f\u3089\u307f\n\u306f\u3093\u3052\u304d\u304c\u3000\u304d\u3087\u3046\u308a\u3087\u304f\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It desperately tries to keep its\nblack tail hidden. It is said to be\nproof the tail hides a secret.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It desperately tries to keep its\nblack tail hidden. It is said to be\nproof the tail hides a secret.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It desperately tries to keep its\nblack tail hidden. It is said to be\nproof the tail hides a secret.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il cherche d\u00e9sesp\u00e9r\u00e9ment \u00e0 cacher\nsa queue noire. Certains pensent\nqu\u2019elle renferme un secret.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It desperately tries to keep its\nblack tail hidden. It is said to be\nproof the tail hides a secret.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il cherche d\u00e9sesp\u00e9r\u00e9ment \u00e0 cacher\nsa queue noire. Certains pensent\nqu\u2019elle renferme un secret.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "To keep its pitch-black tail hidden,\nit lives quietly in the darkness.\nIt is never first to attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It hates light and shock. If\nattacked, it inflates its body to\nbuild up its counterstrike.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It desperately tries to keep its\nblack tail hidden. It is said to be\nproof the tail hides a secret.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It desperately tries to keep its\nblack tail hidden. It is said to be\nproof the tail hides a secret.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It desperately tries to keep its\nblack tail hidden. It is said to be\nproof the tail hides a secret.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It hates light and shock. If attacked,\nit inflates its body to pump up its\ncounterstrike.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "To keep its pitch-black tail hidden, it\nlives quietly in the darkness. It is never\nfirst to attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Usually docile, a WOBBUFFET strikes back\nferociously if its black tail is attacked.\nIt makes its lair in caves where it waits\nfor nightfall.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "WOBBUFFET does nothing but endure\nattacks - it won\u2019t attack on its own.\nHowever, it won\u2019t endure an attack on\fits tail. When that happens, the\nPOK\u00e9MON will try to take the foe with it\nusing DESTINY BOND.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "If two or more WOBBUFFET meet, they will\nturn competitive and try to outdo each\nother\u2019s endurance.\fHowever, they may try to see which one\ncan endure the longest without food.\nTRAINERS need to beware of this habit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "In order to con\u00ad\nceal its black\ntail, it lives in\fa dark cave and\nonly moves about\nat night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "To keep its pitch-\nblack tail hidden,\nit lives quietly\fin the darkness.\nIt is never first\nto attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It hates light and\nshock. If attack\u00ad\ned, it inflates\fits body to pump\nup its counter\u00ad\nstrike.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5fcd\u8010\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u304c\u307e\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Patient Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pazienza",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Paciente",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Geduld",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Patient",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5fcd\u8010\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ucc38\uae30\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u304c\u307e\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "cave",
+        "url": "/api/v2/pokemon-habitat/1/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 202,
+    "is_baby": false,
+    "name": "wobbuffet",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u679c\u7136\u7fc1"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30bd\u30fc\u30ca\u30f3\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Wobbuffet"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Wobbuffet"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Wobbuffet"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Woingenau"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Qulbutok\u00e9"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u679c\u7136\u7fc1"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9c8\uc790\uc6a9"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Sonans"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30bd\u30fc\u30ca\u30f3\u30b9"
+        }
+    ],
+    "order": 233,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 168,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 119,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 108,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 161,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 107,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 202,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "blob",
+        "url": "/api/v2/pokemon-shape/5/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "wobbuffet",
+                "url": "/api/v2/pokemon/202/"
+            }
+        }
+    ]
+}

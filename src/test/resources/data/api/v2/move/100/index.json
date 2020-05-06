@@ -1,0 +1,706 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "confusion",
+                    "url": "/api/v2/move/93/"
+                },
+                {
+                    "name": "psychic",
+                    "url": "/api/v2/move/94/"
+                },
+                {
+                    "name": "double-team",
+                    "url": "/api/v2/move/104/"
+                },
+                {
+                    "name": "kinesis",
+                    "url": "/api/v2/move/134/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/15/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Does nothing.  Wild battles end immediately.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Immediately ends wild battles.  No effect otherwise."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u505c\u6b62\u548c\u91ce\u751f\u5b9d\u53ef\u68a6\u6218\u6597\u5e76\u9003\u8d70\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u91ce\u751f\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u306e\n\u6226\u95d8\u3092\u3000\u3084\u3081\u3066\u3000\u9003\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from any wild Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Fa fuggire dai Pok\u00e9mon selvatici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Permite huir al instante de combates contra\nPok\u00e9mon salvajes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht die sofortige Flucht vor wilden Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Permet de fuir une rencontre avec un Pok\u00e9mon\nsauvage.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u505c\u6b62\u548c\u91ce\u751f\u5bf6\u53ef\u5922\u6230\u9b25\u4e26\u9003\u8d70\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc57c\uc0dd \ud3ec\ucf13\ubaac\uacfc \ubc30\ud2c0\uc744\n\uadf8\ub9cc\ub450\uace0 \ub3c4\ub9dd\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u305b\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u3068\u306e\n\u305b\u3093\u3068\u3046\u3092\u3000\u3084\u3081\u3066\u3000\u306b\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u505c\u6b62\u548c\u91ce\u751f\u5b9d\u53ef\u68a6\u6218\u6597\u5e76\u9003\u8d70\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u91ce\u751f\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u306e\n\u6226\u95d8\u3092\u3000\u3084\u3081\u3066\u3000\u9003\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from any wild Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Fa fuggire dai Pok\u00e9mon selvatici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Permite huir al instante de combates contra\nPok\u00e9mon salvajes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht die sofortige Flucht vor wilden Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Permet de fuir une rencontre avec un Pok\u00e9mon\nsauvage.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u505c\u6b62\u548c\u91ce\u751f\u5bf6\u53ef\u5922\u6230\u9b25\u4e26\u9003\u8d70\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc57c\uc0dd \ud3ec\ucf13\ubaac\uacfc \ubc30\ud2c0\uc744\n\uadf8\ub9cc\ub450\uace0 \ub3c4\ub9dd\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u305b\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u3068\u306e\n\u305b\u3093\u3068\u3046\u3092\u3000\u3084\u3081\u3066\u3000\u306b\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u91ce\u751f\u30dd\u30b1\u30e2\u30f3\u3068\u306e\u3000\u6226\u95d8\u3092\u3000\u3084\u3081\u308b\u3002\n\u6700\u5f8c\u306b\u3000\u306f\u3044\u3063\u305f\n\u30dd\u30b1\u30bb\u30f3\u306e\u3000\u3042\u308b\u3000\u8857\u306b\u3082\u3000\u884c\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from any wild Pok\u00e9mon.\nIt can also warp to the last Pok\u00e9mon\nCenter visited.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Fa fuggire dai Pok\u00e9mon selvatici. Fuori dalla lotta\nporta all\u2019ultimo Centro Pok\u00e9mon visitato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Permite huir al instante de combates contra Pok\u00e9mon \nsalvajes o viajar al \u00faltimo Centro Pok\u00e9mon visitado. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht die sofortige Flucht vor wilden\nPok\u00e9mon. Kann den Anwender au\u00dferdem zum\nzuletzt besuchten Pok\u00e9mon-Center teleportieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Permet de fuir un Pok\u00e9mon sauvage.\nPermet aussi de revenir au dernier Centre\nPok\u00e9mon visit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc57c\uc0dd \ud3ec\ucf13\ubaac\uacfc \ubc30\ud2c0\uc744 \uadf8\ub9cc\ub454\ub2e4.\n\ub9c8\uc9c0\ub9c9\uc5d0 \ub4e4\uc5b4\uac14\ub358\n\ud3ec\ucf13\ubaac\uc13c\ud130\uac00 \uc788\ub294 \ub3c4\uc2dc\uc5d0\ub3c4 \uac08 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u305b\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u306e\u3000\u305b\u3093\u3068\u3046\u3092\n\u3084\u3081\u308b\u3002\u3055\u3044\u3054\u306b\u3000\u306f\u3044\u3063\u305f\n\u30dd\u30b1\u30bb\u30f3\u306e\u3000\u3042\u308b\u3000\u307e\u3061\u306b\u3082\u3000\u3044\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u91ce\u751f\u30dd\u30b1\u30e2\u30f3\u3068\u306e\u3000\u6226\u95d8\u3092\u3000\u3084\u3081\u308b\u3002\n\u6700\u5f8c\u306b\u3000\u306f\u3044\u3063\u305f\n\u30dd\u30b1\u30bb\u30f3\u306e\u3000\u3042\u308b\u3000\u8857\u306b\u3082\u3000\u884c\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from any wild Pok\u00e9mon.\nIt can also warp to the last Pok\u00e9mon\nCenter visited.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Fa fuggire dai Pok\u00e9mon selvatici. Fuori dalla lotta\nporta all\u2019ultimo Centro Pok\u00e9mon visitato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Permite huir al instante de combates contra\nPok\u00e9mon salvajes o viajar al \u00faltimo Centro\nPok\u00e9mon visitado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht die sofortige Flucht vor wilden\nPok\u00e9mon. Kann den Anwender au\u00dferdem zum\nzuletzt besuchten Pok\u00e9mon-Center teleportieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Permet de fuir un Pok\u00e9mon sauvage.\nPermet aussi de revenir au dernier Centre\nPok\u00e9mon visit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc57c\uc0dd \ud3ec\ucf13\ubaac\uacfc \ubc30\ud2c0\uc744 \uadf8\ub9cc\ub454\ub2e4.\n\ub9c8\uc9c0\ub9c9\uc5d0 \ub4e4\uc5b4\uac14\ub358\n\ud3ec\ucf13\ubaac\uc13c\ud130\uac00 \uc788\ub294 \ub3c4\uc2dc\uc5d0\ub3c4 \uac08 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u305b\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u306e\u3000\u305b\u3093\u3068\u3046\u3092\n\u3084\u3081\u308b\u3002\u3055\u3044\u3054\u306b\u3000\u306f\u3044\u3063\u305f\n\u30dd\u30b1\u30bb\u30f3\u306e\u3000\u3042\u308b\u3000\u307e\u3061\u306b\u3082\u3000\u3044\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from any wild Pok\u00e9mon.\nIt can also warp to the last Pok\u00e9mon\nCenter visited.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from any wild Pok\u00e9mon.\nIt can also warp to the last Pok\u00e9mon\nCenter visited.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Permet de fuir un Pok\u00e9mon sauvage.\nPermet aussi de revenir au dernier\nCentre Pok\u00e9mon visit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from\nany wild Pok\u00e9mon.\nIt can also warp to\nthe last Pok\u00e9mon\nCenter visited.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from\nany wild Pok\u00e9mon.\nIt may also be used\nto warp to the last\nPok\u00e9 Center visited.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from\nany wild Pok\u00e9mon.\nIt may also be used\nto warp to the last\nPok\u00e9 Center visited.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Use it to flee from\nany wild POK\u00e9MON.\nAlso warps to the\nlast POK\u00e9 CENTER.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A psychic move for fleeing\nfrom battle instantly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A psychic move for fleeing\nfrom battle instantly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A move for fleeing\nfrom battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A move for fleeing\nfrom battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 100,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/523/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/524/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "teleport",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u77ac\u95f4\u79fb\u52a8"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c6\u30ec\u30dd\u30fc\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Teleport"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Teletrasporto"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Teletransporte"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Teleport"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "T\u00e9l\u00e9port"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u77ac\u9593\u79fb\u52d5"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc21c\uac04\uc774\ub3d9"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c6\u30ec\u30dd\u30fc\u30c8"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/1/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "psychic",
+        "url": "/api/v2/type/14/"
+    }
+}

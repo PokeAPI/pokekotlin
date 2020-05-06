@@ -1,0 +1,714 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "thunder-punch",
+                    "url": "/api/v2/move/9/"
+                },
+                {
+                    "name": "thunder-shock",
+                    "url": "/api/v2/move/84/"
+                },
+                {
+                    "name": "thunderbolt",
+                    "url": "/api/v2/move/85/"
+                },
+                {
+                    "name": "thunder-wave",
+                    "url": "/api/v2/move/86/"
+                },
+                {
+                    "name": "thunder",
+                    "url": "/api/v2/move/87/"
+                },
+                {
+                    "name": "zap-cannon",
+                    "url": "/api/v2/move/192/"
+                },
+                {
+                    "name": "spark",
+                    "url": "/api/v2/move/209/"
+                },
+                {
+                    "name": "volt-tackle",
+                    "url": "/api/v2/move/344/"
+                },
+                {
+                    "name": "shock-wave",
+                    "url": "/api/v2/move/351/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "thunder-fang",
+                    "url": "/api/v2/move/422/"
+                }
+            ]
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/12/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Does not raise the user's Special Defense.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Raises the user's Special Defense by one stage.  If the user uses an electric move next turn, its power will be doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u63d0\u9ad8\u4e0b\u4e00\u56de\u5408\u4f7f\u51fa\u7684\n\u7535\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\u3002\n\u81ea\u5df1\u7684\u7279\u9632\u4e5f\u4f1a\u63d0\u9ad8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u9632\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the power of the Electric move it\nuses on the next turn. This also raises the user\u2019s\nSp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Potenzia la mossa di tipo Elettro usata subito\ndopo. Aumenta anche la Difesa Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Recarga energ\u00eda para potenciar el siguiente \nmovimiento de tipo El\u00e9ctrico. Tambi\u00e9n sube la \nDefensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Hebt die St\u00e4rke f\u00fcr die kommende Elektro-Attacke\nan und erh\u00f6ht die Spezial-Verteidigung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur concentre sa puissance pour\nsa prochaine attaque \u00c9lectrik. Augmente sa\nD\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u63d0\u9ad8\u4e0b\u4e00\u56de\u5408\u4f7f\u51fa\u7684\n\u96fb\u5c6c\u6027\u62db\u5f0f\u5a01\u529b\u3002\n\u4e5f\u6703\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u9632\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e4\uc74c \ud134\uc5d0 \uc4f8 \uc804\uae30\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\ubc29\uc5b4\ub3c4 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u307c\u3046\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u63d0\u9ad8\u4e0b\u4e00\u56de\u5408\u4f7f\u51fa\u7684\n\u7535\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\u3002\n\u81ea\u5df1\u7684\u7279\u9632\u4e5f\u4f1a\u63d0\u9ad8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u9632\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the power of the Electric move it\nuses on the next turn. This also raises the user\u2019s\nSp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Potenzia la mossa di tipo Elettro usata subito\ndopo. Aumenta anche la Difesa Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Recarga energ\u00eda para potenciar el siguiente \nmovimiento de tipo El\u00e9ctrico. Tambi\u00e9n sube la \nDefensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Hebt die St\u00e4rke f\u00fcr die kommende Elektro-Attacke\nan und erh\u00f6ht die Spezial-Verteidigung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur concentre sa puissance pour\nsa prochaine attaque \u00c9lectrik. Augmente sa\nD\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u63d0\u9ad8\u4e0b\u4e00\u56de\u5408\u4f7f\u51fa\u7684\n\u96fb\u5c6c\u6027\u62db\u5f0f\u5a01\u529b\u3002\n\u4e5f\u6703\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u9632\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e4\uc74c \ud134\uc5d0 \uc4f8 \uc804\uae30\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\ubc29\uc5b4\ub3c4 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u307c\u3046\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u9632\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the power of the Electric\nmove it uses on the next turn. This also\nraises the user\u2019s Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Potenzia la mossa di tipo Elettro usata subito\ndopo. Aumenta anche la Difesa Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Recarga energ\u00eda para potenciar el siguiente \nmovimiento de tipo El\u00e9ctrico. Tambi\u00e9n sube la \nDefensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "L\u00e4dt Energie f\u00fcr die kommende Elektro-Attacke\nauf. Erh\u00f6ht die Spezial-Verteidigung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur concentre sa puissance pour\nsa prochaine attaque \u00c9lectrik. Augmente sa\nD\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e4\uc74c \ud134\uc5d0 \uc4f8 \uc804\uae30\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\ubc29\uc5b4\ub3c4 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u307c\u3046\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u9632\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the power of the Electric\nmove it uses on the next turn. This also\nraises the user\u2019s Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Potenzia la mossa di tipo Elettro usata subito\ndopo. Aumenta anche la Difesa Speciale\ndi chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Recarga energ\u00eda para potenciar el siguiente\nmovimiento de tipo El\u00e9ctrico. Tambi\u00e9n sube la\nDefensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "L\u00e4dt Energie f\u00fcr die kommende Elektro-Attacke\nauf. Erh\u00f6ht die Spezial-Verteidigung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur concentre sa puissance pour\nsa prochaine attaque \u00c9lectrik. Augmente sa\nD\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e4\uc74c \ud134\uc5d0 \uc4f8 \uc804\uae30\ud0c0\uc785\n\uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\ubc29\uc5b4\ub3c4 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306b\u3000\u3060\u3059\u3000\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u307c\u3046\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the power of the Electric\nmove it uses on the next turn. It also\nraises the user\u2019s Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the power of the Electric\nmove it uses on the next turn. It also\nraises the user\u2019s Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur concentre sa puissance pour\nsa prochaine attaque \u00c9lectrik.\nAugmente sa D\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser\u2019s Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser\u2019s Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser\u2019s Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user charges\npower to boost the\nELECTRIC move it\nuses next.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Charges power to boost the\nelectric move used next.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Charges power to boost the\nelectric move used next.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 268,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "charge",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5145\u7535"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3058\u3085\u3046\u3067\u3093"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Charge"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sottocarica"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Carga"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Ladevorgang"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Chargeur"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5145\u96fb"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ucda9\uc804"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3058\u3085\u3046\u3067\u3093"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 1,
+            "stat": {
+                "name": "special-defense",
+                "url": "/api/v2/stat/5/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/11/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "electric",
+        "url": "/api/v2/type/13/"
+    }
+}

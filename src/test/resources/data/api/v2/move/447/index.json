@@ -1,0 +1,686 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u8349\u7f20\u4f4f\u5e76\u7eca\u5012\u5bf9\u624b\u3002\n\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u76f8\u624b\u3092\n\u8ee2\u3070\u305b\u308b\u3002\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola il bersaglio con l\u2019erba e lo fa\ncadere. Danneggia maggiormente i Pok\u00e9mon\npi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Enreda al objetivo con hierba y lo derriba.\nCuanto m\u00e1s pesado es el objetivo, m\u00e1s da\u00f1o inflige. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird durch Gras ins Straucheln gebracht.\nJe schwerer das Ziel, desto mehr Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est pi\u00e9g\u00e9 dans de l\u2019herbe qui le fait\ntr\u00e9bucher. Plus il est lourd, plus il subit de d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6253\u7d50\u7684\u8349\u7d46\u5012\u5c0d\u624b\u3002\n\u5c0d\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\ub97c\n\uc4f0\ub7ec\ub728\ub9b0\ub2e4. \uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u308b\u3002\u3042\u3044\u3066\u304c\u3000\u304a\u3082\u3044\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8349\u7f20\u4f4f\u5e76\u7eca\u5012\u5bf9\u624b\u3002\n\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u76f8\u624b\u3092\n\u8ee2\u3070\u305b\u308b\u3002\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola il bersaglio con l\u2019erba e lo fa\ncadere. Danneggia maggiormente i Pok\u00e9mon\npi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Enreda al objetivo con hierba y lo derriba.\nCuanto m\u00e1s pesado es el objetivo, m\u00e1s da\u00f1o inflige. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird durch Gras ins Straucheln gebracht.\nJe schwerer das Ziel, desto mehr Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est pi\u00e9g\u00e9 dans de l\u2019herbe qui le fait\ntr\u00e9bucher. Plus il est lourd, plus il subit de d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6253\u7d50\u7684\u8349\u7d46\u5012\u5c0d\u624b\u3002\n\u5c0d\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\ub97c\n\uc4f0\ub7ec\ub728\ub9b0\ub2e4. \uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u308b\u3002\u3042\u3044\u3066\u304c\u3000\u304a\u3082\u3044\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u76f8\u624b\u3092\n\u8ee2\u3070\u305b\u308b\u3002\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola il bersaglio con l\u2019erba e lo fa\ncadere. Danneggia maggiormente i Pok\u00e9mon\npi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Enreda al objetivo con hierba y lo derriba.\nCuanto m\u00e1s pesado es el objetivo, m\u00e1s da\u00f1o inflige. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird durch Gras ins Straucheln gebracht.\nJe schwerer das Ziel, desto mehr Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est pi\u00e9g\u00e9 dans de l\u2019herbe qui le fait\ntr\u00e9bucher. Plus il est lourd, plus il subit de d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\ub97c\n\uc4f0\ub7ec\ub728\ub9b0\ub2e4. \uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u308b\u3002\u3042\u3044\u3066\u304c\u3000\u304a\u3082\u3044\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u76f8\u624b\u3092\n\u8ee2\u3070\u305b\u308b\u3002\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intrappola il bersaglio con l\u2019erba e lo fa\ncadere. Danneggia maggiormente i Pok\u00e9mon\npi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Enreda al objetivo con hierba y lo derriba.\nCuanto m\u00e1s pesado es el objetivo, m\u00e1s da\u00f1o\ninflige.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ziel wird durch Gras ins Straucheln gebracht.\nJe schwerer das Ziel, desto mehr Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est pi\u00e9g\u00e9 dans de l\u2019herbe qui le fait\ntr\u00e9bucher. Plus il est lourd, plus il subit de d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\ub97c\n\uc4f0\ub7ec\ub728\ub9b0\ub2e4. \uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3092\u3000\u304b\u3089\u307e\u305b\u3066\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u308b\u3002\u3042\u3044\u3066\u304c\u3000\u304a\u3082\u3044\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the target with grass and\ntrips it. The heavier the target,\nthe greater the damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est pi\u00e9g\u00e9 dans de l\u2019herbe qui\nle fait tr\u00e9bucher. Plus il est lourd,\nplus il subit de d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 447,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1216/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1217/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1218/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1219/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1220/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1221/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1222/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1223/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1224/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "grass-knot",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6253\u8349\u7ed3"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304f\u3055\u3080\u3059\u3073"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Grass Knot"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Laccioerboso"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Hierba Lazo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Strauchler"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "N\u0153ud Herbe"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6253\u8349\u7d50"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud480\ubb36\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304f\u3055\u3080\u3059\u3073"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/4/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+    }
+}

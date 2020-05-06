@@ -1,0 +1,773 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 200,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "flying",
+            "url": "/api/v2/egg-group/4/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/138/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5de3\u7acb\u3061\u3092\u3000\u7d42\u3048\u305f\u3070\u304b\u308a\u3000\u306a\u306e\u3067\u3000\u591c\u306b\u3000\u306a\u308b\u3068\n\u5bc2\u3057\u304f\u3000\u306a\u3063\u3066\u3000\u6ce3\u3044\u3066\u3057\u307e\u3046\u3000\u3053\u3068\u3082\u3000\u3042\u308b\u3002\n\u68ee\u306b\u3000\u3059\u3080\u3000\u30b1\u30e0\u30c3\u30bd\u3092\u3000\u6355\u307e\u3048\u3066\u3000\u98df\u3079\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Taillow is young\u2014it has only just left its nest. As a result,\nit sometimes becomes lonesome and cries at night.\nThis Pok\u00e9mon feeds on Wurmple that live in forests.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Taillow \u00e8 molto piccolo, infatti ha appena lasciato il nido.\nTalvolta di notte si sente solo e piange.\nSi nutre dei Wurmple che vivono nella foresta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Taillow es peque\u00f1o, est\u00e1 reci\u00e9n salido del nido. Por eso, se\nsiente solo con frecuencia y se pone a piar. Este Pok\u00e9mon\nse alimenta de los Wurmple que hay por el bosque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Schwalbini ist noch klein, es hat gerade erst sein Nest\nverlassen. Daher f\u00fchlt es sich manchmal einsam und weint\nnachts. Dieses Pok\u00e9mon ern\u00e4hrt sich von Waumpel.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Nirondelle est jeune. Il vient de quitter son nid. Du coup,\nil se sent parfois un peu seul et pleure la nuit. Ce Pok\u00e9mon\nse nourrit des Chenipotte qu\u2019il trouve dans les for\u00eats.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub465\uc9c0\ub97c \ub5a0\ub09c \uc9c0 \uc5bc\ub9c8 \uc548 \ub3fc\uc11c \ubc24\uc774 \ub418\uba74\n\uc4f8\uc4f8\ud568\uc5d0 \uc6b0\ub294 \uc77c\ub3c4 \uc788\ub2e4.\n\uc232\uc5d0 \uc0ac\ub294 \uac1c\ubb34\uc18c\ub97c \uc7a1\uc544\uba39\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3060\u3061\u3092\u3000\u304a\u3048\u305f\u3070\u304b\u308a\u3000\u306a\u306e\u3067\u3000\u3088\u308b\u306b\u3000\u306a\u308b\u3068\n\u3055\u202f\u3057\u304f\u3000\u306a\u3063\u3066\u3000\u306a\u3044\u3066\u3057\u307e\u3046\u3000\u3053\u3068\u3082\u3000\u3042\u308b\u3002\n\u3082\u308a\u306b\u3000\u3059\u3080\u3000\u30b1\u30e0\u30c3\u30bd\u3092\u3000\u3064\u304b\u307e\u3048\u3066\u3000\u305f\u3079\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u5f37\u3044\u3000\u76f8\u624b\u3067\u3082\u3000\u52c7\u6562\u306b\u3000\u6311\u3080\u3002\n\u8ca0\u3051\u3066\u3082\u3000\u3078\u3053\u305f\u308c\u306a\u3044\u3000\u6839\u6027\u306e\u3000\u6301\u3061\u4e3b\u3002\n\u304a\u8179\u304c\u3000\u7a7a\u304f\u3068\u3000\u5927\u58f0\u3067\u3000\u6ce3\u3044\u3066\u3000\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Taillow courageously stands its ground against foes, however\nstrong they may be. This gutsy Pok\u00e9mon will remain defiant\neven after a loss. On the other hand, it cries loudly if it\nbecomes hungry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Taillow affronta coraggiosamente persino i nemici pi\u00f9 forti.\nAnche in caso di sconfitta rimane fiero e spavaldo.\nMa quando ha fame, si lamenta rumorosamente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Taillow se mantiene firme ante sus rivales, sean lo fuertes que\nsean. Este valiente Pok\u00e9mon seguir\u00e1 mostr\u00e1ndose desafiante,\naunque pierda en combate. Adem\u00e1s, si se enfada, se pondr\u00e1 a\ngritar con energ\u00eda.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mutig behauptet Schwalbini sein Territorium gegen\nEindringlinge, so stark diese auch sein m\u00f6gen. Dieses\nunerschrockene Pok\u00e9mon bleibt trotz einer Niederlage\nangriffslustig, heult aber laut, wenn es Hunger hat.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Nirondelle d\u00e9fend courageusement son territoire contre\nses ennemis, m\u00eame les plus puissants. Ce vaillant Pok\u00e9mon\nest toujours pr\u00eat \u00e0 relever un d\u00e9fi, mais s\u2019il a faim, il se met\n\u00e0 pleurer \u00e0 chaudes larmes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ubb34\ub9ac \uac15\ud55c \uc0c1\ub300\ub77c\ub3c4 \uc6a9\uac10\ud788 \ub9de\uc120\ub2e4.\n\uc838\ub3c4 \uc8fc\uc800\uc549\uc9c0 \uc54a\ub294 \uadfc\uc131\uc758 \uc18c\uc720\uc790\ub2e4.\n\ubc30\uac00 \uace0\ud504\uba74 \ud070 \uc18c\ub9ac\ub85c \uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u3064\u3088\u3044\u3000\u3042\u3044\u3066\u3067\u3082\u3000\u3086\u3046\u304b\u3093\u306b\u3000\u3044\u3069\u3080\u3002\n\u307e\u3051\u3066\u3082\u3000\u3078\u3053\u305f\u308c\u306a\u3044\u3000\u3053\u3093\u3058\u3087\u3046\u306e\u3000\u3082\u3061\u306c\u3057\u3002\n\u304a\u306a\u304b\u304c\u3000\u3059\u304f\u3068\u3000\u304a\u304a\u3054\u3048\u3067\u3000\u306a\u3044\u3066\u3000\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5bd2\u3044\u3000\u5b63\u7bc0\u306f\u3000\u82e6\u624b\u3002\u6696\u304b\u3044\u3000\u571f\u5730\u3092\n\u63a2\u3057\u3000\uff11\u65e5\u3000\uff13\uff10\uff10\u30ad\u30ed\u306e\u3000\u8ddd\u96e2\u3092\n\u98db\u3093\u3067\u3000\u79fb\u52d5\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It dislikes cold seasons. They migrate to other\nlands in search of warmth, flying over 180 miles\na day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Non ama il freddo. In inverno emigra verso regioni\ncalde, viaggiando a una velocit\u00e0 di 300 km al giorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "No le gustan las bajas temperaturas. En las estaciones\nfr\u00edas se recorre casi 300 km al d\u00eda en busca de zonas\nc\u00e1lidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es mag die kalte Jahreszeit nicht. Daher legt es\nauf der Suche nach w\u00e4rmeren Gefilden mehr als\n300 km am Tag zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nirondelle ne supporte pas les saisons froides.\nIl vole vers d\u2019autres terres \u00e0 la recherche de chaleur\net peut ainsi parcourir 300 km par jour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ucd94\uc6b4 \uacc4\uc808\uc5d0 \uc57d\ud558\ub2e4. \ub530\ub73b\ud55c\n\uc9c0\ubc29\uc744 \ucc3e\uc544 \ud558\ub8e8\uc5d0 300km\uc758\n\uac70\ub9ac\ub97c \ub0a0\uc544\uc11c \uc774\ub3d9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3055\u3080\u3044\u3000\u304d\u305b\u3064\u306f\u3000\u306b\u304c\u3066\u3002\u3042\u305f\u305f\u304b\u3044\n\u3068\u3061\u3092\u3000\u3055\u304c\u3057\u3000\uff11\u306b\u3061\u3000\uff13\uff10\uff10\u30ad\u30ed\u306e\n\u304d\u3087\u308a\u3092\u3000\u3068\u3093\u3067\u3000\u3044\u3069\u3046\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5f37\u3044\u3000\u76f8\u624b\u306b\u3082\u3000\u52c7\u6562\u306b\n\u7acb\u3061\u5411\u304b\u3046\u3000\u6839\u6027\u306e\u3000\u6301\u3061\u4e3b\u3002\n\u6696\u304b\u3044\u3000\u571f\u5730\u3092\u3000\u76ee\u6307\u3057\u3066\u3000\u98db\u3076\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes it bravely take on\ntough foes. It flies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 molto coraggioso e affronta spavaldo i nemici\npi\u00f9 forti. Migra verso i paesi caldi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es un Pok\u00e9mon valiente que no teme a los rivales\nfuertes. Vuela en busca de climas templados.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es ist sehr mutig und stellt sich auch starken\nGegnern. Es sucht st\u00e4ndig nach warmen Regionen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon t\u00e9m\u00e9raire n\u2019a pas peur d\u2019affronter\ndes ennemis puissants. Il vole en qu\u00eate de climats\nchauds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ud55c \uc0c1\ub300\uc5d0\uac8c\ub3c4 \uc6a9\uac10\ud788\n\ub9de\uc11c\ub294 \uadfc\uc131\uc758 \uc18c\uc720\uc790\ub2e4.\n\ub530\ub73b\ud55c \ub545\uc744 \ucc3e\uc544\uc11c \ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3088\u3044\u3000\u3042\u3044\u3066\u306b\u3082\u3000\u3086\u3046\u304b\u3093\u306b\n\u305f\u3061\u3080\u304b\u3046\u3000\u3053\u3093\u3058\u3087\u3046\u306e\u3000\u3082\u3061\u306c\u3057\u3002\n\u3042\u305f\u305f\u304b\u3044\u3000\u3068\u3061\u3092\u3000\u3081\u3056\u3057\u3066\u3000\u3068\u3076\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes\nit bravely take on tough foes. It\nflies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes\nit bravely take on tough foes. It\nflies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes\nit bravely take on tough foes. It\nflies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon t\u00e9m\u00e9raire n\u2019a pas peur\nd\u2019affronter des ennemis puissants.\nIl vole en qu\u00eate de climats chauds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes\nit bravely take on tough foes. It\nflies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon t\u00e9m\u00e9raire n\u2019a pas peur\nd\u2019affronter des ennemis puissants.\nIl vole en qu\u00eate de climats chauds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "When it gets cold, they migrate,\nflying over 180 miles a day.\nIt hunts for tasty prey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "When it gets cold, they migrate,\nflying over 180 miles a day.\nIt hunts for tasty prey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes\nit bravely take on tough foes. It\nflies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes\nit bravely take on tough foes. It\nflies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has a gutsy spirit that makes\nit bravely take on tough foes. It\nflies in search of warm climates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It dislikes cold seasons. They migrate to\nother lands in search of warmth, flying\nover 180 miles a day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It dislikes cold seasons. They migrate to\nother lands in search of warmth, flying\nover 180 miles a day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Although it is small, it is very courageous.\nIt will take on a larger SKARMORY on an\nequal footing. However, its will weakens if\nit becomes hungry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "TAILLOW is young - it has only just\nleft its nest. As a result, it sometimes\nbecomes lonesome and cries at night.\fThis POK\u00e9MON feeds on WURMPLE that\nlive in forests.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "TAILLOW courageously stands its\nground against foes, however strong\nthey may be.\fThis gutsy POK\u00e9MON will remain defiant\neven after a loss. On the other hand,\nit cries loudly if it becomes hungry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5e7c\u71d5\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3053\u30c4\u30d0\u30e1\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Tiny Swallow Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Rondinella",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pequebuche",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Schw\u00e4lblein",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Minirondel",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5e7c\u71d5\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc544\uae30\uc81c\ube44\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3053\u30c4\u30d0\u30e1\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 276,
+    "is_baby": false,
+    "name": "taillow",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u50b2\u9aa8\u71d5"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b9\u30d0\u30e1"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Taillow"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Taillow"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Taillow"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Schwalbini"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Nirondelle"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u50b2\u9aa8\u71d5"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud14c\uc77c\ub85c"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Subame"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b9\u30d0\u30e1"
+        }
+    ],
+    "order": 301,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 30,
+            "rate": 50
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 19,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 276,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "wings",
+        "url": "/api/v2/pokemon-shape/9/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "taillow",
+                "url": "/api/v2/pokemon/276/"
+            }
+        }
+    ]
+}

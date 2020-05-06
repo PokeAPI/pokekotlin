@@ -1,0 +1,874 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/268/"
+    },
+    "evolves_from_species": {
+        "name": "roggenrola",
+        "url": "/api/v2/pokemon-species/524/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4ece\u8eab\u4f53\u91cc\u6ea2\u51fa\u7684\u80fd\u91cf\n\u53d8\u6210\u4e86\u6a59\u8272\u7684\u7ed3\u6676\u3002\n\u5176\u786c\u5ea6\u8fde\u94bb\u77f3\u90fd\u80fd\u5f04\u788e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u8eab\u4f53\u304b\u3089\u3000\u3042\u3075\u308c\u305f\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u304c\n\u30aa\u30ec\u30f3\u30b8\u8272\u306e\u3000\u7d50\u6676\u306b\u3000\u306a\u3063\u305f\u3002\n\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u3082\u3000\u7815\u304f\u3000\u786c\u3055\u3060\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "The energy overflowing from its body has\nturned into orange crystals that are hard\nenough to smash diamonds.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019energia che fuoriesce dal suo corpo forma dei\ncristalli arancioni talmente duri da frantumare\nanche i diamanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La energ\u00eda que desprende de su cuerpo termina\npor solidificarse en cristales anaranjados, tan\nduros que pueden quebrar hasta los diamantes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Energie, die aus seinem K\u00f6rper austrat, hat sich\nzu orangefarbenen, harten Kristallen verfestigt.\nSie k\u00f6nnen sogar Diamanten zersplittern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9nergie qui \u00e9mane de son corps s\u2019est\ntransform\u00e9e en cristaux orang\u00e9s suffisamment\ndurs pour briser le diamant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5f9e\u8eab\u9ad4\u6ea2\u51fa\u7684\u80fd\u91cf\n\u5f62\u6210\u4e86\u6a58\u8272\u7684\u7d50\u6676\uff0c\n\u786c\u5ea6\u9ad8\u5230\u9023\u947d\u77f3\u90fd\u80fd\u6572\u788e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc5d0\uc11c \ub118\uccd0\ud750\ub974\ub294 \uc5d0\ub108\uc9c0\uac00\n\uc624\ub80c\uc9c0\uc0c9 \uacb0\uc815\uc774 \ub418\uc5c8\ub2e4.\n\ub2e4\uc774\uc544\ubaac\ub4dc\ub3c4 \ubd80\uc220 \uc815\ub3c4\ub85c \uacac\uace0\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u304b\u3089\u3000\u3042\u3075\u308c\u305f\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u304c\n\u30aa\u30ec\u30f3\u30b8\u3044\u308d\u306e\u3000\u3051\u3063\u3057\u3087\u3046\u306b\u306a\u3063\u305f\u3002\n\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u3082\u3000\u304f\u3060\u304f\u3000\u304b\u305f\u3055\u3060\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u6d1e\u7a9f\u91cc\u5bfb\u627e\u5730\u4e0b\u6c34\u3002\n\u5bf9\u6c34\u672c\u8eab\u4e0d\u662f\u5f88\u9002\u5e94\uff0c\n\u6240\u4ee5\u90fd\u662f\u4e00\u70b9\u70b9\u6162\u6162\u8214\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6d1e\u7a9f\u3067\u3000\u5730\u4e0b\u6c34\u3092\u3000\u63a2\u3059\u3002\n\u6c34\u81ea\u4f53\u306f\u3000\u5f97\u610f\u3067\u306f\u3000\u306a\u3044\u306e\u3067\n\u3061\u3073\u308a\u3061\u3073\u308a\u3068\u3000\u3086\u3063\u304f\u308a\u3000\u8210\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It explores caves in search of underground\nwater. It\u2019s not comfortable around water, so\nthis Pok\u00e9mon takes great care in lapping it up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Perlustra le grotte alla ricerca di falde\nsotterranee. Quando trova l\u2019acqua, la lecca\npiano piano per poterla assorbire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Busca lagos subterr\u00e1neos en las cuevas. Como\nle cuesta asimilar el agua, tiene que beber\nlentamente a base de lametones.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Es sucht in H\u00f6hlen nach Grundwasser. Da es\nWasser nicht gut vertr\u00e4gt, leckt es dieses ganz\nbehutsam auf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il explore les grottes \u00e0 la recherche de nappes\nphr\u00e9atiques. L\u2019eau \u00e9tant l\u2019une de ses faiblesses,\nil ne peut la boire que par petites lap\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u6d1e\u7a9f\u88e1\u5c0b\u627e\u5730\u4e0b\u6c34\u3002\n\u5c0d\u6c34\u7684\u62b5\u6297\u529b\u4e26\u4e0d\u597d\uff0c\n\u6240\u4ee5\u90fd\u662f\u4e00\u9ede\u4e00\u9ede\u6162\u6162\u8214\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ub3d9\uad74\uc5d0\uc11c \uc9c0\ud558\uc218\ub97c \ucc3e\ub294\ub2e4.\n\ubb3c \uc790\uccb4\ub294 \uc798 \ub9c8\uc2dc\uc9c0 \ubabb\ud574\uc11c\n\ud640\uc9dd\ud640\uc9dd \ucc9c\ucc9c\ud788 \ud565\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3046\u304f\u3064\u3067\u3000\u3061\u304b\u3059\u3044\u3092\u3000\u3055\u304c\u3059\u3002\n\u307f\u305a\u3058\u305f\u3044\u306f\u3000\u3068\u304f\u3044\u3067\u306f\u3000\u306a\u3044\u306e\u3067\n\u3061\u3073\u308a\u3061\u3073\u308a\u3068\u3000\u3086\u3063\u304f\u308a\u3000\u306a\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5143\u6c17\u3060\u3068\u3000\u30b3\u30a2\u304c\u3000\u98db\u3073\u3060\u3057\u3066\u304f\u308b\u3002\n\u4f53\u306e\u3000\u5411\u304d\u3092\u3000\u5909\u3048\u308b\u3053\u3068\u306a\u304f\n\u524d\u5f8c\u5de6\u53f3\u306b\u3000\u7d20\u65e9\u304f\u3000\u52d5\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "When it is healthy, its core sticks out. Always facing\nthe same way, it swiftly moves front to back and left\nto right.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Se \u00e8 in forma, il suo nucleo \u00e8 visibile. Si sposta rapidamente\nnelle quattro direzioni senza cambiare orientamento.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Si se encuentra bien, deja entrever su n\u00facleo. Puede cambiar\nr\u00e1pidamente la direcci\u00f3n en la que avanza sin girarse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ist es guter Dinge, kommt sein Kern zum Vorschein.\nKann blitzschnell die Richtung \u00e4ndern, ohne sich\numdrehen zu m\u00fcssen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Quand il est en forme, son noyau devient visible. Il peut\nse d\u00e9placer dans toutes les directions sans se tourner.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc6b4\uc774 \ub118\uce58\uba74 \ud575\uc774 \ud280\uc5b4\ub098\uc628\ub2e4.\n\ubab8\uc758 \ubc29\ud5a5\uc744 \ubc14\uafb8\uc9c0 \uc54a\uace0\n\uc804\ud6c4\uc88c\uc6b0\ub85c \uc7ac\ube60\ub974\uac8c \uc6c0\uc9c1\uc77c \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3052\u3093\u304d\u3060\u3068\u3000\u30b3\u30a2\u304c\u3000\u3068\u3073\u3060\u3057\u3066\u304f\u308b\u3002\n\u304b\u3089\u3060\u306e\u3000\u3080\u304d\u3092\u3000\u304b\u3048\u308b\u3053\u3068\u306a\u304f\n\u305c\u3093\u3054\u3055\u3086\u3046\u306b\u3000\u3059\u3070\u3084\u304f\u3000\u3046\u3054\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u306b\u3000\u53ce\u307e\u308a\u304d\u3089\u305a\u3000\u6f0f\u308c\u51fa\u3057\u305f\n\u30a8\u30cd\u30eb\u30ae\u30fc\u304c\u3000\u56fa\u307e\u308a\n\u30aa\u30ec\u30f3\u30b8\u8272\u306e\u3000\u7d50\u6676\u306b\u306a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Because its energy was too great to be contained,\nthe energy leaked and formed orange crystals.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019energia sovrabbondante cerca sfogo all\u2019esterno del corpo\ne si solidifica formando cristalli di colore arancione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La energ\u00eda que no puede contener en el interior de su cuerpo\nse escapa formando cristales naranjas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Energie, die ungehindert aus seinem K\u00f6rper austrat, hat sich\nan ihm zu orangefarbenen Kristallen verfestigt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9nergie de son corps qu\u2019il ne parvient pas \u00e0 retenir s\u2019\u00e9coule\n\u00e0 l\u2019ext\u00e9rieur et forme des cristaux orang\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc5d0\uc11c \ucc98\ub9ac\ub418\uc9c0 \ubabb\ud558\uace0\n\ube60\uc838\ub098\uc628 \uc5d0\ub108\uc9c0\uac00 \ub369\uc5b4\ub9ac\uc838\uc11c\n\uc8fc\ud669\uc0c9 \uacb0\uc815\uc774 \ub418\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u306b\u3000\u304a\u3055\u307e\u308a\u304d\u3089\u305a\u306b\n\u3082\u308c\u3060\u3057\u305f\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u304c\u3000\u304b\u305f\u307e\u308a\n\u30aa\u30ec\u30f3\u30b8\u3044\u308d\u306e\u3000\u3051\u3063\u3057\u3087\u3046\u306b\u306a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5143\u6c17\u3060\u3068\u3000\u30b3\u30a2\u304c\u3000\u98db\u3073\u3060\u3057\u3066\u304f\u308b\u3002\n\u4f53\u306e\u3000\u5411\u304d\u3092\u3000\u5909\u3048\u308b\u3053\u3068\u306a\u304f\n\u524d\u5f8c\u5de6\u53f3\u306b\u3000\u7d20\u65e9\u304f\u3000\u52d5\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "When it is healthy, its core sticks out. Always facing\nthe same way, it swiftly moves front to back and left\nto right.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se \u00e8 in forma, il suo nucleo \u00e8 visibile. Si sposta\nrapidamente nelle quattro direzioni senza cambiare\norientamento.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Si se encuentra bien, deja entrever su n\u00facleo. Puede\ncambiar r\u00e1pidamente la direcci\u00f3n en la que avanza sin\ngirarse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ist es guter Dinge, kommt sein Kern zum Vorschein.\nKann blitzschnell die Richtung \u00e4ndern, ohne sich\numdrehen zu m\u00fcssen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quand il est en forme, son noyau devient visible.\nIl peut se d\u00e9placer dans toutes les directions sans\nse tourner.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc6b4\uc774 \ub118\uce58\uba74 \ud575\uc774 \ud280\uc5b4\ub098\uc628\ub2e4.\n\ubab8\uc758 \ubc29\ud5a5\uc744 \ubc14\uafb8\uc9c0 \uc54a\uace0\n\uc804\ud6c4\uc88c\uc6b0\ub85c \uc7ac\ube60\ub974\uac8c \uc6c0\uc9c1\uc77c \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3052\u3093\u304d\u3060\u3068\u3000\u30b3\u30a2\u304c\u3000\u3068\u3073\u3060\u3057\u3066\u304f\u308b\u3002\n\u304b\u3089\u3060\u306e\u3000\u3080\u304d\u3092\u3000\u304b\u3048\u308b\u3053\u3068\u306a\u304f\n\u305c\u3093\u3054\u3055\u3086\u3046\u306b\u3000\u3059\u3070\u3084\u304f\u3000\u3046\u3054\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u306b\u3000\u53ce\u307e\u308a\u304d\u3089\u305a\u3000\u6f0f\u308c\u51fa\u3057\u305f\n\u30a8\u30cd\u30eb\u30ae\u30fc\u304c\u3000\u56fa\u307e\u308a\n\u30aa\u30ec\u30f3\u30b8\u8272\u306e\u3000\u7d50\u6676\u306b\u306a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Because its energy was too great to be contained,\nthe energy leaked and formed orange crystals.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019energia sovrabbondante cerca sfogo all\u2019esterno\ndel corpo e si solidifica formando cristalli di colore\narancione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La energ\u00eda que no puede contener en el interior de\nsu cuerpo se escapa formando cristales naranjas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Energie, die ungehindert aus seinem K\u00f6rper austrat,\nhat sich an ihm zu orangefarbenen Kristallen verfestigt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9nergie de son corps qu\u2019il ne parvient pas \u00e0 retenir\ns\u2019\u00e9coule \u00e0 l\u2019ext\u00e9rieur et forme des cristaux orang\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc5d0\uc11c \ucc98\ub9ac\ub418\uc9c0 \ubabb\ud558\uace0\n\ube60\uc838\ub098\uc628 \uc5d0\ub108\uc9c0\uac00 \ub369\uc5b4\ub9ac\uc838\uc11c\n\uc8fc\ud669\uc0c9 \uacb0\uc815\uc774 \ub418\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u306b\u3000\u304a\u3055\u307e\u308a\u304d\u3089\u305a\u306b\n\u3082\u308c\u3060\u3057\u305f\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u304c\u3000\u304b\u305f\u307e\u308a\n\u30aa\u30ec\u30f3\u30b8\u3044\u308d\u306e\u3000\u3051\u3063\u3057\u3087\u3046\u306b\u306a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When it is healthy, its core sticks out.\nAlways facing the same way, it swiftly\nmoves front to back and left to right.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "When it is healthy, its core sticks out.\nAlways facing the same way, it swiftly\nmoves front to back and left to right.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Because its energy was too great to be\ncontained, the energy leaked and formed\norange crystals.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019\u00e9nergie de son corps qu\u2019il ne parvient\npas \u00e0 retenir s\u2019\u00e9coule \u00e0 l\u2019ext\u00e9rieur et\nforme des cristaux orang\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "When it overflows with power,\nthe orange crystal on its body glows.\nIt looks for underground water in caves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Quand il est gonfl\u00e9 \u00e0 bloc, ses cristaux\norang\u00e9s scintillent. Il cherche de l\u2019eau\nsouterraine dans les grottes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u77ff\u77f3\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3053\u3046\u305b\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Ore Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Minerale",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Mineral",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Erz",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Minerai",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u7926\u77f3\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uad11\uc11d\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3053\u3046\u305b\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 525,
+    "is_baby": false,
+    "name": "boldore",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5730\u5e54\u5ca9"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ac\u30f3\u30c8\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Boldore"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Boldore"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Boldore"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Sedimantur"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "G\u00e9olithe"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5730\u5e54\u5ca9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc554\ud2b8\ub974"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ac\u30f3\u30c8\u30eb"
+        }
+    ],
+    "order": 526,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 121,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 41,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 69,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 31,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 525,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "tentacles",
+        "url": "/api/v2/pokemon-shape/10/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "boldore",
+                "url": "/api/v2/pokemon/525/"
+            }
+        }
+    ]
+}

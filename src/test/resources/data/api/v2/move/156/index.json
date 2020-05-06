@@ -1,0 +1,871 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "belly-drum",
+                    "url": "/api/v2/move/187/"
+                },
+                {
+                    "name": "charm",
+                    "url": "/api/v2/move/204/"
+                },
+                {
+                    "name": "yawn",
+                    "url": "/api/v2/move/281/"
+                }
+            ],
+            "use_before": [
+                {
+                    "name": "snore",
+                    "url": "/api/v2/move/173/"
+                },
+                {
+                    "name": "sleep-talk",
+                    "url": "/api/v2/move/214/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/16/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Works while asleep through sleep talk if not at full health.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with early bird.\n\nThis move fails if the Pok\u00e9mon cannot fall asleep due to uproar, insomnia, or vital spirit.  It also fails if the Pok\u00e9mon is at full health or is already asleep.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User sleeps for two turns, completely healing itself."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8fde\u7eed\u7761\u4e0a\uff12\u56de\u5408\u3002\n\u56de\u590d\u81ea\u5df1\u7684\u5168\u90e8\uff28\uff30\n\u4ee5\u53ca\u6cbb\u6108\u6240\u6709\u5f02\u5e38\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u7720\u308a\u7d9a\u3051\u308b\u3002\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3068\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u3059\u3079\u3066\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to sleep for two turns. This fully\nrestores the user\u2019s HP and heals any\nstatus conditions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera tutti i PS e guarisce da tutti\ni suoi problemi di stato, ma dorme per due turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Restaura todos los PS y cura todos los problemas de \nestado del usuario. Duerme los dos pr\u00f3ximos turnos. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender wird vollkommen geheilt, von allen\nStatusproblemen befreit und schl\u00e4ft die folgenden\nzwei Runden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regagne tous ses PV et soigne ses\nprobl\u00e8mes de statut, puis il dort pendant deux\ntours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u9023\u7e8c\u7761\uff12\u56de\u5408\u3002\n\u56de\u5fa9\u81ea\u5df1\u7684\u5168\u90e8\uff28\uff30\n\u4ee5\u53ca\u6cbb\u7652\u6240\u6709\u7570\u5e38\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "2\ud134 \ub3d9\uc548 \uacc4\uc18d \uc7a0\uc794\ub2e4.\n\uc790\uc2e0\uc758 HP\uc640 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\ubaa8\ub450 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306d\u3080\u308a\u3000\u3064\u3065\u3051\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3068\u3000\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u3092\n\u3059\u3079\u3066\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8fde\u7eed\u7761\u4e0a\uff12\u56de\u5408\u3002\n\u56de\u590d\u81ea\u5df1\u7684\u5168\u90e8\uff28\uff30\n\u4ee5\u53ca\u6cbb\u6108\u6240\u6709\u5f02\u5e38\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u7720\u308a\u7d9a\u3051\u308b\u3002\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3068\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u3059\u3079\u3066\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to sleep for two turns. This fully\nrestores the user\u2019s HP and heals any\nstatus conditions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera tutti i PS e guarisce da tutti\ni suoi problemi di stato, ma dorme per due turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Restaura todos los PS y cura todos los problemas de \nestado del usuario. Duerme los dos pr\u00f3ximos turnos. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender wird vollkommen geheilt, von allen\nStatusproblemen befreit und schl\u00e4ft die folgenden\nzwei Runden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regagne tous ses PV et soigne ses\nprobl\u00e8mes de statut, puis il dort pendant deux\ntours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u9023\u7e8c\u7761\uff12\u56de\u5408\u3002\n\u56de\u5fa9\u81ea\u5df1\u7684\u5168\u90e8\uff28\uff30\n\u4ee5\u53ca\u6cbb\u7652\u6240\u6709\u7570\u5e38\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "2\ud134 \ub3d9\uc548 \uacc4\uc18d \uc7a0\uc794\ub2e4.\n\uc790\uc2e0\uc758 HP\uc640 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\ubaa8\ub450 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306d\u3080\u308a\u3000\u3064\u3065\u3051\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3068\u3000\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u3092\n\u3059\u3079\u3066\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u7720\u308a\u7d9a\u3051\u308b\u3002\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3068\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u3059\u3079\u3066\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to sleep for two turns.\nThis fully restores the user\u2019s HP and\nheals any status conditions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera tutti i PS e guarisce da tutti\ni suoi problemi di stato, ma dorme per due turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Restaura todos los PS y cura todos los problemas de \nestado del usuario. Duerme los dos pr\u00f3ximos turnos. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender wird vollkommen geheilt und schl\u00e4ft\ndie folgenden zwei Runden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regagne tous ses PV et soigne ses\nprobl\u00e8mes de statut, puis il dort pendant deux\ntours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "2\ud134 \ub3d9\uc548 \uacc4\uc18d \uc7a0\uc794\ub2e4.\n\uc790\uc2e0\uc758 HP\uc640 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\ubaa8\ub450 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306d\u3080\u308a\u3000\u3064\u3065\u3051\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3068\u3000\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u3092\n\u3059\u3079\u3066\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u7720\u308a\u7d9a\u3051\u308b\u3002\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3068\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u3059\u3079\u3066\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to sleep for two turns.\nThis fully restores the user\u2019s HP and\nheals any status conditions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera tutti i PS e guarisce da tutti\ni suoi problemi di stato, ma dorme per due turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr\u00f3ximos\nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender wird vollkommen geheilt und schl\u00e4ft\ndie folgenden zwei Runden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur regagne tous ses PV et soigne ses\nprobl\u00e8mes de statut, puis il dort pendant deux\ntours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "2\ud134 \ub3d9\uc548 \uacc4\uc18d \uc7a0\uc794\ub2e4.\n\uc790\uc2e0\uc758 HP\uc640 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\ubaa8\ub450 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306d\u3080\u308a\u3000\u3064\u3065\u3051\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3068\u3000\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u3092\n\u3059\u3079\u3066\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to sleep for two turns.\nIt fully restores the user\u2019s HP and heals\nany status problem.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to sleep for two turns.\nIt fully restores the user\u2019s HP and heals\nany status problem.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur dort pendant 2 tours. Il\nregagne tous ses PV et n\u2019a plus de\nprobl\u00e8mes de statut.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to\nsleep for two turns.\nIt fully restores the\nuser\u2019s HP and heals\nany status problem.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to\nsleep for two turns.\nIt fully restores the\nuser\u2019s HP and heals\nany status problem.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user goes to\nsleep for two turns.\nIt fully restores the\nuser\u2019s HP and heals\nany status problem.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user sleeps for\ntwo turns to fully\nrestore HP and heal\nany status problem.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "The user sleeps for 2 turns,\nrestoring HP and status.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "The user sleeps for 2 turns,\nrestoring HP and status.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Sleep for 2 turns\nto fully recover.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Sleep for 2 turns\nto fully recover.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 156,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/775/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/776/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/777/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/778/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/779/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/780/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/781/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/782/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/783/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/784/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/785/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/786/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/787/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/788/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/789/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/790/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/791/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/792/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "rest",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7761\u89c9"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306d\u3080\u308b"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Rest"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Riposo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Descanso"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Erholung"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Repos"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7761\u89ba"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc7a0\uc790\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306d\u3080\u308b"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/8/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "psychic",
+        "url": "/api/v2/type/14/"
+    }
+}

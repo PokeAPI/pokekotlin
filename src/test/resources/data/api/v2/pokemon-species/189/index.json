@@ -1,0 +1,824 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        },
+        {
+            "name": "fairy",
+            "url": "/api/v2/egg-group/6/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/92/"
+    },
+    "evolves_from_species": {
+        "name": "skiploom",
+        "url": "/api/v2/pokemon-species/188/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "Die Baumwollsamen, die Papungha verstreut,\nmachen Allergikern das Leben schwer.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6696\u304b\u3044\u3000\u5357\u98a8\u306b\u3000\u4e57\u3063\u3066\u3000\u6d77\u3092\u3000\u8d8a\u3048\n\u5916\u56fd\u307e\u3067\u3000\u98db\u3093\u3067\u3044\u3063\u3066\u3057\u307e\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u51b7\u305f\u3044\u3000\u7a7a\u6c17\u306b\u3000\u89e6\u308c\u308b\u3068\u3000\u5730\u9762\u306b\u3000\u964d\u308a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jumpluff rides warm southern winds to cross the sea and fly to\nforeign lands. The Pok\u00e9mon descends to the ground when it\nencounters cold air while it is floating.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jumpluff si affida alle correnti d\u2019aria calda per attraversare\nil mare e volare verso terre lontane. Questo Pok\u00e9mon\nridiscende a terra quando incontra una corrente fredda\nmentre fluttua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jumpluff se vale de los c\u00e1lidos vientos del sur para volar a\ntierras lejanas. Si llega a zonas de aire fr\u00edo en pleno vuelo,\ndescender\u00e1 y tomar\u00e1 tierra.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Papungha nutzt den S\u00fcdwind, um das Meer zu \u00fcberqueren und\nin ferne L\u00e4nder zu fliegen. Dieses Pok\u00e9mon sinkt zu Boden,\nwenn es w\u00e4hrend seines Fluges auf kalte Luftschichten st\u00f6\u00dft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Cotovol traverse la mer, port\u00e9 par les vents, pour d\u00e9couvrir\nde nouveaux territoires. Ce Pok\u00e9mon se rapproche du sol\nquand le vent est trop froid.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub530\ub73b\ud55c \ub0a8\ud48d\uc744 \ud0c0\uace0 \ubc14\ub2e4\ub97c \uac74\ub108\n\uc678\uad6d\uae4c\uc9c0 \ub0a0\uc544\uac00\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ucc28\uac00\uc6b4 \uacf5\uae30\uc5d0 \ub2ff\uc73c\uba74 \ub545\uc5d0 \ub0b4\ub824\uc628\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u305f\u304b\u3044\u3000\u202f\u306a\u202f\u304b\u305c\u306b\u3000\u306e\u3063\u3066\u3000\u3046\u202f\u3092\u3000\u3053\u3048\n\u304c\u3044\u3053\u304f\u307e\u3067\u3000\u3068\u3093\u3067\u3044\u3063\u3066\u3057\u307e\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3064\u3081\u305f\u3044\u3000\u304f\u3046\u304d\u306b\u3000\u3075\u308c\u308b\u3068\u3000\u3058\u3081\u3093\u306b\u3000\u304a\u308a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u6696\u304b\u3044\u3000\u5357\u98a8\u306b\u3000\u4e57\u3063\u3066\u3000\u6d77\u3092\u3000\u8d8a\u3048\n\u5916\u56fd\u307e\u3067\u3000\u98db\u3093\u3067\u3044\u3063\u3066\u3057\u307e\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u51b7\u305f\u3044\u3000\u7a7a\u6c17\u306b\u3000\u89e6\u308c\u308b\u3068\u3000\u5730\u9762\u306b\u3000\u964d\u308a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Jumpluff rides warm southern winds to cross the sea and fly to\nforeign lands. The Pok\u00e9mon descends to the ground when it\nencounters cold air while it is floating.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Jumpluff si affida alle correnti d\u2019aria calda per attraversare\nil mare e volare verso terre lontane. Questo Pok\u00e9mon\nridiscende a terra quando incontra una corrente fredda\nmentre fluttua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Jumpluff se vale de los c\u00e1lidos vientos del sur para volar a\ntierras lejanas. Si llega a zonas de aire fr\u00edo en pleno vuelo,\ndescender\u00e1 y tomar\u00e1 tierra.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Papungha nutzt den S\u00fcdwind, um das Meer zu \u00fcberqueren und\nin ferne L\u00e4nder zu fliegen. Dieses Pok\u00e9mon sinkt zu Boden,\nwenn es w\u00e4hrend seines Fluges auf kalte Luftschichten st\u00f6\u00dft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Cotovol traverse la mer, port\u00e9 par les vents, pour d\u00e9couvrir\nde nouveaux territoires. Ce Pok\u00e9mon se rapproche du sol\nquand le vent est trop froid.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub530\ub73b\ud55c \ub0a8\ud48d\uc744 \ud0c0\uace0 \ubc14\ub2e4\ub97c \uac74\ub108\n\uc678\uad6d\uae4c\uc9c0 \ub0a0\uc544\uac00\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ucc28\uac00\uc6b4 \uacf5\uae30\uc5d0 \ub2ff\uc73c\uba74 \ub545\uc5d0 \ub0b4\ub824\uc628\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u305f\u304b\u3044\u3000\u202f\u306a\u202f\u304b\u305c\u306b\u3000\u306e\u3063\u3066\u3000\u3046\u202f\u3092\u3000\u3053\u3048\n\u304c\u3044\u3053\u304f\u307e\u3067\u3000\u3068\u3093\u3067\u3044\u3063\u3066\u3057\u307e\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3064\u3081\u305f\u3044\u3000\u304f\u3046\u304d\u306b\u3000\u3075\u308c\u308b\u3068\u3000\u3058\u3081\u3093\u306b\u3000\u304a\u308a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u98a8\u306b\u3000\u3042\u304a\u3089\u308c\u3066\u3082\n\u7dbf\u6bdb\u3092\u3000\u81ea\u5728\u306b\u3000\u64cd\u3063\u3066\n\u4e16\u754c\u306e\u3000\u597d\u304d\u306a\u3068\u3053\u308d\u3078\u3000\u884c\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Even in the fiercest wind, it can control its fluff to\nmake its way to any place in the world it wants.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Anche nel vento forte controlla abilmente il suo\nbatuffolo per volare in ogni parte del mondo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Aunque sople el viento m\u00e1s fuerte, es capaz de\ncontrolar los pompones y moverse por donde quiera.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Auch im st\u00e4rksten Wind kann es kontrollieren,\nwo seine Saat auf dem Erdball niedergehen soll.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "M\u00eame sous un vent tr\u00e8s violent, il contr\u00f4le sa\ndestination en bougeant ses appendices.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc5b4\ub5a4 \ubc14\ub78c\uc774 \ubd88\ub354\ub77c\ub3c4\n\uc19c\ud138\uc744 \uc790\uc720\uc790\uc7ac\ub85c \uc870\uc885\ud558\uc5ec\n\uc138\uacc4\uc758 \uc88b\uc544\ud558\ub294 \uacf3\uc73c\ub85c \uac08 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u304b\u305c\u306b\u3000\u3042\u304a\u3089\u308c\u3066\u3082\n\u308f\u305f\u3052\u3092\u3000\u3058\u3056\u3044\u306b\u3000\u3042\u3084\u3064\u3063\u3066\n\u305b\u304b\u3044\u306e\u3000\u3059\u304d\u306a\u3068\u3053\u308d\u3078\u3000\u3044\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5b63\u7bc0\u98a8\u306b\u3000\u6d41\u3055\u308c\u3066\n\u4e16\u754c\u3092\u3000\uff11\u5468\u3057\u3066\u3057\u307e\u3046\u3002\n\u9014\u4e2d\u3067\u3000\u7dbf\u80de\u5b50\u3092\u3000\u3070\u3089\u307e\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it circles the globe,\nscattering cotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sospinto dai venti stagionali, gira intorno al globo\nsparpagliando i suoi semi simili al cotone.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Los vientos estacionales lo llevan por todo el mundo,\ndonde va soltando sus esporas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es l\u00e4sst sich von den Winden um den Globus tragen\nund verteilt auf seinem Flug Baumwollsamen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pouss\u00e9 par les vents saisonniers, il fait le tour\ndu globe en semant des spores de coton.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uacc4\uc808\ud48d\uc5d0 \ub0a0\ub824\uc11c\n\uc138\uacc4 \uc77c\uc8fc\ub97c \ud574 \ubc84\ub9b0\ub2e4.\n\ub3c4\uc911\uc5d0 \uc19c \ud3ec\uc790\ub97c \ud769\ubfcc\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u305b\u3064\u3075\u3046\u306b\u3000\u306a\u304c\u3055\u308c\u3066\n\u305b\u304b\u3044\u3092\u3000\u3044\u3063\u3057\u3085\u3046\u3057\u3066\u3057\u307e\u3046\u3002\n\u3068\u3061\u3085\u3046\u3067\u3000\u308f\u305f\u307b\u3046\u3057\u3092\u3000\u3070\u3089\u307e\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it\ncircles the globe, scattering\ncotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it\ncircles the globe, scattering\ncotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it\ncircles the globe, scattering\ncotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Pouss\u00e9 par les vents saisonniers,\nil fait le tour du globe en semant\ndes spores de coton.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it\ncircles the globe, scattering\ncotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Pouss\u00e9 par les vents saisonniers,\nil fait le tour du globe en semant\ndes spores de coton.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Drifts on seasonal winds and spreads\nits cotton-like spores all over\nthe world to make more offspring.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Once it catches the wind, it deftly\ncontrols its cotton-puff spores--\nit can even float around the world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it\ncircles the globe, scattering\ncotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it\ncircles the globe, scattering\ncotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Blown by seasonal winds, it\ncircles the globe, scattering\ncotton spores as it goes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Once it catches the wind, it deftly\ncontrols its cotton-puff spores to float,\neven around the world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It drifts on seasonal winds and spreads\nits cotton-like spores all over the world \nto make more offspring.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "JUMPLUFF ride warm southern winds to\ncross the sea and fly to foreign lands.\nThis POK\u00e9MON lands when it encounters\ncold air while it is floating.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "JUMPLUFF rides warm southern winds to\ncross the sea and fly to foreign lands.\nThe POK\u00e9MON descends to the ground\fwhen it encounters cold air while it is\nfloating.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "JUMPLUFF rides warm southern winds to\ncross the sea and fly to foreign lands.\nThe POK\u00e9MON descends to the ground\fwhen it encounters cold air while it is\nfloating.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "Even in the fierc\u00ad\nest wind, it can\ncontrol its fluff\fto make its way to\nany place in the\nworld it wants.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "Drifts on seasonal\nwinds and spreads\nits cotton-like\fspores all over\nthe world to make\nmore offspring.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Once it catches\nthe wind, it deft\u00ad\nly controls its\fcotton-puff spores\nto float, even\naround the world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u68c9\u8349\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u308f\u305f\u304f\u3055\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Cottonweed Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gramigna",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Algad\u00f3n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "L\u00f6wenzahn",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pissenlit",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u68c9\u8349\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc19c\ud480\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u308f\u305f\u304f\u3055\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 189,
+    "is_baby": false,
+    "name": "jumpluff",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6bfd\u5b50\u68c9"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ef\u30bf\u30c3\u30b3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Jumpluff"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Jumpluff"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Jumpluff"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Papungha"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Cotovol"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6bfd\u5b50\u68c9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc19c\uc19c\ucf54"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Watacco"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ef\u30bf\u30c3\u30b3"
+        }
+    ],
+    "order": 218,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 137,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 69,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 69,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 189,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "jumpluff",
+                "url": "/api/v2/pokemon/189/"
+            }
+        }
+    ]
+}

@@ -1,0 +1,874 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "red",
+        "url": "/api/v2/pokemon-color/8/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/18/"
+    },
+    "evolves_from_species": {
+        "name": "gloom",
+        "url": "/api/v2/pokemon-species/44/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "Es verstreut hochgiftige Pollen. Man erkennt\nGiflors Spur am leicht gelblichen Nebel,\nden es hinterl\u00e4sst.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4e16\u754c\u4e00\u3000\u5927\u304d\u306a\u3000\u82b1\u3073\u3089\u3067\u3000\u7372\u7269\u3092\n\u304a\u3073\u304d\u5bc4\u305b\u3000\u6bd2\u306e\u3000\u82b1\u7c89\u3092\u3000\u6d74\u3073\u305b\u304b\u3051\u308b\u3002\n\u52d5\u3051\u306a\u304f\u306a\u3063\u305f\u3000\u7372\u7269\u3092\u3000\u6355\u307e\u3048\u3066\u3000\u98df\u3079\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Vileplume has the world\u2019s largest petals. They are used to\nattract prey that are then doused with toxic spores. Once the\nprey are immobilized, this Pok\u00e9mon catches and devours them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Vileplume ha i petali pi\u00f9 grandi al mondo. Li usa per attirare\nla preda per poi ricoprirla di spore velenose. Una volta\nimmobilizzata la preda, il Pok\u00e9mon la cattura e la divora.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Vileplume tiene los mayores p\u00e9talos del mundo. Los usa para\natraer a sus presas y llenarlas de esporas t\u00f3xicas. Una vez\nque ha inmovilizado a las v\u00edctimas, las atrapa y las devora.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Giflor hat die gr\u00f6\u00dften Bl\u00e4tter der Welt. Sie ziehen Beute an\nund best\u00e4uben sie mit giftigen Sporen. Wenn die Beute sich\nnicht mehr r\u00fchrt, f\u00e4ngt dieses Pok\u00e9mon sie und frisst sie auf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Rafflesia dispose des plus grands p\u00e9tales du monde.\nIl s\u2019en sert pour attirer ses proies avant de les endormir\navec ses spores toxiques. Ce Pok\u00e9mon n\u2019a plus alors\nqu\u2019\u00e0 attraper sa proie et \u00e0 la manger.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc138\uacc4\uc5d0\uc11c \uc81c\uc77c \ud070 \uaf43\uc78e\uc73c\ub85c \uba39\uc774\ub97c\n\uc720\uc778\ud558\uc5ec \ub3c5 \uaf43\uac00\ub8e8\ub97c \ub07c\uc5b9\ub294\ub2e4.\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud558\uac8c \ub41c \uba39\uc774\ub97c \uc7a1\uc544\uba39\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u304b\u3044\u3044\u3061\u3000\u304a\u304a\u304d\u306a\u3000\u306f\u306a\u3073\u3089\u3067\u3000\u3048\u3082\u306e\u3092\n\u304a\u3073\u304d\u3088\u305b\u3000\u3069\u304f\u306e\u3000\u304b\u3075\u3093\u3092\u3000\u3042\u3073\u305b\u304b\u3051\u308b\u3002\n\u3046\u3054\u3051\u306a\u304f\u306a\u3063\u305f\u3000\u3048\u3082\u306e\u3092\u3000\u3064\u304b\u307e\u3048\u3066\u3000\u305f\u3079\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u6bd2\u82b1\u7c89\u306f\u3000\u9177\u3044\u3000\u30a2\u30ec\u30eb\u30ae\u30fc\u3092\u3000\u8d77\u3053\u3059\u3002\n\u30b8\u30e3\u30f3\u30b0\u30eb\u3067\u3000\u7f8e\u3057\u3044\u3000\u82b1\u3092\u3000\u202f\u3064\u3051\u3066\u3082\n\u3046\u304b\u3064\u306b\u3000\u8fd1\u5bc4\u3089\u306a\u3044\u3000\u307b\u3046\u304c\u3000\u3044\u3044\u3088\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Vileplume\u2019s toxic pollen triggers atrocious allergy attacks.\nThat\u2019s why it is advisable never to approach any attractive\nflowers in a jungle, however pretty they may be.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il polline velenoso di Vileplume scatena paurose reazioni\nallergiche. Per questo motivo si consiglia di non avvicinarsi\nmai a nessun fiore di bosco, per quanto bello possa essere.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "El polen que contienen las esporas t\u00f3xicas de Vileplume causa\nunos ataques de alergia muy agudos. Por eso, no es\naconsejable acercarse a ninguna flor selv\u00e1tica, por muy bonita\nque sea.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Giflors giftige Pollen rufen b\u00f6se allergische Anf\u00e4lle hervor.\nDeshalb ist es ratsam, sich keiner sch\u00f6nen Blume im\nDschungel zu n\u00e4hern, so anziehend sie auch sein mag.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Le pollen toxique de Rafflesia d\u00e9clenche d\u2019affreuses r\u00e9actions\nallergiques. C\u2019est pourquoi il est conseill\u00e9 de ne jamais\ns\u2019approcher des jolies fleurs trouv\u00e9es dans la jungle,\nm\u00eame lorsqu\u2019elles sont magnifiques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub3c5 \uaf43\uac00\ub8e8\ub294 \uc2ec\ud55c \uc54c\ub808\ub974\uae30\ub97c \uc77c\uc73c\ud0a8\ub2e4.\n\uc815\uae00\uc5d0\uc11c \uc544\ub984\ub2e4\uc6b4 \uaf43\uc744 \ubc1c\uacac\ud574\ub3c4\n\uc123\ubd88\ub9ac \ub2e4\uac00\uac00\uc9c0 \uc54a\ub294 \uac83\uc774 \uc88b\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u304f\u304b\u3075\u3093\u306f\u3000\u3072\u3069\u3044\u3000\u30a2\u30ec\u30eb\u30ae\u30fc\u3092\u3000\u304a\u3053\u3059\u3002\n\u30b8\u30e3\u30f3\u30b0\u30eb\u3067\u3000\u3046\u3064\u304f\u3057\u3044\u3000\u306f\u306a\u3092\u3000\u202f\u3064\u3051\u3066\u3082\n\u3046\u304b\u3064\u306b\u3000\u3061\u304b\u3088\u3089\u306a\u3044\u3000\u307b\u3046\u304c\u3000\u3044\u3044\u3088\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4e16\u754c\u4e00\u3000\u5927\u304d\u306a\u3000\u82b1\u3073\u3089\u306f\n\u6b69\u304f\u305f\u3073\u306b\u3000\u63fa\u308c\u3066\u3000\u5927\u91cf\u306e\n\u6bd2\u82b1\u7c89\u3092\u3000\u3070\u3089\u307e\u3044\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It has the world\u2019s largest petals. With every step,\nthe petals shake out heavy clouds of toxic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ha i petali pi\u00f9 grandi del mondo. Ad ogni suo passo,\ni petali liberano fitte nubi di polline tossico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Tiene los p\u00e9talos m\u00e1s grandes del mundo. Estos\nexpulsan densas nubes de polen t\u00f3xico al caminar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es besitzt die gr\u00f6\u00dften Bl\u00e4tter der Welt.\nBei jedem Schritt streut es Giftpollen zu Boden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il poss\u00e8de des p\u00e9tales \u00e9normes. \u00c0 chaque pas,\nils s\u00e8ment d\u2019\u00e9pais nuages de pollen toxique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc138\uacc4\uc5d0\uc11c \uc81c\uc77c \ud070 \uaf43\uc78e\uc740\n\uac78\uc744 \ub54c\ub9c8\ub2e4 \ud754\ub4e4\ub824 \ub300\ub7c9\uc758\n\ub3c5 \uaf43\uac00\ub8e8\ub97c \ud769\ubfcc\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u304b\u3044\u3044\u3061\u3000\u304a\u304a\u304d\u306a\u3000\u306f\u306a\u3073\u3089\u306f\n\u3042\u308b\u304f\u305f\u3073\u306b\u3000\u3086\u308c\u3066\u3000\u305f\u3044\u308a\u3087\u3046\u306e\n\u3069\u304f\u304b\u3075\u3093\u3092\u3000\u3070\u3089\u307e\u3044\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u82b1\u3073\u3089\u304c\u3000\u5927\u304d\u3044\u307b\u3069\n\u305f\u304f\u3055\u3093\u3000\u82b1\u7c89\u3092\u3000\u51fa\u3059\u304c\n\u982d\u304c\u3000\u91cd\u305f\u304f\u3066\u3000\u75b2\u308c\u3066\u3057\u307e\u3046\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The larger its petals, the more toxic pollen it\ncontains. Its big head is heavy and hard to hold up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pi\u00f9 grandi sono i petali, maggiore \u00e8 la quantit\u00e0 di\npolline tossico che contengono. La testa \u00e8\nmolto pesante.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Cuanto mayores son sus p\u00e9talos, m\u00e1s t\u00f3xico es su\npolen. Le pesa la cabeza y le cuesta mantenerla\nerguida.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Je gr\u00f6\u00dfer die Bl\u00fctenbl\u00e4tter, desto mehr giftige\nPollen sind in der Bl\u00fcte enthalten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Plus ses p\u00e9tales sont grands, plus ils contiennent de\npollen toxique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uaf43\uc78e\uc774 \ud074\uc218\ub85d \ub9ce\uc740\n\uaf43\uac00\ub8e8\ub97c \ub9cc\ub4e4\uc5b4 \ub0b4\uc9c0\ub9cc \uba38\ub9ac\uac00\n\ubb34\uac70\uc6cc\uc11c \uc9c0\uccd0\ubc84\ub9b0\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306a\u3073\u3089\u304c\u3000\u304a\u304a\u304d\u3044\u307b\u3069\u3000\u305f\u304f\u3055\u3093\n\u304b\u3075\u3093\u3092\u3000\u3060\u3059\u304c\u3000\u3042\u305f\u307e\u304c\n\u304a\u3082\u305f\u304f\u3066\u3000\u3064\u304b\u308c\u3066\u3057\u307e\u3046\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the\nworld. As it walks, it scatters\nextremely allergenic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the\nworld. As it walks, it scatters\nextremely allergenic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the\nworld. As it walks, it scatters\nextremely allergenic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ses p\u00e9tales sont les plus grands\ndu monde. Il marche en r\u00e9pandant\nun pollen extr\u00eamement allerg\u00e8ne.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the\nworld. As it walks, it scatters\nextremely allergenic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ses p\u00e9tales sont les plus grands\ndu monde. Il marche en r\u00e9pandant\nun pollen extr\u00eamement allerg\u00e8ne.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "The bud bursts into bloom with a\nbang. It then starts scattering\nallergenic, poisonous pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It has the world\u2019s largest petals.\nWith every step, the petals shake\nout heavy clouds of toxic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the\nworld. As it walks, it scatters\nextremely allergenic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the\nworld. As it walks, it scatters\nextremely allergenic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the\nworld. As it walks, it scatters\nextremely allergenic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The larger its petals, the more toxic\npollen it contains. Its big head is heavy\nand hard to hold up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Its petals are the largest in the world.\nIt fiendishly scatters allergy-causing\npollen from its petals.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "In seasons when it produces more pollen,\nthe air around a VILEPLUME turns yellow\nwith the powder as it walks. The pollen is\nhighly toxic and causes paralysis.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "VILEPLUME has the world\u2019s largest\npetals. They are used to attract prey\nthat are then doused with toxic spores.\fOnce the prey are immobilized, this\nPOK\u00e9MON catches and devours them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "VILEPLUME\u2019s toxic pollen triggers\natrocious allergy attacks. That\u2019s why\nit is advisable never to approach any\fattractive flowers in a jungle, however\npretty they may be.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "By shaking its big\npetals, it scat\u00ad\nters toxic pollen\finto the air,\nturning the air\nyellow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "The bud bursts\ninto bloom with a\nbang. It then\fstarts scattering\nallergenic, poi\u00ad\nsonous pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It has the world's\nlargest petals.\nWith every step,\fthe petals shake\nout heavy clouds\nof toxic pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "Flaps its broad\nflower petals to\nscatter its\fpoisonous pollen.\nThe flapping sound\nis very loud.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "The larger its\npetals, the more\ntoxic pollen it\fcontains. Its big\nhead is heavy and\nhard to hold up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "The larger its\npetals, the more\ntoxic pollen it\fcontains. Its big\nhead is heavy and\nhard to hold up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u82b1\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30d5\u30e9\u30ef\u30fc\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Flower Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Fiore",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Flor",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Blume",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Fleur",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u82b1\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uaf43\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30d5\u30e9\u30ef\u30fc\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 45,
+    "is_baby": false,
+    "name": "vileplume",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9738\u738b\u82b1"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e9\u30d5\u30ec\u30b7\u30a2"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Vileplume"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Vileplume"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Vileplume"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Giflor"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Rafflesia"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9738\u738b\u82b1"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub77c\ud50c\ub808\uc2dc\uc544"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Ruffresia"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e9\u30d5\u30ec\u30b7\u30a2"
+        }
+    ],
+    "order": 49,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 93,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 107,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 85,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 90,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 85,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 45,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 45,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "vileplume",
+                "url": "/api/v2/pokemon/45/"
+            }
+        }
+    ]
+}

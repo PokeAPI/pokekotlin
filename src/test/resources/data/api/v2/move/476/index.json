@@ -1,0 +1,588 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Until the end of this turn, any moves that opposing Pok\u00e9mon target solely at the user's ally will instead target the user.  If both Pok\u00e9mon on the same side of the field use this move on the same turn, the Pok\u00e9mon that uses it last will become the target.\n\nThis effect takes priority over lightning rod and storm drain.\n\nIf the user's ally switches out, opposing Pok\u00e9mon may still hit it with pursuit.\n\nThis move cannot be selected by assist or metronome.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Redirects the target's single-target effects to the user for this turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u4ee4\u4eba\u70e6\u8e81\u7684\u7c89\u672b\u6492\u5728\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u7528\u4ee5\u5438\u5f15\u5bf9\u624b\u7684\u6ce8\u610f\u3002\n\u4f7f\u5bf9\u624b\u7684\u653b\u51fb\u5168\u90e8\u6307\u5411\u81ea\u5df1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u7c89\u3092\u3000\u81ea\u5206\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u6ce8\u610f\u3092\u3000\u3072\u304f\u3002\u3000\u76f8\u624b\u306e\n\u653b\u6483\u3092\u3000\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opponents aim only at\nthe user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione dei nemici\ncospargendosi di una polvere irritante\ne diventando bersaglio di tutti gli attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Usa un polvo que irrita y centra en el usuario la \natenci\u00f3n y los ataques de los rivales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender zieht gegnerische Aufmerksamkeit und\nAngriffe auf sich, indem er ein Wut erzeugendes\nPulver \u00fcber sich streut.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019asperge d\u2019une poudre irritante pour\nattirer l\u2019attention. Il attire toutes les attaques\nennemies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u4ee4\u4eba\u7169\u8e81\u7684\u7c89\u672b\u6492\u5728\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u5438\u5f15\u5c0d\u624b\u7684\u6ce8\u610f\u3002\u9032\u800c\u5c07\u5c0d\u624b\u7684\u653b\u64ca\n\u5168\u90e8\u8f49\u79fb\u5230\u81ea\u5df1\u8eab\u4e0a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc548\uc808\ubd80\uc808\ubabb\ud558\uac8c \ud558\ub294 \uac00\ub8e8\ub97c\n\uc790\uc2e0\uc5d0\uac8c \ubfcc\ub824\uc11c \uc8fc\uc758\ub97c \ub048\ub2e4.\n\uc0c1\ub300\uc758 \uacf5\uaca9\uc740 \ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u3053\u306a\u3092\u3000\u3058\u3076\u3093\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u3061\u3085\u3046\u3044\u3092\u3000\u3072\u304f\u3002\u3000\u3042\u3044\u3066\u306e\n\u3053\u3046\u3052\u304d\u3092\u3000\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u4ee4\u4eba\u70e6\u8e81\u7684\u7c89\u672b\u6492\u5728\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u7528\u4ee5\u5438\u5f15\u5bf9\u624b\u7684\u6ce8\u610f\u3002\n\u4f7f\u5bf9\u624b\u7684\u653b\u51fb\u5168\u90e8\u6307\u5411\u81ea\u5df1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u7c89\u3092\u3000\u81ea\u5206\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u6ce8\u610f\u3092\u3000\u3072\u304f\u3002\u3000\u76f8\u624b\u306e\n\u653b\u6483\u3092\u3000\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opponents aim only at\nthe user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione dei nemici\ncospargendosi di una polvere irritante\ne diventando bersaglio di tutti gli attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Usa un polvo que irrita y centra en el usuario la \natenci\u00f3n y los ataques de los rivales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender zieht gegnerische Aufmerksamkeit und\nAngriffe auf sich, indem er ein Wut erzeugendes\nPulver \u00fcber sich streut.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019asperge d\u2019une poudre irritante pour\nattirer l\u2019attention. Il attire toutes les attaques\nennemies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u4ee4\u4eba\u7169\u8e81\u7684\u7c89\u672b\u6492\u5728\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u5438\u5f15\u5c0d\u624b\u7684\u6ce8\u610f\u3002\u9032\u800c\u5c07\u5c0d\u624b\u7684\u653b\u64ca\n\u5168\u90e8\u8f49\u79fb\u5230\u81ea\u5df1\u8eab\u4e0a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc548\uc808\ubd80\uc808\ubabb\ud558\uac8c \ud558\ub294 \uac00\ub8e8\ub97c\n\uc790\uc2e0\uc5d0\uac8c \ubfcc\ub824\uc11c \uc8fc\uc758\ub97c \ub048\ub2e4.\n\uc0c1\ub300\uc758 \uacf5\uaca9\uc740 \ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u3053\u306a\u3092\u3000\u3058\u3076\u3093\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u3061\u3085\u3046\u3044\u3092\u3000\u3072\u304f\u3002\u3000\u3042\u3044\u3066\u306e\n\u3053\u3046\u3052\u304d\u3092\u3000\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u7c89\u3092\u3000\u81ea\u5206\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u6ce8\u610f\u3092\u3000\u3072\u304f\u3002\u76f8\u624b\u306e\n\u653b\u6483\u3092\u3000\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione dei nemici cospargendosi \ndi una polvere irritante e diventando bersaglio di tutti \ngli attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa un polvo que irrita y centra en el usuario la \natenci\u00f3n y los ataques de los rivales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender zieht gegnerische Aufmerksamkeit und\nAngriffe auf sich, indem er ein Wut erzeugendes\nPulver \u00fcber sich streut.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019asperge d\u2019une poudre irritante pour\nattirer l\u2019attention. Il attire toutes les attaques\nennemies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc548\uc808\ubd80\uc808\ubabb\ud558\uac8c \ud558\ub294 \uac00\ub8e8\ub97c\n\uc790\uc2e0\uc5d0\uac8c \ubfcc\ub824\uc11c \uc8fc\uc758\ub97c \ub048\ub2e4.\n\uc0c1\ub300\uc758 \uacf5\uaca9\uc740 \ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u3053\u306a\u3092\u3000\u3058\u3076\u3093\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u3061\u3085\u3046\u3044\u3092\u3000\u3072\u304f\u3002\u3042\u3044\u3066\u306e\n\u3053\u3046\u3052\u304d\u3092\u3000\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u7c89\u3092\u3000\u81ea\u5206\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u6ce8\u610f\u3092\u3000\u3072\u304f\u3002\u76f8\u624b\u306e\n\u653b\u6483\u3092\u3000\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione dei nemici\ncospargendosi di una polvere irritante e diventando\nbersaglio di tutti gli attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa un polvo que irrita y centra en el usuario la\natenci\u00f3n y los ataques de los rivales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender zieht gegnerische Aufmerksamkeit und\nAngriffe auf sich, indem er ein Wut erzeugendes\nPulver \u00fcber sich streut.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019asperge d\u2019une poudre irritante pour\nattirer l\u2019attention. Il attire toutes les attaques\nennemies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc548\uc808\ubd80\uc808\ubabb\ud558\uac8c \ud558\ub294 \uac00\ub8e8\ub97c\n\uc790\uc2e0\uc5d0\uac8c \ubfcc\ub824\uc11c \uc8fc\uc758\ub97c \ub048\ub2e4.\n\uc0c1\ub300\uc758 \uacf5\uaca9\uc740 \ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u30a4\u30e9\u30a4\u30e9\u3055\u305b\u308b\u3000\u3053\u306a\u3092\u3000\u3058\u3076\u3093\u306b\n\u3075\u308a\u304b\u3051\u3066\u3000\u3061\u3085\u3046\u3044\u3092\u3000\u3072\u304f\u3002\u3042\u3044\u3066\u306e\n\u3053\u3046\u3052\u304d\u3092\u3000\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user scatters a cloud of irritating\npowder to draw attention to itself.\nOpponents aim only at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019asperge d\u2019une poudre\nirritante pour attirer l\u2019attention. Il\nattire toutes les attaques ennemies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 476,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "rage-powder",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6124\u6012\u7c89"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3044\u304b\u308a\u306e\u3053\u306a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Rage Powder"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Polverabbia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Polvo Ira"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Wutpulver"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Poudre Fureur"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u61a4\u6012\u7c89"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubd84\ub178\uac00\ub8e8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3044\u304b\u308a\u306e\u3053\u306a"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [
+                {
+                    "effect": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    },
+                    "short_effect": "Has a $effect_chance% chance to poison the target."
+                }
+            ],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 20,
+    "priority": 2,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "bug",
+        "url": "/api/v2/type/7/"
+    }
+}

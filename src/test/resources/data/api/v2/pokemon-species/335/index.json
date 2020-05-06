@@ -1,0 +1,780 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 90,
+    "color": {
+        "name": "white",
+        "url": "/api/v2/pokemon-color/9/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/169/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u666e\u6bb5\u306f\u3000\uff14\u672c\u8db3\u3067\u3000\u884c\u52d5\u3059\u308b\u304c\u3000\u6012\u308b\u3068\n\u5f8c\u8db3\u3067\u3000\u7acb\u3061\u3000\u524d\u8db3\u306e\u3000\u30c4\u30e1\u304c\u3000\u98db\u3073\u51fa\u3059\u3002\n\u30cf\u30d6\u30cd\u30fc\u30af\u3068\u306f\u3000\u5148\u7956\u304b\u3089\u3000\u7d9a\u304f\u3000\u30e9\u30a4\u30d0\u30eb\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Zangoose usually stays on all fours, but when angered, it gets\nup on its hind legs and extends its claws. This Pok\u00e9mon shares\na bitter rivalry with Seviper that dates back over generations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Di solito Zangoose cammina a quattro zampe, ma quando\nsi infuria si alza sulle zampe posteriori ed estrae gli artigli.\nQuesto Pok\u00e9mon \u00e8 acerrimo nemico di Seviper, infatti la loro\ninimicizia \u00e8 ormai leggendaria.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Zangoose suele caminar a cuatro patas, pero cuando se\nenfada se pone de pie sobre las traseras y saca las zarpas.\nEste Pok\u00e9mon tiene desde hace varias generaciones una\n\u00e1spera rivalidad con Seviper.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sengo bewegt sich normalerweise auf allen Vieren. Wenn es\naber w\u00fctend wird, stellt es sich auf seine Hinterbeine und\nf\u00e4hrt die Klauen an seinen Vorderbeinen aus. Dieses Pok\u00e9mon\nist seit Generationen ein erbitterter Rivale von Vipitis.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mangriff est g\u00e9n\u00e9ralement \u00e0 quatre pattes, mais lorsqu\u2019il\nest en col\u00e8re, il se l\u00e8ve sur ses pattes arri\u00e8re et montre\nses griffes. Ce Pok\u00e9mon est l\u2019ennemi jur\u00e9 de S\u00e9viper depuis\nplusieurs g\u00e9n\u00e9rations.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud3c9\uc18c\uc5d0\ub294 4\uac1c\uc758 \ub2e4\ub9ac\ub85c \ud589\ub3d9\ud558\uc9c0\ub9cc \ud654\ub098\uba74\n\ub4b7\ub2e4\ub9ac\ub85c \uc11c\uc11c \uc55e\ubc1c\uc758 \ubc1c\ud1b1\uc744 \ub0b4\ubcf4\uc778\ub2e4.\n\uc138\ube44\ud37c\uc640\ub294 \uc120\uc870 \ub300\ub300\ub85c \ub77c\uc774\ubc8c\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3060\u3093\u306f\u3000\uff14\u307b\u3093\u3042\u3057\u3067\u3000\u3053\u3046\u3069\u3046\u3059\u308b\u304c\u3000\u304a\u3053\u308b\u3068\n\u3046\u3057\u308d\u3042\u3057\u3067\u3000\u305f\u3061\u3000\u307e\u3048\u3042\u3057\u306e\u3000\u30c4\u30e1\u304c\u3000\u3068\u3073\u3060\u3059\u3002\n\u30cf\u30d6\u30cd\u30fc\u30af\u3068\u306f\u3000\u305b\u3093\u305e\u304b\u3089\u3000\u3064\u3065\u304f\u3000\u30e9\u30a4\u30d0\u30eb\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5bbf\u6575\u3000\u30cf\u30d6\u30cd\u30fc\u30af\u3068\u306e\u3000\u6226\u3044\u306e\u3000\u8a18\u61b6\u304c\n\u4f53\u4e2d\u306e\u3000\u7d30\u80de\u306b\u3000\u523b\u202f\u8fbc\u307e\u308c\u3066\u3044\u308b\u3002\n\u654f\u3057\u3087\u3046\u306a\u3000\u8eab\u306e\u3053\u306a\u3057\u3067\u3000\u653b\u6483\u3092\u3000\u304b\u308f\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Memories of battling its archrival Seviper are etched into every\ncell of Zangoose\u2019s body. This Pok\u00e9mon adroitly dodges\nattacks with incredible agility.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "I ricordi delle lotte contro il suo acerrimo nemico Seviper sono\ninsiti in ogni cellula del corpo di Zangoose. Questo Pok\u00e9mon\nriesce a schivare gli attacchi con incredibile maestria.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Los ecos del combate mantenido con su rival m\u00e1s feroz,\nSeviper, resuenan a\u00fan en cada c\u00e9lula de Zangoose. Este\nPok\u00e9mon esquiva los ataques con aut\u00e9ntica destreza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Die Erinnerungen an den Kampf mit seinem Erzrivalen Vipitis\nhaben sich in jede Zelle von Sengos K\u00f6rper eingebrannt.\nDieses Pok\u00e9mon weicht feindlichen Angriffen unheimlich\nraffiniert und geschickt aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Chaque cellule du corps de Mangriff porte les stigmates\nde sa rivalit\u00e9 avec S\u00e9viper. Ce Pok\u00e9mon est capable\nd\u2019esquiver les attaques avec une agilit\u00e9 incroyable.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc219\uc801 \uc138\ube44\ud37c\uc640 \ub300\uacb0\ud588\ub358 \uae30\uc5b5\uc774\n\uc804\uc2e0\uc758 \uc138\ud3ec\uc5d0 \uc0c8\uaca8\uc838 \uc788\ub2e4.\n\ubbfc\ucca9\ud55c \ubab8\ub3d9\uc791\uc73c\ub85c \uacf5\uaca9\uc744 \ud53c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3085\u304f\u3066\u304d\u3000\u30cf\u30d6\u30cd\u30fc\u30af\u3068\u306e\u3000\u305f\u305f\u304b\u3044\u306e\u3000\u304d\u304a\u304f\u304c\n\u304b\u3089\u3060\u3058\u3085\u3046\u306e\u3000\u3055\u3044\u307c\u3046\u306b\u3000\u304d\u3056\u202f\u3053\u307e\u308c\u3066\u3044\u308b\u3002\n\u3073\u3093\u3057\u3087\u3046\u306a\u3000\u202f\u306e\u3053\u306a\u3057\u3067\u3000\u3053\u3046\u3052\u304d\u3092\u3000\u304b\u308f\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30cf\u30d6\u30cd\u30fc\u30af\u306e\u3000\u306b\u304a\u3044\u3092\u3000\u304b\u3050\u3000\u3060\u3051\u3067\n\u5168\u8eab\u306e\u3000\u4f53\u6bdb\u304c\u3000\u9006\u7acb\u3064\u3002\n\u92ed\u3044\u3000\u30c4\u30e1\u304c\u3000\u6575\u3092\u3000\u5207\u308a\u88c2\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Its fur would all stand on end if it smelled a Seviper\nnearby. Its sharp claws tear up its foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se sente anche solo l\u2019odore di Seviper, gli si rizza\nla pelliccia. Lacera il nemico con artigli affilati.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se le eriza todo el pelaje con solo oler un Seviper.\nCon sus afiladas zarpas puede rajar a sus enemigos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Vipitis\u2019 Geruch l\u00e4sst ihm alle Haare zu Berge stehen.\nMit seinen scharfen Klauen kratzt es seine Feinde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Son poil se h\u00e9risse d\u00e8s qu\u2019il sent un S\u00e9viper.\nIl lac\u00e8re ses ennemis avec ses griffes ac\u00e9r\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc138\ube44\ud37c\uc758 \ub0c4\uc0c8\ub97c \ub9e1\ub294 \uac83\ub9cc\uc73c\ub85c\ub3c4\n\uc804\uc2e0\uc758 \ud138\uc774 \uace4\ub450\uc120\ub2e4.\n\uc608\ub9ac\ud55c \uc190\ud1b1\uc73c\ub85c \uc801\uc744 \ubca0\uc5b4 \uac00\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30cf\u30d6\u30cd\u30fc\u30af\u306e\u3000\u306b\u304a\u3044\u3092\u3000\u304b\u3050\u3000\u3060\u3051\u3067\n\u305c\u3093\u3057\u3093\u306e\u3000\u305f\u3044\u3082\u3046\u304c\u3000\u3055\u304b\u3060\u3064\u3002\n\u3059\u308b\u3069\u3044\u3000\u30c4\u30e1\u304c\u3000\u3066\u304d\u3092\u3000\u304d\u308a\u3055\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u4f55\u4e16\u4ee3\u306b\u3082\u3000\u6e21\u3063\u3066\n\u30cf\u30d6\u30cd\u30fc\u30af\u3068\u3000\u6226\u3063\u3066\u304d\u305f\u3002\n\u92ed\u3044\u3000\u30c4\u30e1\u304c\u3000\u6700\u5927\u306e\u3000\u6b66\u5668\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It has feuded with Seviper for many generations.\nIts sharp claws are its biggest weapons.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Da generazioni, \u00e8 acerrimo nemico di Seviper. Gli\nartigli aguzzi sono le sue armi pi\u00f9 potenti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Hace muchos a\u00f1os que se enfrenta a Seviper. Su arma\nm\u00e1s eficaz son sus zarpas afiladas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Seit Generationen ist es mit Vipitis verfeindet.\nSeine scharfen Klauen sind seine st\u00e4rksten Waffen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est le rival de S\u00e9viper depuis des g\u00e9n\u00e9rations.\nSes griffes aiguis\u00e9es sont son meilleur atout.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uba87 \ub300\uc5d0 \uac78\uccd0\uc11c\n\uc138\ube44\ud37c\uc640 \uc2f8\uc6cc\uc654\ub2e4.\n\ub0a0\uce74\ub85c\uc6b4 \ubc1c\ud1b1\uc774 \ucd5c\ub300\uc758 \ubb34\uae30\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3093\u305b\u3060\u3044\u306b\u3082\u3000\u308f\u305f\u3063\u3066\n\u30cf\u30d6\u30cd\u30fc\u30af\u3068\u3000\u305f\u305f\u304b\u3063\u3066\u304d\u305f\u3002\n\u3059\u308b\u3069\u3044\u3000\u30c4\u30e1\u304c\u3000\u3055\u3044\u3060\u3044\u306e\u3000\u3076\u304d\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It\u2019s Seviper\u2019s archrival. To threaten\nthose it encounters, it fans out\nthe claws on its front paws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It\u2019s Seviper\u2019s archrival. To threaten\nthose it encounters, it fans out\nthe claws on its front paws.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It has feuded with Seviper for\nmany generations. Its sharp claws\nare its biggest weapons.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est le rival de S\u00e9viper depuis\ndes g\u00e9n\u00e9rations. Ses griffes\naiguis\u00e9es sont son meilleur atout.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It has feuded with Seviper for\nmany generations. Its sharp claws\nare its biggest weapons.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est le rival de S\u00e9viper depuis\ndes g\u00e9n\u00e9rations. Ses griffes\naiguis\u00e9es sont son meilleur atout.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Its fur would all stand on end if\nit smelled a SEVIPER nearby.\nIts sharp claws tear up its foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its fur would all stand on end if\nit smelled a SEVIPER nearby.\nIts sharp claws tear up its foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It has feuded with SEVIPER for\nmany generations. Its sharp claws\nare its biggest weapons.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It has feuded with SEVIPER for\nmany generations. Its sharp claws\nare its biggest weapons.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has feuded with SEVIPER for\nmany generations. Its sharp claws\nare its biggest weapons.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "If it comes across a SEVIPER, its fur\nbristles and it assumes its battle pose.\nIts sharp claws are its best weapon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "If it comes across a SEVIPER, its fur\nbristles and it assumes its battle pose.\nIts sharp claws are its best weapon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "When it battles, it stands on its hind legs\nand attacks with its sharply clawed\nforelegs. Its fur bristles if it encounters\nany SEVIPER.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "ZANGOOSE usually stays on all fours,\nbut when angered, it gets up on its\nhind legs and extends its claws.\fThis POK\u00e9MON shares a bitter rivalry\nwith SEVIPER that dates back over\ngenerations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "Memories of battling its arch-rival\nSEVIPER are etched into every cell of\nZANGOOSE\u2019s body.\fThis POK\u00e9MON adroitly dodges attacks\nwith incredible agility.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u732b\u9f2c\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30cd\u30b3\u30a4\u30bf\u30c1\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Cat Ferret Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Furogatto",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gato Hur\u00f3n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Frettkatz",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Chat Furet",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8c93\u9f2c\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uace0\uc591\uc774\uc871\uc81c\ube44\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30cd\u30b3\u30a4\u30bf\u30c1\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "slow-then-very-fast",
+        "url": "/api/v2/growth-rate/5/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 335,
+    "is_baby": false,
+    "name": "zangoose",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u732b\u9f2c\u65a9"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b6\u30f3\u30b0\u30fc\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Zangoose"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Zangoose"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Zangoose"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Sengo"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Mangriff"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8c93\u9f2c\u65ac"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc7dd\uace0"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Zangoose"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b6\u30f3\u30b0\u30fc\u30b9"
+        }
+    ],
+    "order": 363,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 128,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 5,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 186,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 123,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 335,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "zangoose",
+                "url": "/api/v2/pokemon/335/"
+            }
+        }
+    ]
+}

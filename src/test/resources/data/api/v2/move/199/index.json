@@ -1,0 +1,691 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "thunder",
+                    "url": "/api/v2/move/87/"
+                },
+                {
+                    "name": "tri-attack",
+                    "url": "/api/v2/move/161/"
+                },
+                {
+                    "name": "octazooka",
+                    "url": "/api/v2/move/190/"
+                },
+                {
+                    "name": "zap-cannon",
+                    "url": "/api/v2/move/192/"
+                },
+                {
+                    "name": "superpower",
+                    "url": "/api/v2/move/276/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/24/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores accuracy and evasion modifiers.\n\nOne-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pok\u00e9mon that are off the field due to moves such as dig or fly.\n\nIf the target uses detect or protect while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.\n\nThis effect is passed on by baton pass.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Ensures that the user's next move will hit the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7d27\u7d27\u7784\u51c6\u5bf9\u624b\uff0c\n\u4e0b\u6b21\u653b\u51fb\u5fc5\u5b9a\u4f1a\u6253\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7167\u6e96\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u6b21\u306e\u3000\u653b\u6483\u304c\u3000\u5fc5\u305a\n\u76f8\u624b\u306b\u3000\u5f53\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa punta il bersaglio con precisione.\nLa mossa successiva andr\u00e0 a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Fija el blanco para que el siguiente ataque no falle. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Visiert das Ziel an und trifft in der n\u00e4chsten Runde\ngarantiert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Verrouille l\u2019ennemi pour ne pas le rater au tour\nsuivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7cbe\u78ba\u5730\u7784\u6e96\uff0c\n\u4e0b\u6b21\u653b\u64ca\u6642\u4e00\u5b9a\n\u6703\u547d\u4e2d\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc870\uc900\uc744 \uc798 \ub9de\ucdb0\n\ub2e4\uc74c \uacf5\uaca9\uc774 \ubc18\ub4dc\uc2dc\n\uc0c1\ub300\uc5d0\uac8c \uba85\uc911\ud558\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u3058\u3085\u3093\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u3064\u304e\u306e\u3000\u3053\u3046\u3052\u304d\u304c\u3000\u304b\u306a\u3089\u305a\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7d27\u7d27\u7784\u51c6\u5bf9\u624b\uff0c\n\u4e0b\u6b21\u653b\u51fb\u5fc5\u5b9a\u4f1a\u6253\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7167\u6e96\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u6b21\u306e\u3000\u653b\u6483\u304c\u3000\u5fc5\u305a\n\u76f8\u624b\u306b\u3000\u5f53\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa punta il bersaglio con precisione.\nLa mossa successiva andr\u00e0 a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Fija el blanco para que el siguiente ataque no falle. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Visiert das Ziel an und trifft in der n\u00e4chsten Runde\ngarantiert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Verrouille l\u2019ennemi pour ne pas le rater au tour\nsuivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7cbe\u78ba\u5730\u7784\u6e96\uff0c\n\u4e0b\u6b21\u653b\u64ca\u6642\u4e00\u5b9a\n\u6703\u547d\u4e2d\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc870\uc900\uc744 \uc798 \ub9de\ucdb0\n\ub2e4\uc74c \uacf5\uaca9\uc774 \ubc18\ub4dc\uc2dc\n\uc0c1\ub300\uc5d0\uac8c \uba85\uc911\ud558\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u3058\u3085\u3093\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u3064\u304e\u306e\u3000\u3053\u3046\u3052\u304d\u304c\u3000\u304b\u306a\u3089\u305a\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7167\u6e96\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u6b21\u306e\u3000\u653b\u6483\u304c\u3000\u5fc5\u305a\n\u76f8\u624b\u306b\u3000\u5f53\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure aim at the target.\nThis ensures the next attack does not\nmiss the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa punta il bersaglio con precisione.\nLa mossa successiva andr\u00e0 a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Fija el blanco para que el siguiente ataque no falle. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Visiert das Ziel an und trifft in der\nn\u00e4chsten Runde garantiert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Verrouille l\u2019ennemi pour ne pas le rater au tour\nsuivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc870\uc900\uc744 \uc798 \ub9de\ucdb0\n\ub2e4\uc74c \uacf5\uaca9\uc774 \ubc18\ub4dc\uc2dc\n\uc0c1\ub300\uc5d0\uac8c \uba85\uc911\ud558\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u3058\u3085\u3093\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u3064\u304e\u306e\u3000\u3053\u3046\u3052\u304d\u304c\u3000\u304b\u306a\u3089\u305a\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u7167\u6e96\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u6b21\u306e\u3000\u653b\u6483\u304c\u3000\u5fc5\u305a\n\u76f8\u624b\u306b\u3000\u5f53\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure aim at the target.\nThis ensures the next attack does not\nmiss the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa punta il bersaglio con precisione.\nLa mossa successiva andr\u00e0 a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Fija el blanco para que el siguiente ataque no falle.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Visiert das Ziel an und trifft in der\nn\u00e4chsten Runde garantiert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Verrouille l\u2019ennemi pour ne pas le rater au tour\nsuivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc870\uc900\uc744 \uc798 \ub9de\ucdb0\n\ub2e4\uc74c \uacf5\uaca9\uc774 \ubc18\ub4dc\uc2dc\n\uc0c1\ub300\uc5d0\uac8c \uba85\uc911\ud558\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u3046\u3058\u3085\u3093\u3092\u3000\u3057\u3063\u304b\u308a\u3000\u3042\u308f\u305b\u3066\n\u3064\u304e\u306e\u3000\u3053\u3046\u3052\u304d\u304c\u3000\u304b\u306a\u3089\u305a\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure aim at the target.\nIt ensures the next attack does not fail\nto hit the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure aim at the target.\nIt ensures the next attack does not fail\nto hit the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Verrouille l\u2019ennemi pour ne\npas le rater au tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure\naim at the foe.\nIt ensures the next\nattack does not fail\nto hit the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure\naim at the foe.\nIt ensures the next\nattack does not fail\nto hit the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user takes sure\naim at the foe.\nIt ensures the next\nattack does not fail\nto hit the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user locks on\nto the foe, making\nthe next move sure\nto hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Locks on to the foe to\nensure the next move hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Locks on to the foe to\nensure the next move hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Ensures the next\nattack will hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Ensures the next\nattack will hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 199,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "lock-on",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9501\u5b9a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ed\u30c3\u30af\u30aa\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Lock-On"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Localizza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Fijar Blanco"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Zielschuss"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Verrouillage"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9396\u5b9a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub85d\uc628"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ed\u30c3\u30af\u30aa\u30f3"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/20/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

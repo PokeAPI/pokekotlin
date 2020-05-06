@@ -1,0 +1,604 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Uses the last move that was used successfully by any Pok\u00e9mon, including the user.\n\nThis move cannot copy itself, nor roar nor whirlwind.\n\nThis move cannot be copied by mirror move, nor selected by assist, metronome, or sleep talk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Uses the target's last used move."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6a21\u4eff\u5bf9\u624b\u521a\u624d\u4f7f\u51fa\u7684\u62db\u5f0f\uff0c\n\u5e76\u4f7f\u51fa\u76f8\u540c\u62db\u5f0f\u3002\n\u5982\u679c\u5bf9\u624b\u8fd8\u6ca1\u51fa\u62db\u5219\u4f1a\u5931\u8d25\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f4\u524d\u306b\u3000\u3067\u305f\u3000\u6280\u3092\u3000\u307e\u306d\u3057\u3066\n\u540c\u3058\u3000\u6280\u3092\u3000\u3060\u3059\u3002\n\u6280\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa mima l\u2019ultima mossa eseguita.\nFallisce se non \u00e8 stata ancora usata alcuna\nmossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado a\u00fan ninguno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender imitiert die gerade verwendete Attacke.\nDies schl\u00e4gt fehl, falls zuvor keine Attacke\nverwendet wurde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur imite la derni\u00e8re capacit\u00e9 employ\u00e9e.\n\u00c9choue si aucune capacit\u00e9 n\u2019a \u00e9t\u00e9 utilis\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6a21\u4eff\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\uff0c\n\u82e5\u5c0d\u624b\u6c92\u6709\u6210\u529f\u51fa\u62db\u5247\u6703\u5931\u6557\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c1\uc804\uc5d0 \ub098\uc628 \uae30\uc220\uc744 \ud749\ub0b4 \ub0b4\uc5b4\n\uac19\uc740 \uae30\uc220\uc744 \uc4f4\ub2e4.\n\uae30\uc220\uc774 \ub098\uc624\uc9c0 \uc54a\uc558\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u304f\u305c\u3093\u306b\u3000\u3067\u305f\u3000\u308f\u3056\u3092\u3000\u307e\u306d\u3057\u3066\n\u304a\u306a\u3058\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3002\n\u308f\u3056\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6a21\u4eff\u5bf9\u624b\u521a\u624d\u4f7f\u51fa\u7684\u62db\u5f0f\uff0c\n\u5e76\u4f7f\u51fa\u76f8\u540c\u62db\u5f0f\u3002\n\u5982\u679c\u5bf9\u624b\u8fd8\u6ca1\u51fa\u62db\u5219\u4f1a\u5931\u8d25\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f4\u524d\u306b\u3000\u3067\u305f\u3000\u6280\u3092\u3000\u307e\u306d\u3057\u3066\n\u540c\u3058\u3000\u6280\u3092\u3000\u3060\u3059\u3002\n\u6280\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa mima l\u2019ultima mossa eseguita.\nFallisce se non \u00e8 stata ancora usata alcuna\nmossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado a\u00fan ninguno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender imitiert die gerade verwendete Attacke.\nDies schl\u00e4gt fehl, falls zuvor keine Attacke\nverwendet wurde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur imite la derni\u00e8re capacit\u00e9 employ\u00e9e.\n\u00c9choue si aucune capacit\u00e9 n\u2019a \u00e9t\u00e9 utilis\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6a21\u4eff\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\uff0c\n\u82e5\u5c0d\u624b\u6c92\u6709\u6210\u529f\u51fa\u62db\u5247\u6703\u5931\u6557\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c1\uc804\uc5d0 \ub098\uc628 \uae30\uc220\uc744 \ud749\ub0b4 \ub0b4\uc5b4\n\uac19\uc740 \uae30\uc220\uc744 \uc4f4\ub2e4.\n\uae30\uc220\uc774 \ub098\uc624\uc9c0 \uc54a\uc558\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u304f\u305c\u3093\u306b\u3000\u3067\u305f\u3000\u308f\u3056\u3092\u3000\u307e\u306d\u3057\u3066\n\u304a\u306a\u3058\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3002\n\u308f\u3056\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f4\u524d\u306b\u3000\u3067\u305f\u3000\u6280\u3092\u3000\u307e\u306d\u3057\u3066\n\u540c\u3058\u3000\u6280\u3092\u3000\u3060\u3059\u3002\n\u6280\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa mima l\u2019ultima mossa eseguita.\nFallisce se non \u00e8 stata ancora usata alcuna\nmossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado a\u00fan ninguno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender imitiert gerade verwendete Attacke.\nDies schl\u00e4gt fehl, falls zuvor keine Attacke\nverwendet wurde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur imite la derni\u00e8re capacit\u00e9 employ\u00e9e.\n\u00c9choue si aucune capacit\u00e9 n\u2019a \u00e9t\u00e9 utilis\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c1\uc804\uc5d0 \ub098\uc628 \uae30\uc220\uc744 \ud749\ub0b4 \ub0b4\uc5b4\n\uac19\uc740 \uae30\uc220\uc744 \uc4f4\ub2e4.\n\uae30\uc220\uc774 \ub098\uc624\uc9c0 \uc54a\uc558\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u304f\u305c\u3093\u306b\u3000\u3067\u305f\u3000\u308f\u3056\u3092\u3000\u307e\u306d\u3057\u3066\n\u304a\u306a\u3058\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3002\n\u308f\u3056\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f4\u524d\u306b\u3000\u3067\u305f\u3000\u6280\u3092\u3000\u307e\u306d\u3057\u3066\n\u540c\u3058\u3000\u6280\u3092\u3000\u3060\u3059\u3002\n\u6280\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa mima l\u2019ultima mossa eseguita.\nFallisce se non \u00e8 stata ancora usata alcuna\nmossa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado a\u00fan ninguno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender imitiert gerade verwendete Attacke.\nDies schl\u00e4gt fehl, falls zuvor keine Attacke\nverwendet wurde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur imite la derni\u00e8re capacit\u00e9 employ\u00e9e.\n\u00c9choue si aucune capacit\u00e9 n\u2019a \u00e9t\u00e9 utilis\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c1\uc804\uc5d0 \ub098\uc628 \uae30\uc220\uc744 \ud749\ub0b4 \ub0b4\uc5b4\n\uac19\uc740 \uae30\uc220\uc744 \uc4f4\ub2e4.\n\uae30\uc220\uc774 \ub098\uc624\uc9c0 \uc54a\uc558\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u304f\u305c\u3093\u306b\u3000\u3067\u305f\u3000\u308f\u3056\u3092\u3000\u307e\u306d\u3057\u3066\n\u304a\u306a\u3058\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3002\n\u308f\u3056\u304c\u3000\u3067\u3066\u3044\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the move used immediately\nbefore it. The move fails if no other move\nhas been used yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur imite la derni\u00e8re capacit\u00e9\nemploy\u00e9e. \u00c9choue si aucune capacit\u00e9\nn\u2019a \u00e9t\u00e9 utilis\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the\nmove used immediately\nbefore it. The move\nfails if no other move\nhas been used yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the\nmove used immediately\nbefore it. The move\nfails if no other move\nhas been used yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user mimics the\nmove used immediately\nbefore it. The move\nfails if no other move\nhas been used yet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 383,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "copycat",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u4eff\u6548"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u307e\u306d\u3063\u3053"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Copycat"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Copione"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Copi\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Imitator"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Photocopie"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u4eff\u6548"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud749\ub0b4\uc7c1\uc774"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u307e\u306d\u3063\u3053"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/12/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

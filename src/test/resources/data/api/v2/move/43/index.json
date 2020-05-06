@@ -1,0 +1,720 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "rage",
+                    "url": "/api/v2/move/99/"
+                },
+                {
+                    "name": "scary-face",
+                    "url": "/api/v2/move/184/"
+                }
+            ],
+            "use_before": [
+                {
+                    "name": "scratch",
+                    "url": "/api/v2/move/10/"
+                },
+                {
+                    "name": "stomp",
+                    "url": "/api/v2/move/23/"
+                },
+                {
+                    "name": "horn-attack",
+                    "url": "/api/v2/move/30/"
+                },
+                {
+                    "name": "tackle",
+                    "url": "/api/v2/move/33/"
+                },
+                {
+                    "name": "bite",
+                    "url": "/api/v2/move/44/"
+                },
+                {
+                    "name": "glare",
+                    "url": "/api/v2/move/137/"
+                },
+                {
+                    "name": "scary-face",
+                    "url": "/api/v2/move/184/"
+                },
+                {
+                    "name": "feint-attack",
+                    "url": "/api/v2/move/185/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/24/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": 100,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Lowers the target's Defense by one stage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Lowers the target's Defense by one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u7280\u5229\u7684\u773c\u795e\u4f7f\u5176\u5bb3\u6015\uff0c\n\u4ece\u800c\u964d\u4f4e\u5bf9\u624b\u7684\u9632\u5fa1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u76ee\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user gives opposing Pok\u00e9mon an intimidating\nleer that lowers the Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Terrorizza i nemici intorno con uno sguardo\nfulminante e intimidatorio, riducendone la Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Intimida a los rivales para bajar su Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Gegnerischer Verteidigungs-Wert wird durch\nangsteinfl\u00f6\u00dfenden Blick gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait les gros yeux \u00e0 l\u2019ennemi pour\nl\u2019intimider et baisser sa D\u00e9fense.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u7280\u5229\u7684\u773c\u795e\u4f7f\u5c0d\u624b\u5bb3\u6015\uff0c\n\u964d\u4f4e\u5c0d\u624b\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub208\ucd08\ub9ac\ub85c \uac81\uc744 \uc8fc\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u3081\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u7280\u5229\u7684\u773c\u795e\u4f7f\u5176\u5bb3\u6015\uff0c\n\u4ece\u800c\u964d\u4f4e\u5bf9\u624b\u7684\u9632\u5fa1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u76ee\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user gives opposing Pok\u00e9mon an intimidating\nleer that lowers the Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Terrorizza i nemici intorno con uno sguardo\nfulminante e intimidatorio, riducendone la Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Intimida a los rivales para bajar su Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Gegnerischer Verteidigungs-Wert wird durch\nangsteinfl\u00f6\u00dfenden Blick gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait les gros yeux \u00e0 l\u2019ennemi pour\nl\u2019intimider et baisser sa D\u00e9fense.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u7280\u5229\u7684\u773c\u795e\u4f7f\u5c0d\u624b\u5bb3\u6015\uff0c\n\u964d\u4f4e\u5c0d\u624b\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub208\ucd08\ub9ac\ub85c \uac81\uc744 \uc8fc\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u3081\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u76ee\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user gives opposing Pok\u00e9mon\nan intimidating leer that lowers the Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Terrorizza i nemici intorno con uno sguardo\nfulminante e intimidatorio, riducendone la Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Intimida a los rivales para bajar su Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Gegnerischer Verteidigungs-Wert wird\ndurch angsteinfl\u00f6\u00dfenden Blick gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait les gros yeux \u00e0 l\u2019ennemi pour\nl\u2019intimider et baisser sa D\u00e9fense.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub208\ucd08\ub9ac\ub85c \uac81\uc744 \uc8fc\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u3081\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u76ee\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user gives opposing Pok\u00e9mon\nan intimidating leer that lowers the Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Terrorizza i nemici intorno con uno sguardo\nfulminante e intimidatorio, riducendone la Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Intimida a los rivales para bajar su Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Gegnerischer Verteidigungs-Wert wird\ndurch angsteinfl\u00f6\u00dfenden Blick gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait les gros yeux \u00e0 l\u2019ennemi pour\nl\u2019intimider et baisser sa D\u00e9fense.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub208\ucd08\ub9ac\ub85c \uac81\uc744 \uc8fc\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u3081\u3064\u304d\u3067\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user gains an intimidating leer with\nsharp eyes. The opposing team\u2019s\nDefense stats are reduced.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The opposing team gains an intimidating\nleer with sharp eyes. The opposing team\u2019s\nDefense stats are reduced.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait les gros yeux \u00e0 l\u2019ennemi\npour l\u2019intimider et baisser sa D\u00e9fense.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is given an\nintimidating leer with\nsharp eyes.\nThe target\u2019s Defense\nstat is reduced.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is given an\nintimidating leer with\nsharp eyes.\nThe target\u2019s Defense\nstat is reduced.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is given an\nintimidating leer with\nsharp eyes.\nThe target\u2019s Defense\nstat is reduced.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is given an\nintimidating look\nthat lowers its\nDEFENSE stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Frightens the foe with a\nleer to lower DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Frightens the foe with a\nleer to lower DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Reduces the foe's\nDEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Reduces the foe's\nDEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 43,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 100
+    },
+    "name": "leer",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u77aa\u773c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306b\u3089\u307f\u3064\u3051\u308b"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Leer"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Fulmisguardo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Malicioso"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Silberblick"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Groz\u2019Yeux"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u77aa\u773c"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc9f8\ub824\ubcf4\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306b\u3089\u307f\u3064\u3051\u308b"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": -1,
+            "stat": {
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/19/"
+    },
+    "target": {
+        "name": "all-opponents",
+        "url": "/api/v2/move-target/11/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

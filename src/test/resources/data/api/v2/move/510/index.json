@@ -1,0 +1,616 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target is holding a berry, it's destroyed and cannot be used in response to this move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Destroys the target's held berry."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u706b\u7130\u653b\u51fb\u5bf9\u624b\u3002\n\u5bf9\u624b\u643a\u5e26\u6811\u679c\u7b49\u65f6\uff0c\n\u4f1a\u70e7\u6389\uff0c\u4f7f\u5176\u4e0d\u80fd\u4f7f\u7528\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u708e\u3067\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u307f\u306a\u3069\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u71c3\u3084\u3057\u3066\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks opposing Pok\u00e9mon with fire.\nIf a Pok\u00e9mon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attacca i nemici che ha intorno con una fiammata.\nIl fuoco distrugger\u00e0 le bacche o alcuni tipi di\nstrumenti che i Pok\u00e9mon hanno con s\u00e9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Llamas que golpean a los objetivos adyacentes.\nSi estos llevan bayas o ciertos objetos, se quemar\u00e1n\ny ya no se podr\u00e1n usar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Eine Feuer-Attacke. Tr\u00e4gt das Ziel eine Beere oder\nein \u00e4hnliches Item bei sich, wird dieses von den\nFlammen verzehrt und geht verloren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Des flammes calcinent l\u2019ennemi.\nS\u2019il tient un objet, une Baie par exemple, celui-ci\nest br\u00fbl\u00e9 et devient inutilisable.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u706b\u7130\u653b\u64ca\u5c0d\u624b\u3002\n\u80fd\u5920\u71d2\u6389\u5c0d\u624b\u651c\u5e36\u7684\u6a39\u679c\u7b49\u9053\u5177\uff0c\n\u8b93\u5c0d\u624b\u7121\u6cd5\u4f7f\u7528\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubd88\uaf43\uc73c\ub85c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4 \ub4f1\uc744 \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\ubd88\ud0dc\uc6cc\uc11c \uc4f8 \uc218 \uc5c6\uac8c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307b\u306e\u304a\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u307f\u306a\u3069\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u3082\u3084\u3057\u3066\u3000\u3064\u304b\u3048\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u706b\u7130\u653b\u51fb\u5bf9\u624b\u3002\n\u5bf9\u624b\u643a\u5e26\u6811\u679c\u7b49\u65f6\uff0c\n\u4f1a\u70e7\u6389\uff0c\u4f7f\u5176\u4e0d\u80fd\u4f7f\u7528\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u708e\u3067\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u307f\u306a\u3069\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u71c3\u3084\u3057\u3066\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks opposing Pok\u00e9mon with fire.\nIf a Pok\u00e9mon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attacca i nemici che ha intorno con una fiammata.\nIl fuoco distrugger\u00e0 le bacche o alcuni tipi di\nstrumenti che i Pok\u00e9mon hanno con s\u00e9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Llamas que golpean a los objetivos adyacentes. \nSi estos llevan bayas u otros objetos, estos se\nquemar\u00e1n y ya no se podr\u00e1n usar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Eine Feuer-Attacke. Tr\u00e4gt das Ziel eine Beere oder\nein \u00e4hnliches Item bei sich, wird dieses von den\nFlammen verzehrt und geht verloren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Des flammes calcinent l\u2019ennemi.\nS\u2019il tient un objet, une Baie par exemple, celui-ci\nest br\u00fbl\u00e9 et devient inutilisable.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u706b\u7130\u653b\u64ca\u5c0d\u624b\u3002\n\u80fd\u5920\u71d2\u6389\u5c0d\u624b\u651c\u5e36\u7684\u6a39\u679c\u7b49\u9053\u5177\uff0c\n\u8b93\u5c0d\u624b\u7121\u6cd5\u4f7f\u7528\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubd88\uaf43\uc73c\ub85c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4 \ub4f1\uc744 \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\ubd88\ud0dc\uc6cc\uc11c \uc4f8 \uc218 \uc5c6\uac8c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307b\u306e\u304a\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u307f\u306a\u3069\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u3082\u3084\u3057\u3066\u3000\u3064\u304b\u3048\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u708e\u3067\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u202f\u306a\u3069\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u71c3\u3084\u3057\u3066\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks opposing Pok\u00e9mon with fire.\nIf a Pok\u00e9mon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attacca i nemici che ha intorno con una fiammata.\nIl fuoco distrugger\u00e0 le bacche o alcuni tipi di\nstrumenti che i Pok\u00e9mon hanno con s\u00e9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Llamas que golpean a los objetivos adyacentes. \nSi estos llevan bayas u otros objetos, estos se\nquemar\u00e1n y ya no se podr\u00e1n usar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Eine Feuer-Attacke. Tr\u00e4gt das Ziel eine Beere\noder ein \u00e4hnliches Item bei sich, wird dieses\nvon den Flammen verzehrt und geht verloren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Des flammes calcinent l\u2019ennemi.\nS\u2019il tient un objet, une Baie par exemple, celui-ci\nest br\u00fbl\u00e9 et devient inutilisable.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubd88\uaf43\uc73c\ub85c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4 \ub4f1\uc744 \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\ubd88\ud0dc\uc6cc\uc11c \uc4f8 \uc218 \uc5c6\uac8c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u307b\u306e\u304a\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u202f\u306a\u3069\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u3082\u3084\u3057\u3066\u3000\u3064\u304b\u3048\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u708e\u3067\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u307f\u306a\u3069\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u71c3\u3084\u3057\u3066\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks opposing Pok\u00e9mon with fire.\nIf a Pok\u00e9mon is holding a certain item, such as a\nBerry, the item becomes burned up and unusable.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attacca i nemici che ha intorno con una fiammata.\nIl fuoco distrugger\u00e0 le bacche o alcuni tipi di\nstrumenti che i Pok\u00e9mon hanno con s\u00e9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Llamas que golpean a los objetivos adyacentes.\nSi estos llevan bayas u otros objetos, estos se\nquemar\u00e1n y ya no se podr\u00e1n usar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Eine Feuer-Attacke. Tr\u00e4gt das Ziel eine Beere\noder ein \u00e4hnliches Item bei sich, wird dieses\nvon den Flammen verzehrt und geht verloren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Des flammes calcinent l\u2019ennemi.\nS\u2019il tient un objet, une Baie par exemple, celui-ci\nest br\u00fbl\u00e9 et devient inutilisable.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubd88\uaf43\uc73c\ub85c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4 \ub4f1\uc744 \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\ubd88\ud0dc\uc6cc\uc11c \uc4f8 \uc218 \uc5c6\uac8c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u307b\u306e\u304a\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u307f\u306a\u3069\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u3082\u3084\u3057\u3066\u3000\u3064\u304b\u3048\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target with fire.\nIf the target is holding a Berry, the\nBerry becomes burnt up and unusable.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target with fire.\nIf the target is holding a Berry, the\nBerry becomes burnt up and unusable.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Des flammes calcinent l\u2019ennemi.\nS\u2019il tient une Baie, elle est\nbr\u00fbl\u00e9e et devient inutilisable.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 510,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/976/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/977/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/978/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/979/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "incinerate",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u70e7\u5c3d"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3084\u304d\u3064\u304f\u3059"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Incinerate"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Bruciatutto"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Calcinaci\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Ein\u00e4schern"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Calcination"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u71d2\u76e1"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubd88\ud0dc\uc6b0\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3084\u304d\u3064\u304f\u3059"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 30,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 60,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "all-opponents",
+        "url": "/api/v2/move-target/11/"
+    },
+    "type": {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+    }
+}

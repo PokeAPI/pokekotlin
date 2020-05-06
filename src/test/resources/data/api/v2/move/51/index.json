@@ -1,0 +1,669 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/4/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 10,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u5f3a\u9178\u6cfc\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u7279\u9632\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f37\u3044\u3000\u9178\u3092\u3000\u76f8\u624b\u306b\u3000\u304b\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are attacked with a spray of\nharsh acid. This may also lower their Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce i nemici intorno spruzzando un acido\ncorrosivo. Pu\u00f2 anche ridurne la Difesa Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Roc\u00eda a los enemigos con un \u00e1cido corrosivo. \nPuede bajar la Defensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Verspr\u00fcht \u00e4tzende Fl\u00fcssigkeit, die eventuell die\nSpezial-Verteidigung der Gegner in der N\u00e4he des\nAnwenders senkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque l\u2019ennemi avec un jet d\u2019acide\ncorrosif. Peut aussi baisser sa D\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5f37\u9178\u6f51\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u7279\u9632\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ud55c \uc0b0\uc744 \uc0c1\ub300\uc5d0\uac8c \ub07c\uc5b9\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3088\u3044\u3000\u3055\u3093\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304b\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u5f3a\u9178\u6cfc\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u7279\u9632\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f37\u3044\u3000\u9178\u3092\u3000\u76f8\u624b\u306b\u3000\u304b\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are attacked with a spray of\nharsh acid. This may also lower their Sp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce i nemici intorno spruzzando un acido\ncorrosivo. Pu\u00f2 anche ridurne la Difesa Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Roc\u00eda a los enemigos con un \u00e1cido corrosivo. \nPuede bajar la Defensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Verspr\u00fcht \u00e4tzende Fl\u00fcssigkeit, die eventuell die\nSpezial-Verteidigung der Gegner in der N\u00e4he des\nAnwenders senkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque l\u2019ennemi avec un jet d\u2019acide\ncorrosif. Peut aussi baisser sa D\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5f37\u9178\u6f51\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u7279\u9632\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ud55c \uc0b0\uc744 \uc0c1\ub300\uc5d0\uac8c \ub07c\uc5b9\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3088\u3044\u3000\u3055\u3093\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304b\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f37\u3044\u3000\u9178\u3092\u3000\u76f8\u624b\u306b\u3000\u304b\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are attacked\nwith a spray of harsh acid. This may\nalso lower their Sp. Def stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce i nemici intorno spruzzando un acido\ncorrosivo. Pu\u00f2 anche ridurne la Difesa Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Roc\u00eda a los enemigos con un \u00e1cido corrosivo. \nPuede bajar la Defensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Verspr\u00fcht \u00e4tzende Fl\u00fcssigkeit, die eventuell\ndie Spezial-Verteidigung der Gegner in der\nN\u00e4he des Anwenders senkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque l\u2019ennemi avec un jet d\u2019acide\ncorrosif. Peut aussi baisser sa D\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ud55c \uc0b0\uc744 \uc0c1\ub300\uc5d0\uac8c \ub07c\uc5b9\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3088\u3044\u3000\u3055\u3093\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304b\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5f37\u3044\u3000\u9178\u3092\u3000\u76f8\u624b\u306b\u3000\u304b\u3051\u3066\n\u653b\u6483\u3059\u308b\u3002\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are attacked\nwith a spray of harsh acid. This may\nalso lower their Sp. Def stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce i nemici intorno spruzzando un acido\ncorrosivo. Pu\u00f2 anche ridurne la Difesa Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Roc\u00eda a los enemigos con un \u00e1cido corrosivo.\nPuede bajar la Defensa Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Verspr\u00fcht \u00e4tzende Fl\u00fcssigkeit, die eventuell\ndie Spezial-Verteidigung der Gegner in der\nN\u00e4he des Anwenders senkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque l\u2019ennemi avec un jet d\u2019acide\ncorrosif. Peut aussi baisser sa D\u00e9fense Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ud55c \uc0b0\uc744 \uc0c1\ub300\uc5d0\uac8c \ub07c\uc5b9\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3088\u3044\u3000\u3055\u3093\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304b\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The opposing team is attacked with a spray\nof harsh acid. The acid may also lower\nthe targets\u2019 Sp. Def stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The opposing team is attacked with a spray\nof harsh acid. The acid may also lower\nthe targets\u2019 Sp. Def stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque l\u2019ennemi avec un jet\nd\u2019acide corrosif. Peut aussi baisser\nla D\u00e9fense Sp\u00e9ciale de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a spray of harsh\nacid. It may also\nlower the target\u2019s\nSp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a spray of harsh\nacid. It may also\nlower the target\u2019s\nSp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a spray of harsh\nacid. It may also\nlower the target\u2019s\nSp. Def stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is sprayed\nwith a harsh, hide-\nmelting acid that\nmay lower DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Sprays a hide-melting acid.\nMay lower DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Sprays a hide-melting acid.\nMay lower DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\nlower DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\nlower DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 51,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage+lower",
+            "url": "/api/v2/move-category/6/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 10
+    },
+    "name": "acid",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6eb6\u89e3\u6db2"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3088\u3046\u304b\u3044\u3048\u304d"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Acid"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Acido"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "\u00c1cido"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "S\u00e4ure"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Acide"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6eb6\u89e3\u6db2"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc6a9\ud574\uc561"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3088\u3046\u304b\u3044\u3048\u304d"
+        }
+    ],
+    "past_values": [],
+    "power": 40,
+    "pp": 30,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": -1,
+            "stat": {
+                "name": "special-defense",
+                "url": "/api/v2/stat/5/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/5/"
+    },
+    "target": {
+        "name": "all-opponents",
+        "url": "/api/v2/move-target/11/"
+    },
+    "type": {
+        "name": "poison",
+        "url": "/api/v2/type/4/"
+    }
+}

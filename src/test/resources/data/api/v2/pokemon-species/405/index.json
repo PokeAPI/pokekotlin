@@ -1,0 +1,718 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/209/"
+    },
+    "evolves_from_species": {
+        "name": "luxio",
+        "url": "/api/v2/pokemon-species/404/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u30ec\u30f3\u30c8\u30e9\u30fc\u306e\u3000\u900f\u8996\u80fd\u529b\u306f\n\u5371\u967a\u306a\u3000\u3082\u306e\u3092\u3000\u767a\u898b\u3059\u308b\u3068\u304d\n\u3068\u3066\u3082\u3000\u5f79\u306b\u7acb\u3064\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Luxray\u2019s ability to see through objects comes in\nhandy when it\u2019s scouting for danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019abilit\u00e0 radioscopica di Luxray si rivela utile quando gli fa\nscoprire oggetti pericolosi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "La potente visi\u00f3n de Luxray resulta extremadamente valiosa\ncuando acecha el peligro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Beim Aufsp\u00fcren von Gefahren sind Luxtras hellseherische\nF\u00e4higkeiten \u00e4u\u00dferst hilfreich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sa capacit\u00e9 \u00e0 voir \u00e0 travers tout est tr\u00e8s utile pour d\u00e9tecter\nles moindres dangers.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub80c\ud2b8\ub77c\uc758 \ud22c\uc2dc \ub2a5\ub825\uc740\n\uc704\ud5d8\ud55c \uac83\uc744 \ubc1c\uacac\ud560 \ub54c\n\ub9e4\uc6b0 \ub3c4\uc6c0\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30ec\u30f3\u30c8\u30e9\u30fc\u306e\u3000\u3068\u3046\u3057\u3000\u306e\u3046\u308a\u3087\u304f\u306f\n\u304d\u3051\u3093\u306a\u3000\u3082\u306e\u3092\u3000\u306f\u3063\u3051\u3093\u3059\u308b\u3000\u3068\u304d\n\u3068\u3066\u3082\u3000\u3084\u304f\u306b\u3000\u305f\u3064\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u77b3\u304c\u3000\u91d1\u8272\u306b\u3000\u5149\u308b\u3068\u304d\n\u58c1\u306e\u3000\u5411\u3053\u3046\u306b\u3000\u96a0\u308c\u3066\u3044\u308b\n\u7372\u7269\u3092\u3000\u898b\u3064\u3051\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "When its eyes gleam gold, it can spot hiding\nprey\u2014even those taking shelter behind a wall.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Se i suoi occhi sono dorati, pu\u00f2 individuare le prede,\nanche quelle che si nascondono dietro i muri.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Cuando sus ojos brillan como el oro, puede ver presas\nescondidas, incluso detr\u00e1s de un muro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Leuchten seine Augen golden auf, kann es Beute, die sich\nversteckt, sehen. Es kann durch W\u00e4nde sehen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Quand ses yeux se dorent, il peut rep\u00e9rer une proie cach\u00e9e,\nm\u00eame si elle est derri\u00e8re un mur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\ub3d9\uc790\uac00 \uae08\uc0c9\uc73c\ub85c \ube5b\ub0a0 \ub54c\n\ubcbd\uc758 \uc800\ud3b8\uc5d0 \uc228\uc5b4 \uc788\ub294\n\uba39\uc774\ub97c \ucc3e\uc544\ub0bc \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3068\u202f\u304c\u3000\u304d\u3093\u3044\u308d\u306b\u3000\u3072\u304b\u308b\u3068\u304d\n\u30ab\u30d9\u306e\u3000\u3080\u3053\u3046\u306b\u3000\u304b\u304f\u308c\u3066\u3044\u308b\n\u3048\u3082\u306e\u3092\u3000\u202f\u3064\u3051\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30ec\u30f3\u30c8\u30e9\u30fc\u306e\u3000\u900f\u8996\u80fd\u529b\u306f\n\u5371\u967a\u306a\u3000\u3082\u306e\u3092\u3000\u767a\u898b\u3059\u308b\u3068\u304d\n\u3068\u3066\u3082\u3000\u5f79\u306b\u7acb\u3064\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Luxray\u2019s ability to see through objects comes in\nhandy when it\u2019s scouting for danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019abilit\u00e0 radioscopica di Luxray si rivela utile\nquando gli fa scoprire oggetti pericolosi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "La potente visi\u00f3n de Luxray resulta extremadamente\nvaliosa cuando acecha el peligro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Beim Aufsp\u00fcren von Gefahren sind Luxtras\nhellseherische F\u00e4higkeiten \u00e4u\u00dferst hilfreich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sa capacit\u00e9 \u00e0 voir \u00e0 travers tout est tr\u00e8s utile pour\nd\u00e9tecter les moindres dangers.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub80c\ud2b8\ub77c\uc758 \ud22c\uc2dc \ub2a5\ub825\uc740\n\uc704\ud5d8\ud55c \uac83\uc744 \ubc1c\uacac\ud560 \ub54c\n\ub9e4\uc6b0 \ub3c4\uc6c0\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30ec\u30f3\u30c8\u30e9\u30fc\u306e\u3000\u3068\u3046\u3057\u3000\u306e\u3046\u308a\u3087\u304f\u306f\n\u304d\u3051\u3093\u306a\u3000\u3082\u306e\u3092\u3000\u306f\u3063\u3051\u3093\u3059\u308b\u3000\u3068\u304d\n\u3068\u3066\u3082\u3000\u3084\u304f\u306b\u3000\u305f\u3064\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u77b3\u304c\u3000\u91d1\u8272\u306b\u3000\u5149\u308b\u3068\u304d\n\u58c1\u306e\u3000\u5411\u3053\u3046\u306b\u3000\u96a0\u308c\u3066\u3044\u308b\n\u7372\u7269\u3092\u3000\u898b\u3064\u3051\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When its eyes gleam gold, it can spot hiding\nprey--even those taking shelter behind a wall.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se i suoi occhi sono dorati, pu\u00f2 individuare le prede,\nanche quelle che si nascondono dietro i muri.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Cuando sus ojos brillan como el oro, puede ver presas\nescondidas, incluso detr\u00e1s de un muro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Leuchten seine Augen golden auf, kann es Beute,\ndie sich versteckt, sehen. Es kann durch W\u00e4nde sehen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Quand ses yeux se dorent, il peut rep\u00e9rer une proie\ncach\u00e9e, m\u00eame si elle est derri\u00e8re un mur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\ub3d9\uc790\uac00 \uae08\uc0c9\uc73c\ub85c \ube5b\ub0a0 \ub54c\n\ubcbd\uc758 \uc800\ud3b8\uc5d0 \uc228\uc5b4 \uc788\ub294\n\uba39\uc774\ub97c \ucc3e\uc544\ub0bc \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3068\u307f\u304c\u3000\u304d\u3093\u3044\u308d\u306b\u3000\u3072\u304b\u308b\u3068\u304d\n\u30ab\u30d9\u306e\u3000\u3080\u3053\u3046\u306b\u3000\u304b\u304f\u308c\u3066\u3044\u308b\n\u3048\u3082\u306e\u3092\u3000\u307f\u3064\u3051\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It can see clearly through walls\nto track down its prey and seek\nits lost young.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It can see clearly through walls\nto track down its prey and seek\nits lost young.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It can see clearly through walls\nto track down its prey and seek\nits lost young.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il est capable de voir \u00e0 travers\nles murs pour chasser des proies\nou retrouver ses petits \u00e9gar\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It can see clearly through walls\nto track down its prey and seek\nits lost young.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il est capable de voir \u00e0 travers\nles murs pour chasser des proies\nou retrouver ses petits \u00e9gar\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "LUXRAY\u2019s ability to see through\nobjects comes in handy when it\u2019s\nscouting for danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "LUXRAY\u2019s ability to see through\nobjects comes in handy when it\u2019s\nscouting for danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It can see clearly through walls\nto track down its prey and seek\nits lost young.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "When its eyes gleam gold, it can\nspot hiding prey--even those\ntaking shelter behind a wall.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has eyes that can see through\nanything. It spots and captures\nprey hiding behind objects.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u76ee\u5149\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u304c\u3093\u3053\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Gleam Eyes Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Occhiluce",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Chispa Ojos",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Gl\u00fchauge",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Brill\u0153il",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u76ee\u5149\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc548\uad11\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u304c\u3093\u3053\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": null,
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 405,
+    "is_baby": false,
+    "name": "luxray",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u4f26\u7434\u732b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ec\u30f3\u30c8\u30e9\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Luxray"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Luxray"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Luxray"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Luxtra"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Luxray"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u502b\u7434\u8c93"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub80c\ud2b8\ub77c"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Rentorar"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ec\u30f3\u30c8\u30e9\u30fc"
+        }
+    ],
+    "order": 435,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 36,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 19,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 19,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 405,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "luxray",
+                "url": "/api/v2/pokemon/405/"
+            }
+        }
+    ]
+}

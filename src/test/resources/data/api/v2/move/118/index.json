@@ -1,0 +1,696 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/17/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Can call any move except for struggle and itself.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Selects any move at random and uses it.  Moves the user already knows are not eligible.  Assist, meta, protection, and reflection moves are also not eligible; specifically, assist, chatter, copycat, counter, covet, destiny bond, detect, endure, feint, focus punch, follow me, helping hand, me first, metronome, mimic, mirror coat, mirror move, protect, quick guard, sketch, sleep talk, snatch, struggle, switcheroo, thief, trick, and wide guard will not be selected by this move.\n\nThis move cannot be copied by mimic or mirror move, nor selected by assist, metronome, or sleep talk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Randomly selects and uses any move in the game."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6325\u52a8\u624b\u6307\u523a\u6fc0\u81ea\u5df1\u7684\u5927\u8111\uff0c\n\u4ece\u6240\u6709\u7684\u62db\u5f0f\u4e2d\n\u4efb\u610f\u4f7f\u51fa\uff11\u4e2a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6307\u3092\u3075\u308a\u3000\u81ea\u5206\u306e\u3000\u8133\u3092\u3000\u523a\u6fc0\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u6280\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a finger and stimulates its brain\ninto randomly using nearly any move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa di no con il dito e stimola il cervello\na usare a caso una delle tante mosse esistenti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "El usuario mueve un dedo y estimula su cerebro \npara usar al azar casi cualquier movimiento.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Bewegt Finger, um das Gehirn zu stimulieren.\nW\u00e4hlt zuf\u00e4llig eine Attacke aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur agite un doigt et stimule son cerveau pour\nutiliser presque n\u2019importe quelle capacit\u00e9 au hasard.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u63ee\u52d5\u624b\u6307\u523a\u6fc0\u81ea\u5df1\u7684\u5927\u8166\uff0c\n\u5f9e\u5168\u90e8\u7684\u62db\u5f0f\u4e2d\n\u96a8\u6a5f\u9078\u51fa\uff11\u62db\u4f7f\u51fa\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc190\uac00\ub77d\uc744 \ud754\ub4e4\uc5b4 \uc790\uc2e0\uc758 \ub1cc\ub97c\n\uc790\uadf9\ud574\uc11c \ubaa8\ub4e0 \uae30\uc220 \uc911\n\uc5b4\ub290 \ud558\ub098\ub97c \ub0a0\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3086\u3073\u3092\u3075\u308a\u3000\u3058\u3076\u3093\u306e\u3000\u306e\u3046\u3092\u3000\u3057\u3052\u304d\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u308f\u3056\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6325\u52a8\u624b\u6307\u523a\u6fc0\u81ea\u5df1\u7684\u5927\u8111\uff0c\n\u4ece\u6240\u6709\u7684\u62db\u5f0f\u4e2d\n\u4efb\u610f\u4f7f\u51fa\uff11\u4e2a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6307\u3092\u3075\u308a\u3000\u81ea\u5206\u306e\u3000\u8133\u3092\u3000\u523a\u6fc0\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u6280\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a finger and stimulates its brain\ninto randomly using nearly any move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa di no con il dito e stimola il cervello\na usare a caso una delle tante mosse esistenti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "El usuario mueve un dedo y estimula su cerebro \npara usar al azar casi cualquier movimiento.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Bewegt Finger, um das Gehirn zu stimulieren.\nW\u00e4hlt zuf\u00e4llig eine Attacke aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur agite un doigt et stimule son cerveau pour\nutiliser presque n\u2019importe quelle capacit\u00e9 au hasard.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u63ee\u52d5\u624b\u6307\u523a\u6fc0\u81ea\u5df1\u7684\u5927\u8166\uff0c\n\u5f9e\u5168\u90e8\u7684\u62db\u5f0f\u4e2d\n\u96a8\u6a5f\u9078\u51fa\uff11\u62db\u4f7f\u51fa\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc190\uac00\ub77d\uc744 \ud754\ub4e4\uc5b4 \uc790\uc2e0\uc758 \ub1cc\ub97c\n\uc790\uadf9\ud574\uc11c \ubaa8\ub4e0 \uae30\uc220 \uc911\n\uc5b4\ub290 \ud558\ub098\ub97c \ub0a0\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3086\u3073\u3092\u3075\u308a\u3000\u3058\u3076\u3093\u306e\u3000\u306e\u3046\u3092\u3000\u3057\u3052\u304d\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u308f\u3056\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6307\u3092\u3075\u308a\u3000\u81ea\u5206\u306e\u3000\u8133\u3092\u3000\u523a\u6fc0\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u6280\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a finger and stimulates\nits brain into randomly using nearly\nany move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa di no con il dito e stimola il cervello\na usare a caso una delle tante mosse esistenti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El usuario mueve un dedo y estimula su cerebro \npara usar al azar casi cualquier movimiento.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Bewegt Finger, um das Gehirn zu stimulieren.\nW\u00e4hlt zuf\u00e4llig eine Attacke aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Agite un doigt et stimule le cerveau pour utiliser\npresque n\u2019importe quelle capacit\u00e9 au hasard.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc190\uac00\ub77d\uc744 \ud754\ub4e4\uc5b4 \uc790\uc2e0\uc758 \ub1cc\ub97c\n\uc790\uadf9\ud574\uc11c \ubaa8\ub4e0 \uae30\uc220 \uc911\n\uc5b4\ub290 \ud558\ub098\ub97c \ub0a0\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3086\u3073\u3092\u3075\u308a\u3000\u3058\u3076\u3093\u306e\u3000\u306e\u3046\u3092\u3000\u3057\u3052\u304d\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u308f\u3056\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6307\u3092\u3075\u308a\u3000\u81ea\u5206\u306e\u3000\u8133\u3092\u3000\u523a\u6fc0\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u6280\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a finger and stimulates\nits brain into randomly using nearly\nany move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa di no con il dito e stimola il cervello\na usare a caso una delle tante mosse esistenti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El usuario mueve un dedo y estimula su cerebro\npara usar al azar casi cualquier movimiento.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Bewegt Finger, um das Gehirn zu stimulieren.\nW\u00e4hlt zuf\u00e4llig eine Attacke aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Agite un doigt et stimule le cerveau pour utiliser\npresque n\u2019importe quelle capacit\u00e9 au hasard.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc190\uac00\ub77d\uc744 \ud754\ub4e4\uc5b4 \uc790\uc2e0\uc758 \ub1cc\ub97c\n\uc790\uadf9\ud574\uc11c \ubaa8\ub4e0 \uae30\uc220 \uc911\n\uc5b4\ub290 \ud558\ub098\ub97c \ub0a0\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3086\u3073\u3092\u3075\u308a\u3000\u3058\u3076\u3093\u306e\u3000\u306e\u3046\u3092\u3000\u3057\u3052\u304d\u3057\u3066\n\u3059\u3079\u3066\u306e\u3000\u308f\u3056\u306e\u3000\u306a\u304b\u304b\u3089\n\u3069\u308c\u304b\u3000\uff11\u3064\u3092\u3000\u304f\u308a\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a finger and stimulates\nits brain into randomly using nearly\nany move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a finger and stimulates\nits brain into randomly using nearly\nany move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Agite un doigt et stimule le cerveau\npour utiliser presque n\u2019importe\nquelle capacit\u00e9 au hasard.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a\nfinger and stimulates\nthe brain into\nrandomly using nearly\nany move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a\nfinger and stimulates\nthe brain into\nrandomly using nearly\nany move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user waggles a\nfinger and stimulates\nthe brain into\nrandomly using nearly\nany move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Waggles a finger\nand stimulates the\nbrain into using any\nmove at random.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Waggles a finger to use any\nPOK\u00e9MON move at random.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Waggles a finger to use any\nPOK\u00e9MON move at random.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Randomly uses any\nPOK\u00e9MON move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Randomly uses any\nPOK\u00e9MON move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 118,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/613/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/614/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "metronome",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6325\u6307"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3086\u3073\u3092\u3075\u308b"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Metronome"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Metronomo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Metr\u00f3nomo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Metronom"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "M\u00e9tronome"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u63ee\u6307"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc190\uac00\ub77d\ud754\ub4e4\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3086\u3073\u3092\u3075\u308b"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/14/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

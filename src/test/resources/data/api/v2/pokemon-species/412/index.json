@@ -1,0 +1,723 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "bug",
+            "url": "/api/v2/egg-group/3/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/213/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6226\u3044\u3067\u3000\u30df\u30ce\u304c\u3000\u58ca\u308c\u3066\u3057\u307e\u3046\u3068\n\u8fd1\u304f\u306b\u3042\u308b\u3000\u6750\u6599\u3067\n\u30df\u30ce\u3092\u3000\u3059\u3050\u306b\u3000\u4f5c\u308a\u76f4\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "If its cloak is broken in battle, it quickly remakes\nthe cloak with materials nearby.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Se il suo manto si rompe mentre lotta, lo rif\u00e0 velocemente con\nci\u00f2 che trova attorno a s\u00e9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Si su caparaz\u00f3n se rompe en combate, lo rehace r\u00e1pidamente\ncon lo que tenga a mano.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Wird sein Umhang im Kampf zerst\u00f6rt, macht es sich schnell\naus dem, was es findet, einen neuen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il perd sa cape au combat, il en tisse rapidement\nune nouvelle avec ce qui lui tombe sous la main.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc2f8\uc6c0\uc73c\ub85c \ub3c4\ub871\uc774\uac00 \ubd80\uc11c\uc838 \ubc84\ub9ac\uba74\n\uac00\uae4c\uc774 \uc788\ub294 \uc7ac\ub8cc\ub85c\n\ub3c4\ub871\uc774\ub97c \ubc14\ub85c \ub9cc\ub4e4\uc5b4 \uace0\uce5c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u305f\u304b\u3044\u3067\u3000\u30df\u30ce\u304c\u3000\u3053\u308f\u308c\u3066\u3057\u307e\u3046\u3068\n\u3061\u304b\u304f\u306b\u3042\u308b\u3000\u3056\u3044\u308a\u3087\u3046\u3067\n\u30df\u30ce\u3092\u3000\u3059\u3050\u306b\u3000\u3064\u304f\u308a\u306a\u304a\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u51b7\u305f\u3044\u3000\u6728\u67af\u3089\u3057\u3092\u3000\u9632\u3050\u305f\u3081\n\u5c0f\u679d\u3084\u3000\u843d\u3061\u8449\u3092\u3000\u6750\u6599\u306b\n\u30df\u30ce\u3092\u3000\u4f5c\u308a\u3000\u4f53\u3092\u3000\u8986\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "To shelter itself from cold, wintry winds, it covers\nitself with a cloak made of twigs and leaves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Per ripararsi dal freddo e dai venti invernali si copre con un\nmanto fatto di rami e foglie.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Para protegerse de los vientos fr\u00edos invernales, se cubre con\nun caparaz\u00f3n de ramas y hojas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Um sich vor dem eisigen Winterwind zu sch\u00fctzen, legt es sich\nunter einen Umhang aus \u00c4sten und Laub.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pour se prot\u00e9ger des vents glac\u00e9s de l\u2019hiver, il s\u2019est tiss\u00e9\nune cape de feuilles et de brindilles.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ucc28\uac00\uc6b4 \ucd08\uaca8\uc6b8 \ubc14\ub78c\uc744 \ub9c9\uc73c\ub824\uace0\n\uc791\uc740 \uac00\uc9c0\ub098 \ub099\uc5fd\uc744 \uc7ac\ub8cc\ub85c\n\ub3c4\ub871\uc774\ub97c \ub9cc\ub4e4\uc5b4 \ubab8\uc744 \uac10\uc2fc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3081\u305f\u3044\u3000\u3053\u304c\u3089\u3057\u3092\u3000\u3075\u305b\u3050\u305f\u3081\n\u3053\u3048\u3060\u3084\u3000\u304a\u3061\u3070\u3092\u3000\u3056\u3044\u308a\u3087\u3046\u306b\n\u30df\u30ce\u3092\u3000\u3064\u304f\u308a\u3000\u304b\u3089\u3060\u3092\u3000\u304a\u304a\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6226\u3044\u3067\u3000\u30df\u30ce\u304c\u3000\u58ca\u308c\u3066\u3057\u307e\u3046\u3068\n\u8fd1\u304f\u306b\u3042\u308b\u3000\u6750\u6599\u3067\n\u30df\u30ce\u3092\u3000\u3059\u3050\u306b\u3000\u4f5c\u308a\u76f4\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "If its cloak is broken in battle, it quickly remakes\nthe cloak with materials nearby.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se il suo manto si rompe mentre lotta, lo rif\u00e0\nvelocemente con ci\u00f2 che trova attorno a s\u00e9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Si su caparaz\u00f3n se rompe en combate, lo rehace\nr\u00e1pidamente con lo que tenga a mano.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Wird sein Umhang im Kampf zerst\u00f6rt, macht es sich\nschnell aus dem, was es findet, einen neuen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il perd sa cape au combat, il en tisse rapidement\nune nouvelle avec ce qui lui tombe sous la main.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc2f8\uc6c0\uc73c\ub85c \ub3c4\ub871\uc774\uac00 \ubd80\uc11c\uc838 \ubc84\ub9ac\uba74\n\uac00\uae4c\uc774 \uc788\ub294 \uc7ac\ub8cc\ub85c\n\ub3c4\ub871\uc774\ub97c \ubc14\ub85c \ub9cc\ub4e4\uc5b4 \uace0\uce5c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u305f\u304b\u3044\u3067\u3000\u30df\u30ce\u304c\u3000\u3053\u308f\u308c\u3066\u3057\u307e\u3046\u3068\n\u3061\u304b\u304f\u306b\u3042\u308b\u3000\u3056\u3044\u308a\u3087\u3046\u3067\n\u30df\u30ce\u3092\u3000\u3059\u3050\u306b\u3000\u3064\u304f\u308a\u306a\u304a\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u51b7\u305f\u3044\u3000\u6728\u67af\u3089\u3057\u3092\u3000\u9632\u3050\u305f\u3081\n\u5c0f\u679d\u3084\u3000\u843d\u3061\u8449\u3092\u3000\u6750\u6599\u306b\n\u30df\u30ce\u3092\u3000\u4f5c\u308a\u3000\u4f53\u3092\u3000\u8986\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "To shelter itself from cold, wintry winds, it covers\nitself with a cloak made of twigs and leaves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Per ripararsi dal freddo e dai venti invernali si copre\ncon un manto fatto di rami e foglie.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Para protegerse de los vientos fr\u00edos invernales, se\ncubre con un caparaz\u00f3n de ramas y hojas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Um sich vor dem eisigen Winterwind zu sch\u00fctzen,\nlegt es sich unter einen Umhang aus \u00c4sten und Laub.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pour se prot\u00e9ger des vents glac\u00e9s de l\u2019hiver, il s\u2019est\ntiss\u00e9 une cape de feuilles et de brindilles.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ucc28\uac00\uc6b4 \ucd08\uaca8\uc6b8 \ubc14\ub78c\uc744 \ub9c9\uc73c\ub824\uace0\n\uc791\uc740 \uac00\uc9c0\ub098 \ub099\uc5fd\uc744 \uc7ac\ub8cc\ub85c\n\ub3c4\ub871\uc774\ub97c \ub9cc\ub4e4\uc5b4 \ubab8\uc744 \uac10\uc2fc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3081\u305f\u3044\u3000\u3053\u304c\u3089\u3057\u3092\u3000\u3075\u305b\u3050\u305f\u3081\n\u3053\u3048\u3060\u3084\u3000\u304a\u3061\u3070\u3092\u3000\u3056\u3044\u308a\u3087\u3046\u306b\n\u30df\u30ce\u3092\u3000\u3064\u304f\u308a\u3000\u304b\u3089\u3060\u3092\u3000\u304a\u304a\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Even if it is born where there are\nno cocooning materials, it somehow\nalways ends up with a cloak.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Even if it is born where there are\nno cocooning materials, it somehow\nalways ends up with a cloak.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Even if it is born where there are\nno cocooning materials, it somehow\nalways ends up with a cloak.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Nul ne sait comment il y parvient,\nmais il arrive toujours \u00e0 se former\nune cape, o\u00f9 qu\u2019il soit.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Even if it is born where there are\nno cocooning materials, it somehow\nalways ends up with a cloak.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Nul ne sait comment il y parvient,\nmais il arrive toujours \u00e0 se former\nune cape, o\u00f9 qu\u2019il soit.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It covers itself with a cloak to\nshelter from the cold. When it\u2019s\nhot, its cloak is thinner.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It covers itself with a cloak to\nshelter from the cold. When it\u2019s\nhot, its cloak is thinner.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Even if it is born where there are\nno cocooning materials, it somehow\nalways ends up with a cloak.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "If its cloak is broken in battle,\nit quickly remakes the cloak with\nmaterials nearby.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "To shelter itself from cold, wintry\nwinds, it covers itself with a cloak\nmade of twigs and leaves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [
+        {
+            "description": "Forms only affect appearance, although they become permanent upon evolution.  Wild and newly-hatched Burmy are always in a Plant Cloak.  Burmy's cloak changes to match the terrain after a battle it participated in: Plant Cloak by default; Sandy Cloak in sandy or rocky areas, such as beaches, caves, and trails; and Trash Cloak in buildings.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
+    "forms_switchable": true,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u84d1\u8863\u866b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u307f\u306e\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Bagworm Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Larva",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Larva",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Beutelwurm",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Ver Cach\u00e9",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u84d1\u8863\u87f2\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub3c4\ub871\uc774\ubc8c\ub808\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u307f\u306e\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 412,
+    "is_baby": false,
+    "name": "burmy",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7ed3\u8349\u513f"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30df\u30ce\u30e0\u30c3\u30c1"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Burmy"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Burmy"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Burmy"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Burmy"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Cheniti"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7d50\u8349\u5152"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub3c4\ub871\ucda9\uc774"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Minomucchi"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30df\u30ce\u30e0\u30c3\u30c1"
+        }
+    ],
+    "order": 440,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 44,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 45,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 45,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 412,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "blob",
+        "url": "/api/v2/pokemon-shape/5/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "burmy",
+                "url": "/api/v2/pokemon/412/"
+            }
+        }
+    ]
+}

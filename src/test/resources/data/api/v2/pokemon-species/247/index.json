@@ -1,0 +1,933 @@
+{
+    "base_happiness": 35,
+    "capture_rate": 45,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/126/"
+    },
+    "evolves_from_species": {
+        "name": "larvitar",
+        "url": "/api/v2/pokemon-species/246/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5b83\u662f\u4ee4\u4eba\u5934\u75db\u7684\u5b9d\u53ef\u68a6\u3002\n\u4e0d\u7b49\u8fdb\u5316\u5b8c\u6210\u5c31\u4f1a\u5229\u7528\u538b\u7f29\u6c14\u4f53\n\u56db\u5904\u4e71\u98de\u5927\u95f9\u6765\u7ebe\u89e3\u538b\u529b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u9032\u5316\u3092\u3000\u5f85\u3066\u305a\u3000\u5727\u7e2e\u30ac\u30b9\u3067\n\u98db\u3073\u307e\u308f\u308a\u3000\u66b4\u308c\u3066\u3000\u30b9\u30c8\u30ec\u30b9\u3092\n\u89e3\u6d88\u3059\u308b\u3000\u8ff7\u60d1\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "This troublesome Pok\u00e9mon can\u2019t wait to evolve,\nso it relieves its stress by wildly propelling itself\naround using compressed gas.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "In attesa dell\u2019evoluzione, sfoga la sua\nimpazienza svolazzando ovunque spinto dal gas\ncompresso che espelle, dando fastidio a tutti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon est\u00e1 impaciente por evolucionar\ny libera tensiones expulsando gas comprimido\ncon el que se propulsa. Un verdadero incordio.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es kann seine Entwicklung nicht erwarten und\nst\u00f6rt andere, wenn es zum Stressabbau mithilfe\nvon komprimiertem Gas durch die Luft zischt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Impatient d\u2019\u00e9voluer, il \u00e9vacue son stress en\nlib\u00e9rant des gaz sous haute pression qui le\nfont bondir dans tous les sens. Une vraie plaie\u202f!",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u7b49\u4e0d\u53ca\u9032\u5316\uff0c\u5c31\u6703\u7528\u58d3\u7e2e\u6c23\u9ad4\n\u56db\u8655\u4e82\u98db\u5927\u9b27\u4f86\u6292\u89e3\u58d3\u529b\uff0c\n\u662f\u7a2e\u4ee4\u4eba\u982d\u75db\u7684\u5bf6\u53ef\u5922\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c4\ud654\ub97c \uae30\ub2e4\ub9ac\uc9c0 \ubabb\ud558\uace0 \uc555\ucd95\uac00\uc2a4\ub85c\n\ub0a0\uc544\ub2e4\ub2c8\uba70 \ub0a0\ub6f0\uc5b4 \uc2a4\ud2b8\ub808\uc2a4\ub97c\n\ud574\uc18c\ud558\ub294 \uc131\uac00\uc2e0 \ud3ec\ucf13\ubaac.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3093\u304b\u3092\u3000\u307e\u3066\u305a\u3000\u3042\u3063\u3057\u3085\u304f\u30ac\u30b9\u3067\n\u3068\u3073\u307e\u308f\u308a\u3000\u3042\u3070\u308c\u3066\u3000\u30b9\u30c8\u30ec\u30b9\u3092\n\u304b\u3044\u3057\u3087\u3046\u3059\u308b\u3000\u3081\u3044\u308f\u304f\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u3067\u3000\u3064\u304f\u308a\u3060\u3057\u305f\u3000\u30ac\u30b9\u3092\u3000\u5727\u7e2e\u3057\u3066\n\u52e2\u3044\u3088\u304f\u3000\u5674\u5c04\u3059\u308b\u3000\u3053\u3068\u3067\u3000\u98db\u3093\u3067\u3044\u304f\u3002\n\u92fc\u9244\u306b\u3000\u3076\u3064\u304b\u3063\u3066\u3082\u3000\u5e73\u6c17\u306a\u3000\u30dc\u30c7\u30a3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pupitar creates a gas inside its body that it compresses and\nforcefully ejects to propel itself like a jet. The body is very\ndurable\u2014it avoids damage even if it hits solid steel.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "All\u2019interno del suo corpo Pupitar genera un gas che comprime\ned espelle con forza come il propulsore di un jet. Il suo corpo\n\u00e8 estremamente resistente, anche in caso di impatto con\nacciaio massiccio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pupitar crea un gas en su interior que comprime y expulsa\nviolentamente a modo de autopropulsi\u00f3n. Tiene un cuerpo\nresistente que se mantiene inalterable hasta cuando se golpea\ncontra duro acero.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pupitar erzeugt in seinem K\u00f6rper ein Gas, das es komprimiert\nund kraftvoll ausst\u00f6\u00dft, um sich wie ein D\u00fcsenflugzeug\nanzutreiben. Sein K\u00f6rper ist robust und h\u00e4lt auch Angriffen mit\nmassivem Stahl stand.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ymphect cr\u00e9e un gaz dans son corps qu\u2019il comprime\npuissamment pour se propulser, comme un avion \u00e0 r\u00e9action.\nSon corps est tr\u00e8s solide. Il ne l\u2019endommage pas,\nm\u00eame lorsqu\u2019il frappe de l\u2019acier tremp\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc5d0\uc11c \ub9cc\ub4e4\uc5b4\ub0b8 \uac00\uc2a4\ub97c \uc555\ucd95\ud558\uc5ec\n\uae30\uc6b4\ucc28\uac8c \ubd84\uc0ac\ud574\uc11c \ub0a0\uc544\uac04\ub2e4.\n\uac15\ucca0\uc5d0 \ubd80\ub52a\ud600\ub3c4 \uba40\uca61\ud55c \ubab8\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u3067\u3000\u3064\u304f\u308a\u3060\u3057\u305f\u3000\u30ac\u30b9\u3092\u3000\u3042\u3063\u3057\u3085\u304f\u3057\u3066\n\u3044\u304d\u304a\u3044\u3088\u304f\u3000\u3075\u3093\u3057\u3083\u3059\u308b\u3000\u3053\u3068\u3067\u3000\u3068\u3093\u3067\u3044\u304f\u3002\n\u3053\u3046\u3066\u3064\u306b\u3000\u3076\u3064\u304b\u3063\u3066\u3082\u3000\u3078\u3044\u304d\u306a\u3000\u30dc\u30c7\u30a3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u3067\u3000\u3064\u304f\u308a\u3060\u3057\u305f\u3000\u30ac\u30b9\u3092\u3000\u5727\u7e2e\u3057\u3066\n\u52e2\u3044\u3088\u304f\u3000\u5674\u5c04\u3059\u308b\u3000\u3053\u3068\u3067\u3000\u98db\u3093\u3067\u3044\u304f\u3002\n\u92fc\u9244\u306b\u3000\u3076\u3064\u304b\u3063\u3066\u3082\u3000\u5e73\u6c17\u306a\u3000\u30dc\u30c7\u30a3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pupitar creates a gas inside its body that it compresses and\nforcefully ejects to propel itself like a jet. The body is very\ndurable\u2014it avoids damage even if it hits solid steel.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "All\u2019interno del suo corpo Pupitar genera un gas che comprime\ned espelle con forza come il propulsore di un jet. Il suo corpo\n\u00e8 estremamente resistente, anche in caso di impatto con\nacciaio massiccio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pupitar crea un gas en su interior que comprime y expulsa\nviolentamente a modo de autopropulsi\u00f3n. Tiene un cuerpo\nresistente que se mantiene inalterable hasta cuando se golpea\ncontra duro acero.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pupitar erzeugt in seinem K\u00f6rper ein Gas, das es komprimiert\nund kraftvoll ausst\u00f6\u00dft, um sich wie ein D\u00fcsenflugzeug\nanzutreiben. Sein K\u00f6rper ist sehr robust und er h\u00e4lt auch\nmassivem Stahl stand.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ymphect cr\u00e9e un gaz dans son corps qu\u2019il comprime\npuissamment pour se propulser, comme un avion \u00e0 r\u00e9action.\nSon corps est tr\u00e8s solide. Il ne l\u2019endommage pas,\nm\u00eame lorsqu\u2019il frappe de l\u2019acier tremp\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc5d0\uc11c \ub9cc\ub4e4\uc5b4\ub0b8 \uac00\uc2a4\ub97c \uc555\ucd95\ud558\uc5ec\n\uae30\uc6b4\ucc28\uac8c \ubd84\uc0ac\ud574\uc11c \ub0a0\uc544\uac04\ub2e4.\n\uac15\ucca0\uc5d0 \ubd80\ub52a\ud600\ub3c4 \uba40\uca61\ud55c \ubab8\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u3067\u3000\u3064\u304f\u308a\u3060\u3057\u305f\u3000\u30ac\u30b9\u3092\u3000\u3042\u3063\u3057\u3085\u304f\u3057\u3066\n\u3044\u304d\u304a\u3044\u3088\u304f\u3000\u3075\u3093\u3057\u3083\u3059\u308b\u3000\u3053\u3068\u3067\u3000\u3068\u3093\u3067\u3044\u304f\u3002\n\u3053\u3046\u3066\u3064\u306b\u3000\u3076\u3064\u304b\u3063\u3066\u3082\u3000\u3078\u3044\u304d\u306a\u3000\u30dc\u30c7\u30a3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5ca9\u76e4\u306e\u3088\u3046\u306a\u3000\u786c\u3044\u3000\u6bbb\u306b\n\u8986\u308f\u308c\u3066\u3044\u308b\u304c\u3000\u529b\u306f\u3000\u5f37\u304f\n\u66b4\u308c\u308b\u3068\u3000\u5c71\u3082\u3000\u5d29\u308c\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Its shell is as hard as sheet rock, and it is also very\nstrong. Its thrashing can topple a mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Fortissimo e con un guscio duro come roccia.\nHa un Colpo capace di abbattere una montagna.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Su caparaz\u00f3n es duro como una piedra y muy\nresistente. Su Golpe puede derribar monta\u00f1as.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es ist sehr stark und sein Panzer ist steinhart. Setzt es\nFuchtler ein, kann es einen Berg umst\u00fcrzen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sa carapace est aussi dure que la pierre et il est tr\u00e8s\nfort. Ses coups peuvent raser une montagne.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc554\ubc18 \uac19\uc740 \ub2e8\ub2e8\ud55c \uaecd\uc9c8\ub85c\n\ub458\ub7ec\uc2f8\uc5ec \uc788\uc9c0\ub9cc \ud798\uc774 \uac15\ud574\uc11c\n\ub09c\ub3d9\uc744 \ubd80\ub9ac\uba74 \uc0b0\ub3c4 \ubb34\ub108\uc838\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304c\u3093\u3070\u3093\u306e\u3088\u3046\u306a\u3000\u304b\u305f\u3044\u3000\u30ab\u30e9\u306b\n\u304a\u304a\u308f\u308c\u3066\u3044\u308b\u304c\u3000\u3061\u304b\u3089\u306f\u3000\u3064\u3088\u304f\n\u3042\u3070\u308c\u308b\u3068\u3000\u3084\u307e\u3082\u3000\u304f\u305a\u308c\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5ca9\u76e4\u306e\u3088\u3046\u306a\u3000\u786c\u3044\u3000\u4f53\u3002\n\u5727\u7e2e\u3057\u305f\u3000\u30ac\u30b9\u3092\u3000\u5674\u5c04\u3057\u3066\n\u307e\u308b\u3067\u3000\u30ed\u30b1\u30c3\u30c8\u306e\u3088\u3046\u306b\u3000\u98db\u3073\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its body is as hard as bedrock. By venting\npressurized gas, it can launch itself like a rocket.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il suo corpo \u00e8 duro come la roccia. Riesce a muoversi\ncome un razzo espellendo gas con tutta la sua forza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Su cuerpo es duro como la roca. Se autopropulsa\ncomo un cohete soltando los gases de su interior.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sein K\u00f6rper ist hart wie Fels. Es l\u00e4sst mit\nHochdruck Gas ab, um wie eine Rakete nach\noben zu schie\u00dfen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Son corps est dur comme la pierre souterraine.\nIl file comme une fus\u00e9e en expulsant des gaz.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc554\ubc18 \uac19\uc740 \ub2e8\ub2e8\ud55c \ubab8\uc774\ub2e4.\n\uc555\ucd95\ud55c \uac00\uc2a4\ub97c \ubd84\uc0ac\ud574\uc11c\n\ub9c8\uce58 \ub85c\ucf13\uac19\uc774 \ub0a0\uc544\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304c\u3093\u3070\u3093\u306e\u3088\u3046\u306a\u3000\u304b\u305f\u3044\u3000\u304b\u3089\u3060\u3002\n\u3042\u3063\u3057\u3085\u304f\u3057\u305f\u3000\u30ac\u30b9\u3092\u3000\u3075\u3093\u3057\u3083\u3057\u3066\n\u307e\u308b\u3067\u3000\u30ed\u30b1\u30c3\u30c8\u306e\u3088\u3046\u306b\u3000\u3068\u3073\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "This pupa flies around wildly\nby venting with great force the\ngas pressurized inside its body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "This pupa flies around wildly\nby venting with great force the\ngas pressurized inside its body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Its body is as hard as bedrock.\nBy venting pressurized gas, it can\nlaunch itself like a rocket.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Son corps est dur comme la pierre\nsouterraine. Il file comme une\nfus\u00e9e en expulsant des gaz.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Its body is as hard as bedrock.\nBy venting pressurized gas, it can\nlaunch itself like a rocket.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Son corps est dur comme la pierre\nsouterraine. Il file comme une\nfus\u00e9e en expulsant des gaz.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Even sealed in its shell, it can move\nfreely. Hard and fast, it has\noutstanding destructive power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its shell is as hard as sheet rock,\nand it is also very strong. Its\nthrashing can topple a mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Its body is as hard as bedrock.\nBy venting pressurized gas, it can\nlaunch itself like a rocket.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Its body is as hard as bedrock.\nBy venting pressurized gas, it can\nlaunch itself like a rocket.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Its body is as hard as bedrock.\nBy venting pressurized gas, it can\nlaunch itself like a rocket.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Its shell is as hard as sheet rock, and it\nis also very strong. Its THRASHING can\ntopple a mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Even sealed in its shell, it can move\nfreely. Hard and fast, it has outstanding\ndestructive power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A PUPITAR creates a gas inside its body\nthat it ejects under compression to propel\nitself like a jet. Its body can withstand\na collision with solid steel.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "PUPITAR creates a gas inside its body\nthat it compresses and forcefully\nejects to propel itself like a jet.\fThe body is very durable - it avoids\ndamage even if it hits solid steel.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "PUPITAR creates a gas inside its body\nthat it compresses and forcefully\nejects to propel itself like a jet.\fThe body is very durable - it avoids\ndamage even if it hits solid steel.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "It will not stay\nstill, even while\nit's a pupa. It\falready has arms\nand legs under its\nsolid shell.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "Even sealed in its\nshell, it can move\nfreely. Hard and\ffast, it has out\u00ad\nstanding destruc\u00ad\ntive power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Its shell is as\nhard as sheet\nrock, and it is\falso very strong.\nIts THRASHING can\ntopple a mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5b50\u5f39\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3060\u3093\u304c\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Hard Shell Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Guscioduro",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Caparaz\u00f3n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Hartschale",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Carapadure",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5b50\u5f48\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud0c4\ud658\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3060\u3093\u304c\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "mountain",
+        "url": "/api/v2/pokemon-habitat/4/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 40,
+    "id": 247,
+    "is_baby": false,
+    "name": "pupitar",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6c99\u57fa\u62c9\u65af"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b5\u30ca\u30ae\u30e9\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Pupitar"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Pupitar"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Pupitar"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Pupitar"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ymphect"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6c99\u57fa\u62c9\u65af"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub370\uae30\ub77c\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Sanagiras"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b5\u30ca\u30ae\u30e9\u30b9"
+        }
+    ],
+    "order": 272,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 103,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 80,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 293,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 250,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 245,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 247,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "squiggle",
+        "url": "/api/v2/pokemon-shape/2/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "pupitar",
+                "url": "/api/v2/pokemon/247/"
+            }
+        }
+    ]
+}

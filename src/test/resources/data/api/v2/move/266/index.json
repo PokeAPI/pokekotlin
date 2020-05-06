@@ -1,0 +1,661 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/24/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Until the end of this turn, any moves that opposing Pok\u00e9mon target solely at the user's ally will instead target the user.  If both Pok\u00e9mon on the same side of the field use this move on the same turn, the Pok\u00e9mon that uses it last will become the target.\n\nThis effect takes priority over lightning rod and storm drain.\n\nIf the user's ally switches out, opposing Pok\u00e9mon may still hit it with pursuit.\n\nThis move cannot be selected by assist or metronome.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Redirects the target's single-target effects to the user for this turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5f15\u8d77\u5bf9\u624b\u7684\u6ce8\u610f\uff0c\n\u5c06\u5bf9\u624b\u7684\u653b\u51fb\n\u5168\u90e8\u8f6c\u79fb\u5230\u81ea\u5df1\u8eab\u4e0a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306b\u3000\u6ce8\u76ee\u3055\u305b\u3066\n\u76f8\u624b\u304b\u3089\u306e\u3000\u653b\u6483\u3092\n\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user draws attention to itself, making all targets\ntake aim only at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione su di s\u00e9, costringendo \ni nemici a sceglierlo sempre come bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Llama la atenci\u00f3n para concentrar todos los\nataques de todos los del equipo rival hacia s\u00ed\nmismo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Zieht Aufmerksamkeit auf sich. Gegner greift nur\nAnwender an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attire l\u2019attention des ennemis pour les forcer \u00e0\nn\u2019attaquer que le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5438\u5f15\u5c0d\u624b\u7684\u6ce8\u610f\uff0c\n\u5c07\u5c0d\u624b\u7684\u653b\u64ca\n\u5168\u90e8\u8f49\u79fb\u5230\u81ea\u5df1\u8eab\u4e0a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc5d0\uac8c \uc8fc\ubaa9\uc2dc\ucf1c\n\uc0c1\ub300\ub85c\ubd80\ud130\uc758 \uacf5\uaca9\uc744\n\ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306b\u3000\u3061\u3085\u3046\u3082\u304f\u3000\u3055\u305b\u3066\n\u3042\u3044\u3066\u304b\u3089\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f15\u8d77\u5bf9\u624b\u7684\u6ce8\u610f\uff0c\n\u5c06\u5bf9\u624b\u7684\u653b\u51fb\n\u5168\u90e8\u8f6c\u79fb\u5230\u81ea\u5df1\u8eab\u4e0a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306b\u3000\u6ce8\u76ee\u3055\u305b\u3066\n\u76f8\u624b\u304b\u3089\u306e\u3000\u653b\u6483\u3092\n\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user draws attention to itself, making all targets\ntake aim only at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione su di s\u00e9, costringendo \ni nemici a sceglierlo sempre come bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Llama la atenci\u00f3n para concentrar todos los\nataques de todos los del equipo rival hacia s\u00ed\nmismo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Zieht Aufmerksamkeit auf sich. Gegner greift nur\nAnwender an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attire l\u2019attention des ennemis pour les forcer \u00e0\nn\u2019attaquer que le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5438\u5f15\u5c0d\u624b\u7684\u6ce8\u610f\uff0c\n\u5c07\u5c0d\u624b\u7684\u653b\u64ca\n\u5168\u90e8\u8f49\u79fb\u5230\u81ea\u5df1\u8eab\u4e0a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc5d0\uac8c \uc8fc\ubaa9\uc2dc\ucf1c\n\uc0c1\ub300\ub85c\ubd80\ud130\uc758 \uacf5\uaca9\uc744\n\ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306b\u3000\u3061\u3085\u3046\u3082\u304f\u3000\u3055\u305b\u3066\n\u3042\u3044\u3066\u304b\u3089\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306b\u3000\u6ce8\u76ee\u3055\u305b\u3066\n\u76f8\u624b\u304b\u3089\u306e\u3000\u653b\u6483\u3092\n\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione su di s\u00e9, costringendo \ni nemici a sceglierlo sempre come bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Llama la atenci\u00f3n para concentrar todos los\nataques de todos los del equipo rival hacia s\u00ed\nmismo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Zieht Aufmerksamkeit auf sich.\nGegner greift nur Anwender an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attire l\u2019attention des ennemis pour les forcer \u00e0\nn\u2019attaquer que le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc5d0\uac8c \uc8fc\ubaa9\uc2dc\ucf1c\n\uc0c1\ub300\ub85c\ubd80\ud130\uc758 \uacf5\uaca9\uc744\n\ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306b\u3000\u3061\u3085\u3046\u3082\u304f\u3000\u3055\u305b\u3066\n\u3042\u3044\u3066\u304b\u3089\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306b\u3000\u6ce8\u76ee\u3055\u305b\u3066\n\u76f8\u624b\u304b\u3089\u306e\u3000\u653b\u6483\u3092\n\u3059\u3079\u3066\u3000\u81ea\u5206\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attira l\u2019attenzione su di s\u00e9, costringendo\ni nemici a sceglierlo sempre come bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Llama la atenci\u00f3n para concentrar todos los\nataques de todos los del equipo rival hacia s\u00ed\nmismo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Zieht Aufmerksamkeit auf sich.\nGegner greift nur Anwender an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attire l\u2019attention des ennemis pour les forcer \u00e0\nn\u2019attaquer que le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc5d0\uac8c \uc8fc\ubaa9\uc2dc\ucf1c\n\uc0c1\ub300\ub85c\ubd80\ud130\uc758 \uacf5\uaca9\uc744\n\ubaa8\ub450 \uc790\uc2e0\uc5d0\uac8c \ud5a5\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306b\u3000\u3061\u3085\u3046\u3082\u304f\u3000\u3055\u305b\u3066\n\u3042\u3044\u3066\u304b\u3089\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u3059\u3079\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3080\u3051\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user draws attention to itself,\nmaking all targets take aim\nonly at the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Attire l\u2019attention. Les ennemis\nn\u2019attaquent que le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user draws\nattention to itself,\nmaking foes attack\nonly the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Draws attention to make\nfoes attack only the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Draws attention to make\nfoes attack only the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 266,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "follow-me",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u770b\u6211\u561b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3053\u306e\u3086\u3073\u3068\u307e\u308c"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Follow Me"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sonoqui"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Se\u00f1uelo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Spotlight"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Par Ici"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u770b\u6211\u561b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub0a0\ub530\ub984"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3053\u306e\u3086\u3073\u3068\u307e\u308c"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [
+                {
+                    "effect": "Inflicts regular damage.  Has a $effect_chance% chance to poison the target.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    },
+                    "short_effect": "Has a $effect_chance% chance to poison the target."
+                }
+            ],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 20,
+    "priority": 2,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/14/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

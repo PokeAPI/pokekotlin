@@ -1,0 +1,691 @@
+{
+    "accuracy": 75,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "charm",
+                    "url": "/api/v2/move/204/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/18/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Confuses the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Confuses the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u50cf\u5929\u4f7f\u822c\u53ef\u7231\u5730\u4eb2\u543b\u5bf9\u624b\uff0c\n\u4ece\u800c\u4f7f\u5bf9\u624b\u6df7\u4e71\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5929\u4f7f\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u76f8\u624b\u3092\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the target with a sweet, angelic\ncuteness that causes confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa bacia il bersaglio con una dolcezza\nangelica, confondendolo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Da un beso con tal dulzura que causa confusi\u00f3n. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender k\u00fcsst das Ziel, das durch diese\nNiedlichkeit verwirrt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie un bisou si mignon et d\u00e9sarmant\nqu\u2019il plonge l\u2019ennemi dans la confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u50cf\u5929\u4f7f\u822c\u53ef\u611b\u5730\u89aa\u543b\u5c0d\u624b\uff0c\n\u9032\u800c\u4f7f\u5c0d\u624b\u6df7\u4e82\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ucc9c\uc0ac\ucc98\ub7fc \uadc0\uc5fd\uac8c \ud0a4\uc2a4\ud558\uc5ec\n\uc0c1\ub300\ub97c \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3057\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u50cf\u5929\u4f7f\u822c\u53ef\u7231\u5730\u4eb2\u543b\u5bf9\u624b\uff0c\n\u4ece\u800c\u4f7f\u5bf9\u624b\u6df7\u4e71\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5929\u4f7f\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u76f8\u624b\u3092\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the target with a sweet, angelic\ncuteness that causes confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa bacia il bersaglio con una dolcezza\nangelica, confondendolo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Da un beso con tal dulzura que causa confusi\u00f3n. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender k\u00fcsst das Ziel, das durch diese\nNiedlichkeit verwirrt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie un bisou si mignon et d\u00e9sarmant\nqu\u2019il plonge l\u2019ennemi dans la confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u50cf\u5929\u4f7f\u822c\u53ef\u611b\u5730\u89aa\u543b\u5c0d\u624b\uff0c\n\u9032\u800c\u4f7f\u5c0d\u624b\u6df7\u4e82\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ucc9c\uc0ac\ucc98\ub7fc \uadc0\uc5fd\uac8c \ud0a4\uc2a4\ud558\uc5ec\n\uc0c1\ub300\ub97c \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3057\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5929\u4f7f\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u76f8\u624b\u3092\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the target with a sweet,\nangelic cuteness that causes confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa bacia il bersaglio con una dolcezza\nangelica, confondendolo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Da un beso con tal dulzura que causa confusi\u00f3n. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender k\u00fcsst das Ziel, das durch\ndiese Niedlichkeit verwirrt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie un bisou si mignon et d\u00e9sarmant\nqu\u2019il plonge l\u2019ennemi dans la confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ucc9c\uc0ac\ucc98\ub7fc \uadc0\uc5fd\uac8c \ud0a4\uc2a4\ud558\uc5ec\n\uc0c1\ub300\ub97c \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3057\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5929\u4f7f\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u76f8\u624b\u3092\u3000\u6df7\u4e71\u3055\u305b\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the target with a sweet,\nangelic cuteness that causes confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa bacia il bersaglio con una dolcezza\nangelica, confondendolo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Da un beso con tal dulzura que causa confusi\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender k\u00fcsst das Ziel, das durch\ndiese Niedlichkeit verwirrt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie un bisou si mignon et d\u00e9sarmant\nqu\u2019il plonge l\u2019ennemi dans la confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ucc9c\uc0ac\ucc98\ub7fc \uadc0\uc5fd\uac8c \ud0a4\uc2a4\ud558\uc5ec\n\uc0c1\ub300\ub97c \ud63c\ub780\uc2dc\ud0a8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3057\u306e\u3088\u3046\u306b\u3000\u304b\u308f\u3044\u304f\u3000\u30ad\u30b9\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u3053\u3093\u3089\u3093\u3000\u3055\u305b\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the target with a sweet,\nangelic cuteness that causes confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the target with a sweet,\nangelic cuteness that causes confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie un bisou si mignon\net d\u00e9sarmant qu\u2019il plonge l\u2019ennemi dans\nla confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the\nfoe with a sweet,\nangelic cuteness that\ncauses confusion.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the\nfoe with a sweet,\nangelic cuteness that\ncauses confusion.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses the\nfoe with a sweet,\nangelic cuteness that\ncauses confusion.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user kisses\nthe foe with sweet\ncuteness that\ncauses confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Demands a kiss with a cute\nlook. May cause confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Demands a kiss with a cute\nlook. May cause confusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A move that causes\nconfusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A move that causes\nconfusion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 186,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "confusion",
+            "url": "/api/v2/move-ailment/6/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "ailment",
+            "url": "/api/v2/move-category/1/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": 5,
+        "min_hits": null,
+        "min_turns": 2,
+        "stat_chance": 0
+    },
+    "name": "sweet-kiss",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5929\u4f7f\u4e4b\u543b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3066\u3093\u3057\u306e\u30ad\u30c3\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Sweet Kiss"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Dolcebacio"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Beso Dulce"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Bitterkuss"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Doux Baiser"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5929\u4f7f\u4e4b\u543b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ucc9c\uc0ac\uc758\ud0a4\uc2a4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3066\u3093\u3057\u306e\u30ad\u30c3\u30b9"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": {
+                "name": "normal",
+                "url": "/api/v2/type/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/19/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fairy",
+        "url": "/api/v2/type/18/"
+    }
+}

@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "For the next five turns, the target may not use any moves that only restore HP, and move effects that heal the target are disabled.  Moves that steal HP may still be used, but will only inflict damage and not heal the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Prevents target from restoring its HP for five turns."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\n\u65e0\u6cd5\u901a\u8fc7\u62db\u5f0f\u3001\u7279\u6027\u6216\n\u643a\u5e26\u7684\u9053\u5177\u6765\u56de\u590d\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u6280\u3084\n\u7279\u6027\u3084\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u9053\u5177\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3000\u3067\u304d\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "For five turns, the user prevents the opposing team\nfrom using any moves, Abilities, or held items that\nrecover HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa impedisce per cinque turni ai nemici che\nha intorno di utilizzare mosse, abilit\u00e0 e strumenti\nrecupera-PS che hanno con s\u00e9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Impide al objetivo usar movimientos, habilidades \ny objetos equipados que recuperan PS durante\ncinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender verhindert f\u00fcr f\u00fcnf Runden, dass Ziele\ndurch Attacken, F\u00e4higkeiten oder Items KP\nregenerieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emp\u00eache l\u2019ennemi de r\u00e9cup\u00e9rer des PV\n\u00e0 l\u2019aide de capacit\u00e9s, talents ou objets tenus,\npendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u5c0d\u624b\u5728\uff15\u56de\u5408\u5167\n\u7121\u6cd5\u5229\u7528\u62db\u5f0f\u3001\u7279\u6027\u6216\n\u651c\u5e36\u7684\u9053\u5177\u56de\u5fa9\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uae30\uc220\uc774\ub098 \ud2b9\uc131,\n\uc9c0\ub2c8\uace0 \uc788\ub294 \ub3c4\uad6c\uc5d0 \uc758\ud55c\nHP \ud68c\ubcf5\uc744 \ud560 \uc218 \uc5c6\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u308f\u3056\u3084\n\u3068\u304f\u305b\u3044\u3084\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3069\u3046\u3050\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3067\u304d\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\n\u65e0\u6cd5\u901a\u8fc7\u62db\u5f0f\u3001\u7279\u6027\u6216\n\u643a\u5e26\u7684\u9053\u5177\u6765\u56de\u590d\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u6280\u3084\n\u7279\u6027\u3084\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u9053\u5177\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3000\u3067\u304d\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "For five turns, the user prevents the opposing team\nfrom using any moves, Abilities, or held items that\nrecover HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa impedisce ai nemici che ha intorno\ndi utilizzare mosse o abilit\u00e0 recupera-PS\nper cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Impide al objetivo usar movimientos, habilidades \ny objetos equipados que recuperan PS durante\ncinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender verhindert f\u00fcr f\u00fcnf Runden, dass Ziele\ndurch Attacken, F\u00e4higkeiten oder Items KP\nregenerieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emp\u00eache l\u2019ennemi de r\u00e9cup\u00e9rer des PV\n\u00e0 l\u2019aide de capacit\u00e9s, talents ou objets tenus,\npendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u5c0d\u624b\u5728\uff15\u56de\u5408\u5167\n\u7121\u6cd5\u5229\u7528\u62db\u5f0f\u3001\u7279\u6027\u6216\n\u651c\u5e36\u7684\u9053\u5177\u56de\u5fa9\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uae30\uc220\uc774\ub098 \ud2b9\uc131,\n\uc9c0\ub2c8\uace0 \uc788\ub294 \ub3c4\uad6c\uc5d0 \uc758\ud55c\nHP \ud68c\ubcf5\uc744 \ud560 \uc218 \uc5c6\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u308f\u3056\u3084\n\u3068\u304f\u305b\u3044\u3084\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3069\u3046\u3050\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3067\u304d\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u6280\u3084\n\u7279\u6027\u3084\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u9053\u5177\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3000\u3067\u304d\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "For five turns, the user prevents the\nopposing team from using any moves,\nAbilities, or held items that recover HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa impedisce ai nemici che ha intorno\ndi utilizzare mosse o abilit\u00e0 recupera-PS\nper cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Impide al objetivo usar movimientos, habilidades \ny objetos equipados que recuperan PS durante\ncinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender verhindert f\u00fcr f\u00fcnf Runden,\ndass Ziele durch Attacken, F\u00e4higkeiten\noder Items KP regenerieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emp\u00eache l\u2019ennemi de r\u00e9cup\u00e9rer\ndes PV \u00e0 l\u2019aide de capacit\u00e9s, talents ou\nobjets tenus, pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uae30\uc220\uc774\ub098 \ud2b9\uc131,\n\uc9c0\ub2c8\uace0 \uc788\ub294 \ub3c4\uad6c\uc5d0 \uc758\ud55c\nHP \ud68c\ubcf5\uc744 \ud560 \uc218 \uc5c6\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u308f\u3056\u3084\n\u3068\u304f\u305b\u3044\u3084\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3069\u3046\u3050\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3067\u304d\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u6280\u3084\n\u7279\u6027\u3084\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u9053\u5177\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3000\u3067\u304d\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "For five turns, the user prevents the\nopposing team from using any moves,\nAbilities, or held items that recover HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa impedisce ai nemici che ha intorno\ndi utilizzare mosse o abilit\u00e0 recupera-PS\nper cinque turni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Impide al objetivo usar movimientos, habilidades\ny objetos equipados que recuperan PS durante\ncinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender verhindert f\u00fcr f\u00fcnf Runden,\ndass Ziele durch Attacken, F\u00e4higkeiten\noder Items KP regenerieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emp\u00eache l\u2019ennemi de r\u00e9cup\u00e9rer\ndes PV \u00e0 l\u2019aide de capacit\u00e9s, talents ou\nobjets tenus, pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uae30\uc220\uc774\ub098 \ud2b9\uc131,\n\uc9c0\ub2c8\uace0 \uc788\ub294 \ub3c4\uad6c\uc5d0 \uc758\ud55c\nHP \ud68c\ubcf5\uc744 \ud560 \uc218 \uc5c6\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u308f\u3056\u3084\n\u3068\u304f\u305b\u3044\u3084\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3069\u3046\u3050\u306b\u3088\u3063\u3066\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3067\u304d\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "For five turns, the user prevents the\nopposing team from using any moves,\nAbilities, or held items that recover HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "For five turns, the user prevents the\nopposing team from using any moves,\nAbilities, or held items that recover HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emp\u00eache l\u2019ennemi d\u2019utiliser ses\ncapacit\u00e9s, cap. sp\u00e9. ou objets tenus pour\nr\u00e9cup\u00e9rer des PV pendant 5 tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user prevents\nthe foe from using\nany HP-recovery\nmoves for five turns.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user prevents\nthe foe from using\nany HP-recovery\nmoves for five turns.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user prevents\nthe foe from using\nany HP-recovery\nmoves for five turns.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 377,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "heal-block",
+            "url": "/api/v2/move-ailment/15/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "ailment",
+            "url": "/api/v2/move-category/1/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": 5,
+        "min_hits": null,
+        "min_turns": 5,
+        "stat_chance": 0
+    },
+    "name": "heal-block",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u56de\u590d\u5c01\u9501"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304b\u3044\u3075\u304f\u3075\u3046\u3058"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Heal Block"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Anticura"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Anticura"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Heilblockade"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Anti-Soin"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u56de\u5fa9\u5c01\u9396"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud68c\ubcf5\ubd09\uc778"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304b\u3044\u3075\u304f\u3075\u3046\u3058"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "all-opponents",
+        "url": "/api/v2/move-target/11/"
+    },
+    "type": {
+        "name": "psychic",
+        "url": "/api/v2/type/14/"
+    }
+}

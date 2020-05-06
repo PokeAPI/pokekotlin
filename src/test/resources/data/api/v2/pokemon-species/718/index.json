@@ -1,0 +1,805 @@
+{
+    "base_happiness": 0,
+    "capture_rate": 3,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/370/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u57fa\u683c\u5c14\u5fb7\u7684\u4e00\u90e8\u5206\n\u5927\u7ea6\u805a\u96c6\u4e86\u4e00\u534a\u7684\u6837\u5b50\u3002\n\u6709\u7740\u76d1\u89c6\u751f\u6001\u7cfb\u7edf\u7684\u804c\u8d23\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30b8\u30ac\u30eb\u30c7\u306e\u3000\u4e00\u90e8\u304c\u3000\u534a\u5206\u307b\u3069\n\u96c6\u307e\u3063\u305f\u3000\u59ff\u3002\u3000\u751f\u614b\u7cfb\u3092\n\u76e3\u8996\u3059\u308b\u3000\u5f79\u76ee\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "This is Zygarde\u2019s form when about half of its\npieces have been assembled. It plays the role of\nmonitoring the ecosystem.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Zygarde assume questa forma quando vengono\naggregate met\u00e0 delle sue cellule. Questo\nPok\u00e9mon presiede all\u2019equilibrio dell\u2019ecosistema.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Esta es la forma que adopta Zygarde al reunir el\n50% de sus c\u00e9lulas. Su cometido consiste en\nvigilar el ecosistema.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "In dieser Form vereint Zygarde 50 % seiner\nZellen in sich. Seine Aufgabe besteht darin,\ndas \u00d6kosystem zu \u00fcberwachen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La forme que Zygarde prend lorsqu\u2019il rassemble\n50 % de ses Cellules. Sa mission est de\nsurveiller l\u2019\u00e9cosyst\u00e8me.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u69cb\u6210\u57fa\u683c\u723e\u5fb7\u7684\u55ae\u4f4d\n\u805a\u96c6\u4e86\u5927\u7d04\u4e00\u534a\u6642\u7684\u6a23\u5b50\u3002\n\u6709\u8457\u76e3\u8996\u751f\u614b\u7cfb\u7d71\u7684\u8cac\u4efb\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\uac00\ub974\ub370\uc758 \uc77c\ubd80\uac00 \ubc18 \uc815\ub3c4\n\ubaa8\uc778 \ubaa8\uc2b5\uc774\ub2e4. \uc0dd\ud0dc\uacc4\ub97c\n\uac10\uc2dc\ud558\ub294 \uc5ed\ud560\uc744 \ub9e1\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30b8\u30ac\u30eb\u30c7\u306e\u3000\u3044\u3061\u3076\u304c\u3000\u306f\u3093\u3076\u3093\u307b\u3069\n\u3042\u3064\u307e\u3063\u305f\u3000\u3059\u304c\u305f\u3002\u3000\u305b\u3044\u305f\u3044\u3051\u3044\u3092\n\u304b\u3093\u3057\u3059\u308b\u3000\u3084\u304f\u3081\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u88ab\u8ba4\u4e3a\u76d1\u89c6\u7740\u751f\u6001\u7cfb\u7edf\u3002\n\u6709\u4f20\u8a00\uff0c\u5b83\u8574\u85cf\u7740\u66f4\u4e3a\u5f3a\u5927\u7684\u529b\u91cf\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u751f\u614b\u7cfb\u3092\u3000\u76e3\u8996\u3000\u3057\u3066\u3044\u308b\u3068\n\u8003\u3048\u3089\u308c\u3066\u3044\u308b\u3002\u3000\u3055\u3089\u306a\u308b\n\u529b\u3092\u3000\u79d8\u3081\u3066\u3044\u308b\u3068\u306e\u3000\u30a6\u30ef\u30b5\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It\u2019s thought to be monitoring the ecosystem.\nThere are rumors that even greater power lies\nhidden within it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Si ritiene che vigili sull\u2019equilibrio dell\u2019ecosistema.\nCorre voce che nasconda in s\u00e9 un potere\npi\u00f9 grande di quanto si possa immaginare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Se cree que este Pok\u00e9mon vela por el equilibrio\ndel ecosistema. Se rumorea que en su interior\nyace un poder que va m\u00e1s all\u00e1 de la imaginaci\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Man nimmt an, dass es das \u00d6kosystem\nbeobachtet und \u00fcber geheime Kr\u00e4fte verf\u00fcgt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon surveille l\u2019\u00e9quilibre de l\u2019\u00e9cosyst\u00e8me\nen permanence. Si l\u2019on en croit la rumeur, il aurait\nun grand pouvoir cach\u00e9...",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u88ab\u8a8d\u70ba\u76e3\u8996\u8457\u751f\u614b\u7cfb\u7d71\u3002\n\u6709\u50b3\u8a00\u8aaa\u7260\u860a\u85cf\u8457\u66f4\u70ba\u5f37\u5927\u7684\u529b\u91cf\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uc0dd\ud0dc\uacc4\ub97c \uac10\uc2dc\ud558\uace0 \uc788\ub2e4\uace0\n\uc5ec\uaca8\uc9c0\uace0 \uc788\ub2e4. \ub354 \ud070\n\ud798\uc744 \uc228\uae30\uace0 \uc788\ub2e4\ub294 \uc18c\ubb38\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u3044\u305f\u3044\u3051\u3044\u3092\u3000\u304b\u3093\u3057\u3000\u3057\u3066\u3044\u308b\u3068\n\u304b\u3093\u304c\u3048\u3089\u308c\u3066\u3044\u308b\u3002\u3000\u3055\u3089\u306a\u308b\n\u3061\u304b\u3089\u3092\u3000\u3072\u3081\u3066\u3044\u308b\u3068\u306e\u3000\u30a6\u30ef\u30b5\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6d1e\u7a9f\u306e\u3000\u5965\u6df1\u304f\u3067\u3000\u66ae\u3089\u3057\n\u751f\u614b\u7cfb\u3092\u3000\u7834\u58ca\u3059\u308b\u8005\u3092\n\u76e3\u8996\u3057\u3066\u3044\u308b\u3068\u3000\u8a00\u308f\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It\u2019s hypothesized that it\u2019s monitoring\nthose who destroy the ecosystem\nfrom deep in the cave where it lives.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Si dice che viva nelle profondit\u00e0 di una caverna e protegga\nl\u2019equilibrio dell\u2019ecosistema da qualsiasi minaccia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Vive en las profundidades de las cavernas, desde donde vigila\na todos aquellos que se dediquen a destruir el ecosistema.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es wird gemutma\u00dft, dass es von seiner H\u00f6hle aus all jene\nbeobachtet, die dem \u00d6kosystem Schaden zuf\u00fcgen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il para\u00eet qu\u2019il vit au fond d\u2019une grotte, d\u2019o\u00f9 il surveillerait\nles personnes qui d\u00e9truisent l\u2019\u00e9cosyst\u00e8me.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub3d9\uad74 \uae4a\uc740 \uacf3\uc5d0\uc11c \uc9c0\ub0b4\uba74\uc11c\n\uc0dd\ud0dc\uacc4\ub97c \ud30c\uad34\ud558\ub294 \uc790\ub97c\n\uac10\uc2dc\ud558\uace0 \uc788\ub2e4\uace0 \uc804\ud574\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3046\u304f\u3064\u306e\u3000\u304a\u304f\u3075\u304b\u304f\u3067\u3000\u304f\u3089\u3057\n\u305b\u3044\u305f\u3044\u3051\u3044\u3092\u3000\u306f\u304b\u3044\u3059\u308b\u3000\u3082\u306e\u3092\n\u304b\u3093\u3057\u3057\u3066\u3044\u308b\u3068\u3000\u3044\u308f\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30ed\u30b9\u5730\u65b9\u306e\u3000\u751f\u614b\u7cfb\u304c\u3000\u5d29\u308c\u308b\u3068\n\u59ff\u3092\u3000\u73fe\u3057\u3066\n\u79d8\u3081\u305f\u3000\u529b\u3092\u3000\u767a\u63ee\u3059\u308b\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "When the Kalos region\u2019s ecosystem falls into\ndisarray, it appears and reveals its secret power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Secondo le leggende, quando l\u2019equilibrio dell\u2019ecosistema\ndella regione di Kalos \u00e8 in pericolo, appare e libera il suo\npotere misterioso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Cuando el ecosistema de Kalos se encuentra en peligro,\naparece y revela su poder secreto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Wenn das \u00d6kosystem der Kalos-Region kippt, erscheint dieses\nPok\u00e9mon und offenbart seine geheimen Kr\u00e4fte.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque l\u2019\u00e9cosyst\u00e8me de Kalos est menac\u00e9, ce Pok\u00e9mon\nappara\u00eet et utilise son myst\u00e9rieux pouvoir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uce7c\ub85c\uc2a4\uc9c0\ubc29\uc758 \uc0dd\ud0dc\uacc4\uac00\n\ubb34\ub108\uc9c0\uba74 \ubaa8\uc2b5\uc744 \ub098\ud0c0\ub0b4\uc5b4\n\uc228\uaca8\uc9c4 \ud798\uc744 \ubc1c\ud718\ud55c\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30ed\u30b9\u3061\u307b\u3046\u306e\u3000\u305b\u3044\u305f\u3044\u3051\u3044\u304c\n\u304f\u305a\u308c\u308b\u3068\u3000\u3059\u304c\u305f\u3092\u3000\u3042\u3089\u308f\u3057\u3066\n\u3072\u3081\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u306f\u3063\u304d\u3059\u308b\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6d1e\u7a9f\u306e\u3000\u5965\u6df1\u304f\u3067\u3000\u66ae\u3089\u3057\n\u751f\u614b\u7cfb\u3092\u3000\u7834\u58ca\u3059\u308b\u8005\u3092\n\u76e3\u8996\u3057\u3066\u3044\u308b\u3068\u3000\u8a00\u308f\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It\u2019s hypothesized that it\u2019s monitoring\nthose who destroy the ecosystem\nfrom deep in the cave where it lives.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Si dice che viva nelle profondit\u00e0 di una caverna e\nprotegga l\u2019equilibrio dell\u2019ecosistema da qualsiasi\nminaccia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Vive en las profundidades de las cavernas, desde\ndonde vigila a todos aquellos que se dediquen a\ndestruir el ecosistema.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es wird gemutma\u00dft, dass es von seiner H\u00f6hle aus\nall jene beobachtet, die dem \u00d6kosystem Schaden\nzuf\u00fcgen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il para\u00eet qu\u2019il vit au fond d\u2019une grotte, d\u2019o\u00f9 il\nsurveillerait les personnes qui d\u00e9truisent l\u2019\u00e9cosyst\u00e8me.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub3d9\uad74 \uae4a\uc740 \uacf3\uc5d0\uc11c \uc9c0\ub0b4\uba74\uc11c\n\uc0dd\ud0dc\uacc4\ub97c \ud30c\uad34\ud558\ub294 \uc790\ub97c\n\uac10\uc2dc\ud558\uace0 \uc788\ub2e4\uace0 \uc804\ud574\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3046\u304f\u3064\u306e\u3000\u304a\u304f\u3075\u304b\u304f\u3067\u3000\u304f\u3089\u3057\n\u305b\u3044\u305f\u3044\u3051\u3044\u3092\u3000\u306f\u304b\u3044\u3059\u308b\u3000\u3082\u306e\u3092\n\u304b\u3093\u3057\u3057\u3066\u3044\u308b\u3068\u3000\u3044\u308f\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30ed\u30b9\u5730\u65b9\u306e\u3000\u751f\u614b\u7cfb\u304c\u3000\u5d29\u308c\u308b\u3068\n\u59ff\u3092\u3000\u73fe\u3057\u3066\n\u79d8\u3081\u305f\u3000\u529b\u3092\u3000\u767a\u63ee\u3059\u308b\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When the Kalos region\u2019s ecosystem falls into\ndisarray, it appears and reveals its secret power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Secondo le leggende, quando l\u2019equilibrio\ndell\u2019ecosistema della regione di Kalos \u00e8 in pericolo,\nappare e libera il suo potere misterioso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Cuando el ecosistema de Kalos se encuentra en\npeligro, aparece y revela su poder secreto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Wenn das \u00d6kosystem der Kalos-Region kippt,\nerscheint dieses Pok\u00e9mon und offenbart seine\ngeheimen Kr\u00e4fte.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque l\u2019\u00e9cosyst\u00e8me de Kalos est menac\u00e9,\nce Pok\u00e9mon appara\u00eet et utilise son myst\u00e9rieux pouvoir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uce7c\ub85c\uc2a4\uc9c0\ubc29\uc758 \uc0dd\ud0dc\uacc4\uac00\n\ubb34\ub108\uc9c0\uba74 \ubaa8\uc2b5\uc744 \ub098\ud0c0\ub0b4\uc5b4\n\uc228\uaca8\uc9c4 \ud798\uc744 \ubc1c\ud718\ud55c\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30ed\u30b9\u3061\u307b\u3046\u306e\u3000\u305b\u3044\u305f\u3044\u3051\u3044\u304c\n\u304f\u305a\u308c\u308b\u3068\u3000\u3059\u304c\u305f\u3092\u3000\u3042\u3089\u308f\u3057\u3066\n\u3072\u3081\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u306f\u3063\u304d\u3059\u308b\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u79e9\u5e8f\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3061\u3064\u3058\u3087\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Order Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Equilibrio",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Equilibrio",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Ordnung",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon \u00c9quilibre",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u79e9\u5e8f\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc9c8\uc11c\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3061\u3064\u3058\u3087\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 120,
+    "id": 718,
+    "is_baby": false,
+    "name": "zygarde",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u57fa\u683c\u5c14\u5fb7"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b8\u30ac\u30eb\u30c7"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Zygarde"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Zygarde"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Zygarde"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Zygarde"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Zygarde"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u57fa\u683c\u723e\u5fb7"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc9c0\uac00\ub974\ub370"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b8\u30ac\u30eb\u30c7"
+        }
+    ],
+    "order": 718,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 150,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 718,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "squiggle",
+        "url": "/api/v2/pokemon-shape/2/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "zygarde",
+                "url": "/api/v2/pokemon/718/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "zygarde-10",
+                "url": "/api/v2/pokemon/10118/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "zygarde-50",
+                "url": "/api/v2/pokemon/10119/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "zygarde-complete",
+                "url": "/api/v2/pokemon/10120/"
+            }
+        }
+    ]
+}

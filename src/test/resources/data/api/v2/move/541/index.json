@@ -1,0 +1,566 @@
+{
+    "accuracy": 85,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Hits 2\u20135 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Hits 2-5 times in one turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u575a\u786c\u7684\u5c3e\u5df4\n\u62cd\u6253\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u8fde\u7eed\u653b\u51fb\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u786c\u3044\u3000\u3057\u3063\u307d\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u9593\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by striking the target with its hard\ntail. It hits the target two to five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con la sua coda\ndura da due a cinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Golpea con la cola de dos a cinco veces seguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit seiner schlagfesten\nRute zwei- bis f\u00fcnfmal hintereinander an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi de deux \u00e0 cinq fois\nd\u2019affil\u00e9e avec sa queue robuste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5805\u786c\u7684\u5c3e\u5df4\n\u6383\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u53ef\u9023\u7e8c\u653b\u64ca\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e8\ub2e8\ud55c \uaf2c\ub9ac\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305f\u3044\u3000\u3057\u3063\u307d\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u575a\u786c\u7684\u5c3e\u5df4\n\u62cd\u6253\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u8fde\u7eed\u653b\u51fb\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u786c\u3044\u3000\u3057\u3063\u307d\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u9593\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by striking the target with its hard\ntail. It hits the target two to five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con la sua coda\ndura da due a cinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Golpea con la cola de dos a cinco veces seguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit seiner schlagfesten\nRute zwei- bis f\u00fcnfmal hintereinander an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi de deux \u00e0 cinq fois\nd\u2019affil\u00e9e avec sa queue robuste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5805\u786c\u7684\u5c3e\u5df4\n\u6383\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u53ef\u9023\u7e8c\u653b\u64ca\uff12\uff5e\uff15\u6b21\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e8\ub2e8\ud55c \uaf2c\ub9ac\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305f\u3044\u3000\u3057\u3063\u307d\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u786c\u3044\u3000\u3057\u3063\u307d\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u3042\u3044\u3060\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by striking the target\nwith its hard tail. It hits the target two\nto five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con la sua coda\ndura da due a cinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Golpea con la cola u otras partes de su cuerpo de \ndos a cinco veces seguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit seiner schlagfesten\nRute zwei- bis f\u00fcnfmal hintereinander an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi de deux \u00e0 cinq fois\nd\u2019affil\u00e9e avec sa queue robuste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e8\ub2e8\ud55c \uaf2c\ub9ac\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305f\u3044\u3000\u3057\u3063\u307d\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u786c\u3044\u3000\u3057\u3063\u307d\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\uff12\u30fc\uff15\u56de\u306e\u3000\u3042\u3044\u3060\u3000\u9023\u7d9a\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by striking the target\nwith its hard tail. It hits the target two\nto five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con la sua coda\ndura da due a cinque volte di fila.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Golpea con la cola u otras partes de su cuerpo de\ndos a cinco veces seguidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit seiner schlagfesten\nRute zwei- bis f\u00fcnfmal hintereinander an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi de deux \u00e0 cinq fois\nd\u2019affil\u00e9e avec sa queue robuste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e8\ub2e8\ud55c \uaf2c\ub9ac\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n2-5\ud68c \ub3d9\uc548 \uc5f0\uc18d\uc73c\ub85c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305f\u3044\u3000\u3057\u3063\u307d\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\uff12\u30fc\uff15\u304b\u3044\u306e\u3000\u3042\u3044\u3060\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by striking the target\nwith its hard tail. It hits the target two\nto five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by striking the target\nwith its hard tail. It hits the target two\nto five times in a row.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi de 2 \u00e0 5 fois\nd\u2019affil\u00e9e avec sa queue robuste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 541,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": 5,
+        "max_turns": null,
+        "min_hits": 2,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "tail-slap",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u626b\u5c3e\u62cd\u6253"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b9\u30a4\u30fc\u30d7\u30d3\u30f3\u30bf"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Tail Slap"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Spazzasberla"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Plumerazo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Kehrschelle"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Plumo-Queue"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6383\u5c3e\u62cd\u6253"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2a4\uc704\ud504\ubea8\uce58\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b9\u30a4\u30fc\u30d7\u30d3\u30f3\u30bf"
+        }
+    ],
+    "past_values": [],
+    "power": 25,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

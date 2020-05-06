@@ -1,0 +1,863 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 60,
+    "color": {
+        "name": "red",
+        "url": "/api/v2/pokemon-color/8/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/44/"
+    },
+    "evolves_from_species": {
+        "name": "voltorb",
+        "url": "/api/v2/pokemon-species/100/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u96fb\u6c17\u306b\u3000\u5f15\u304d\u5bc4\u305b\u3089\u308c\u308b\u3000\u6027\u8cea\u3092\u3000\u6301\u3064\u3002\n\u4e3b\u306b\u3000\u767a\u96fb\u6240\u306b\u3000\u96c6\u307e\u3063\u3066\u304d\u3066\u3000\u3064\u304f\u3063\u305f\n\u3070\u304b\u308a\u306e\u3000\u96fb\u6c17\u3092\u3000\u98df\u3079\u3066\u3057\u307e\u3046\u3000\u56f0\u308a\u3082\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "One of Electrode\u2019s characteristics is its attraction to electricity.\nIt is a problematical Pok\u00e9mon that congregates mostly at\nelectrical power plants to feed on electricity that has just\nbeen generated.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Una delle caratteristiche di Electrode \u00e8 la sua affinit\u00e0 con\nl\u2019elettricit\u00e0. Si tratta di un Pok\u00e9mon problematico che spesso\nsi raduna attorno alle centrali elettriche per trarre nutrimento\ndall\u2019elettricit\u00e0 appena generata.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Una de las caracter\u00edsticas de Electrode es la atracci\u00f3n que\nsiente hacia la electricidad. Son Pok\u00e9mon problem\u00e1ticos que\nsuelen agruparse cerca de centrales el\u00e9ctricas para nutrirse\nde la energ\u00eda reci\u00e9n generada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Typisch f\u00fcr Lektrobal ist seine gro\u00dfe Faszination f\u00fcr Elektrizit\u00e4t.\nEs ist ein problematisches Pok\u00e9mon, das sich meistens in\nKraftwerken niederl\u00e4sst, wo es sich von frisch erzeugtem Strom\nern\u00e4hren kann.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019une des caract\u00e9ristiques d\u2019\u00c9lectrode est son attirance\npour l\u2019\u00e9lectricit\u00e9. Ces Pok\u00e9mon posent probl\u00e8me lorsqu\u2019ils\nse rassemblent dans les centrales \u00e9lectriques pour se nourrir\nde courant fra\u00eechement g\u00e9n\u00e9r\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\uc5d0 \ub04c\ub9ac\ub294 \uc131\uc9c8\uc744 \uc9c0\ub154\ub2e4.\n\uc8fc\ub85c \ubc1c\uc804\uc18c\uc5d0 \ubaa8\uc5ec\uc11c \ub9c9 \ub9cc\ub4e4\uc5b4\uc9c4\n\uc804\uae30\ub97c \uba39\uc5b4\ubc84\ub9ac\ub294 \ub9d0\uc37d\uafbc\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u306b\u3000\u3072\u304d\u3088\u305b\u3089\u308c\u308b\u3000\u305b\u3044\u3057\u3064\u3092\u3000\u3082\u3064\u3002\n\u304a\u3082\u306b\u3000\u306f\u3064\u3067\u3093\u3057\u3087\u306b\u3000\u3042\u3064\u307e\u3063\u3066\u304d\u3066\u3000\u3064\u304f\u3063\u305f\n\u3070\u304b\u308a\u306e\u3000\u3067\u3093\u304d\u3092\u3000\u305f\u3079\u3066\u3057\u307e\u3046\u3000\u3053\u307e\u308a\u3082\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u7a7a\u6c17\u4e2d\u306e\u3000\u96fb\u6c17\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u98df\u3079\u308b\u3002\n\u30ab\u30df\u30ca\u30ea\u306e\u3000\u843d\u3061\u308b\u3000\u65e5\u306f\u3000\u96fb\u6c17\u3092\u3000\u98df\u3079\u904e\u304e\u305f\n\u30de\u30eb\u30de\u30a4\u30f3\u304c\u3000\u3042\u3061\u3089\u3053\u3061\u3089\u3067\u3000\u5927\u7206\u767a\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Electrode eats electricity in the atmosphere. On days when\nlightning strikes, you can see this Pok\u00e9mon exploding all over\nthe place from eating too much electricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Electrode si nutre dell\u2019elettricit\u00e0 presente nell\u2019atmosfera.\nQuando i fulmini solcano il cielo, \u00e8 possibile scorgere molti\ndi questi Pok\u00e9mon esplodere per aver ingerito un\u2019eccessiva\ndose di elettricit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Los Electrode se alimentan de la electricidad de la atm\u00f3sfera.\nEn d\u00edas de tormenta con rayos, es f\u00e1cil verlos explotando por\ntodos lados tras haber consumido demasiada electricidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lektrobal ern\u00e4hrt sich von Elektrizit\u00e4t aus der Atmosph\u00e4re.\nAn Tagen, an denen es blitzt, explodiert dieses Pok\u00e9mon\ndauernd, da es zu viel Elektrizit\u00e4t zu sich nimmt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u00c9lectrode mange l\u2019\u00e9lectricit\u00e9 qui se trouve dans l\u2019atmosph\u00e8re.\nLes jours d\u2019orage, on peut voir ce Pok\u00e9mon exploser\nsans arr\u00eat parce qu\u2019il a aval\u00e9 trop d\u2019\u00e9lectricit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uae30 \uc911\uc758 \uc804\uae30 \uc5d0\ub108\uc9c0\ub97c \uba39\ub294\ub2e4.\n\ubc88\uac1c\uac00 \uce58\ub294 \ub0a0\uc5d0\ub294 \uc804\uae30\ub97c \ub108\ubb34 \uba39\uc740\n\ubd90\ubcfc\uc774 \uc774\uacf3\uc800\uacf3\uc5d0\uc11c \ub300\ud3ed\ubc1c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3046\u304d\u3061\u3085\u3046\u306e\u3000\u3067\u3093\u304d\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u305f\u3079\u308b\u3002\n\u30ab\u30df\u30ca\u30ea\u306e\u3000\u304a\u3061\u308b\u3000\u3072\u306f\u3000\u3067\u3093\u304d\u3092\u3000\u305f\u3079\u3059\u304e\u305f\n\u30de\u30eb\u30de\u30a4\u30f3\u304c\u3000\u3042\u3061\u3089\u3053\u3061\u3089\u3067\u3000\u3060\u3044\u3070\u304f\u306f\u3064\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3075\u308c\u308b\u307b\u3069\u306e\u3000\u96fb\u6c17\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\n\u4f53\u5185\u306b\u3000\u305f\u3081\u3053\u3093\u3067\u3044\u308b\u306e\u3067\n\u5c11\u3057\u306e\u3000\u523a\u6fc0\u3067\u3000\u7206\u767a\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It stores an overflowing amount of electric energy\ninside its body. Even a small shock makes\nit explode.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Dato che accumula nel proprio corpo un\u2019incredibile\nquantit\u00e0 di elettricit\u00e0, esplode alla minima\nprovocazione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Almacena una enorme cantidad de electricidad en su\ncuerpo. Una peque\u00f1a sacudida le har\u00e1 explotar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es speichert eine riesige Menge Elektrizit\u00e4t in\nseinem K\u00f6rper. Es explodiert beim kleinsten Ruck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il stocke tellement d\u2019\u00e9nergie dans son corps\nqu\u2019une simple secousse peut le faire exploser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub118\uce60 \uc815\ub3c4\uc758 \uc804\uae30 \uc5d0\ub108\uc9c0\ub97c\n\uccb4\ub0b4\uc5d0 \ubaa8\uc73c\uace0 \uc788\uae30 \ub54c\ubb38\uc5d0\n\uc57d\uac04\uc758 \uc790\uadf9\ub9cc\uc73c\ub85c\ub3c4 \ud3ed\ubc1c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3075\u308c\u308b\u307b\u3069\u306e\u3000\u3067\u3093\u304d\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\n\u305f\u3044\u306a\u3044\u306b\u3000\u305f\u3081\u3053\u3093\u3067\u3044\u308b\u306e\u3067\n\u3059\u3053\u3057\u306e\u3000\u3057\u3052\u304d\u3067\u3000\u3070\u304f\u306f\u3064\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5c11\u3057\u306e\u3000\u523a\u6fc0\u306b\u3000\u53cd\u5fdc\u3057\u3066\n\u7206\u767a\u3059\u308b\u3002\u30d0\u30af\u30c0\u30f3\u30dc\u30fc\u30eb\u3068\u3044\u3046\n\u3042\u3060\u540d\u3067\u3000\u6016\u304c\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It explodes in response to even minor stimuli. It is\nfeared, with the nickname of \u201cThe Bomb Ball.\u201d",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f2 esplodere anche alla minima provocazione.\nLo chiamano \u201cBomba Ball\u201d.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Explotan a la m\u00ednima. Por eso se les tiene mucho\nmiedo. Estos Pok\u00e9mon reciben el mote de Bomba Ball.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es explodiert schon bei kleinsten Reizen.\nSein Spitzname \u201eDie Bombenkugel\u201c spiegelt\ndie Furcht der Menschen wider.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il explose au moindre choc. Son seul surnom de\n\u00ab\u202fBomb Ball\u202f\u00bb suffit \u00e0 effrayer ses adversaires.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc791\uc740 \uc790\uadf9\uc5d0\ub3c4 \ubc18\uc751\ud574\uc11c\n\ud3ed\ubc1c\ud55c\ub2e4. \ud3ed\ud0c4\ubcfc\uc774\ub77c \ubd88\ub9ac\uba70\n\ub450\ub824\uc6c0\uc758 \ub300\uc0c1\uc774 \ub418\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3053\u3057\u306e\u3000\u3057\u3052\u304d\u306b\u3000\u306f\u3093\u306e\u3046\u3057\u3066\n\u3070\u304f\u306f\u3064\u3059\u308b\u3002\u30d0\u30af\u30c0\u30f3\u30dc\u30fc\u30eb\u3068\u3044\u3046\n\u3042\u3060\u306a\u3067\u3000\u3053\u308f\u304c\u3089\u308c\u3066\u3000\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It is known to drift on winds if it\nis bloated to bursting with stored\nelectricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It is known to drift on winds if it\nis bloated to bursting with stored\nelectricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It is known to drift on winds if it\nis bloated to bursting with stored\nelectricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il se laisse porter par les vents\nlorsque son corps est gonfl\u00e9\nd\u2019\u00e9lectricit\u00e9 \u00e0 en \u00e9clater.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It is known to drift on winds if it\nis bloated to bursting with stored\nelectricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il se laisse porter par les vents\nlorsque son corps est gonfl\u00e9\nd\u2019\u00e9lectricit\u00e9 \u00e0 en \u00e9clater.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It stores an overflowing amount of\nelectric energy inside its body.\nEven a small shock makes it explode.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It is dangerous. If it has too much\nelectricity and has nothing to do,\nit amuses itself by exploding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It is known to drift on winds if it\nis bloated to bursting with stored\nelectricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It is known to drift on winds if it\nis bloated to bursting with stored\nelectricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It is known to drift on winds if it\nis bloated to bursting with stored\nelectricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It stores electric energy under very high\npressure. It often explodes with little or\nno provocation.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It explodes in response to even minor\nstimuli. It is feared, with the nickname\nof \u201cThe Bomb Ball.\u201d",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "They appear in great numbers at electric\npower plants. Because they feed on\nelectricity, they cause massive and\nchaotic blackouts in nearby cities.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "One of ELECTRODE\u2019s characteristics is\nits attraction to electricity.\nIt is a problematical POK\u00e9MON that\fcongregates mostly at electrical\npower plants to feed on electricity\nthat has just been generated.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "ELECTRODE eats electricity in the\natmosphere. On days when lightning\nstrikes, you can see this POK\u00e9MON\fexploding all over the place from\neating too much electricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "The more energy it\ncharges up, the\nfaster it gets.\fBut this also\nmakes it more\nlikely to explode.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It stores an over\u00ad\nflowing amount of\nelectric energy\finside its body.\nEven a small shock\nmakes it explode.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It is dangerous.\nIf it has too much\nelectricity and\fhas nothing to do,\nit amuses itself\nby exploding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "Stores electrical\nenergy inside its\nbody. Even the\fslightest shock\ncould trigger a\nhuge explosion.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "It stores electric\nenergy under very\nhigh pressure.\fIt often explodes\nwith little or no\nprovocation.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "It stores electric\nenergy under very\nhigh pressure.\fIt often explodes\nwith little or no\nprovocation.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u7403\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30dc\u30fc\u30eb\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Ball Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Ball",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bola",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Ball",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Balle",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u7403\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubcfc\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30dc\u30fc\u30eb\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "urban",
+        "url": "/api/v2/pokemon-habitat/8/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 101,
+    "is_baby": false,
+    "name": "electrode",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u987d\u76ae\u96f7\u5f39"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30de\u30eb\u30de\u30a4\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Electrode"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Electrode"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Electrode"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Lektrobal"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "\u00c9lectrode"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9811\u76ae\u96f7\u5f48"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubd90\ubcfc"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Marumine"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30de\u30eb\u30de\u30a4\u30f3"
+        }
+    ],
+    "order": 110,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 88,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 73,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 122,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 85,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 121,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 101,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 101,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "ball",
+        "url": "/api/v2/pokemon-shape/1/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "electrode",
+                "url": "/api/v2/pokemon/101/"
+            }
+        }
+    ]
+}

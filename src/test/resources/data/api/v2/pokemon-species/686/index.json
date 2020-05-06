@@ -1,0 +1,678 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "water2",
+            "url": "/api/v2/egg-group/12/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/352/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u95ea\u70c1\u7740\u5149\uff0c\u8ba9\u730e\u7269\u53d7\u8bf1\u60d1\u9760\u8fd1\u540e\uff0c\n\u4f1a\u7528\u957f\u957f\u7684\u89e6\u624b\u7f20\u4f4f\u5bf9\u65b9\uff0c\n\u5c01\u4f4f\u5176\u884c\u52a8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u3092\u3000\u70b9\u6ec5\u3055\u305b\u3066\u3000\u7372\u7269\u3092\n\u304a\u3073\u304d\u3088\u305b\u308b\u3068\u3000\u9577\u3044\u3000\u89e6\u624b\u3067\n\u7d61\u3081\u3068\u308a\u3000\u52d5\u304d\u3092\u3000\u5c01\u3058\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It draws prey near with its blinking lights and\nthen wraps them up in its long tentacles and\nholds them in place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Attira a s\u00e9 la preda con luci lampeggianti\nper poi immobilizzarla avvinghiandola con\ni suoi tentacoli.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Los destellos que emite atraen a su presa, a la\nque rodea con sus largos tent\u00e1culos e inmoviliza\npor completo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Mit den blinkenden Punkten auf seinem K\u00f6rper\nlockt es Beute an, um sie dann mit seinen langen\nTentakeln bewegungsunf\u00e4hig zu machen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il attire ses proies en faisant clignoter\nson corps, puis les immobilise en les enserrant\nde ses longs tentacules.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u5229\u7528\u9583\u720d\u7684\u5149\u5438\u5f15\u7375\u7269\u9760\u8fd1\uff0c\n\u7136\u5f8c\u7528\u9577\u9577\u7684\u89f8\u624b\u7e8f\u4f4f\u5c0d\u624b\uff0c\n\u5c01\u9396\u7375\u7269\u7684\u884c\u52d5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ube5b\uc744 \uae5c\ubc15\uc5ec \uba39\uc774\ub97c \uaf80\uc5b4\ub0b4\uace0\n\uae34 \ucd09\uc218\ub85c \ud3ec\ubc15\ud558\uc5ec\n\uc6c0\uc9c1\uc774\uc9c0 \ubabb\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u304b\u308a\u3092\u3000\u3066\u3093\u3081\u3064\u3055\u305b\u3066\u3000\u3048\u3082\u306e\u3092\n\u304a\u3073\u304d\u3088\u305b\u308b\u3068\u3000\u306a\u304c\u3044\u3000\u3057\u3087\u304f\u3057\u3085\u3067\n\u304b\u3089\u3081\u3068\u308a\u3000\u3046\u3054\u304d\u3092\u3000\u3075\u3046\u3058\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u306e\u3000\u70b9\u6ec5\u3067\u3000\u8972\u3063\u3066\u304d\u305f\u3000\u6575\u306e\n\u6226\u610f\u3092\u3000\u306a\u304f\u3057\u3066\u3057\u307e\u3046\u3002\n\u305d\u306e\u3000\u3059\u304d\u306b\u3000\u59ff\u3092\u3000\u304f\u3089\u307e\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It flashes the light-emitting spots on its body,\nwhich drains its opponent\u2019s will to fight.\nIt takes the opportunity to scuttle away and hide.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Fa lampeggiare i motivi sul suo corpo in una sequenza ipnotica\nper far perdere lo spirito combattivo ai nemici, riuscendo cos\u00ec\na fuggire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "La luz intermitente que emite aplaca el \u00e1nimo de lucha del\nenemigo. Aprovecha la ocasi\u00f3n para esconderse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mit den blinkenden Punkten auf seinem K\u00f6rper raubt es\nGegnern den Kampfeswillen. Es nutzt diese Gelegenheit,\num sich zu verstecken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il \u00e9branle le moral des ennemis lui cherchant noise gr\u00e2ce\naux clignotements qu\u2019il \u00e9met. Il profite de cette diversion\npour se cacher.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ube5b\uc744 \uae5c\ubc15\uc5ec\uc11c \ub36e\uccd0\uc628\n\uc801\uc758 \uc804\uc758\ub97c \uc783\uac8c \ud55c\ub2e4.\n\uadf8 \ud2c8\uc5d0 \ubaa8\uc2b5\uc744 \uac10\ucd98\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u304b\u308a\u306e\u3000\u3066\u3093\u3081\u3064\u3067\u3000\u304a\u305d\u3063\u3066\u304d\u305f\n\u3066\u304d\u306e\u3000\u305b\u3093\u3044\u3092\u3000\u306a\u304f\u3057\u3066\u3057\u307e\u3046\u3002\n\u305d\u306e\u3000\u3059\u304d\u306b\u3000\u3059\u304c\u305f\u3092\u3000\u304b\u304f\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u767a\u5149\u4f53\u306e\u3000\u70b9\u6ec5\u3092\u3000\u898b\u3064\u3081\u305f\u3000\u76f8\u624b\u306f\n\u76ee\u304c\u3000\u304f\u3089\u202f\u3000\u6226\u3046\u3000\u6c17\u6301\u3061\u304c\n\u306a\u304f\u306a\u3063\u3066\u3057\u307e\u3046\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Opponents who stare at the flashing of the\nlight-emitting spots on its body become\ndazed and lose their will to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "I nemici che guardano la luce lampeggiante emessa dal suo\ncorpo rimangono abbagliati e perdono il loro spirito\ncombattivo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Los enemigos que contemplan el titilante fulgor de su brillante\ncuerpo terminan mare\u00e1ndose y pierden las ganas de continuar\ncombatiendo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Gegner, die auf die blinkenden Punkte an seinem K\u00f6rper\nblicken, werden geblendet und verlieren den Willen zu\nk\u00e4mpfen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u00c9blouis par les points lumineux qui clignotent sur son corps,\nles ennemis perdent toute envie de se battre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uae5c\ube61\uc774\ub294 \ubc1c\uad11\uccb4\ub97c \ubc14\ub77c\ubcf8\n\uc0c1\ub300\ub294 \ub208\uc55e\uc774 \uc5b4\ub450\ucef4\ucef4\ud574\uc838\n\uc804\uc758\ub97c \uc0c1\uc2e4\ud574\ubc84\ub9ac\uace0 \ub9cc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u3063\u3053\u3046\u305f\u3044\u306e\u3000\u3066\u3093\u3081\u3064\u3092\u3000\u202f\u3064\u3081\u305f\n\u3042\u3044\u3066\u306f\u3000\u3081\u304c\u3000\u304f\u3089\u202f\u3000\u305f\u305f\u304b\u3046\n\u304d\u3082\u3061\u304c\u3000\u306a\u304f\u306a\u3063\u3066\u3057\u307e\u3046\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u306e\u3000\u70b9\u6ec5\u3067\u3000\u8972\u3063\u3066\u304d\u305f\u3000\u6575\u306e\n\u6226\u610f\u3092\u3000\u306a\u304f\u3057\u3066\u3057\u307e\u3046\u3002\n\u305d\u306e\u3000\u3059\u304d\u306b\u3000\u59ff\u3092\u3000\u304f\u3089\u307e\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It flashes the light-emitting spots on its body,\nwhich drains its opponent\u2019s will to fight.\nIt takes the opportunity to scuttle away and hide.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Fa lampeggiare i motivi sul suo corpo in una sequenza\nipnotica per far perdere lo spirito combattivo ai nemici,\nriuscendo cos\u00ec a fuggire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "La luz intermitente que emite aplaca el \u00e1nimo de\nlucha del enemigo. Aprovecha la ocasi\u00f3n para\nesconderse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Mit den blinkenden Punkten auf seinem K\u00f6rper raubt\nes Gegnern den Kampfeswillen. Es nutzt diese\nGelegenheit, um sich zu verstecken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il \u00e9branle le moral des ennemis lui cherchant noise\ngr\u00e2ce aux clignotements qu\u2019il \u00e9met.\nIl profite de cette diversion pour se cacher.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ube5b\uc744 \uae5c\ubc15\uc5ec\uc11c \ub36e\uccd0\uc628\n\uc801\uc758 \uc804\uc758\ub97c \uc783\uac8c \ud55c\ub2e4.\n\uadf8 \ud2c8\uc5d0 \ubaa8\uc2b5\uc744 \uac10\ucd98\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u304b\u308a\u306e\u3000\u3066\u3093\u3081\u3064\u3067\u3000\u304a\u305d\u3063\u3066\u304d\u305f\n\u3066\u304d\u306e\u3000\u305b\u3093\u3044\u3092\u3000\u306a\u304f\u3057\u3066\u3057\u307e\u3046\u3002\n\u305d\u306e\u3000\u3059\u304d\u306b\u3000\u3059\u304c\u305f\u3092\u3000\u304b\u304f\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u767a\u5149\u4f53\u306e\u3000\u70b9\u6ec5\u3092\u3000\u898b\u3064\u3081\u305f\u3000\u76f8\u624b\u306f\n\u76ee\u304c\u3000\u304f\u3089\u307f\u3000\u6226\u3046\u3000\u6c17\u6301\u3061\u304c\n\u306a\u304f\u306a\u3063\u3066\u3057\u307e\u3046\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Opponents who stare at the flashing of the\nlight-emitting spots on its body become\ndazed and lose their will to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "I nemici che guardano la luce lampeggiante emessa\ndal suo corpo rimangono abbagliati e perdono il loro\nspirito combattivo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Los enemigos que contemplan el titilante fulgor de su\nbrillante cuerpo terminan mare\u00e1ndose y pierden las\nganas de continuar combatiendo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Gegner, die auf die blinkenden Punkte an seinem\nK\u00f6rper blicken, werden geblendet und verlieren den\nWillen zu k\u00e4mpfen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c9blouis par les points lumineux qui clignotent sur son\ncorps, les ennemis perdent toute envie de se battre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uae5c\ube61\uc774\ub294 \ubc1c\uad11\uccb4\ub97c \ubc14\ub77c\ubcf8\n\uc0c1\ub300\ub294 \ub208\uc55e\uc774 \uc5b4\ub450\ucef4\ucef4\ud574\uc838\n\uc804\uc758\ub97c \uc0c1\uc2e4\ud574\ubc84\ub9ac\uace0 \ub9cc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u3063\u3053\u3046\u305f\u3044\u306e\u3000\u3066\u3093\u3081\u3064\u3092\u3000\u307f\u3064\u3081\u305f\n\u3042\u3044\u3066\u306f\u3000\u3081\u304c\u3000\u304f\u3089\u307f\u3000\u305f\u305f\u304b\u3046\n\u304d\u3082\u3061\u304c\u3000\u306a\u304f\u306a\u3063\u3066\u3057\u307e\u3046\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u56de\u8f6c\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u304b\u3044\u3066\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Revolving Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Volteggio",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Rotaci\u00f3n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Rotation",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Rotation",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u56de\u8f49\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud68c\uc804\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u304b\u3044\u3066\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 686,
+    "is_baby": false,
+    "name": "inkay",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u597d\u5566\u9c7f"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30de\u30fc\u30a4\u30fc\u30ab"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Inkay"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Inkay"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Inkay"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Iscalar"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Sepiatop"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u597d\u5566\u9b77"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc624\ucf00\uc774\uc9d5"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30de\u30fc\u30a4\u30fc\u30ab"
+        }
+    ],
+    "order": 687,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 10,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 686,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "tentacles",
+        "url": "/api/v2/pokemon-shape/10/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "inkay",
+                "url": "/api/v2/pokemon/686/"
+            }
+        }
+    ]
+}

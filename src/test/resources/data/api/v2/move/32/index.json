@@ -1,0 +1,694 @@
+{
+    "accuracy": 30,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "horn-attack",
+                    "url": "/api/v2/move/30/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/14/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Causes a one-hit KO."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u65cb\u8f6c\u7684\u89d2\n\u523a\u5165\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u4f1a\u4e00\u51fb\u6fd2\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3059\u308b\u3000\u3064\u306e\u3092\n\u76f8\u624b\u306b\u3000\u7a81\u304d\u523a\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with a horn that rotates\nlike a drill. The target faints instantly if this\nattack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un corno perforante\ncome un trapano. Se il colpo va a segno,\nil Pok\u00e9mon colpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con un cuerno giratorio que fulmina de un\nsolo golpe al objetivo si lo alcanza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attacke, bei der ein Horn als Bohrer eingesetzt wird.\nIst sie erfolgreich, f\u00fchrt sie zu einem K.O.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de corne en vrille qui empale l\u2019ennemi,\nle mettant K.O. sur le coup s\u2019il est touch\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u65cb\u8f49\u7684\u89d2\n\u523a\u9032\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u6703\u4e00\u64ca\u7015\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud558\ub294 \ubfd4\uc744\n\uc0c1\ub300\uc5d0\uac8c \uaff0\ucc14\ub7ec\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3059\u308b\u3000\u3064\u306e\u3092\n\u3042\u3044\u3066\u306b\u3000\u3064\u304d\u3055\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u65cb\u8f6c\u7684\u89d2\n\u523a\u5165\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u4f1a\u4e00\u51fb\u6fd2\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3059\u308b\u3000\u3064\u306e\u3092\n\u76f8\u624b\u306b\u3000\u7a81\u304d\u523a\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with a horn that rotates\nlike a drill. The target faints instantly if this\nattack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un corno perforante\ncome un trapano. Se il colpo va a segno,\nil Pok\u00e9mon colpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con un cuerno giratorio que fulmina de un\nsolo golpe al objetivo si lo alcanza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attacke, bei der ein Horn als Bohrer eingesetzt wird.\nIst sie erfolgreich, f\u00fchrt sie zu einem K.O.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de corne en vrille qui empale l\u2019ennemi,\nle mettant K.O. sur le coup s\u2019il est touch\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u65cb\u8f49\u7684\u89d2\n\u523a\u9032\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u6703\u4e00\u64ca\u7015\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud558\ub294 \ubfd4\uc744\n\uc0c1\ub300\uc5d0\uac8c \uaff0\ucc14\ub7ec\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3059\u308b\u3000\u3064\u306e\u3092\n\u3042\u3044\u3066\u306b\u3000\u3064\u304d\u3055\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3059\u308b\u3000\u3064\u306e\u3092\n\u76f8\u624b\u306b\u3000\u7a81\u304d\u523a\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with a horn\nthat rotates like a drill. The target\nfaints instantly if this attack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un corno perforante\ncome un trapano. Se il colpo va a segno,\nil Pok\u00e9mon colpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con taladro que fulmina en un golpe al\nobjetivo si le toca.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "K.O.-Attacke, bei der ein Horn als Bohrer\neingesetzt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de corne en vrille qui empale l\u2019ennemi,\nle mettant K.O. sur le coup s\u2019il est touch\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud558\ub294 \ubfd4\uc744\n\uc0c1\ub300\uc5d0\uac8c \uaff0\ucc14\ub7ec\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3059\u308b\u3000\u3064\u306e\u3092\n\u3042\u3044\u3066\u306b\u3000\u3064\u304d\u3055\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3059\u308b\u3000\u3064\u306e\u3092\n\u76f8\u624b\u306b\u3000\u7a81\u304d\u523a\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with a horn\nthat rotates like a drill. The target\nfaints instantly if this attack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un corno perforante come\nun trapano. Se il colpo va a segno, il Pok\u00e9mon\ncolpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con taladro que fulmina en un golpe al\nobjetivo si le toca.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "K.O.-Attacke, bei der ein Horn als Bohrer\neingesetzt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de corne en vrille qui empale l\u2019ennemi,\nle mettant K.O. sur le coup s\u2019il est touch\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud558\ub294 \ubfd4\uc744\n\uc0c1\ub300\uc5d0\uac8c \uaff0\ucc14\ub7ec\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3059\u308b\u3000\u3064\u306e\u3092\n\u3042\u3044\u3066\u306b\u3000\u3064\u304d\u3055\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with a horn\nthat rotates like a drill.\nIf it hits, the target faints instantly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with a horn\nthat rotates like a drill.\nIf it hits, the target faints instantly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de corne en vrille qui empale\nl\u2019ennemi, le mettant K.O. sur le coup\ns\u2019il est touch\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The horn is rotated\nlike a drill to ram.\nThe foe will faint\nif it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A one-hit KO attack that\nuses a horn like a drill.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A one-hit KO attack that\nuses a horn like a drill.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A one-hit KO,\ndrill attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A one-hit KO,\ndrill attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 32,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/109/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/110/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "ohko",
+            "url": "/api/v2/move-category/9/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "horn-drill",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u89d2\u94bb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3064\u306e\u30c9\u30ea\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Horn Drill"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Perforcorno"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Perforador"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Hornbohrer"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Empal\u2019Korne"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u89d2\u947d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubfd4\ub4dc\ub9b4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3064\u306e\u30c9\u30ea\u30eb"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/9/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

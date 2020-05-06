@@ -1,0 +1,604 @@
+{
+    "accuracy": 75,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": 20,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to make the target flinch."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u91ca\u653e\u51fa\u9a87\u4eba\u7684\u6740\u6c14\uff0c\n\u4e00\u8fb9\u5a01\u6151\u4e00\u8fb9\u649e\u51fb\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u4f7f\u5bf9\u624b\u754f\u7f29\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u6bba\u6c17\u3067\u3000\u5a01\u5727\u3057\u306a\u304c\u3089\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target while exhibiting\noverwhelming menace. This may also make the\ntarget flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con fare minaccioso e in questo\nmodo pu\u00f2 anche far tentennare il bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca de forma brutal mientras intimida al objetivo. \nTambi\u00e9n puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender f\u00fchrt einen furchteinfl\u00f6\u00dfenden Angriff\naus. Das Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi en prenant un air\nmena\u00e7ant. Peut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u91cb\u653e\u51fa\u99ed\u4eba\u7684\u6bba\u6c23\uff0c\n\u5a01\u5687\u4e26\u649e\u64ca\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u4f7f\u5c0d\u624b\u754f\u7e2e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \uc0b4\uae30\ub85c \uc704\uc555\ud558\uba74\uc11c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3055\u3063\u304d\u3067\u3000\u3044\u3042\u3064\u3000\u3057\u306a\u304c\u3089\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u91ca\u653e\u51fa\u9a87\u4eba\u7684\u6740\u6c14\uff0c\n\u4e00\u8fb9\u5a01\u6151\u4e00\u8fb9\u649e\u51fb\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u4f7f\u5bf9\u624b\u754f\u7f29\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u6bba\u6c17\u3067\u3000\u5a01\u5727\u3057\u306a\u304c\u3089\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target while exhibiting\noverwhelming menace. This may also make the\ntarget flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con fare minaccioso e in questo\nmodo pu\u00f2 anche far tentennare il bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca de forma brutal mientras intimida al objetivo. \nTambi\u00e9n puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender f\u00fchrt einen furchteinfl\u00f6\u00dfenden Angriff\naus. Das Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi en prenant un air\nmena\u00e7ant. Peut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u91cb\u653e\u51fa\u99ed\u4eba\u7684\u6bba\u6c23\uff0c\n\u5a01\u5687\u4e26\u649e\u64ca\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u4f7f\u5c0d\u624b\u754f\u7e2e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \uc0b4\uae30\ub85c \uc704\uc555\ud558\uba74\uc11c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3055\u3063\u304d\u3067\u3000\u3044\u3042\u3064\u3000\u3057\u306a\u304c\u3089\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u6bba\u6c17\u3067\u3000\u5a01\u5727\u3057\u306a\u304c\u3089\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target while\nexhibiting overwhelming menace.\nThis may also make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con fare minaccioso e in questo\nmodo pu\u00f2 anche far tentennare il bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca de forma brutal mientras intimida al objetivo. \nTambi\u00e9n puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender f\u00fchrt einen Furcht einfl\u00f6\u00dfenden\nAngriff aus. Das Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi en prenant un air\nmena\u00e7ant. Peut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \uc0b4\uae30\ub85c \uc704\uc555\ud558\uba74\uc11c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3055\u3063\u304d\u3067\u3000\u3044\u3042\u3064\u3000\u3057\u306a\u304c\u3089\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u6bba\u6c17\u3067\u3000\u5a01\u5727\u3057\u306a\u304c\u3089\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target while\nexhibiting overwhelming menace.\nThis may also make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con fare minaccioso e in questo\nmodo pu\u00f2 anche far tentennare il bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca de forma brutal mientras intimida al objetivo.\nTambi\u00e9n puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender f\u00fchrt einen gef\u00e4hrlichen Angriff aus.\nDas Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi en prenant un air\nmena\u00e7ant. Peut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uad49\uc7a5\ud55c \uc0b4\uae30\ub85c \uc704\uc555\ud558\uba74\uc11c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3055\u307e\u3058\u3044\u3000\u3055\u3063\u304d\u3067\u3000\u3044\u3042\u3064\u3000\u3057\u306a\u304c\u3089\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target while\nexhibiting overwhelming menace.\nIt may also make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the target while\nexhibiting overwhelming menace.\nIt may also make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur frappe l\u2019ennemi d\u2019un air\nmena\u00e7ant. Peut aussi apeurer l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the\nfoe while exhibiting\noverwhelming menace.\nIt may also make the\ntarget flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the\nfoe while exhibiting\noverwhelming menace.\nIt may also make the\ntarget flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user tackles the\nfoe while exhibiting\noverwhelming menace.\nIt may also make the\ntarget flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 407,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 20,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "dragon-rush",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9f99\u4e4b\u4fef\u51b2"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c9\u30e9\u30b4\u30f3\u30c0\u30a4\u30d6"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Dragon Rush"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Dragofuria"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Carga Drag\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Drachensto\u00df"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Dracocharge"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9f8d\u4e4b\u4fef\u885d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub4dc\ub798\uace4\ub2e4\uc774\ube0c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c9\u30e9\u30b4\u30f3\u30c0\u30a4\u30d6"
+        }
+    ],
+    "past_values": [],
+    "power": 100,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/18/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dragon",
+        "url": "/api/v2/type/16/"
+    }
+}

@@ -1,0 +1,718 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 30,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/52/"
+    },
+    "evolves_from_species": {
+        "name": "tangela",
+        "url": "/api/v2/pokemon-species/114/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6696\u304b\u3044\u3000\u5b63\u7bc0\u306b\u3000\u306a\u308b\u3068\n\u76ee\u7389\u3082\u3000\u96a0\u308c\u3066\u3057\u307e\u3046\u307b\u3069\n\u690d\u7269\u306e\u3000\u30c4\u30eb\u304c\u3000\u4f38\u3073\u7d9a\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Its vines grow so profusely that, in the warm\nseason, you can\u2019t even see its eyes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Nella stagione calda, le sue liane crescono al punto da\ncoprirgli gli occhi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Cuando llega el calor, se cubre por completo con sus lianas\ny no se le pueden ver ni los ojos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "In warmen Jahreszeiten wuchern seine Ranken so dicht,\ndass man nicht einmal mehr seine Augen erkennt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque vient la belle saison, ses lianes sont si luxuriantes\nqu\u2019elles cachent ses yeux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub530\ub73b\ud55c \uacc4\uc808\uc774 \uc624\uba74\n\ub208\uc774 \ubcf4\uc774\uc9c0 \uc54a\uc744 \uc815\ub3c4\ub85c\n\uc2dd\ubb3c\uc758 \ub369\uad74\uc774 \uacc4\uc18d \uc790\ub780\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u305f\u304b\u3044\u3000\u304d\u305b\u3064\u306b\u3000\u306a\u308b\u3068\n\u3081\u3060\u307e\u3082\u3000\u304b\u304f\u308c\u3066\u3000\u3057\u307e\u3046\u307b\u3069\n\u3057\u3087\u304f\u3076\u3064\u306e\u3000\u30c4\u30eb\u304c\u3000\u306e\u3073\u3064\u3065\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u690d\u7269\u306e\u3000\u30c4\u30eb\u3067\u3000\u3067\u304d\u305f\u3000\u8155\u3092\n\u4f38\u3070\u3057\u3066\u3000\u7372\u7269\u3092\u3000\u7d61\u3081\u53d6\u308b\u3002\n\u8155\u3092\u3000\u98df\u3079\u3089\u308c\u3066\u3082\u3000\u3078\u3063\u3061\u3083\u3089\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It ensnares prey by extending arms made of vines.\nLosing arms to predators does not trouble it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Intrappola le prede con gli arti, che sono costituiti da liane.\nSe ne perde uno, non si turba affatto.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa a su presa desplegando las ramas de sus brazos, que\nno le importa perder ante depredadores.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es umwickelt Beute, indem es seine Arme, die aus Ranken\nbestehen, verl\u00e4ngert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il ligote sa proie en \u00e9tirant ses bras en lianes. Il ne craint pas\nde perdre un bras face \u00e0 un ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc2dd\ubb3c\uc758 \ub369\uad74\ub85c \uc774\ub8e8\uc5b4\uc9c4 \ud314\uc744\n\ub298\uc5ec\uc11c \uba39\uc774\ub97c \ud3ec\ubc15\ud55c\ub2e4.\n\ud314\uc744 \uba39\ud600\ub3c4 \uc544\ubb34\ub807\uc9c0\ub3c4 \uc54a\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u304f\u3076\u3064\u306e\u3000\u30c4\u30eb\u3067\u3000\u3067\u304d\u305f\u3000\u3046\u3067\u3092\n\u306e\u3070\u3057\u3066\u3000\u3048\u3082\u306e\u3092\u3000\u304b\u3089\u3081\u3068\u308b\u3002\n\u3046\u3067\u3092\u3000\u305f\u3079\u3089\u308c\u3066\u3082\u3000\u3078\u3063\u3061\u3083\u3089\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6696\u304b\u3044\u3000\u5b63\u7bc0\u306b\u3000\u306a\u308b\u3068\n\u76ee\u7389\u3082\u3000\u96a0\u308c\u3066\u3057\u307e\u3046\u307b\u3069\n\u690d\u7269\u306e\u3000\u30c4\u30eb\u304c\u3000\u4f38\u3073\u7d9a\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Its vines grow so profusely that, in the warm\nseason, you can\u2019t even see its eyes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nella stagione calda, le sue liane crescono al punto\nda coprirgli gli occhi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuando llega el calor, se cubre por completo con sus\nlianas y no se le pueden ver ni los ojos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "In warmen Jahreszeiten wuchern seine Ranken\nso dicht, dass man nicht einmal mehr seine Augen\nerkennt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque vient la belle saison, ses lianes sont si\nluxuriantes qu\u2019elles cachent ses yeux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub530\ub73b\ud55c \uacc4\uc808\uc774 \uc624\uba74\n\ub208\uc774 \ubcf4\uc774\uc9c0 \uc54a\uc744 \uc815\ub3c4\ub85c\n\uc2dd\ubb3c\uc758 \ub369\uad74\uc774 \uacc4\uc18d \uc790\ub780\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u305f\u304b\u3044\u3000\u304d\u305b\u3064\u306b\u3000\u306a\u308b\u3068\n\u3081\u3060\u307e\u3082\u3000\u304b\u304f\u308c\u3066\u3000\u3057\u307e\u3046\u307b\u3069\n\u3057\u3087\u304f\u3076\u3064\u306e\u3000\u30c4\u30eb\u304c\u3000\u306e\u3073\u3064\u3065\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u690d\u7269\u306e\u3000\u30c4\u30eb\u3067\u3000\u3067\u304d\u305f\u3000\u8155\u3092\n\u4f38\u3070\u3057\u3066\u3000\u7372\u7269\u3092\u3000\u7d61\u3081\u53d6\u308b\u3002\n\u8155\u3092\u3000\u98df\u3079\u3089\u308c\u3066\u3082\u3000\u3078\u3063\u3061\u3083\u3089\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It ensnares prey by extending arms made of vines.\nLosing arms to predators does not trouble it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Intrappola le prede con gli arti, che sono costituiti\nda liane. Se ne perde uno, non si turba affatto.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa a su presa desplegando las ramas de sus\nbrazos, que no le importa perder ante depredadores.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es umwickelt Beute, indem es seine Arme,\ndie aus Ranken bestehen, verl\u00e4ngert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il ligote sa proie en \u00e9tirant ses bras en lianes. Il ne\ncraint pas de perdre un bras face \u00e0 un ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc2dd\ubb3c\uc758 \ub369\uad74\ub85c \uc774\ub8e8\uc5b4\uc9c4 \ud314\uc744\n\ub298\uc5ec\uc11c \uba39\uc774\ub97c \ud3ec\ubc15\ud55c\ub2e4.\n\ud314\uc744 \uba39\ud600\ub3c4 \uc544\ubb34\ub807\uc9c0\ub3c4 \uc54a\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3087\u304f\u3076\u3064\u306e\u3000\u30c4\u30eb\u3067\u3000\u3067\u304d\u305f\u3000\u3046\u3067\u3092\n\u306e\u3070\u3057\u3066\u3000\u3048\u3082\u306e\u3092\u3000\u304b\u3089\u3081\u3068\u308b\u3002\n\u3046\u3067\u3092\u3000\u305f\u3079\u3089\u308c\u3066\u3082\u3000\u3078\u3063\u3061\u3083\u3089\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Even if one of its arms is eaten,\nit\u2019s fine. The Pok\u00e9mon regenerates\nquickly and will go right back to normal.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Even if one of its arms is eaten,\nit\u2019s fine. The Pok\u00e9mon regenerates\nquickly and will go right back to normal.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Its arms are made of plants that\nbind themselves to things. They\ngrow back right away if cut.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ses bras sont en fait des plantes\nqui s\u2019attachent \u00e0 tout ce qu\u2019elles\ntouchent et peuvent repousser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Its arms are made of plants that\nbind themselves to things. They\ngrow back right away if cut.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ses bras sont en fait des plantes\nqui s\u2019attachent \u00e0 tout ce qu\u2019elles\ntouchent et peuvent repousser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Its vines grow so profusely that, in the\nwarm season, you can\u2019t even see\nits eyes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "When it remains still, it appears to be a\nlarge shrub. Unsuspecting prey that\nwander near get ensnared by its vines.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Its arms are made of plants that\nbind themselves to things. They\ngrow back right away if cut.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It ensnares prey by extending\narms made of vines. Losing arms to\npredators does not trouble it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It ensnares prey by extending\narms made of vines. Losing arms to\npredators does not trouble it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u85e4\u8513\u72b6\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30c4\u30eb\u3058\u3087\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Vine Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Liana",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Enredadera",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Ranke",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Vigne",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u85e4\u8513\u72c0\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub11d\ucfe8\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30c4\u30eb\u3058\u3087\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 465,
+    "is_baby": false,
+    "name": "tangrowth",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5de8\u8513\u85e4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e2\u30b8\u30e3\u30f3\u30dc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Tangrowth"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Tangrowth"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Tangrowth"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Tangoloss"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Bouldeneu"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5de8\u8513\u85e4"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub369\ucfe0\ub9bc\ubcf4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Mojumbo"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e2\u30b8\u30e3\u30f3\u30dc"
+        }
+    ],
+    "order": 130,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 218,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 183,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 182,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 465,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "tangrowth",
+                "url": "/api/v2/pokemon/465/"
+            }
+        }
+    ]
+}

@@ -1,0 +1,864 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 255,
+    "color": {
+        "name": "white",
+        "url": "/api/v2/pokemon-color/9/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/296/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f1a\u5410\u51fa\u96f6\u4e0b\uff15\uff10\u5ea6\u7684\u51b7\u6c14\u3002\n\u5982\u679c\u5446\u5728\u6e29\u6696\u7684\u573a\u6240\uff0c\n\u5c31\u4f1a\u4e00\u70b9\u70b9\u5730\u53d8\u5c0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30ca\u30b9\u3000\uff15\uff10\u5ea6\u306e\u3000\u51b7\u6c17\u3092\u3000\u5410\u304f\u3002\n\u6696\u304b\u3044\u3000\u5834\u6240\u306b\u3000\u3044\u308b\u3068\n\u3061\u3087\u3063\u3068\u305a\u3064\u3000\u5c0f\u3055\u304f\u306a\u3063\u3066\u3000\u3044\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It exhales cold air that is at \u201358 degrees\nFahrenheit. When it\u2019s in a warm place, it shrinks\nlittle by little.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il suo fiato ha una temperatura di -50 \u00b0C.\nQuando si trova in un luogo caldo, il volume\ndel suo corpo si riduce a poco a poco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Exhala vaho a una temperatura de -50 \u00baC. Su\ntama\u00f1o corporal se reduce poco a poco cuando\nse encuentra en un lugar c\u00e1lido.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Die Temperatur seines Atems liegt bei -50 \u00b0C.\nWenn es sich an warmen Orten aufh\u00e4lt, wird es\nnach und nach kleiner.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Son souffle glac\u00e9 descend jusqu\u2019\u00e0 -50 \u00b0C.\nIl fond peu \u00e0 peu quand il se retrouve dans\nun endroit chaud.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u5410\u51fa\u96f6\u4e0b\uff15\uff10\u5ea6\u7684\u5bd2\u6c23\u3002\n\u5982\u679c\u5f85\u5728\u6eab\u6696\u7684\u5730\u65b9\uff0c\n\u8eab\u9ad4\u5c31\u6703\u6f38\u6f38\u5730\u8b8a\u5c0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\uc774\ub108\uc2a4 50\ub3c4 \ub0c9\uae30\ub97c \ub0b4\ubc49\ub294\ub2e4.\n\ub530\ub4ef\ud55c \uc7a5\uc18c\uc5d0 \uc788\uc73c\uba74\n\uc870\uae08\uc529 \uc791\uc544\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30ca\u30b9\u3000\uff15\uff10\u3069\u306e\u3000\u308c\u3044\u304d\u3092\u3000\u306f\u304f\u3002\n\u3042\u305f\u305f\u304b\u3044\u3000\u3070\u3057\u3087\u306b\u3000\u3044\u308b\u3068\n\u3061\u3087\u3063\u3068\u305a\u3064\u3000\u3061\u3044\u3055\u304f\u306a\u3063\u3066\u3000\u3044\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u62b1\u7d27\u7684\u8bdd\uff0c\u5c31\u4f1a\u611f\u89c9\u51c9\u51c9\u7684\n\u975e\u5e38\u8212\u670d\u3002\u5728\u708e\u70ed\u5730\u533a\uff0c\n\u662f\u6bcf\u5bb6\u5fc5\u5907\uff11\u53ea\u7684\u4fbf\u5229\u5b9d\u53ef\u68a6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u62b1\u304d\u3057\u3081\u308b\u3068\u3000\u3072\u3093\u3084\u308a\u3000\u5fc3\u5730\u3088\u3044\u3002\n\u6691\u3044\u3000\u5730\u65b9\u3067\u306f\u3000\u4e00\u5bb6\u306b\u3000\uff11\u5339\u3068\n\u91cd\u5b9d\u3055\u308c\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It feels pleasantly cool when embraced. This\nPok\u00e9mon is treasured by households in\nwarm regions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Abbracciarlo d\u00e0 una piacevole sensazione\ndi freschezza. Per chi vive in regioni calde, \u00e8\ndecisamente un Pok\u00e9mon da tenere in casa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Al abrazarlo transmite una sensaci\u00f3n agradable\ny refrescante. La gente que vive en las regiones\nc\u00e1lidas aprecia mucho su presencia en casa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Wenn man es umarmt, f\u00fchlt es sich angenehm\nund k\u00fchl an. In hei\u00dfen Regionen hat man daher\ngern ein Exemplar im Haus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Serrer Sorb\u00e9b\u00e9 contre soi procure une d\u00e9licieuse\nsensation de fra\u00eecheur. Dans les r\u00e9gions\nchaudes, c\u2019est le Pok\u00e9mon \u00e0 avoir \u00e0 la maison.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u62b1\u7dca\u7260\u5c31\u6703\u611f\u89ba\u6dbc\u6dbc\u7684\n\u975e\u5e38\u8212\u670d\u3002\u5728\u708e\u71b1\u7684\u5730\u5340\uff0c\n\u662f\u6bcf\u5bb6\u5fc5\u5099\uff11\u96bb\u7684\u4fbf\u5229\u5bf6\u53ef\u5922\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uaef4\uc548\uc73c\uba74 \ucc28\uac00\uc6cc\uc11c \uae30\ubd84\uc774 \uc88b\ub2e4.\n\ub354\uc6b4 \uc9c0\ubc29\uc5d0\uc11c\ub294 \ud55c \uc9d1\uc5d0 1\ub9c8\ub9ac\uc529 \ub450\uace0\n\uc18c\uc911\ud558\uac8c \uc5ec\uae30\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3060\u304d\u3057\u3081\u308b\u3068\u3000\u3072\u3093\u3084\u308a\u3000\u3053\u3053\u3061\u3088\u3044\u3002\n\u3042\u3064\u3044\u3000\u3061\u307b\u3046\u3067\u306f\u3000\u3044\u3063\u304b\u306b\u3000\uff11\u3074\u304d\u3068\n\u3061\u3087\u3046\u307b\u3046\u3055\u308c\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u671d\u65e5\u306e\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u6d74\u3073\u305f\n\u3064\u3089\u3089\u304c\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u306a\u3063\u305f\u3002\n\u96ea\u306b\u3000\u4f53\u3092\u3000\u57cb\u3081\u3066\u3000\u7720\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon formed from icicles bathed in energy\nfrom the morning sun. It sleeps buried in snow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon nato da una stalattite che ha ricevuto l\u2019energia del\nsole mattutino. Dorme sepolto sotto la neve.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Naci\u00f3 de un car\u00e1mbano que absorbi\u00f3 la energ\u00eda del sol al\nalba. Duerme arropado por la nieve.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ein Eiszapfen, der durch die Energie der aufgehenden Sonne\nzum Pok\u00e9mon wurde. Nachts deckt es sich mit Schnee zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon est n\u00e9 d\u2019un gla\u00e7on qui a baign\u00e9 dans la lumi\u00e8re\ndu matin. Il se cache dans la neige pour dormir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\uce68 \ud574\uc758 \uc5d0\ub108\uc9c0\ub97c \ubc1b\uc740\n\uace0\ub4dc\ub984\uc774 \ud3ec\ucf13\ubaac\uc774 \ub418\uc5c8\ub2e4.\n\ub208\uc5d0 \ubab8\uc744 \ubb3b\uace0 \uc7a0\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3055\u3072\u306e\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u3042\u3073\u305f\n\u3064\u3089\u3089\u304c\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u306a\u3063\u305f\u3002\n\u3086\u304d\u306b\u3000\u304b\u3089\u3060\u3092\u3000\u3046\u3081\u3066\u3000\u306d\u3080\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30ca\u30b9\uff15\uff10\u5ea6\u306e\u3000\u606f\u3092\u3000\u5410\u304f\u3002\n\u96ea\u306e\u3000\u7d50\u6676\u3092\u3000\u4f5c\u3063\u3066\n\u3042\u305f\u308a\u306b\u3000\u96ea\u3092\u3000\u964d\u3089\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "The temperature of their breath is -58 degrees\nFahrenheit. They create snow crystals and make\nsnow fall in the areas around them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il suo fiato \u00e8 a -50 \u00b0C. Fa nevicare tutto intorno, formando\ndei cristalli di neve.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lanza un aliento de -50 \u00b0C. Crea bloques de nieve y es capaz\nde lograr que nieve a su alrededor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Die Temperatur seines Odems liegt bei -50 \u00b0C. Es erzeugt\nEiskristalle und l\u00e4sst es in seiner Umgebung schneien.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il exhale une haleine \u00e0 -50 \u00b0C. Il fabrique des cristaux de neige\net fait neiger autour de lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\uc774\ub108\uc2a4 50\ub3c4\uc758 \uc228\uacb0\uc744 \ub0b4\ubc49\ub294\ub2e4.\n\ub208 \uacb0\uc815\uc744 \ub9cc\ub4e4\uc5b4\n\uc8fc\ubcc0\uc5d0 \ub208\uc774 \ub0b4\ub9ac\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30ca\u30b9\uff15\uff10\u3069\u306e\u3000\u3044\u304d\u3092\u3000\u306f\u304f\u3002\n\u3086\u304d\u306e\u3000\u3051\u3063\u3057\u3087\u3046\u3092\u3000\u3064\u304f\u3063\u3066\n\u3042\u305f\u308a\u306b\u3000\u3086\u304d\u3092\u3000\u3075\u3089\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u671d\u65e5\u306e\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u6d74\u3073\u305f\n\u3064\u3089\u3089\u304c\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u306a\u3063\u305f\u3002\n\u96ea\u306b\u3000\u4f53\u3092\u3000\u57cb\u3081\u3066\u3000\u7720\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon formed from icicles bathed in energy\nfrom the morning sun. It sleeps buried in snow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon nato da una stalattite che ha ricevuto\nl\u2019energia del sole mattutino. Dorme sepolto sotto\nla neve.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Naci\u00f3 de un car\u00e1mbano que absorbi\u00f3 la energ\u00eda del\nsol al alba. Duerme arropado por la nieve.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ein Eiszapfen, der durch die Energie der aufgehenden\nSonne zum Pok\u00e9mon wurde. Nachts deckt es sich mit\nSchnee zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon est n\u00e9 d\u2019un gla\u00e7on qui a baign\u00e9 dans\nla lumi\u00e8re du matin. Il se cache dans la neige pour\ndormir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\uce68 \ud574\uc758 \uc5d0\ub108\uc9c0\ub97c \ubc1b\uc740\n\uace0\ub4dc\ub984\uc774 \ud3ec\ucf13\ubaac\uc774 \ub418\uc5c8\ub2e4.\n\ub208\uc5d0 \ubab8\uc744 \ubb3b\uace0 \uc7a0\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3055\u3072\u306e\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u3042\u3073\u305f\n\u3064\u3089\u3089\u304c\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u306a\u3063\u305f\u3002\n\u3086\u304d\u306b\u3000\u304b\u3089\u3060\u3092\u3000\u3046\u3081\u3066\u3000\u306d\u3080\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30ca\u30b9\uff15\uff10\u5ea6\u306e\u3000\u606f\u3092\u3000\u5410\u304f\u3002\n\u96ea\u306e\u3000\u7d50\u6676\u3092\u3000\u4f5c\u3063\u3066\n\u3042\u305f\u308a\u306b\u3000\u96ea\u3092\u3000\u964d\u3089\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The temperature of their breath is -58 degrees\nFahrenheit. They create snow crystals and make\nsnow fall in the areas around them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il suo fiato \u00e8 a -50 \u00b0C. Fa nevicare tutto intorno,\nformando dei cristalli di neve.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Lanza un aliento de -50 \u00b0C. Crea bloques de nieve y\nes capaz de lograr que nieve a su alrededor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Die Temperatur seines Odems liegt bei -50 \u00b0C.\nEs erzeugt Eiskristalle und l\u00e4sst es in seiner\nUmgebung schneien.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il exhale une haleine \u00e0 -50 \u00b0C. Il fabrique des cristaux\nde neige et fait neiger autour de lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\uc774\ub108\uc2a4 50\ub3c4\uc758 \uc228\uacb0\uc744 \ub0b4\ubc49\ub294\ub2e4.\n\ub208 \uacb0\uc815\uc744 \ub9cc\ub4e4\uc5b4\n\uc8fc\ubcc0\uc5d0 \ub208\uc774 \ub0b4\ub9ac\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30ca\u30b9\uff15\uff10\u3069\u306e\u3000\u3044\u304d\u3092\u3000\u306f\u304f\u3002\n\u3086\u304d\u306e\u3000\u3051\u3063\u3057\u3087\u3046\u3092\u3000\u3064\u304f\u3063\u3066\n\u3042\u305f\u308a\u306b\u3000\u3086\u304d\u3092\u3000\u3075\u3089\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Theoretically, this Pok\u00e9mon formed from\nicicles bathed in energy from the morning\nsun. Their breath is -58\u00b0 F.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Theoretically, this Pok\u00e9mon formed from\nicicles bathed in energy from the morning\nsun. Their breath is -58\u00b0 F.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon formed from icicles\nbathed in energy from the morning sun.\nIt sleeps buried in snow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon est n\u00e9 d\u2019un gla\u00e7on qui\na baign\u00e9 dans la lumi\u00e8re du matin.\nIl se cache dans la neige pour dormir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "The temperature of their breath\nis -58\u00b0 F. They create snow crystals and\nmake snow fall in the areas around them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il exhale une haleine \u00e0 -50 \u00b0C.\nIl fabrique des cristaux de neige\net fait neiger autour de lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u65b0\u96ea\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3057\u3093\u305b\u3064\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Fresh Snow Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Nevefresca",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Nieve Fresca",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Neuschnee",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Poudreuse",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u65b0\u96ea\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc2e0\uc124\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3057\u3093\u305b\u3064\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 582,
+    "is_baby": false,
+    "name": "vanillite",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8ff7\u4f60\u51b0"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d0\u30cb\u30d7\u30c3\u30c1"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Vanillite"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Vanillite"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Vanillite"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Gelatini"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Sorb\u00e9b\u00e9"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8ff7\u4f60\u51b0"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubc14\ub2d0\ud504\ud2f0"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d0\u30cb\u30d7\u30c3\u30c1"
+        }
+    ],
+    "order": 583,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 85,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 255,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 88,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 582,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "blob",
+        "url": "/api/v2/pokemon-shape/5/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "vanillite",
+                "url": "/api/v2/pokemon/582/"
+            }
+        }
+    ]
+}

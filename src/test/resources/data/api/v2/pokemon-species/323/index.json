@@ -1,0 +1,783 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 150,
+    "color": {
+        "name": "red",
+        "url": "/api/v2/pokemon-color/8/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/162/"
+    },
+    "evolves_from_species": {
+        "name": "numel",
+        "url": "/api/v2/pokemon-species/322/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u80cc\u4e2d\u306e\u3000\u30b3\u30d6\u306f\u3000\u9aa8\u304c\u3000\u5f62\u3092\u3000\u5909\u3048\u305f\u3082\u306e\u3002\n\u716e\u3048\u305f\u304e\u3063\u305f\u3000\u30de\u30b0\u30de\u3092\u3000\u6642\u3005\u3000\u5674\u304d\u4e0a\u3052\u308b\u3002\n\u6012\u3063\u305f\u3000\u3068\u304d\u306b\u3000\u3088\u304f\u3000\u5674\u706b\u3059\u308b\u3000\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "The humps on Camerupt\u2019s back are formed by a transformation\nof its bones. They sometimes blast out molten magma.\nThis Pok\u00e9mon apparently erupts often when it is enraged.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Le gobbe sulla schiena di Camerupt si sono formate dalla\ntrasformazione delle sue ossa. Talvolta emettono magma fuso.\nPare che questo Pok\u00e9mon erutti spesso quando \u00e8 infuriato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Las jorobas de Camerupt se originaron por una deformaci\u00f3n\nde los huesos. A veces escupen magma l\u00edquido, sobre todo\ncuando el Pok\u00e9mon se enfada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Die H\u00f6cker auf Camerupts R\u00fccken sind durch eine\nTransformation seiner Knochen entstanden. Hin und\nwieder sto\u00dfen sie Magma aus. Dieses Pok\u00e9mon bricht\nh\u00e4ufig aus, wenn es w\u00fctend ist.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Les bosses sur le dos de Cam\u00e9rupt sont apparues apr\u00e8s\nune d\u00e9formation de ses os. Elles crachent parfois du magma\nen fusion. Ce Pok\u00e9mon entre apparemment en \u00e9ruption\nlorsqu\u2019il est \u00e9nerv\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub4f1\uc758 \ud639\uc740 \ubf08\uac00 \ubcc0\ud615\ub41c \uac83\uc774\ub2e4.\n\ud384\ud384 \ub053\ub294 \ub9c8\uadf8\ub9c8\ub97c \uac00\ub054 \ubfdc\uc5b4 \uc62c\ub9b0\ub2e4.\n\ud654\ub0ac\uc744 \ub54c \uc790\uc8fc \ubd84\ud654\ud558\ub294 \uac83 \uac19\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u306a\u304b\u306e\u3000\u30b3\u30d6\u306f\u3000\u307b\u306d\u304c\u3000\u304b\u305f\u3061\u3092\u3000\u304b\u3048\u305f\u3082\u306e\u3002\n\u306b\u3048\u305f\u304e\u3063\u305f\u3000\u30de\u30b0\u30de\u3092\u3000\u3068\u304d\u3069\u304d\u3000\u3075\u304d\u3042\u3052\u308b\u3002\n\u304a\u3053\u3063\u305f\u3000\u3068\u304d\u306b\u3000\u3088\u304f\u3000\u3075\u3093\u304b\u3059\u308b\u3000\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u306e\u3000\u4e2d\u306b\u3000\u706b\u5c71\u3092\u3000\u6301\u3064\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002\n\u4f53\u306b\u3000\u305f\u307e\u3063\u305f\u3000\u6442\u6c0f\u3000\uff11\u4e07\u5ea6\u306e\u3000\u30de\u30b0\u30de\u3092\n\u6642\u3005\u3000\u80cc\u4e2d\u306e\u3000\u30b3\u30d6\u304b\u3089\u3000\u5674\u304d\u4e0a\u3052\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Camerupt has a volcano inside its body. Magma of\n18,000 degrees Fahrenheit courses through its body.\nOccasionally, the humps on this Pok\u00e9mon\u2019s back erupt,\nspewing the superheated magma.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Camerupt ha un vulcano all\u2019interno del proprio corpo.\nNelle sue vene scorre magma liquido a 10.000 \u00b0C.\nTalvolta le gobbe che ha sulla schiena eruttano, espellendo\nmagma rovente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Camerupt encierra un volc\u00e1n en su interior y magma de\n10 000 \u00b0C le recorre el cuerpo. A veces, las jorobas de la\nespalda entran en erupci\u00f3n y escupen el abrasivo magma.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Camerupt tr\u00e4gt einen Vulkan in seinem K\u00f6rper. 10 000 \u00b0C\nhei\u00dfes Magma flie\u00dft in ihm. Manchmal brechen die H\u00f6cker auf\nseinem R\u00fccken aus und verspucken gl\u00fchend hei\u00dfes Magma.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Le corps de Cam\u00e9rupt renferme un volcan. Du magma\n\u00e0 10\ue07f000 \u00b0C coule dans ses veines. De temps en temps,\nles bosses sur le dos de ce Pok\u00e9mon entrent en \u00e9ruption\net crachent le magma surchauff\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8 \uc548\uc5d0 \ud654\uc0b0\uc744 \uc9c0\ub2cc \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ubab8\uc5d0 \ubaa8\uc740 \uc12d\uc528 1\ub9cc \ub3c4\uc758 \ub9c8\uadf8\ub9c8\ub97c\n\uac00\ub054 \ub4f1\uc758 \ud639\uc5d0\uc11c \ubfdc\uc5b4 \uc62c\ub9ac\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u306e\u3000\u306a\u304b\u306b\u3000\u304b\u3056\u3093\u3092\u3000\u3082\u3064\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002\n\u304b\u3089\u3060\u306b\u3000\u305f\u307e\u3063\u305f\u3000\u305b\u3063\u3057\u3000\uff11\u307e\u3093\u3069\u306e\u3000\u30de\u30b0\u30de\u3092\n\u3068\u304d\u3069\u304d\u3000\u305b\u306a\u304b\u306e\u3000\u30b3\u30d6\u304b\u3089\u3000\u3075\u304d\u3042\u3052\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6012\u308b\u3068\u3000\u707c\u71b1\u306e\u3000\u30de\u30b0\u30de\u3092\n\u80cc\u4e2d\u306e\u3000\u30b3\u30d6\u304b\u3089\u3000\u5674\u304d\u4e0a\u3052\u308b\u3002\n\u706b\u5c71\u306e\u3000\u706b\u53e3\u306b\u3000\u4f4f\u51e6\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "If angered, the humps on its back erupt in a shower\nof molten lava. It lives in the craters of volcanoes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Vive nei crateri dei vulcani. Se \u00e8 adirato, erutta una\npioggia di lava fusa dalle gobbe sul dorso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuando se enfada, las jorobas del lomo entran en\nerupci\u00f3n y expulsan lava. Habita los cr\u00e1teres de los\nvolcanes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Wenn es w\u00fctend ist, regnet es aus den H\u00f6ckern\nauf seinem R\u00fccken fl\u00fcssige Lava. Es lebt in den\nKratern von Vulkanen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il s\u2019\u00e9nerve, Cam\u00e9rupt fait jaillir de la lave en fusion\npar les bosses qui se trouvent sur son dos. Il vit dans\nles crat\u00e8res des volcans.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud654\ub098\uba74 \uc791\uc5f4\ud558\ub294 \ub9c8\uadf8\ub9c8\ub97c\n\ub4f1\uc758 \ud639\uc5d0\uc11c \ubd84\ucd9c\ud55c\ub2e4.\n\ud654\uc0b0\uc758 \ubd84\ud654\uad6c\uc5d0 \uac70\ucc98\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3053\u308b\u3068\u3000\u3057\u3083\u304f\u306d\u3064\u306e\u3000\u30de\u30b0\u30de\u3092\n\u305b\u306a\u304b\u306e\u3000\u30b3\u30d6\u304b\u3089\u3000\u3075\u304d\u3042\u3052\u308b\u3002\n\u304b\u3056\u3093\u306e\u3000\u304b\u3053\u3046\u306b\u3000\u3059\u307f\u304b\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u80cc\u4e2d\u306e\u3000\u30b3\u30d6\u306e\u3000\u706b\u5c71\u306f\n\uff11\uff10\u5e74\u3054\u3068\u306b\u3000\u5927\u5674\u706b\u3000\u3059\u308b\u304c\n\u6fc0\u3057\u304f\u3000\u6012\u3063\u3066\u3082\u3000\u5674\u706b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The volcanoes on its back have a major eruption\nevery 10 years--or whenever it becomes\nreally angry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "I vulcani sul suo dorso eruttano ogni dieci anni o\nquando \u00e8 veramente arrabbiato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Los volcanes de su joroba entran en erupci\u00f3n cada\n10 a\u00f1os o cuando Camerupt se enfada mucho.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Seine Vulkanh\u00f6cker brechen nur alle zehn Jahre\naus oder wenn es richtig w\u00fctend ist.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Les volcans sur son dos entrent en \u00e9ruption tous\nles dix ans ou chaque fois qu\u2019il se met en col\u00e8re.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ub4f1\uc758 \ud639 \ubaa8\uc591 \ud654\uc0b0\uc740\n10\ub144\ub9c8\ub2e4 \ub300\ubd84\ud654\ud558\ub098\n\uc2ec\ud558\uac8c \ud654\uac00 \ub098\ub3c4 \ubd84\ud654\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u306a\u304b\u306e\u3000\u30b3\u30d6\u306e\u3000\u304b\u3056\u3093\u306f\n\uff11\uff10\u306d\u3093\u3054\u3068\u306b\u3000\u3060\u3044\u3075\u3093\u304b\u3000\u3059\u308b\u304c\n\u306f\u3052\u3057\u304f\u3000\u304a\u3053\u3063\u3066\u3082\u3000\u3075\u3093\u304b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The volcanoes on its back have a\nmajor eruption every 10 years--or\nwhenever it becomes really angry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The volcanoes on its back have a\nmajor eruption every 10 years--or\nwhenever it becomes really angry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It has volcanoes on its back. If\nmagma builds up in its body, it\nshudders, then erupts violently.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il porte des volcans sur son dos.\nQuand le magma remonte, il\nfrissonne et entre en \u00e9ruption.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It has volcanoes on its back. If\nmagma builds up in its body, it\nshudders, then erupts violently.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il porte des volcans sur son dos.\nQuand le magma remonte, il\nfrissonne et entre en \u00e9ruption.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the crater of a volcano.\nIt is well known that the humps on\nits back erupt every 10 years.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the crater of a volcano.\nIt is well known that the humps on\nits back erupt every 10 years.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It has volcanoes on its back. If\nmagma builds up in its body, it\nshudders, then erupts violently.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It has volcanoes on its back. If\nmagma builds up in its body, it\nshudders, then erupts violently.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has volcanoes on its back. If\nmagma builds up in its body, it\nshudders, then erupts violently.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "If angered, the humps on its back erupt\nin a shower of molten lava. It lives in\nthe craters of volcanoes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "If angered, the humps on its back erupt\nin a shower of molten lava. It lives in\nthe craters of volcanoes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON that lives in the crater of\na volcano. Every 10 years, the volcanoes\non its back erupt violently. Research is\nunder way on the cause of eruption.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "The humps on CAMERUPT\u2019s back are\nformed by a transformation of its\nbones. They sometimes blast out molten\fmagma. This POK\u00e9MON apparently erupts\noften when it is enraged.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "CAMERUPT has a volcano inside its body.\nMagma of 18,000 degrees F courses\nthrough its body.\fOccasionally, the humps on this\nPOK\u00e9MON\u2019s back erupt, spewing the\nsuperheated magma.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": true,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u55b7\u706b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3075\u3093\u304b\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Eruption Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Eruzione",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Erupci\u00f3n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Ausbruch",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon \u00c9ruption",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5674\u706b\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubd84\ud654\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3075\u3093\u304b\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "mountain",
+        "url": "/api/v2/pokemon-habitat/4/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 323,
+    "is_baby": false,
+    "name": "camerupt",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u55b7\u706b\u9a7c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d0\u30af\u30fc\u30c0"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Camerupt"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Camerupt"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Camerupt"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Camerupt"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Cam\u00e9rupt"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5674\u706b\u99dd"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud3ed\ud0c0"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Bakuuda"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d0\u30af\u30fc\u30c0"
+        }
+    ],
+    "order": 351,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 107,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 205,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 102,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 323,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "camerupt",
+                "url": "/api/v2/pokemon/323/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "camerupt-mega",
+                "url": "/api/v2/pokemon/10087/"
+            }
+        }
+    ]
+}

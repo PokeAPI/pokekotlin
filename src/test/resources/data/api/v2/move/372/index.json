@@ -1,0 +1,617 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target takes damage this turn for any reason before this move is used, this move has double power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Power is doubled if the target has already received damage this turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5982\u679c\u6b64\u56de\u5408\u5185\u5bf9\u624b\n\u5df2\u7ecf\u53d7\u5230\u4f24\u5bb3\u7684\u8bdd\uff0c\n\u62db\u5f0f\u5a01\u529b\u4f1a\u53d8\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u76f8\u624b\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u3066\u3044\u305f\u3089\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "If the target has already taken some damage in the\nsame turn, this attack\u2019s power is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Se il bersaglio ha gi\u00e0 subito dei danni nello stesso\nturno, la potenza di questa mossa raddoppia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Si el objetivo ya ha sufrido da\u00f1o en ese turno, la \nfuerza del ataque se duplica.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel w\u00e4hrend der Runde schon Schaden\ngenommen, wird die St\u00e4rke der Attacke verdoppelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus efficace si\nl\u2019ennemi a d\u00e9j\u00e0 \u00e9t\u00e9 bless\u00e9 durant ce tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u6b64\u56de\u5408\u5167\u5c0d\u624b\n\u5df2\u53d7\u5230\u50b7\u5bb3\uff0c\n\u62db\u5f0f\u5a01\u529b\u6703\u8b8a\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8 \ud134\uc5d0 \uc0c1\ub300\uac00\n\uc774\ubbf8 \ub370\ubbf8\uc9c0\ub97c \uc785\uc5c8\ub2e4\uba74\n\uae30\uc220\uc758 \uc704\ub825\uc740 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u3042\u3044\u3066\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u3066\u3000\u3044\u305f\u3089\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u6b64\u56de\u5408\u5185\u5bf9\u624b\n\u5df2\u7ecf\u53d7\u5230\u4f24\u5bb3\u7684\u8bdd\uff0c\n\u62db\u5f0f\u5a01\u529b\u4f1a\u53d8\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u76f8\u624b\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u3066\u3044\u305f\u3089\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "If the target has already taken some damage in the\nsame turn, this attack\u2019s power is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Se il bersaglio ha gi\u00e0 subito dei danni nello stesso\nturno, la potenza di questa mossa raddoppia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Si el objetivo ya ha sufrido da\u00f1o en ese turno, la \nfuerza del ataque se duplica.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel w\u00e4hrend der Runde schon Schaden\ngenommen, wird die St\u00e4rke der Attacke verdoppelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus efficace si\nl\u2019ennemi a d\u00e9j\u00e0 \u00e9t\u00e9 bless\u00e9 durant ce tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u6b64\u56de\u5408\u5167\u5c0d\u624b\n\u5df2\u53d7\u5230\u50b7\u5bb3\uff0c\n\u62db\u5f0f\u5a01\u529b\u6703\u8b8a\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8 \ud134\uc5d0 \uc0c1\ub300\uac00\n\uc774\ubbf8 \ub370\ubbf8\uc9c0\ub97c \uc785\uc5c8\ub2e4\uba74\n\uae30\uc220\uc758 \uc704\ub825\uc740 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u3042\u3044\u3066\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u3066\u3000\u3044\u305f\u3089\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u76f8\u624b\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u3066\u3044\u305f\u3089\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "If the target has already taken some\ndamage in the same turn, this attack\u2019s\npower is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Se il bersaglio ha gi\u00e0 subito dei danni nello stesso\nturno, la potenza di questa mossa raddoppia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Si el objetivo ya ha sufrido da\u00f1o en ese turno, la \nfuerza del ataque se duplica.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel w\u00e4hrend der Runde schon Schaden\ngenommen, wird die Kraft der Attacke verdoppelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus efficace si\nl\u2019ennemi a d\u00e9j\u00e0 \u00e9t\u00e9 bless\u00e9 durant ce tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8 \ud134\uc5d0 \uc0c1\ub300\uac00\n\uc774\ubbf8 \ub370\ubbf8\uc9c0\ub97c \uc785\uc5c8\ub2e4\uba74\n\uae30\uc220\uc758 \uc704\ub825\uc740 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u3042\u3044\u3066\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u3066\u3000\u3044\u305f\u3089\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u76f8\u624b\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u3066\u3044\u305f\u3089\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "If the target has already taken some\ndamage in the same turn, this attack\u2019s\npower is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Se il bersaglio ha gi\u00e0 subito dei danni nello stesso\nturno, la potenza di questa mossa raddoppia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Si el objetivo ya ha sufrido da\u00f1o en ese turno, la\nfuerza del ataque se duplica.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel w\u00e4hrend der Runde schon Schaden\ngenommen, wird die Kraft der Attacke verdoppelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus efficace si\nl\u2019ennemi a d\u00e9j\u00e0 \u00e9t\u00e9 bless\u00e9 durant ce tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8 \ud134\uc5d0 \uc0c1\ub300\uac00\n\uc774\ubbf8 \ub370\ubbf8\uc9c0\ub97c \uc785\uc5c8\ub2e4\uba74\n\uae30\uc220\uc758 \uc704\ub825\uc740 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u306e\u30bf\u30fc\u30f3\u306b\u3000\u3042\u3044\u3066\u304c\n\u3059\u3067\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u3066\u3000\u3044\u305f\u3089\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "If the target has already taken some\ndamage in the same turn, this attack\u2019s\npower is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "If the target has already taken some\ndamage in the same turn, this attack\u2019s\npower is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus\nefficace si l\u2019ennemi a d\u00e9j\u00e0 \u00e9t\u00e9 bless\u00e9\ndurant ce tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "If the foe has\nalready taken some\ndamage in the same\nturn, this attack\u2019s\npower is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "If the foe has\nalready taken some\ndamage in the same\nturn, this attack\u2019s\npower is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "If the foe has\nalready taken some\ndamage in the same\nturn, this attack\u2019s\npower is doubled.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 372,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "assurance",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6076\u610f\u8ffd\u51fb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c0\u30e1\u304a\u3057"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Assurance"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Garanzia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Buena Baza"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Gewissheit"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Assurance"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u60e1\u610f\u8ffd\u64ca"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2b9\ubd80\uad73\ud788\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c0\u30e1\u304a\u3057"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 50,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 60,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/15/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+    }
+}

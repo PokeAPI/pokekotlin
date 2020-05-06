@@ -1,0 +1,647 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 10,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage. Has a $effect_chance% chance to raise all of the user's stats one stage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to raise all of the user's stats by one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7a81\u7136\u522e\u8d77\u6bdb\u9aa8\u609a\u7136\u7684\u66b4\u98ce\n\u653b\u51fb\u5bf9\u624b\u3002\u6709\u65f6\u4f1a\u63d0\u9ad8\n\u81ea\u5df1\u7684\u5168\u90e8\u80fd\u529b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u7a81\u98a8\u3067\u3000\u76f8\u624b\u3092\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u3059\u3079\u3066\u306e\n\u80fd\u529b\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user blasts the target with a gust of repulsive\nwind. This may also raise all the user\u2019s stats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una forte raffica di vento\nche pu\u00f2 aumentare tutte le sue statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Produce un viento horripilante. Puede subir de golpe \ntodas las caracter\u00edsticas del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel treffen abscheuliche Winde.\nErh\u00f6ht eventuell alle Statuswerte des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur cr\u00e9e une violente bourrasque.\nPeut aussi augmenter toutes ses stats.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u4ee4\u4eba\u6bdb\u9aa8\u609a\u7136\u7684\u5f37\u98a8\n\u653b\u64ca\u5c0d\u624b\u3002\u6709\u6642\u6703\u63d0\u9ad8\n\u81ea\u5df1\u7684\u6240\u6709\u80fd\u529b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc18c\ub984\uc774 \ub07c\uce60 \ub9cc\ud55c \ub3cc\ud48d\uc73c\ub85c \uc0c1\ub300\ub97c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubaa8\ub4e0\n\ub2a5\ub825\uc774 \uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u3068\u3063\u3077\u3046\u3067\u3000\u3042\u3044\u3066\u3092\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3059\u3079\u3066\u306e\n\u306e\u3046\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7a81\u7136\u522e\u8d77\u6bdb\u9aa8\u609a\u7136\u7684\u66b4\u98ce\n\u653b\u51fb\u5bf9\u624b\u3002\u6709\u65f6\u4f1a\u63d0\u9ad8\n\u81ea\u5df1\u7684\u5168\u90e8\u80fd\u529b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u7a81\u98a8\u3067\u3000\u76f8\u624b\u3092\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u3059\u3079\u3066\u306e\n\u80fd\u529b\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user blasts the target with a gust of repulsive\nwind. This may also raise all the user\u2019s stats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una forte raffica di vento\nche pu\u00f2 aumentare tutte le sue statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Produce un viento horripilante. Puede subir de golpe \ntodas las caracter\u00edsticas del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel treffen abscheuliche Winde.\nErh\u00f6ht eventuell alle Statuswerte des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur cr\u00e9e une violente bourrasque.\nPeut aussi augmenter toutes ses stats.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u4ee4\u4eba\u6bdb\u9aa8\u609a\u7136\u7684\u5f37\u98a8\n\u653b\u64ca\u5c0d\u624b\u3002\u6709\u6642\u6703\u63d0\u9ad8\n\u81ea\u5df1\u7684\u6240\u6709\u80fd\u529b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc18c\ub984\uc774 \ub07c\uce60 \ub9cc\ud55c \ub3cc\ud48d\uc73c\ub85c \uc0c1\ub300\ub97c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubaa8\ub4e0\n\ub2a5\ub825\uc774 \uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u3068\u3063\u3077\u3046\u3067\u3000\u3042\u3044\u3066\u3092\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3059\u3079\u3066\u306e\n\u306e\u3046\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u202f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u7a81\u98a8\u3067\u3000\u76f8\u624b\u3092\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u3059\u3079\u3066\u306e\n\u80fd\u529b\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user blasts the target with a gust of\nrepulsive wind. This may also raise all the\nuser\u2019s stats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una forte raffica di vento\nche pu\u00f2 aumentare tutte le sue statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Produce un viento horripilante. Puede subir de golpe \ntodas las caracter\u00edsticas del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel treffen abscheuliche Winde.\nSteigert eventuell alle Statuswerte des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur cr\u00e9e une violente bourrasque.\nPeut aussi augmenter toutes ses stats.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc18c\ub984\uc774 \ub07c\uce60 \ub9cc\ud55c \ub3cc\ud48d\uc73c\ub85c \uc0c1\ub300\ub97c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubaa8\ub4e0\n\ub2a5\ub825\uc774 \uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u202f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u3068\u3063\u3077\u3046\u3067\u3000\u3042\u3044\u3066\u3092\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3059\u3079\u3066\u306e\n\u306e\u3046\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u7a81\u98a8\u3067\u3000\u76f8\u624b\u3092\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u306e\u3000\u3059\u3079\u3066\u306e\n\u80fd\u529b\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user blasts the target with a gust of\nrepulsive wind. This may also raise all the\nuser\u2019s stats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una forte raffica di vento\nche pu\u00f2 aumentare tutte le sue statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Produce un viento horripilante. Puede subir de\ngolpe todas las caracter\u00edsticas del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel treffen abscheuliche Winde.\nSteigert eventuell alle Statuswerte des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur cr\u00e9e une violente bourrasque.\nPeut aussi augmenter toutes ses stats.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc18c\ub984\uc774 \ub07c\uce60 \ub9cc\ud55c \ub3cc\ud48d\uc73c\ub85c \uc0c1\ub300\ub97c\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc758 \ubaa8\ub4e0\n\ub2a5\ub825\uc774 \uc62c\ub77c\uac08 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u306e\u3051\u3082\u3000\u3088\u3060\u3064\u3000\u3068\u3063\u3077\u3046\u3067\u3000\u3042\u3044\u3066\u3092\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3059\u3079\u3066\u306e\n\u306e\u3046\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user blasts the target with a gust of\nrepulsive wind. It may also raise all the\nuser\u2019s stats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user blasts the target with a gust of\nrepulsive wind. It may also raise all the\nuser\u2019s stats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur cr\u00e9e une violente bourrasque.\nPeut aussi augmenter toutes ses stats.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\ngust of repulsive\nwind. It may also\nraise all the user\u2019s\nstats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\ngust of repulsive\nwind. It may also\nraise all the user\u2019s\nstats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\ngust of repulsive\nwind. It may also\nraise all the user\u2019s\nstats at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 466,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 10,
+        "category": {
+            "name": "damage+raise",
+            "url": "/api/v2/move-category/7/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 10
+    },
+    "name": "ominous-wind",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5947\u5f02\u4e4b\u98ce"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3042\u3084\u3057\u3044\u304b\u305c"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Ominous Wind"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Funestovento"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Viento Aciago"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Unheilb\u00f6en"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Vent Mauvais"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5947\u7570\u4e4b\u98a8"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uad34\uc0c1\ud55c\ubc14\ub78c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3042\u3084\u3057\u3044\u304b\u305c"
+        }
+    ],
+    "past_values": [],
+    "power": 60,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 1,
+            "stat": {
+                "name": "hp",
+                "url": "/api/v2/stat/1/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "attack",
+                "url": "/api/v2/stat/2/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "special-defense",
+                "url": "/api/v2/stat/5/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/11/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+    }
+}

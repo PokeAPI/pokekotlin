@@ -1,0 +1,712 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "confusion",
+                    "url": "/api/v2/move/93/"
+                },
+                {
+                    "name": "psychic",
+                    "url": "/api/v2/move/94/"
+                },
+                {
+                    "name": "kinesis",
+                    "url": "/api/v2/move/134/"
+                },
+                {
+                    "name": "calm-mind",
+                    "url": "/api/v2/move/347/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/24/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts typeless regular damage at the end of the third turn, starting with this one.  This move cannot score a critical hit.  If the target switches out, its replacement will be hit instead.  Damage is calculated at the time this move is used; stat changes and switching out during the delay won't change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.\n\nThis effect breaks through wonder guard.\n\nIf the target is protected by protect or detect on the turn this move is used, this move will fail.  However, the damage on the third turn will break through protection.\n\nThe damage is applied at the end of the turn, so it ignores endure and focus sash.\n\nThis move cannot be copied by mirror move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Hits the target two turns later."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\u4f7f\u7528\u62db\u5f0f\uff12\u56de\u5408\u540e\uff0c\n\u5411\u5bf9\u624b\u53d1\u9001\u4e00\u56e2\u5ff5\u529b\u8fdb\u884c\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u5f8c\u306b\n\u76f8\u624b\u306b\u3000\u5ff5\u529b\u306e\n\u584a\u3092\u3000\u9001\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this move is used, a hunk of psychic\nenergy attacks the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Due turni dopo l\u2019utilizzo di questa mossa,\nil bersaglio viene attaccato con energia psichica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Concentra energ\u00eda ps\u00edquica para golpear al objetivo \ndos turnos despu\u00e9s.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Zwei Runden, nachdem Seher eingesetzt wurde,\nerfolgt der Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "De l\u2019\u00e9nergie psychique vient frapper l\u2019ennemi\ndeux tours apr\u00e8s l\u2019utilisation de cette capacit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u62db\u5f0f\u7684\uff12\u56de\u5408\u5f8c\uff0c\n\u5411\u5c0d\u624b\u767c\u9001\u4e00\u5718\u5ff5\u529b\u9032\u884c\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc0ac\uc6a9\ud55c 2\ud134 \ub4a4\uc5d0\n\uc0c1\ub300\uc5d0\uac8c \uc5fc\ub3d9\ub825\uc758\n\ub369\uc5b4\ub9ac\ub97c \ubcf4\ub0b4\uc5b4 \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u3000\u3042\u3068\u306b\n\u3042\u3044\u3066\u306b\u3000\u306d\u3093\u308a\u304d\u306e\n\u304b\u305f\u307e\u308a\u3092\u3000\u304a\u304f\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u4f7f\u7528\u62db\u5f0f\uff12\u56de\u5408\u540e\uff0c\n\u5411\u5bf9\u624b\u53d1\u9001\u4e00\u56e2\u5ff5\u529b\u8fdb\u884c\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u5f8c\u306b\n\u76f8\u624b\u306b\u3000\u5ff5\u529b\u306e\n\u584a\u3092\u3000\u9001\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this move is used, a hunk of psychic\nenergy attacks the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Due turni dopo l\u2019utilizzo di questa mossa,\nil bersaglio viene attaccato con energia psichica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Concentra energ\u00eda ps\u00edquica para golpear al objetivo \ndos turnos despu\u00e9s.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Zwei Runden, nachdem Seher eingesetzt wurde,\nerfolgt der Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "De l\u2019\u00e9nergie psychique vient frapper l\u2019ennemi\ndeux tours apr\u00e8s l\u2019utilisation de cette capacit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u62db\u5f0f\u7684\uff12\u56de\u5408\u5f8c\uff0c\n\u5411\u5c0d\u624b\u767c\u9001\u4e00\u5718\u5ff5\u529b\u9032\u884c\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc0ac\uc6a9\ud55c 2\ud134 \ub4a4\uc5d0\n\uc0c1\ub300\uc5d0\uac8c \uc5fc\ub3d9\ub825\uc758\n\ub369\uc5b4\ub9ac\ub97c \ubcf4\ub0b4\uc5b4 \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u3000\u3042\u3068\u306b\n\u3042\u3044\u3066\u306b\u3000\u306d\u3093\u308a\u304d\u306e\n\u304b\u305f\u307e\u308a\u3092\u3000\u304a\u304f\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u5f8c\u306b\n\u76f8\u624b\u306b\u3000\u5ff5\u529b\u306e\n\u584a\u3092\u3000\u9001\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this move is used,\na hunk of psychic energy\nattacks the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Due turni dopo l\u2019utilizzo di questa mossa,\nil bersaglio viene attaccato con energia psichica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Concentra energ\u00eda ps\u00edquica para golpear al objetivo \ndos turnos despu\u00e9s.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Zwei Runden, nachdem Seher eingesetzt wurde,\nerfolgt der Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "De l\u2019\u00e9nergie psychique vient frapper l\u2019ennemi\ndeux tours apr\u00e8s l\u2019utilisation de cette capacit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc0ac\uc6a9\ud55c 2\ud134 \ub4a4\uc5d0\n\uc0c1\ub300\uc5d0\uac8c \uc5fc\ub3d9\ub825\uc758\n\ub369\uc5b4\ub9ac\ub97c \ubcf4\ub0b4\uc5b4 \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u3000\u3042\u3068\u306b\n\u3042\u3044\u3066\u306b\u3000\u306d\u3093\u308a\u304d\u306e\n\u304b\u305f\u307e\u308a\u3092\u3000\u304a\u304f\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u5f8c\u306b\n\u76f8\u624b\u306b\u3000\u5ff5\u529b\u306e\n\u584a\u3092\u3000\u9001\u3063\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this move is used,\na hunk of psychic energy\nattacks the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Due turni dopo l\u2019utilizzo di questa mossa,\nil bersaglio viene attaccato con energia psichica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Concentra energ\u00eda ps\u00edquica para golpear al\nobjetivo dos turnos despu\u00e9s.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Zwei Runden, nachdem Seher eingesetzt wurde,\nerfolgt der Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "De l\u2019\u00e9nergie psychique vient frapper l\u2019ennemi\ndeux tours apr\u00e8s l\u2019utilisation de cette capacit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc0ac\uc6a9\ud55c 2\ud134 \ub4a4\uc5d0\n\uc0c1\ub300\uc5d0\uac8c \uc5fc\ub3d9\ub825\uc758\n\ub369\uc5b4\ub9ac\ub97c \ubcf4\ub0b4\uc5b4 \uacf5\uaca9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\uff12\u30bf\u30fc\u30f3\u3000\u3042\u3068\u306b\n\u3042\u3044\u3066\u306b\u3000\u306d\u3093\u308a\u304d\u306e\n\u304b\u305f\u307e\u308a\u3092\u3000\u304a\u304f\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this move is used,\na hunk of psychic energy\nattacks the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this move is used,\na hunk of psychic energy\nattacks the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "De l\u2019\u00e9nergie psychique vient frapper\nl\u2019ennemi 2 tours apr\u00e8s l\u2019utilisation\nde cette capacit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this\nmove is used, the foe\nis attacked with a\nhunk of psychic\nenergy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this\nmove is used, the foe\nis attacked with a\nhunk of psychic\nenergy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after this\nmove is used, the foe\nis attacked with a\nhunk of psychic\nenergy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Two turns after\nthis move is used,\nthe foe is attacked\npsychically.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Heightens inner power to\nstrike 2 turns later.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Heightens inner power to\nstrike 2 turns later.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nhits on 3rd turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nhits on 3rd turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 248,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "future-sight",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9884\u77e5\u672a\u6765"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u307f\u3089\u3044\u3088\u3061"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Future Sight"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Divinazione"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Premonici\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Seher"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Prescience"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9810\u77e5\u672a\u4f86"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubbf8\ub798\uc608\uc9c0"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u307f\u3089\u3044\u3088\u3061"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": 90,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 80,
+            "pp": 15,
+            "type": null,
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 100,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 120,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "psychic",
+        "url": "/api/v2/type/14/"
+    }
+}

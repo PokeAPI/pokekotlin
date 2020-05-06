@@ -1,0 +1,668 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Heals the user for half its max HP.  If the user is flying, its flying type is ignored until the end of this turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Heals the user by half its max HP."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u964d\u5230\u5730\u9762\uff0c\u4f7f\u8eab\u4f53\u4f11\u606f\u3002\n\u56de\u590d\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u964d\u308a\u3066\u3000\u4f53\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\u306e\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and rests its body. It restores the\nuser\u2019s HP by up to half of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sta fermo e riposa, recuperando\nmet\u00e0 dei propri PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender landet und ruht sich aus. KP des\nAnwenders werden um 50 % der maximalen KP\naufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur atterrit et se repose.\nRestaure jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u964d\u843d\u5230\u5730\u9762\uff0c\u8b93\u8eab\u9ad4\u4f11\u606f\u3002\n\u56de\u5fa9\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \ub0b4\ub824\uc640 \ubab8\uc744 \uc26c\uac8c \ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\nHP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u304a\u308a\u3066\u3000\u304b\u3089\u3060\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u306e\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u964d\u5230\u5730\u9762\uff0c\u4f7f\u8eab\u4f53\u4f11\u606f\u3002\n\u56de\u590d\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u964d\u308a\u3066\u3000\u4f53\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\u306e\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and rests its body. It restores the\nuser\u2019s HP by up to half of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sta fermo e riposa, recuperando\nmet\u00e0 dei propri PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender landet und ruht sich aus. KP des\nAnwenders werden um 50 % der maximalen KP\naufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur atterrit et se repose.\nRestaure jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u964d\u843d\u5230\u5730\u9762\uff0c\u8b93\u8eab\u9ad4\u4f11\u606f\u3002\n\u56de\u5fa9\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \ub0b4\ub824\uc640 \ubab8\uc744 \uc26c\uac8c \ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\nHP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u304a\u308a\u3066\u3000\u304b\u3089\u3060\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u306e\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u964d\u308a\u3066\u3000\u4f53\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\u306e\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and rests its body.\nIt restores the user\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sta fermo e riposa, recuperando\nmet\u00e0 dei propri PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender landet und ruht sich aus.\nKP des Anwenders werden um 50 %\nder maximalen KP aufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur atterrit et se repose.\nRestaure jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \ub0b4\ub824\uc640 \ubab8\uc744 \uc26c\uac8c \ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\nHP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u304a\u308a\u3066\u3000\u304b\u3089\u3060\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u306e\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u964d\u308a\u3066\u3000\u4f53\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\u306e\n\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and rests its body.\nIt restores the user\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sta fermo e riposa, recuperando\nmet\u00e0 dei propri PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender landet und ruht sich aus.\nKP des Anwenders werden um 50 %\nder maximalen KP aufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur atterrit et se repose.\nRestaure jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \ub0b4\ub824\uc640 \ubab8\uc744 \uc26c\uac8c \ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\nHP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u304a\u308a\u3066\u3000\u304b\u3089\u3060\u3092\u3000\u3084\u3059\u3081\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u306e\n\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and rests its body.\nIt restores the user\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and rests its body.\nIt restores the user\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur atterrit et se repose.\nRestaure jusqu\u2019\u00e0 la moiti\u00e9\nde ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and\nrests its body.\nIt restores the\nuser\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and\nrests its body.\nIt restores the\nuser\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user lands and\nrests its body.\nIt restores the\nuser\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 355,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/339/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/340/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/341/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/342/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/901/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/902/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/903/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "heal",
+            "url": "/api/v2/move-category/3/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 50,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "roost",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7fbd\u6816"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306f\u306d\u3084\u3059\u3081"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Roost"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Trespolo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Respiro"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Ruheort"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Atterrissage"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7fbd\u68f2"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub0a0\uac1c\uc26c\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306f\u306d\u3084\u3059\u3081"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/8/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "flying",
+        "url": "/api/v2/type/3/"
+    }
+}

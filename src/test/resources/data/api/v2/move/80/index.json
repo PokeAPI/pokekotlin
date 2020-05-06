@@ -1,0 +1,700 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "growth",
+                    "url": "/api/v2/move/74/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/6/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User is forced to attack with this move for 2\u20133 turns,selected at random.  After the last hit, the user becomes confused.\n\nsafeguard does not protect against the confusion from this move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Hits every turn for 2-3 turns, then confuses the user."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\uff12\uff5e\uff13\u56de\u5408\u5185\uff0c\n\u6563\u843d\u82b1\u74e3\u653b\u51fb\u5bf9\u624b\u3002\n\u4e4b\u540e\u81ea\u5df1\u4f1a\u9677\u5165\u6df7\u4e71\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u82b1\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u6df7\u4e71\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target by scattering petals for\ntwo to three turns. The user then becomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il nemico cospargendolo di petali\nper due o tre turni, ma chi la usa rimane confuso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lanza p\u00e9talos de dos a tres turnos y acaba \nconfundiendo al atacante.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit Bl\u00fctenbl\u00e4ttern f\u00fcr zwei bis drei Runden.\nAngreifer wird verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant des p\u00e9tales\npendant deux \u00e0 trois tours avant de c\u00e9der \u00e0\nla confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff12\uff5e\uff13\u56de\u5408\u5167\n\u4e0d\u65b7\u7051\u51fa\u82b1\u74e3\u653b\u64ca\u5c0d\u624b\u3002\n\u62db\u5f0f\u7d50\u675f\u5f8c\u81ea\u5df1\u6703\u9677\u5165\u6df7\u4e82\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "2-3\ud134 \ub3d9\uc548 \uaf43\uc744\n\ud769\ubfcc\ub824\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ud769\ubfcc\ub9b0 \ub4a4\uc5d0\ub294 \ud63c\ub780\uc5d0 \ube60\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306f\u306a\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u3053\u3093\u3089\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff12\uff5e\uff13\u56de\u5408\u5185\uff0c\n\u6563\u843d\u82b1\u74e3\u653b\u51fb\u5bf9\u624b\u3002\n\u4e4b\u540e\u81ea\u5df1\u4f1a\u9677\u5165\u6df7\u4e71\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u82b1\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u6df7\u4e71\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target by scattering petals for\ntwo to three turns. The user then becomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il nemico cospargendolo di petali\nper due o tre turni, ma chi la usa rimane confuso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lanza p\u00e9talos de dos a tres turnos y acaba \nconfundiendo al atacante.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit Bl\u00fctenbl\u00e4ttern f\u00fcr zwei bis drei Runden.\nAngreifer wird verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant des p\u00e9tales\npendant deux \u00e0 trois tours avant de c\u00e9der \u00e0\nla confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff12\uff5e\uff13\u56de\u5408\u5167\n\u4e0d\u65b7\u7051\u51fa\u82b1\u74e3\u653b\u64ca\u5c0d\u624b\u3002\n\u62db\u5f0f\u7d50\u675f\u5f8c\u81ea\u5df1\u6703\u9677\u5165\u6df7\u4e82\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "2-3\ud134 \ub3d9\uc548 \uaf43\uc744\n\ud769\ubfcc\ub824\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ud769\ubfcc\ub9b0 \ub4a4\uc5d0\ub294 \ud63c\ub780\uc5d0 \ube60\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306f\u306a\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u3053\u3093\u3089\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u82b1\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u6df7\u4e71\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target by scattering\npetals for two to three turns.\nThe user then becomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il nemico cospargendolo di petali\nper due o tre turni, ma chi la usa rimane confuso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lanza p\u00e9talos de dos a tres turnos y acaba \nconfundiendo al atacante.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit Bl\u00fctenbl\u00e4ttern f\u00fcr zwei bis drei Runden.\nAngreifer wird verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant des p\u00e9tales\npendant deux \u00e0 trois tours avant de c\u00e9der \u00e0\nla confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "2-3\ud134 \ub3d9\uc548 \uaf43\uc744\n\ud769\ubfcc\ub824\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ud769\ubfcc\ub9b0 \ub4a4\uc5d0\ub294 \ud63c\ub780\uc5d0 \ube60\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306f\u306a\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u3053\u3093\u3089\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u82b1\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u6df7\u4e71\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target by scattering\npetals for two to three turns.\nThe user then becomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il nemico cospargendolo di petali\nper due o tre turni, ma chi la usa rimane confuso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lanza p\u00e9talos de dos a tres turnos y acaba\nconfundiendo al atacante.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit Bl\u00fctenbl\u00e4ttern f\u00fcr zwei bis drei Runden.\nAngreifer wird verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant des p\u00e9tales\npendant deux \u00e0 trois tours avant de c\u00e9der \u00e0\nla confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "2-3\ud134 \ub3d9\uc548 \uaf43\uc744\n\ud769\ubfcc\ub824\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ud769\ubfcc\ub9b0 \ub4a4\uc5d0\ub294 \ud63c\ub780\uc5d0 \ube60\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff12\u30fc\uff13\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u306f\u306a\u3092\n\u307e\u304d\u3061\u3089\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307e\u304d\u3061\u3089\u3057\u305f\u3000\u3042\u3068\u306f\u3000\u3053\u3093\u3089\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target by scattering\npetals for two to three turns.\nThe user then becomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target by scattering\npetals for two to three turns.\nThe user then becomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en projetant\ndes p\u00e9tales pendant 2 \u00e0 3 tours\navant de c\u00e9der \u00e0 la confusion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\nscattering petals for\ntwo to three turns.\nThe user then\nbecomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\nscattering petals for\ntwo to three turns.\nThe user then\nbecomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\nscattering petals for\ntwo to three turns.\nThe user then\nbecomes confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks\nwith petals for two\nto three turns,\nthen gets confused.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A rampage of 2 to 3 turns\nthat confuses the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A rampage of 2 to 3 turns\nthat confuses the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Works 2-3 turns\nand confuses user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Works 2-3 turns\nand confuses user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 80,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "petal-dance",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u82b1\u74e3\u821e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306f\u306a\u3073\u3089\u306e\u307e\u3044"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Petal Dance"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Petalodanza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Danza P\u00e9talo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Bl\u00e4ttertanz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Danse-Fleur"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u82b1\u74e3\u821e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uaf43\uc78e\ub304\uc2a4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306f\u306a\u3073\u3089\u306e\u307e\u3044"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 70,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 90,
+            "pp": 20,
+            "type": null,
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "power": 120,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/21/"
+    },
+    "target": {
+        "name": "random-opponent",
+        "url": "/api/v2/move-target/8/"
+    },
+    "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+    }
+}

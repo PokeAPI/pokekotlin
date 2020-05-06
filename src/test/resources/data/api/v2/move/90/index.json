@@ -1,0 +1,694 @@
+{
+    "accuracy": 30,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "earthquake",
+                    "url": "/api/v2/move/89/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/14/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts damage equal to the target's max HP.  Ignores accuracy and evasion modifiers.  This move's accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, endure still prevents the target from fainting.\n\nThe effects of lock on, mind reader, and no guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through detect or protect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Causes a one-hit KO."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8ba9\u5bf9\u624b\u6389\u843d\u4e8e\u5730\u88c2\u7684\n\u88c2\u7f1d\u4e2d\u8fdb\u884c\u653b\u51fb\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u4f1a\u4e00\u51fb\u6fd2\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u5272\u308c\u306e\u3000\u88c2\u3051\u76ee\u306b\n\u76f8\u624b\u3092\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a fissure in the ground and drops\nthe target in. The target faints instantly if this\nattack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una spaccatura nel terreno e cerca\ndi gettarvici dentro il bersaglio. Se va a segno,\nil Pok\u00e9mon colpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Abre una grieta en el suelo y mete al objetivo en ella. \nFulmina en un golpe.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird in eine Erdspalte geworfen. Ist die\nAttacke erfolgreich, f\u00fchrt sie zu einem K.O.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait tomber l\u2019ennemi dans une crevasse.\nSi cette attaque r\u00e9ussit, elle met K.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u5c0d\u624b\u6389\u9032\u5730\u9762\u7684\n\u88c2\u7e2b\u4e2d\u9032\u884c\u653b\u64ca\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u6703\u4e00\u64ca\u7015\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc774 \uac08\ub77c\uc9c4 \uacf3\uc5d0\n\uc0c1\ub300\ub97c \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u308f\u308c\u306e\u3000\u3055\u3051\u3081\u306b\n\u3042\u3044\u3066\u3092\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8ba9\u5bf9\u624b\u6389\u843d\u4e8e\u5730\u88c2\u7684\n\u88c2\u7f1d\u4e2d\u8fdb\u884c\u653b\u51fb\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u4f1a\u4e00\u51fb\u6fd2\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u5272\u308c\u306e\u3000\u88c2\u3051\u76ee\u306b\n\u76f8\u624b\u3092\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a fissure in the ground and drops\nthe target in. The target faints instantly if this\nattack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una spaccatura nel terreno e cerca\ndi gettarvici dentro il bersaglio. Se va a segno,\nil Pok\u00e9mon colpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Abre una grieta en el suelo y mete al objetivo en ella. \nFulmina en un golpe.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird in eine Erdspalte geworfen. Ist die\nAttacke erfolgreich, f\u00fchrt sie zu einem K.O.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait tomber l\u2019ennemi dans une crevasse.\nSi cette attaque r\u00e9ussit, elle met K.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u5c0d\u624b\u6389\u9032\u5730\u9762\u7684\n\u88c2\u7e2b\u4e2d\u9032\u884c\u653b\u64ca\u3002\n\u53ea\u8981\u547d\u4e2d\u5c31\u6703\u4e00\u64ca\u7015\u6b7b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc774 \uac08\ub77c\uc9c4 \uacf3\uc5d0\n\uc0c1\ub300\ub97c \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u308f\u308c\u306e\u3000\u3055\u3051\u3081\u306b\n\u3042\u3044\u3066\u3092\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u5272\u308c\u306e\u3000\u88c2\u3051\u76ee\u306b\n\u76f8\u624b\u3092\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a fissure in the ground\nand drops the target in.\nThe target faints instantly if this attack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una spaccatura nel terreno e cerca\ndi gettarvici dentro il bersaglio. Se va a segno,\nil Pok\u00e9mon colpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Abre una grieta en el suelo y mete al objetivo en ella. \nFulmina en un golpe.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird in eine Erdspalte geworfen.\nIst die Attacke erfolgreich, f\u00fchrt sie zu einem K.O.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait tomber l\u2019ennemi dans une crevasse.\nSi cette attaque r\u00e9ussit, elle met K.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc774 \uac08\ub77c\uc9c4 \uacf3\uc5d0\n\uc0c1\ub300\ub97c \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u308f\u308c\u306e\u3000\u3055\u3051\u3081\u306b\n\u3042\u3044\u3066\u3092\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u5272\u308c\u306e\u3000\u88c2\u3051\u76ee\u306b\n\u76f8\u624b\u3092\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u5f53\u305f\u308c\u3070\u3000\u4e00\u6483\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a fissure in the ground\nand drops the target in.\nThe target faints instantly if this attack hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una spaccatura nel terreno e cerca\ndi gettarvici dentro il bersaglio. Se va a segno,\nil Pok\u00e9mon colpito va KO.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Abre una grieta en el suelo y mete al objetivo en\nella. Fulmina en un golpe.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird in eine Erdspalte geworfen.\nIst die Attacke erfolgreich, f\u00fchrt sie zu einem K.O.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait tomber l\u2019ennemi dans une crevasse.\nSi cette attaque r\u00e9ussit, elle met K.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc774 \uac08\ub77c\uc9c4 \uacf3\uc5d0\n\uc0c1\ub300\ub97c \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub9de\uc73c\uba74 \uc77c\uaca9\uc5d0 \uae30\uc808\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u308f\u308c\u306e\u3000\u3055\u3051\u3081\u306b\n\u3042\u3044\u3066\u3092\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u305f\u308c\u3070\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3072\u3093\u3057\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a fissure in the ground\nand drops the target in.\nThe target instantly faints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a fissure in the ground\nand drops the target in.\nThe target instantly faints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fait tomber l\u2019ennemi dans une\ncrevasse. Si cette attaque r\u00e9ussit,\nelle met K.O. sur le coup.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a\nfissure in the ground\nand drops the foe in.\nThe target instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a\nfissure in the ground\nand drops the foe in.\nThe target instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user opens up a\nfissure in the ground\nand drops the foe in.\nThe target instantly\nfaints if it hits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is dropped\ninto a fissure.\nThe foe faints if it\nhits.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A one-hit KO move that\ndrops the foe in a fissure.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A one-hit KO move that\ndrops the foe in a fissure.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A ground-type,\none-hit KO attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A ground-type,\none-hit KO attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 90,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/469/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/470/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "ohko",
+            "url": "/api/v2/move-category/9/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "fissure",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5730\u88c2"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3058\u308f\u308c"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Fissure"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Abisso"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Fisura"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Geofissur"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ab\u00eeme"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5730\u88c2"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub545\uac00\ub974\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3058\u308f\u308c"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/9/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ground",
+        "url": "/api/v2/type/5/"
+    }
+}

@@ -1,0 +1,604 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "For five turns, the user is immune to ground moves.\n\nIf the user is under the effect of ingrain or has levitate, this move will fail.\n\nThis effect is temporarily disabled by and cannot be used during gravity.\n\nThis effect is passed on by baton pass.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User is immune to Ground moves and effects for five turns."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5229\u7528\u7535\u6c14\u4ea7\u751f\u7684\u78c1\u529b\u6d6e\u5728\u7a7a\u4e2d\u3002\n\u5728\uff15\u56de\u5408\u5185\u53ef\u4ee5\u98d8\u6d6e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6c17\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u78c1\u529b\u306e\u3000\u529b\u3067\n\u5b99\u306b\u3000\u6d6e\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u6d6e\u904a\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates using electrically generated\nmagnetism for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si solleva in aria per cinque turni\ngrazie a un campo elettromagnetico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Levita gracias a un campo magn\u00e9tico generado por \nelectricidad durante cinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schwebt f\u00fcr f\u00fcnf Runden durch elektrisch\nerzeugten Magnetismus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise l\u2019\u00e9lectricit\u00e9 pour g\u00e9n\u00e9rer un\nchamp magn\u00e9tique et l\u00e9viter durant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u96fb\u6c23\u7522\u751f\u7684\u78c1\u529b\u6d6e\u5728\u7a7a\u4e2d\u3002\n\u5728\uff15\u56de\u5408\u5167\u53ef\u4ee5\u98c4\u6d6e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub85c \ub9cc\ub4e0 \uc790\ub825\uc758 \ud798\uc73c\ub85c\n\ud5c8\uacf5\uc5d0 \ub72c\ub2e4.\n5\ud134 \ub3d9\uc548 \ubd80\uc720\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u3058\u308a\u3087\u304f\u306e\u3000\u3061\u304b\u3089\u3067\n\u3061\u3085\u3046\u306b\u3000\u3046\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3075\u3086\u3046\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u7535\u6c14\u4ea7\u751f\u7684\u78c1\u529b\u6d6e\u5728\u7a7a\u4e2d\u3002\n\u5728\uff15\u56de\u5408\u5185\u53ef\u4ee5\u98d8\u6d6e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6c17\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u78c1\u529b\u306e\u3000\u529b\u3067\n\u5b99\u306b\u3000\u6d6e\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u6d6e\u904a\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates using electrically generated\nmagnetism for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si solleva in aria per cinque turni\ngrazie a un campo elettromagnetico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Levita gracias a un campo magn\u00e9tico generado por \nelectricidad durante cinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schwebt f\u00fcr f\u00fcnf Runden durch elektrisch\nerzeugten Magnetismus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise l\u2019\u00e9lectricit\u00e9 pour g\u00e9n\u00e9rer un\nchamp magn\u00e9tique et l\u00e9viter durant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u96fb\u6c23\u7522\u751f\u7684\u78c1\u529b\u6d6e\u5728\u7a7a\u4e2d\u3002\n\u5728\uff15\u56de\u5408\u5167\u53ef\u4ee5\u98c4\u6d6e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub85c \ub9cc\ub4e0 \uc790\ub825\uc758 \ud798\uc73c\ub85c\n\ud5c8\uacf5\uc5d0 \ub72c\ub2e4.\n5\ud134 \ub3d9\uc548 \ubd80\uc720\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u3058\u308a\u3087\u304f\u306e\u3000\u3061\u304b\u3089\u3067\n\u3061\u3085\u3046\u306b\u3000\u3046\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3075\u3086\u3046\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6c17\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u78c1\u529b\u306e\u3000\u529b\u3067\n\u5b99\u306b\u3000\u6d6e\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u6d6e\u904a\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates using electrically\ngenerated magnetism for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si solleva in aria per cinque turni\ngrazie a un campo elettromagnetico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Levita gracias a un campo magn\u00e9tico generado por \nelectricidad durante cinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schwebt f\u00fcr f\u00fcnf Runden\ndurch elektrisch erzeugten Magnetismus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise l\u2019\u00e9lectricit\u00e9 pour g\u00e9n\u00e9rer un\nchamp magn\u00e9tique et l\u00e9viter durant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub85c \ub9cc\ub4e0 \uc790\ub825\uc758 \ud798\uc73c\ub85c\n\ud5c8\uacf5\uc5d0 \ub72c\ub2e4.\n5\ud134 \ub3d9\uc548 \ubd80\uc720\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u3058\u308a\u3087\u304f\u306e\u3000\u3061\u304b\u3089\u3067\n\u3061\u3085\u3046\u306b\u3000\u3046\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3075\u3086\u3046\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6c17\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u78c1\u529b\u306e\u3000\u529b\u3067\n\u5b99\u306b\u3000\u6d6e\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u6d6e\u904a\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates using electrically\ngenerated magnetism for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si solleva in aria per cinque turni\ngrazie a un campo elettromagnetico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Levita gracias a un campo magn\u00e9tico generado por\nelectricidad durante cinco turnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender schwebt f\u00fcr f\u00fcnf Runden\ndurch elektrisch erzeugten Magnetismus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise l\u2019\u00e9lectricit\u00e9 pour g\u00e9n\u00e9rer un\nchamp magn\u00e9tique et l\u00e9viter durant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub85c \ub9cc\ub4e0 \uc790\ub825\uc758 \ud798\uc73c\ub85c\n\ud5c8\uacf5\uc5d0 \ub72c\ub2e4.\n5\ud134 \ub3d9\uc548 \ubd80\uc720\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u3058\u308a\u3087\u304f\u306e\u3000\u3061\u304b\u3089\u3067\n\u3061\u3085\u3046\u306b\u3000\u3046\u304b\u3076\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3075\u3086\u3046\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates using electrically\ngenerated magnetism for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates using electrically\ngenerated magnetism for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise l\u2019\u00e9lectricit\u00e9 pour\ng\u00e9n\u00e9rer un champ magn\u00e9tique\net l\u00e9viter durant 5 tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates\nusing electrically\ngenerated magnetism\nfor five turns.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates\nusing electrically\ngenerated magnetism\nfor five turns.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user levitates\nusing electrically\ngenerated magnetism\nfor five turns.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 393,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": 5,
+        "min_hits": null,
+        "min_turns": 5,
+        "stat_chance": 0
+    },
+    "name": "magnet-rise",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7535\u78c1\u98d8\u6d6e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3067\u3093\u3058\u3075\u3086\u3046"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Magnet Rise"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Magnetascesa"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Levit\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Magnetflug"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Vol Magn\u00e9tik"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u96fb\u78c1\u98c4\u6d6e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc804\uc790\ubd80\uc720"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3067\u3093\u3058\u3075\u3086\u3046"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "electric",
+        "url": "/api/v2/type/13/"
+    }
+}

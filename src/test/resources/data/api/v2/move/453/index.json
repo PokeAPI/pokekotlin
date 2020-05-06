@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Inflicts regular damage with no additional effect."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4ee5\u8fc5\u96f7\u4e0d\u53ca\u63a9\u8033\u4e4b\u52bf\n\u6251\u5411\u5bf9\u624b\u3002\n\u5fc5\u5b9a\u80fd\u591f\u5148\u5236\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76ee\u306b\u3082\u3000\u7559\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u901f\u3055\u3067\n\u76f8\u624b\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at the target at a speed that makes\nit almost invisible. This move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce a una tale velocit\u00e0 da rendersi\nquasi invisibile.\nQuesta mossa ha priorit\u00e0 alta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de una rapidez espeluznante. Este\nmovimiento tiene prioridad alta. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Sehr schneller Angriff mit hoher Erstschlagquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fonce sur l\u2019ennemi si rapidement qu\u2019on\nparvient \u00e0 peine \u00e0 le discerner. Frappe en priorit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4ee5\u8fc5\u96f7\u4e0d\u53ca\u63a9\u8033\u4e4b\u52e2\u885d\u649e\u5c0d\u624b\u3002\n\u5fc5\u5b9a\u80fd\u5920\u767c\u52d5\u5148\u5236\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\uc5d0 \ubcf4\uc774\uc9c0 \uc54a\ub294 \uad49\uc7a5\ud55c \uc18d\ub3c4\ub85c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uc9c4\ud55c\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3081\u306b\u3082\u3000\u3068\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u306f\u3084\u3055\u3067\n\u3042\u3044\u3066\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4ee5\u8fc5\u96f7\u4e0d\u53ca\u63a9\u8033\u4e4b\u52bf\n\u6251\u5411\u5bf9\u624b\u3002\n\u5fc5\u5b9a\u80fd\u591f\u5148\u5236\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76ee\u306b\u3082\u3000\u7559\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u901f\u3055\u3067\n\u76f8\u624b\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at the target at a speed that makes\nit almost invisible. This move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce a una tale velocit\u00e0 da rendersi\nquasi invisibile.\nQuesta mossa ha priorit\u00e0 alta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de una rapidez espeluznante. Este\nmovimiento tiene prioridad alta. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Sehr schneller Angriff mit hoher Erstschlagquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fonce sur l\u2019ennemi si rapidement qu\u2019on\nparvient \u00e0 peine \u00e0 le discerner. Frappe en priorit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4ee5\u8fc5\u96f7\u4e0d\u53ca\u63a9\u8033\u4e4b\u52e2\u885d\u649e\u5c0d\u624b\u3002\n\u5fc5\u5b9a\u80fd\u5920\u767c\u52d5\u5148\u5236\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\uc5d0 \ubcf4\uc774\uc9c0 \uc54a\ub294 \uad49\uc7a5\ud55c \uc18d\ub3c4\ub85c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uc9c4\ud55c\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3081\u306b\u3082\u3000\u3068\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u306f\u3084\u3055\u3067\n\u3042\u3044\u3066\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76ee\u306b\u3082\u3000\u7559\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u901f\u3055\u3067\n\u76f8\u624b\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at the target at a speed\nthat makes it almost invisible.\nThis move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce sempre per primo e a una tale\nvelocit\u00e0 da rendersi quasi invisibile.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque r\u00e1pido que permite golpear en primer lugar. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Sehr schneller Angriff mit Erstschlaggarantie.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fonce sur l\u2019ennemi si rapidement qu\u2019on\nparvient \u00e0 peine \u00e0 le discerner. Frappe toujours en\npremier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\uc5d0 \ubcf4\uc774\uc9c0 \uc54a\ub294 \uad49\uc7a5\ud55c \uc18d\ub3c4\ub85c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uc9c4\ud55c\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3081\u306b\u3082\u3000\u3068\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u306f\u3084\u3055\u3067\n\u3042\u3044\u3066\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76ee\u306b\u3082\u3000\u7559\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u901f\u3055\u3067\n\u76f8\u624b\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at the target at a speed\nthat makes it almost invisible.\nThis move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce sempre per primo e a una tale\nvelocit\u00e0 da rendersi quasi invisibile.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque r\u00e1pido que permite golpear en primer lugar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Sehr schneller Angriff mit Erstschlaggarantie.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fonce sur l\u2019ennemi si rapidement qu\u2019on\nparvient \u00e0 peine \u00e0 le discerner. Frappe toujours en\npremier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\uc5d0 \ubcf4\uc774\uc9c0 \uc54a\ub294 \uad49\uc7a5\ud55c \uc18d\ub3c4\ub85c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uc9c4\ud55c\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3081\u306b\u3082\u3000\u3068\u307e\u3089\u306c\u3000\u3082\u306e\u3059\u3054\u3044\u3000\u306f\u3084\u3055\u3067\n\u3042\u3044\u3066\u306b\u3000\u3064\u3063\u3053\u3080\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at the target at a speed\nthat makes it almost invisible. It is sure\nto strike first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at the target at a speed\nthat makes it almost invisible. It is sure\nto strike first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur fonce sur l\u2019ennemi si\nrapidement qu\u2019on parvient \u00e0 peine\n\u00e0 le discerner. Frappe en premier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 453,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "aqua-jet",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6c34\u6d41\u55b7\u5c04"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a2\u30af\u30a2\u30b8\u30a7\u30c3\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Aqua Jet"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Acquagetto"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Acua Jet"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Wasserd\u00fcse"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Aqua-Jet"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6c34\u6d41\u5674\u5c04"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc544\ucfe0\uc544\uc81c\ud2b8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a2\u30af\u30a2\u30b8\u30a7\u30c3\u30c8"
+        }
+    ],
+    "past_values": [],
+    "power": 40,
+    "pp": 20,
+    "priority": 1,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/1/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

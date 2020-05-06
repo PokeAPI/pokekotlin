@@ -1,0 +1,2052 @@
+{
+    "encounter_method_rates": [
+        {
+            "encounter_method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+            },
+            "version_details": [
+                {
+                    "rate": 1,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rate": 1,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rate": 8,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rate": 8,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                }
+            ]
+        },
+        {
+            "encounter_method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+            },
+            "version_details": [
+                {
+                    "rate": 3,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rate": 3,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                }
+            ]
+        }
+    ],
+    "game_index": 68,
+    "id": 614,
+    "location": {
+        "name": "giant-chasm",
+        "url": "/api/v2/location/403/"
+    },
+    "name": "giant-chasm-outside",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "outside"
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "clefairy",
+                "url": "/api/v2/pokemon/35/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "clefable",
+                "url": "/api/v2/pokemon/36/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "golbat",
+                "url": "/api/v2/pokemon/42/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 60
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 60
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 60
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 60
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "tangela",
+                "url": "/api/v2/pokemon/114/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 59,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 59
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 59,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 59
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 59,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 59
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 59,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 59
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        }
+                    ],
+                    "max_chance": 60,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        }
+                    ],
+                    "max_chance": 60,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "crobat",
+                "url": "/api/v2/pokemon/169/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "delibird",
+                "url": "/api/v2/pokemon/225/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 44
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 44
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "swellow",
+                "url": "/api/v2/pokemon/277/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "pelipper",
+                "url": "/api/v2/pokemon/279/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "lunatone",
+                "url": "/api/v2/pokemon/337/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "solrock",
+                "url": "/api/v2/pokemon/338/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 51,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 51
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 46
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 51,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 51
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 46
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "absol",
+                "url": "/api/v2/pokemon/359/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 60
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 58
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 60
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "drifblim",
+                "url": "/api/v2/pokemon/426/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 59,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 59
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 59,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 59
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "tangrowth",
+                "url": "/api/v2/pokemon/465/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "audino",
+                "url": "/api/v2/pokemon/531/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 80,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 80,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 46
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 46
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 85,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 44,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 44
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 46
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 46
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 85,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "vanillish",
+                "url": "/api/v2/pokemon/583/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 45
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "vanilluxe",
+                "url": "/api/v2/pokemon/584/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "emolga",
+                "url": "/api/v2/pokemon/587/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                }
+            ]
+        }
+    ]
+}

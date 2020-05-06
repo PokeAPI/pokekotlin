@@ -1,0 +1,541 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": 100,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Raises the Defense of all grass Pok\u00e9mon in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Raises the Defense of all grass Pok\u00e9mon in battle."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\n\u63d0\u9ad8\u5728\u573a\u7684\u6240\u6709\n\u8349\u5c5e\u6027\u5b9d\u53ef\u68a6\u7684\u9632\u5fa1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5834\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306e\u3000\u9632\u5fa1\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user raises the Defense stat of all Grass-type\nPok\u00e9mon in battle with a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, aumenta la Difesa\ndi tutti i Pok\u00e9mon di tipo Erba presenti in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Aumenta la Defensa de todos los Pok\u00e9mon de tipo \nPlanta que hay en el combate usando unos\nmisteriosos poderes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Erh\u00f6ht mit einer mysteri\u00f6sen Macht die Verteidigung\naller am Kampf beteiligten Pflanzen-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Gr\u00e2ce \u00e0 une force myst\u00e9rieuse, la D\u00e9fense de tous\nles Pok\u00e9mon Plante au combat augmente.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\uff0c\n\u63d0\u9ad8\u5834\u4e0a\u5168\u9ad4\n\u8349\u5c6c\u6027\u5bf6\u53ef\u5922\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\ubc30\ud2c0\uc5d0 \ub098\uc640 \uc788\ub294 \ubaa8\ub4e0\n\ud480\ud0c0\uc785 \ud3ec\ucf13\ubaac\uc758 \ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u3070\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\n\u63d0\u9ad8\u5728\u573a\u7684\u6240\u6709\n\u8349\u5c5e\u6027\u5b9d\u53ef\u68a6\u7684\u9632\u5fa1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5834\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306e\u3000\u9632\u5fa1\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user raises the Defense stat of all Grass-type\nPok\u00e9mon in battle with a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, aumenta la Difesa\ndi tutti i Pok\u00e9mon di tipo Erba presenti in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Aumenta la Defensa de todos los Pok\u00e9mon de tipo \nPlanta que hay en el combate usando unos\nmisteriosos poderes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Erh\u00f6ht mit einer mysteri\u00f6sen Macht die Verteidigung\naller am Kampf beteiligten Pflanzen-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Gr\u00e2ce \u00e0 une force myst\u00e9rieuse, la D\u00e9fense de tous\nles Pok\u00e9mon Plante au combat augmente.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\uff0c\n\u63d0\u9ad8\u5834\u4e0a\u5168\u9ad4\n\u8349\u5c6c\u6027\u5bf6\u53ef\u5922\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\ubc30\ud2c0\uc5d0 \ub098\uc640 \uc788\ub294 \ubaa8\ub4e0\n\ud480\ud0c0\uc785 \ud3ec\ucf13\ubaac\uc758 \ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u3070\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5834\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306e\u3000\u9632\u5fa1\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user raises the Defense stat\nof all Grass-type Pok\u00e9mon in battle\nwith a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, aumenta la Difesa\ndi tutti i Pok\u00e9mon di tipo Erba presenti in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Aumenta la Defensa de todos los Pok\u00e9mon de tipo \nPlanta que hay en el combate usando unos\nmisteriosos poderes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Erh\u00f6ht mit einer mysteri\u00f6sen Macht die\nVerteidigung aller am Kampf beteiligten\nPflanzen-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Gr\u00e2ce \u00e0 une force myst\u00e9rieuse, la D\u00e9fense de tous\nles Pok\u00e9mon Plante au combat augmente.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\ubc30\ud2c0\uc5d0 \ub098\uc640 \uc788\ub294 \ubaa8\ub4e0\n\ud480\ud0c0\uc785 \ud3ec\ucf13\ubaac\uc758 \ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u3070\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5834\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306e\u3000\u9632\u5fa1\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user raises the Defense stat\nof all Grass-type Pok\u00e9mon in battle\nwith a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, aumenta la Difesa\ndi tutti i Pok\u00e9mon di tipo Erba presenti in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Aumenta la Defensa de todos los Pok\u00e9mon de tipo\nPlanta que hay en el combate usando unos\nmisteriosos poderes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Erh\u00f6ht mit einer mysteri\u00f6sen Macht die\nVerteidigung aller am Kampf beteiligten\nPflanzen-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Gr\u00e2ce \u00e0 une force myst\u00e9rieuse, la D\u00e9fense de tous\nles Pok\u00e9mon Plante au combat augmente.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\ubc30\ud2c0\uc5d0 \ub098\uc640\uc788\ub294 \ubaa8\ub4e0\n\ud480\ud0c0\uc785 \ud3ec\ucf13\ubaac\uc758 \ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u3070\u306b\u3044\u308b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u306e\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "id": 579,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 100
+    },
+    "name": "flower-shield",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9c9c\u82b1\u9632\u5b88"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d5\u30e9\u30ef\u30fc\u30ac\u30fc\u30c9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Flower Shield"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Fiordifesa"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Defensa Floral"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Floraschutz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Garde Florale"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9bae\u82b1\u9632\u5b88"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud50c\ub77c\uc6cc\uac00\ub4dc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d5\u30e9\u30ef\u30fc\u30ac\u30fc\u30c9"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 1,
+            "stat": {
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
+            }
+        }
+    ],
+    "super_contest_effect": null,
+    "target": {
+        "name": "all-pokemon",
+        "url": "/api/v2/move-target/14/"
+    },
+    "type": {
+        "name": "fairy",
+        "url": "/api/v2/type/18/"
+    }
+}

@@ -1,0 +1,806 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        },
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/81/"
+    },
+    "evolves_from_species": {
+        "name": "totodile",
+        "url": "/api/v2/pokemon-species/158/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4e00\u5ea6\u3000\u304b\u202f\u3064\u3044\u305f\u3089\u3000\u7d76\u5bfe\u306b\u3000\u96e2\u3055\u306a\u3044\u3002\n\u30ad\u30d0\u306e\u3000\u5148\u304c\u3000\u91e3\u308a\u91dd\u3000\u202f\u305f\u3044\u306b\u3000\u53cd\u308a\u8fd4\u3063\u3066\n\u3044\u308b\u306e\u3067\u3000\u4e00\u5ea6\u3000\u523a\u3055\u308b\u3068\u3000\u629c\u3051\u306a\u304f\u3000\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Once Croconaw has clamped its jaws on its foe, it will\nabsolutely not let go. Because the tips of its fangs are\nforked back like barbed fishhooks, they become impossible\nto remove when they have sunk in.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Una volta azzannato il nemico, Croconaw non molla la presa\nfacilmente. Le zanne a punta ricurva all\u2019indietro, a mo\u2019 di\namo da pesca, rendono impossibile estrarle quando sono\nconficcate in profondit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Una vez que Croconaw le ha clavado los colmillos a su presa,\nes imposible que escape porque los tiene hacia adentro como\nsi fueran anzuelos. Cuando Croconaw hinca los dientes, no\nhay escapatoria.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Wenn Tyracroc einen Feind mit seinen Kiefern eingeklemmt\nhat, l\u00e4sst es ihn nicht mehr los. Da seine Zahnspitzen wie\nAngelhaken gebogen sind, kann man sie nicht mehr entfernen,\nwenn sie sich verfangen haben.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Une fois que Crocrodil a referm\u00e9 sa m\u00e2choire sur son ennemi,\nil est impossible de le faire l\u00e2cher prise. Ses crocs sont\nrecourb\u00e9s comme des hame\u00e7ons et ne peuvent pas \u00eatre\nretir\u00e9s une fois enfonc\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud55c \ubc88 \ubb3c\uace0 \ub298\uc5b4\uc9c0\uba74 \uc808\ub300\ub85c \ub193\uc9c0 \uc54a\ub294\ub2e4.\n\uc774\ube68 \ub05d\uc774 \ub09a\uc2ef\ubc14\ub298\ucc98\ub7fc \ud718\uc5b4\uc838\n\uc788\uc5b4\uc11c \ud55c \ubc88 \ub4e4\uc5b4\uac00\uba74 \ube60\uc9c0\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3061\u3069\u3000\u304b\u202f\u3064\u3044\u305f\u3089\u3000\u305c\u3063\u305f\u3044\u306b\u3000\u306f\u306a\u3055\u306a\u3044\u3002\n\u30ad\u30d0\u306e\u3000\u3055\u304d\u304c\u3000\u3064\u308a\u3070\u308a\u3000\u202f\u305f\u3044\u306b\u3000\u305d\u308a\u304b\u3048\u3063\u3066\n\u3044\u308b\u306e\u3067\u3000\u3044\u3061\u3069\u3000\u3055\u3055\u308b\u3068\u3000\u306c\u3051\u306a\u304f\u3000\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4e00\u5ea6\u3000\u304b\u202f\u3064\u3044\u305f\u3089\u3000\u7d76\u5bfe\u306b\u3000\u96e2\u3055\u306a\u3044\u3002\n\u30ad\u30d0\u306e\u3000\u5148\u304c\u3000\u91e3\u308a\u91dd\u3000\u202f\u305f\u3044\u306b\u3000\u53cd\u308a\u8fd4\u3063\u3066\n\u3044\u308b\u306e\u3067\u3000\u4e00\u5ea6\u3000\u523a\u3055\u308b\u3068\u3000\u629c\u3051\u306a\u304f\u3000\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Once Croconaw has clamped its jaws on its foe, it will\nabsolutely not let go. Because the tips of its fangs are forked\nback like barbed fishhooks, they become impossible to remove\nwhen they have sunk in.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Una volta azzannato il nemico, Croconaw non molla la presa\nfacilmente. Le zanne a punta ricurva all\u2019indietro, a mo\u2019 di\namo da pesca, rendono impossibile estrarle quando sono\nconficcate in profondit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Una vez que Croconaw le ha clavado los colmillos a su presa,\nes imposible que escape porque los tiene hacia adentro como\nsi fueran anzuelos. Cuando Croconaw hinca los dientes, no\nhay escapatoria.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Wenn Tyracroc einen Feind mit seinen Kiefern eingeklemmt\nhat, l\u00e4sst es ihn nicht mehr los. Da seine Zahnspitzen wie\nAngelhaken gebogen sind, kann man sie nicht mehr entfernen,\nwenn sie sich verfangen haben.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Une fois que Crocrodil a referm\u00e9 sa m\u00e2choire sur son ennemi,\nil est impossible de le faire l\u00e2cher prise. Ses crocs sont\nrecourb\u00e9s comme des hame\u00e7ons et ne peuvent pas \u00eatre\nretir\u00e9s une fois enfonc\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud55c \ubc88 \ubb3c\uace0 \ub298\uc5b4\uc9c0\uba74 \uc808\ub300\ub85c \ub193\uc9c0 \uc54a\ub294\ub2e4.\n\uc774\ube68 \ub05d\uc774 \ub09a\uc2ef\ubc14\ub298\ucc98\ub7fc \ud718\uc5b4\uc838\n\uc788\uc5b4\uc11c \ud55c \ubc88 \ub4e4\uc5b4\uac00\uba74 \ube60\uc9c0\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3061\u3069\u3000\u304b\u202f\u3064\u3044\u305f\u3089\u3000\u305c\u3063\u305f\u3044\u306b\u3000\u306f\u306a\u3055\u306a\u3044\u3002\n\u30ad\u30d0\u306e\u3000\u3055\u304d\u304c\u3000\u3064\u308a\u3070\u308a\u3000\u202f\u305f\u3044\u306b\u3000\u305d\u308a\u304b\u3048\u3063\u3066\n\u3044\u308b\u306e\u3067\u3000\u3044\u3061\u3069\u3000\u3055\u3055\u308b\u3068\u3000\u306c\u3051\u306a\u304f\u3000\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4e00\u5ea6\u3000\u304b\u307f\u3064\u304f\u3068\u3000\u30ad\u30d0\u304c\n\u629c\u3051\u308b\u307e\u3067\u3000\u7d76\u5bfe\u306b\u3000\u96e2\u3055\u306a\u3044\u3002\n\u629c\u3051\u305f\u3000\u30ad\u30d0\u306f\u3000\u3059\u3050\u306b\u3000\u751f\u3048\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go until it loses its\nfangs. New fangs quickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quando azzanna il nemico, non molla la presa finch\u00e9\nnon gli cadono le zanne, che per\u00f2 ricrescono subito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuando muerde algo, no lo suelta hasta que pierde\nsus colmillos. Estos se regeneran r\u00e1pidamente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Hat es einmal zugebissen, l\u00e4sst es erst los, wenn es\nseine Z\u00e4hne verliert, die schnell nachwachsen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quand il mord, il ne l\u00e2che pas prise avant que\nses crocs se brisent. Ils repoussent par la suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud55c\ubc88 \ubb3c\uba74 \uc774\ube68\uc774\n\ube60\uc9c8 \ub54c\uae4c\uc9c0 \uc808\ub300 \ub193\uc9c0 \uc54a\ub294\ub2e4.\n\ube60\uc9c4 \uc774\ube68\uc740 \ubc14\ub85c \uc790\ub77c\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3061\u3069\u3000\u304b\u307f\u3064\u304f\u3068\u3000\u30ad\u30d0\u304c\n\u306c\u3051\u308b\u307e\u3067\u3000\u305c\u3063\u305f\u3044\u306b\u3000\u306f\u306a\u3055\u306a\u3044\u3002\n\u306c\u3051\u305f\u3000\u30ad\u30d0\u306f\u3000\u3059\u3050\u306b\u3000\u306f\u3048\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30ad\u30d0\u306f\u3000\u629c\u3051\u3066\u3082\u3000\u6b21\u304b\u3089\u3000\u6b21\u306b\n\u751f\u3048\u3066\u304f\u308b\u3002\u3044\u3064\u3082\u3000\u53e3\u306e\u4e2d\u306b\u306f\n\uff14\uff18\u672c\u306e\u3000\u30ad\u30d0\u304c\u3000\u305d\u308d\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "If it loses a fang, a new one grows back in its\nplace. There are always 48 fangs lining its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se perde un dente gliene ricresce un altro. La sua\nbocca contiene sempre 48 denti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Si pierde un colmillo, le crecer\u00e1 otro en su lugar.\nSiempre tiene 48 colmillos en su boca.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Verliert es einen seiner Z\u00e4hne, w\u00e4chst ein neuer\nnach. Es hat immer 48 Z\u00e4hne in seinem Kiefer.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Quand il perd un croc, il en repousse un autre.\nSa bouche est en permanence compos\u00e9e de 48\ndents.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\ube68\uc774 \ube60\uc838\ub3c4 \uacc4\uc18d\ud574\uc11c\n\uc790\ub780\ub2e4. \ud56d\uc0c1 \uc785\uc548\uc5d0\ub294\n48\uac1c\uc758 \uc774\ube68\uc774 \ub098 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30ad\u30d0\u306f\u3000\u306c\u3051\u3066\u3082\u3000\u3064\u304e\u304b\u3089\u3000\u3064\u304e\u306b\n\u306f\u3048\u3066\u304f\u308b\u3002\u3044\u3064\u3082\u3000\u304f\u3061\u306e\u306a\u304b\u306b\u306f\n\uff14\uff18\u307d\u3093\u306e\u3000\u30ad\u30d0\u304c\u3000\u305d\u308d\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go\nuntil it loses its fangs. New fangs\nquickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go\nuntil it loses its fangs. New fangs\nquickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go\nuntil it loses its fangs. New fangs\nquickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Quand il mord, il ne l\u00e2che pas prise\navant que ses crocs se brisent.\nIls repoussent par la suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go\nuntil it loses its fangs. New fangs\nquickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Quand il mord, il ne l\u00e2che pas prise\navant que ses crocs se brisent.\nIls repoussent par la suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It opens its huge jaws wide when\nattacking. If it loses any fangs\nwhile biting, they grow back in.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "If it loses a fang, a new one\ngrows back in its place. There are\nalways 48 fangs lining its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go\nuntil it loses its fangs. New fangs\nquickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go\nuntil it loses its fangs. New fangs\nquickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Once it bites down, it won\u2019t let go\nuntil it loses its fangs. New fangs\nquickly grow into place.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "If it loses a fang, a new one grows back\nin its place. There are always 48 fangs\nlining its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It opens its huge jaws wide when\nattacking. If it loses any fangs while\nbiting, they grow back in.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Once its jaws clamp down on its foe, it will\nabsolutely not let go. Because the tips of\nits fangs are forked back like fishhooks,\nthey become irremovably embedded.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "Once CROCONAW has clamped its jaws on\nits foe, it will absolutely not let go.\nBecause the tips of its fangs are\fforked back like barbed fishhooks, they\nbecome impossible to remove when \nthey have sunk in.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "Once CROCONAW has clamped its jaws on\nits foe, it will absolutely not let go.\nBecause the tips of its fangs are\fforked back like barbed fishhooks, they\nbecome impossible to remove when \nthey have sunk in.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "The tips of its\nfangs are slanted\nbackward. Once\fthose fangs clamp\ndown, the prey has\nno hope of escape.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It opens its huge\njaws wide when\nattacking. If it\floses any fangs\nwhile biting, they\ngrow back in.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "If it loses a\nfang, a new one\ngrows back in its\fplace. There are\nalways 48 fangs\nlining its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u5927\u989a\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u304a\u304a\u3042\u3054\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Big Jaw Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Mascellone",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Fauces",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Gro\u00dfmaul",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon M\u00e2choire",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5927\u984e\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud070\ud131\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u304a\u304a\u3042\u3054\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "waters-edge",
+        "url": "/api/v2/pokemon-habitat/9/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 159,
+    "is_baby": false,
+    "name": "croconaw",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u84dd\u9cc4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a2\u30ea\u30b2\u30a4\u30c4"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Croconaw"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Croconaw"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Croconaw"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Tyracroc"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Crocrodil"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u85cd\u9c77"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc5d8\ub9ac\uac8c\uc774"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Alligates"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a2\u30ea\u30b2\u30a4\u30c4"
+        }
+    ],
+    "order": 191,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "pond",
+                "url": "/api/v2/pal-park-area/4/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 8,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 8,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 159,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "croconaw",
+                "url": "/api/v2/pokemon/159/"
+            }
+        }
+    ]
+}

@@ -1,0 +1,680 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/19/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "This move is replaced by the target's last successfully used move, and its PP changes to 5.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf chatter, metronome, mimic, sketch, or struggle is selected, this move will fail.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome, nor forced by encore.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Copies the target's last used move."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u53ef\u4ee5\u5c06\u5bf9\u624b\n\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\uff0c\n\u5728\u6218\u6597\u5185\u53d8\u6210\u81ea\u5df1\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u3000\u6280\u3092\n\u6226\u95d8\u306e\u3000\u3042\u3044\u3060\n\u81ea\u5206\u306e\u3000\u6280\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the target\u2019s last move. The move\ncan be used during battle until the Pok\u00e9mon is\nswitched out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa copia l\u2019ultima mossa usata dal bersaglio\ne la conserva finch\u00e9 rimane in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Copia el \u00faltimo movimiento usado por el objetivo, y \npuede utilizarlo mientras est\u00e9 en el combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Kopiert die zuvor ausgef\u00fchrte Attacke des Zieles.\nKann im Kampf bis zur Auswechslung verwendet\nwerden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur copie la derni\u00e8re capacit\u00e9 utilis\u00e9e par\nla cible et la conserve tant qu\u2019il reste au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u6230\u9b25\u671f\u9593\uff0c\n\u5c07\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u8b8a\u6210\u81ea\u5df1\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc5d0 \uc0ac\uc6a9\ud55c \uae30\uc220\uc744\n\ubc30\ud2c0\uc744 \ud558\ub294 \ub3d9\uc548\n\uc790\uc2e0\uc758 \uae30\uc220\ub85c \ub9cc\ub4e4 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u3092\n\u305b\u3093\u3068\u3046\u306e\u3000\u3042\u3044\u3060\n\u3058\u3076\u3093\u306e\u3000\u308f\u3056\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4ee5\u5c06\u5bf9\u624b\n\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\uff0c\n\u5728\u6218\u6597\u5185\u53d8\u6210\u81ea\u5df1\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u3000\u6280\u3092\n\u6226\u95d8\u306e\u3000\u3042\u3044\u3060\n\u81ea\u5206\u306e\u3000\u6280\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the target\u2019s last move. The move\ncan be used during battle until the Pok\u00e9mon is\nswitched out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa copia l\u2019ultima mossa usata dal bersaglio\ne la conserva finch\u00e9 rimane in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Copia el \u00faltimo movimiento usado por el objetivo, y \npuede utilizarlo mientras est\u00e9 en el combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Kopiert die zuvor ausgef\u00fchrte Attacke des Zieles.\nKann im Kampf bis zur Auswechslung verwendet\nwerden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur copie la derni\u00e8re capacit\u00e9 utilis\u00e9e par\nla cible et la conserve tant qu\u2019il reste au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u6230\u9b25\u671f\u9593\uff0c\n\u5c07\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u8b8a\u6210\u81ea\u5df1\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc5d0 \uc0ac\uc6a9\ud55c \uae30\uc220\uc744\n\ubc30\ud2c0\uc744 \ud558\ub294 \ub3d9\uc548\n\uc790\uc2e0\uc758 \uae30\uc220\ub85c \ub9cc\ub4e4 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u3092\n\u305b\u3093\u3068\u3046\u306e\u3000\u3042\u3044\u3060\n\u3058\u3076\u3093\u306e\u3000\u308f\u3056\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u3000\u6280\u3092\n\u6226\u95d8\u306e\u3000\u3042\u3044\u3060\n\u81ea\u5206\u306e\u3000\u6280\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the target\u2019s last move.\nThe move can be used during battle\nuntil the Pok\u00e9mon is switched out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa copia l\u2019ultima mossa usata dal bersaglio\ne la conserva finch\u00e9 rimane in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Copia el \u00faltimo movimiento usado por el objetivo, y \npuede utilizarlo mientras est\u00e9 en el combate.\n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Kopiert die zuvor ausgef\u00fchrte Attacke des Zieles.\nKann im Kampf bis zur Auswechslung verwendet\nwerden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur copie la derni\u00e8re capacit\u00e9 utilis\u00e9e par\nla cible et la conserve tant qu\u2019il reste au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc5d0 \uc0ac\uc6a9\ud55c \uae30\uc220\uc744\n\ubc30\ud2c0\uc744 \ud558\ub294 \ub3d9\uc548\n\uc790\uc2e0\uc758 \uae30\uc220\ub85c \ub9cc\ub4e4 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u3092\n\u305b\u3093\u3068\u3046\u306e\u3000\u3042\u3044\u3060\n\u3058\u3076\u3093\u306e\u3000\u308f\u3056\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u3000\u6280\u3092\n\u6226\u95d8\u306e\u3000\u3042\u3044\u3060\n\u81ea\u5206\u306e\u3000\u6280\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the target\u2019s last move.\nThe move can be used during battle\nuntil the Pok\u00e9mon is switched out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Copia l\u2019ultima mossa usata dal bersaglio. La mossa\ncopiata si pu\u00f2 utilizzare fino alla sostituzione\ndel Pok\u00e9mon che l\u2019ha usata.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Copia el \u00faltimo movimiento usado por el objetivo.\nDicho movimiento se podr\u00e1 usar mientras el\nPok\u00e9mon no sea cambiado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Kopiert die zuvor ausgef\u00fchrte Attacke des Zieles.\nKann im Kampf bis zur Auswechslung verwendet\nwerden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur copie la derni\u00e8re capacit\u00e9 utilis\u00e9e par\nla cible et la conserve tant qu\u2019il reste au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc5d0 \uc0ac\uc6a9\ud55c \uae30\uc220\uc744\n\ubc30\ud2c0\uc744 \ud558\ub294 \ub3d9\uc548\n\uc790\uc2e0\uc758 \uae30\uc220\ub85c \ub9cc\ub4e4 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u3092\n\u305b\u3093\u3068\u3046\u306e\u3000\u3042\u3044\u3060\n\u3058\u3076\u3093\u306e\u3000\u308f\u3056\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the target\u2019s last move.\nThe move can be used during battle\nuntil the Pok\u00e9mon is switched out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the target\u2019s last move.\nThe move can be used during battle\nuntil the Pok\u00e9mon is switched out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur copie la derni\u00e8re capacit\u00e9\nutilis\u00e9e par la cible et la conserve\ntant qu\u2019il reste au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user copies the\nmove last used by\nthe foe for the\nrest of the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Copies a move used by the\nfoe during one battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Copies a move used by the\nfoe during one battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Copies a move used\nby the foe.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Copies a move used\nby the foe.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 102,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/541/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/542/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "mimic",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6a21\u4eff"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3082\u306e\u307e\u306d"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Mimic"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Mimica"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Mim\u00e9tico"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Mimikry"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Copie"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6a21\u4eff"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud749\ub0b4\ub0b4\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3082\u306e\u307e\u306d"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/12/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

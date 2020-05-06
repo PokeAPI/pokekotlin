@@ -1,0 +1,816 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "ice-beam",
+                    "url": "/api/v2/move/58/"
+                },
+                {
+                    "name": "blizzard",
+                    "url": "/api/v2/move/59/"
+                },
+                {
+                    "name": "aurora-beam",
+                    "url": "/api/v2/move/62/"
+                },
+                {
+                    "name": "haze",
+                    "url": "/api/v2/move/114/"
+                },
+                {
+                    "name": "powder-snow",
+                    "url": "/api/v2/move/181/"
+                },
+                {
+                    "name": "icy-wind",
+                    "url": "/api/v2/move/196/"
+                },
+                {
+                    "name": "ice-ball",
+                    "url": "/api/v2/move/301/"
+                },
+                {
+                    "name": "weather-ball",
+                    "url": "/api/v2/move/311/"
+                },
+                {
+                    "name": "sheer-cold",
+                    "url": "/api/v2/move/329/"
+                },
+                {
+                    "name": "icicle-spear",
+                    "url": "/api/v2/move/333/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/5/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Changes the weather to hail for five turns, during which non-ice Pok\u00e9mon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding icy rock, this effect lasts for eight turns.\n\nblizzard has 100% accuracy.  If the target has used detect or protect, blizzard has a (100 - accuracy)% chance to break through the protection.\n\nmoonlight, morning sun, and synthesis heal only 1/4 of the user's max HP.\n\nPok\u00e9mon with snow cloak are exempt from this effect's damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Changes the weather to a hailstorm for five turns."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\u4e00\u76f4\u964d\u51b0\u96f9\uff0c\n\u9664\u51b0\u5c5e\u6027\u7684\u5b9d\u53ef\u68a6\u4ee5\u5916\uff0c\n\u7ed9\u4e88\u5168\u4f53\u5b9d\u53ef\u68a6\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u3042\u3089\u308c\u3092\u3000\u964d\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a hailstorm lasting five turns.\nIt damages all Pok\u00e9mon except the Ice type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pok\u00e9mon\ntranne quelli di tipo Ghiaccio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere \na todos los Pok\u00e9mon excepto a los de tipo Hielo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Hagelsturm f\u00fcr f\u00fcnf Runden. Schadet allen au\u00dfer\nEis-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de gr\u00eale qui dure cinq tours.\nNe blesse pas les Pok\u00e9mon de type Glace.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u964d\u4e0b\u51b0\u96f9\uff0c\u5728\uff15\u56de\u5408\u5167\n\u5834\u4e0a\u9664\u4e86\u51b0\u5c6c\u6027\u4ee5\u5916\u7684\u5bf6\u53ef\u5922\n\u90fd\u6703\u53d7\u5230\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uc2f8\ub77c\uae30\ub208\uc744 \ub0b4\ub9ac\uac8c \ud574\n\uc5bc\uc74c\ud0c0\uc785\uc774 \uc544\ub2cc \ud3ec\ucf13\ubaac\n\ubaa8\ub450\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3089\u308c\u3092\u3000\u3075\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\u4e00\u76f4\u964d\u51b0\u96f9\uff0c\n\u9664\u51b0\u5c5e\u6027\u7684\u5b9d\u53ef\u68a6\u4ee5\u5916\uff0c\n\u7ed9\u4e88\u5168\u4f53\u5b9d\u53ef\u68a6\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u3042\u3089\u308c\u3092\u3000\u964d\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a hailstorm lasting five turns.\nIt damages all Pok\u00e9mon except the Ice type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pok\u00e9mon\ntranne quelli di tipo Ghiaccio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere \na todos los Pok\u00e9mon excepto a los de tipo Hielo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Hagelsturm f\u00fcr f\u00fcnf Runden. Schadet allen au\u00dfer\nEis-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de gr\u00eale qui dure cinq tours.\nNe blesse pas les Pok\u00e9mon de type Glace.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u964d\u4e0b\u51b0\u96f9\uff0c\u5728\uff15\u56de\u5408\u5167\n\u5834\u4e0a\u9664\u4e86\u51b0\u5c6c\u6027\u4ee5\u5916\u7684\u5bf6\u53ef\u5922\n\u90fd\u6703\u53d7\u5230\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uc2f8\ub77c\uae30\ub208\uc744 \ub0b4\ub9ac\uac8c \ud574\n\uc5bc\uc74c\ud0c0\uc785\uc774 \uc544\ub2cc \ud3ec\ucf13\ubaac\n\ubaa8\ub450\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3089\u308c\u3092\u3000\u3075\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3089\u308c\u3092\u3000\u964d\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pok\u00e9mon except the\nIce type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pok\u00e9mon\ntranne quelli di tipo Ghiaccio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere \na todos los Pok\u00e9mon excepto a los de tipo Hielo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Hagelsturm f\u00fcr f\u00fcnf Runden. Schadet allen,\nau\u00dfer Eis-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de gr\u00eale qui dure cinq tours.\nNe blesse pas les Pok\u00e9mon de type Glace.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uc2f8\ub77c\uae30\ub208\uc744 \ub0b4\ub9ac\uac8c \ud574\n\uc5bc\uc74c\ud0c0\uc785\uc774 \uc544\ub2cc \ud3ec\ucf13\ubaac\n\ubaa8\ub450\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3089\u308c\u3092\u3000\u3075\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3089\u308c\u3092\u3000\u964d\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u5168\u54e1\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pok\u00e9mon except the\nIce type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa causa una grandinata che dura\ncinque turni. Danneggia tutti i Pok\u00e9mon\ntranne quelli di tipo Ghiaccio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Tormenta de granizo que dura cinco turnos. Hiere\na todos, excepto a los de tipo Hielo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Hagelsturm f\u00fcr f\u00fcnf Runden. Schadet allen,\nau\u00dfer Eis-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de gr\u00eale qui dure cinq tours.\nNe blesse pas les Pok\u00e9mon de type Glace.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uc2f8\ub77c\uae30\ub208\uc744 \ub0b4\ub9ac\uac8c \ud574\n\uc5bc\uc74c\ud0c0\uc785\uc774 \uc544\ub2cc \ud3ec\ucf13\ubaac\n\ubaa8\ub450\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3089\u308c\u3092\u3000\u3075\u3089\u3057\u3066\n\u3053\u304a\u308a\u30bf\u30a4\u30d7\u3067\u3000\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\n\u305c\u3093\u3044\u3093\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pok\u00e9mon except the\nIce type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a hailstorm lasting five\nturns. It damages all Pok\u00e9mon except the\nIce type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Invoque une temp\u00eate de gr\u00eale qui dure 5\ntours. Ne blesse pas les Pok\u00e9mon de type\nGlace.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPok\u00e9mon except the\nIce type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPok\u00e9mon except the\nIce type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user summons a\nhailstorm lasting five\nturns. It damages all\nPok\u00e9mon except the\nIce type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A hailstorm lasting\nfive turns damages\nall POK\u00e9MON except\nthe ICE-type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Summons a hailstorm that\nstrikes every turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Summons a hailstorm that\nstrikes every turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 258,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/113/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/114/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/115/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/116/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/117/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/118/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/119/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/120/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/121/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/122/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/123/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/124/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/125/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/126/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "whole-field-effect",
+            "url": "/api/v2/move-category/10/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "hail",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u51b0\u96f9"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3042\u3089\u308c"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Hail"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Grandine"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Granizo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Hagelsturm"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Gr\u00eale"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u51b0\u96f9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2f8\ub77c\uae30\ub208"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3042\u3089\u308c"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "entire-field",
+        "url": "/api/v2/move-target/12/"
+    },
+    "type": {
+        "name": "ice",
+        "url": "/api/v2/type/15/"
+    }
+}

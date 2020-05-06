@@ -1,0 +1,511 @@
+{
+    "attributes": [
+        {
+            "name": "holdable-active",
+            "url": "/api/v2/item-attribute/7/"
+        }
+    ],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "in-a-pinch",
+        "url": "/api/v2/item-category/5/"
+    },
+    "cost": 20,
+    "effect_entries": [
+        {
+            "effect": "Held in battle\n:   When the holder has 1/4 its max HP remaining or less, it consumes this item.  On the following turn, the holder will act first among moves with the same priority, regardless of Speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Held: Consumed at 1/4 max HP when using a move to go first."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u8ba9\u5b9d\u53ef\u68a6\u643a\u5e26\u540e\uff0c\u5371\u673a\u65f6\uff0c\n\u884c\u52a8\u4ec5\u4f1a\u53d8\u5feb\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u6301\u305f\u305b\u308b\u3068\n\u30d4\u30f3\u30c1\u306e\u3068\u304d\u3000\uff11\u5ea6\u3060\u3051\n\u884c\u52d5\u304c\u3000\u65e9\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon\nholds one, it will be able to move first just once\nwhen it\u2019s in a pinch.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Se il Pok\u00e9mon che ha questa bacca si trova\nin difficolt\u00e0, sferra la sua mossa per primo.\nFunziona una sola volta.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "El Pok\u00e9mon que la lleva puede actuar en primer\nlugar una vez cuando se encuentra en un momento\nde apuro.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Als getragenes Item erm\u00f6glicht diese Beere dem\nTr\u00e4ger in einer Notlage den Erstschlag.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Tenue, cette Baie permet d\u2019utiliser une capacit\u00e9\nen priorit\u00e9 une fois en cas de besoin.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u8b93\u5bf6\u53ef\u5922\u651c\u5e36\u5f8c\uff0c\n\u5371\u6a5f\u6642\uff0c\u884c\u52d5\u6703\u50c5\n\u8b8a\u5feb\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ud3ec\ucf13\ubaac\uc5d0\uac8c \uc9c0\ub2c8\uac8c \ud558\uba74\n\uc704\uae09\ud560 \ub54c \ud55c \ubc88\ub9cc\n\ud589\ub3d9\uc774 \ube68\ub77c\uc9c4\ub2e4.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3082\u305f\u305b\u308b\u3068\n\u30d4\u30f3\u30c1\u306e\u3068\u304d\u3000\u3044\u3061\u3069\u3060\u3051\n\u3053\u3046\u3069\u3046\u304c\u3000\u306f\u3084\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u8ba9\u5b9d\u53ef\u68a6\u643a\u5e26\u540e\uff0c\u5371\u673a\u65f6\uff0c\n\u884c\u52a8\u4ec5\u4f1a\u53d8\u5feb\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u6301\u305f\u305b\u308b\u3068\n\u30d4\u30f3\u30c1\u306e\u3068\u304d\u3000\uff11\u5ea6\u3060\u3051\n\u884c\u52d5\u304c\u3000\u65e9\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon\nholds one, it will be able to move first just once\nwhen it\u2019s in a pinch.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Se il Pok\u00e9mon che ha questa bacca si trova\nin difficolt\u00e0, sferra la sua mossa per primo.\nFunziona una sola volta.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "El Pok\u00e9mon que la lleva puede actuar en primer\nlugar una vez cuando se encuentra en un momento\nde apuro.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Als getragenes Item erm\u00f6glicht diese Beere dem\nTr\u00e4ger in einer Notlage den Erstschlag.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Tenue, cette Baie permet d\u2019utiliser une capacit\u00e9\nen priorit\u00e9 une fois en cas de besoin.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u8b93\u5bf6\u53ef\u5922\u651c\u5e36\u5f8c\uff0c\n\u5371\u6a5f\u6642\uff0c\u884c\u52d5\u6703\u50c5\n\u8b8a\u5feb\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ud3ec\ucf13\ubaac\uc5d0\uac8c \uc9c0\ub2c8\uac8c \ud558\uba74\n\uc704\uae09\ud560 \ub54c \ud55c \ubc88\ub9cc\n\ud589\ub3d9\uc774 \ube68\ub77c\uc9c4\ub2e4.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3082\u305f\u305b\u308b\u3068\n\u30d4\u30f3\u30c1\u306e\u3068\u304d\u3000\u3044\u3061\u3069\u3060\u3051\n\u3053\u3046\u3069\u3046\u304c\u3000\u306f\u3084\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u6301\u305f\u305b\u308b\u3068\n\u30d4\u30f3\u30c1\u306e\u3068\u304d\u3000\uff11\u5ea6\u3060\u3051\n\u884c\u52d5\u304c\u3000\u65e9\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A Berry to be consumed by Pok\u00e9mon.\nIf a Pok\u00e9mon holds one, it will be able to\nmove first just once when it\u2019s in a pinch.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Se il Pok\u00e9mon che ha questa bacca si trova\nin difficolt\u00e0, sferra la sua mossa per primo.\nFunziona una sola volta.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Tiene un d\u00e9bil brillo rosado y debe llevarla\nClamperl. Sube la Defensa Especial.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Als getragenes Item erm\u00f6glicht diese Beere dem\nTr\u00e4ger in einer Notlage den Erstschlag.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Tenue, cette Baie permet d\u2019attaquer en premier\nune fois en cas de besoin.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ud3ec\ucf13\ubaac\uc5d0\uac8c \uc9c0\ub2c8\uac8c \ud558\uba74\n\uc704\uae09\ud560 \ub54c \ud55c \ubc88\ub9cc\n\ud589\ub3d9\uc774 \ube68\ub77c\uc9c4\ub2e4.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3082\u305f\u305b\u308b\u3068\n\u30d4\u30f3\u30c1\u306e\u3068\u304d\u3000\u3044\u3061\u3069\u3060\u3051\n\u3053\u3046\u3069\u3046\u304c\u3000\u306f\u3084\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "If held by a Pok\u00e9mon, it gets to move\nfirst just once in a pinch.",
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "If held by a Pok\u00e9mon, it gets to move\nfirst just once in a pinch.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Tenue, cette Baie permet d\u2019attaquer\nen premier une fois en cas de besoin.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "If held by a Pok\u00e9mon, it gets to move\nfirst just once in a pinch.",
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A Poffin ingredient. If held by a\nPok\u00e9mon, it gets to move first just\nonce in a pinch.",
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A Poffin ingredient. If held by a\nPok\u00e9mon, it gets to move first just\nonce in a pinch.",
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": 10,
+    "game_indices": [
+        {
+            "game_index": 210,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
+        },
+        {
+            "game_index": 210,
+            "generation": {
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
+            }
+        },
+        {
+            "game_index": 210,
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 210,
+            "generation": {
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 187,
+    "machines": [],
+    "name": "custap-berry",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u91ca\u9640\u679c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a4\u30d0\u30f3\u306e\u307f"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Custap Berry"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Baccacrela"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Baya Chiri"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Eipfelbeere"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Baie Ch\u00e9rim"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u91cb\u9640\u679c"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc560\uc288\uc5f4\ub9e4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a4\u30d0\u30f3\u306e\u307f"
+        }
+    ],
+    "sprites": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/custap-berry.png"
+    }
+}

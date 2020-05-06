@@ -1,0 +1,612 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Raises the user's Special Attack by two stages.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Raises the user's Special Attack by two stages."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8c0b\u5212\u8be1\u8ba1\uff0c\u6fc0\u6d3b\u5934\u8111\u3002\n\u5927\u5e45\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u60aa\u3044\u3053\u3068\u3092\u3000\u8003\u3048\u3066\n\u982d\u3092\u3000\u6d3b\u6027\u5316\u3055\u305b\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u653b\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates its brain by thinking bad\nthoughts. This sharply raises the user\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa stimola il cervello pensando a cose\ncattive. Aumenta di molto l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender stimuliert sein Gehirn und hat finstere\nGedanken. Erh\u00f6ht Spezial-Angriff stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Stimule l\u2019esprit par de mauvaises pens\u00e9es.\nAugmente beaucoup l\u2019Attaque Sp\u00e9ciale du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u52d5\u6b6a\u8166\u7b4b\uff0c\u6d3b\u5316\u5927\u8166\u3002\n\u5927\u5e45\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\uc05c \uc77c\uc744 \uc0dd\uac01\ud574\uc11c\n\uba38\ub9ac\ub97c \ud65c\uc131\ud654\uc2dc\ud0a8\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc744 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u308b\u3044\u3053\u3068\u3092\u3000\u304b\u3093\u304c\u3048\u3066\n\u3042\u305f\u307e\u3092\u3000\u304b\u3063\u305b\u3044\u304b\u3000\u3055\u305b\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8c0b\u5212\u8be1\u8ba1\uff0c\u6fc0\u6d3b\u5934\u8111\u3002\n\u5927\u5e45\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u60aa\u3044\u3053\u3068\u3092\u3000\u8003\u3048\u3066\n\u982d\u3092\u3000\u6d3b\u6027\u5316\u3055\u305b\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u653b\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates its brain by thinking bad\nthoughts. This sharply raises the user\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa stimola il cervello pensando a cose\ncattive. Aumenta di molto l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender stimuliert sein Gehirn und hat finstere\nGedanken. Erh\u00f6ht Spezial-Angriff stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Stimule l\u2019esprit par de mauvaises pens\u00e9es.\nAugmente beaucoup l\u2019Attaque Sp\u00e9ciale du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u52d5\u6b6a\u8166\u7b4b\uff0c\u6d3b\u5316\u5927\u8166\u3002\n\u5927\u5e45\u63d0\u9ad8\u81ea\u5df1\u7684\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\uc05c \uc77c\uc744 \uc0dd\uac01\ud574\uc11c\n\uba38\ub9ac\ub97c \ud65c\uc131\ud654\uc2dc\ud0a8\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc744 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u308b\u3044\u3053\u3068\u3092\u3000\u304b\u3093\u304c\u3048\u3066\n\u3042\u305f\u307e\u3092\u3000\u304b\u3063\u305b\u3044\u304b\u3000\u3055\u305b\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u60aa\u3044\u3053\u3068\u3092\u3000\u8003\u3048\u3066\n\u982d\u3092\u3000\u6d3b\u6027\u5316\u3055\u305b\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u653b\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates its brain by thinking\nbad thoughts.\nThis sharply raises the user\u2019s Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa stimola il cervello pensando a cose\ncattive. Aumenta di molto l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender stimuliert sein Gehirn und hat\nfinstere Gedanken. Steigert Spezial-Angriff stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Stimule l\u2019esprit par de mauvaises pens\u00e9es.\nAugmente fortement l\u2019Attaque Sp\u00e9ciale du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\uc05c \uc77c\uc744 \uc0dd\uac01\ud574\uc11c\n\uba38\ub9ac\ub97c \ud65c\uc131\ud654\uc2dc\ud0a8\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc744 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u308b\u3044\u3053\u3068\u3092\u3000\u304b\u3093\u304c\u3048\u3066\n\u3042\u305f\u307e\u3092\u3000\u304b\u3063\u305b\u3044\u304b\u3000\u3055\u305b\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u60aa\u3044\u3053\u3068\u3092\u3000\u8003\u3048\u3066\n\u982d\u3092\u3000\u6d3b\u6027\u5316\u3055\u305b\u308b\u3002\n\u81ea\u5206\u306e\u3000\u7279\u653b\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates its brain by thinking\nbad thoughts.\nThis sharply raises the user\u2019s Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa stimola il cervello pensando a cose\ncattive. Aumenta di molto l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender stimuliert sein Gehirn und hat\nfinstere Gedanken. Steigert Spezial-Angriff stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Stimule l\u2019esprit par de mauvaises pens\u00e9es.\nAugmente fortement l\u2019Attaque Sp\u00e9ciale du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\uc05c \uc77c\uc744 \uc0dd\uac01\ud574\uc11c\n\uba38\ub9ac\ub97c \ud65c\uc131\ud654\uc2dc\ud0a8\ub2e4.\n\uc790\uc2e0\uc758 \ud2b9\uc218\uacf5\uaca9\uc744 \ud06c\uac8c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u308b\u3044\u3053\u3068\u3092\u3000\u304b\u3093\u304c\u3048\u3066\n\u3042\u305f\u307e\u3092\u3000\u304b\u3063\u305b\u3044\u304b\u3000\u3055\u305b\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3050\u30fc\u3093\u3068\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates its brain by thinking\nbad thoughts.\nIt sharply raises the user\u2019s Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates its brain by thinking\nbad thoughts.\nIt sharply raises the user\u2019s Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Stimule l\u2019esprit par de mauvaises pens\u00e9es.\nAugmente fortement l\u2019Attaque Sp\u00e9ciale\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates\nits brain by thinking\nbad thoughts.\nIt sharply raises the\nuser\u2019s Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates\nits brain by thinking\nbad thoughts.\nIt sharply raises the\nuser\u2019s Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user stimulates\nits brain by thinking\nbad thoughts.\nIt sharply raises the\nuser\u2019s Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 417,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "nasty-plot",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8be1\u8ba1"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u308f\u308b\u3060\u304f\u307f"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Nasty Plot"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Congiura"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Maquinaci\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "R\u00e4nkeschmied"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Machination"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8a6d\u8a08"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub098\uc05c\uc74c\ubaa8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u308f\u308b\u3060\u304f\u307f"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 2,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/11/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+    }
+}

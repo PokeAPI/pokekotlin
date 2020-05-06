@@ -1,0 +1,566 @@
+{
+    "accuracy": 90,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 30,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.  User charges for one turn before attacking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Requires a turn to charge before attacking.  Has a $effect_chance% chance to burn the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u80fd\u591f\u51bb\u7ed3\u4e00\u5207\u7684\u5f3a\u70c8\u51b7\u6c14\uff0c\n\u5728\u7b2c\uff12\u56de\u5408\u5305\u88f9\u4f4f\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u707c\u4f24\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u51cd\u3089\u305b\u308b\u3000\u6fc0\u3057\u3044\u3000\u51b7\u6c17\u3067\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u5305\u307f\u3053\u3080\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "On the second turn, an ultracold, freezing wind\nsurrounds the target. This may leave the target with\na burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio al turno successivo\ne lo avvolge in un soffio d\u2019aria gelida.\nPu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo en el segundo turno rode\u00e1ndolo \nde un aire g\u00e9lido. Puede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Umgibt das Ziel in der n\u00e4chsten Runde mit heftigen,\nalles gefrierenden Eisb\u00f6en. F\u00fcgt dem Ziel eventuell\nVerbrennungen zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Au second tour, le lanceur projette un souffle de\nvent glacial d\u00e9vastateur sur l\u2019ennemi. Peut aussi le\nbr\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u4f7f\u7528\u5f8c\u7684\u4e0b\u4e00\u56de\u5408\uff0c\n\u7528\u80fd\u5920\u51cd\u7d50\u4e00\u5207\u7684\u5f37\u70c8\u5bd2\u6c23\u5305\u570d\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa8\ub4e0 \uac83\uc744 \uc5bc\ub824\ubc84\ub9ac\ub294 \uaca9\ub82c\ud55c \ub0c9\uae30\ub85c\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ub458\ub7ec\uc2fc\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u3053\u304a\u3089\u305b\u308b\u3000\u306f\u3052\u3057\u3044\u3000\u308c\u3044\u304d\u3067\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u307f\u3053\u3080\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u80fd\u591f\u51bb\u7ed3\u4e00\u5207\u7684\u5f3a\u70c8\u51b7\u6c14\uff0c\n\u5728\u7b2c\uff12\u56de\u5408\u5305\u88f9\u4f4f\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u707c\u4f24\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u51cd\u3089\u305b\u308b\u3000\u6fc0\u3057\u3044\u3000\u51b7\u6c17\u3067\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u5305\u307f\u3053\u3080\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "On the second turn, an ultracold, freezing wind\nsurrounds the target. This may leave the target with\na burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio al turno successivo\ne lo avvolge in un soffio d\u2019aria gelida.\nPu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo en el segundo turno rode\u00e1ndolo \nde un aire g\u00e9lido. Puede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Umgibt das Ziel in der n\u00e4chsten Runde mit heftigen,\nalles gefrierenden Eisb\u00f6en. F\u00fcgt dem Ziel eventuell\nVerbrennungen zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Au second tour, le lanceur projette un souffle de\nvent glacial d\u00e9vastateur sur l\u2019ennemi. Peut aussi le\nbr\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u4f7f\u7528\u5f8c\u7684\u4e0b\u4e00\u56de\u5408\uff0c\n\u7528\u80fd\u5920\u51cd\u7d50\u4e00\u5207\u7684\u5f37\u70c8\u5bd2\u6c23\u5305\u570d\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa8\ub4e0 \uac83\uc744 \uc5bc\ub824\ubc84\ub9ac\ub294 \uaca9\ub82c\ud55c \ub0c9\uae30\ub85c\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ub458\ub7ec\uc2fc\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u3053\u304a\u3089\u305b\u308b\u3000\u306f\u3052\u3057\u3044\u3000\u308c\u3044\u304d\u3067\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u307f\u3053\u3080\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u51cd\u3089\u305b\u308b\u3000\u6fc0\u3057\u3044\u3000\u51b7\u6c17\u3067\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u5305\u202f\u3053\u3080\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio al turno successivo\ne lo avvolge in un soffio d\u2019aria gelida.\nPu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo en el segundo turno rode\u00e1ndolo \nde un aire g\u00e9lido. Puede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Umgibt das Ziel in der n\u00e4chsten Runde mit\nheftigen, alles gefrierenden Eisb\u00f6en. F\u00fcgt\ndem Ziel eventuell Verbrennungen zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Au second tour, le lanceur projette un souffle de\nvent glacial d\u00e9vastateur sur l\u2019ennemi. Peut aussi le\nbr\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa8\ub4e0 \uac83\uc744 \uc5bc\ub824\ubc84\ub9ac\ub294 \uaca9\ub82c\ud55c \ub0c9\uae30\ub85c\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ub458\ub7ec\uc2fc\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u3053\u304a\u3089\u305b\u308b\u3000\u306f\u3052\u3057\u3044\u3000\u308c\u3044\u304d\u3067\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u202f\u3053\u3080\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u51cd\u3089\u305b\u308b\u3000\u6fc0\u3057\u3044\u3000\u51b7\u6c17\u3067\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u76f8\u624b\u3092\u3000\u5305\u307f\u3053\u3080\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio al turno successivo\ne lo avvolge in un soffio d\u2019aria gelida.\nPu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo en el segundo turno rode\u00e1ndolo\nde un aire g\u00e9lido. Puede causar quemaduras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Umgibt das Ziel in der n\u00e4chsten Runde mit\nheftigen, alles gefrierenden Eisb\u00f6en. F\u00fcgt\ndem Ziel eventuell Verbrennungen zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Au second tour, le lanceur projette un souffle de\nvent glacial d\u00e9vastateur sur l\u2019ennemi. Peut aussi le\nbr\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa8\ub4e0 \uac83\uc744 \uc5bc\ub824\ubc84\ub9ac\ub294 \uaca9\ub82c\ud55c \ub0c9\uae30\ub85c\n2\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ub458\ub7ec\uc2fc\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3079\u3066\u3092\u3000\u3053\u304a\u3089\u305b\u308b\u3000\u306f\u3052\u3057\u3044\u3000\u308c\u3044\u304d\u3067\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u307f\u3053\u3080\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "On the second turn, an ultracold,\nfreezing wind surrounds the target.\nThis may leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Au second tour, le lanceur projette un\nsouffle de vent glacial d\u00e9vastateur\nsur l\u2019ennemi. Peut le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 554,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "burn",
+            "url": "/api/v2/move-ailment/4/"
+        },
+        "ailment_chance": 30,
+        "category": {
+            "name": "damage+ailment",
+            "url": "/api/v2/move-category/4/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "ice-burn",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6781\u5bd2\u51b7\u7130"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b3\u30fc\u30eb\u30c9\u30d5\u30ec\u30a2"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Ice Burn"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Vampagelida"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Llama G\u00e9lida"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Frosthauch"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Feu Glac\u00e9"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6975\u5bd2\u51b7\u7130"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ucf5c\ub4dc\ud50c\ub808\uc5b4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b3\u30fc\u30eb\u30c9\u30d5\u30ec\u30a2"
+        }
+    ],
+    "past_values": [],
+    "power": 140,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ice",
+        "url": "/api/v2/type/15/"
+    }
+}

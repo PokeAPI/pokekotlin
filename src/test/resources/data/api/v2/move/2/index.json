@@ -1,0 +1,691 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "focus-energy",
+                    "url": "/api/v2/move/116/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/2/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has an increased chance for a critical hit."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u950b\u5229\u7684\u624b\u5200\n\u5288\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u5bb9\u6613\u51fb\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a sharp chop. Critical\nhits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un colpo netto.\nProbabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Da un golpe cortante. Suele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Gute M\u00f6glichkeit, einen Volltreffer zu landen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est tranch\u00e9 violemment.\nTaux de critique \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u92d2\u5229\u7684\u624b\u5200\n\u5288\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u5bb9\u6613\u64ca\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub2f9\uc218\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u950b\u5229\u7684\u624b\u5200\n\u5288\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u5bb9\u6613\u51fb\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a sharp chop. Critical\nhits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un colpo netto.\nProbabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Da un golpe cortante. Suele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Gute M\u00f6glichkeit, einen Volltreffer zu landen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est tranch\u00e9 violemment.\nTaux de critique \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u92d2\u5229\u7684\u624b\u5200\n\u5288\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u5bb9\u6613\u64ca\u4e2d\u8981\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub2f9\uc218\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un colpo netto.\nProbabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Da un golpe cortante. Suele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Gute M\u00f6glichkeit, einen Volltreffer zu landen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est tranch\u00e9 violemment.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub2f9\uc218\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u92ed\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con un colpo netto.\nProbabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Da un golpe cortante. Suele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Gute M\u00f6glichkeit, einen Volltreffer zu landen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est tranch\u00e9 violemment.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uce74\ub85c\uc6b4 \ub2f9\uc218\ub85c\n\uc0c1\ub300\ub97c \ub54c\ub824\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u308b\u3069\u3044\u3000\u30c1\u30e7\u30c3\u30d7\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The target is attacked with a sharp chop.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019ennemi est tranch\u00e9 violemment.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A chopping attack with a\nhigh critical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A chopping attack with a\nhigh critical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Has a high criti\u00ad\ncal hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Has a high criti\u00ad\ncal hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 2,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 1,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "karate-chop",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7a7a\u624b\u5288"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304b\u3089\u3066\u30c1\u30e7\u30c3\u30d7"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Karate Chop"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Colpokarate"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Golpe K\u00e1rate"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Karateschlag"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Poing-Karat\u00e9"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7a7a\u624b\u5288"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud0dc\uad8c\ub2f9\uc218"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304b\u3089\u3066\u30c1\u30e7\u30c3\u30d7"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": {
+                "name": "normal",
+                "url": "/api/v2/type/1/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "power": 50,
+    "pp": 25,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/5/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+    }
+}

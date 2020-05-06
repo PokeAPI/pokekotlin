@@ -1,0 +1,689 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/11/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | tri attack\nCave                      | rock slide\nDeep water                | hydro pump\nDesert                    | earthquake\nGrass                     | seed bomb\nMountain                  | rock slide\nRoad                      | earthquake\nShallow water             | hydro pump\nSnow                      | blizzard\nTall grass                | seed bomb\nelectric terrain | thunderbolt\ngrassy terrain   | energy ball\nmisty terrain    | moonblast\n\nIn Pok\u00e9mon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | tri attack\nCrystal        | rock slide\nGateway        | hydro pump\nMagma          | rock slide\nMain Street    | tri attack\nNeon           | tri attack\nStargazer      | rock slide\nSunny Park     | seed bomb\nSunset         | earthquake\nWaterfall      | seed bomb\n\nThis move cannot be copied by mirror move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Uses a move which depends upon the terrain."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u81ea\u7136\u4e4b\u529b\u8fdb\u884c\u653b\u51fb\u3002\n\u6839\u636e\u6240\u4f7f\u7528\u573a\u6240\u7684\u4e0d\u540c\uff0c\n\u4f7f\u51fa\u7684\u62db\u5f0f\u4e5f\u4f1a\u6709\u6240\u53d8\u5316\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u7136\u306e\u3000\u529b\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4f7f\u3046\u3000\u5834\u6240\u3067\n\u3067\u3066\u304f\u308b\u3000\u6280\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "This attack makes use of nature\u2019s power. Its\neffects vary depending on the user\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all\u2019ambiente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto var\u00eda seg\u00fan el entorno de combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Kraft der Natur. Die Wirkung dieser\nAttacke ist ortsabh\u00e4ngig.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u81ea\u7136\u4e4b\u529b\u9032\u884c\u653b\u64ca\u3002\n\u96a8\u8457\u4f7f\u7528\u5730\u9ede\u7684\u4e0d\u540c\uff0c\n\u4f7f\u51fa\u7684\u62db\u5f0f\u4e5f\u6703\u6539\u8b8a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc5f0\uc758 \ud798\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\uc0ac\uc6a9\ud558\ub294 \uc7a5\uc18c\uc5d0 \ub530\ub77c\n\ub098\uc624\ub294 \uae30\uc220\uc774 \ubcc0\ud654\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u305c\u3093\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u304b\u3046\u3000\u3070\u3057\u3087\u3067\n\u3067\u3066\u304f\u308b\u3000\u308f\u3056\u304c\u3000\u3078\u3093\u304b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u81ea\u7136\u4e4b\u529b\u8fdb\u884c\u653b\u51fb\u3002\n\u6839\u636e\u6240\u4f7f\u7528\u573a\u6240\u7684\u4e0d\u540c\uff0c\n\u4f7f\u51fa\u7684\u62db\u5f0f\u4e5f\u4f1a\u6709\u6240\u53d8\u5316\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u7136\u306e\u3000\u529b\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4f7f\u3046\u3000\u5834\u6240\u3067\n\u3067\u3066\u304f\u308b\u3000\u6280\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "This attack makes use of nature\u2019s power. Its\neffects vary depending on the user\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all\u2019ambiente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto var\u00eda seg\u00fan el entorno de combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Kraft der Natur. Die Wirkung dieser\nAttacke ist ortsabh\u00e4ngig.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u81ea\u7136\u4e4b\u529b\u9032\u884c\u653b\u64ca\u3002\n\u96a8\u8457\u4f7f\u7528\u5730\u9ede\u7684\u4e0d\u540c\uff0c\n\u4f7f\u51fa\u7684\u62db\u5f0f\u4e5f\u6703\u6539\u8b8a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc5f0\uc758 \ud798\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\uc0ac\uc6a9\ud558\ub294 \uc7a5\uc18c\uc5d0 \ub530\ub77c\n\ub098\uc624\ub294 \uae30\uc220\uc774 \ubcc0\ud654\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u305c\u3093\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u304b\u3046\u3000\u3070\u3057\u3087\u3067\n\u3067\u3066\u304f\u308b\u3000\u308f\u3056\u304c\u3000\u3078\u3093\u304b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u7136\u306e\u3000\u529b\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4f7f\u3046\u3000\u5834\u6240\u3067\n\u3067\u3066\u304f\u308b\u3000\u6280\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "An attack that makes use of nature\u2019s\npower. Its effects vary depending on the\nuser\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all\u2019ambiente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto var\u00eda seg\u00fan el entorno de combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Kraft der Natur, dessen Typ vom\nOrt abh\u00e4ngt, an dem er durchgef\u00fchrt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc5f0\uc758 \ud798\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\uc0ac\uc6a9\ud558\ub294 \uc7a5\uc18c\uc5d0 \ub530\ub77c\n\ub098\uc624\ub294 \uae30\uc220\uc774 \ubcc0\ud654\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u305c\u3093\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u304b\u3046\u3000\u3070\u3057\u3087\u3067\n\u3067\u3066\u304f\u308b\u3000\u308f\u3056\u304c\u3000\u3078\u3093\u304b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u7136\u306e\u3000\u529b\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4f7f\u3046\u3000\u5834\u6240\u3067\n\u3067\u3066\u304f\u308b\u3000\u6280\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An attack that makes use of nature\u2019s\npower. Its effects vary depending on the\nuser\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Mossa che fa uso della forza della natura.\nIl suo effetto varia in base all\u2019ambiente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa el poder de la naturaleza para atacar.\nSu efecto var\u00eda seg\u00fan el entorno de combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Kraft der Natur, dessen Typ\nvom Ort abh\u00e4ngt, wo er durchgef\u00fchrt wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque qui tire sa force de la nature.\nSon type varie selon le terrain.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc5f0\uc758 \ud798\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\uc0ac\uc6a9\ud558\ub294 \uc7a5\uc18c\uc5d0 \ub530\ub77c\n\ub098\uc624\ub294 \uae30\uc220\uc774 \ubcc0\ud654\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u305c\u3093\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u304b\u3046\u3000\u3070\u3057\u3087\u3067\n\u3067\u3066\u304f\u308b\u3000\u308f\u3056\u304c\u3000\u3078\u3093\u304b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An attack that makes use of nature\u2019s\npower. Its effects vary depending on the\nuser\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "An attack that makes use of nature\u2019s\npower. Its effects vary depending on the\nuser\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque qui tire sa force de la\nnature. Son type varie selon le terrain.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "An attack that makes\nuse of nature\u2019s\npower. Its effects\nvary depending on the\nuser\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "An attack that makes\nuse of nature\u2019s\npower. Its effects\nvary depending on the\nuser\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "An attack that makes\nuse of nature\u2019s\npower. Its effects\nvary depending on the\nuser\u2019s environment.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nchanges type\ndepending on the\nuser\u2019s location.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "The type of attack varies\ndepending on the location.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "The type of attack varies\ndepending on the location.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 267,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1297/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1298/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1299/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1300/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "nature-power",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u81ea\u7136\u4e4b\u529b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3057\u305c\u3093\u306e\u3061\u304b\u3089"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Nature Power"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Naturforza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Adaptaci\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Natur-Kraft"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Force-Nature"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u81ea\u7136\u4e4b\u529b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc790\uc5f0\uc758\ud798"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3057\u305c\u3093\u306e\u3061\u304b\u3089"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": 1,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/14/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

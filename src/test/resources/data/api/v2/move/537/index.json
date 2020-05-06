@@ -1,0 +1,582 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": 30,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Does not interact with minimize.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.\n\nPower is doubled against Pok\u00e9mon that have used minimize since entering the field.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to make the target flinch."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u65cb\u8f6c\u63c9\u6210\u56e2\u7684\u8eab\u4f53\n\u538b\u6241\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u4f7f\u5bf9\u624b\u754f\u7f29\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u4f53\u3067\u3000\u56de\u8ee2\u3057\u3066\n\u76f8\u624b\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user crushes its target by rolling over the target\nwith its rolled-up body. This may also make the\ntarget flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruota su se stesso e schiaccia il bersaglio.\nPu\u00f2 anche farlo tentennare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se hace una bola y arrolla al objetivo con \nsu cuerpo. Puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rollt mit rundlichem K\u00f6rper \u00fcber das Ziel\nund dr\u00fcckt es platt. Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se roule en boule et \u00e9crase son ennemi.\nPeut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u65cb\u8f49\u8737\u7e2e\u6210\u5713\u5f62\u7684\u8eab\u9ad4\uff0c\n\u58d3\u6241\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u4f7f\u5c0d\u624b\u754f\u7e2e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub465\uae00\uac8c \ubb49\uce5c \ubab8\uc744 \ud68c\uc804\ud558\uc5ec\n\uc0c1\ub300\ub97c \ubb49\uac1c \ubc84\ub9b0\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u304b\u3089\u3060\u3067\u3000\u304b\u3044\u3066\u3093\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u65cb\u8f6c\u63c9\u6210\u56e2\u7684\u8eab\u4f53\n\u538b\u6241\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u4f7f\u5bf9\u624b\u754f\u7f29\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u4f53\u3067\u3000\u56de\u8ee2\u3057\u3066\n\u76f8\u624b\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user crushes its target by rolling over the target\nwith its rolled-up body. This may also make the\ntarget flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruota su se stesso e schiaccia il bersaglio.\nPu\u00f2 anche farlo tentennare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se hace una bola y arrolla al objetivo con \nsu cuerpo. Puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rollt mit rundlichem K\u00f6rper \u00fcber das Ziel\nund dr\u00fcckt es platt. Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se roule en boule et \u00e9crase son ennemi.\nPeut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u65cb\u8f49\u8737\u7e2e\u6210\u5713\u5f62\u7684\u8eab\u9ad4\uff0c\n\u58d3\u6241\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u4f7f\u5c0d\u624b\u754f\u7e2e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub465\uae00\uac8c \ubb49\uce5c \ubab8\uc744 \ud68c\uc804\ud558\uc5ec\n\uc0c1\ub300\ub97c \ubb49\uac1c \ubc84\ub9b0\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u304b\u3089\u3060\u3067\u3000\u304b\u3044\u3066\u3093\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u4f53\u3067\u3000\u56de\u8ee2\u3057\u3066\n\u76f8\u624b\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis may also make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruota su se stesso ad alta velocit\u00e0 e\nschiaccia il bersaglio. Pu\u00f2 anche farlo tentennare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se hace una bola y arrolla al objetivo con \nsu cuerpo. Puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rollt mit rundlichem K\u00f6rper \u00fcber das Ziel\nund dr\u00fcckt es platt. Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se roule en boule et \u00e9crase son ennemi.\nPeut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub465\uae00\uac8c \ubb49\uce5c \ubab8\uc744 \ud68c\uc804\ud558\uc5ec\n\uc0c1\ub300\ub97c \ubb49\uac1c \ubc84\ub9b0\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u304b\u3089\u3060\u3067\u3000\u304b\u3044\u3066\u3093\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u4f53\u3067\u3000\u56de\u8ee2\u3057\u3066\n\u76f8\u624b\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis may also make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruota su se stesso ad alta velocit\u00e0 e\nschiaccia il bersaglio. Pu\u00f2 anche farlo tentennare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se hace una bola y arrolla al objetivo\ncon su cuerpo. Puede hacerlo retroceder.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rollt mit rundlichem K\u00f6rper \u00fcber das Ziel\nund dr\u00fcckt es platt. Ziel schreckt eventuell zur\u00fcck.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se roule en boule et \u00e9crase son ennemi.\nPeut aussi l\u2019apeurer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub465\uae00\uac8c \ubb49\uce5c \ubab8\uc744 \ud68c\uc804\ud558\uc5ec\n\uc0c1\ub300\ub97c \ubb49\uac1c \ubc84\ub9b0\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u308b\u3081\u305f\u3000\u304b\u3089\u3060\u3067\u3000\u304b\u3044\u3066\u3093\u3057\u3066\n\u3042\u3044\u3066\u3092\u3000\u304a\u3057\u3064\u3076\u3059\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis attack may make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user crushes its targets by rolling\nover them with its rolled-up body.\nThis attack may make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se roule en boule et\n\u00e9crase son ennemi. Peut aussi\napeurer l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 537,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 30,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "steamroller",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u75af\u72c2\u6eda\u538b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30cf\u30fc\u30c9\u30ed\u30fc\u30e9\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Steamroller"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Rulloduro"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Rodillo de P\u00faas"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Quetschwalze"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Bulldoboule"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u760b\u72c2\u6efe\u58d3"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud558\ub4dc\ub864\ub7ec"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30cf\u30fc\u30c9\u30ed\u30fc\u30e9\u30fc"
+        }
+    ],
+    "past_values": [],
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "bug",
+        "url": "/api/v2/type/7/"
+    }
+}

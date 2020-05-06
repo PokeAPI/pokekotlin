@@ -1,0 +1,919 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 75,
+    "color": {
+        "name": "purple",
+        "url": "/api/v2/pokemon-color/7/"
+    },
+    "egg_groups": [
+        {
+            "name": "bug",
+            "url": "/api/v2/egg-group/3/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/102/"
+    },
+    "evolves_from_species": {
+        "name": "pineco",
+        "url": "/api/v2/pokemon-species/204/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u53ea\u8981\u4e00\u6709\u4e1c\u897f\u9760\u8fd1\uff0c\u5b83\u5c31\u4f1a\u5c04\u51fa\n\u94a2\u94c1\u5916\u58f3\u7684\u788e\u7247\u8fdb\u884c\u653b\u51fb\u3002\n\u8fd9\u662f\u4e00\u79cd\u65e0\u610f\u8bc6\u7684\u6761\u4ef6\u53cd\u5c04\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u306b\u304b\u304c\u3000\u8fd1\u4ed8\u304f\u3060\u3051\u3067\u3000\u92fc\u9244\u306e\n\u30ab\u30e9\u306e\u7834\u7247\u3092\u3000\u6483\u3061\u3060\u3057\u3000\u653b\u6483\u3002\n\u610f\u601d\u306f\u3000\u306a\u304f\u3000\u6761\u4ef6\u53cd\u5c04\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "When something approaches it, it fires off\nfragments of its steel shell in attack. This is not\na conscious action but a conditioned reflex.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Scaglia frammenti del suo guscio d\u2019acciaio\ntemprato contro qualunque cosa gli si avvicini,\nma si tratta di un riflesso involontario.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Cuando algo se le acerca, ataca disparando\nfragmentos de su coraza de acero. Se trata de\nun puro acto reflejo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Kommt ihm irgendetwas zu nahe, feuert es Teile\nseiner st\u00e4hlernen Schale ab. Das geschieht\njedoch aus Reflex, nicht aus eigenem Willen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il attaque tout ce qui s\u2019approche d\u2019un peu trop\npr\u00e8s en lan\u00e7ant des morceaux de sa coquille\nd\u2019acier. Il n\u2019a aucun contr\u00f4le sur ce r\u00e9flexe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u53ea\u8981\u6709\u6771\u897f\u9760\u8fd1\uff0c\u7260\u5c31\u6703\n\u767c\u5c04\u92fc\u9435\u5916\u6bbc\u7684\u788e\u7247\u4f86\u653b\u64ca\u3002\n\u9019\u662f\u4e00\u7a2e\u8207\u610f\u8b58\u7121\u95dc\u7684\u689d\u4ef6\u53cd\u5c04\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc5c7\uc774\ub4e0 \ub2e4\uac00\uc624\uae30\ub9cc \ud558\uba74\n\uac15\ucca0 \uaecd\uc9c8\uc758 \ud30c\ud3b8\uc744 \uc3d8\uba70 \uacf5\uaca9\ud55c\ub2e4.\n\uc758\uc9c0\uac00 \uc5c6\ub294 \uc870\uac74 \ubc18\uc0ac\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u306b\u304b\u304c\u3000\u3061\u304b\u3065\u304f\u3060\u3051\u3067\u3000\u3053\u3046\u3066\u3064\u306e\n\u30ab\u30e9\u306e\u306f\u3078\u3093\u3092\u3000\u3046\u3061\u3060\u3057\u3000\u3053\u3046\u3052\u304d\u3002\n\u3044\u3057\u306f\u3000\u306a\u304f\u3000\u3058\u3087\u3046\u3051\u3093\u306f\u3093\u3057\u3083\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u92fc\u9244\u306e\u3000\u30ab\u30e9\u306e\u3000\u4e2d\u306b\u3000\u672c\u4f53\u304c\u3000\u3044\u308b\u3002\n\u7372\u7269\u3092\u3000\u6355\u307e\u3048\u308b\u3000\u3068\u304d\u306b\u3000\u30ab\u30e9\u304c\u3000\u958b\u304f\u304c\n\u3042\u307e\u308a\u306e\u3000\u901f\u3055\u306b\u3000\u4e2d\u8eab\u306f\u3000\u898b\u3048\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Forretress conceals itself inside its hardened steel shell.\nThe shell is opened when the Pok\u00e9mon is catching prey,\nbut it does so at such a quick pace that the shell\u2019s inside\ncannot be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Forretress si nasconde all\u2019interno della sua conchiglia\nd\u2019acciaio temprato. La conchiglia si apre soltanto per catturare\nla preda, ma il Pok\u00e9mon ha una rapidit\u00e0 tale che non \u00e8\npossibile osservarne l\u2019interno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Forretress se esconde dentro de su concha de acero\nreforzada. Solo la abre cuando va a atrapar a su presa, pero\nocurre tan r\u00e1pido que no da tiempo de ver su interior.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Forstellka versteckt sich in seiner stahlharten Schale.\nDie Schale \u00f6ffnet sich, wenn es nach Beute schnappt.\nDies geht jedoch so schnell, dass man das Innere der\nSchale nicht zu Gesicht bekommt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Foretress se cache dans sa carapace en acier tremp\u00e9.\nLa carapace s\u2019ouvre quand il attrape sa proie, mais cela se\npasse tellement vite qu\u2019il est impossible de voir \u00e0 l\u2019int\u00e9rieur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ucca0 \uaecd\uc9c8 \uc548\uc5d0 \ubcf8\uccb4\uac00 \uc788\ub2e4.\n\uba39\uc774\ub97c \uc7a1\uc744 \ub54c \uaecd\uc9c8\uc774 \uc5f4\ub9ac\uc9c0\ub9cc\n\ub108\ubb34 \ube68\ub77c\uc11c \uc548\uc774 \ubcf4\uc774\uc9c4 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3066\u3064\u306e\u3000\u30ab\u30e9\u306e\u3000\u306a\u304b\u306b\u3000\u307b\u3093\u305f\u3044\u304c\u3000\u3044\u308b\u3002\n\u3048\u3082\u306e\u3092\u3000\u3064\u304b\u307e\u3048\u308b\u3000\u3068\u304d\u306b\u3000\u30ab\u30e9\u304c\u3000\u3072\u3089\u304f\u304c\n\u3042\u307e\u308a\u306e\u3000\u306f\u3084\u3055\u306b\u3000\u306a\u304b\u202f\u306f\u3000\u202f\u3048\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u92fc\u9244\u306e\u3000\u30ab\u30e9\u306e\u3000\u4e2d\u306b\u3000\u672c\u4f53\u304c\u3000\u3044\u308b\u3002\n\u7372\u7269\u3092\u3000\u6355\u307e\u3048\u308b\u3000\u3068\u304d\u306b\u3000\u30ab\u30e9\u304c\u3000\u958b\u304f\u304c\n\u3042\u307e\u308a\u306e\u3000\u901f\u3055\u306b\u3000\u4e2d\u8eab\u306f\u3000\u898b\u3048\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Forretress conceals itself inside its hardened steel shell.\nThe shell is opened when the Pok\u00e9mon is catching prey,\nbut it does so at such a quick pace that the shell\u2019s inside\ncannot be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Forretress si nasconde all\u2019interno della sua conchiglia\nd\u2019acciaio temprato. La conchiglia si apre soltanto per catturare\nla preda, ma il Pok\u00e9mon ha una rapidit\u00e0 tale che non \u00e8\npossibile osservarne l\u2019interno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Forretress se esconde dentro de su concha de acero\nreforzada. Solo la abre cuando va a atrapar a su presa, pero\nocurre tan r\u00e1pido que no da tiempo de ver su interior.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Forstellka versteckt sich in seiner stahlharten Schale.\nDie Schale \u00f6ffnet sich, wenn es nach Beute schnappt.\nDies geht jedoch so schnell, dass man das Innere der\nSchale nicht zu Gesicht bekommt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Foretress se cache dans sa carapace en acier tremp\u00e9.\nLa carapace s\u2019ouvre quand il attrape sa proie, mais cela se\npasse tellement vite qu\u2019il est impossible de voir \u00e0 l\u2019int\u00e9rieur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ucca0 \uaecd\uc9c8 \uc548\uc5d0 \ubcf8\uccb4\uac00 \uc788\ub2e4.\n\uba39\uc774\ub97c \uc7a1\uc744 \ub54c \uaecd\uc9c8\uc774 \uc5f4\ub9ac\uc9c0\ub9cc\n\ub108\ubb34 \ube68\ub77c\uc11c \uc548\uc774 \ubcf4\uc774\uc9c4 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3066\u3064\u306e\u3000\u30ab\u30e9\u306e\u3000\u306a\u304b\u306b\u3000\u307b\u3093\u305f\u3044\u304c\u3000\u3044\u308b\u3002\n\u3048\u3082\u306e\u3092\u3000\u3064\u304b\u307e\u3048\u308b\u3000\u3068\u304d\u306b\u3000\u30ab\u30e9\u304c\u3000\u3072\u3089\u304f\u304c\n\u3042\u307e\u308a\u306e\u3000\u306f\u3084\u3055\u306b\u3000\u306a\u304b\u202f\u306f\u3000\u202f\u3048\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6728\u306b\u3000\u304f\u3063\u3064\u3044\u305f\u307e\u307e\u3000\u52d5\u304b\u306a\u3044\u3002\n\u786c\u3044\u6bbb\u306e\u3000\u7834\u7247\u3092\u3000\u3070\u3089\u307e\u3044\u3066\n\u8fd1\u3065\u304f\u3082\u306e\u3092\u3000\u8ffd\u3044\u6255\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It remains immovably rooted to its tree. It scatters\npieces of its hard shell to drive its enemies away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Rimane saldamente attaccato al suo albero. Tiene\nlontani i nemici lanciando pezzi del duro guscio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Permanece inm\u00f3vil agarrado a su \u00e1rbol. Dispara trozos\nde su dura coraza para alejar al enemigo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es bleibt stets bei seinem Baum. Es verstreut Teile\nseiner Schale, um so seine Feinde zu verjagen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il est totalement fix\u00e9 \u00e0 son arbre. Il lance des\nmorceaux de sa carapace pour faire fuir son ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\ubb34\uc5d0 \ubd99\uc5b4 \uc788\ub294 \ucc44\ub85c \uc548 \uc6c0\uc9c1\uc778\ub2e4.\n\ub2e8\ub2e8\ud55c \uaecd\uc9c8 \ud30c\ud3b8\uc744 \ud769\ubfcc\ub824\uc11c\n\ub2e4\uac00\uc624\ub294 \uc790\ub97c \ucad3\uc544\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u306b\u3000\u304f\u3063\u3064\u3044\u305f\u307e\u307e\u3000\u3046\u3054\u304b\u306a\u3044\u3002\n\u304b\u305f\u3044\u30ab\u30e9\u306e\u3000\u306f\u3078\u3093\u3092\u3000\u3070\u3089\u307e\u3044\u3066\n\u3061\u304b\u3065\u304f\u3082\u306e\u3092\u3000\u304a\u3044\u306f\u3089\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u92fc\u9244\u306e\u3000\u6bbb\u3067\u3000\u5b88\u3089\u308c\u3066\u3044\u308b\u3002\n\u3059\u304d\u307e\u304b\u3089\u3000\u76ee\u7389\u304c\u3000\u306e\u305e\u3044\u3066\u3044\u308b\u304c\n\u4e2d\u8eab\u306e\u3000\u6b63\u4f53\u306f\u3000\u30ca\u30be\u306e\u307e\u307e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its peering eyes are\nall that can be seen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 incassato in una conchiglia d\u2019acciaio. A parte gli\nocchi scrutatori, nessuno sa cosa ci sia all\u2019interno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se protege con su concha de acero de tal manera que\nsolo se pueden ver sus ojos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon ist von einer Stahlh\u00fclle umgeben.\nSeine stechenden Augen sind alles, was man von\nihm sieht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il est prisonnier d\u2019une coquille d\u2019acier. Ses yeux\nvigilants sont la seule partie visible de son corps.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ucca0 \uaecd\uc9c8\uc774 \ubab8\uc744 \ubcf4\ud638\ud558\uace0 \uc788\ub2e4.\n\ud2c8\uc0c8\uc5d0\uc11c \uc5ff\ubcf4\uace0 \uc788\ub294 \ub208\uc774 \uc788\uc9c0\ub9cc\n\ub0b4\uc6a9\ubb3c\uc758 \uc815\uccb4\ub294 \uc218\uc218\uaed8\ub07c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3066\u3064\u306e\u3000\u30ab\u30e9\u3067\u3000\u307e\u3082\u3089\u308c\u3066\u3044\u308b\u3002\n\u3059\u304d\u307e\u304b\u3089\u3000\u3081\u3060\u307e\u304c\u3000\u306e\u305e\u3044\u3066\u3044\u308b\u304c\n\u306a\u304b\u307f\u306e\u3000\u3057\u3087\u3046\u305f\u3044\u306f\u3000\u306a\u305e\u306e\u307e\u307e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its\npeering eyes are all that can be\nseen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its\npeering eyes are all that can be\nseen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its\npeering eyes are all that can be\nseen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il est prisonnier d\u2019une coquille\nd\u2019acier. Ses yeux vigilants sont la\nseule partie visible de son corps.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its\npeering eyes are all that can be\nseen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il est prisonnier d\u2019une coquille\nd\u2019acier. Ses yeux vigilants sont la\nseule partie visible de son corps.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It remains immovably rooted to its\ntree. It scatters pieces of its hard\nshell to drive its enemies away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is shielded by a\nsteel-hard shell. What lurks inside\nthis shell is a total mystery.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its\npeering eyes are all that can be\nseen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its\npeering eyes are all that can be\nseen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It is encased in a steel shell. Its\npeering eyes are all that can be\nseen of its mysterious innards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is shielded by a steel-\nhard shell. What lurks inside the armor is\na total mystery.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It remains immovably rooted to its tree.\nIt scatters pieces of its hard shell to\ndrive its enemies away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It keeps itself inside its steel shell.\nThe shell is opened when it is catching\nprey, but it is so quick that the shell\u2019s\ninside cannot be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "FORRETRESS conceals itself inside its\nhardened steel shell. The shell is opened\nwhen the POK\u00e9MON is catching prey,\fbut it does so at such a quick pace\nthat the shell\u2019s inside cannot be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "FORRETRESS conceals itself inside its\nhardened steel shell. The shell is opened\nwhen the POK\u00e9MON is catching prey,\fbut it does so at such a quick pace\nthat the shell\u2019s inside cannot be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "Usually found\nhanging on to a\nfat tree trunk. It\fshoots out bits of\nits shell when it\nsees action.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It remains immova\u00ad\nbly rooted to its\ntree. It scatters\fpieces of its hard\nshell to drive its\nenemies away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is\nshielded by a\nsteel-hard shell.\fWhat lurks inside\nthe armor is a\ntotal mystery.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u84d1\u8863\u866b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u307f\u306e\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Bagworm Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Larva",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Larva",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Beutelwurm",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Ver Cach\u00e9",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u84d1\u8863\u87f2\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub3c4\ub871\uc774\ubc8c\ub808\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u307f\u306e\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 205,
+    "is_baby": false,
+    "name": "forretress",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u4f5b\u70c8\u6258\u65af"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d5\u30a9\u30ec\u30c8\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Forretress"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Forretress"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Forretress"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Forstellka"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Foretress"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u4f5b\u70c8\u6258\u65af"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc3d8\ucf58"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Foretos"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d5\u30a9\u30ec\u30c8\u30b9"
+        }
+    ],
+    "order": 236,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 57,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 94,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 94,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 205,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "ball",
+        "url": "/api/v2/pokemon-shape/1/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "forretress",
+                "url": "/api/v2/pokemon/205/"
+            }
+        }
+    ]
+}

@@ -1,0 +1,686 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Inflicts regular damage with no additional effect."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u9570\u5200\u6216\u722a\u5b50\u50cf\u526a\u5200\u822c\u5730\u4ea4\u53c9\uff0c\n\u987a\u52bf\u5288\u5f00\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u4ea4\u5dee\u3055\u305b\u306a\u304c\u3089\u3000\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con un attacco\nche ricorda un colpo di forbici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cruza las guada\u00f1as o las garras para atacar al\nobjetivo como si fueran unas tijeras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender f\u00fchrt eine Attacke aus, die einer\nScherenbewegung \u00e4hnelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur taillade l\u2019ennemi en utilisant ses faux\nou ses griffes comme une paire de ciseaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u942e\u5200\u6216\u722a\u5b50\u50cf\u526a\u5200\u822c\u5730\u4ea4\u53c9\uff0c\n\u9806\u52e2\u5288\u958b\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub0ab\uc774\ub098 \ubc1c\ud1b1\uc744 \uac00\uc704\ucc98\ub7fc\n\uad50\ucc28\uc2dc\ud0a4\uba74\uc11c \uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u3053\u3046\u3055\u3000\u3055\u305b\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u9570\u5200\u6216\u722a\u5b50\u50cf\u526a\u5200\u822c\u5730\u4ea4\u53c9\uff0c\n\u987a\u52bf\u5288\u5f00\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u4ea4\u5dee\u3055\u305b\u306a\u304c\u3089\u3000\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio con un attacco\nche ricorda un colpo di forbici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cruza las guada\u00f1as o las garras para atacar al\nobjetivo como si fueran unas tijeras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender f\u00fchrt eine Attacke aus, die einer\nScherenbewegung \u00e4hnelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur taillade l\u2019ennemi en utilisant ses faux\nou ses griffes comme une paire de ciseaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u942e\u5200\u6216\u722a\u5b50\u50cf\u526a\u5200\u822c\u5730\u4ea4\u53c9\uff0c\n\u9806\u52e2\u5288\u958b\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub0ab\uc774\ub098 \ubc1c\ud1b1\uc744 \uac00\uc704\ucc98\ub7fc\n\uad50\ucc28\uc2dc\ud0a4\uba74\uc11c \uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u3053\u3046\u3055\u3000\u3055\u305b\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u4ea4\u5dee\u3055\u305b\u306a\u304c\u3089\u3000\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio usando le sue falci\no i suoi artigli come se fossero delle forbici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cruza las guada\u00f1as o las garras para atacar al\nobjetivo como si fueran unas tijeras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender f\u00fchrt eine Attacke aus,\ndie einer Scherenbewegung \u00e4hnelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur taillade l\u2019ennemi en utilisant ses faux ou\nses griffes comme une paire de ciseaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub0ab\uc774\ub098 \ubc1c\ud1b1\uc744 \uac00\uc704\ucc98\ub7fc\n\uad50\ucc28\uc2dc\ud0a4\uba74\uc11c \uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u3053\u3046\u3055\u3000\u3055\u305b\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u4ea4\u5dee\u3055\u305b\u306a\u304c\u3089\u3000\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u304f\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio usando le sue falci\no i suoi artigli come se fossero delle forbici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cruza las guada\u00f1as o las garras para atacar al\nobjetivo como si fueran unas tijeras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender f\u00fchrt eine Attacke aus,\ndie einer Scherenbewegung \u00e4hnelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur taillade l\u2019ennemi en utilisant ses faux ou\nses griffes comme une paire de ciseaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub0ab\uc774\ub098 \ubc1c\ud1b1\uc744 \uac00\uc704\ucc98\ub7fc\n\uad50\ucc28\uc2dc\ud0a4\uba74\uc11c \uc0c1\ub300\ub97c \ubca0\uc5b4 \uac00\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3092\u3000\u30cf\u30b5\u30df\u306e\u3088\u3046\u306b\n\u3053\u3046\u3055\u3000\u3055\u305b\u306a\u304c\u3089\u3000\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u304f\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at the target by\ncrossing its scythes or claws as if\nthey were a pair of scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur taillade l\u2019ennemi en\nutilisant ses faux ou ses griffes\ncomme une paire de ciseaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at\nthe foe by crossing\nits scythes or claws\nas if they were a pair\nof scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at\nthe foe by crossing\nits scythes or claws\nas if they were a pair\nof scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user slashes at\nthe foe by crossing\nits scythes or claws\nas if they were a pair\nof scissors.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 404,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1171/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1172/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1173/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1174/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1175/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1176/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1177/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1178/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1179/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "x-scissor",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5341\u5b57\u526a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b7\u30b6\u30fc\u30af\u30ed\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "X-Scissor"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Forbice X"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Tijera X"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Kreuzschere"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Plaie-Croix"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5341\u5b57\u526a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2dc\uc800\ud06c\ub85c\uc2a4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b7\u30b6\u30fc\u30af\u30ed\u30b9"
+        }
+    ],
+    "past_values": [],
+    "power": 80,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "bug",
+        "url": "/api/v2/type/7/"
+    }
+}

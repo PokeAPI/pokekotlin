@@ -1,0 +1,632 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Spreads sharp rocks around the opposing field, damaging any Pok\u00e9mon that enters the field for 1/8 its max HP.  This damage is affected by the entering Pok\u00e9mon's susceptibility to rock moves.\n\nrapid spin removes this effect from its user's side of the field.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Causes damage when opposing Pok\u00e9mon switch in."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u65e0\u6570\u5ca9\u77f3\u60ac\u6d6e\u5728\u5bf9\u624b\u7684\u5468\u56f4\uff0c\n\u4ece\u800c\u5bf9\u66ff\u6362\u51fa\u573a\u7684\u5bf9\u624b\u7684\n\u5b9d\u53ef\u68a6\u7ed9\u4e88\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u5468\u308a\u306b\u3000\u7121\u6570\u306e\u3000\u5ca9\u3092\n\u6d6e\u304b\u3079\u3066\u3000\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of levitating stones around the\nopposing team. The trap hurts opposing Pok\u00e9mon\nthat switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di rocce sospese\nche danneggia i nemici che entrano in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Una trampa de rocas que flota en el aire y da\u00f1a a \nlos objetivos que entran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Falle mit schwebenden Steinen. In den Kampf\neingewechselte Ziele nehmen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pierres flottantes autour de l\u2019ennemi,\nqui blessent tout adversaire entrant au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u5c0d\u624b\u5468\u570d\u6492\u4e0b\u7121\u6578\u98c4\u6d6e\u7684\u5ca9\u77f3\uff0c\n\u8b93\u5c0d\u624b\u66ff\u63db\u51fa\u5834\u7684\u5bf6\u53ef\u5922\u53d7\u5230\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \uc8fc\uc704\uc5d0 \ubb34\uc218\ud55c \ubc14\uc704\ub97c\n\ub744\uc6cc \uad50\uccb4\ud574\uc11c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3080\u3059\u3046\u306e\u3000\u3044\u308f\u3092\n\u3046\u304b\u3079\u3066\u3000\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u65e0\u6570\u5ca9\u77f3\u60ac\u6d6e\u5728\u5bf9\u624b\u7684\u5468\u56f4\uff0c\n\u4ece\u800c\u5bf9\u66ff\u6362\u51fa\u573a\u7684\u5bf9\u624b\u7684\n\u5b9d\u53ef\u68a6\u7ed9\u4e88\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u5468\u308a\u306b\u3000\u7121\u6570\u306e\u3000\u5ca9\u3092\n\u6d6e\u304b\u3079\u3066\u3000\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of levitating stones around the\nopposing team. The trap hurts opposing Pok\u00e9mon\nthat switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di rocce sospese\nche danneggia i nemici che entrano in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Una trampa de rocas que flota en el aire y da\u00f1a a \nlos objetivos que entran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Falle mit schwebenden Steinen. In den Kampf\neingewechselte Ziele nehmen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pierres flottantes autour de l\u2019ennemi,\nqui blessent tout adversaire entrant au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u5c0d\u624b\u5468\u570d\u6492\u4e0b\u7121\u6578\u98c4\u6d6e\u7684\u5ca9\u77f3\uff0c\n\u8b93\u5c0d\u624b\u66ff\u63db\u51fa\u5834\u7684\u5bf6\u53ef\u5922\u53d7\u5230\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \uc8fc\uc704\uc5d0 \ubb34\uc218\ud55c \ubc14\uc704\ub97c\n\ub744\uc6cc \uad50\uccb4\ud574\uc11c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3080\u3059\u3046\u306e\u3000\u3044\u308f\u3092\n\u3046\u304b\u3079\u3066\u3000\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u5468\u308a\u306b\u3000\u7121\u6570\u306e\u3000\u5ca9\u3092\n\u6d6e\u304b\u3079\u3066\u3000\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of levitating stones\naround the opposing team. The trap hurts\nopposing Pok\u00e9mon that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di rocce sospese\nche danneggia i nemici che entrano in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Una trampa de rocas que flota en el aire y da\u00f1a a \nlos objetivos que entran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Falle mit schwebenden Steinen. In den Kampf\neingewechselte Ziele nehmen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pierres flottantes autour de l\u2019ennemi,\nqui blessent tout adversaire entrant au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \uc8fc\uc704\uc5d0 \ubb34\uc218\ud55c \ubc14\uc704\ub97c\n\ub744\uc6cc \uad50\uccb4\ud574\uc11c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3080\u3059\u3046\u306e\u3000\u3044\u308f\u3092\n\u3046\u304b\u3079\u3066\u3000\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u5468\u308a\u306b\u3000\u7121\u6570\u306e\u3000\u5ca9\u3092\n\u6d6e\u304b\u3079\u3066\u3000\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u4e0e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of levitating stones\naround the opposing team. The trap hurts\nopposing Pok\u00e9mon that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di rocce sospese\nche danneggia i nemici che entrano in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Una trampa de rocas que flota en el aire y da\u00f1a a\nlos objetivos que entran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Falle mit schwebenden Steinen. In den Kampf\neingewechselte Ziele nehmen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pierres flottantes autour de l\u2019ennemi,\nqui blessent tout adversaire entrant au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \uc8fc\uc704\uc5d0 \ubb34\uc218\ud55c \ubc14\uc704\ub97c\n\ub744\uc6cc \uad50\uccb4\ud574\uc11c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0\uac8c \ub370\ubbf8\uc9c0\ub97c \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3080\u3059\u3046\u306e\u3000\u3044\u308f\u3092\n\u3046\u304b\u3079\u3066\u3000\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3042\u305f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of levitating stones\naround the opponent\u2019s team. The trap\nhurts opponents that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of levitating stones\naround the opponent\u2019s team. The trap\nhurts opponents that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pierres flottantes autour\nde l\u2019ennemi, qui blessent tout ennemi\nentrant au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 446,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1126/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1127/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1128/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "field-effect",
+            "url": "/api/v2/move-category/11/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "stealth-rock",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9690\u5f62\u5ca9"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b9\u30c6\u30eb\u30b9\u30ed\u30c3\u30af"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Stealth Rock"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Levitoroccia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Trampa Rocas"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Tarnsteine"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Pi\u00e8ge de Roc"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u96b1\u5f62\u5ca9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2a4\ud154\uc2a4\ub85d"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b9\u30c6\u30eb\u30b9\u30ed\u30c3\u30af"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "opponents-field",
+        "url": "/api/v2/move-target/6/"
+    },
+    "type": {
+        "name": "rock",
+        "url": "/api/v2/type/6/"
+    }
+}

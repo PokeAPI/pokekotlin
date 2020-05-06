@@ -1,0 +1,621 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage, then the user immediately switches out, and the trainer selects a replacement Pok\u00e9mon from the party.  If the target faints from this attack, the user's trainer selects the new Pok\u00e9mon to send out first.  If the user is the last Pok\u00e9mon in its party that can battle, it will not switch out.\n\nThe user may be hit by pursuit when it switches out, if it has been targeted and pursuit has not yet been used.\n\nThis move may be used even if the user is under the effect of ingrain.  ingrain's effect will end.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User must switch out after attacking."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\u653b\u51fb\u4e4b\u540e\u6025\u901f\u8fd4\u56de\uff0c\n\u548c\u540e\u5907\u5b9d\u53ef\u68a6\u8fdb\u884c\u66ff\u6362\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u63a7\u3048\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u5165\u308c\u66ff\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "After making its attack, the user rushes back to\nswitch places with a party Pok\u00e9mon in waiting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi usa questa mossa si tira indietro per farsi\nsostituire dopo aver sferrato l\u2019attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Tras atacar, vuelve a toda prisa para dar paso a otro \nPok\u00e9mon del equipo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender kehrt nach dem Angriff mit\natemberaubender Geschwindigkeit zur\u00fcck\nund tauscht Platz mit einem anderen Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Apr\u00e8s son attaque, le lanceur revient \u00e0 toute\nvitesse et change de place avec un Pok\u00e9mon\nde l\u2019\u00e9quipe pr\u00eat au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u64ca\u5f8c\u8fc5\u901f\u8fd4\u56de\uff0c\n\u548c\u5f8c\u5099\u5bf6\u53ef\u5922\u9032\u884c\u66ff\u63db\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\ud55c \ub4a4\n\uad49\uc7a5\ud55c \uc2a4\ud53c\ub4dc\ub85c \ub3cc\uc544\uc640\uc11c\n\uad50\ub300 \ud3ec\ucf13\ubaac\uacfc \uad50\uccb4\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3000\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u3072\u304b\u3048\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u3044\u308c\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u653b\u51fb\u4e4b\u540e\u6025\u901f\u8fd4\u56de\uff0c\n\u548c\u540e\u5907\u5b9d\u53ef\u68a6\u8fdb\u884c\u66ff\u6362\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u63a7\u3048\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u5165\u308c\u66ff\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "After making its attack, the user rushes back to\nswitch places with a party Pok\u00e9mon in waiting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi usa questa mossa si tira indietro per farsi\nsostituire dopo aver sferrato l\u2019attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Tras atacar, vuelve a toda prisa para dar paso a otro \nPok\u00e9mon del equipo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender kehrt nach dem Angriff mit\natemberaubender Geschwindigkeit zur\u00fcck\nund tauscht Platz mit einem anderen Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Apr\u00e8s son attaque, le lanceur revient \u00e0 toute\nvitesse et change de place avec un Pok\u00e9mon\nde l\u2019\u00e9quipe pr\u00eat au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u64ca\u5f8c\u8fc5\u901f\u8fd4\u56de\uff0c\n\u548c\u5f8c\u5099\u5bf6\u53ef\u5922\u9032\u884c\u66ff\u63db\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\ud55c \ub4a4\n\uad49\uc7a5\ud55c \uc2a4\ud53c\ub4dc\ub85c \ub3cc\uc544\uc640\uc11c\n\uad50\ub300 \ud3ec\ucf13\ubaac\uacfc \uad50\uccb4\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3000\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u3072\u304b\u3048\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u3044\u308c\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u63a7\u3048\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u5165\u308c\u66ff\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "After making its attack, the user\nrushes back to switch places with\na party Pok\u00e9mon in waiting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi usa questa mossa si tira indietro per farsi\nsostituire dopo aver sferrato l\u2019attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Tras atacar, vuelve a toda prisa para dar paso a otro \nPok\u00e9mon del equipo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender kehrt nach dem Angriff mit\natemberaubender Geschwindigkeit zur\u00fcck\nund tauscht Platz mit einem anderen Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Apr\u00e8s son attaque, le lanceur revient \u00e0 toute\nvitesse et change de place avec un Pok\u00e9mon\nde l\u2019\u00e9quipe pr\u00eat au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\ud55c \ub4a4\n\uad49\uc7a5\ud55c \uc2a4\ud53c\ub4dc\ub85c \ub3cc\uc544\uc640\uc11c\n\uad50\ub300 \ud3ec\ucf13\ubaac\uacfc \uad50\uccb4\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3000\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u3072\u304b\u3048\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u3044\u308c\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u63a7\u3048\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u5165\u308c\u66ff\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "After making its attack, the user\nrushes back to switch places with\na party Pok\u00e9mon in waiting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi usa questa mossa si tira indietro per farsi\nsostituire dopo aver sferrato l\u2019attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Tras atacar, vuelve a toda prisa para dar paso a\notro Pok\u00e9mon del equipo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender kehrt nach dem Angriff mit\natemberaubender Geschwindigkeit zur\u00fcck\nund tauscht Platz mit einem anderen Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Apr\u00e8s son attaque, le lanceur revient \u00e0 toute\nvitesse et change de place avec un Pok\u00e9mon\nde l\u2019\u00e9quipe pr\u00eat au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\ud55c \ub4a4\n\uad49\uc7a5\ud55c \uc2a4\ud53c\ub4dc\ub85c \ub3cc\uc544\uc640\uc11c\n\uad50\ub300 \ud3ec\ucf13\ubaac\uacfc \uad50\uccb4\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3000\u3057\u305f\u3042\u3068\n\u3082\u306e\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3082\u3069\u3063\u3066\u304d\u3066\n\u3072\u304b\u3048\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u3000\u3044\u308c\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "After making its attack, the user\nrushes back to switch places with\na party Pok\u00e9mon in waiting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "After making its attack, the user\nrushes back to switch places with\na party Pok\u00e9mon in waiting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Apr\u00e8s son attaque, le lanceur revient \u00e0\ntoute vitesse et change de place avec\nun Pok\u00e9mon de l\u2019\u00e9quipe pr\u00eat au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 521,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1093/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1094/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1095/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1096/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1097/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1098/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "volt-switch",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u4f0f\u7279\u66ff\u6362"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30dc\u30eb\u30c8\u30c1\u30a7\u30f3\u30b8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Volt Switch"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Invertivolt"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Voltiocambio"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Voltwechsel"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Change \u00c9clair"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u4f0f\u7279\u66ff\u63db"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubcfc\ud2b8\uccb4\uc778\uc9c0"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30dc\u30eb\u30c8\u30c1\u30a7\u30f3\u30b8"
+        }
+    ],
+    "past_values": [],
+    "power": 70,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "electric",
+        "url": "/api/v2/type/13/"
+    }
+}

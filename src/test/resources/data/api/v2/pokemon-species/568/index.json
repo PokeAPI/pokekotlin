@@ -1,0 +1,864 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/290/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u547c\u5438\u7684\u65f6\u5019\u4f1a\u6709\u6bd2\u74e6\u65af\u6f0f\u51fa\u3002\n\u81ed\u81ed\u6ce5\u95fb\u5230\u6c14\u5473\u5c31\u4f1a\u6d41\u7740\u53e3\u6c34\u8d76\u8fc7\u6765\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u547c\u5438\u3059\u308b\u3068\u3000\u6bd2\u30ac\u30b9\u304c\u3000\u6f0f\u308c\u308b\u3002\n\u5302\u3044\u3092\u3000\u55c5\u304e\u3064\u3051\u3000\u30d9\u30c8\u30d9\u30c8\u30f3\u304c\n\u3088\u3060\u308c\u3092\u3000\u5782\u3089\u3057\u3066\u3000\u3084\u3063\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Poisonous gas leaks out of it when it breathes.\nMuk that catch a whiff of that stench will\ncome drooling.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Esala gas tossici a ogni respiro.\nQuando Muk ne sente l\u2019odore, si dirige verso\ndi lui con l\u2019acquolina in bocca.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Expulsa gases nocivos al respirar. Cuando Muk\nse percata del olor, acude salivando.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Mit jedem Atemzug entweicht ihm giftiges Gas.\nBekommt ein Sleimok davon Wind, nimmt es\ngierig sabbernd die F\u00e4hrte auf und verfolgt es.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il laisse \u00e9chapper un gaz toxique quand\nil respire. Les Grotadmorv, par l\u2019odeur all\u00e9ch\u00e9s,\naccourent alors en salivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u547c\u5438\u6642\u6703\u6709\u6bd2\u6c23\u6f0f\u51fa\uff0c\n\u805e\u5230\u9019\u500b\u5473\u9053\u7684\u81ed\u81ed\u6ce5\u6703\n\u6d41\u8457\u53e3\u6c34\u8dd1\u904e\u4f86\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc228\uc744 \uc26c\uba74 \ub3c5\uac00\uc2a4\uac00 \uc0c8\uc5b4 \ub098\uc628\ub2e4.\n\ub0c4\uc0c8\ub97c \ub9e1\uace0 \uc9c8\ubed0\uae30\uac00\n\uce68\uc744 \ud758\ub9ac\uba70 \ucc3e\uc544\uc628\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u304d\u3085\u3046\u3059\u308b\u3068\u3000\u3069\u304f\u30ac\u30b9\u304c\u3000\u3082\u308c\u308b\u3002\n\u306b\u304a\u3044\u3092\u3000\u304b\u304e\u3064\u3051\u3000\u30d9\u30c8\u30d9\u30c8\u30f3\u304c\n\u3088\u3060\u308c\u3092\u3000\u305f\u3089\u3057\u3066\u3000\u3084\u3063\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5403\u5783\u573e\u5403\u5230\u809a\u5b50\u9f13\u9f13\u4e4b\u540e\uff0c\n\u4ece\u5634\u91cc\u55b7\u51fa\u6bd2\u74e6\u65af\u6765\u3002\n\u4e0d\u5c0f\u5fc3\u95fb\u5230\u7684\u8bdd\u8981\u7acb\u5373\u8fdb\u533b\u9662\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6e80\u8179\u307e\u3067\u3000\u30b4\u30df\u3092\u3000\u55b0\u3089\u3046\u3068\n\u53e3\u304b\u3089\u3000\u6bd2\u30ac\u30b9\u3092\u3000\u5410\u304d\u3060\u3059\u3002\n\u3046\u3063\u304b\u308a\u3000\u304b\u3050\u3068\u3000\u5373\u3000\u5165\u9662\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It gorges on trash until its stomach is full. Then\nit belches toxic gas. An unlucky whiff of gas will\nput a person in the hospital.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Quando si rimpinza di spazzatura esala dalle\nfauci un gas tossico. Chi lo respira finisce\nimmediatamente all\u2019ospedale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Tras atiborrarse de basura, eructa unos gases\nvenenosos capaces de llevar a cualquiera al\nhospital en caso de inhalarlos sin querer.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Wenn es sich mit M\u00fcll vollstopft, r\u00fclpst es giftige\nGase. Wer diese unabsichtlich einatmet, muss\nsofort ins Krankenhaus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Une fois qu\u2019il a gob\u00e9 assez d\u2019ordures, il rel\u00e2che\nun gaz toxique par la bouche. Ne le respirez\npas, surtout s\u2019il n\u2019y a aucun h\u00f4pital \u00e0 la ronde.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5403\u5783\u573e\u5403\u5230\u809a\u5b50\u9f13\u9f13\u4e4b\u5f8c\uff0c\n\u4fbf\u6703\u5f9e\u5634\u88e1\u5674\u51fa\u6bd2\u74e6\u65af\u4f86\u3002\n\u4e0d\u5c0f\u5fc3\u805e\u5230\u7684\u8a71\u5c31\u5f97\u7acb\u5373\u9032\u91ab\u9662\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ubc30\uac00 \ubd80\ub97c \ub54c\uae4c\uc9c0 \uc4f0\ub808\uae30\ub97c \uba39\uc740 \ud6c4\n\uc785\uc5d0\uc11c \ub3c5\uac00\uc2a4\ub97c \ud1a0\ud574\ub0b8\ub2e4.\n\uc2e4\uc218\ub85c \ub9e1\uc73c\uba74 \uc989\uc2dc \uc785\uc6d0\ud574\uc57c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3093\u3077\u304f\u307e\u3067\u3000\u30b4\u30df\u3092\u3000\u304f\u3089\u3046\u3068\n\u304f\u3061\u304b\u3089\u3000\u3069\u304f\u30ac\u30b9\u3092\u3000\u306f\u304d\u3060\u3059\u3002\n\u3046\u3063\u304b\u308a\u3000\u304b\u3050\u3068\u3000\u305d\u304f\u3000\u306b\u3085\u3046\u3044\u3093\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u885b\u751f\u306a\u3000\u5834\u6240\u3092\u3000\u597d\u3080\u3002\n\u30b2\u30c3\u30d7\u306e\u3088\u3046\u306b\u3000\u5410\u304d\u51fa\u3059\u3000\u30ac\u30b9\u3092\n\u5438\u3044\u3053\u3080\u3068\u3000\uff11\u9031\u9593\u3000\u5bdd\u8fbc\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Inhaling the gas they belch will make you sleep for\na week. They prefer unsanitary places.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Predilige luoghi insalubri. Esala gas dalle fauci in grado di\naddormentare per una settimana.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Le gustan los lugares con suciedad. Quien inhala los gases\nque eructa duerme durante una semana.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hat ein Faible f\u00fcr schmutzige Orte. Wer das Gas einatmet,\ndas es mit R\u00fclpslauten ausst\u00f6\u00dft, schl\u00e4ft eine Woche durch.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il aime les endroits mal tenus. Le gaz qu\u2019il rote endort\npendant une semaine.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ube44\uc704\uc0dd\uc801\uc778 \uc7a5\uc18c\ub97c \uc88b\uc544\ud55c\ub2e4.\n\ud2b8\ub9bc\ud558\ub4ef\uc774 \ud1a0\ud574\ub0b4\ub294 \uac00\uc2a4\ub97c\n\ub4e4\uc774\ub9c8\uc2dc\uba74 1\uc8fc\uc77c \ub3d9\uc548 \uc7a0\uc5d0 \ube60\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3048\u3044\u305b\u3044\u306a\u3000\u3070\u3057\u3087\u3092\u3000\u3053\u306e\u3080\u3002\n\u30b2\u30c3\u30d7\u306e\u3088\u3046\u306b\u3000\u306f\u304d\u3060\u3059\u3000\u30ac\u30b9\u3092\n\u3059\u3044\u3053\u3080\u3068\u3000\uff11\u3057\u3085\u3046\u304b\u3093\u3000\u306d\u3053\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u888b\u304c\u3000\u7523\u696d\u5ec3\u68c4\u7269\u3068\n\u5316\u5b66\u5909\u5316\u3092\u3000\u8d77\u3053\u3057\u305f\u3000\u3053\u3068\u3067\n\u30dd\u30b1\u30e2\u30f3\u3068\u3057\u3066\u3000\u751f\u307e\u308c\u5909\u308f\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "The combination of garbage bags and industrial\nwaste caused the chemical reaction that created\nthis Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 nato da un sacchetto della spazzatura che ha subito\nun cambiamento chimico a causa delle scorie industriali.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon nacido de la reacci\u00f3n qu\u00edmica entre una bolsa de\nbasura y residuos industriales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Eine M\u00fcllt\u00fcte, der Industrieabf\u00e4lle und chemische Reaktionen\nneues Leben eingehaucht haben.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il est n\u00e9 de la mutation d\u2019un sac poubelle contenant\ndes d\u00e9chets industriels.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc4f0\ub808\uae30 \ubd09\uc9c0\uac00 \uc0b0\uc5c5 \ud3d0\uae30\ubb3c\uacfc\n\ud654\ud559\uc801 \ubcc0\ud654\ub97c \uc77c\uc73c\ucf1c\uc11c\n\ud3ec\ucf13\ubaac\uc73c\ub85c \ub2e4\uc2dc \ud0dc\uc5b4\ub0ac\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u3076\u304f\u308d\u304c\u3000\u3055\u3093\u304e\u3087\u3046\u306f\u3044\u304d\u3076\u3064\u3068\n\u304b\u304c\u304f\u3078\u3093\u304b\u3092\u3000\u304a\u3053\u3057\u305f\u3000\u3053\u3068\u3067\n\u30dd\u30b1\u30e2\u30f3\u3068\u3057\u3066\u3000\u3046\u307e\u308c\u304b\u308f\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u885b\u751f\u306a\u3000\u5834\u6240\u3092\u3000\u597d\u3080\u3002\n\u30b2\u30c3\u30d7\u306e\u3088\u3046\u306b\u3000\u5410\u304d\u51fa\u3059\u3000\u30ac\u30b9\u3092\n\u5438\u3044\u3053\u3080\u3068\u3000\uff11\u9031\u9593\u3000\u5bdd\u8fbc\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Inhaling the gas they belch will make you sleep for\na week. They prefer unsanitary places.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Predilige luoghi insalubri. Esala gas dalle fauci in\ngrado di addormentare per una settimana.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Le gustan los lugares con suciedad. Quien inhala los\ngases que eructa duerme durante una semana.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Hat ein Faible f\u00fcr schmutzige Orte. Wer das Gas\neinatmet, das es mit R\u00fclpslauten ausst\u00f6\u00dft, schl\u00e4ft\neine Woche durch.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il aime les endroits mal tenus. Le gaz qu\u2019il rote endort\npendant une semaine.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ube44\uc704\uc0dd\uc801\uc778 \uc7a5\uc18c\ub97c \uc88b\uc544\ud55c\ub2e4.\n\ud2b8\ub9bc\ud558\ub4ef\uc774 \ud1a0\ud574\ub0b4\ub294 \uac00\uc2a4\ub97c\n\ub4e4\uc774\ub9c8\uc2dc\uba74 1\uc8fc\uc77c \ub3d9\uc548 \uc7a0\uc5d0 \ube60\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3048\u3044\u305b\u3044\u306a\u3000\u3070\u3057\u3087\u3092\u3000\u3053\u306e\u3080\u3002\n\u30b2\u30c3\u30d7\u306e\u3088\u3046\u306b\u3000\u306f\u304d\u3060\u3059\u3000\u30ac\u30b9\u3092\n\u3059\u3044\u3053\u3080\u3068\u3000\uff11\u3057\u3085\u3046\u304b\u3093\u3000\u306d\u3053\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u888b\u304c\u3000\u7523\u696d\u5ec3\u68c4\u7269\u3068\n\u5316\u5b66\u5909\u5316\u3092\u3000\u8d77\u3053\u3057\u305f\u3000\u3053\u3068\u3067\n\u30dd\u30b1\u30e2\u30f3\u3068\u3057\u3066\u3000\u751f\u307e\u308c\u5909\u308f\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The combination of garbage bags and industrial\nwaste caused the chemical reaction that created\nthis Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 nato da un sacchetto della spazzatura che ha\nsubito un cambiamento chimico a causa delle scorie\nindustriali.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon nacido de la reacci\u00f3n qu\u00edmica entre una\nbolsa de basura y residuos industriales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Eine M\u00fcllt\u00fcte, der Industrieabf\u00e4lle und chemische\nReaktionen neues Leben eingehaucht haben.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il est n\u00e9 de la mutation d\u2019un sac poubelle contenant\ndes d\u00e9chets industriels.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc4f0\ub808\uae30 \ubd09\uc9c0\uac00 \uc0b0\uc5c5 \ud3d0\uae30\ubb3c\uacfc\n\ud654\ud559\uc801 \ubcc0\ud654\ub97c \uc77c\uc73c\ucf1c\uc11c\n\ud3ec\ucf13\ubaac\uc73c\ub85c \ub2e4\uc2dc \ud0dc\uc5b4\ub0ac\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u3076\u304f\u308d\u304c\u3000\u3055\u3093\u304e\u3087\u3046\u306f\u3044\u304d\u3076\u3064\u3068\n\u304b\u304c\u304f\u3078\u3093\u304b\u3092\u3000\u304a\u3053\u3057\u305f\u3000\u3053\u3068\u3067\n\u30dd\u30b1\u30e2\u30f3\u3068\u3057\u3066\u3000\u3046\u307e\u308c\u304b\u308f\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Wanting more garbage, they\nfollow people who litter.\nThey always belch poison gas.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Wanting more garbage, they\nfollow people who litter.\nThey always belch poison gas.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "The combination of garbage bags and\nindustrial waste caused the chemical\nreaction that created this Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il est n\u00e9 de la mutation d\u2019un\nsac poubelle contenant des\nd\u00e9chets industriels.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Inhaling the gas they belch will make\nyou sleep for a week. They prefer\nunsanitary places.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il aime les endroits mal tenus.\nLe gaz qu\u2019il rote endort\npendant une semaine.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5783\u573e\u888b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30b4\u30df\u3076\u304f\u308d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Trash Bag Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Spazzatura",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bolsa Basura",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "M\u00fcllt\u00fcte",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Sac Poubelle",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5783\u573e\u888b\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc4f0\ub808\uae30\ubd09\ud22c\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30b4\u30df\u3076\u304f\u308d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 568,
+    "is_baby": false,
+    "name": "trubbish",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7834\u7834\u888b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e4\u30d6\u30af\u30ed\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Trubbish"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Trubbish"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Trubbish"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Unrat\u00fctox"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Miamiasme"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7834\u7834\u888b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uae68\ubd09\uc774"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e4\u30d6\u30af\u30ed\u30f3"
+        }
+    ],
+    "order": 569,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 74,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 105,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 74,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 568,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "trubbish",
+                "url": "/api/v2/pokemon/568/"
+            }
+        }
+    ]
+}

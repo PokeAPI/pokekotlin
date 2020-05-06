@@ -1,0 +1,533 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "For five turns, protects all Pok\u00e9mon on the ground from major status ailments and confusion and weakens dragon moves used against them to 0.5\u00d7 their power.\n\nChanges nature power to moonblast.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "For five turns, protects all Pok\u00e9mon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\uff0c\n\u5730\u9762\u4e0a\u7684\u5b9d\u53ef\u68a6\u4e0d\u4f1a\u9677\u5165\u5f02\u5e38\u72b6\u6001\u3002\n\u9f99\u5c5e\u6027\u62db\u5f0f\u7684\u4f24\u5bb3\u4e5f\u4f1a\u51cf\u534a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u5730\u9762\u306b\u3044\u308b\u3068\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u305a\u3000\u30c9\u30e9\u30b4\u30f3\u6280\u306e\n\u30c0\u30e1\u30fc\u30b8\u3082\u3000\u534a\u5206\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "This protects Pok\u00e9mon on the ground from status\nconditions and halves damage from Dragon-type\nmoves for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Per cinque turni il terreno entra nello stato di Campo\nNebbioso: i Pok\u00e9mon a terra sono immuni ai problemi\ndi stato e la potenza delle mosse Drago \u00e8 dimezzata.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Durante cinco turnos, los Pok\u00e9mon que est\u00e1n en el\nsuelo no sufren cambios de estado y se reduce a la\nmitad el da\u00f1o de los movimientos de tipo Drag\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Sch\u00fctzt f\u00fcnf Runden lang alle Pok\u00e9mon, die den\nBoden ber\u00fchren, vor Statusproblemen. Der erlittene\nSchaden durch Drachen-Attacken wird halbiert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Pendant cinq tours, les Pok\u00e9mon au sol ne peuvent\npas subir d\u2019alt\u00e9ration de statut et la puissance\ndes capacit\u00e9s de type Dragon est divis\u00e9e par deux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5167\uff0c\n\u5730\u9762\u4e0a\u7684\u5bf6\u53ef\u5922\u4e0d\u6703\u9677\u5165\u7570\u5e38\u72c0\u614b\u3002\n\u9f8d\u5c6c\u6027\u62db\u5f0f\u7684\u50b7\u5bb3\u4e5f\u6703\u6e1b\u534a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ub545\uc5d0 \uc788\uc73c\uba74\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\uace0\n\ub4dc\ub798\uace4\ud0c0\uc785 \uae30\uc220\uc758 \ub370\ubbf8\uc9c0\ub3c4 \uc808\ubc18\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3042\u3044\u3060\u3000\u3058\u3081\u3093\u306b\u3044\u308b\u3068\n\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u305a\u3000\u30c9\u30e9\u30b4\u30f3\n\u308f\u3056\u306e\u3000\u30c0\u30e1\u30fc\u30b8\u3082\u3000\u306f\u3093\u3076\u3093\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\uff0c\n\u5730\u9762\u4e0a\u7684\u5b9d\u53ef\u68a6\u4e0d\u4f1a\u9677\u5165\u5f02\u5e38\u72b6\u6001\u3002\n\u9f99\u5c5e\u6027\u62db\u5f0f\u7684\u4f24\u5bb3\u4e5f\u4f1a\u51cf\u534a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u5730\u9762\u306b\u3044\u308b\u3068\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u305a\u3000\u30c9\u30e9\u30b4\u30f3\u6280\u306e\n\u30c0\u30e1\u30fc\u30b8\u3082\u3000\u534a\u5206\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "This protects Pok\u00e9mon on the ground from status\nconditions and halves damage from Dragon-type\nmoves for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Per cinque turni il terreno entra nello stato di Campo\nNebbioso: i Pok\u00e9mon a terra sono immuni ai problemi\ndi stato e la potenza delle mosse Drago \u00e8 dimezzata.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Durante cinco turnos, los Pok\u00e9mon que est\u00e1n en el\nsuelo no sufren cambios de estado y se reduce a la\nmitad el da\u00f1o de los movimientos de tipo Drag\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Sch\u00fctzt f\u00fcnf Runden lang alle Pok\u00e9mon, die den\nBoden ber\u00fchren, vor Statusproblemen. Der erlittene\nSchaden durch Drachen-Attacken wird halbiert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Pendant cinq tours, les Pok\u00e9mon au sol ne peuvent\npas subir d\u2019alt\u00e9ration de statut et la puissance\ndes capacit\u00e9s de type Dragon est divis\u00e9e par deux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5167\uff0c\n\u5730\u9762\u4e0a\u7684\u5bf6\u53ef\u5922\u4e0d\u6703\u9677\u5165\u7570\u5e38\u72c0\u614b\u3002\n\u9f8d\u5c6c\u6027\u62db\u5f0f\u7684\u50b7\u5bb3\u4e5f\u6703\u6e1b\u534a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ub545\uc5d0 \uc788\uc73c\uba74\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\uace0\n\ub4dc\ub798\uace4\ud0c0\uc785 \uae30\uc220\uc758 \ub370\ubbf8\uc9c0\ub3c4 \uc808\ubc18\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3042\u3044\u3060\u3000\u3058\u3081\u3093\u306b\u3044\u308b\u3068\n\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u305a\u3000\u30c9\u30e9\u30b4\u30f3\n\u308f\u3056\u306e\u3000\u30c0\u30e1\u30fc\u30b8\u3082\u3000\u306f\u3093\u3076\u3093\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u8db3\u5143\u3092\n\u30df\u30b9\u30c8\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u3059\u308b\u3002\u5730\u9762\u306b\u3044\u308b\u3068\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user covers the ground under everyone\u2019s feet\nwith mist for five turns. This protects Pok\u00e9mon\non the ground from status conditions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Per cinque turni trasforma il terreno di lotta\nin un campo nebbioso, impedendo ai Pok\u00e9mon\na terra di essere colpiti da problemi di stato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cubre de niebla el terreno de combate durante\ncinco turnos. Los Pok\u00e9mon que est\u00e9n en el suelo \nno se ven afectados por cambios de estado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Verwandelt den Untergrund f\u00fcnf Runden lang\nin ein Nebelfeld und sch\u00fctzt alle Pok\u00e9mon,\ndie den Boden ber\u00fchren, vor Statusproblemen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Pendant cinq tours, le terrain aux pieds du lanceur\nse couvre de brume. Les Pok\u00e9mon au sol ne\npeuvent pas subir d\u2019alt\u00e9ration de statut.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ubc1c\ubc11\uc744\n\ubbf8\uc2a4\ud2b8\ud544\ub4dc\ub85c \ub9cc\ub4e0\ub2e4. \ub545\uc5d0 \uc788\uc73c\uba74\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3057\u3082\u3068\u3092\n\u30df\u30b9\u30c8\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u3059\u308b\u3002\u3000\u3058\u3081\u3093\u306b\u3044\u308b\u3068\n\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u8db3\u5143\u3092\n\u30df\u30b9\u30c8\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u3059\u308b\u3002\u5730\u9762\u306b\u3044\u308b\u3068\n\u72b6\u614b\u7570\u5e38\u306b\u3000\u306a\u3089\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user covers the ground under everyone\u2019s feet\nwith mist for five turns. This protects Pok\u00e9mon\non the ground from status conditions.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Per cinque turni trasforma il terreno di lotta\nin un campo nebbioso, impedendo ai Pok\u00e9mon\na terra di essere colpiti da problemi di stato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cubre de niebla el terreno de combate durante\ncinco turnos. Los Pok\u00e9mon que est\u00e9n en el suelo\nno se ven afectados por cambios de estado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Verwandelt den Untergrund f\u00fcnf Runden lang\nin ein Nebelfeld und sch\u00fctzt alle Pok\u00e9mon,\ndie den Boden ber\u00fchren, vor Statusproblemen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Pendant cinq tours, le terrain aux pieds du lanceur\nse couvre de brume. Les Pok\u00e9mon au sol ne\npeuvent pas subir d\u2019alt\u00e9ration de statut.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ubc1c\ubc11\uc744\n\ubbf8\uc2a4\ud2b8\ud544\ub4dc\ub85c \ub9cc\ub4e0\ub2e4. \ub545\uc5d0 \uc788\uc73c\uba74\n\uc0c1\ud0dc \uc774\uc0c1\uc774 \ub418\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3042\u3057\u3082\u3068\u3092\n\u30df\u30b9\u30c8\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u3059\u308b\u3002\u3000\u3058\u3081\u3093\u306b\u3044\u308b\u3068\n\u3058\u3087\u3046\u305f\u3044\u3044\u3058\u3087\u3046\u306b\u3000\u306a\u3089\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "id": 581,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "whole-field-effect",
+            "url": "/api/v2/move-category/10/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "misty-terrain",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8584\u96fe\u573a\u5730"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30df\u30b9\u30c8\u30d5\u30a3\u30fc\u30eb\u30c9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Misty Terrain"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Campo Nebbioso"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Campo de Niebla"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Nebelfeld"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Champ Brumeux"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8584\u9727\u5834\u5730"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubbf8\uc2a4\ud2b8\ud544\ub4dc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30df\u30b9\u30c8\u30d5\u30a3\u30fc\u30eb\u30c9"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "entire-field",
+        "url": "/api/v2/move-target/12/"
+    },
+    "type": {
+        "name": "fairy",
+        "url": "/api/v2/type/18/"
+    }
+}

@@ -1,0 +1,466 @@
+{
+    "attributes": [],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "held-items",
+        "url": "/api/v2/item-category/12/"
+    },
+    "cost": 4000,
+    "effect_entries": [
+        {
+            "effect": "Held\n:   When the holder takes damage directly from a move and does not faint, it switches out for another non-fainted Pok\u00e9mon in its party, as chosen by the Trainer.\nThis effect does not activate if another effect prevents the holder from switching out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Held: When the holder takes damage from a move, it switches out for a party Pok\u00e9mon of the Trainer's choice."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u643a\u5e26\u5b83\u7684\u5b9d\u53ef\u68a6\u5982\u679c\u53d7\u5230\u62db\u5f0f\u653b\u51fb\uff0c\n\u5c31\u80fd\u9003\u8131\u6218\u6597\uff0c\u5e76\u548c\u540c\u884c\u7684\n\u5176\u4ed6\u5b9d\u53ef\u68a6\u8fdb\u884c\u66ff\u6362\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u6301\u305f\u305b\u3066\u3000\u6280\u3092\u3000\u53d7\u3051\u308b\u3068\n\u6226\u95d8\u304b\u3089\u3000\u8131\u51fa\u3057\u3066\n\u624b\u6301\u3061\u3068\u3000\u5165\u308c\u66ff\u308f\u308b\u3000\u3053\u3068\u304c\u3067\u304d\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If the holder is\nhit by an attack, it will be switched out of battle.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Se il Pok\u00e9mon che ha questo strumento \u00e8 colpito\nda un attacco, viene immediatamente sostituito\nda un altro membro della squadra.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Si el portador es alcanzado por un ataque, saldr\u00e1\ndel combate y ser\u00e1 sustituido por otro Pok\u00e9mon\ndel equipo.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Wird der Tr\u00e4ger getroffen, flieht er aus dem Kampf\nund wird mit einem Team-Pok\u00e9mon ausgetauscht.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Si le Pok\u00e9mon qui le tient subit une attaque,\nil s\u2019enfuit pour \u00eatre remplac\u00e9 par un autre\nmembre de l\u2019\u00e9quipe.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u651c\u5e36\u5b83\u7684\u5bf6\u53ef\u5922\u5982\u679c\u53d7\u5230\u62db\u5f0f\u653b\u64ca\uff0c\n\u5c31\u80fd\u5f9e\u6230\u9b25\u4e2d\u9003\u812b\uff0c\u4e26\u548c\u540c\u884c\u7684\n\u5176\u4ed6\u5bf6\u53ef\u5922\u9032\u884c\u66ff\u63db\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uc9c0\ub2c8\uac8c \ud558\uace0 \uae30\uc220\uc744 \ubc1b\uc73c\uba74\n\ubc30\ud2c0\uc5d0\uc11c \ud0c8\ucd9c\ud558\uc5ec\n\uc9c0\ub2cc \ud3ec\ucf13\ubaac\uacfc \uad50\uccb4\ud560 \uc218 \uc788\ub2e4.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3082\u305f\u305b\u3066\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u308b\u3068\n\u305b\u3093\u3068\u3046\u304b\u3089\u3000\u3060\u3063\u3057\u3085\u3064\u3057\u3066\n\u3066\u3082\u3061\u3068\u3000\u3044\u308c\u304b\u308f\u308b\u3000\u3053\u3068\u304c\u3067\u304d\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u643a\u5e26\u5b83\u7684\u5b9d\u53ef\u68a6\u5982\u679c\u53d7\u5230\u62db\u5f0f\u653b\u51fb\uff0c\n\u5c31\u80fd\u9003\u8131\u6218\u6597\uff0c\u5e76\u548c\u540c\u884c\u7684\n\u5176\u4ed6\u5b9d\u53ef\u68a6\u8fdb\u884c\u66ff\u6362\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u6301\u305f\u305b\u3066\u3000\u6280\u3092\u3000\u53d7\u3051\u308b\u3068\n\u6226\u95d8\u304b\u3089\u3000\u8131\u51fa\u3057\u3066\n\u624b\u6301\u3061\u3068\u3000\u5165\u308c\u66ff\u308f\u308b\u3000\u3053\u3068\u304c\u3067\u304d\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If the holder is\nhit by an attack, it will be switched out of battle.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Se il Pok\u00e9mon che ha questo strumento \u00e8 colpito\nda un attacco, viene immediatamente sostituito\nda un altro membro della squadra.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Si el portador es alcanzado por un ataque, saldr\u00e1\ndel combate y ser\u00e1 sustituido por otro Pok\u00e9mon\ndel equipo.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Wird der Tr\u00e4ger getroffen, flieht er aus dem Kampf\nund wird mit einem Team-Pok\u00e9mon ausgetauscht.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Si le Pok\u00e9mon qui le tient subit une attaque,\nil s\u2019enfuit pour \u00eatre remplac\u00e9 par un autre\nmembre de l\u2019\u00e9quipe.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u651c\u5e36\u5b83\u7684\u5bf6\u53ef\u5922\u5982\u679c\u53d7\u5230\u62db\u5f0f\u653b\u64ca\uff0c\n\u5c31\u80fd\u5f9e\u6230\u9b25\u4e2d\u9003\u812b\uff0c\u4e26\u548c\u540c\u884c\u7684\n\u5176\u4ed6\u5bf6\u53ef\u5922\u9032\u884c\u66ff\u63db\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uc9c0\ub2c8\uac8c \ud558\uace0 \uae30\uc220\uc744 \ubc1b\uc73c\uba74\n\ubc30\ud2c0\uc5d0\uc11c \ud0c8\ucd9c\ud558\uc5ec\n\uc9c0\ub2cc \ud3ec\ucf13\ubaac\uacfc \uad50\uccb4\ud560 \uc218 \uc788\ub2e4.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3082\u305f\u305b\u3066\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u308b\u3068\n\u305b\u3093\u3068\u3046\u304b\u3089\u3000\u3060\u3063\u3057\u3085\u3064\u3057\u3066\n\u3066\u3082\u3061\u3068\u3000\u3044\u308c\u304b\u308f\u308b\u3000\u3053\u3068\u304c\u3067\u304d\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u6301\u305f\u305b\u3066\u3000\u6280\u3092\u3000\u53d7\u3051\u308b\u3068\n\u6226\u95d8\u304b\u3089\u3000\u8131\u51fa\u3057\u3066\n\u624b\u6301\u3061\u3068\u3000\u5165\u308c\u66ff\u308f\u308b\u3000\u3053\u3068\u304c\u3067\u304d\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nIf the holder is hit by an attack, it\nwill be switched out of battle.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Se il Pok\u00e9mon che ha questo strumento \u00e8 colpito\nda un attacco, viene immediatamente sostituito\nda un compagno.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Pluma que aumenta un poco el Ataque de base\nde un Pok\u00e9mon.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Wird der Tr\u00e4ger getroffen, flieht er aus dem Kampf\nund wird mit einem Team-Pok\u00e9mon ausgetauscht.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Si le Pok\u00e9mon qui le tient subit une attaque,\nil s\u2019enfuit pour \u00eatre remplac\u00e9 par un autre\nmembre de l\u2019\u00e9quipe.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uc9c0\ub2c8\uac8c \ud558\uace0 \uae30\uc220\uc744 \ubc1b\uc73c\uba74\n\ubc30\ud2c0\uc5d0\uc11c \ud0c8\ucd9c\ud558\uc5ec\n\uc9c0\ub2cc \ud3ec\ucf13\ubaac\uacfc \uad50\uccb4\ud560 \uc218 \uc788\ub2e4.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3082\u305f\u305b\u3066\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u308b\u3068\n\u305b\u3093\u3068\u3046\u304b\u3089\u3000\u3060\u3063\u3057\u3085\u3064\u3057\u3066\n\u3066\u3082\u3061\u3068\u3000\u3044\u308c\u304b\u308f\u308b\u3000\u3053\u3068\u304c\u3067\u304d\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "If the holder is hit by an attack, it will\nswitch with another Pok\u00e9mon in\nyour party.",
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "If the holder is hit by an attack, it will\nswitch with another Pok\u00e9mon in\nyour party.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Si le Pok\u00e9mon qui le tient subit une\nattaque, il s\u2019enfuit pour \u00eatre remplac\u00e9\npar un autre membre de l\u2019\u00e9quipe.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": 30,
+    "game_indices": [
+        {
+            "game_index": 547,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
+        },
+        {
+            "game_index": 547,
+            "generation": {
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
+            }
+        },
+        {
+            "game_index": 547,
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 590,
+    "machines": [],
+    "name": "eject-button",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9003\u8131\u6309\u952e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3060\u3063\u3057\u3085\u3064\u30dc\u30bf\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Eject Button"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Pulsantefuga"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Bot\u00f3n Escape"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Fluchtknopf"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Bouton Fuite"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9003\u812b\u6309\u9375"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud0c8\ucd9c\ubc84\ud2bc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3060\u3063\u3057\u3085\u3064\u30dc\u30bf\u30f3"
+        }
+    ],
+    "sprites": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eject-button.png"
+    }
+}

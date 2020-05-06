@@ -1,0 +1,780 @@
+{
+    "base_happiness": 0,
+    "capture_rate": 45,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/200/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u30aa\u30be\u30f3\u5c64\u3092\u3000\u98db\u3073\u7d9a\u3051\u3000\u30a8\u30b5\u3068\u306a\u308b\n\u9695\u77f3\u3092\u3000\u304f\u3089\u3046\u3002\u4f53\u5185\u306b\u3000\u305f\u307e\u3063\u305f\n\u9695\u77f3\u306e\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3067\u3000\u30e1\u30ac\u30b7\u30f3\u30ab\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It flies forever through the ozone layer, consuming\nmeteoroids for sustenance. The many meteoroids\nin its body provide the energy it needs to Mega Evolve.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Risiede nello strato di ozono, dove si nutre di meteoriti.\nGrazie alla loro energia che si accumula all\u2019interno del\nsuo corpo, pu\u00f2 megaevolversi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Rayquaza ha vivido en la capa de ozono durante millones de\na\u00f1os, aliment\u00e1ndose de meteoritos. La energ\u00eda de estos\nmeteoritos se acumula en su cuerpo y le permite\nmegaevolucionar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es fliegt durch die Ozonschicht und ern\u00e4hrt sich von Meteoren.\nMithilfe der Energie, die durch diese Meteore in seinen K\u00f6rper\ngelangt, kann es eine Mega-Entwicklung durchf\u00fchren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon qui vit dans la couche d\u2019ozone et se nourrit\ndes m\u00e9t\u00e9orites qu\u2019il intercepte. Leur \u00e9nergie s\u2019accumule\ndans son corps, ce qui lui permet de m\u00e9ga-\u00e9voluer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc624\uc874\uce35\uc744 \ub0a0\uc544\ub2e4\ub2c8\uba70 \uba39\uc774\uc778\n\uc6b4\uc11d\uc744 \uba39\ub294\ub2e4. \uccb4\ub0b4\uc5d0 \ubaa8\uc778\n\uc6b4\uc11d\uc758 \uc5d0\ub108\uc9c0\ub85c \uba54\uac00\uc9c4\ud654\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30aa\u30be\u30f3\u305d\u3046\u3092\u3000\u3068\u3073\u3064\u3065\u3051\u3000\u30a8\u30b5\u3068\u306a\u308b\n\u3044\u3093\u305b\u304d\u3092\u3000\u304f\u3089\u3046\u3002\u305f\u3044\u306a\u3044\u306b\u3000\u305f\u307e\u3063\u305f\n\u3044\u3093\u305b\u304d\u306e\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3067\u3000\u30e1\u30ac\u30b7\u30f3\u30ab\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4f55\u5104\u5e74\u3082\u3000\u751f\u304d\u7d9a\u3051\u3066\u3044\u308b\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u30b0\u30e9\u30fc\u30c9\u30f3\u3068\u3000\u30ab\u30a4\u30aa\u30fc\u30ac\u306e\u3000\u4e89\u3044\u3092\n\u6cbb\u3081\u305f\u3068\u3044\u3046\u3000\u4f1d\u8aac\u304c\u3000\u6b8b\u3055\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Rayquaza is said to have lived for hundreds of millions\nof years. Legends remain of how it put to rest\nthe clash between Kyogre and Groudon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Si dice che abbia centinaia di milioni di anni.\nSecondo la leggenda, mise fine alla lotta\ntra Groudon e Kyogre.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dicen que Rayquaza ha vivido durante millones de a\u00f1os.\nLas leyendas cuentan que puso fin al continuo enfrentamiento\nentre Groudon y Kyogre.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es hei\u00dft, Rayquaza lebe bereits seit mehreren\nhundert Millionen Jahren. Legenden zufolge hat es den\neinstigen Konflikt zwischen Groudon und Kyogre beendet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "On raconte qu\u2019il aurait plus de 10\ue07f000 ans.\nSelon les l\u00e9gendes, c\u2019est gr\u00e2ce \u00e0 lui que Kyogre et Groudon\nont cess\u00e9 de se battre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uba87\uc5b5 \ub144 \ub3d9\uc548 \uacc4\uc18d \uc0b4\uace0 \uc788\ub2e4\uace0 \ud55c\ub2e4.\n\uadf8\ub780\ub3c8\uacfc \uac00\uc774\uc624\uac00\uc758 \uc0ac\ud22c\ub97c\n\uc9c4\uc815\uc2dc\ucf30\ub2e4\ub294 \uc804\uc124\uc774 \ub0a8\uc544 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3093\u304a\u304f\u306d\u3093\u3082\u3000\u3044\u304d\u3064\u3065\u3051\u3066\u3044\u308b\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u30b0\u30e9\u30fc\u30c9\u30f3\u3068\u3000\u30ab\u30a4\u30aa\u30fc\u30ac\u306e\u3000\u3042\u3089\u305d\u3044\u3092\n\u304a\u3055\u3081\u305f\u3068\u3044\u3046\u3000\u3067\u3093\u305b\u3064\u304c\u3000\u306e\u3053\u3055\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u308b\u304b\u3000\u4e0a\u7a7a\u306e\u3000\u30aa\u30be\u30f3\u5c64\u306e\u3000\u4e2d\u3092\n\u98db\u3093\u3067\u3044\u308b\u305f\u3081\u3000\u6700\u8fd1\u307e\u3067\n\u59ff\u3092\u3000\u898b\u305f\u3000\u8005\u306f\u3000\u3044\u306a\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It flies in the ozone layer, way up high in the sky.\nUntil recently, no one had ever seen it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Vive in alto, nello strato di ozono, troppo lontano\nperch\u00e9 qualcuno l\u2019abbia mai potuto avvistare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Como hasta hace poco volaba a la altura de la capa\nde ozono, nadie lo hab\u00eda visto nunca.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Da es in der Ozonschicht hoch \u00fcber den Wolken lebt,\nbekam es bis vor Kurzem noch niemand zu Gesicht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "On ne l\u2019a vu pour la premi\u00e8re fois que tr\u00e8s r\u00e9cemment\ncar il vit dans la lointaine couche d\u2019ozone.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ub4dd\ud55c \uc0c1\uacf5\uc758 \uc624\uc874\uce35\n\uc548\uc744 \ub0a0\uace0 \uc788\uae30 \ub54c\ubb38\uc5d0 \ucd5c\uadfc\uae4c\uc9c0\n\ubaa8\uc2b5\uc744 \ubcf8 \uc0ac\ub78c\uc740 \uc5c6\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u308b\u304b\u3000\u3058\u3087\u3046\u304f\u3046\u306e\u3000\u30aa\u30be\u30f3\u305d\u3046\u306e\n\u306a\u304b\u3092\u3000\u3068\u3093\u3067\u3044\u308b\u305f\u3081\u3000\u3055\u3044\u304d\u3093\u307e\u3067\n\u3059\u304c\u305f\u3092\u3000\u307f\u305f\u3000\u3082\u306e\u306f\u3000\u3044\u306a\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u96f2\u3088\u308a\u3000\u306f\u308b\u304b\u4e0a\u306e\u3000\u30aa\u30be\u30f3\u5c64\u306b\n\u751f\u606f\u3057\u3066\u3044\u308b\u305f\u3081\u3000\u5730\u4e0a\u304b\u3089\n\u59ff\u3092\u3000\u898b\u308b\u3053\u3068\u306f\u3000\u3067\u304d\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far above the clouds and\ncannot be seen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive nello strato di ozono oltre le nuvole e non pu\u00f2\nessere avvistato da terra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive en la capa de ozono sobre las nubes y no puede\nser visto desde el suelo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt in der Ozonschicht hoch \u00fcber den Wolken\nund kann vom Boden aus nicht gesehen werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il vit dans la couche d\u2019ozone, au-dessus des nuages.\nIl est invisible depuis le sol.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uad6c\ub984\ubcf4\ub2e4 \uc544\ub4dd\ud788 \uba3c \uc704\uc758 \uc624\uc874\uce35\uc5d0\n\uc11c\uc2dd\ud558\uace0 \uc788\uae30 \ub54c\ubb38\uc5d0 \uc9c0\uc0c1\uc5d0\uc11c\n\ubaa8\uc2b5\uc744 \ubcfc \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3082\u3088\u308a\u3000\u306f\u308b\u304b\u3046\u3048\u306e\u3000\u30aa\u30be\u30f3\u305d\u3046\u306b\n\u305b\u3044\u305d\u304f\u3057\u3066\u3044\u308b\u305f\u3081\u3000\u3061\u3058\u3087\u3046\u304b\u3089\n\u3059\u304c\u305f\u3092\u3000\u307f\u308b\u3053\u3068\u306f\u3000\u3067\u304d\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far\nabove the clouds and cannot be\nseen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far\nabove the clouds and cannot be\nseen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far\nabove the clouds and cannot be\nseen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il vit dans la couche d\u2019ozone, au\ndessus des nuages. Il est invisible\ndepuis le sol.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far\nabove the clouds and cannot be\nseen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il vit dans la couche d\u2019ozone, au\ndessus des nuages. Il est invisible\ndepuis le sol.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It flies in the ozone layer, way up\nhigh in the sky. Until recently,\nno one had ever seen it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It flies in the ozone layer, way up\nhigh in the sky. Until recently,\nno one had ever seen it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far\nabove the clouds and cannot be\nseen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far\nabove the clouds and cannot be\nseen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It lives in the ozone layer far\nabove the clouds and cannot be\nseen from the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It has lived for hundreds of millions of\nyears in the ozone layer. Its flying form\nlooks like a meteor.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It has lived for hundreds of millions of\nyears in the ozone layer. Its flying form\nlooks like a meteor.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON that flies endlessly in the\nozone layer. It is said it would descend\nto the ground if KYOGRE and GROUDON\nwere to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "RAYQUAZA is said to have lived for\nhundreds of millions of years in the\nearth\u2019s ozone layer, above the clouds.\fIts existence had been completely\nunknown because it lived so high in\nthe sky.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "RAYQUAZA lived for hundreds of millions\nof years in the earth\u2019s ozone layer, \nnever descending to the ground.\fThis POK\u00e9MON appears to feed on water\nand particles in the atmosphere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": true,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u5929\u7a7a\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3066\u3093\u304f\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Sky High Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Stratosfera",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Cielo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Himmelhoch",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Cieux",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5929\u7a7a\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ucc9c\uacf5\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3066\u3093\u304f\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "rare",
+        "url": "/api/v2/pokemon-habitat/5/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 120,
+    "id": 384,
+    "is_baby": false,
+    "name": "rayquaza",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u70c8\u7a7a\u5750"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ec\u30c3\u30af\u30a6\u30b6"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Rayquaza"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Rayquaza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Rayquaza"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Rayquaza"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Rayquaza"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u70c8\u7a7a\u5750"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub808\ucfe0\uc7c8"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Rayquaza"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ec\u30c3\u30af\u30a6\u30b6"
+        }
+    ],
+    "order": 414,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 90,
+            "rate": 3
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 209,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 200,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 200,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 384,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "squiggle",
+        "url": "/api/v2/pokemon-shape/2/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "rayquaza",
+                "url": "/api/v2/pokemon/384/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "rayquaza-mega",
+                "url": "/api/v2/pokemon/10079/"
+            }
+        }
+    ]
+}

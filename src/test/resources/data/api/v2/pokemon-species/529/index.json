@@ -1,0 +1,644 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/270/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u30b9\u30d4\u30f3\u3055\u305b\u308b\u3053\u3068\u3067\n\u6642\u901f\uff15\uff10\u30ad\u30ed\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u306e\u307e\u307e\n\u307e\u3063\u3059\u3050\u3000\u5730\u9762\u3092\u3000\u6398\u308a\u9032\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "By spinning its body, it can dig straight through the\nground at a speed of 30 mph.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Quando gira su se stesso, scava la terra scendendo in verticale\nalla velocit\u00e0 di 50 km/h.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Puede girar su cuerpo a una velocidad de 50 km/h y, si la\nmantiene, puede perforar el suelo y atravesarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es gr\u00e4bt sich mit 50 km/h schnurstracks durch das Erdreich,\nindem es sich rapide um die eigene Achse dreht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il tourbillonne sur lui-m\u00eame pour se d\u00e9placer sous terre.\nIl peut atteindre les 50 km/h en ligne droite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uc2a4\ud540\uc2dc\ucf1c\uc11c\n\uc2dc\uc18d 50km\uc758 \uc2a4\ud53c\ub4dc\ub97c \uc720\uc9c0\ud558\uba70\n\ub611\ubc14\ub85c \ub545\uc744 \ud30c\uc11c \ub098\uc544\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u30b9\u30d4\u30f3\u3055\u305b\u308b\u3053\u3068\u3067\n\u3058\u305d\u304f\uff15\uff10\u30ad\u30ed\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u306e\u307e\u307e\n\u307e\u3063\u3059\u3050\u3000\u3058\u3081\u3093\u3092\u3000\u307b\u308a\u3059\u3059\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4e21\u624b\u306e\u3000\u30c4\u30e1\u3092\u3000\u91cd\u306d\u5408\u308f\u305b\u3066\n\u4f53\u3092\u3000\u9ad8\u901f\u3000\u56de\u8ee2\u3055\u305b\u308b\u3068\n\u731b\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u5730\u4e2d\u3092\u3000\u9032\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It makes its way swiftly through the soil by putting\nboth claws together and rotating at high speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Sfreccia a gran velocit\u00e0 sotto terra, avvitandosi su se stesso,\nmentre si apre un passaggio scavando con le unghie.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Cuando junta las garras y comienza a dar vueltas fren\u00e9ticas,\navanza bajo tierra a gran velocidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es f\u00fchrt seine beiden Klauen zusammen, dreht sich rapide um\ndie eigene Achse und gr\u00e4bt sich ratzfatz durch das Erdreich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il se propulse \u00e0 grande vitesse sous la terre en joignant\nses griffes et en tourbillonnant sur lui-m\u00eame.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc591\uc190\uc758 \uc190\ud1b1\uc744 \uc11c\ub85c \uacb9\uce58\uace0\n\ubab8\uc744 \uace0\uc18d \ud68c\uc804\uc2dc\ud0a4\uba74\uc11c\n\ub9f9\ub82c\ud55c \uc18d\ub3c4\ub85c \ub545\uc18d\uc744 \ud5e4\uccd0\ub098\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u308a\u3087\u3046\u3066\u306e\u3000\u30c4\u30e1\u3092\u3000\u304b\u3055\u306d\u3042\u308f\u305b\u3066\n\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u3000\u304b\u3044\u3066\u3093\u3055\u305b\u308b\u3068\n\u3082\u3046\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3061\u3061\u3085\u3046\u3092\u3000\u3059\u3059\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u30b9\u30d4\u30f3\u3055\u305b\u308b\u3053\u3068\u3067\n\u6642\u901f\uff15\uff10\u30ad\u30ed\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u306e\u307e\u307e\n\u307e\u3063\u3059\u3050\u3000\u5730\u9762\u3092\u3000\u6398\u308a\u9032\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "By spinning its body, it can dig straight through the\nground at a speed of 30 mph.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quando gira su se stesso, scava la terra scendendo\nin verticale alla velocit\u00e0 di 50 km/h.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Puede girar su cuerpo a una velocidad de 50 km/h y,\nsi la mantiene, puede perforar el suelo y atravesarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es gr\u00e4bt sich mit 50 km/h schnurstracks durch\ndas Erdreich, indem es sich rapide um die eigene\nAchse dreht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il tourbillonne sur lui-m\u00eame pour se d\u00e9placer sous\nterre. Il peut atteindre les 50 km/h en ligne droite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uc2a4\ud540\uc2dc\ucf1c\uc11c\n\uc2dc\uc18d 50km\uc758 \uc2a4\ud53c\ub4dc\ub97c \uc720\uc9c0\ud558\uba70\n\ub611\ubc14\ub85c \ub545\uc744 \ud30c\uc11c \ub098\uc544\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u30b9\u30d4\u30f3\u3055\u305b\u308b\u3053\u3068\u3067\n\u3058\u305d\u304f\uff15\uff10\u30ad\u30ed\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u306e\u307e\u307e\n\u307e\u3063\u3059\u3050\u3000\u3058\u3081\u3093\u3092\u3000\u307b\u308a\u3059\u3059\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u4e21\u624b\u306e\u3000\u30c4\u30e1\u3092\u3000\u91cd\u306d\u5408\u308f\u305b\u3066\n\u4f53\u3092\u3000\u9ad8\u901f\u3000\u56de\u8ee2\u3055\u305b\u308b\u3068\n\u731b\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u5730\u4e2d\u3092\u3000\u9032\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It makes its way swiftly through the soil by putting\nboth claws together and rotating at high speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sfreccia a gran velocit\u00e0 sotto terra, avvitandosi su\nse stesso, mentre si apre un passaggio scavando\ncon le unghie.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Cuando junta las garras y comienza a dar vueltas\nfren\u00e9ticas, avanza bajo tierra a gran velocidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es f\u00fchrt seine beiden Klauen zusammen, dreht sich\nrapide um die eigene Achse und gr\u00e4bt sich ratzfatz\ndurch das Erdreich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il se propulse \u00e0 grande vitesse sous la terre en\njoignant ses griffes et en tourbillonnant sur lui-m\u00eame.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc591\uc190\uc758 \uc190\ud1b1\uc744 \uc11c\ub85c \uacb9\uce58\uace0\n\ubab8\uc744 \uace0\uc18d \ud68c\uc804\uc2dc\ud0a4\uba74\uc11c\n\ub9f9\ub82c\ud55c \uc18d\ub3c4\ub85c \ub545\uc18d\uc744 \ud5e4\uccd0\ub098\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u308a\u3087\u3046\u3066\u306e\u3000\u30c4\u30e1\u3092\u3000\u304b\u3055\u306d\u3042\u308f\u305b\u3066\n\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u3000\u304b\u3044\u3066\u3093\u3055\u305b\u308b\u3068\n\u3082\u3046\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u3061\u3061\u3085\u3046\u3092\u3000\u3059\u3059\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "By spinning its body, it can dig\nstraight through the ground\nat a speed of 30 mph.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "By spinning its body, it can dig\nstraight through the ground\nat a speed of 30 mph.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It makes its way swiftly through the soil\nby putting both claws together and\nrotating at high speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il se propulse \u00e0 grande vitesse sous\nla terre en joignant ses griffes et\nen tourbillonnant sur lui-m\u00eame.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It can dig through the ground\nat a speed of 30 mph. It could give\na car running aboveground a good race.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il peut creuser \u00e0 plus de 50 km/h et\nfaire la course avec une voiture roulant\nsur le terrain qu\u2019il creuse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u9f39\u9f20\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3082\u3050\u3089\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Mole Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Talpa",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Topo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Maulwurf",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Taupe",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u9f34\u9f20\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub450\ub354\uc9c0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3082\u3050\u3089\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 529,
+    "is_baby": false,
+    "name": "drilbur",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u87ba\u9489\u5730\u9f20"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e2\u30b0\u30ea\u30e5\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Drilbur"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Drilbur"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Drilbur"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Rotomurf"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Rototaupe"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u87ba\u91d8\u5730\u9f20"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub450\ub354\ub958"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e2\u30b0\u30ea\u30e5\u30fc"
+        }
+    ],
+    "order": 530,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 152,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 76,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 35,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 529,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "drilbur",
+                "url": "/api/v2/pokemon/529/"
+            }
+        }
+    ]
+}

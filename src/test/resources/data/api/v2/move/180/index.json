@@ -1,0 +1,675 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "curse",
+                    "url": "/api/v2/move/174/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/28/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Lowers the PP of the target's last used move by 4.  If the target hasn't used a move since entering the field, if it tried to use a move this turn and failed, or if its last used move has 0 PP remaining, this move will fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Lowers the PP of the target's last used move by 4."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5bf9\u5bf9\u624b\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\n\u6000\u6709\u6028\u6068\uff0c\n\u51cf\u5c11\uff14\uff30\uff30\u8be5\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP \ndel \u00faltimo movimiento usado por el objetivo. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u767c\u51fa\u6028\u5ff5\uff0c\n\u8b93\u8a72\u62db\u5f0f\u6e1b\u5c11\uff14\uff30\uff30\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5bf9\u5bf9\u624b\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\n\u6000\u6709\u6028\u6068\uff0c\n\u51cf\u5c11\uff14\uff30\uff30\u8be5\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP \ndel \u00faltimo movimiento usado por el objetivo. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u767c\u51fa\u6028\u5ff5\uff0c\n\u8b93\u8a72\u62db\u5f0f\u6e1b\u5c11\uff14\uff30\uff30\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u202f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP \ndel \u00faltimo movimiento usado por el objetivo. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "AP der letzten Attacke des Zieles\nwerden um 4 gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u202f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "AP der letzten Attacke des Zieles\nwerden um 4 gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur exprime son ressentiment\nen retirant 4 PP de la derni\u00e8re attaque\nde l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A move that cuts\n2 to 5 PP from the\nmove last used by\nthe foe.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Spitefully cuts the PP\nof the foe\u2019s last move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Spitefully cuts the PP\nof the foe\u2019s last move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Cuts the PP of the\nfoe's last move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Cuts the PP of the\nfoe's last move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 180,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "spite",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6028\u6068"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3046\u3089\u307f"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Spite"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Dispetto"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Rencor"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Groll"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "D\u00e9pit"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6028\u6068"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc6d0\ud55c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3046\u3089\u307f"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/19/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+    }
+}

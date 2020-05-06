@@ -1,0 +1,928 @@
+{
+    "base_happiness": 140,
+    "capture_rate": 130,
+    "color": {
+        "name": "pink",
+        "url": "/api/v2/pokemon-color/6/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/51/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u662f\u975e\u5e38\u6e29\u987a\u7684\u5b9d\u53ef\u68a6\uff0c\n\u4f46\u5982\u679c\u88ab\u593a\u8d70\u4e86\u8179\u90e8\u7684\u5706\u77f3\u5934\uff0c\n\u5c31\u4f1a\u54ed\u7740\u5927\u5435\u5927\u95f9\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u4eba\u3057\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u304c\u3000\u304a\u8179\u306e\n\u4e38\u3044\u3000\u77f3\u3092\u3000\u53d6\u308a\u4e0a\u3052\u308b\u3068\n\u6ce3\u3044\u3066\u3000\u9a12\u3044\u3067\u3000\u5927\u66b4\u308c\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Usually it\u2019s a well-behaved Pok\u00e9mon, but if you\ntake its round rock away, it will cry and fuss\nand throw a big old tantrum.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 un Pok\u00e9mon docile, ma se si fa per togliergli\nla pietra dalla tasca ventrale piange, strilla e\ndiventa una furia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Se trata de un Pok\u00e9mon d\u00f3cil y tranquilo, pero,\nsi le arrebatan la piedra redonda que lleva en la\nbolsa de su panza, se pone a llorar y berrear.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Eigentlich ein sehr braves Pok\u00e9mon, das aber\nf\u00fcrchterlich weint und tobt, wenn man den\nrunden, wei\u00dfen Stein aus seinem Beutel nimmt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est un Pok\u00e9mon d\u2019un naturel calme. Quiconque\ntente de s\u2019emparer du caillou de sa poche\nventrale s\u2019expose toutefois \u00e0 un gros caprice.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6027\u60c5\u6eab\u99b4\u7684\u5bf6\u53ef\u5922\uff0c\n\u4f46\u5982\u679c\u809a\u5b50\u4e0a\u7684\u5713\u5f62\u77f3\u982d\u88ab\u6436\u8d70\uff0c\n\u5c31\u6703\u54ed\u8457\u5927\u5435\u5927\u9b27\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc628\uc21c\ud55c \ud3ec\ucf13\ubaac\uc774\uc9c0\ub9cc\n\ubc30\uc758 \ub465\uadfc \ub3cc\uc744 \ube7c\ub0b4\uba74\n\uc6b8\uace0\ubd88\uace0 \ub09c\ud3ed\ud574\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3068\u306a\u3057\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u304c\u3000\u304a\u306a\u304b\u306e\n\u307e\u308b\u3044\u3000\u3044\u3057\u3092\u3000\u3068\u308a\u3042\u3052\u308b\u3068\n\u306a\u3044\u3066\u3000\u3055\u308f\u3044\u3067\u3000\u304a\u304a\u3042\u3070\u308c\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u56e0\u4e3a\u5f88\u5c0f\uff0c\u8fd8\u4e0d\u80fd\u751f\u86cb\u3002\n\u4f1a\u5bfb\u627e\u767d\u767d\u7684\u5706\u5706\u7684\n\u77f3\u5934\u6765\u4f5c\u4e3a\u66ff\u4ee3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5c0f\u3055\u3044\u306e\u3067\u3000\u307e\u3060\u3000\u30bf\u30de\u30b4\u3092\n\u7523\u3080\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u3044\u3002\u3000\u4ee3\u308f\u308a\u306b\n\u767d\u304f\u3066\u3000\u4e38\u3044\u3000\u77f3\u3092\u3000\u63a2\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It\u2019s too small to lay eggs yet. As a surrogate,\nit searches out round white stones.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Dato che \u00e8 ancora piccolo e non pu\u00f2 deporre\nuova, cerca pietre bianche e tonde da usare\nin sostituzione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Como todav\u00eda no puede poner huevos, busca\nrocas blancas y redondas en su lugar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Es ist noch zu jung, um Eier zu legen. Als Ersatz\nsucht es nach runden, wei\u00dfen Steinen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Comme il est tr\u00e8s jeune, il ne peut pas encore\npondre d\u2019\u0153uf. \u00c0 la place, il cherche un joli petit\ncaillou blanc, bien rond.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u56e0\u70ba\u5f88\u5c0f\uff0c\u9084\u4e0d\u80fd\u751f\u86cb\u3002\n\u6703\u5c0b\u627e\u767d\u767d\u5713\u5713\u7684\n\u77f3\u982d\u4f86\u4ee3\u66ff\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uc791\uc544\uc11c \uc544\uc9c1 \uc54c\uc744\n\ub0b3\uc744 \uc218 \uc5c6\ub2e4. \ub300\uc2e0\uc5d0\n\ud558\uc597\uace0 \ub465\uadfc \ub3cc\uc744 \ucc3e\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3044\u3055\u3044\u306e\u3067\u3000\u307e\u3060\u3000\u30bf\u30de\u30b4\u3092\n\u3046\u3080\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u3044\u3002\u3000\u304b\u308f\u308a\u306b\n\u3057\u308d\u304f\u3066\u3000\u307e\u308b\u3044\u3000\u3044\u3057\u3092\u3000\u3055\u304c\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u767d\u304f\u3066\u3000\u307e\u308b\u3044\u3000\u77f3\u3092\u3000\u30bf\u30de\u30b4\u3068\n\u601d\u3044\u3053\u3093\u3067\u3000\u5927\u4e8b\u306b\u3000\u6301\u3063\u3066\u3044\u308b\u3002\n\u5dfb\u304d\u6bdb\u306e\u3000\u5f62\u3092\u3000\u6c17\u306b\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It carefully carries a round, white rock that it thinks\nis an egg. It\u2019s bothered by how curly its hair looks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Trasporta con cura un sasso bianco e tondo trattandolo\ncome un uovo. Adora il ricciolo che ha in testa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Cuida de una peque\u00f1a roca blanca y redonda creyendo que\nes un huevo. Le gusta arreglarse el tirabuz\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es h\u00e4lt den runden, wei\u00dfen Stein f\u00fcr ein Ei und k\u00fcmmert sich\num ihn. Es achtet sehr auf seine Haarlocke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il prend soin de ses bouclettes et couve son caillou comme\nsi c\u2019\u00e9tait son \u0152uf.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud558\uc597\uace0 \ub465\uadfc \ub3cc\uc744 \uc54c\uc774\ub77c\uace0\n\uc0dd\uac01\ud558\uace0\ub294 \uc18c\uc911\ud788 \uac00\uc9c0\uace0 \uc788\ub2e4.\n\ub9d0\ub824 \uc788\ub294 \uba38\ub9ac \ubaa8\uc591\uc744 \uc2e0\uacbd \uc4f0\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u308d\u304f\u3066\u3000\u307e\u308b\u3044\u3000\u3044\u3057\u3092\u3000\u30bf\u30de\u30b4\u3068\n\u304a\u3082\u3044\u3053\u3093\u3067\u3000\u3060\u3044\u3058\u306b\u3000\u3082\u3063\u3066\u3044\u308b\u3002\n\u307e\u304d\u3052\u306e\u3000\u304b\u305f\u3061\u3092\u3000\u304d\u306b\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30bf\u30de\u30b4\u306b\u3000\u4f3c\u305f\u3000\u771f\u3093\u307e\u308b\u3044\u3000\u77f3\u3092\n\u304a\u8179\u306e\u3000\u888b\u306b\u3000\u5165\u308c\u3066\u3044\u308b\u3002\n\u597d\u304d\u306a\u3000\u76f8\u624b\u306b\u3000\u77f3\u3092\u3000\u6e21\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It carries a round, egg-shaped rock in its belly\npouch and gives the rock to its friends.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Trasporta una roccia a forma di uovo nella sua tasca ventrale\ne poi la offre ai suoi amici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Les da a sus amigos una roca con forma de huevo que\ntransporta en la bolsa de su panza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "In seinem Beutel tr\u00e4gt es einen runden, eif\u00f6rmigen Stein,\nden es Freunden gibt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ptiravi transporte un caillou rond en forme d\u2019\u0153uf dans\nsa poche ventrale pour l\u2019offrir \u00e0 ses amis.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc54c\uc744 \ub2ee\uc740 \ub465\uadfc \ub3cc\uc744\n\ubc30\uc758 \uc8fc\uba38\ub2c8\uc5d0 \ub123\uace0 \uc788\ub2e4.\n\uc88b\uc544\ud558\ub294 \uc0c1\ub300\uc5d0\uac8c \ub3cc\uc744 \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30bf\u30de\u30b4\u306b\u3000\u306b\u305f\u3000\u307e\u3093\u307e\u308b\u3044\u3000\u3044\u3057\u3092\n\u304a\u306a\u304b\u306e\u3000\u3075\u304f\u308d\u306b\u3000\u3044\u308c\u3066\u3044\u308b\u3002\n\u3059\u304d\u306a\u3000\u3042\u3044\u3066\u306b\u3000\u3044\u3057\u3092\u3000\u308f\u305f\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u767d\u304f\u3066\u3000\u307e\u308b\u3044\u3000\u77f3\u3092\u3000\u30bf\u30de\u30b4\u3068\n\u601d\u3044\u3053\u3093\u3067\u3000\u5927\u4e8b\u306b\u3000\u6301\u3063\u3066\u3044\u308b\u3002\n\u5dfb\u304d\u6bdb\u306e\u3000\u5f62\u3092\u3000\u6c17\u306b\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It carefully carries a round, white rock that it thinks\nis an egg. It\u2019s bothered by how curly its hair looks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Trasporta con cura un sasso bianco e tondo\ntrattandolo come un uovo.\nAdora il ricciolo che ha in testa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuida de una peque\u00f1a roca blanca y redonda\ncreyendo que es un huevo. Le gusta arreglarse\nel tirabuz\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es h\u00e4lt den runden, wei\u00dfen Stein f\u00fcr ein Ei\nund k\u00fcmmert sich um ihn. Es achtet sehr\nauf seine Haarlocke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il prend soin de ses bouclettes et couve son caillou\ncomme si c\u2019\u00e9tait son \u0152uf.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud558\uc597\uace0 \ub465\uadfc \ub3cc\uc744 \uc54c\uc774\ub77c\uace0\n\uc0dd\uac01\ud558\uace0\ub294 \uc18c\uc911\ud788 \uac00\uc9c0\uace0 \uc788\ub2e4.\n\ub9d0\ub824 \uc788\ub294 \uba38\ub9ac \ubaa8\uc591\uc744 \uc2e0\uacbd \uc4f0\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u308d\u304f\u3066\u3000\u307e\u308b\u3044\u3000\u3044\u3057\u3092\u3000\u30bf\u30de\u30b4\u3068\n\u304a\u3082\u3044\u3053\u3093\u3067\u3000\u3060\u3044\u3058\u306b\u3000\u3082\u3063\u3066\u3044\u308b\u3002\n\u307e\u304d\u3052\u306e\u3000\u304b\u305f\u3061\u3092\u3000\u304d\u306b\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30bf\u30de\u30b4\u306b\u3000\u4f3c\u305f\u3000\u771f\u3093\u307e\u308b\u3044\u3000\u77f3\u3092\n\u304a\u8179\u306e\u3000\u888b\u306b\u3000\u5165\u308c\u3066\u3044\u308b\u3002\n\u597d\u304d\u306a\u3000\u76f8\u624b\u306b\u3000\u77f3\u3092\u3000\u6e21\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It carries a round, egg-shaped rock in its belly\npouch and gives the rock to its friends.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Trasporta una roccia a forma di uovo nella sua\ntasca ventrale e poi la offre ai suoi amici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Les da a sus amigos una roca con forma de huevo que\ntransporta en la bolsa de su panza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "In seinem Beutel tr\u00e4gt es einen runden,\neif\u00f6rmigen Stein, den es Freunden gibt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ptiravi transporte un caillou rond en forme d\u2019\u0153uf dans\nsa poche ventrale pour l\u2019offrir \u00e0 ses amis.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc54c\uc744 \ub2ee\uc740 \ub465\uadfc \ub3cc\uc744\n\ubc30\uc758 \uc8fc\uba38\ub2c8\uc5d0 \ub123\uace0 \uc788\ub2e4.\n\uc88b\uc544\ud558\ub294 \uc0c1\ub300\uc5d0\uac8c \ub3cc\uc744 \uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30bf\u30de\u30b4\u306b\u3000\u306b\u305f\u3000\u307e\u3093\u307e\u308b\u3044\u3000\u3044\u3057\u3092\n\u304a\u306a\u304b\u306e\u3000\u3075\u304f\u308d\u306b\u3000\u3044\u308c\u3066\u3044\u308b\u3002\n\u3059\u304d\u306a\u3000\u3042\u3044\u3066\u306b\u3000\u3044\u3057\u3092\u3000\u308f\u305f\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It likes to carry around a small\nrock. It may wander around others\u2019\nfeet and cause them to stumble.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It likes to carry around a small\nrock. It may wander around others\u2019\nfeet and cause them to stumble.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It likes to carry around a small\nrock. It may wander around others\u2019\nfeet and cause them to stumble.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon ne se s\u00e9pare jamais de\nson petit caillou et a tendance \u00e0\ntra\u00eener dans les pieds des gens.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It likes to carry around a small\nrock. It may wander around others\u2019\nfeet and cause them to stumble.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon ne se s\u00e9pare jamais de\nson petit caillou et a tendance \u00e0\ntra\u00eener dans les pieds des gens.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It carefully carries a round, white rock\nthat it thinks is an egg. It\u2019s bothered\nby how curly its hair looks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It carefully carries a round, white rock\nthat it thinks is an egg. It\u2019s bothered\nby how curly its hair looks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It likes to carry around a small\nrock. It may wander around others\u2019\nfeet and cause them to stumble.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It carries a round, egg-shaped\nrock in its belly pouch and gives\nthe rock to its friends.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It loves round white things.\nIt carries an egg-shaped rock in\nimitation of CHANSEY.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 8,
+    "genera": [
+        {
+            "genus": "\u5bb6\u5bb6\u9152\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u307e\u307e\u3054\u3068\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Playhouse Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Ovettino",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Casita",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Spielhaus",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Maisonjouet",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5bb6\u5bb6\u9152\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc18c\uafc9\ub180\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u307e\u307e\u3054\u3068\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "fast",
+        "url": "/api/v2/growth-rate/3/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 40,
+    "id": 440,
+    "is_baby": true,
+    "name": "happiny",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5c0f\u798f\u86cb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d4\u30f3\u30d7\u30af"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Happiny"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Happiny"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Happiny"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Wonneira"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ptiravi"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5c0f\u798f\u86cb"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud551\ubcf5"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Pinpuku"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d4\u30f3\u30d7\u30af"
+        }
+    ],
+    "order": 126,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 96,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 96,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 440,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "happiny",
+                "url": "/api/v2/pokemon/440/"
+            }
+        }
+    ]
+}

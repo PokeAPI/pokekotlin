@@ -1,0 +1,707 @@
+{
+    "accuracy": 80,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "mind-reader",
+                    "url": "/api/v2/move/170/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/3/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User receives 1/4 the damage it inflicts in recoil."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u5bf9\u624b\u8fde\u540c\u81ea\u5df1\u4e00\u8d77\n\u6454\u5411\u5730\u9762\u8fdb\u884c\u653b\u51fb\u3002\n\u81ea\u5df1\u4e5f\u4f1a\u53d7\u5230\u5c11\u8bb8\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u81ea\u5206\u3054\u3068\n\u76f8\u624b\u3092\u3000\u6295\u3052\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u5c11\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the target and recklessly dives for\nthe ground. This also damages the user a little.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio in modo spericolato,\nma danneggia anche se stesso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se lanza al suelo con el oponente en\nbrazos y tambi\u00e9n se hace un poco de da\u00f1o.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Harte K\u00f6rperattacke, bei der sich der Angreifer\nselbst leicht verletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur agrippe l\u2019ennemi et l\u2019\u00e9crase au sol.\nBlesse aussi l\u00e9g\u00e8rement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5c0d\u624b\u9023\u540c\u81ea\u5df1\u4e00\u8d77\n\u6454\u5411\u5730\u9762\u9032\u884c\u653b\u64ca\u3002\n\u81ea\u5df1\u4e5f\u6703\u53d7\u5230\u5c11\u8a31\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \uc790\uc2e0\uacfc \ud568\uaed8\n\uc0c1\ub300\ub97c \ub0b4\ub358\uc838 \uacf5\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc870\uae08 \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u3058\u3076\u3093\u3054\u3068\n\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u3059\u3053\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u5bf9\u624b\u8fde\u540c\u81ea\u5df1\u4e00\u8d77\n\u6454\u5411\u5730\u9762\u8fdb\u884c\u653b\u51fb\u3002\n\u81ea\u5df1\u4e5f\u4f1a\u53d7\u5230\u5c11\u8bb8\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u81ea\u5206\u3054\u3068\n\u76f8\u624b\u3092\u3000\u6295\u3052\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u5c11\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the target and recklessly dives for\nthe ground. This also damages the user a little.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio in modo spericolato,\nma danneggia anche se stesso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se lanza al suelo con el oponente en\nbrazos y tambi\u00e9n se hace un poco de da\u00f1o.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Harte K\u00f6rperattacke, bei der sich der Angreifer\nselbst leicht verletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur agrippe l\u2019ennemi et l\u2019\u00e9crase au sol.\nBlesse aussi l\u00e9g\u00e8rement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5c0d\u624b\u9023\u540c\u81ea\u5df1\u4e00\u8d77\n\u6454\u5411\u5730\u9762\u9032\u884c\u653b\u64ca\u3002\n\u81ea\u5df1\u4e5f\u6703\u53d7\u5230\u5c11\u8a31\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \uc790\uc2e0\uacfc \ud568\uaed8\n\uc0c1\ub300\ub97c \ub0b4\ub358\uc838 \uacf5\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc870\uae08 \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u3058\u3076\u3093\u3054\u3068\n\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u3059\u3053\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u81ea\u5206\u3054\u3068\n\u76f8\u624b\u3092\u3000\u6295\u3052\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u5c11\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the target and recklessly\ndives for the ground. This also damages\nthe user a little.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio in modo spericolato,\nma danneggia anche se stesso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Tira al objetivo al suelo. Tambi\u00e9n hiere al agresor. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Harte K\u00f6rperattacke, bei der sich der Angreifer\nselbst leicht verletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur agrippe l\u2019ennemi et l\u2019\u00e9crase au sol.\nBlesse aussi l\u00e9g\u00e8rement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \uc790\uc2e0\uacfc \ud568\uaed8\n\uc0c1\ub300\ub97c \ub0b4\ub358\uc838 \uacf5\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc870\uae08 \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u3058\u3076\u3093\u3054\u3068\n\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u3059\u3053\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u306b\u3000\u81ea\u5206\u3054\u3068\n\u76f8\u624b\u3092\u3000\u6295\u3052\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u5c11\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the target and recklessly\ndives for the ground. This also damages\nthe user a little.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio in modo spericolato,\nma danneggia anche se stesso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Tira al objetivo al suelo. Tambi\u00e9n hiere al agresor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Harte K\u00f6rperattacke, bei der sich der Angreifer\nselbst leicht verletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur agrippe l\u2019ennemi et l\u2019\u00e9crase au sol.\nBlesse aussi l\u00e9g\u00e8rement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc5d0 \uc790\uc2e0\uacfc \ud568\uaed8\n\uc0c1\ub300\ub97c \ub0b4\ub358\uc838 \uacf5\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc870\uae08 \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u306b\u3000\u3058\u3076\u3093\u3054\u3068\n\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u3059\u3053\u3057\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the target and recklessly\ndives for the ground. It also hurts the\nuser slightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the target and recklessly\ndives for the ground. It also hurts the\nuser slightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur agrippe l\u2019ennemi et\nl\u2019\u00e9crase au sol. Blesse aussi\nl\u00e9g\u00e8rement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the\nfoe and recklessly\ndives for the ground.\nIt also hurts the\nuser slightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the\nfoe and recklessly\ndives for the ground.\nIt also hurts the\nuser slightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user grabs the\nfoe and recklessly\ndives for the ground.\nIt also hurts the\nuser slightly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A reckless, full-\nbody throw attack\nthat also hurts the\nuser a little.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A reckless body slam that\nalso hurts the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A reckless body slam that\nalso hurts the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "An attack that al\u00ad\nso hurts the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "An attack that al\u00ad\nso hurts the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 66,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/289/"
+            },
+            "version_group": {
+                "name": "red-blue",
+                "url": "/api/v2/version-group/1/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/290/"
+            },
+            "version_group": {
+                "name": "yellow",
+                "url": "/api/v2/version-group/2/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": -25,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "submission",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5730\u72f1\u7ffb\u6eda"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3058\u3054\u304f\u3050\u308b\u307e"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Submission"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sottomissione"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Sumisi\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "\u00dcberroller"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Sacrifice"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5730\u7344\u7ffb\u6efe"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc9c0\uc625\uc758\ubc14\ud034"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3058\u3054\u304f\u3050\u308b\u307e"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": 25,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 80,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/5/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+    }
+}

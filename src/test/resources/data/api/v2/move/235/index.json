@@ -1,0 +1,675 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "sunny-day",
+                    "url": "/api/v2/move/241/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/25/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Heals the user for half its max HP.\n\nDuring sunny day, the healing is increased to 2/3 max HP.\n\nDuring hail, rain dance, or sandstorm, the healing is decreased to 1/4 max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Heals the user by half its max HP.  Affected by weather."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u56de\u590d\u81ea\u5df1\u7684\uff28\uff30\u3002\n\u6839\u636e\u5929\u6c14\u7684\u4e0d\u540c\uff0c\n\u56de\u590d\u91cf\u4e5f\u4f1a\u6709\u6240\u53d8\u5316\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n\u5929\u6c17\u306b\u3000\u3088\u3063\u3066\n\u56de\u5fa9\u306e\u3000\u91cf\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its own HP. The amount of HP\nregained varies with the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera PS. Il numero di PS recuperati\ndipende dalle condizioni atmosferiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Restaura PS del usuario. La cantidad var\u00eda seg\u00fan \nel tiempo que haga.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "F\u00fcllt KP des Anwenders auf. Die Menge h\u00e4ngt vom\nWetter ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un soin qui restaure des PV au lanceur.\nSon efficacit\u00e9 varie en fonction de la m\u00e9t\u00e9o.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u5fa9\u81ea\u5df1\u7684\uff28\uff30\u3002\n\u56de\u5fa9\u91cf\u6703\u96a8\u8457\u5929\u6c23\u7684\u4e0d\u540c\n\u800c\u6709\u6240\u8b8a\u5316\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ub0a0\uc528\uc5d0 \ub530\ub77c\n\ud68c\ubcf5\ub7c9\uc774 \ubcc0\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002\n\u3066\u3093\u304d\u306b\u3000\u3088\u3063\u3066\n\u304b\u3044\u3075\u304f\u306e\u3000\u308a\u3087\u3046\u304c\u3000\u3078\u3093\u304b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u590d\u81ea\u5df1\u7684\uff28\uff30\u3002\n\u6839\u636e\u5929\u6c14\u7684\u4e0d\u540c\uff0c\n\u56de\u590d\u91cf\u4e5f\u4f1a\u6709\u6240\u53d8\u5316\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n\u5929\u6c17\u306b\u3000\u3088\u3063\u3066\n\u56de\u5fa9\u306e\u3000\u91cf\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its own HP. The amount of HP\nregained varies with the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera PS. Il numero di PS recuperati\ndipende dalle condizioni atmosferiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Restaura PS del usuario. La cantidad var\u00eda seg\u00fan \nel tiempo que haga.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "F\u00fcllt KP des Anwenders auf. Die Menge h\u00e4ngt vom\nWetter ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un soin qui restaure des PV au lanceur.\nSon efficacit\u00e9 varie en fonction de la m\u00e9t\u00e9o.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u5fa9\u81ea\u5df1\u7684\uff28\uff30\u3002\n\u56de\u5fa9\u91cf\u6703\u96a8\u8457\u5929\u6c23\u7684\u4e0d\u540c\n\u800c\u6709\u6240\u8b8a\u5316\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ub0a0\uc528\uc5d0 \ub530\ub77c\n\ud68c\ubcf5\ub7c9\uc774 \ubcc0\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002\n\u3066\u3093\u304d\u306b\u3000\u3088\u3063\u3066\n\u304b\u3044\u3075\u304f\u306e\u3000\u308a\u3087\u3046\u304c\u3000\u3078\u3093\u304b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n\u5929\u6c17\u306b\u3000\u3088\u3063\u3066\n\u56de\u5fa9\u306e\u3000\u91cf\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera PS. Il numero di PS recuperati\ndipende dalle condizioni atmosferiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Restaura PS del usuario. La cantidad var\u00eda seg\u00fan \nel tiempo que haga.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "F\u00fcllt KP des Anwenders auf.\nDie Menge h\u00e4ngt vom Wetter ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un soin qui restaure des PV au lanceur.\nSon efficacit\u00e9 varie en fonction de la m\u00e9t\u00e9o.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ub0a0\uc528\uc5d0 \ub530\ub77c\n\ud68c\ubcf5\ub7c9\uc774 \ubcc0\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002\n\u3066\u3093\u304d\u306b\u3000\u3088\u3063\u3066\n\u304b\u3044\u3075\u304f\u306e\u3000\u308a\u3087\u3046\u304c\u3000\u3078\u3093\u304b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n\u5929\u6c17\u306b\u3000\u3088\u3063\u3066\n\u56de\u5fa9\u306e\u3000\u91cf\u304c\u3000\u5909\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa recupera PS. Il numero di PS recuperati\ndipende dalle condizioni atmosferiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Restaura PS del usuario. La cantidad var\u00eda seg\u00fan\nel tiempo que haga.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "F\u00fcllt KP des Anwenders auf.\nDie Menge h\u00e4ngt vom Wetter ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un soin qui restaure des PV au lanceur.\nSon efficacit\u00e9 varie en fonction de la m\u00e9t\u00e9o.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ub0a0\uc528\uc5d0 \ub530\ub77c\n\ud68c\ubcf5\ub7c9\uc774 \ubcc0\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002\n\u3066\u3093\u304d\u306b\u3000\u3088\u3063\u3066\n\u304b\u3044\u3075\u304f\u306e\u3000\u308a\u3087\u3046\u304c\u3000\u3078\u3093\u304b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its own HP.\nThe amount of HP regained varies\nwith the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un soin qui restaure des PV au lanceur.\nSon efficacit\u00e9 varie en fonction de la\nm\u00e9t\u00e9o.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Restores the user\u2019s\nHP. The amount of\nHP regained varies\nwith the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Restores HP. The amount\nvaries with the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Restores HP. The amount\nvaries with the weather.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Restores HP\n(varies by time).",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Restores HP\n(varies by time).",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 235,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "heal",
+            "url": "/api/v2/move-category/3/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 50,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "synthesis",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5149\u5408\u4f5c\u7528"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3053\u3046\u3054\u3046\u305b\u3044"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Synthesis"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sintesi"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "S\u00edntesis"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Synthese"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Synth\u00e8se"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5149\u5408\u4f5c\u7528"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uad11\ud569\uc131"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3053\u3046\u3054\u3046\u305b\u3044"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/8/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+    }
+}
