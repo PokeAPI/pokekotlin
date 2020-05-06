@@ -1,11 +1,11 @@
-[![Build Status](https://travis-ci.org/PokeAPI/pokekotlin.svg?branch=master)](https://travis-ci.org/PokeAPI/pokekotlin)
-[![Download](https://api.bintray.com/packages/sargunster/maven/pokekotlin/images/download.svg) ](https://bintray.com/sargunster/maven/pokekotlin/_latestVersion)
+[![Build](https://img.shields.io/github/workflow/status/pokeapi/pokekotlin/Java%20CI%20with%20Gradle?style=flat-square)][Build]
+[![JitPack](https://img.shields.io/jitpack/v/github/PokeAPI/pokekotlin?style=flat-square)][Jitpack]
 
 # PokeKotlin
 
 Maintainer: [sargunv](https://github.com/sargunv)
 
-This is a Java (and Kotlin, Scala, etc) client for [PokeApi](https://github.com/PokeAPI/pokeapi). It's written in Kotlin.
+This is a Kotlin (and Java, Scala, etc) client for [PokeApi](https://github.com/PokeAPI/pokeapi). It's written in Kotlin.
 
 ## Example
 
@@ -35,37 +35,17 @@ fun main(args: Array<String>) {
 
 ## Download
 
-PokeKotlin is available from the JCenter repository.
-
-### Gradle
+PokeKotlin is available from [Jitpack]. See the Releases tab for the latest version number.
 
 ```groovy
 repositories {
-    maven { url 'http://jcenter.bintray.com' }
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 dependencies {
-    implementation 'me.sargunvohra.lib:pokekotlin:2.3.0'
+    implementation 'com.github.PokeAPI:pokekotlin:<VERSION>'
 }
 ```
 
-### Maven
-
-```xml
-<project>
-    <repositories>
-        <repository>
-            <id>central</id>
-            <name>bintray</name>
-            <url>http://jcenter.bintray.com</url>
-        </repository>
-    </repositories>
-    <dependencies>
-        <dependency>
-            <groupId>me.sargunvohra.lib</groupId>
-            <artifactId>pokekotlin</artifactId>
-            <version>2.3.0</version>
-            <type>jar</type>
-        </dependency>
-    </dependencies>
-</project>
-```
+[Build]: https://github.com/PokeAPI/pokekotlin/actions?query=workflow%3A%22Java+CI+with+Gradle%22
+[Jitpack]: https://jitpack.io/#PokeAPI/pokekotlin/
