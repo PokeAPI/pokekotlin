@@ -9,11 +9,11 @@ import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import java.lang.reflect.Type
 
 private fun urlToId(url: String): Int {
-    return "\\/-?[0-9]+\\/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
+    return "/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
 }
 
 private fun urlToCat(url: String): String {
-    return "\\/[a-z\\-]+\\/-?[0-9]+\\/$".toRegex().find(url)!!.value.filter { it.isLetter() || it == '-' }
+    return "/[a-z\\-]+/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isLetter() || it == '-' }
 }
 
 internal class ApiResourceAdapter : JsonDeserializer<ApiResource> {
