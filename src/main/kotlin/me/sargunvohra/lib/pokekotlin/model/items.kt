@@ -18,7 +18,7 @@ data class Item(
 )
 
 data class ItemSprites(
-        val default: String
+        val default: String?
 )
 
 data class ItemHolderPokemon(

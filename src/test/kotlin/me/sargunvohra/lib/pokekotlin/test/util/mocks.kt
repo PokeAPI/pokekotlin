@@ -1,5 +1,8 @@
 package me.sargunvohra.lib.pokekotlin.test.util
 
+import com.google.gson.Gson
+import com.google.gson.JsonArray
+import com.google.gson.JsonObject
 import de.schlichtherle.truezip.file.TFile
 import de.schlichtherle.truezip.file.TFileReader
 import me.sargunvohra.lib.pokekotlin.client.ClientConfig
@@ -32,13 +35,27 @@ object MockServer {
 
         // setup the dispatcher to use files in the archive as the mock responses
         server.dispatcher = object : Dispatcher() {
+            private val gson = Gson()
+
+            private fun limit(text: String, limit: Int): String {
+                val obj = gson.fromJson(text, JsonObject::class.java)
+                val fullResults = obj["results"].asJsonArray
+                val limitedResults = JsonArray(limit)
+                fullResults.take(limit).forEach { limitedResults.add(it) }
+                obj.add("results", limitedResults)
+                if (fullResults.size() > limit)
+                    obj.addProperty("next", "DUMMY")
+                return gson.toJson(obj)
+            }
+
             override fun dispatch(request: RecordedRequest): MockResponse {
                 val basePath = request.path.dropLastWhile { it != '/' }
-                val limit = server.url(request.path).queryParameter("limit")
-                val filename = if (limit == null) "index.json" else "limit=$limit.json"
-                val file = TFile(sampleArchivePath.toString() + basePath + filename)
+                val limit = server.url(request.path).queryParameter("limit")?.toInt()
+                val file = TFile(sampleArchivePath.toString() + basePath + "index.json")
                 return if (file.exists()) {
-                    val text = TFileReader(file).use { it.readText() }
+                    var text = TFileReader(file).use { it.readText() }
+                    if (limit != null)
+                        text = limit(text, limit)
                     MockResponse().setBody(Buffer().writeString(text, Charset.defaultCharset()))
                 } else MockResponse().setResponseCode(404)
             }

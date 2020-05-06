@@ -39,7 +39,7 @@ class ItemTest {
             assertEquals(emptyList(), heldByPokemon)
             assertEquals(null, flingEffect)
             assertEquals(null, babyTriggerFor)
-            assert(sprites.default.endsWith("/sprites/items/ice-heal.png"))
+            assert(sprites.default!!.endsWith("/sprites/items/ice-heal.png"))
         }
     }
 
@@ -68,6 +68,11 @@ class ItemTest {
         mockClient.getItem(231).apply {
             assertEquals(ApiResource("evolution-chain", 90), babyTriggerFor)
         }
+    }
+
+    @Test
+    fun getItem5() {
+        mockClient.getItem(967)
     }
 
     @Test

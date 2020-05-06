@@ -41,7 +41,7 @@ class BulkTest {
         val count = ids.size
         println("$cat: $count total")
         ids.forEachIndexed { i, id ->
-            print("${i + 1}/$count ($id) ... ")
+            print("${i + 1}/$count (id=$id) ... ")
             try {
                 val o = getObject(id)
                 print("deserialized ... ")
