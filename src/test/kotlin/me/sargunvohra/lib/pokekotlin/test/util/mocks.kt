@@ -29,7 +29,7 @@ object MockServer {
         val resourcePath = MockServer::class.java.getResource("/api.zip").toURI().path
 
         // setup the dispatcher to use files in the archive as the mock responses
-        server.setDispatcher(object : Dispatcher() {
+        server.dispatcher = object : Dispatcher() {
             override fun dispatch(request: RecordedRequest): MockResponse {
                 val basePath = request.path.dropLastWhile { it != '/' }
                 val limit = server.url(request.path).queryParameter("limit")
@@ -40,6 +40,6 @@ object MockServer {
                     MockResponse().setBody(Buffer().writeString(text, Charset.defaultCharset()))
                 } else MockResponse().setResponseCode(404)
             }
-        })
+        }
     }
 }

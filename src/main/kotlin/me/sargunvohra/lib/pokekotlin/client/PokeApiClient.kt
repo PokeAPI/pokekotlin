@@ -3,7 +3,7 @@ package me.sargunvohra.lib.pokekotlin.client
 import retrofit2.Call
 
 class PokeApiClient(
-        private val clientConfig: ClientConfig = ClientConfig()
+        clientConfig: ClientConfig = ClientConfig()
 ) : PokeApi {
 
     private val service = PokeApiServiceImpl(clientConfig)

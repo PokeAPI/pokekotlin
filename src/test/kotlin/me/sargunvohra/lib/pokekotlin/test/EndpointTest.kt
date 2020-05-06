@@ -37,8 +37,7 @@ class EndpointTest {
                     .keys
                     .map { endpoint ->
                         endpoint.split('-')
-                                .map { it.capitalize() }
-                                .joinToString(separator = "")
+                                .joinToString(separator = "") { it.capitalize() }
                     }
                     .toSet()
         }
@@ -54,9 +53,9 @@ class EndpointTest {
                 .map { it.name.removePrefix("get") }
                 .groupBy { it.endsWith("List") }
 
-        val actualSingleResources = actualResources[false]!!.toSet()
+        val actualSingleResources = actualResources.getValue(false).toSet()
 
-        val actualListResources = actualResources[true]!!.toSet()
+        val actualListResources = actualResources.getValue(true).toSet()
 
         // make sure the resources in the client match the ones in the API
 

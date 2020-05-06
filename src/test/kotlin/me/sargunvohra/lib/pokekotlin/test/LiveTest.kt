@@ -6,17 +6,16 @@ import org.junit.Ignore
 import org.junit.Test
 import kotlin.test.assertEquals
 
+@Ignore
 class LiveTest {
 
-    val liveClient = PokeApiClient()
+    private val liveClient = PokeApiClient()
 
-    @Ignore
     @Test
     fun liveObject() {
         assertEquals(mockClient.getBerry(10), liveClient.getBerry(10))
     }
 
-    @Ignore
     @Test
     fun liveList() {
         assertEquals(liveClient.getMoveList(0, 50).results[25], liveClient.getMoveList(25, 50).results[0])
