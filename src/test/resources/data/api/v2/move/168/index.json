@@ -1,0 +1,819 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/20/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPok\u00e9mon with sticky hold or multitype are immune to the item theft effect.\n\nThe target cannot recover its item with recycle.\n\nThis move cannot be selected by assist or metronome.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Takes the target's item."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u653b\u51fb\u7684\u540c\u65f6\u76d7\u53d6\u9053\u5177\u3002\n\u5f53\u81ea\u5df1\u643a\u5e26\u9053\u5177\u65f6\uff0c\n\u4e0d\u4f1a\u53bb\u76d7\u53d6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3068\u3000\u540c\u6642\u306b\u3000\u9053\u5177\u3092\u3000\u76d7\u3080\u3002\n\u81ea\u5206\u304c\u3000\u9053\u5177\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u5834\u5408\u306f\n\u76d7\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and steals the target\u2019s held item\nsimultaneously. The user can\u2019t steal anything if it\nalready holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio e pu\u00f2 rubargli\nlo strumento, se non ne ha gi\u00e0 uno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca y le quita el objeto al objetivo siempre y \ncuando el agresor no lleve ninguno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht es, das Item des Zieles zu stehlen, solang\nder Anwender selbst keins bei sich tr\u00e4gt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque la cible et vole son objet.\nLe lanceur ne peut rien voler s\u2019il tient d\u00e9j\u00e0\nun objet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u653b\u64ca\u7684\u540c\u6642\u5077\u53d6\u9053\u5177\u3002\n\u7576\u5bf6\u53ef\u5922\u81ea\u5df1\u6709\u651c\u5e36\u9053\u5177\u6642\uff0c\n\u5247\u7121\u6cd5\u5077\u53d6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uacfc \ub3d9\uc2dc\uc5d0 \ub3c4\uad6c\ub97c \ud6d4\uce5c\ub2e4.\n\uc790\uc2e0\uc774 \ub3c4\uad6c\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \uacbd\uc6b0\uc5d0\ub294\n\ud6d4\uce60 \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3068\u3000\u3069\u3046\u3058\u306b\u3000\u3069\u3046\u3050\u3092\u3000\u306c\u3059\u3080\u3002\n\u3058\u3076\u3093\u304c\u3000\u3069\u3046\u3050\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3070\u3042\u3044\u306f\n\u306c\u3059\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u51fb\u7684\u540c\u65f6\u76d7\u53d6\u9053\u5177\u3002\n\u5f53\u81ea\u5df1\u643a\u5e26\u9053\u5177\u65f6\uff0c\n\u4e0d\u4f1a\u53bb\u76d7\u53d6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3068\u3000\u540c\u6642\u306b\u3000\u9053\u5177\u3092\u3000\u76d7\u3080\u3002\n\u81ea\u5206\u304c\u3000\u9053\u5177\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u5834\u5408\u306f\n\u76d7\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and steals the target\u2019s held item\nsimultaneously. The user can\u2019t steal anything if it\nalready holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio e pu\u00f2 rubargli\nlo strumento, se non ne ha gi\u00e0 uno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca y le quita el objeto al objetivo siempre y \ncuando el agresor no lleve ninguno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht es, das Item des Zieles zu stehlen, solang\nder Anwender selbst keins bei sich tr\u00e4gt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque la cible et vole son objet.\nLe lanceur ne peut rien voler s\u2019il tient d\u00e9j\u00e0\nun objet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u653b\u64ca\u7684\u540c\u6642\u5077\u53d6\u9053\u5177\u3002\n\u7576\u5bf6\u53ef\u5922\u81ea\u5df1\u6709\u651c\u5e36\u9053\u5177\u6642\uff0c\n\u5247\u7121\u6cd5\u5077\u53d6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uacfc \ub3d9\uc2dc\uc5d0 \ub3c4\uad6c\ub97c \ud6d4\uce5c\ub2e4.\n\uc790\uc2e0\uc774 \ub3c4\uad6c\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \uacbd\uc6b0\uc5d0\ub294\n\ud6d4\uce60 \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3068\u3000\u3069\u3046\u3058\u306b\u3000\u3069\u3046\u3050\u3092\u3000\u306c\u3059\u3080\u3002\n\u3058\u3076\u3093\u304c\u3000\u3069\u3046\u3050\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3070\u3042\u3044\u306f\n\u306c\u3059\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3068\u3000\u540c\u6642\u306b\u3000\u9053\u5177\u3092\u3000\u76d7\u3080\u3002\n\u81ea\u5206\u304c\u3000\u9053\u5177\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u5834\u5408\u306f\n\u76d7\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and steals the target\u2019s\nheld item simultaneously. The user can\u2019t\nsteal anything if it already holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio e pu\u00f2 rubargli\nlo strumento, se non ne ha gi\u00e0 uno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca y le quita el objeto al objetivo siempre y \ncuando el agresor no lleve ninguno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Erlaubt es, das Item des Zieles zu stehlen,\nsolang der Anwender selbst keins bei sich tr\u00e4gt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque la cible et vole son objet.\nLe lanceur ne peut rien voler s\u2019il tient d\u00e9j\u00e0\nun objet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uacfc \ub3d9\uc2dc\uc5d0 \ub3c4\uad6c\ub97c \ud6d4\uce5c\ub2e4.\n\uc790\uc2e0\uc774 \ub3c4\uad6c\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \uacbd\uc6b0\uc5d0\ub294\n\ud6d4\uce60 \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3068\u3000\u3069\u3046\u3058\u306b\u3000\u3069\u3046\u3050\u3092\u3000\u306c\u3059\u3080\u3002\n\u3058\u3076\u3093\u304c\u3000\u3069\u3046\u3050\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3070\u3042\u3044\u306f\n\u306c\u3059\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3068\u3000\u540c\u6642\u306b\u3000\u9053\u5177\u3092\u3000\u76d7\u3080\u3002\n\u81ea\u5206\u304c\u3000\u9053\u5177\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3000\u5834\u5408\u306f\n\u76d7\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and steals the target\u2019s\nheld item simultaneously. The user can\u2019t\nsteal anything if it already holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio e pu\u00f2 rubargli\nlo strumento, se non ne ha gi\u00e0 uno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robar\u00e1 el del\nobjetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Erlaubt es, das Item des Zieles zu stehlen,\nsolang der Anwender selbst keins bei sich tr\u00e4gt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque la cible et vole son objet.\nLe lanceur ne peut rien voler s\u2019il tient d\u00e9j\u00e0\nun objet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uacfc \ub3d9\uc2dc\uc5d0 \ub3c4\uad6c\ub97c \ud6d4\uce5c\ub2e4.\n\uc790\uc2e0\uc774 \ub3c4\uad6c\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \uacbd\uc6b0\uc5d0\ub294\n\ud6d4\uce60 \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3068\u3000\u3069\u3046\u3058\u306b\u3000\u3069\u3046\u3050\u3092\u3000\u306c\u3059\u3080\u3002\n\u3058\u3076\u3093\u304c\u3000\u3069\u3046\u3050\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3070\u3042\u3044\u306f\n\u306c\u3059\u3081\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and steals the target\u2019s\nheld item simultaneously.\nIt can\u2019t steal if the user holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and steals the target\u2019s\nheld item simultaneously.\nIt can\u2019t steal if the user holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque la cible et vole\nson objet. Le lanceur ne peut rien\nvoler s\u2019il tient d\u00e9j\u00e0 un objet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and\nsteals the foe\u2019s held\nitem simultaneously.\nIt can\u2019t steal if the\nuser holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and\nsteals the foe\u2019s held\nitem simultaneously.\nIt can\u2019t steal if the\nuser holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks and\nsteals the foe\u2019s held\nitem simultaneously.\nIt can\u2019t steal if the\nuser holds an item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\ntake the foe\u2019s held\nitem if the user\nisn\u2019t holding one.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "While attacking, it may\nsteal the foe\u2019s held item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "While attacking, it may\nsteal the foe\u2019s held item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\nsteal a held item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\nsteal a held item.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 168,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/813/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/814/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/815/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/816/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/817/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/818/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/819/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/820/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/821/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/822/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/823/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/824/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/825/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/826/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/827/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/828/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "thief",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5c0f\u5077"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3069\u308d\u307c\u3046"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Thief"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Furto"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Ladr\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Raub"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Larcin"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5c0f\u5077"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub3c4\ub451\uc9c8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3069\u308d\u307c\u3046"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 40,
+            "pp": 10,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 60,
+    "pp": 25,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/12/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+    }
+}

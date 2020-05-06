@@ -1,0 +1,555 @@
+{
+    "attributes": [
+        {
+            "name": "holdable-active",
+            "url": "/api/v2/item-attribute/7/"
+        },
+        {
+            "name": "holdable",
+            "url": "/api/v2/item-attribute/5/"
+        }
+    ],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "choice",
+        "url": "/api/v2/item-category/13/"
+    },
+    "cost": 4000,
+    "effect_entries": [
+        {
+            "effect": "Held in battle\n:   Holder has 1.5\u00d7 its Attack.  When the holder attempts to use a move, all its other moves are disabled until it leaves battle or loses this item.\n\n    The restriction ends even if this item is swapped for another Choice item\nvia trick or switcheroo.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Held: Increases Attack by 50%, but restricts the holder to only one move."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u6709\u70b9\u8bb2\u7a76\u7684\u5934\u5e26\u3002\n\u867d\u7136\u643a\u5e26\u540e\u653b\u51fb\u4f1a\u63d0\u9ad8\uff0c\n\u4f46\u53ea\u80fd\u4f7f\u51fa\u76f8\u540c\u7684\u62db\u5f0f\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3061\u3087\u3063\u3068\u3000\u3053\u3060\u308f\u3063\u305f\u3000\u30cf\u30c1\u30de\u30ad\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u653b\u6483\u306f\u3000\u3042\u304c\u308b\u304c\n\u540c\u3058\u3000\u6280\u3057\u304b\u3000\u3060\u305b\u306a\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This curious\nheadband boosts Attack but only allows the use of\none move.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nQuesta benda aumenta la potenza delle mosse,\nma permette l\u2019uso di una sola mossa.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Aumenta la potencia de los ataques f\u00edsicos del\nPok\u00e9mon que la lleva, pero solo le permite usar\nun movimiento.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das von einem Pok\u00e9mon getragen werden\nkann. Es st\u00e4rkt den Angriffs-Wert, aber nur eine\nAttacke ist einsetzbar.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Ce bandeau augmente l\u2019Attaque,\nmais ne permet d\u2019utiliser qu\u2019une seule capacit\u00e9\npar combat.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u6709\u9ede\u8b1b\u7a76\u7684\u982d\u5e36\u3002\n\u96d6\u7136\u651c\u5e36\u5f8c\u653b\u64ca\u6703\u63d0\u9ad8\uff0c\n\u4f46\u53ea\u80fd\u4f7f\u51fa\u76f8\u540c\u7684\u62db\u5f0f\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uae30\uc220\uc744 \uad6c\uc560\ubc1b\ub294 \uba38\ub9ac\ub760.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \uacf5\uaca9\uc740 \uc62c\ub77c\uac00\uc9c0\ub9cc\n\ub611\uac19\uc740 \uae30\uc220\ubc16\uc5d0 \uc4f0\uc9c0 \ubabb\ud55c\ub2e4.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3061\u3087\u3063\u3068\u3000\u3053\u3060\u308f\u3063\u305f\u3000\u30cf\u30c1\u30de\u30ad\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3053\u3046\u3052\u304d\u306f\u3000\u3042\u304c\u308b\u304c\n\u304a\u306a\u3058\u3000\u308f\u3056\u3057\u304b\u3000\u3060\u305b\u306a\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u6709\u70b9\u8bb2\u7a76\u7684\u5934\u5e26\u3002\n\u867d\u7136\u643a\u5e26\u540e\u653b\u51fb\u4f1a\u63d0\u9ad8\uff0c\n\u4f46\u53ea\u80fd\u4f7f\u51fa\u76f8\u540c\u7684\u62db\u5f0f\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3061\u3087\u3063\u3068\u3000\u3053\u3060\u308f\u3063\u305f\u3000\u30cf\u30c1\u30de\u30ad\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u653b\u6483\u306f\u3000\u3042\u304c\u308b\u304c\n\u540c\u3058\u3000\u6280\u3057\u304b\u3000\u3060\u305b\u306a\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This curious\nheadband boosts Attack but only allows the use of\none move.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nQuesta benda aumenta la potenza delle mosse,\nma permette l\u2019uso di una sola mossa.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Aumenta la potencia de los ataques f\u00edsicos del\nPok\u00e9mon que la lleva, pero solo le permite usar\nun movimiento.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das von einem Pok\u00e9mon getragen werden\nkann. Es st\u00e4rkt den Angriffs-Wert, aber nur eine\nAttacke ist einsetzbar.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Ce bandeau augmente l\u2019Attaque,\nmais ne permet d\u2019utiliser qu\u2019une seule capacit\u00e9\npar combat.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u6709\u9ede\u8b1b\u7a76\u7684\u982d\u5e36\u3002\n\u96d6\u7136\u651c\u5e36\u5f8c\u653b\u64ca\u6703\u63d0\u9ad8\uff0c\n\u4f46\u53ea\u80fd\u4f7f\u51fa\u76f8\u540c\u7684\u62db\u5f0f\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uae30\uc220\uc744 \uad6c\uc560\ubc1b\ub294 \uba38\ub9ac\ub760.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \uacf5\uaca9\uc740 \uc62c\ub77c\uac00\uc9c0\ub9cc\n\ub611\uac19\uc740 \uae30\uc220\ubc16\uc5d0 \uc4f0\uc9c0 \ubabb\ud55c\ub2e4.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3061\u3087\u3063\u3068\u3000\u3053\u3060\u308f\u3063\u305f\u3000\u30cf\u30c1\u30de\u30ad\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3053\u3046\u3052\u304d\u306f\u3000\u3042\u304c\u308b\u304c\n\u304a\u306a\u3058\u3000\u308f\u3056\u3057\u304b\u3000\u3060\u305b\u306a\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u3061\u3087\u3063\u3068\u3000\u3053\u3060\u308f\u3063\u305f\u3000\u30cf\u30c1\u30de\u30ad\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u653b\u6483\u306f\u3000\u3042\u304c\u308b\u304c\n\u540c\u3058\u3000\u6280\u3057\u304b\u3000\u3060\u305b\u306a\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nThis curious headband boosts Attack\nbut only allows the use of one move.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nQuesta benda aumenta l\u2019Attacco, ma permette\nl\u2019uso di una sola mossa.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Debe llevarla un Pok\u00e9mon. La suavidad de la\narena fortalece los movimientos de tipo Tierra.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das von einem Pok\u00e9mon getragen\nwerden kann. Es st\u00e4rkt den Angriffs-Wert,\naber nur eine Attacke ist einsetzbar.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Ce bandeau augmente l\u2019Attaque,\nmais ne permet d\u2019utiliser qu\u2019une seule capacit\u00e9\npar combat.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uae30\uc220\uc744 \uad6c\uc560\ubc1b\ub294 \uba38\ub9ac\ub760.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \uacf5\uaca9\uc740 \uc62c\ub77c\uac00\uc9c0\ub9cc\n\ub611\uac19\uc740 \uae30\uc220\ubc16\uc5d0 \uc4f0\uc9c0 \ubabb\ud55c\ub2e4.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3061\u3087\u3063\u3068\u3000\u3053\u3060\u308f\u3063\u305f\u3000\u30cf\u30c1\u30de\u30ad\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3053\u3046\u3052\u304d\u306f\u3000\u3042\u304c\u308b\u304c\n\u304a\u306a\u3058\u3000\u308f\u3056\u3057\u304b\u3000\u3060\u305b\u306a\u304f\u306a\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nThis headband ups Attack, but allows\nthe use of only one of its moves.",
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nThis headband ups Attack, but allows\nthe use of only one of its moves.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Ce bandeau monte\nl\u2019Attaque, mais ne permet d\u2019utiliser\nqu\u2019une seule capacit\u00e9 par combat.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nThis headband ups Attack, but allows\nthe use of only one kind of move.",
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nThis headband ups Attack, but allows\nthe use of only one kind of move.",
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nThis headband ups Attack, but allows\nthe use of only one kind of move.",
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a POK\u00e9MON.\nIt powers up one move, which\nbecomes the only usable one.",
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "Raises a move\u2019s\npower, but permits\nonly that move.",
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "Raises a move\u2019s\npower, but permits\nonly that move.",
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": 10,
+    "game_indices": [
+        {
+            "game_index": 220,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
+        },
+        {
+            "game_index": 220,
+            "generation": {
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
+            }
+        },
+        {
+            "game_index": 220,
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 220,
+            "generation": {
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
+            }
+        },
+        {
+            "game_index": 186,
+            "generation": {
+                "name": "generation-iii",
+                "url": "/api/v2/generation/3/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 197,
+    "machines": [],
+    "name": "choice-band",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8bb2\u7a76\u5934\u5e26"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3053\u3060\u308f\u308a\u30cf\u30c1\u30de\u30ad"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Choice Band"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Bendascelta"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Cinta Elegida"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Wahlband"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Bandeau Choix"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8b1b\u7a76\u982d\u5e36"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uad6c\uc560\uba38\ub9ac\ub760"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3053\u3060\u308f\u308a\u30cf\u30c1\u30de\u30ad"
+        }
+    ],
+    "sprites": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png"
+    }
+}

@@ -1,0 +1,783 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "yellow",
+        "url": "/api/v2/pokemon-color/10/"
+    },
+    "egg_groups": [
+        {
+            "name": "bug",
+            "url": "/api/v2/egg-group/3/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/135/"
+    },
+    "evolves_from_species": {
+        "name": "silcoon",
+        "url": "/api/v2/pokemon-species/266/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u304f\u308b\u308a\u3068\u3000\u5dfb\u3044\u305f\u3000\u91dd\u306e\u3000\u3088\u3046\u306a\u3000\u9577\u3044\u3000\u53e3\u306f\n\u82b1\u7c89\u3092\u3000\u96c6\u3081\u308b\u3000\u3068\u304d\u306b\u3000\u3068\u3066\u3082\u3000\u4fbf\u5229\u3002\n\u6625\u98a8\u306b\u3000\u4e57\u3063\u3066\u3000\u82b1\u7c89\u3092\u3000\u96c6\u3081\u3066\u307e\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Beautifly has a long mouth like a coiled needle, which is very\nconvenient for collecting pollen from flowers. This Pok\u00e9mon\nrides the spring winds as it flits around gathering pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "La bocca di Beautifly \u00e8 costituita da un ago spiraliforme, molto\nutile per succhiare il polline dai fiori. Questo Pok\u00e9mon si\nfa trasportare dal vento nei suoi viaggi alla ricerca del polline.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Beautifly tiene una boca enorme en espiral que parece una\naguja y le resulta muy \u00fatil para recolectar polen. Este\nPok\u00e9mon va revoloteando de flor en flor para recogerlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Papinella hat einen langen R\u00fcssel, der hervorragend zum\nSammeln von Bl\u00fctenpollen geeignet ist. Dieses Pok\u00e9mon\nflattert im Fr\u00fchlingswind herum und sammelt Bl\u00fctenstaub.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Charmillon a une longue trompe en spirale, particuli\u00e8rement\npratique pour r\u00e9cup\u00e9rer le pollen des fleurs. Ce Pok\u00e9mon\nse laisse porter par les vents printaniers pendant qu\u2019il butine.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub465\uae00\uac8c \ub9d0\ub9b0 \ubc14\ub298\uac19\uc774 \uc0dd\uae34 \uae34 \uc785\uc740\n\uaf43\uac00\ub8e8\ub97c \ubaa8\uc744 \ub54c \ub9e4\uc6b0 \ud3b8\ub9ac\ud558\ub2e4.\n\ubd04\ubc14\ub78c\uc744 \ud0c0\uace0 \uaf43\uac00\ub8e8\ub97c \ubaa8\uc73c\ub7ec \ub3cc\uc544\ub2e4\ub2cc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u308b\u308a\u3068\u3000\u307e\u3044\u305f\u3000\u306f\u308a\u306e\u3000\u3088\u3046\u306a\u3000\u306a\u304c\u3044\u3000\u304f\u3061\u306f\n\u304b\u3075\u3093\u3092\u3000\u3042\u3064\u3081\u308b\u3000\u3068\u304d\u306b\u3000\u3068\u3066\u3082\u3000\u3079\u3093\u308a\u3002\n\u306f\u308b\u304b\u305c\u306b\u3000\u306e\u3063\u3066\u3000\u304b\u3075\u3093\u3092\u3000\u3042\u3064\u3081\u3066\u3000\u307e\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u7518\u3044\u3000\u82b1\u7c89\u304c\u3000\u5927\u597d\u7269\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u82b1\u3092\u3000\u3064\u3051\u305f\u3000\u9262\u690d\u3048\u3092\u3000\u7a93\u8fba\u306b\u3000\u7f6e\u3051\u3070\n\u82b1\u7c89\u3092\u3000\u96c6\u3081\u306b\u3000\u5fc5\u305a\u3000\u98db\u3093\u3067\u304f\u308b\u3088\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Beautifly\u2019s favorite food is the sweet pollen of flowers. If you\nwant to see this Pok\u00e9mon, just leave a potted flower by an\nopen window. Beautifly is sure to come looking for pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il nutrimento preferito da Beautifly \u00e8 il polline dei fiori.\nPer attirare questo Pok\u00e9mon basta mettere una pianta fiorita\nsul davanzale: senza dubbio si avviciner\u00e0 in cerca di polline.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La comida favorita de Beautifly es el dulce polen de las flores.\nSi quieres ver a este Pok\u00e9mon, deja una maceta con flores al\nlado de la ventana y ver\u00e1s c\u00f3mo aparece un ejemplar de\nBeautifly en busca de polen.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Papinellas Lieblingsspeise ist Bl\u00fctenstaub. Wenn du dieses\nPok\u00e9mon beobachten m\u00f6chtest, musst du blo\u00df einen\nBlumentopf vor ein ge\u00f6ffnetes Fenster stellen. Papinella\nwird sich diese Leckerei nicht entgehen lassen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La nourriture pr\u00e9f\u00e9r\u00e9e de Charmillon est le pollen sucr\u00e9\ndes fleurs. Si on veut voir ce Pok\u00e9mon, il suffit de laisser\nune fleur en pot sur un rebord de fen\u00eatre. Charmillon viendra\ns\u00fbrement voir s\u2019il y a du pollen.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub2ec\ucf64\ud55c \uaf43\uac00\ub8e8\ub97c \ub9e4\uc6b0 \uc88b\uc544\ud558\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uaf43\uc774 \ud540 \ud654\ubd84\uc744 \ucc3d\uac00\uc5d0 \ub450\uba74\n\uaf43\uac00\ub8e8\ub97c \ubaa8\uc73c\ub824\uace0 \ubc18\ub4dc\uc2dc \ub0a0\uc544\uc628\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u307e\u3044\u3000\u304b\u3075\u3093\u304c\u3000\u3060\u3044\u3053\u3046\u3076\u3064\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u306f\u306a\u3092\u3000\u3064\u3051\u305f\u3000\u306f\u3061\u3046\u3048\u3092\u3000\u307e\u3069\u3079\u306b\u3000\u304a\u3051\u3070\n\u304b\u3075\u3093\u3092\u3000\u3042\u3064\u3081\u306b\u3000\u304b\u306a\u3089\u305a\u3000\u3068\u3093\u3067\u304f\u308b\u3088\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u9577\u7d30\u3044\u3000\u53e3\u3092\u3000\u7a81\u304d\u523a\u3057\u3066\n\u76f8\u624b\u306e\u3000\u4f53\u6db2\u3092\u3000\u5438\u3044\u53d6\u308b\u3002\n\u653b\u6483\u7684\u306a\u3000\u6027\u683c\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It has an aggressive nature. It stabs prey with its\nlong, narrow mouth to drain the prey\u2019s fluids.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ha un\u2019indole aggressiva. Conficca la sua bocca\nlunga e sottile nelle prede e ne succhia i fluidi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es un Pok\u00e9mon agresivo. Con su boca larga y afilada\nataca a sus rivales para drenar sus fluidos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es besitzt ein aggressives Wesen. Es sticht seinen\nR\u00fcssel in seine Beute und saugt sie aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il est tr\u00e8s agressif. Il pique sa proie avec son long\nmuseau \u00e9troit et absorbe sa vitalit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uac00\ub298\uace0 \uae34 \uc785\uc744 \uae4a\uc774 \ucc14\ub7ec\n\uc0c1\ub300\uc758 \uccb4\uc561\uc744 \ud761\uc218\ud55c\ub2e4.\n\uacf5\uaca9\uc801\uc778 \uc131\uaca9\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u307b\u305d\u306a\u304c\u3044\u3000\u304f\u3061\u3092\u3000\u3064\u304d\u3055\u3057\u3066\n\u3042\u3044\u3066\u306e\u3000\u305f\u3044\u3048\u304d\u3092\u3000\u3059\u3044\u3068\u308b\u3002\n\u3053\u3046\u3052\u304d\u3066\u304d\u306a\u3000\u305b\u3044\u304b\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u8272\u3000\u9bae\u3084\u304b\u306a\u3000\u7fbd\u306e\u3000\u6a21\u69d8\u304c\u3000\u7279\u5fb4\u3002\n\u7d30\u3044\u3000\u53e3\u3092\u3000\u4f38\u3070\u3057\u3066\n\u82b1\u306e\u3000\u7518\u3044\u3000\u30df\u30c4\u3092\u3000\u5438\u3044\u53d6\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vibrantly patterned wings are its prominent feature.\nIt sucks sweet flower nectar with its long mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sulle ali ha splendidi, vividi colori. Succhia il dolce\npolline dai fiori allungando la bocca sottile.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Los dibujos de sus coloridas alas son muy peculiares.\nLiba el n\u00e9ctar de las flores con su fina trompa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Die bunten Fl\u00fcgel sind sein Markenzeichen.\nMit seinem R\u00fcssel saugt es s\u00fc\u00dfen Honig aus Blumen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "R\u00e9put\u00e9 pour les motifs de ses ailes aux couleurs vives.\nIl allonge sa trompe pour butiner le nectar.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c9\uc774 \uc120\uba85\ud55c \ub0a0\uac1c\uc758 \ubb34\ub2ac\uac00\n\ud2b9\uc9d5\uc774\ub2e4. \uac00\ub294 \uc785\uc744 \ubed7\uc5b4\n\uaf43\uc758 \ub2ec\ucf64\ud55c \uafc0\uc744 \ud761\uc218\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u308d\u3000\u3042\u3056\u3084\u304b\u306a\u3000\u306f\u306d\u306e\u3000\u3082\u3088\u3046\u304c\n\u3068\u304f\u3061\u3087\u3046\u3002\u307b\u305d\u3044\u3000\u304f\u3061\u3092\u3000\u306e\u3070\u3057\u3066\n\u306f\u306a\u306e\u3000\u3042\u307e\u3044\u3000\u30df\u30c4\u3092\u3000\u3059\u3044\u3068\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Despite its looks, it is aggressive.\nIt jabs with its long, thin mouth if\ndisturbed while collecting pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Despite its looks, it is aggressive.\nIt jabs with its long, thin mouth if\ndisturbed while collecting pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Despite its looks, it is aggressive.\nIt jabs with its long, thin mouth if\ndisturbed while collecting pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Malgr\u00e9 les apparences, il est tr\u00e8s\nagressif et attaque avec sa trompe\nquand on le d\u00e9range.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Despite its looks, it is aggressive.\nIt jabs with its long, thin mouth if\ndisturbed while collecting pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Malgr\u00e9 les apparences, il est tr\u00e8s\nagressif et attaque avec sa trompe\nquand on le d\u00e9range.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Vibrantly patterned wings are its\nprominent feature. It sucks sweet\nflower nectar with its long mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Vibrantly patterned wings are its\nprominent feature. It sucks sweet\nflower nectar with its long mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Despite its looks, it is aggressive.\nIt jabs with its long, thin mouth if\ndisturbed while collecting pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "When flower fields bloom, it flits\naround, collecting pollen. Despite\nits appearance, it is savage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has an aggressive nature. It\nstabs prey with its long, narrow\nmouth to drain the prey\u2019s fluids.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Despite its appearance, it has an\naggressive nature. It attacks by jabbing\nwith its long, thin mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Despite its appearance, it has an\naggressive nature. It attacks by jabbing\nwith its long, thin mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Its colorfully patterned wings are its\nmost prominent feature. It flies through\nflower-covered fields collecting pollen.\nIt attacks ferociously when angered.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "BEAUTIFLY has a long mouth like a coiled\nneedle, which is very convenient for\ncollecting pollen from flowers.\fThis POK\u00e9MON rides the spring winds as\nit flits around gathering pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "BEAUTIFLY\u2019s favorite food is the sweet\npollen of flowers. If you want to see\nthis POK\u00e9MON, just leave a potted\fflower by an open window. BEAUTIFLY\nis sure to come looking for pollen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u8774\u8776\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3061\u3087\u3046\u3061\u3087\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Butterfly Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Farfalla",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Mariposa",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Falter",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Papillon",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8774\u8776\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub098\ube44\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3061\u3087\u3046\u3061\u3087\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 15,
+    "id": 267,
+    "is_baby": false,
+    "name": "beautifly",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u72e9\u730e\u51e4\u8776"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a2\u30b2\u30cf\u30f3\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Beautifly"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Beautifly"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Beautifly"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Papinella"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Charmillon"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u72e9\u7375\u9cf3\u8776"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubdf0\ud2f0\ud50c\ub77c\uc774"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Agehunt"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a2\u30b2\u30cf\u30f3\u30c8"
+        }
+    ],
+    "order": 292,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 16,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 50,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 50,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 16,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 267,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "bug-wings",
+        "url": "/api/v2/pokemon-shape/13/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "beautifly",
+                "url": "/api/v2/pokemon/267/"
+            }
+        }
+    ]
+}

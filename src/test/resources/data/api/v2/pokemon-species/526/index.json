@@ -1,0 +1,874 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/268/"
+    },
+    "evolves_from_species": {
+        "name": "boldore",
+        "url": "/api/v2/pokemon-species/525/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5982\u679c\u4ee5\u5168\u529b\u5c04\u51fa\u80fd\u91cf\uff0c\n\u90a3\u529b\u91cf\u80fd\u8ba9\u5b83\u81ea\u5df1\u7684\u8eab\u4f53\n\u9aa4\u7136\u4ea7\u751f\u51fa\u65e0\u6570\u88c2\u7f1d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5168\u529b\u3067\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u6483\u3064\u3068\n\u305d\u306e\u3000\u30d1\u30ef\u30fc\u3067\u3000\u81ea\u5206\u306e\u3000\u8eab\u4f53\u306b\n\u7121\u6570\u306e\u3000\u4e80\u88c2\u304c\u3000\u306f\u3057\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "When it fires off energy with all its might, the\npower creates countless fissures on its body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Quando spara energia con tutte le sue forze,\nla potenza \u00e8 tale da causare numerose fessure\nsul suo corpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Cuando dispara energ\u00eda con todas sus fuerzas,\nla potencia es tal que le provoca incontables\nfisuras por todo el cuerpo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Wenn es mit geballter Kraft seine gesamte\nEnergie entl\u00e4dt, f\u00fchrt das dazu, dass sich auf\nseinem K\u00f6rper unz\u00e4hlige Risse auftun.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "D\u2019innombrables fissures se dessinent \u00e0\nla surface de son corps lorsqu\u2019il d\u00e9cha\u00eene\ntoute son \u00e9nergie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u5168\u529b\u5c04\u51fa\u80fd\u91cf\uff0c\n\u5f37\u5927\u7684\u529b\u91cf\u6703\u8b93\u7260\u81ea\u5df1\u7684\u8eab\u9ad4\n\u7522\u751f\u51fa\u7121\u6578\u7684\u88c2\u75d5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\ub825\uc73c\ub85c \uc5d0\ub108\uc9c0\ub97c \uc3d8\uba74\n\uadf8 \ud30c\uc6cc\ub85c \uc790\uc2e0\uc758 \ubab8\uc5d0\n\ubb34\uc218\ud55c \uade0\uc5f4\uc774 \uc0dd\uae34\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u305c\u3093\u308a\u3087\u304f\u3067\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u3046\u3064\u3068\n\u305d\u306e\u3000\u30d1\u30ef\u30fc\u3067\u3000\u3058\u3076\u3093\u306e\u3000\u304b\u3089\u3060\u306b\n\u3080\u3059\u3046\u306e\u3000\u304d\u308c\u3064\u304c\u3000\u306f\u3057\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u56e0\u4e3a\u62e5\u6709\u76f8\u5f53\u5927\u7684\u9a6c\u529b\uff0c\n\u6240\u4ee5\u662f\u6df1\u53d7\u5efa\u8bbe\u76f8\u5173\u4eba\u5458\u559c\u7231\uff0c\n\u88ab\u9009\u4f5c\u540c\u4f34\u7684\u5b9d\u53ef\u68a6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u306a\u308a\u306e\u3000\u99ac\u529b\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u306e\u3067\n\u5efa\u8a2d\u95a2\u4fc2\u8005\u304c\u3000\u597d\u3093\u3067\n\u30d1\u30fc\u30c8\u30ca\u30fc\u306b\u3000\u9078\u3076\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Known for its hefty horsepower, this Pok\u00e9mon\nis a popular partner for construction workers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "La grande forza di questo Pok\u00e9mon lo rende\nun partner ideale nei lavori di edilizia.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "La soberbia potencia de la que hace gala lo\nconvierte en un ayudante id\u00f3neo para todo\ntrabajador de la construcci\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Es verf\u00fcgt \u00fcber gewaltige St\u00e4rke und ist\ndeshalb bei Bauarbeitern sehr beliebt.\nDiese w\u00e4hlen es oft als Partner-Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon jouit d\u2019une force physique\nhors-norme, ce qui fait de lui le meilleur alli\u00e9\ndes chefs de chantier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u56e0\u70ba\u64c1\u6709\u76f8\u7576\u5927\u7684\u99ac\u529b\uff0c\n\u6240\u4ee5\u5efa\u7bc9\u76f8\u95dc\u4eba\u54e1\u5f88\u559c\u6b61\n\u9078\u64c7\u9019\u500b\u5bf6\u53ef\u5922\u7576\u62cd\u6a94\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub2f9\ud55c \uccb4\ub825\uc744 \uc9c0\ub2c8\uace0 \uc788\uc5b4\n\uac74\uc124 \uad00\uacc4\uc790\uac00 \ud30c\ud2b8\ub108\ub97c\n\uc120\ud0dd\ud560 \ub54c \uc120\ud638\ud558\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u306a\u308a\u306e\u3000\u3070\u308a\u304d\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u306e\u3067\n\u3051\u3093\u305b\u3064\u304b\u3093\u3051\u3044\u3057\u3083\u304c\u3000\u3053\u306e\u3093\u3067\n\u30d1\u30fc\u30c8\u30ca\u30fc\u306b\u3000\u3048\u3089\u3076\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u306e\u3000\u30b3\u30a2\u3067\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\n\u5727\u7e2e\u3057\u3066\u3000\u6483\u3061\u51fa\u3059\u3000\u653b\u6483\u306f\n\u5c71\u3092\u3000\u5439\u304d\u98db\u3070\u3059\u3000\u5a01\u529b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Compressing the energy from its internal core\nlets it fire off an attack capable of blowing away\na mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Comprime l\u2019energia nel suo nucleo interno per poi spararla\ncon una potenza che pu\u00f2 spazzare via anche le montagne.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "El n\u00facleo de su cuerpo comprime la energ\u00eda para lanzar\nataques capaces de destruir una monta\u00f1a.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es kann ganze Berge einebnen, indem es Energie entl\u00e4dt,\ndie es in seinem Kern gesammelt und verdichtet hat.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il comprime de l\u2019\u00e9nergie dans son corps, et ses attaques sont\nassez puissantes pour renverser des montagnes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc758 \ucf54\uc5b4\uc5d0\uc11c \uc5d0\ub108\uc9c0\ub97c\n\uc555\ucd95\ud558\uc5ec \uc3d8\uc544\ub300\ub294 \uacf5\uaca9\uc740\n\uc0b0\uc744 \ub0a0\ub824\ubc84\ub9b4 \ub9cc\ud55c \uc704\ub825\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u306e\u3000\u30b3\u30a2\u3067\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\n\u3042\u3063\u3057\u3085\u304f\u3057\u3066\u3000\u3046\u3061\u3060\u3059\u3000\u3053\u3046\u3052\u304d\u306f\n\u3084\u307e\u3092\u3000\u3075\u304d\u3068\u3070\u3059\u3000\u3044\u308a\u3087\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u53d6\u308a\u3053\u3093\u3060\u3000\u592a\u967d\u5149\u7dda\u3092\n\u30a8\u30cd\u30eb\u30ae\u30fc\u30b3\u30a2\u3067\u3000\u53cd\u5fdc\u3000\u3055\u305b\u3066\n\u5149\u306e\u7389\u3068\u3057\u3066\u3000\u6483\u3061\u3060\u3057\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "The solar rays it absorbs are processed in its\nenergy core and fired as a ball of light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Assorbe i raggi solari e, grazie al suo nucleo energetico,\nli trasforma in palle di luce che poi spara.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Absorbe los rayos solares, procesa esa energ\u00eda en su n\u00facleo\ny lanza poderosas bolas de luz a sus enemigos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es verarbeitet Sonnenstrahlen in seinem Energiekern zu\nLichtkugeln weiter, um sie im Kampf auf seinen Gegner\nabzufeuern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il amplifie dans son noyau l\u2019\u00e9nergie du soleil absorb\u00e9e\npar son corps et la projette en une boule de lumi\u00e8re.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uac70\ub450\uc5b4\ub4e4\uc778 \ud0dc\uc591 \uad11\uc120\uc744\n\uc5d0\ub108\uc9c0 \ucf54\uc5b4\ub85c \ubc18\uc751\uc2dc\ucf1c\n\ube5b\uc758 \uad6c\uc2ac\ub85c \uc3d8\uc544\ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u308a\u3053\u3093\u3060\u3000\u305f\u3044\u3088\u3046\u3053\u3046\u305b\u3093\u3092\n\u30a8\u30cd\u30eb\u30ae\u30fc\u30b3\u30a2\u3067\u3000\u306f\u3093\u306e\u3046\u3000\u3055\u305b\u3066\n\u3072\u304b\u308a\u306e\u305f\u307e\u3068\u3057\u3066\u3000\u3046\u3061\u3060\u3057\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u306e\u3000\u30b3\u30a2\u3067\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\n\u5727\u7e2e\u3057\u3066\u3000\u6483\u3061\u51fa\u3059\u3000\u653b\u6483\u306f\n\u5c71\u3092\u3000\u5439\u304d\u98db\u3070\u3059\u3000\u5a01\u529b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Compressing the energy from its internal core\nlets it fire off an attack capable of blowing away\na mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Comprime l\u2019energia nel suo nucleo interno per poi\nspararla con una potenza che pu\u00f2 spazzare via anche\nle montagne.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "El n\u00facleo de su cuerpo comprime la energ\u00eda para\nlanzar ataques capaces de destruir una monta\u00f1a.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es kann ganze Berge einebnen, indem es Energie\nentl\u00e4dt, die es in seinem Kern gesammelt und\nverdichtet hat.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il comprime de l\u2019\u00e9nergie dans son corps, et ses\nattaques sont assez puissantes pour renverser des\nmontagnes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc758 \ucf54\uc5b4\uc5d0\uc11c \uc5d0\ub108\uc9c0\ub97c\n\uc555\ucd95\ud558\uc5ec \uc3d8\uc544\ub300\ub294 \uacf5\uaca9\uc740\n\uc0b0\uc744 \ub0a0\ub824\ubc84\ub9b4 \ub9cc\ud55c \uc704\ub825\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u306e\u3000\u30b3\u30a2\u3067\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\n\u3042\u3063\u3057\u3085\u304f\u3057\u3066\u3000\u3046\u3061\u3060\u3059\u3000\u3053\u3046\u3052\u304d\u306f\n\u3084\u307e\u3092\u3000\u3075\u304d\u3068\u3070\u3059\u3000\u3044\u308a\u3087\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u53d6\u308a\u3053\u3093\u3060\u3000\u592a\u967d\u5149\u7dda\u3092\n\u30a8\u30cd\u30eb\u30ae\u30fc\u30b3\u30a2\u3067\u3000\u53cd\u5fdc\u3000\u3055\u305b\u3066\n\u5149\u306e\u7389\u3068\u3057\u3066\u3000\u6483\u3061\u3060\u3057\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The solar rays it absorbs are processed in its\nenergy core and fired as a ball of light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Assorbe i raggi solari e, grazie al suo nucleo\nenergetico, li trasforma in palle di luce che poi spara.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Absorbe los rayos solares, procesa esa energ\u00eda en su\nn\u00facleo y lanza poderosas bolas de luz a sus enemigos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es verarbeitet Sonnenstrahlen in seinem\nEnergiekern zu Lichtkugeln weiter, um sie\nim Kampf auf seinen Gegner abzufeuern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il amplifie dans son noyau l\u2019\u00e9nergie du soleil absorb\u00e9e\npar son corps et la projette en une boule de lumi\u00e8re.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uac70\ub450\uc5b4\ub4e4\uc778 \ud0dc\uc591\uad11\uc120\uc744\n\uc5d0\ub108\uc9c0 \ucf54\uc5b4\ub85c \ubc18\uc751\uc2dc\ucf1c\n\ube5b\uc758 \uad6c\uc2ac\ub85c \uc3d8\uc544\ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u308a\u3053\u3093\u3060\u3000\u305f\u3044\u3088\u3046\u3053\u3046\u305b\u3093\u3092\n\u30a8\u30cd\u30eb\u30ae\u30fc\u30b3\u30a2\u3067\u3000\u306f\u3093\u306e\u3046\u3000\u3055\u305b\u3066\n\u3072\u304b\u308a\u306e\u305f\u307e\u3068\u3057\u3066\u3000\u3046\u3061\u3060\u3057\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The solar rays it absorbs are\nprocessed in its energy core\nand fired as a ball of light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The solar rays it absorbs are\nprocessed in its energy core\nand fired as a ball of light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "The solar energy absorbed by its body\u2019s\norange crystals is magnified internally\nand fired from its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il amplifie dans son corps l\u2019\u00e9nergie du\nsoleil absorb\u00e9e par ses cristaux orang\u00e9s\net la projette par la bouche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Compressing the energy from its\ninternal core lets it fire off an attack\ncapable of blowing away a mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il comprime de l\u2019\u00e9nergie dans son corps,\net ses attaques sont assez puissantes\npour renverser des montagnes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u9ad8\u538b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3053\u3046\u3042\u3064\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Compressed Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pressionalta",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Presurizado",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Kompression",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Surpression",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u9ad8\u58d3\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uace0\uc555\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3053\u3046\u3042\u3064\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 526,
+    "is_baby": false,
+    "name": "gigalith",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5e9e\u5ca9\u602a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ae\u30ac\u30a4\u30a2\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Gigalith"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Gigalith"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Gigalith"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Brockoloss"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Gigalithe"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9f90\u5ca9\u602a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uae30\uac00\uc774\uc5b4\uc2a4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ae\u30ac\u30a4\u30a2\u30b9"
+        }
+    ],
+    "order": 527,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 122,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 42,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 70,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 32,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 526,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "tentacles",
+        "url": "/api/v2/pokemon-shape/10/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "gigalith",
+                "url": "/api/v2/pokemon/526/"
+            }
+        }
+    ]
+}

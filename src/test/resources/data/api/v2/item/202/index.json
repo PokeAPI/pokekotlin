@@ -1,0 +1,551 @@
+{
+    "attributes": [
+        {
+            "name": "holdable",
+            "url": "/api/v2/item-attribute/5/"
+        }
+    ],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "species-specific",
+        "url": "/api/v2/item-category/18/"
+    },
+    "cost": 0,
+    "effect_entries": [
+        {
+            "effect": "Held by Latias or Latios: Increases the holder's Special Attack and Special Defense by 50%.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Raises Latias and Latios's Special Attack and Special Defense by 50%."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u8ba9\u62c9\u5e1d\u6b27\u65af\u6216\u62c9\u5e1d\u4e9a\u65af\u643a\u5e26\u540e\uff0c\n\u8d85\u80fd\u529b\u548c\u9f99\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\n\u5c31\u4f1a\u63d0\u9ad8\u7684\u795e\u5947\u73e0\u5b50\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u30e9\u30c6\u30a3\u30aa\u30b9\u3084\u3000\u30e9\u30c6\u30a3\u30a2\u30b9\u306b\u3000\u6301\u305f\u305b\u308b\u3068\n\u30a8\u30b9\u30d1\u30fc\u3068\u3000\u30c9\u30e9\u30b4\u30f3\u30bf\u30a4\u30d7\u306e\u3000\u6280\u306e\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3000\u4e0d\u601d\u8b70\u306a\u3000\u73e0\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by either Latios or\nLatias. It raises the power of Psychic- and\nDragon-type moves.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Sfera miracolosa da dare a Latios o Latias.\nAumenta la potenza delle mosse di tipo Psico\ne Drago.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Un orbe fant\u00e1stico que debe llevar Latios o Latias.\nPotencia los movimientos de tipo Ps\u00edquico y Drag\u00f3n.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das von Latios oder Latias getragen\nwerden kann. Es erh\u00f6ht die St\u00e4rke von\nPsycho- und Drachen-Attacken.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 faire tenir \u00e0 Latios ou Latias.\nUn orbe prodigieux qui augmente la puissance\nde leurs capacit\u00e9s de type Psy ou Dragon.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u8b93\u62c9\u5e1d\u6b50\u65af\u6216\u62c9\u5e1d\u4e9e\u65af\u651c\u5e36\u5f8c\uff0c\n\u8d85\u80fd\u529b\u548c\u9f8d\u5c6c\u6027\u7684\u62db\u5f0f\u5a01\u529b\n\u5c31\u6703\u63d0\u9ad8\u7684\u795e\u5947\u73e0\u5b50\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub77c\ud2f0\uc624\uc2a4\ub098 \ub77c\ud2f0\uc544\uc2a4\uc5d0\uac8c \uc9c0\ub2c8\uac8c \ud558\uba74\n\uc5d0\uc2a4\ud37c\uc640 \ub4dc\ub798\uace4\ud0c0\uc785 \uae30\uc220\uc758 \uc704\ub825\uc774\n\uc62c\ub77c\uac00\ub294 \uc774\uc0c1\ud55c \uad6c\uc2ac.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u30e9\u30c6\u30a3\u30aa\u30b9\u3084\u3000\u30e9\u30c6\u30a3\u30a2\u30b9\u306b\u3000\u3082\u305f\u305b\u308b\u3068\n\u30a8\u30b9\u30d1\u30fc\u3068\u3000\u30c9\u30e9\u30b4\u30f3\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u306e\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3000\u3075\u3057\u304e\u306a\u3000\u305f\u307e\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u8ba9\u62c9\u5e1d\u6b27\u65af\u6216\u62c9\u5e1d\u4e9a\u65af\u643a\u5e26\u540e\uff0c\n\u8d85\u80fd\u529b\u548c\u9f99\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\n\u5c31\u4f1a\u63d0\u9ad8\u7684\u795e\u5947\u73e0\u5b50\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u30e9\u30c6\u30a3\u30aa\u30b9\u3084\u3000\u30e9\u30c6\u30a3\u30a2\u30b9\u306b\u3000\u6301\u305f\u305b\u308b\u3068\n\u30a8\u30b9\u30d1\u30fc\u3068\u3000\u30c9\u30e9\u30b4\u30f3\u30bf\u30a4\u30d7\u306e\u3000\u6280\u306e\n\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3000\u4e0d\u601d\u8b70\u306a\u3000\u73e0\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by either Latios or\nLatias. It raises the power of Psychic- and\nDragon-type moves.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Sfera miracolosa da dare a Latios o Latias.\nAumenta la potenza delle mosse di tipo Psico\ne Drago.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Un orbe fant\u00e1stico que debe llevar Latios o Latias.\nPotencia los movimientos de tipo Ps\u00edquico y Drag\u00f3n.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das von Latios oder Latias getragen\nwerden kann. Es erh\u00f6ht die St\u00e4rke von\nPsycho- und Drachen-Attacken.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 faire tenir \u00e0 Latios ou Latias.\nUn orbe prodigieux qui augmente la puissance\nde leurs capacit\u00e9s de type Psy ou Dragon.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u8b93\u62c9\u5e1d\u6b50\u65af\u6216\u62c9\u5e1d\u4e9e\u65af\u651c\u5e36\u5f8c\uff0c\n\u8d85\u80fd\u529b\u548c\u9f8d\u5c6c\u6027\u7684\u62db\u5f0f\u5a01\u529b\n\u5c31\u6703\u63d0\u9ad8\u7684\u795e\u5947\u73e0\u5b50\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub77c\ud2f0\uc624\uc2a4\ub098 \ub77c\ud2f0\uc544\uc2a4\uc5d0\uac8c \uc9c0\ub2c8\uac8c \ud558\uba74\n\uc5d0\uc2a4\ud37c\uc640 \ub4dc\ub798\uace4\ud0c0\uc785 \uae30\uc220\uc758 \uc704\ub825\uc774\n\uc62c\ub77c\uac00\ub294 \uc774\uc0c1\ud55c \uad6c\uc2ac.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u30e9\u30c6\u30a3\u30aa\u30b9\u3084\u3000\u30e9\u30c6\u30a3\u30a2\u30b9\u306b\u3000\u3082\u305f\u305b\u308b\u3068\n\u30a8\u30b9\u30d1\u30fc\u3068\u3000\u30c9\u30e9\u30b4\u30f3\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u306e\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3000\u3075\u3057\u304e\u306a\u3000\u305f\u307e\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u30e9\u30c6\u30a3\u30aa\u30b9\u3000\u307e\u305f\u306f\u3000\u30e9\u30c6\u30a3\u30a2\u30b9\u306b\n\u6301\u305f\u305b\u308b\u3068\u3000\u7279\u653b\u3068\u3000\u7279\u9632\u304c\n\u3042\u304c\u308b\u3000\u4e0d\u601d\u8b70\u306a\u3000\u73e0\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by either\nLatios or Latias. It raises both the\nSp. Atk and Sp. Def stats.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Sfera miracolosa da dare a Latios o Latias.\nAumenta l\u2019Attacco Speciale e la Difesa Speciale.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Debe llevarlo un Pok\u00e9mon. Su potente\nmagnetismo fortalece los movimientos de tipo\nEl\u00e9ctrico.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das von Latios oder Latias getragen\nwerden kann. Es hebt Spezial-Angriff und\nSpezial-Verteidigung.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 faire tenir \u00e0 Latios ou Latias.\nUn orbe prodigieux qui augmente leur Attaque\nSp\u00e9ciale et leur D\u00e9fense Sp\u00e9ciale.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub77c\ud2f0\uc624\uc2a4 \ud639\uc740 \ub77c\ud2f0\uc544\uc2a4\uc5d0\uac8c\n\uc9c0\ub2c8\uac8c \ud558\uba74 \ud2b9\uc218\uacf5\uaca9\uacfc \ud2b9\uc218\ubc29\uc5b4\uac00\n\uc62c\ub77c\uac00\ub294 \uc774\uc0c1\ud55c \uad6c\uc2ac.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u30e9\u30c6\u30a3\u30aa\u30b9\u3000\u307e\u305f\u306f\u3000\u30e9\u30c6\u30a3\u30a2\u30b9\u306b\n\u3082\u305f\u305b\u308b\u3068\u3000\u3068\u304f\u3053\u3046\u3068\u3000\u3068\u304f\u307c\u3046\u304c\n\u3042\u304c\u308b\u3000\u3075\u3057\u304e\u306a\u3000\u305f\u307e\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by Latios\nor Latias. It raises both the\nSp. Atk and Sp. Def stats.",
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by Latios\nor Latias. It raises both the\nSp. Atk and Sp. Def stats.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Orbe prodigieux \u00e0 faire tenir \u00e0 Latios\nou Latias qui monte leur Attaque\nSp\u00e9ciale et leur D\u00e9fense Sp\u00e9ciale.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by LATIOS\nor LATIAS. It raises both the\nSp. Atk and Sp. Def stats.",
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by LATIOS or\nLATIAS. It raises both the Sp. Atk and\nSp. Def stats.",
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A wondrous orb to be held by LATIOS or\nLATIAS. It raises both the Sp. Atk and\nSp. Def stats.",
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An orb to be held by a LATIOS or\nLATIAS. It raises the SP. ATK\nand SP. DEF stats.",
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "Hold item: raises\nSP. ATK & SP. DEF of\nLATIOS & LATIAS.",
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "Hold item: Raises\nSP. ATK & SP. DEF\nof LATIOS & LATIAS.",
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": 30,
+    "game_indices": [
+        {
+            "game_index": 225,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
+        },
+        {
+            "game_index": 225,
+            "generation": {
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
+            }
+        },
+        {
+            "game_index": 225,
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 225,
+            "generation": {
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
+            }
+        },
+        {
+            "game_index": 191,
+            "generation": {
+                "name": "generation-iii",
+                "url": "/api/v2/generation/3/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 202,
+    "machines": [],
+    "name": "soul-dew",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5fc3\u4e4b\u6c34\u6ef4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3053\u3053\u308d\u306e\u3057\u305a\u304f"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Soul Dew"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Cuorugiada"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Roc\u00edo Bondad"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Seelentau"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ros\u00e9e \u00c2me"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5fc3\u4e4b\u6c34\u6ef4"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9c8\uc74c\uc758\ubb3c\ubc29\uc6b8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3053\u3053\u308d\u306e\u3057\u305a\u304f"
+        }
+    ],
+    "sprites": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soul-dew.png"
+    }
+}

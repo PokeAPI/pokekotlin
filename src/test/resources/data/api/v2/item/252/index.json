@@ -1,0 +1,515 @@
+{
+    "attributes": [
+        {
+            "name": "holdable-active",
+            "url": "/api/v2/item-attribute/7/"
+        },
+        {
+            "name": "holdable",
+            "url": "/api/v2/item-attribute/5/"
+        }
+    ],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "held-items",
+        "url": "/api/v2/item-category/12/"
+    },
+    "cost": 4000,
+    "effect_entries": [
+        {
+            "effect": "Held: If the holder has full HP and is attacked for regular damage that would faint it, this item is consumed and prevents the holder's HP from lowering below 1.  This effect works against multi-hit attacks, but does not work against the effects of Doom Desire or Future Sight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Held: Holder survives any single-hit attack at 1 HP if at max HP, then the item is consumed."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u643a\u5e26\u540e\uff0c\u5728\uff28\uff30\u5168\u6ee1\u65f6\uff0c\n\u5373\u4fbf\u53d7\u5230\u53ef\u80fd\u4f1a\u5bfc\u81f4\u6fd2\u6b7b\u7684\u62db\u5f0f\uff0c\n\u4e5f\u80fd\u4ec5\u4ee5\uff11\uff28\uff30\u6491\u8fc7\u53bb\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u6301\u305f\u305b\u308b\u3068\u3000\uff28\uff30\u304c\u3000\u6e80\u30bf\u30f3\u306e\u3068\u304d\n\u3072\u3093\u3057\u306b\u306a\u308a\u305d\u3046\u306a\u3000\u6280\u3092\u3000\u53d7\u3051\u3066\u3082\n\uff28\uff30\uff11\u3067\u3000\uff11\u5ea6\u3060\u3051\u3000\u8010\u3048\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If the holder has\nfull HP, it will endure a potential KO attack with\n1 HP. The item then disappears.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nSe il Pok\u00e9mon ha tutti i PS, eviter\u00e0 un\npotenziale KO, rimanendo con un PS.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Si el Pok\u00e9mon que la lleva tiene los PS al m\u00e1ximo,\npuede resistir un golpe que lo dejar\u00eda K. O. y se\nqueda con 1 PS.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Bei vollen KP bleibt der Tr\u00e4ger\nnach einer K.O.-Attacke einmalig mit 1 KP im\nKampf.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. S\u2019il a encore tous ses PV, le porteur\npourra \u00e9viter d\u2019\u00eatre mis K.O. en un coup.\nIl ne conservera alors qu\u2019un seul PV.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u651c\u5e36\u5f8c\uff0c\u5728\uff28\uff30\u5168\u6eff\u6642\uff0c\n\u5373\u4f7f\u53d7\u5230\u53ef\u80fd\u5c0e\u81f4\u7015\u6b7b\u7684\u62db\u5f0f\u653b\u64ca\uff0c\n\u4e5f\u80fd\u4ee5\uff11\uff28\uff30\u50c5\u6490\u904e\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uc9c0\ub2c8\uac8c \ud558\uba74 HP\uac00 \uaf49 \ucc3c\uc744 \ub54c\n\uae30\uc808\ud560 \ub4ef\ud55c \uae30\uc220\uc744 \ub2f9\ud574\ub3c4\nHP 1\ub85c \ud55c \ubc88\uc740 \ubc84\ud2f4\ub2e4.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3082\u305f\u305b\u308b\u3068\u3000\uff28\uff30\u304c\u3000\u307e\u3093\u305f\u3093\u306e\u3068\u304d\n\u3072\u3093\u3057\u306b\u306a\u308a\u305d\u3046\u306a\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u3066\u3082\n\uff28\uff30\uff11\u3067\u3000\u3044\u3061\u3069\u3060\u3051\u3000\u305f\u3048\u308b\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u643a\u5e26\u540e\uff0c\u5728\uff28\uff30\u5168\u6ee1\u65f6\uff0c\n\u5373\u4fbf\u53d7\u5230\u53ef\u80fd\u4f1a\u5bfc\u81f4\u6fd2\u6b7b\u7684\u62db\u5f0f\uff0c\n\u4e5f\u80fd\u4ec5\u4ee5\uff11\uff28\uff30\u6491\u8fc7\u53bb\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u6301\u305f\u305b\u308b\u3068\u3000\uff28\uff30\u304c\u3000\u6e80\u30bf\u30f3\u306e\u3068\u304d\n\u3072\u3093\u3057\u306b\u306a\u308a\u305d\u3046\u306a\u3000\u6280\u3092\u3000\u53d7\u3051\u3066\u3082\n\uff28\uff30\uff11\u3067\u3000\uff11\u5ea6\u3060\u3051\u3000\u8010\u3048\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If the holder has\nfull HP, it will endure a potential KO attack with\n1 HP. The item then disappears.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nSe il Pok\u00e9mon ha tutti i PS, eviter\u00e0 un\npotenziale KO, rimanendo con un PS.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Si el Pok\u00e9mon que la lleva tiene los PS al m\u00e1ximo,\npuede resistir un golpe que lo dejar\u00eda K. O. y se\nqueda con 1 PS.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Bei vollen KP bleibt der Tr\u00e4ger\nnach einer K.O.-Attacke einmalig mit 1 KP im\nKampf.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. S\u2019il a encore tous ses PV, le porteur\npourra \u00e9viter d\u2019\u00eatre mis K.O. en un coup.\nIl ne conservera alors qu\u2019un seul PV.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u651c\u5e36\u5f8c\uff0c\u5728\uff28\uff30\u5168\u6eff\u6642\uff0c\n\u5373\u4f7f\u53d7\u5230\u53ef\u80fd\u5c0e\u81f4\u7015\u6b7b\u7684\u62db\u5f0f\u653b\u64ca\uff0c\n\u4e5f\u80fd\u4ee5\uff11\uff28\uff30\u50c5\u6490\u904e\uff11\u6b21\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uc9c0\ub2c8\uac8c \ud558\uba74 HP\uac00 \uaf49 \ucc3c\uc744 \ub54c\n\uae30\uc808\ud560 \ub4ef\ud55c \uae30\uc220\uc744 \ub2f9\ud574\ub3c4\nHP 1\ub85c \ud55c \ubc88\uc740 \ubc84\ud2f4\ub2e4.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3082\u305f\u305b\u308b\u3068\u3000\uff28\uff30\u304c\u3000\u307e\u3093\u305f\u3093\u306e\u3068\u304d\n\u3072\u3093\u3057\u306b\u306a\u308a\u305d\u3046\u306a\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u3066\u3082\n\uff28\uff30\uff11\u3067\u3000\u3044\u3061\u3069\u3060\u3051\u3000\u305f\u3048\u308b\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u6301\u305f\u305b\u308b\u3068\u3000\uff28\uff30\u304c\u3000\u6e80\u30bf\u30f3\u306e\u3068\u304d\n\u3072\u3093\u3057\u306b\u306a\u308a\u305d\u3046\u306a\u3000\u6280\u3092\u3000\u53d7\u3051\u3066\u3082\n\uff28\uff30\uff11\u3067\u3000\uff11\u5ea6\u3060\u3051\u3000\u8010\u3048\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If the holder\nhas full HP, it will endure a potential KO\nattack with 1 HP. The item then disappears.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nSe il Pok\u00e9mon ha tutti i PS, eviter\u00e0 un\npotenziale KO, rimanendo con un PS.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Potencia la Defensa Especial de base, pero\nreduce la Velocidad en combate. Debe llevarla\nun Pok\u00e9mon.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item zum Tragen. Bei vollen KP bleibt\nder Tr\u00e4ger nach einer K.O.-Attacke einmalig\nmit 1 KP im Kampf.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. S\u2019il a encore tous ses PV,\nle porteur pourra \u00e9viter d\u2019\u00eatre mis K.O. en\nun coup. Il ne conserva alors qu\u2019un seul PV.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\uc9c0\ub2c8\uac8c \ud558\uba74 HP\uac00 \uaf49 \ucc3c\uc744 \ub54c\n\uae30\uc808\ud560 \ub4ef\ud55c \uae30\uc220\uc744 \ub2f9\ud574\ub3c4\nHP 1\ub85c \ud55c \ubc88\uc740 \ubc84\ud2f4\ub2e4.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u3082\u305f\u305b\u308b\u3068\u3000\uff28\uff30\u304c\u3000\u307e\u3093\u305f\u3093\u306e\u3068\u304d\n\u3072\u3093\u3057\u306b\u306a\u308a\u305d\u3046\u306a\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u3066\u3082\n\uff28\uff30\uff11\u3067\u3000\u3044\u3061\u3069\u3060\u3051\u3000\u305f\u3048\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir permettant au porteur,\ns\u2019il a ses PV pleins, d\u2019\u00e9viter un\npotentiel K.O. en conservant un PV.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": 10,
+    "game_indices": [
+        {
+            "game_index": 275,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
+        },
+        {
+            "game_index": 275,
+            "generation": {
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
+            }
+        },
+        {
+            "game_index": 275,
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 275,
+            "generation": {
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 252,
+    "machines": [],
+    "name": "focus-sash",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6c14\u52bf\u62ab\u5e26"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304d\u3042\u3044\u306e\u30bf\u30b9\u30ad"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Focus Sash"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Focalnastro"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Banda Focus"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Fokusgurt"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ceinture Force"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6c23\u52e2\u62ab\u5e36"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uae30\ud569\uc758\ub760"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304d\u3042\u3044\u306e\u30bf\u30b9\u30ad"
+        }
+    ],
+    "sprites": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png"
+    }
+}

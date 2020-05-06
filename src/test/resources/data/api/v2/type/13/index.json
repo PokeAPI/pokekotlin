@@ -1,0 +1,832 @@
+{
+    "damage_relations": {
+        "double_damage_from": [
+            {
+                "name": "ground",
+                "url": "/api/v2/type/5/"
+            }
+        ],
+        "double_damage_to": [
+            {
+                "name": "flying",
+                "url": "/api/v2/type/3/"
+            },
+            {
+                "name": "water",
+                "url": "/api/v2/type/11/"
+            }
+        ],
+        "half_damage_from": [
+            {
+                "name": "flying",
+                "url": "/api/v2/type/3/"
+            },
+            {
+                "name": "steel",
+                "url": "/api/v2/type/9/"
+            },
+            {
+                "name": "electric",
+                "url": "/api/v2/type/13/"
+            }
+        ],
+        "half_damage_to": [
+            {
+                "name": "grass",
+                "url": "/api/v2/type/12/"
+            },
+            {
+                "name": "electric",
+                "url": "/api/v2/type/13/"
+            },
+            {
+                "name": "dragon",
+                "url": "/api/v2/type/16/"
+            }
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [
+            {
+                "name": "ground",
+                "url": "/api/v2/type/5/"
+            }
+        ]
+    },
+    "game_indices": [
+        {
+            "game_index": 23,
+            "generation": {
+                "name": "generation-i",
+                "url": "/api/v2/generation/1/"
+            }
+        },
+        {
+            "game_index": 23,
+            "generation": {
+                "name": "generation-ii",
+                "url": "/api/v2/generation/2/"
+            }
+        },
+        {
+            "game_index": 13,
+            "generation": {
+                "name": "generation-iii",
+                "url": "/api/v2/generation/3/"
+            }
+        },
+        {
+            "game_index": 13,
+            "generation": {
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
+            }
+        },
+        {
+            "game_index": 12,
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 12,
+            "generation": {
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 13,
+    "move_damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "moves": [
+        {
+            "name": "thunder-punch",
+            "url": "/api/v2/move/9/"
+        },
+        {
+            "name": "thunder-shock",
+            "url": "/api/v2/move/84/"
+        },
+        {
+            "name": "thunderbolt",
+            "url": "/api/v2/move/85/"
+        },
+        {
+            "name": "thunder-wave",
+            "url": "/api/v2/move/86/"
+        },
+        {
+            "name": "thunder",
+            "url": "/api/v2/move/87/"
+        },
+        {
+            "name": "zap-cannon",
+            "url": "/api/v2/move/192/"
+        },
+        {
+            "name": "spark",
+            "url": "/api/v2/move/209/"
+        },
+        {
+            "name": "charge",
+            "url": "/api/v2/move/268/"
+        },
+        {
+            "name": "volt-tackle",
+            "url": "/api/v2/move/344/"
+        },
+        {
+            "name": "shock-wave",
+            "url": "/api/v2/move/351/"
+        },
+        {
+            "name": "magnet-rise",
+            "url": "/api/v2/move/393/"
+        },
+        {
+            "name": "thunder-fang",
+            "url": "/api/v2/move/422/"
+        },
+        {
+            "name": "discharge",
+            "url": "/api/v2/move/435/"
+        },
+        {
+            "name": "charge-beam",
+            "url": "/api/v2/move/451/"
+        },
+        {
+            "name": "electro-ball",
+            "url": "/api/v2/move/486/"
+        },
+        {
+            "name": "volt-switch",
+            "url": "/api/v2/move/521/"
+        },
+        {
+            "name": "electroweb",
+            "url": "/api/v2/move/527/"
+        },
+        {
+            "name": "wild-charge",
+            "url": "/api/v2/move/528/"
+        },
+        {
+            "name": "bolt-strike",
+            "url": "/api/v2/move/550/"
+        },
+        {
+            "name": "fusion-bolt",
+            "url": "/api/v2/move/559/"
+        },
+        {
+            "name": "ion-deluge",
+            "url": "/api/v2/move/569/"
+        },
+        {
+            "name": "parabolic-charge",
+            "url": "/api/v2/move/570/"
+        },
+        {
+            "name": "electrify",
+            "url": "/api/v2/move/582/"
+        },
+        {
+            "name": "eerie-impulse",
+            "url": "/api/v2/move/598/"
+        },
+        {
+            "name": "magnetic-flux",
+            "url": "/api/v2/move/602/"
+        },
+        {
+            "name": "electric-terrain",
+            "url": "/api/v2/move/604/"
+        },
+        {
+            "name": "nuzzle",
+            "url": "/api/v2/move/609/"
+        },
+        {
+            "name": "gigavolt-havoc--physical",
+            "url": "/api/v2/move/646/"
+        },
+        {
+            "name": "gigavolt-havoc--special",
+            "url": "/api/v2/move/647/"
+        },
+        {
+            "name": "catastropika",
+            "url": "/api/v2/move/658/"
+        },
+        {
+            "name": "stoked-sparksurfer",
+            "url": "/api/v2/move/700/"
+        },
+        {
+            "name": "zing-zap",
+            "url": "/api/v2/move/716/"
+        },
+        {
+            "name": "10-000-000-volt-thunderbolt",
+            "url": "/api/v2/move/719/"
+        },
+        {
+            "name": "plasma-fists",
+            "url": "/api/v2/move/721/"
+        }
+    ],
+    "name": "electric",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3067\u3093\u304d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc804\uae30"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "\u00c9lectrik"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Elektro"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "El\u00e9ctrico"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Elettro"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Electric"
+        }
+    ],
+    "pokemon": [
+        {
+            "pokemon": {
+                "name": "pikachu",
+                "url": "/api/v2/pokemon/25/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "raichu",
+                "url": "/api/v2/pokemon/26/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "magnemite",
+                "url": "/api/v2/pokemon/81/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "magneton",
+                "url": "/api/v2/pokemon/82/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "voltorb",
+                "url": "/api/v2/pokemon/100/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "electrode",
+                "url": "/api/v2/pokemon/101/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "electabuzz",
+                "url": "/api/v2/pokemon/125/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "jolteon",
+                "url": "/api/v2/pokemon/135/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zapdos",
+                "url": "/api/v2/pokemon/145/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "chinchou",
+                "url": "/api/v2/pokemon/170/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "lanturn",
+                "url": "/api/v2/pokemon/171/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "pichu",
+                "url": "/api/v2/pokemon/172/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "mareep",
+                "url": "/api/v2/pokemon/179/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "flaaffy",
+                "url": "/api/v2/pokemon/180/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "ampharos",
+                "url": "/api/v2/pokemon/181/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "elekid",
+                "url": "/api/v2/pokemon/239/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "raikou",
+                "url": "/api/v2/pokemon/243/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "electrike",
+                "url": "/api/v2/pokemon/309/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "manectric",
+                "url": "/api/v2/pokemon/310/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "plusle",
+                "url": "/api/v2/pokemon/311/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "minun",
+                "url": "/api/v2/pokemon/312/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "shinx",
+                "url": "/api/v2/pokemon/403/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "luxio",
+                "url": "/api/v2/pokemon/404/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "luxray",
+                "url": "/api/v2/pokemon/405/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pachirisu",
+                "url": "/api/v2/pokemon/417/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "magnezone",
+                "url": "/api/v2/pokemon/462/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "electivire",
+                "url": "/api/v2/pokemon/466/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rotom",
+                "url": "/api/v2/pokemon/479/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "blitzle",
+                "url": "/api/v2/pokemon/522/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zebstrika",
+                "url": "/api/v2/pokemon/523/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "emolga",
+                "url": "/api/v2/pokemon/587/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "joltik",
+                "url": "/api/v2/pokemon/595/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "galvantula",
+                "url": "/api/v2/pokemon/596/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "tynamo",
+                "url": "/api/v2/pokemon/602/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "eelektrik",
+                "url": "/api/v2/pokemon/603/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "eelektross",
+                "url": "/api/v2/pokemon/604/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "stunfisk",
+                "url": "/api/v2/pokemon/618/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "thundurus-incarnate",
+                "url": "/api/v2/pokemon/642/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zekrom",
+                "url": "/api/v2/pokemon/644/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "helioptile",
+                "url": "/api/v2/pokemon/694/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "heliolisk",
+                "url": "/api/v2/pokemon/695/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "dedenne",
+                "url": "/api/v2/pokemon/702/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "charjabug",
+                "url": "/api/v2/pokemon/737/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "vikavolt",
+                "url": "/api/v2/pokemon/738/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "togedemaru",
+                "url": "/api/v2/pokemon/777/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "tapu-koko",
+                "url": "/api/v2/pokemon/785/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "xurkitree",
+                "url": "/api/v2/pokemon/796/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "zeraora",
+                "url": "/api/v2/pokemon/807/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rotom-heat",
+                "url": "/api/v2/pokemon/10008/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rotom-wash",
+                "url": "/api/v2/pokemon/10009/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rotom-frost",
+                "url": "/api/v2/pokemon/10010/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rotom-fan",
+                "url": "/api/v2/pokemon/10011/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rotom-mow",
+                "url": "/api/v2/pokemon/10012/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "thundurus-therian",
+                "url": "/api/v2/pokemon/10020/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "ampharos-mega",
+                "url": "/api/v2/pokemon/10045/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "manectric-mega",
+                "url": "/api/v2/pokemon/10055/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-rock-star",
+                "url": "/api/v2/pokemon/10080/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-belle",
+                "url": "/api/v2/pokemon/10081/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-pop-star",
+                "url": "/api/v2/pokemon/10082/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-phd",
+                "url": "/api/v2/pokemon/10083/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-libre",
+                "url": "/api/v2/pokemon/10084/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-cosplay",
+                "url": "/api/v2/pokemon/10085/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-original-cap",
+                "url": "/api/v2/pokemon/10094/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-hoenn-cap",
+                "url": "/api/v2/pokemon/10095/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-sinnoh-cap",
+                "url": "/api/v2/pokemon/10096/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-unova-cap",
+                "url": "/api/v2/pokemon/10097/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-kalos-cap",
+                "url": "/api/v2/pokemon/10098/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-alola-cap",
+                "url": "/api/v2/pokemon/10099/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "raichu-alola",
+                "url": "/api/v2/pokemon/10100/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "geodude-alola",
+                "url": "/api/v2/pokemon/10109/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "graveler-alola",
+                "url": "/api/v2/pokemon/10110/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "golem-alola",
+                "url": "/api/v2/pokemon/10111/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "vikavolt-totem",
+                "url": "/api/v2/pokemon/10122/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "oricorio-pom-pom",
+                "url": "/api/v2/pokemon/10123/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pikachu-partner-cap",
+                "url": "/api/v2/pokemon/10148/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "togedemaru-totem",
+                "url": "/api/v2/pokemon/10154/"
+            },
+            "slot": 1
+        }
+    ]
+}

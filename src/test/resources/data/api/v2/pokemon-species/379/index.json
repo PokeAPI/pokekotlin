@@ -1,0 +1,773 @@
+{
+    "base_happiness": 35,
+    "capture_rate": 3,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/195/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6614\u3000\u4eba\u306b\u3088\u3063\u3066\u3000\u5c01\u5370\u3055\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u4f53\u3092\u3000\u3064\u304f\u308b\u3000\u91d1\u5c5e\u306f\u3000\u5730\u7403\u4e0a\u306b\n\u5b58\u5728\u3057\u306a\u3044\u3000\u7269\u8cea\u3068\u3000\u8003\u3048\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Registeel was imprisoned by people in ancient times.\nThe metal composing its body is thought to be a curious\nsubstance that is not of this earth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Registeel \u00e8 stato imprigionato dagli esseri umani\nnell\u2019antichit\u00e0. Pare che il metallo di cui \u00e8 composto\nprovenga dallo spazio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hace mucho tiempo Registeel estuvo preso. La gente piensa\nque el metal del que est\u00e1 hecho es una curiosa sustancia\nextraterrestre.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Registeel wurde vor langer Zeit von den Menschen\neingesperrt. Das Metall, aus dem sein K\u00f6rper besteht,\nist eine seltsame Substanz, die nicht von dieser Welt sein soll.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il y a tr\u00e8s longtemps, Registeel fut emprisonn\u00e9 par les\nhommes. On pense que l\u2019\u00e9trange m\u00e9tal qui compose\nson corps provient d\u2019une autre plan\u00e8te.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc624\ub798\uc804 \uc0ac\ub78c\uc5d0\uac8c \ubd09\uc778\ub41c \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ubab8\uc744 \uc774\ub8e8\uace0 \uc788\ub294 \uae08\uc18d\uc740 \uc9c0\uad6c \uc0c1\uc5d0\n\uc874\uc7ac\ud558\uc9c0 \uc54a\ub294 \ubb3c\uc9c8\uc774\ub77c\uace0 \uc5ec\uaca8\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3080\u304b\u3057\u3000\u3072\u3068\u306b\u3088\u3063\u3066\u3000\u3075\u3046\u3044\u3093\u3055\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u304b\u3089\u3060\u3092\u3000\u3064\u304f\u308b\u3000\u304d\u3093\u305e\u304f\u306f\u3000\u3061\u304d\u3085\u3046\u3058\u3087\u3046\u306b\n\u305d\u3093\u3056\u3044\u3057\u306a\u3044\u3000\u3076\u3063\u3057\u3064\u3068\u3000\u304b\u3093\u304c\u3048\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u91d1\u5c5e\u3088\u308a\u3082\u3000\u786c\u3044\u3000\u4f53\u3092\u3000\u6301\u3064\u3002\n\u4f53\u306e\u3000\u4e2d\u306f\u3000\u7a7a\u6d1e\u306b\u3000\u306a\u3063\u3066\u3044\u308b\u3089\u3057\u304f\n\u98df\u3079\u3066\u3044\u308b\u3000\u3082\u306e\u3082\u3000\u5206\u304b\u3089\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Registeel has a body that is harder than any kind of metal.\nIts body is apparently hollow. No one has any idea what this\nPok\u00e9mon eats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Registeel ha un corpo pi\u00f9 duro di ogni tipo di metallo.\nPare inoltre che all\u2019interno sia totalmente vuoto.\nNessuno sa cosa mangi questo Pok\u00e9mon.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "No hay metal que supere en dureza el cuerpo de Registeel,\nque tiene aspecto de estar hueco. Nadie sabe de qu\u00e9 se\nalimenta este Pok\u00e9mon.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Registeel hat einen K\u00f6rper, der h\u00e4rter ist als jede Art von\nMetall. Sein K\u00f6rper scheint hohl zu sein. Niemand hat eine\nAhnung, was dieses Pok\u00e9mon wohl frisst.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Le corps de Registeel est plus dur que n\u2019importe quel m\u00e9tal\nexistant. Il est apparemment creux. Personne ne sait ce que\nce Pok\u00e9mon mange.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc5b4\ub5a4 \uae08\uc18d\ubcf4\ub2e4\ub3c4 \ub2e8\ub2e8\ud55c \ubab8\uc744 \uc9c0\ub154\ub2e4.\n\ubab8 \uc548\uc740 \ube44\uc5b4 \uc788\ub294 \ub4ef\ud558\uba70\n\uba39\ub294 \uac83\ub3c4 \uc54c\ub824\uc9c0\uc9c0 \uc54a\uc740 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u304d\u3093\u305e\u304f\u3088\u308a\u3082\u3000\u304b\u305f\u3044\u3000\u304b\u3089\u3060\u3092\u3000\u3082\u3064\u3002\n\u304b\u3089\u3060\u306e\u3000\u306a\u304b\u306f\u3000\u304f\u3046\u3069\u3046\u306b\u3000\u306a\u3063\u3066\u3044\u308b\u3089\u3057\u304f\n\u305f\u3079\u3066\u3044\u308b\u3000\u3082\u306e\u3082\u3000\u308f\u304b\u3089\u306a\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u91d1\u5c5e\u3088\u308a\u3082\u3000\u786c\u3044\u3068\n\u8a00\u308f\u308c\u308b\u3000\u4f53\u3002\u8abf\u67fb\u306e\u3000\u7d50\u679c\n\u4f53\u306e\u3000\u4e2d\u306f\u3000\u7a7a\u6d1e\u3060\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Its body is said to be harder than any kind of metal.\nA study has revealed that its body is hollow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ha un corpo pi\u00f9 duro di qualunque metallo.\nUna ricerca ha stabilito che all\u2019interno \u00e8 cavo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se dice que su cuerpo es m\u00e1s duro que cualquier\nmetal. Su interior es hueco, seg\u00fan ciertos estudios.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sein K\u00f6rper ist h\u00e4rter als jedes andere Metall.\nUntersuchungen zufolge ist es innen hohl.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Son corps, plus dur que n\u2019importe quel m\u00e9tal, serait\ncreux selon les derni\u00e8res analyses scientifiques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc5b4\ub5a4 \uae08\uc18d\ubcf4\ub2e4\ub3c4 \ub531\ub531\ud558\ub2e4\uace0\n\uc804\ud574\uc9c0\ub294 \ubab8\uc774\ub2e4. \uc870\uc0ac \uacb0\uacfc\n\ubab8 \uc548\uc740 \ube44\uc5b4 \uc788\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3093\u306a\u3000\u304d\u3093\u305e\u304f\u3000\u3088\u308a\u3082\u3000\u304b\u305f\u3044\u3068\n\u3044\u308f\u308c\u308b\u3000\u304b\u3089\u3060\u3002\u3061\u3087\u3046\u3055\u306e\u3000\u3051\u3063\u304b\n\u304b\u3089\u3060\u306e\u3000\u306a\u304b\u306f\u3000\u304f\u3046\u3069\u3046\u3000\u3060\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u4f55\u4e07\u5e74\u3082\u3000\u5730\u4e0b\u306e\u3000\u5727\u529b\u3067\n\u935b\u3048\u3089\u308c\u305f\u3000\u91d1\u5c5e\u306e\u3000\u30dc\u30c7\u30a3\u306f\n\u50b7\u3072\u3068\u3064\u3000\u3064\u304b\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground over tens of\nthousands of years, its body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La pressione subita sottoterra per decine di migliaia\ndi anni ha reso il suo corpo resistentissimo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Su cuerpo ha estado sometido a la presi\u00f3n subterr\u00e1nea\ndurante miles de a\u00f1os y no puede ara\u00f1arse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Im Laufe der Jahrtausende, die es unterirdisch lebte,\nwurde sein K\u00f6rper durch Druck und W\u00e4rme hart.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Son corps invuln\u00e9rable fut forg\u00e9 par la pression\nsouterraine durant des dizaines de milliers d\u2019ann\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uba87\ub9cc \ub144 \ub3d9\uc548 \uc9c0\ud558\uc758 \uc555\ub825\uc5d0 \uc758\ud574\uc11c\n\ub2e8\ub828\ub41c \uae08\uc18d\uc758 \ubab8\uc740\n\uc0c1\ucc98 \ud558\ub098 \uc785\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3093\u307e\u3093\u306d\u3093\u3082\u3000\u3061\u304b\u306e\u3000\u3042\u3064\u308a\u3087\u304f\u3067\n\u304d\u305f\u3048\u3089\u308c\u305f\u3000\u304d\u3093\u305e\u304f\u306e\u3000\u30dc\u30c7\u30a3\u306f\n\u304d\u305a\u3072\u3068\u3064\u3000\u3064\u304b\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground\nover tens of thousands of years,\nits body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground\nover tens of thousands of years,\nits body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground\nover tens of thousands of years,\nits body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Son corps invuln\u00e9rable fut forg\u00e9\npar la pression souterraine durant\ndes dizaines de milliers d\u2019ann\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground\nover tens of thousands of years,\nits body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Son corps invuln\u00e9rable fut forg\u00e9\npar la pression souterraine durant\ndes dizaines de milliers d\u2019ann\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Its body is said to be harder than\nany kind of metal. A study has\nrevealed that its body is hollow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its body is said to be harder than\nany kind of metal. A study has\nrevealed that its body is hollow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground\nover tens of thousands of years,\nits body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground\nover tens of thousands of years,\nits body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Tempered by pressure underground\nover tens of thousands of years,\nits body cannot be scratched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It is sturdier than any kind of metal.\nIt hardened due to pressure underground\nover tens of thousands of years.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It is sturdier than any kind of metal.\nIt hardened due to pressure underground\nover tens of thousands of years.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Its body is harder than any other kind of\nmetal. The body metal is composed of a\nmysterious substance. Not only is it hard,\nit shrinks and stretches flexibly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "REGISTEEL was imprisoned by people\nin ancient times.\nThe metal composing its body is thought\fto be a curious substance that is not\nof this earth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "REGISTEEL has a body that is harder\nthan any kind of metal.\nIts body is apparently hollow.\fNo one has any idea what this POK\u00e9MON\neats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u9ed1\u91d1\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u304f\u308d\u304c\u306d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Iron Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Ferro",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Hierro",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Eisen",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Fer",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u9ed1\u91d1\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc1e0\ucca0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u304f\u308d\u304c\u306d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "cave",
+        "url": "/api/v2/pokemon-habitat/1/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 80,
+    "id": 379,
+    "is_baby": false,
+    "name": "registeel",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u96f7\u5409\u65af\u5947\u9c81"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ec\u30b8\u30b9\u30c1\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Registeel"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Registeel"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Registeel"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Registeel"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Registeel"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u96f7\u5409\u65af\u5947\u9b6f"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub808\uc9c0\uc2a4\ud2f8"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Registeel"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ec\u30b8\u30b9\u30c1\u30eb"
+        }
+    ],
+    "order": 409,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 90,
+            "rate": 3
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 204,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 193,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 195,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 379,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "registeel",
+                "url": "/api/v2/pokemon/379/"
+            }
+        }
+    ]
+}

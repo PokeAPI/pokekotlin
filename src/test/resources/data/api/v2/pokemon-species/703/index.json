@@ -1,0 +1,788 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 60,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        },
+        {
+            "name": "fairy",
+            "url": "/api/v2/egg-group/6/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/361/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u636e\u8bf4\uff0c\u5728\u5730\u5e95\u7684\u6df1\u5904\uff0c\n\u6709\u7740\u5c0f\u788e\u94bb\u7fa4\u4f53\u548c\u5b83\u4eec\u7684\u5973\u738b\n\u5171\u540c\u751f\u6d3b\u7684\u5b9d\u77f3\u738b\u56fd\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u5e95\u306e\u3000\u5965\u6df1\u304f\u306b\u306f\u3000\u30e1\u30ec\u30b7\u30fc\u306e\n\u7fa4\u308c\u3068\u3000\u305d\u306e\u3000\u5973\u738b\u304c\u3000\u66ae\u3089\u3059\n\u5b9d\u77f3\u306e\u3000\u56fd\u304c\u3000\u3042\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Some say that deep beneath the surface of the\nworld, a pack of Carbink live with their queen in\na kingdom of jewels.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Corre voce che nelle profondit\u00e0 della terra\nci sia un regno fatto di pietre preziose dove\nvivono i Carbink assieme alla loro regina.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Se dice que en las profundidades subterr\u00e1neas\nviven grupos enteros de Carbink con su reina\nrodeados de toda suerte de joyas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Tief unter der Erde gibt es angeblich ein\nK\u00f6nigreich aus Diamanten, in dem Rocara\nzusammen mit ihrer K\u00f6nigin leben.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Au plus profond de la terre se trouverait\nun royaume de pierres pr\u00e9cieuses o\u00f9 vivent\nla reine des Strassie et son peuple.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u64da\u8aaa\u5728\u5730\u5e95\u7684\u6df1\u8655\uff0c\n\u6709\u8457\u5c0f\u788e\u947d\u65cf\u7fa4\u548c\u7260\u5011\u7684\u5973\u738b\n\u6240\u5c45\u4f4f\u7684\u5bf6\u77f3\u738b\u570b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc18d \uae4a\uc219\ud55c \uacf3\uc5d0\ub294 \uba5c\ub9ac\uc2dc\uc758\n\ubb34\ub9ac\uc640 \uadf8\ub4e4\uc758 \uc5ec\uc655\uc774 \uc0ac\ub294\n\ubcf4\uc11d\uc758 \ub098\ub77c\uac00 \uc788\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3066\u3044\u306e\u3000\u304a\u304f\u3075\u304b\u304f\u306b\u306f\u3000\u30e1\u30ec\u30b7\u30fc\u306e\n\u3080\u308c\u3068\u3000\u305d\u306e\u3000\u3058\u3087\u304a\u3046\u304c\u3000\u304f\u3089\u3059\n\u307b\u3046\u305b\u304d\u306e\u3000\u304f\u306b\u304c\u3000\u3042\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u867d\u7136\u5e76\u4e0d\u662f\u90a3\u4e48\u7684\u7a00\u6709\uff0c\n\u4f46\u95ea\u95ea\u53d1\u5149\u7684\u5b9d\u77f3\u8eab\u4f53\n\u5728\u5973\u6027\u4e2d\u5f88\u53d7\u6b22\u8fce\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3055\u307b\u3069\u3000\u73cd\u3057\u3044\u308f\u3051\u3067\u306f\u306a\u3044\u304c\n\u30ad\u30e9\u30ad\u30e9\u3068\u3000\u8f1d\u304f\u3000\u5b9d\u77f3\u306e\n\u8eab\u4f53\u304c\u3000\u5973\u6027\u306b\u3000\u4eba\u6c17\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Although this Pok\u00e9mon is not especially rare,\nits glittering, jewel-draped body draws\nattention from people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Pur non essendo particolarmente raro, \u00e8 molto\napprezzato per le scintillanti pietre preziose\ndi cui \u00e8 cosparso il suo corpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Aunque no es un Pok\u00e9mon especialmente raro\nde ver, el brillo de las joyas que lleva\nincrustadas lo hace muy popular.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Der Edelstein, der in seinem K\u00f6rper steckt,\nist zwar recht gew\u00f6hnlich, aber da er sch\u00f6n\nfunkelt, ist das Pok\u00e9mon trotzdem sehr beliebt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il ne s\u2019agit pas d\u2019un Pok\u00e9mon particuli\u00e8rement\nrare, mais son allure strass et paillettes attire\nles gens.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u96d6\u7136\u4e26\u4e0d\u662f\u5f88\u7a00\u6709\uff0c\n\u4f46\u9583\u9583\u767c\u5149\u7684\u5bf6\u77f3\u8eab\u9ad4\n\u5f88\u53d7\u5973\u6027\u6b61\u8fce\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub2e4\uc9c0 \ud76c\uadc0\ud558\uc9c0\ub294 \uc54a\uc9c0\ub9cc\n\ubc18\uc9dd\ubc18\uc9dd \ube5b\ub098\ub294 \ubcf4\uc11d\uc73c\ub85c \ub41c\n\ubab8\uc774 \uc5ec\uc131\uc5d0\uac8c \uc778\uae30\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3055\u307b\u3069\u3000\u3081\u305a\u3089\u3057\u3044\u308f\u3051\u3067\u306f\u306a\u3044\u304c\n\u30ad\u30e9\u30ad\u30e9\u3068\u3000\u304b\u304c\u3084\u304f\u3000\u307b\u3046\u305b\u304d\u306e\n\u304b\u3089\u3060\u304c\u3000\u3058\u3087\u305b\u3044\u306b\u3000\u306b\u3093\u304d\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u751f\u307e\u308c\u3066\u304b\u3089\u3000\u6570\u5104\u5e74\u306e\u9593\n\u5730\u5e95\u3067\u3000\u7720\u3063\u3066\u3044\u305f\u3002\n\u6d1e\u7a9f\u3092\u3000\u6398\u308b\u3068\u3000\u305f\u307e\u306b\u3000\u51fa\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It has slept underground for hundreds of millions\nof years since its birth. It\u2019s occasionally found\nduring the excavation of caves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Dopo la nascita, dorme nelle viscere della terra per milioni\ndi anni. A volte se ne trova qualche esemplare scavando\nnelle caverne.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lleva varios cientos de millones de a\u00f1os durmiendo en las\nprofundidades subterr\u00e1neas, desde su nacimiento. Aparece\na veces al excavar en cuevas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Nach seiner Geburt brachte es hunderte Millionen von\nJahren tief unter der Erde schlafend zu. Es tritt gelegentlich\nbei H\u00f6hlengrabungen zutage.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il sommeille sous terre depuis son apparition, il y a\nplusieurs centaines de millions d\u2019ann\u00e9es. On le d\u00e9couvre\nparfois en creusant des cavernes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud0dc\uc5b4\ub098\uc11c \uc218\uc5b5 \ub144 \ub3d9\uc548\n\ub545\uc18d\uc5d0 \uc7a0\ub4e4\uc5b4 \uc788\uc5c8\ub2e4. \ub3d9\uad74\uc744\n\ud30c\uba74 \uac00\ub054 \ub098\uc624\uace4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u307e\u308c\u3066\u304b\u3089\u3000\u3059\u3046\u304a\u304f\u306d\u3093\u306e\u3000\u3042\u3044\u3060\n\u3061\u3066\u3044\u3067\u3000\u306d\u3080\u3063\u3066\u3044\u305f\u3002\u3069\u3046\u304f\u3064\u3092\n\u307b\u308b\u3068\u3000\u305f\u307e\u306b\u3000\u3067\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u4e0b\u6df1\u304f\u306e\u3000\u9ad8\u6e29\u3000\u9ad8\u5727\u306a\n\u74b0\u5883\u3067\u3000\u751f\u307e\u308c\u305f\u3002\n\u982d\u306e\u3000\u77f3\u304b\u3089\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u653e\u3064\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Born from the temperatures and pressures\ndeep underground, it fires beams from the\nstone in its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Nato in ambienti sotterranei a elevati livelli di pressione e\ntemperatura, emette energia dalla pietra che ha sulla testa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Nace en las profundidades subterr\u00e1neas, a altas temperaturas\ny a gran presi\u00f3n. Irradia energ\u00eda por la roca que tiene en la\ncabeza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon entstand aus Druck und Hitze in den tiefsten\nErdschichten. Mithilfe des Steines in seinem Kopf feuert es\nEnergiestrahlen ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon vient des profondeurs de la terre, o\u00f9 la chaleur\net la pression sont intenses. La pierre qui orne sa t\u00eate \u00e9met\nde l\u2019\u00e9nergie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\ud558 \uae4a\uc740 \uacf3\uc5d0 \uc788\ub294 \uace0\uc628, \uace0\uc555\uc758\n\ud658\uacbd\uc5d0\uc11c \ud0dc\uc5b4\ub0ac\ub2e4. \uba38\ub9ac\uc758\n\ub3cc\uc5d0\uc11c \uc5d0\ub108\uc9c0\ub97c \ubc29\ucd9c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u304b\u3075\u304b\u304f\u306e\u3000\u3053\u3046\u304a\u3093\u3000\u3053\u3046\u3042\u3064\u306a\n\u304b\u3093\u304d\u3087\u3046\u3067\u3000\u3046\u307e\u308c\u305f\u3002\u3042\u305f\u307e\u306e\n\u3044\u3057\u304b\u3089\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u306f\u306a\u3064\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u751f\u307e\u308c\u3066\u304b\u3089\u3000\u6570\u5104\u5e74\u306e\u9593\n\u5730\u5e95\u3067\u3000\u7720\u3063\u3066\u3044\u305f\u3002\n\u6d1e\u7a9f\u3092\u3000\u6398\u308b\u3068\u3000\u305f\u307e\u306b\u3000\u51fa\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It has slept underground for hundreds of millions\nof years since its birth. It\u2019s occasionally found\nduring the excavation of caves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Dopo la nascita, dorme nelle viscere della terra per\nmilioni di anni. A volte se ne trova qualche esemplare\nscavando nelle caverne.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Lleva varios cientos de millones de a\u00f1os durmiendo en\nlas profundidades subterr\u00e1neas, desde su nacimiento.\nAparece a veces al excavar en cuevas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nach seiner Geburt brachte es hunderte Millionen von\nJahren tief unter der Erde schlafend zu. Es tritt\ngelegentlich bei H\u00f6hlengrabungen zutage.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il sommeille sous terre depuis son apparition, il y a\nplusieurs centaines de millions d\u2019ann\u00e9es.\nOn le d\u00e9couvre parfois en creusant des cavernes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud0dc\uc5b4\ub098\uc11c \uc218\uc5b5 \ub144 \ub3d9\uc548\n\ub545\uc18d\uc5d0 \uc7a0\ub4e4\uc5b4 \uc788\uc5c8\ub2e4. \ub3d9\uad74\uc744\n\ud30c\uba74 \uac00\ub054 \ub098\uc624\uace4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u307e\u308c\u3066\u304b\u3089\u3000\u3059\u3046\u304a\u304f\u306d\u3093\u306e\u3000\u3042\u3044\u3060\n\u3061\u3066\u3044\u3067\u3000\u306d\u3080\u3063\u3066\u3044\u305f\u3002\u3069\u3046\u304f\u3064\u3092\n\u307b\u308b\u3068\u3000\u305f\u307e\u306b\u3000\u3067\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u4e0b\u6df1\u304f\u306e\u3000\u9ad8\u6e29\u3000\u9ad8\u5727\u306a\n\u74b0\u5883\u3067\u3000\u751f\u307e\u308c\u305f\u3002\n\u982d\u306e\u3000\u77f3\u304b\u3089\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u653e\u3064\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Born from the temperatures and pressures\ndeep underground, it fires beams from the\nstone in its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Nato in ambienti sotterranei a elevati livelli di pressione\ne temperatura, emette energia dalla pietra che ha\nsulla testa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Nace en las profundidades subterr\u00e1neas, a altas\ntemperaturas y a gran presi\u00f3n. Irradia energ\u00eda por\nla roca que tiene en la cabeza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon entstand aus Druck und Hitze\nin den tiefsten Erdschichten. Mithilfe des Steines\nin seinem Kopf feuert es Energiestrahlen ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon vient des profondeurs de la terre,\no\u00f9 la chaleur et la pression sont intenses.\nLa pierre qui orne sa t\u00eate \u00e9met de l\u2019\u00e9nergie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\ud558 \uae4a\uc740 \uacf3\uc5d0 \uc788\ub294 \uace0\uc628, \uace0\uc555\uc758\n\ud658\uacbd\uc5d0\uc11c \ud0dc\uc5b4\ub0ac\ub2e4. \uba38\ub9ac\uc758\n\ub3cc\uc5d0\uc11c \uc5d0\ub108\uc9c0\ub97c \ubc29\ucd9c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u304b\u3075\u304b\u304f\u306e\u3000\u3053\u3046\u304a\u3093\u3000\u3053\u3046\u3042\u3064\u306a\n\u304b\u3093\u304d\u3087\u3046\u3067\u3000\u3046\u307e\u308c\u305f\u3002\u3042\u305f\u307e\u306e\n\u3044\u3057\u304b\u3089\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u306f\u306a\u3064\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u5b9d\u77f3\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u307b\u3046\u305b\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Jewel Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gemma",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Joya",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Edelstein",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Joyau",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5bf6\u77f3\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubcf4\uc11d\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u307b\u3046\u305b\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 25,
+    "id": 703,
+    "is_baby": false,
+    "name": "carbink",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5c0f\u788e\u94bb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e1\u30ec\u30b7\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Carbink"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Carbink"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Carbink"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Rocara"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Strassie"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5c0f\u788e\u947d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uba5c\ub9ac\uc2dc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e1\u30ec\u30b7\u30fc"
+        }
+    ],
+    "order": 703,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 124,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 703,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "ball",
+        "url": "/api/v2/pokemon-shape/1/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "carbink",
+                "url": "/api/v2/pokemon/703/"
+            }
+        }
+    ]
+}

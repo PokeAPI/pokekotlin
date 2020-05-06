@@ -1,0 +1,604 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Heals the user for half its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Heals the user by half its max HP."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u53ec\u5524\u624b\u4e0b\u7597\u4f24\u3002\n\u56de\u590d\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u547c\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u6cbb\u3059\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to heal it. The user\nregains up to half of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa raduna i suoi sgherri per farsi curare.\nRecupera met\u00e0 dei PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "El usuario llama a sus s\u00fabditos para que lo curen. \nRecupera hasta la mitad de los PS m\u00e1ximos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Untergebene heilen den Anwender. KP des\nAnwenders werden um 50 % der maximalen KP\naufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour le soigner.\nIl r\u00e9cup\u00e8re jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u547c\u559a\u624b\u4e0b\uff0c\u6cbb\u7642\u81ea\u5df1\u7684\u50b7\u52e2\u3002\n\u56de\u5fa9\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ud558\ub97c \ubd88\ub7ec\ub0b4\uc5b4 \uc0c1\ucc98\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\n\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u3088\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u306a\u304a\u3059\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53ec\u5524\u624b\u4e0b\u7597\u4f24\u3002\n\u56de\u590d\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u547c\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u6cbb\u3059\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to heal it. The user\nregains up to half of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa raduna i suoi sgherri per farsi curare.\nRecupera met\u00e0 dei PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "El usuario llama a sus s\u00fabditos para que lo curen. \nRecupera hasta la mitad de los PS m\u00e1ximos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Untergebene heilen den Anwender. KP des\nAnwenders werden um 50 % der maximalen KP\naufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour le soigner.\nIl r\u00e9cup\u00e8re jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u547c\u559a\u624b\u4e0b\uff0c\u6cbb\u7642\u81ea\u5df1\u7684\u50b7\u52e2\u3002\n\u56de\u5fa9\u81ea\u5df1\u6700\u5927\uff28\uff30\u7684\u4e00\u534a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ud558\ub97c \ubd88\ub7ec\ub0b4\uc5b4 \uc0c1\ucc98\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\n\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u3088\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u306a\u304a\u3059\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u547c\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u6cbb\u3059\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa raduna i suoi sgherri per farsi curare.\nRecupera met\u00e0 dei PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El usuario llama a sus s\u00fabditos para que lo curen. \nRecupera hasta la mitad de los PS m\u00e1ximos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Untergebene heilen den Anwender.\nKP des Anwenders werden um 50 %\nder maximalen KP aufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour le soigner.\nIl r\u00e9cup\u00e8re jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ud558\ub97c \ubd88\ub7ec\ub0b4\uc5b4 \uc0c1\ucc98\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\n\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u3088\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u306a\u304a\u3059\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u547c\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u6cbb\u3059\u3002\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa raduna i suoi sgherri per farsi curare.\nRecupera met\u00e0 dei PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El usuario llama a sus s\u00fabditos para que lo curen.\nRecupera hasta la mitad de los PS m\u00e1ximos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Untergebene heilen den Anwender.\nKP des Anwenders werden um 50 %\nder maximalen KP aufgef\u00fcllt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour le soigner.\nIl r\u00e9cup\u00e8re jusqu\u2019\u00e0 la moiti\u00e9 de ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ud558\ub97c \ubd88\ub7ec\ub0b4\uc5b4 \uc0c1\ucc98\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\n\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u3088\u3073\u3060\u3057\u3066\u3000\u304d\u305a\u3092\u3000\u306a\u304a\u3059\u3002\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\nheal it. The user regains up to half of its\nmax HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour\nle soigner. Il r\u00e9cup\u00e8re jusqu\u2019\u00e0 la moiti\u00e9\nde ses PV max.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 456,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "heal",
+            "url": "/api/v2/move-category/3/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 50,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "heal-order",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u56de\u590d\u6307\u4ee4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304b\u3044\u3075\u304f\u3057\u308c\u3044"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Heal Order"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Comandocura"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Auxilio"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Heilbefehl"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Appel Soins"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u56de\u5fa9\u6307\u4ee4"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud68c\ubcf5\uc9c0\ub839"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304b\u3044\u3075\u304f\u3057\u308c\u3044"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/8/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "bug",
+        "url": "/api/v2/type/7/"
+    }
+}

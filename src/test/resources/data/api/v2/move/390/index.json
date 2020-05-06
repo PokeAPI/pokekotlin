@@ -1,0 +1,604 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Scatters poisoned spikes around the opposing field, which poison opposing Pok\u00e9mon that enter the field.  A second layer of these spikes may be laid down, in which case Pok\u00e9mon will be badly poisoned instead.  Pok\u00e9mon immune to either ground moves or being poisoned are immune to this effect.  Pok\u00e9mon otherwise immune to ground moves are affected during gravity.\n\nIf a poison Pok\u00e9mon not immune to ground moves enters a field covered with poisoned spikes, the spikes are removed.\n\nrapid spin will remove this effect from its user's side of the field.  defog will remove this effect from its target's side of the field.\n\nThis move does not trigger synchronize, unless the Pok\u00e9mon with synchronize was forced to enter the field by another effect such as roar.\n\nPok\u00e9mon entering the field due to baton pass are not affected by this effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Scatters poisoned spikes, poisoning opposing Pok\u00e9mon that switch in."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\u5bf9\u624b\u7684\u811a\u4e0b\u6492\u6bd2\u83f1\u3002\n\u4f7f\u5bf9\u624b\u66ff\u6362\u51fa\u573a\u7684\u5b9d\u53ef\u68a6\u4e2d\u6bd2\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u8db3\u4e0b\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u3000\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u6bd2\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of poison spikes at the feet of\nthe opposing team. The spikes will poison opposing\nPok\u00e9mon that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di punte che\navvelenano i nemici che scendono in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lanza una trampa de p\u00faas t\u00f3xicas a los pies del\nobjetivo. El veneno afecta a los Pok\u00e9mon oponentes\nque entran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender legt eine Falle mit Giftdornen aus. In den\nKampf eingewechselte gegnerische Pok\u00e9mon werden\nvergiftet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pics autour de l\u2019ennemi.\nIls empoisonnent les ennemis qui entrent au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u5c0d\u624b\u8173\u4e0b\u6563\u5e03\u6bd2\u83f1\u3002\n\u8b93\u5c0d\u624b\u66ff\u63db\u51fa\u5834\u7684\u5bf6\u53ef\u5922\n\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubc1c\ubc11\uc5d0 \ub3c5\uc555\uc815\uc744\n\ubfcc\ub9b0\ub2e4. \uad50\uccb4\ub85c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0 \ub3c5\uc744 \ub36e\uc5b4\uc50c\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3042\u3057\u3082\u3068\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u3000\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3069\u304f\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u5bf9\u624b\u7684\u811a\u4e0b\u6492\u6bd2\u83f1\u3002\n\u4f7f\u5bf9\u624b\u66ff\u6362\u51fa\u573a\u7684\u5b9d\u53ef\u68a6\u4e2d\u6bd2\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u8db3\u4e0b\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u3000\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u6bd2\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of poison spikes at the feet of\nthe opposing team. The spikes will poison opposing\nPok\u00e9mon that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di punte che\navvelenano i nemici che scendono in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lanza una trampa de p\u00faas t\u00f3xicas a los pies del \nobjetivo. El veneno afecta a los Pok\u00e9mon que\nentran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender legt eine Falle mit Giftdornen aus. In den\nKampf eingewechselte gegnerische Pok\u00e9mon werden\nvergiftet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pics autour de l\u2019ennemi.\nIls empoisonnent les ennemis qui entrent au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u5c0d\u624b\u8173\u4e0b\u6563\u5e03\u6bd2\u83f1\u3002\n\u8b93\u5c0d\u624b\u66ff\u63db\u51fa\u5834\u7684\u5bf6\u53ef\u5922\n\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubc1c\ubc11\uc5d0 \ub3c5\uc555\uc815\uc744\n\ubfcc\ub9b0\ub2e4. \uad50\uccb4\ub85c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0 \ub3c5\uc744 \ub36e\uc5b4\uc50c\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3042\u3057\u3082\u3068\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u3000\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3069\u304f\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u8db3\u4e0b\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u6bd2\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of poison spikes at the\nopposing team\u2019s feet. They poison\nopposing Pok\u00e9mon that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di punte che\navvelenano i nemici che scendono in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lanza una trampa de p\u00faas t\u00f3xicas a los pies del \nobjetivo. El veneno afecta a los Pok\u00e9mon que\nentran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender legt eine Falle mit Giftdornen aus.\nIn den Kampf eingewechselte gegnerische\nPok\u00e9mon werden vergiftet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pics autour de l\u2019ennemi.\nIls empoisonnent les ennemis qui entrent au\ncombat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubc1c\ubc11\uc5d0 \ub3c5\uc555\uc815\uc744\n\ubfcc\ub9b0\ub2e4. \uad50\uccb4\ub85c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0 \ub3c5\uc744 \ub36e\uc5b4\uc50c\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3042\u3057\u3082\u3068\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3069\u304f\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u8db3\u4e0b\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u4ea4\u4ee3\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u76f8\u624b\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u6bd2\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of poison spikes at the\nopposing team\u2019s feet. They poison\nopposing Pok\u00e9mon that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa piazza una trappola di punte che\navvelenano i nemici che scendono in campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lanza una trampa de p\u00faas t\u00f3xicas a los pies del\nobjetivo. El veneno afecta a los Pok\u00e9mon que\nentran en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender legt eine Falle mit Giftdornen aus.\nIn den Kampf eingewechselte gegnerische\nPok\u00e9mon werden vergiftet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pics autour de l\u2019ennemi.\nIls empoisonnent les ennemis qui entrent au\ncombat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubc1c\ubc11\uc5d0 \ub3c5\uc555\uc815\uc744\n\ubfcc\ub9b0\ub2e4. \uad50\uccb4\ub85c \ub098\uc628 \uc0c1\ub300\n\ud3ec\ucf13\ubaac\uc5d0 \ub3c5\uc744 \ub36e\uc5b4\uc50c\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3042\u3057\u3082\u3068\u306b\u3000\u3069\u304f\u3073\u3057\u3092\n\u3057\u304b\u3051\u308b\u3002\u3053\u3046\u305f\u3044\u3067\u3000\u3067\u3066\u304d\u305f\u3000\u3042\u3044\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3069\u304f\u3092\u3000\u304a\u308f\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of poison spikes at\nthe opponent\u2019s feet. They poison\nopponents that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap of poison spikes at\nthe opponent\u2019s feet. They poison\nopponents that switch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Lance des pics autour de l\u2019ennemi. Ils\nempoisonnent les ennemis qui entrent\nau combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap\nof poison spikes at\nthe foe\u2019s feet. They\npoison foes that\nswitch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap\nof poison spikes at\nthe foe\u2019s feet. They\npoison foes that\nswitch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user lays a trap\nof poison spikes at\nthe foe\u2019s feet. They\npoison foes that\nswitch into battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 390,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "field-effect",
+            "url": "/api/v2/move-category/11/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "toxic-spikes",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6bd2\u83f1"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3069\u304f\u3073\u3057"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Toxic Spikes"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Fielepunte"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "P\u00faas T\u00f3xicas"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Giftspitzen"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Pics Toxik"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6bd2\u83f1"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub3c5\uc555\uc815"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3069\u304f\u3073\u3057"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "opponents-field",
+        "url": "/api/v2/move-target/6/"
+    },
+    "type": {
+        "name": "poison",
+        "url": "/api/v2/type/4/"
+    }
+}

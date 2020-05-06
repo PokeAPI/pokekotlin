@@ -1,0 +1,566 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "The target will act next this turn, regardless of Speed or move priority.\nIf the target has already acted this turn, this move will fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Makes the target act next this turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u652f\u63f4\u6211\u65b9\u6216\u5bf9\u624b\u7684\u884c\u52a8\uff0c\n\u4f7f\u5176\u7d27\u63a5\u7740\u6b64\u62db\u5f0f\u4e4b\u540e\u884c\u52a8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u884c\u52d5\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u81ea\u5206\u306e\u3000\u884c\u52d5\u306e\u3000\u3042\u3068\u306b\n\u7d9a\u3051\u3066\u3000\u52d5\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user helps the target and makes it use its move\nright after the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa aiuta un bersaglio pi\u00f9 lento\npermettendogli di agire subito dopo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Si el usuario es el m\u00e1s r\u00e1pido, permite al objetivo \nusar un movimiento justo tras \u00e9l, adelant\u00e1ndose a \nPok\u00e9mon m\u00e1s r\u00e1pidos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erm\u00f6glicht dem Ziel direkt nach ihm zu\nhandeln, solange der Anwender als Erstes zum Zug\nkommt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il est le premier \u00e0 agir, le lanceur permet \u00e0 sa\ncible d\u2019utiliser une capacit\u00e9 juste apr\u00e8s lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u652f\u63f4\u5c0d\u624b\uff0c\n\u8b93\u5c0d\u624b\u7dca\u63a5\u5728\u81ea\u5df1\u4e4b\u5f8c\u884c\u52d5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ud589\ub3d9\uc744 \ub3c4\uc640\uc11c\n\uc790\uc2e0\uc774 \ud589\ub3d9\ud55c \ub4a4\uc5d0 \ubc14\ub85c\n\uc6c0\uc9c1\uc77c \uc218 \uc788\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3069\u3046\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3069\u3046\u306e\u3000\u3042\u3068\u306b\n\u3064\u3065\u3051\u3066\u3000\u3046\u3054\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u652f\u63f4\u6211\u65b9\u6216\u5bf9\u624b\u7684\u884c\u52a8\uff0c\n\u4f7f\u5176\u7d27\u63a5\u7740\u6b64\u62db\u5f0f\u4e4b\u540e\u884c\u52a8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u884c\u52d5\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u81ea\u5206\u306e\u3000\u884c\u52d5\u306e\u3000\u3042\u3068\u306b\n\u7d9a\u3051\u3066\u3000\u52d5\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user helps the target and makes it use its move\nright after the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa aiuta un bersaglio pi\u00f9 lento\npermettendogli di agire subito dopo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Si el usuario es el m\u00e1s r\u00e1pido, permite al objetivo \nusar un movimiento justo tras \u00e9l, adelant\u00e1ndose a \nPok\u00e9mon m\u00e1s r\u00e1pidos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erm\u00f6glicht dem Ziel direkt nach ihm zu\nhandeln, solange der Anwender als Erstes zum Zug\nkommt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il est le premier \u00e0 agir, le lanceur permet \u00e0 sa\ncible d\u2019utiliser une capacit\u00e9 juste apr\u00e8s lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u652f\u63f4\u5c0d\u624b\uff0c\n\u8b93\u5c0d\u624b\u7dca\u63a5\u5728\u81ea\u5df1\u4e4b\u5f8c\u884c\u52d5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ud589\ub3d9\uc744 \ub3c4\uc640\uc11c\n\uc790\uc2e0\uc774 \ud589\ub3d9\ud55c \ub4a4\uc5d0 \ubc14\ub85c\n\uc6c0\uc9c1\uc77c \uc218 \uc788\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3069\u3046\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3069\u3046\u306e\u3000\u3042\u3068\u306b\n\u3064\u3065\u3051\u3066\u3000\u3046\u3054\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u884c\u52d5\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u81ea\u5206\u306e\u3000\u884c\u52d5\u306e\u3000\u3042\u3068\u306b\n\u7d9a\u3051\u3066\u3000\u52d5\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user helps the target and makes it\nuse its move right after the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa aiuta un bersaglio pi\u00f9 lento\npermettendogli di agire subito dopo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Si el usuario es el m\u00e1s r\u00e1pido, permite al objetivo \nusar un movimiento justo tras \u00e9l, adelant\u00e1ndose a \nPok\u00e9mon m\u00e1s r\u00e1pidos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erm\u00f6glicht dem Ziel direkt nach ihm\nzu handeln, solange der Anwender als Erstes\nzum Zug kommt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il est le premier \u00e0 agir, le lanceur permet \u00e0 sa\ncible d\u2019utiliser une capacit\u00e9 juste apr\u00e8s lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ud589\ub3d9\uc744 \ub3c4\uc640\uc11c\n\uc790\uc2e0\uc774 \ud589\ub3d9\ud55c \ub4a4\uc5d0 \ubc14\ub85c\n\uc6c0\uc9c1\uc77c \uc218 \uc788\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3069\u3046\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3069\u3046\u306e\u3000\u3042\u3068\u306b\n\u3064\u3065\u3051\u3066\u3000\u3046\u3054\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u884c\u52d5\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u81ea\u5206\u306e\u3000\u884c\u52d5\u306e\u3000\u3042\u3068\u306b\n\u7d9a\u3051\u3066\u3000\u52d5\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user helps the target and makes it\nuse its move right after the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa aiuta un bersaglio pi\u00f9 lento\npermettendogli di agire subito dopo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Si el usuario es el m\u00e1s r\u00e1pido, permite al objetivo\nusar un movimiento justo tras \u00e9l, adelant\u00e1ndose a\nPok\u00e9mon m\u00e1s r\u00e1pidos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender erm\u00f6glicht dem Ziel direkt nach ihm\nzu handeln, solange der Anwender als Erstes\nzum Zug kommt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il est le premier \u00e0 agir, le lanceur permet \u00e0 sa\ncible d\u2019utiliser une capacit\u00e9 juste apr\u00e8s lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ud589\ub3d9\uc744 \ub3c4\uc640\uc11c\n\uc790\uc2e0\uc774 \ud589\ub3d9\ud55c \ub4a4\uc5d0 \ubc14\ub85c\n\uc6c0\uc9c1\uc77c \uc218 \uc788\ub3c4\ub85d \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3069\u3046\u3092\u3000\u30b5\u30dd\u30fc\u30c8\u3057\u3066\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3069\u3046\u306e\u3000\u3042\u3068\u306b\n\u3064\u3065\u3051\u3066\u3000\u3046\u3054\u3051\u308b\u3088\u3046\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user helps the target and makes it\nuse its move right after the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user helps the target and makes it\nuse its move right after the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il est le premier \u00e0 agir, le lanceur\npermet \u00e0 sa cible d\u2019utiliser une\ncapacit\u00e9 juste apr\u00e8s lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 495,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "after-you",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u60a8\u5148\u8bf7"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304a\u3055\u304d\u306b\u3069\u3046\u305e"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "After You"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Cortesia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Cede Paso"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Galanterie"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Apr\u00e8s Vous"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u60a8\u5148\u8acb"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub2f9\uc2e0\uba3c\uc800"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304a\u3055\u304d\u306b\u3069\u3046\u305e"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

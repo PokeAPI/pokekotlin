@@ -1,0 +1,712 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/14/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "The next time a Pok\u00e9mon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag.\n\nIf two Pok\u00e9mon use this move on the same turn, the faster Pok\u00e9mon will steal the first beneficial move, and the slower Pok\u00e9mon will then steal it again\u2014thus, only the slowest Pok\u00e9mon using this move ultimately gains a stolen move's effect.\n\nIf the user steals psych up, it will target the Pok\u00e9mon that used psych up.  If the user was the original target of psych up, and the Pok\u00e9mon that originally used it's affected by pressure, it will only lose 1 PP.\n\nThis move cannot be copied by mirror move, nor selected by assist or metronome.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Steals the target's move, if it's self-targeted."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u5bf9\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u590d\u62db\u5f0f\n\u6216\u80fd\u529b\u53d8\u5316\u62db\u5f0f\u593a\u4e3a\u5df1\u7528\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n \no de cambio de caracter\u00edsticas que se usen. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Raubt den Effekt heilender oder Werte ver\u00e4ndernder\nAttacken des Zieles.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5c0d\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u5fa9\u62db\u5f0f\n\u6216\u80fd\u529b\u8b8a\u5316\u62db\u5f0f\u596a\u70ba\u5df1\u7528\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u5bf9\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u590d\u62db\u5f0f\n\u6216\u80fd\u529b\u53d8\u5316\u62db\u5f0f\u593a\u4e3a\u5df1\u7528\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n \no de cambio de caracter\u00edsticas que se usen. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Raubt den Effekt heilender oder Werte ver\u00e4ndernder\nAttacken des Zieles.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u5c0d\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u5fa9\u62db\u5f0f\n\u6216\u80fd\u529b\u8b8a\u5316\u62db\u5f0f\u596a\u70ba\u5df1\u7528\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n \no de cambio de caracter\u00edsticas que se usen. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Raubt den Effekt eingesetzter heilender\noder Werte ver\u00e4ndernder Attacken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Raubt den Effekt eingesetzter heilender\noder Werte ver\u00e4ndernder Attacken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur vole l\u2019effet des capacit\u00e9s\nde soin ou de changement de stats\nutilis\u00e9es par la cible.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user steals the\neffects of any\nhealing or status-\nchanging move the foe\nattempts to use.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Steals the effects\nof the foe\u2019s\nhealing or status-\nchanging move.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Steals the effects of the\nmove the target uses next.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Steals the effects of the\nmove the foe uses next.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 289,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/869/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/870/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/871/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/872/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/873/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/874/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/876/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/877/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "snatch",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u62a2\u593a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3088\u3053\u3069\u308a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Snatch"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Scippo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Robo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "\u00dcbernahme"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Saisie"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6436\u596a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uac00\ub85c\ucc54"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3088\u3053\u3069\u308a"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 4,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/12/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+    }
+}

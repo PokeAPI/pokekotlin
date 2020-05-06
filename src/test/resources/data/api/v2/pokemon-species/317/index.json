@@ -1,0 +1,776 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 75,
+    "color": {
+        "name": "purple",
+        "url": "/api/v2/pokemon-color/7/"
+    },
+    "egg_groups": [
+        {
+            "name": "indeterminate",
+            "url": "/api/v2/egg-group/11/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/159/"
+    },
+    "evolves_from_species": {
+        "name": "gulpin",
+        "url": "/api/v2/pokemon-species/316/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6b6f\u304c\u3000\uff11\u672c\u3082\u3000\u306a\u3044\u306e\u3067\u3000\u306a\u3093\u3067\u3082\u3000\u4e38\u306e\u202f\u3002\n\u3044\u3063\u3071\u3044\u306b\u3000\u958b\u3051\u305f\u3000\u53e3\u306f\u3000\u3068\u3066\u3082\u3000\u5927\u304d\u304f\n\u81ea\u52d5\u8eca\u306e\u3000\u30bf\u30a4\u30e4\u3060\u3063\u3066\u3000\u3059\u3063\u307d\u308a\u3000\u5165\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Swalot has no teeth, so what it eats, it swallows whole, no\nmatter what. Its cavernous mouth yawns widely. An automobile\ntire could easily fit inside this Pok\u00e9mon\u2019s mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Swalot non ha denti, cos\u00ec quando mangia ingoia ogni cosa\nintera, senza masticare. Quando sbadiglia, la sua bocca\nenorme si apre a mo\u2019 di voragine. \u00c8 cos\u00ec grande che potrebbe\ncontenere persino uno pneumatico.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Swalot no tiene dientes, as\u00ed que lo que come se lo traga de\nuna vez; da igual lo que sea. A este Pok\u00e9mon le cabr\u00eda un\nneum\u00e1tico en la boca sin problema.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Schlukwech hat keine Z\u00e4hne. Alles was es isst, schluckt es im\nGanzen herunter. Sein Maul ist so riesig, dass mit Leichtigkeit\nein Autoreifen hineinpassen w\u00fcrde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Avaltout n\u2019a pas de dents, ce qui le force \u00e0 tout avaler en\nune bouch\u00e9e. Quand il b\u00e2ille, sa bouche prend une taille\nimpressionnante, et on pourrait y placer une roue de voiture.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\ube68\uc774 \ud558\ub098\ub3c4 \uc5c6\uc5b4\uc11c \ubb34\uc5c7\uc774\ub4e0 \ud1b5\uc9f8\ub85c \uc0bc\ud0a8\ub2e4.\n\ucd5c\ub300\ud55c \ubc8c\ub9b0 \uc785\uc740 \uc815\ub9d0 \ucee4\uc11c\n\uc790\ub3d9\ucc28 \ud0c0\uc774\uc5b4\ub9c8\uc800\ub3c4 \uc465 \ub4e4\uc5b4\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u304c\u3000\uff11\u307d\u3093\u3082\u3000\u306a\u3044\u306e\u3067\u3000\u306a\u3093\u3067\u3082\u3000\u307e\u308b\u306e\u202f\u3002\n\u3044\u3063\u3071\u3044\u306b\u3000\u3042\u3051\u305f\u3000\u304f\u3061\u306f\u3000\u3068\u3066\u3082\u3000\u304a\u304a\u304d\u304f\n\u3058\u3069\u3046\u3057\u3083\u306e\u3000\u30bf\u30a4\u30e4\u3060\u3063\u3066\u3000\u3059\u3063\u307d\u308a\u3000\u306f\u3044\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u7372\u7269\u3092\u3000\u898b\u3064\u3051\u308b\u3068\u3000\u6bdb\u7a74\u304b\u3089\u3000\u731b\u6bd2\u306e\n\u4f53\u6db2\u3092\u3000\u5439\u304d\u51fa\u3057\u3066\u3000\u6d74\u3073\u305b\u304b\u3051\u308b\u305e\u3002\n\u5f31\u3063\u305f\u3000\u3068\u3053\u308d\u3092\u3000\u5927\u304d\u306a\u3000\u53e3\u3067\u3000\u30da\u30ed\u30ea\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "When Swalot spots prey, it spurts out a hideously toxic fluid\nfrom its pores and sprays the target. Once the prey has\nweakened, this Pok\u00e9mon gulps it down whole with its\ncavernous mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Quando individua la preda, Swalot spruzza sul bersaglio\nun ripugnante fluido tossico dai propri pori. Una volta\nindebolito l\u2019avversario, Swalot lo ingoia intero con la bocca\nsimile a una voragine.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Cuando Swalot detecta una presa, echa por los poros, y a\nborbotones, un fluido t\u00f3xico espantoso con el que roc\u00eda a su\nv\u00edctima. Una vez que la debilita, se la traga entera gracias a\nla gigantesca boca que tiene.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Wenn Schlukwech Beute sichtet, verspritzt es eine h\u00f6chst\ngiftige Substanz aus seinen Poren und bespr\u00fcht damit sein\nZiel. Wenn die Beute geschw\u00e4cht ist, schluckt es sie mit\nseinem riesigen Maul im Ganzen herunter.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019Avaltout rep\u00e8re une proie, il lib\u00e8re une substance\nterriblement toxique de ses pores et en enduit son ennemi\npour l\u2019affaiblir. Ce Pok\u00e9mon peut ensuite l\u2019avaler d\u2019un coup\ndans sa gigantesque bouche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uba39\uc774\ub97c \ubc1c\uacac\ud558\uba74 \ubaa8\uacf5\uc5d0\uc11c \ub9f9\ub3c5\uc758\n\uccb4\uc561\uc744 \ubfdc\uc5b4\ub0b4\uc5b4 \ub07c\uc5b9\ub294\ub2e4.\n\uc57d\ud574\uc9c0\uba74 \ucee4\ub2e4\ub780 \uc785\uc73c\ub85c \ud55c\uc785\uc5d0 \uba39\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3048\u3082\u306e\u3092\u3000\u202f\u3064\u3051\u308b\u3068\u3000\u3051\u3042\u306a\u304b\u3089\u3000\u3082\u3046\u3069\u304f\u306e\n\u305f\u3044\u3048\u304d\u3092\u3000\u3075\u304d\u3060\u3057\u3066\u3000\u3042\u3073\u305b\u304b\u3051\u308b\u305e\u3002\n\u3088\u308f\u3063\u305f\u3000\u3068\u3053\u308d\u3092\u3000\u304a\u304a\u304d\u306a\u3000\u304f\u3061\u3067\u3000\u30da\u30ed\u30ea\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u53e3\u306b\u3000\u5165\u308b\u3000\u5927\u304d\u3055\u306e\u3000\u3082\u306e\u306a\u3089\n\u306a\u3093\u3067\u3082\u3000\u307e\u308b\u98f2\u307f\u3002\u7279\u6b8a\u306a\n\u80c3\u6db2\u3067\u3000\u306a\u3093\u3067\u3082\u3000\u6d88\u5316\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It gulps anything that fits in its mouth. Its special\nenzymes can dissolve anything.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Inghiotte qualunque cosa che possa infilarsi in\nbocca. Digerisce tutto con succhi gastrici speciali.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se traga todo lo que le quepa en su enorme boca.\nSus jugos g\u00e1stricos pueden digerir cualquier cosa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es verschluckt, was in sein Maul passt, und verdaut es\nmit seiner alles zersetzenden Magens\u00e4ure.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il avale tout en une bouch\u00e9e. Ses sucs digestifs\npeuvent dig\u00e9rer n\u2019importe quoi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc785\uc5d0 \ub4e4\uc5b4\uac00\ub294 \ud06c\uae30\uc758 \uac83\uc774\ub77c\uba74\n\ubb34\uc5c7\uc774\ub4e0 \ud1b5\uc9f8\ub85c \uc0bc\ud0a8\ub2e4. \ud2b9\uc218\ud55c\n\uc704\uc561\uc73c\ub85c \ubb34\uc5c7\uc774\ub4e0 \uc18c\ud654\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3061\u306b\u3000\u306f\u3044\u308b\u3000\u304a\u304a\u304d\u3055\u306e\u3000\u3082\u306e\u306a\u3089\n\u306a\u3093\u3067\u3082\u3000\u307e\u308b\u306e\u307f\u3002\u3068\u304f\u3057\u3085\u306a\n\u3044\u3048\u304d\u3067\u3000\u306a\u3093\u3067\u3082\u3000\u3057\u3087\u3046\u304b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3093\u3067\u3082\u3000\u307e\u308b\u306e\u307f\u3057\u3066\u3057\u307e\u3046\u3002\n\u6bdb\u7a74\u304b\u3089\u3000\u731b\u6bd2\u306e\u3000\u4f53\u6db2\u3092\n\u5206\u6ccc\u3057\u3066\u3000\u6575\u306b\u3000\u6d74\u3073\u305b\u304b\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole. It sweats toxic fluids\nfrom its follicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Inghiotte intera qualsiasi cosa. Dai pori traspira\nun liquido tossico con cui bagna i nemici.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se traga cualquier cosa de una pieza. Sus poros\nsegregan fluidos t\u00f3xicos que da\u00f1an a sus enemigos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es verschluckt alles in einem St\u00fcck und sondert\ngiftige Stoffe ab, mit denen es Gegner bespr\u00fcht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il avale tout en une bouch\u00e9e. Ses follicules s\u00e9cr\u00e8tent\ndes fluides toxiques qui endorment l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc5c7\uc774\ub4e0 \ud1b5\uc9f8\ub85c \uc0bc\ucf1c \ubc84\ub9b0\ub2e4.\n\ubaa8\uacf5\uc5d0\uc11c \ub9f9\ub3c5\uc758 \uccb4\uc561\uc744\n\ubd84\ube44\ud558\uc5ec \uc0c1\ub300\uc5d0\uac8c \ub07c\uc5b9\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3093\u3067\u3082\u3000\u307e\u308b\u306e\u307f\u3057\u3066\u3057\u307e\u3046\u3002\n\u3051\u3042\u306a\u304b\u3089\u3000\u3082\u3046\u3069\u304f\u306e\u3000\u305f\u3044\u3048\u304d\u3092\n\u3076\u3093\u3074\u3064\u3057\u3066\u3000\u3066\u304d\u306b\u3000\u3042\u3073\u305b\u304b\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole.\nIt sweats toxic fluids from its\nfollicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole.\nIt sweats toxic fluids from its\nfollicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole.\nIt sweats toxic fluids from its\nfollicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il avale tout en une bouch\u00e9e. Ses\nfollicules s\u00e9cr\u00e8tent des fluides\ntoxiques qui endorment l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole.\nIt sweats toxic fluids from its\nfollicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il avale tout en une bouch\u00e9e. Ses\nfollicules s\u00e9cr\u00e8tent des fluides\ntoxiques qui endorment l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It gulps anything that fits in its\nmouth. Its special enzymes can\ndissolve anything.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It gulps anything that fits in its\nmouth. Its special enzymes can\ndissolve anything.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole.\nIt sweats toxic fluids from its\nfollicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole.\nIt sweats toxic fluids from its\nfollicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It swallows anything whole.\nIt sweats toxic fluids from its\nfollicles to douse foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It can swallow a tire whole in one gulp.\nIt secretes a horribly toxic fluid from\nthe pores on its body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It can swallow a tire whole in one gulp.\nIt secretes a horribly toxic fluid from\nthe pores on its body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Its powerful stomach acid is capable of\ndigesting almost anything. The one thing\nin the whole world a SWALOT can\u2019t digest is\nits own stomach.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "SWALOT has no teeth, so what it\neats, it swallows whole, no matter what.\nIts cavernous mouth yawns widely.\fAn automobile tire could easily fit\ninside this POK\u00e9MON\u2019s mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "When SWALOT spots prey, it spurts out\na hideously toxic fluid from its pores\nand sprays the target.\fOnce the prey has weakened, this\nPOK\u00e9MON gulps it down whole with its\ncavernous mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6bd2\u888b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3069\u304f\u3076\u304f\u308d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Poison Bag Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Velenosacco",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bolsa Veneno",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Giftbeutel",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Sac Poison",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6bd2\u888b\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub3c5\ubd09\uc9c0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3069\u304f\u3076\u304f\u308d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "fast-then-very-slow",
+        "url": "/api/v2/growth-rate/6/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 317,
+    "is_baby": false,
+    "name": "swalot",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u541e\u98df\u517d"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30de\u30eb\u30ce\u30fc\u30e0"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Swalot"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Swalot"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Swalot"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Schlukwech"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Avaltout"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u541e\u98df\u7378"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uafc0\uaebd\ubaac"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Marunoom"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30de\u30eb\u30ce\u30fc\u30e0"
+        }
+    ],
+    "order": 345,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 101,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 99,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 96,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 317,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "arms",
+        "url": "/api/v2/pokemon-shape/4/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "swalot",
+                "url": "/api/v2/pokemon/317/"
+            }
+        }
+    ]
+}

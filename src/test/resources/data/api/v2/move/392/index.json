@@ -1,0 +1,604 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Restores 1/16 of the user's max HP at the end of each turn.  If the user leaves the field, this effect ends.\n\nThis effect is passed on by baton pass.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Restores 1/16 of the user's max HP each turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\u81ea\u5df1\u8eab\u4f53\u7684\u5468\u56f4\n\u8986\u76d6\u7528\u6c34\u5236\u9020\u7684\u5e55\u3002\n\u6bcf\u56de\u5408\u56de\u590d\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u4f53\u306e\u3000\u5468\u308a\u3092\n\u6c34\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u6bce\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops itself in a veil made of water.\nIt regains some HP every turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si avvolge in un velo d\u2019acqua. Recupera\nalcuni PS a ogni turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un manto de agua cubre al Pok\u00e9mon que lo usa. \nRecupera algunos PS en cada turno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender umgibt sich mit einem Schleier aus\nWasser. Dabei regeneriert er einige KP pro Runde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un voile d\u2019eau recouvre le lanceur et r\u00e9g\u00e9n\u00e8re\nses PV \u00e0 chaque tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u81ea\u5df1\u7684\u8eab\u908a\u5957\u4e0a\u6c34\u6d41\u74b0\u3002\n\u6bcf\u56de\u5408\u6703\u56de\u5fa9\u81ea\u5df1\u7684\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ubab8 \uc8fc\ubcc0\uc744\n\ubb3c\ub85c \ub9cc\ub4e0 \ubca0\uc77c\ub85c \ub36e\ub294\ub2e4.\n\ub9e4 \ud134 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u304b\u3089\u3060\u306e\u3000\u307e\u308f\u308a\u3092\n\u307f\u305a\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u307e\u3044\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u81ea\u5df1\u8eab\u4f53\u7684\u5468\u56f4\n\u8986\u76d6\u7528\u6c34\u5236\u9020\u7684\u5e55\u3002\n\u6bcf\u56de\u5408\u56de\u590d\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u4f53\u306e\u3000\u5468\u308a\u3092\n\u6c34\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u6bce\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops itself in a veil made of water.\nIt regains some HP every turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si avvolge in un velo d\u2019acqua. Recupera\nalcuni PS a ogni turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un manto de agua cubre al Pok\u00e9mon que lo usa. \nRecupera algunos PS en cada turno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender umgibt sich mit einem Schleier aus\nWasser. Dabei regeneriert er einige KP pro Runde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un voile d\u2019eau recouvre le lanceur et r\u00e9g\u00e9n\u00e8re\nses PV \u00e0 chaque tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u81ea\u5df1\u7684\u8eab\u908a\u5957\u4e0a\u6c34\u6d41\u74b0\u3002\n\u6bcf\u56de\u5408\u6703\u56de\u5fa9\u81ea\u5df1\u7684\uff28\uff30\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ubab8 \uc8fc\ubcc0\uc744\n\ubb3c\ub85c \ub9cc\ub4e0 \ubca0\uc77c\ub85c \ub36e\ub294\ub2e4.\n\ub9e4 \ud134 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u304b\u3089\u3060\u306e\u3000\u307e\u308f\u308a\u3092\n\u307f\u305a\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u307e\u3044\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u4f53\u306e\u3000\u5468\u308a\u3092\n\u6c34\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u6bce\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops itself in a veil made\nof water. It regains some HP every turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si avvolge in un velo d\u2019acqua. Recupera\nalcuni PS a ogni turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un manto de agua cubre al Pok\u00e9mon que lo usa. \nRecupera algunos PS en cada turno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender umgibt sich mit einem Schleier aus\nWasser. Dabei regeneriert er einige KP pro Runde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un voile liquide enveloppe le lanceur.\nIl r\u00e9cup\u00e8re des PV \u00e0 chaque tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ubab8 \uc8fc\ubcc0\uc744\n\ubb3c\ub85c \ub9cc\ub4e0 \ubca0\uc77c\ub85c \ub36e\ub294\ub2e4.\n\ub9e4 \ud134 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u304b\u3089\u3060\u306e\u3000\u307e\u308f\u308a\u3092\n\u202f\u305a\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u307e\u3044\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u4f53\u306e\u3000\u5468\u308a\u3092\n\u6c34\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u6bce\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops itself in a veil made\nof water. It regains some HP every turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si avvolge in un velo d\u2019acqua. Recupera\nalcuni PS a ogni turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un manto de agua cubre al Pok\u00e9mon que lo usa.\nRecupera algunos PS en cada turno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender umgibt sich mit einem Schleier aus\nWasser. Dabei regeneriert er einige KP pro Runde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un voile liquide enveloppe le lanceur.\nIl r\u00e9cup\u00e8re des PV \u00e0 chaque tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ubab8 \uc8fc\ubcc0\uc744\n\ubb3c\ub85c \ub9cc\ub4e0 \ubca0\uc77c\ub85c \ub36e\ub294\ub2e4.\n\ub9e4 \ud134 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u304b\u3089\u3060\u306e\u3000\u307e\u308f\u308a\u3092\n\u307f\u305a\u3067\u3000\u3064\u304f\u3063\u305f\u3000\u30d9\u30fc\u30eb\u3067\u3000\u304a\u304a\u3046\u3002\n\u307e\u3044\u30bf\u30fc\u30f3\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops itself in a veil made\nof water. It regains some HP on\nevery turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops itself in a veil made\nof water. It regains some HP on\nevery turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un voile liquide enveloppe le lanceur.\nIl r\u00e9cup\u00e8re des PV \u00e0 chaque tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops\nitself in a veil made\nof water. It regains\nsome HP on every\nturn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops\nitself in a veil made\nof water. It regains\nsome HP on every\nturn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user envelops\nitself in a veil made\nof water. It regains\nsome HP on every\nturn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 392,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "aqua-ring",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6c34\u6d41\u73af"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a2\u30af\u30a2\u30ea\u30f3\u30b0"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Aqua Ring"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Acquanello"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Acua Aro"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Wasserring"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Anneau Hydro"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6c34\u6d41\u74b0"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc544\ucfe0\uc544\ub9c1"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a2\u30af\u30a2\u30ea\u30f3\u30b0"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/8/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

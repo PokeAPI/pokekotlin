@@ -1,0 +1,678 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 225,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "dragon",
+            "url": "/api/v2/egg-group/14/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/354/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u540c\u788e\u85fb\u6df7\u6742\u5728\u4e00\u8d77\uff0c\u4e3a\u4e86\u4e0d\u88ab\n\u5927\u578b\u5b9d\u53ef\u68a6\u88ad\u51fb\uff0c\u4e00\u76f4\u4e00\u52a8\u4e0d\u52a8\u7684\u3002\n\u4ee5\u8150\u70c2\u7684\u6d77\u85fb\u4e3a\u4e3b\u8981\u98df\u7269\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u85fb\u5c51\u306b\u3000\u7d1b\u308c\u3000\u5927\u304d\u306a\u30dd\u30b1\u30e2\u30f3\u306b\n\u8972\u308f\u308c\u306a\u3044\u3088\u3046\u3000\u3058\u3063\u3068\u3000\u3057\u3066\u3044\u308b\u3002\n\u8150\u3063\u305f\u3000\u6d77\u8349\u304c\u3000\u4e3b\u306a\u3000\u30a8\u30b5\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It vanishes into seaweed and remains perfectly\nstill to avoid attacks from large Pok\u00e9mon.\nRotten seaweed is its main food source.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si nasconde immobile tra la vegetazione marina\nper sfuggire ai Pok\u00e9mon pi\u00f9 grandi. Si nutre\nprevalentemente di alghe in decomposizione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Permanece escondido e inm\u00f3vil entre las algas\npara protegerse de Pok\u00e9mon m\u00e1s grandes. Su\nprincipal sustento son las algas podridas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es versteckt sich regungslos zwischen Algen,\num Angriffe von gro\u00dfen Pok\u00e9mon zu vermeiden.\nVerfaulter Seetang ist seine bevorzugte Speise.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il reste tapi au fond des oc\u00e9ans, \u00e0 l\u2019abri des\nplus gros Pok\u00e9mon. Il se nourrit principalement\nd\u2019algues pourries.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u70ba\u4e86\u4e0d\u88ab\u5927\u578b\u5bf6\u53ef\u5922\u8972\u64ca\uff0c\n\u7e3d\u662f\u6df7\u5728\u6d77\u85fb\u5c51\u88e1\u52d5\u4e5f\u4e0d\u52d5\u3002\n\u4e3b\u8981\u7684\u98df\u7269\u662f\u8150\u721b\u7684\u6d77\u8349\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc218\ucd08 \ucc0c\uaebc\uae30\ub85c \ub4a4\ubc94\ubc85\uc744 \ud558\uace0 \ud070 \ud3ec\ucf13\ubaac\uc5d0\uac8c\n\uacf5\uaca9\ub2f9\ud558\uc9c0 \uc54a\ub3c4\ub85d \uac00\ub9cc\ud788 \uc788\ub2e4.\n\uc369\uc740 \ud574\ucd08\uac00 \uc8fc\uc694 \uba39\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u304f\u305a\u306b\u3000\u307e\u304e\u308c\u3000\u304a\u304a\u304d\u306a\u30dd\u30b1\u30e2\u30f3\u306b\n\u304a\u305d\u308f\u308c\u306a\u3044\u3088\u3046\u3000\u3058\u3063\u3068\u3000\u3057\u3066\u3044\u308b\u3002\n\u304f\u3055\u3063\u305f\u3000\u304b\u3044\u305d\u3046\u304c\u3000\u304a\u3082\u306a\u3000\u30a8\u30b5\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u8150\u3063\u305f\u3000\u6d77\u85fb\u306b\u3000\u305d\u3063\u304f\u308a\u3002\n\u6575\u306e\u3000\u76ee\u3092\u3000\u3054\u307e\u304b\u3057\u306a\u304c\u3089\n\u9032\u5316\u3059\u308b\u3000\u529b\u3092\u3000\u84c4\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like rotten kelp. It hides from foes\nwhile storing up power for its evolution.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il suo aspetto ricorda la vegetazione marina in\ndecomposizione. Sfugge ai nemici mimetizzandosi e resta\nnascosto accumulando energie per l\u2019evoluzione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es id\u00e9ntico a un alga podrida. Mientras burla al enemigo,\nacumula energ\u00eda para evolucionar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mit seinem an verfaulten Seetang erinnernden Aussehen\nf\u00fchrt es den Gegner in die Irre, w\u00e4hrend es selbst Energie\nzur Weiterentwicklung speichert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sa ressemblance avec le varech pourri est confondante.\nIl se soustrait \u00e0 l\u2019attention de ses ennemis en attendant\nde pouvoir \u00e9voluer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc369\uc740 \ud574\uc870\uc640 \ub611\uac19\uc774 \uc0dd\uacbc\ub2e4.\n\uc801\uc758 \ub208\uc744 \uc18d\uc774\uba70\n\uc9c4\ud654\ud560 \ud798\uc744 \ube44\ucd95\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3063\u305f\u3000\u304b\u3044\u305d\u3046\u306b\u3000\u305d\u3063\u304f\u308a\u3002\n\u3066\u304d\u306e\u3000\u3081\u3092\u3000\u3054\u307e\u304b\u3057\u306a\u304c\u3089\n\u3057\u3093\u304b\u3059\u308b\u3000\u3061\u304b\u3089\u3092\u3000\u305f\u304f\u308f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u8150\u3063\u305f\u3000\u6d77\u85fb\u306b\u3000\u64ec\u614b\u3059\u308b\u3002\n\u6c17\u3065\u304b\u305a\u306b\u3000\u8fd1\u5bc4\u3063\u3066\u304d\u305f\u3000\u7372\u7269\u306b\n\u6bd2\u6db2\u3092\u3000\u6d74\u3073\u305b\u3066\u3000\u3057\u3068\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Camouflaged as rotten kelp, they spray\nliquid poison on prey that approaches\nunawares and then finish it off.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Si mimetizza assumendo l\u2019aspetto della vegetazione marina\nin decomposizione. Spruzza sulle prede ignare un liquido\nvelenoso per poi finirle.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Adopta la apariencia de algas podridas y lanza un l\u00edquido\nvenenoso a las presas desprevenidas que pasan cerca.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Als verfaulter Seetang getarnt, lauert es auf Beute und\nbespritzt alles und jeden, der sich ahnungslos n\u00e4hert,\nmit fl\u00fcssigem Gift, bevor es ihm den Rest gibt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il se cache parmi les algues en d\u00e9composition pour mieux\napprocher ses proies, qu\u2019il ach\u00e8ve en les aspergeant\nde poison.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc369\uc740 \ud574\uc870\ub85c \uc704\uc7a5\ud55c\ub2e4.\n\ub208\uce58\ucc44\uc9c0 \ubabb\ud558\uace0 \uac00\uae4c\uc774 \ub2e4\uac00\uc628\n\uc0ac\ub0e5\uac10\uc5d0 \ub3c5\uc561\uc744 \ub07c\uc5b9\uc5b4 \uc7a1\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3063\u305f\u3000\u304b\u3044\u305d\u3046\u306b\u3000\u304e\u305f\u3044\u3059\u308b\u3002\n\u304d\u3065\u304b\u305a\u306b\u3000\u3061\u304b\u3088\u3063\u3066\u304d\u305f\u3000\u3048\u3082\u306e\u306b\n\u3069\u304f\u3048\u304d\u3092\u3000\u3042\u3073\u305b\u3066\u3000\u3057\u3068\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u8150\u3063\u305f\u3000\u6d77\u85fb\u306b\u3000\u305d\u3063\u304f\u308a\u3002\n\u6575\u306e\u3000\u76ee\u3092\u3000\u3054\u307e\u304b\u3057\u306a\u304c\u3089\n\u9032\u5316\u3059\u308b\u3000\u529b\u3092\u3000\u84c4\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It looks just like rotten kelp. It hides from foes\nwhile storing up power for its evolution.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il suo aspetto ricorda la vegetazione marina in\ndecomposizione. Sfugge ai nemici mimetizzandosi e\nresta nascosto accumulando energie per l\u2019evoluzione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es id\u00e9ntico a un alga podrida. Mientras burla al\nenemigo, acumula energ\u00eda para evolucionar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Mit seinem an verfaulten Seetang erinnernden\nAussehen f\u00fchrt es den Gegner in die Irre, w\u00e4hrend\nes selbst Energie zur Weiterentwicklung speichert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sa ressemblance avec le varech pourri est\nconfondante. Il se soustrait \u00e0 l\u2019attention de\nses ennemis en attendant de pouvoir \u00e9voluer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc369\uc740 \ud574\uc870\uc640 \ub611\uac19\uc774 \uc0dd\uacbc\ub2e4.\n\uc801\uc758 \ub208\uc744 \uc18d\uc774\uba70\n\uc9c4\ud654\ud560 \ud798\uc744 \ube44\ucd95\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3063\u305f\u3000\u304b\u3044\u305d\u3046\u306b\u3000\u305d\u3063\u304f\u308a\u3002\n\u3066\u304d\u306e\u3000\u3081\u3092\u3000\u3054\u307e\u304b\u3057\u306a\u304c\u3089\n\u3057\u3093\u304b\u3059\u308b\u3000\u3061\u304b\u3089\u3092\u3000\u305f\u304f\u308f\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u8150\u3063\u305f\u3000\u6d77\u85fb\u306b\u3000\u64ec\u614b\u3059\u308b\u3002\n\u6c17\u3065\u304b\u305a\u306b\u3000\u8fd1\u5bc4\u3063\u3066\u304d\u305f\u3000\u7372\u7269\u306b\n\u6bd2\u6db2\u3092\u3000\u6d74\u3073\u305b\u3066\u3000\u3057\u3068\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Camouflaged as rotten kelp, they spray\nliquid poison on prey that approaches\nunawares and then finish it off.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Si mimetizza assumendo l\u2019aspetto della vegetazione\nmarina in decomposizione. Spruzza sulle prede ignare\nun liquido velenoso per poi finirle.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Adopta la apariencia de algas podridas y lanza un\nl\u00edquido venenoso a las presas desprevenidas que\npasan cerca.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Als verfaulter Seetang getarnt, lauert es auf Beute und\nbespritzt alles und jeden, der sich ahnungslos n\u00e4hert,\nmit fl\u00fcssigem Gift, bevor es ihm den Rest gibt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il se cache parmi les algues en d\u00e9composition pour\nmieux approcher ses proies, qu\u2019il ach\u00e8ve en les\naspergeant de poison.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc369\uc740 \ud574\uc870\ub85c \uc704\uc7a5\ud55c\ub2e4.\n\ub208\uce58\ucc44\uc9c0 \ubabb\ud558\uace0 \uac00\uae4c\uc774 \ub2e4\uac00\uc628\n\uc0ac\ub0e5\uac10\uc5d0 \ub3c5\uc561\uc744 \ub07c\uc5b9\uc5b4 \uc7a1\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u3063\u305f\u3000\u304b\u3044\u305d\u3046\u306b\u3000\u304e\u305f\u3044\u3059\u308b\u3002\n\u304d\u3065\u304b\u305a\u306b\u3000\u3061\u304b\u3088\u3063\u3066\u304d\u305f\u3000\u3048\u3082\u306e\u306b\n\u3069\u304f\u3048\u304d\u3092\u3000\u3042\u3073\u305b\u3066\u3000\u3057\u3068\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u4f3c\u8349\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30af\u30b5\u30e2\u30c9\u30ad\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Mock Kelp Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Similalga",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pseudoalga",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Tangmimikry",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Simulalgue",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u4f3c\u8349\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud480\ubaa8\ubc29\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30af\u30b5\u30e2\u30c9\u30ad\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 690,
+    "is_baby": false,
+    "name": "skrelp",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5783\u5783\u85fb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30af\u30ba\u30e2\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Skrelp"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Skrelp"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Skrelp"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Algitt"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Venalgue"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5783\u5783\u85fb"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc218\ub808\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30af\u30ba\u30e2\u30fc"
+        }
+    ],
+    "order": 691,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 30,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 690,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "blob",
+        "url": "/api/v2/pokemon-shape/5/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "skrelp",
+                "url": "/api/v2/pokemon/690/"
+            }
+        }
+    ]
+}

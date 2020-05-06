@@ -1,0 +1,867 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 60,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/290/"
+    },
+    "evolves_from_species": {
+        "name": "trubbish",
+        "url": "/api/v2/pokemon-species/568/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u5de6\u81c2\u9501\u4f4f\u654c\u4eba\u540e\uff0c\n\u4f1a\u5c06\u6709\u6bd2\u7684\u6db2\u4f53\u6cfc\u5411\u5bf9\u65b9\u5168\u8eab\uff0c\n\u5c01\u4f4f\u5176\u884c\u52a8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5de6\u8155\u3067\u3000\u6575\u3092\u3000\u30ed\u30c3\u30af\u3059\u308b\u3068\n\u6bd2\u306e\u3000\u6db2\u4f53\u3092\u3000\u4f53\u4e2d\u306b\n\u6d74\u3073\u305b\u304b\u3051\u3000\u8eab\u52d5\u304d\u3092\u3000\u5c01\u3058\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It locks opponents in place with its left hand,\nimmobilizing them by entirely dousing their\nbodies with poisonous liquid.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Blocca il nemico con l\u2019arto sinistro e\nne cosparge il corpo con un liquido\nvelenoso per immobilizzarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Atrapa a su presa con el brazo izquierdo y luego\nroc\u00eda su cuerpo con un l\u00edquido venenoso para\ninmovilizarla.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Mit dem linken Arm nagelt es seinen Gegner fest,\num ihn dann mit einer toxischen Fl\u00fcssigkeit zu\nbespr\u00fchen und ihn so zu l\u00e4hmen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il ma\u00eetrise son adversaire de son bras gauche,\npuis l\u2019arrose d\u2019un liquide toxique paralysant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u5de6\u81c2\u9396\u4f4f\u6575\u4eba\u5f8c\uff0c\n\u6703\u5c07\u6bd2\u6db2\u7051\u5411\u6575\u4eba\u5168\u8eab\uff0c\n\u4f7f\u5c0d\u65b9\u7121\u6cd5\u52d5\u5f48\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc67c\ucabd \ud314\ub85c \uc801\uc744 \uaf2d \ubd99\ub4e4\uace0\n\ub3c5\uc561\uc744 \uc628\ubab8\uc5d0\n\ud37c\ubd80\uc5b4 \uc6c0\uc9c1\uc784\uc744 \ub9c9\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3060\u308a\u3046\u3067\u3067\u3000\u3066\u304d\u3092\u3000\u30ed\u30c3\u30af\u3059\u308b\u3068\n\u3069\u304f\u306e\u3000\u3048\u304d\u305f\u3044\u3092\u3000\u304b\u3089\u3060\u3058\u3085\u3046\u306b\n\u3042\u3073\u305b\u304b\u3051\u3000\u307f\u3046\u3054\u304d\u3092\u3000\u3075\u3046\u3058\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u67d0\u4e2a\u65f6\u671f\u5728\u963f\u7f57\u62c9\u5448\u7206\u53d1\u5f0f\u589e\u957f\uff0c\n\u4f46\u662f\u81ed\u6ce5\u6765\u4e86\u4e4b\u540e\uff0c\n\u6570\u91cf\u4e00\u4e0b\u5b50\u51cf\u5c11\u4e86\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u308b\u6642\u671f\u3000\u30a2\u30ed\u30fc\u30e9\u3067\u3000\u7206\u767a\u7684\u306b\n\u5897\u3048\u305f\u304c\u3000\u30d9\u30c8\u30d9\u30bf\u30fc\u304c\u3000\u6765\u3066\u304b\u3089\u306f\n\u305d\u306e\u6570\u306f\u3000\u30ac\u30af\u30f3\u3068\u3000\u6e1b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "For a time, their numbers increased explosively\nin Alola. Since the arrival of Grimer, their\npopulation has decreased dramatically.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Un tempo questi Pok\u00e9mon erano molto diffusi\nad Alola, ma il loro numero \u00e8 notevolmente\ndiminuito con l\u2019arrivo dei Grimer.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Hubo un tiempo en el que la poblaci\u00f3n de\nGarbodor en Alola era espectacular, pero su\nn\u00famero se desplom\u00f3 cuando llegaron los Grimer.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Einst haben sie sich explosionsartig in Alola\nausgebreitet. Mit der Ankunft von Sleima hat\nihr Bestand jedoch sehr rasch abgenommen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il fut un temps o\u00f9 les Miasmax \u00e9taient LE fl\u00e9au\nd\u2019Alola. Heureusement, leur population a vite\ndiminu\u00e9 apr\u00e8s l\u2019arriv\u00e9e des Tadmorv.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u963f\u7f85\u62c9\u7684\u6578\u91cf\u5f9e\u67d0\u500b\u6642\u671f\u958b\u59cb\n\u7206\u70b8\u6027\u589e\u52a0\uff0c\u4f46\u662f\u81ea\u5f9e\u81ed\u6ce5\u4f86\u4e86\u4e4b\u5f8c\uff0c\n\u6578\u91cf\u4e00\u4e0b\u5b50\u4fbf\u6e1b\u5c11\u4e86\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ud55c\ub54c \uc54c\ub85c\ub77c\uc5d0\uc11c \ud3ed\ubc1c\uc801\uc73c\ub85c\n\ub298\uc5c8\uc9c0\ub9cc \uc9c8\ud37d\uc774\uac00 \uc624\uace0 \ub09c \ub4a4\ub85c\n\uac1c\uccb4 \uc218\uac00 \ud06c\uac8c \uc904\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u308b\u3058\u304d\u3000\u30a2\u30ed\u30fc\u30e9\u3067\u3000\u3070\u304f\u306f\u3064\u3066\u304d\u306b\n\u3075\u3048\u305f\u304c\u3000\u30d9\u30c8\u30d9\u30bf\u30fc\u304c\u3000\u304d\u3066\u304b\u3089\u306f\n\u305d\u306e\u304b\u305a\u306f\u3000\u30ac\u30af\u30f3\u3068\u3000\u3078\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u3092\u3000\u5438\u3044\u3068\u3063\u3066\u306f\u3000\u4f53\u5185\u3067\n\u65b0\u3057\u3044\u3000\u7a2e\u985e\u306e\u3000\u6bd2\u30ac\u30b9\u3084\n\u6bd2\u306e\u3000\u6db2\u4f53\u3092\u3000\u751f\u202f\u3060\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Consuming garbage makes new kinds of poison\ngases and liquids inside their bodies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Assorbe la spazzatura nel suo corpo per creare dei liquidi\nvelenosi e dei gas tossici sempre nuovi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Absorbe y procesa en su interior basura para generar nuevos\ngases nocivos y l\u00edquidos venenosos de alta virulencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jedes Mal, wenn es frischen M\u00fcll in sich aufsaugt, erzeugt es\nv\u00f6llig neue Formen von Giftgasen und Toxinen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il aspire les d\u00e9chets et les int\u00e8gre \u00e0 son corps pour produire\ndes gaz et des fluides toxiques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc4f0\ub808\uae30\ub97c \ud761\uc218\ud574\uc11c \uccb4\ub0b4\uc5d0\uc11c\n\uc0c8\ub85c\uc6b4 \uc885\ub958\uc758 \ub3c5\uac00\uc2a4\ub098\n\ub3c5\uc758 \uc561\uccb4\ub97c \ub9cc\ub4e4\uc5b4\ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u3092\u3000\u3059\u3044\u3068\u3063\u3066\u306f\u3000\u305f\u3044\u306a\u3044\u3067\n\u3042\u305f\u3089\u3057\u3044\u3000\u3057\u3085\u308b\u3044\u306e\u3000\u3069\u304f\u30ac\u30b9\u3084\n\u3069\u304f\u306e\u3000\u3048\u304d\u305f\u3044\u3092\u3000\u3046\u202f\u3060\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5de6\u8155\u3067\u3000\u76f8\u624b\u3092\u3000\u7d5e\u3081\u3064\u3051\u3066\n\u53e3\u304b\u3089\u3000\u5410\u304d\u51fa\u3059\u3000\u60aa\u81ed\u306e\u3000\u6bd2\u30ac\u30b9\u3067\n\u3068\u3069\u3081\u3092\u3000\u523a\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It clenches opponents with its left arm and finishes\nthem off with foul-smelling poison gas belched from\nits mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Serra l\u2019avversario con l\u2019arto sinistro e gli d\u00e0 il colpo di grazia\nesalando dalla bocca un fetido gas velenoso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Apresa a su rival con el brazo izquierdo y le da el golpe de\ngracia exhalando por la boca un apestoso gas venenoso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es nimmt mit dem rechten Arm Gegner in die Mangel und\ngibt ihnen mit dem giftigen Gas aus seinem Maul den Rest.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il \u00e9trangle ses ennemis avec son bras gauche et les ach\u00e8ve\navec le gaz puant et empoisonn\u00e9 qu\u2019il exhale par la bouche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc67c\ud314\ub85c \uc0c1\ub300\ub97c \uaf2d \ubd99\ub4e4\uace0\n\uc785\uc5d0\uc11c \uc545\ucde8\uac00 \ub098\ub294 \ub3c5\uac00\uc2a4\ub97c\n\ud1a0\ud574\ub0b4\uc11c \ub9c8\ubb34\ub9ac\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3060\u308a\u3046\u3067\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3057\u3081\u3064\u3051\u3066\n\u304f\u3061\u304b\u3089\u3000\u306f\u304d\u3060\u3059\u3000\u3042\u304f\u3057\u3085\u3046\u306e\n\u3069\u304f\u30ac\u30b9\u3067\u3000\u3068\u3069\u3081\u3092\u3000\u3055\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u3092\u3000\u5438\u3044\u3068\u3063\u3066\u306f\u3000\u4f53\u5185\u3067\n\u65b0\u3057\u3044\u3000\u7a2e\u985e\u306e\u3000\u6bd2\u30ac\u30b9\u3084\n\u6bd2\u306e\u3000\u6db2\u4f53\u3092\u3000\u751f\u307f\u3060\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Consuming garbage makes new kinds of poison\ngases and liquids inside their bodies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Assorbe la spazzatura nel suo corpo per creare dei\nliquidi velenosi e dei gas tossici sempre nuovi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Absorbe y procesa en su interior basura para generar\nnuevos gases nocivos y l\u00edquidos venenosos de alta\nvirulencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Jedes Mal, wenn es frischen M\u00fcll in sich aufsaugt,\nerzeugt es v\u00f6llig neue Formen von Giftgasen und\nToxinen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il aspire les d\u00e9chets et les int\u00e8gre \u00e0 son corps pour\nproduire des gaz et des fluides toxiques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc4f0\ub808\uae30\ub97c \ud761\uc218\ud574\uc11c \uccb4\ub0b4\uc5d0\uc11c\n\uc0c8\ub85c\uc6b4 \uc885\ub958\uc758 \ub3c5\uac00\uc2a4\ub098\n\ub3c5\uc758 \uc561\uccb4\ub97c \ub9cc\ub4e4\uc5b4\ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30b4\u30df\u3092\u3000\u3059\u3044\u3068\u3063\u3066\u306f\u3000\u305f\u3044\u306a\u3044\u3067\n\u3042\u305f\u3089\u3057\u3044\u3000\u3057\u3085\u308b\u3044\u306e\u3000\u3069\u304f\u30ac\u30b9\u3084\n\u3069\u304f\u306e\u3000\u3048\u304d\u305f\u3044\u3092\u3000\u3046\u307f\u3060\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5de6\u8155\u3067\u3000\u76f8\u624b\u3092\u3000\u7d5e\u3081\u3064\u3051\u3066\n\u53e3\u304b\u3089\u3000\u5410\u304d\u51fa\u3059\u3000\u60aa\u81ed\u306e\u3000\u6bd2\u30ac\u30b9\u3067\n\u3068\u3069\u3081\u3092\u3000\u523a\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It clenches opponents with its left arm and finishes\nthem off with foul-smelling poison gas belched from\nits mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Serra l\u2019avversario con l\u2019arto sinistro e gli d\u00e0 il colpo\ndi grazia esalando dalla bocca un fetido gas velenoso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Apresa a su rival con el brazo izquierdo y le da el\ngolpe de gracia exhalando por la boca un apestoso\ngas venenoso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es nimmt mit dem rechten Arm Gegner in\ndie Mangel und gibt ihnen mit dem giftigen Gas\naus seinem Maul den Rest.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il \u00e9trangle ses ennemis avec son bras gauche et les\nach\u00e8ve avec le gaz puant et empoisonn\u00e9 qu\u2019il exhale\npar la bouche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc67c\ud314\ub85c \uc0c1\ub300\ub97c \uaf2d \ubd99\ub4e4\uace0\n\uc785\uc5d0\uc11c \uc545\ucde8\uac00 \ub098\ub294 \ub3c5\uac00\uc2a4\ub97c\n\ud1a0\ud574\ub0b4\uc11c \ub9c8\ubb34\ub9ac\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3060\u308a\u3046\u3067\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3057\u3081\u3064\u3051\u3066\n\u304f\u3061\u304b\u3089\u3000\u306f\u304d\u3060\u3059\u3000\u3042\u304f\u3057\u3085\u3046\u306e\n\u3069\u304f\u30ac\u30b9\u3067\u3000\u3068\u3069\u3081\u3092\u3000\u3055\u3059\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Consuming garbage makes\nnew kinds of poison gases\nand liquids inside their bodies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Consuming garbage makes\nnew kinds of poison gases\nand liquids inside their bodies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "They absorb garbage and make it part\nof their bodies. They shoot a poisonous\nliquid from their right-hand fingertips.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il aspire les d\u00e9chets et les int\u00e8gre \u00e0\nson corps. Les doigts de sa main droite\nexsudent un fluide empoisonn\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It clenches opponents with its left arm\nand finishes them off with foul-smelling\npoison gas belched from its mouth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il \u00e9trangle ses ennemis avec son bras\ndroit et les ach\u00e8ve avec le gaz puant et\nempoisonn\u00e9 qu\u2019il exhale par la bouche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5783\u573e\u573a\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30b4\u30df\u3059\u3066\u3070\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Trash Heap Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Discarica",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Vertedero",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "M\u00fcllhalde",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon D\u00e9potoir",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5783\u573e\u5834\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc4f0\ub808\uae30\uc7a5\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30b4\u30df\u3059\u3066\u3070\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 569,
+    "is_baby": false,
+    "name": "garbodor",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7070\u5c18\u5c71"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c0\u30b9\u30c8\u30c0\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Garbodor"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Garbodor"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Garbodor"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Deponitox"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Miasmax"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7070\u5875\u5c71"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub354\uc2a4\ud2b8\ub098"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c0\u30b9\u30c8\u30c0\u30b9"
+        }
+    ],
+    "order": 570,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 75,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 106,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 75,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 569,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "garbodor",
+                "url": "/api/v2/pokemon/569/"
+            }
+        }
+    ]
+}

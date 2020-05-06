@@ -1,0 +1,632 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target damaged the user this turn and was the last to do so, this move has double power.\n\npain split does not count as damaging the user.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Inflicts double damage if the user takes damage before attacking this turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5982\u679c\u53d7\u5230\u5bf9\u624b\u7684\u62db\u5f0f\u653b\u51fb\uff0c\n\u5c31\u80fd\u7ed9\u4e88\u8be5\u5bf9\u624b\n\uff12\u500d\u5a01\u529b\u7684\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304b\u3089\u3000\u6280\u3092\u3000\u53d7\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u76f8\u624b\u306b\u3000\u5bfe\u3057\u3066\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The power of this attack move is doubled if the user\nhas been hurt by the target in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Mossa d\u2019attacco che infligge doppi danni se chi\nla usa \u00e8 stato ferito dal Pok\u00e9mon bersaglio nello\nstesso turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Este ataque inflige el doble de da\u00f1o a un objetivo\nque haya golpeado al usuario en ese mismo turno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Wurde der Anwender in dieser Runde vom Ziel\ngetroffen, verdoppelt sich die St\u00e4rke der Attacke\nbei Angriffen auf dieses Ziel.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque deux fois plus puissante si le lanceur\na \u00e9t\u00e9 bless\u00e9 par l\u2019ennemi durant le tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u53d7\u5230\u5c0d\u624b\u7684\u62db\u5f0f\u653b\u64ca\uff0c\n\u7d66\u4e88\u8a72\u5c0d\u624b\u7684\u62db\u5f0f\u5a01\u529b\u5c31\u6703\u8b8a\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub85c\ubd80\ud130 \uae30\uc220\uc744 \ubc1b\uc73c\uba74\n\uadf8 \uc0c1\ub300\uc5d0 \ub300\ud574\uc11c\n\uae30\uc220\uc758 \uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304b\u3089\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3057\u3066\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u53d7\u5230\u5bf9\u624b\u7684\u62db\u5f0f\u653b\u51fb\uff0c\n\u5c31\u80fd\u7ed9\u4e88\u8be5\u5bf9\u624b\n\uff12\u500d\u5a01\u529b\u7684\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304b\u3089\u3000\u6280\u3092\u3000\u53d7\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u76f8\u624b\u306b\u3000\u5bfe\u3057\u3066\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The power of this attack move is doubled if the user\nhas been hurt by the target in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Mossa d\u2019attacco che infligge doppi danni se chi\nla usa \u00e8 stato ferito dal Pok\u00e9mon bersaglio nello\nstesso turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Este ataque inflige el doble de da\u00f1o a un objetivo\nque haya golpeado al usuario en ese mismo turno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Wurde der Anwender in dieser Runde vom Ziel\ngetroffen, verdoppelt sich die St\u00e4rke aller Attacken\ndes Anwenders bei Angriffen auf dieses Ziel.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque deux fois plus puissante si le lanceur\na \u00e9t\u00e9 bless\u00e9 par l\u2019ennemi durant le tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u53d7\u5230\u5c0d\u624b\u7684\u62db\u5f0f\u653b\u64ca\uff0c\n\u7d66\u4e88\u8a72\u5c0d\u624b\u7684\u62db\u5f0f\u5a01\u529b\u5c31\u6703\u8b8a\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub85c\ubd80\ud130 \uae30\uc220\uc744 \ubc1b\uc73c\uba74\n\uadf8 \uc0c1\ub300\uc5d0 \ub300\ud574\uc11c\n\uae30\uc220\uc758 \uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304b\u3089\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3057\u3066\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304b\u3089\u3000\u6280\u3092\u3000\u53d7\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u76f8\u624b\u306b\u3000\u5bfe\u3057\u3066\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that inflicts double the\ndamage if the user has been hurt by the\ntarget in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Mossa d\u2019attacco che infligge doppi danni se chi\nla usa \u00e8 stato ferito dal Pok\u00e9mon bersaglio nello\nstesso turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Este ataque inflige el doble de da\u00f1o a un objetivo\nque haya golpeado al usuario en ese mismo turno. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Wurde der Anwender in dieser Runde vom Ziel\ngetroffen, macht diese Attacke doppelten\nSchaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque deux fois plus puissante si le lanceur\na \u00e9t\u00e9 bless\u00e9 par l\u2019ennemi durant le tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub85c\ubd80\ud130 \uae30\uc220\uc744 \ubc1b\uc73c\uba74\n\uadf8 \uc0c1\ub300\uc5d0 \ub300\ud574\uc11c\n\uae30\uc220\uc758 \uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304b\u3089\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3057\u3066\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304b\u3089\u3000\u6280\u3092\u3000\u53d7\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u76f8\u624b\u306b\u3000\u5bfe\u3057\u3066\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that inflicts double the\ndamage if the user has been hurt by the\ntarget in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Mossa d\u2019attacco che infligge doppi danni se chi\nla usa \u00e8 stato ferito dal Pok\u00e9mon bersaglio nello\nstesso turno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Este ataque inflige el doble de da\u00f1o a un objetivo\nque haya golpeado al usuario en ese mismo turno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Wurde der Anwender in dieser Runde vom Ziel\ngetroffen, macht diese Attacke doppelten\nSchaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque deux fois plus puissante si le lanceur\na \u00e9t\u00e9 bless\u00e9 par l\u2019ennemi durant le tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub85c\ubd80\ud130 \uae30\uc220\uc744 \ubc1b\uc73c\uba74\n\uadf8 \uc0c1\ub300\uc5d0 \ub300\ud574\uc11c\n\uae30\uc220\uc758 \uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304b\u3089\u3000\u308f\u3056\u3092\u3000\u3046\u3051\u3066\u3044\u308b\u3068\n\u305d\u306e\u3000\u3042\u3044\u3066\u306b\u3000\u305f\u3044\u3057\u3066\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that inflicts double the\ndamage if the user has been hurt by the\ntarget in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that inflicts double the\ndamage if the user has been hurt by the\ntarget in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque deux fois plus puissante si le\nlanceur a \u00e9t\u00e9 bless\u00e9 par l\u2019ennemi durant\nle tour.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 419,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1090/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1091/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1092/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "avalanche",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u96ea\u5d29"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3086\u304d\u306a\u3060\u308c"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Avalanche"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Slavina"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Alud"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Lawine"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Avalanche"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u96ea\u5d29"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub208\uc0ac\ud0dc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3086\u304d\u306a\u3060\u308c"
+        }
+    ],
+    "past_values": [],
+    "power": 60,
+    "pp": 10,
+    "priority": -4,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/15/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ice",
+        "url": "/api/v2/type/15/"
+    }
+}

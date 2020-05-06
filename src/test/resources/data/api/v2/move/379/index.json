@@ -1,0 +1,604 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "The user's original Attack and Defense are swapped.\n\nThis effect is passed on by baton pass.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User swaps Attack and Defense."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5229\u7528\u8d85\u80fd\u529b\u4ea4\u6362\n\u81ea\u5df1\u7684\u653b\u51fb\u548c\n\u9632\u5fa1\u7684\u529b\u91cf\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\n\u81ea\u5206\u306e\u3000\u653b\u6483\u3068\u3000\u9632\u5fa1\u306e\n\u529b\u3092\u3000\u4ea4\u63db\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its psychic power to switch its\nAttack stat with its Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Mossa psichica che permette a chi la usa\ndi scambiare i valori delle sue statistiche\ndi Attacco e Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Usa sus poderes mentales para intercambiar su \ncaracter\u00edstica de Ataque por Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender setzt Psycho-Kr\u00e4fte ein, um eigenen\nAngriffs- mit Verteidigungs-Wert auszutauschen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise ses pouvoirs psychiques pour\n\u00e9changer sa D\u00e9fense et son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u8d85\u80fd\u529b\uff0c\n\u5c07\u81ea\u5df1\u7684\u653b\u64ca\u548c\n\u9632\u79a6\u4e92\u76f8\u4ea4\u63db\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c\n\uc790\uc2e0\uc758 \uacf5\uaca9\uacfc \ubc29\uc5b4\uc758\n\ud798\uc744 \uad50\ud658\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3052\u304d\u3068\u3000\u307c\u3046\u304e\u3087\u306e\n\u3061\u304b\u3089\u3092\u3000\u3053\u3046\u304b\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u8d85\u80fd\u529b\u4ea4\u6362\n\u81ea\u5df1\u7684\u653b\u51fb\u548c\n\u9632\u5fa1\u7684\u529b\u91cf\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\n\u81ea\u5206\u306e\u3000\u653b\u6483\u3068\u3000\u9632\u5fa1\u306e\n\u529b\u3092\u3000\u4ea4\u63db\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its psychic power to switch its\nAttack stat with its Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Mossa psichica che permette a chi la usa\ndi scambiare i valori delle sue statistiche\ndi Attacco e Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Usa sus poderes mentales para intercambiar su \ncaracter\u00edstica de Ataque por Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender setzt Psycho-Kr\u00e4fte ein, um eigenen\nAngriffs- mit Verteidigungs-Wert auszutauschen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise ses pouvoirs psychiques pour\n\u00e9changer sa D\u00e9fense et son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u8d85\u80fd\u529b\uff0c\n\u5c07\u81ea\u5df1\u7684\u653b\u64ca\u548c\n\u9632\u79a6\u4e92\u76f8\u4ea4\u63db\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c\n\uc790\uc2e0\uc758 \uacf5\uaca9\uacfc \ubc29\uc5b4\uc758\n\ud798\uc744 \uad50\ud658\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3052\u304d\u3068\u3000\u307c\u3046\u304e\u3087\u306e\n\u3061\u304b\u3089\u3092\u3000\u3053\u3046\u304b\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\n\u81ea\u5206\u306e\u3000\u653b\u6483\u3068\u3000\u9632\u5fa1\u306e\n\u529b\u3092\u3000\u4ea4\u63db\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Mossa psichica che permette a chi la usa\ndi scambiare i valori delle sue statistiche\ndi Attacco e Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa sus poderes mentales para intercambiar su \ncaracter\u00edstica de Ataque por Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender setzt Psycho-Kr\u00e4fte ein, um eigenen\nAngriffs- mit Verteidigungs-Wert auszutauschen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise ses pouvoirs psychiques pour\n\u00e9changer sa D\u00e9fense et son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c\n\uc790\uc2e0\uc758 \uacf5\uaca9\uacfc \ubc29\uc5b4\uc758\n\ud798\uc744 \uad50\ud658\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3052\u304d\u3068\u3000\u307c\u3046\u304e\u3087\u306e\n\u3061\u304b\u3089\u3092\u3000\u3053\u3046\u304b\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\n\u81ea\u5206\u306e\u3000\u653b\u6483\u3068\u3000\u9632\u5fa1\u306e\n\u529b\u3092\u3000\u4ea4\u63db\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Mossa psichica che permette a chi la usa\ndi scambiare i valori delle sue statistiche\ndi Attacco e Difesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa sus poderes mentales para intercambiar su\ncaracter\u00edstica de Ataque por Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender setzt Psycho-Kr\u00e4fte ein, um eigenen\nAngriffs- mit Verteidigungs-Wert auszutauschen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise ses pouvoirs psychiques pour\n\u00e9changer sa D\u00e9fense et son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c\n\uc790\uc2e0\uc758 \uacf5\uaca9\uacfc \ubc29\uc5b4\uc758\n\ud798\uc744 \uad50\ud658\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\n\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3052\u304d\u3068\u3000\u307c\u3046\u304e\u3087\u306e\n\u3061\u304b\u3089\u3092\u3000\u3053\u3046\u304b\u3093\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its psychic power to\nswitch its Attack with its Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise ses pouvoirs psychiques\npour \u00e9changer sa stat D\u00e9fense et sa\nstat Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its\npsychic power to\nswitch its Attack\nwith its Defense\nstat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its\npsychic power to\nswitch its Attack\nwith its Defense\nstat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user employs its\npsychic power to\nswitch its Attack\nwith its Defense\nstat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 379,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "power-trick",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u529b\u91cf\u620f\u6cd5"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d1\u30ef\u30fc\u30c8\u30ea\u30c3\u30af"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Power Trick"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Ingannoforza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Truco Fuerza"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Krafttrick"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Astuce Force"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u529b\u91cf\u6232\u6cd5"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud30c\uc6cc\ud2b8\ub9ad"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d1\u30ef\u30fc\u30c8\u30ea\u30c3\u30af"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/16/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "psychic",
+        "url": "/api/v2/type/14/"
+    }
+}

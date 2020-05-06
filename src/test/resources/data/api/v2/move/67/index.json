@@ -1,0 +1,674 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/4/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u529b\u8e22\u5bf9\u624b\u7684\u811a\uff0c\n\u4f7f\u5176\u6454\u5012\u8fdb\u884c\u653b\u51fb\u3002\n\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8db3\u3092\u3000\u5f37\u304f\u3000\u3051\u308a\n\u76f8\u624b\u3092\u3000\u8ee2\u3070\u305b\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick that makes the target fall over.\nThe heavier the target, the greater the\nmove\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un calcio basso e potente che fa cadere\nil bersaglio. Danneggia maggiormente\ni Pok\u00e9mon pi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Patada baja que derriba al oponente. Cuanto m\u00e1s\npesa el objetivo, m\u00e1s da\u00f1o le causa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel\nist, desto mehr Schaden f\u00fcgt ihm die Attacke zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un puissant coup de pied bas qui fauche l\u2019ennemi.\nIl est plus efficace contre les ennemis lourds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u529b\u8e22\u5c0d\u624b\u7684\u8173\uff0c\n\u8b93\u5c0d\u624b\u6454\u5012\u9032\u884c\u653b\u64ca\u3002\n\u5c0d\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubc1c\uc744 \uac15\ud558\uac8c \uac78\uace0\n\uc0c1\ub300\ub97c \ub118\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3057\u3092\u3000\u3064\u3088\u304f\u3000\u3051\u308a\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u304c\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u529b\u8e22\u5bf9\u624b\u7684\u811a\uff0c\n\u4f7f\u5176\u6454\u5012\u8fdb\u884c\u653b\u51fb\u3002\n\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8db3\u3092\u3000\u5f37\u304f\u3000\u3051\u308a\n\u76f8\u624b\u3092\u3000\u8ee2\u3070\u305b\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick that makes the target fall over.\nThe heavier the target, the greater the\nmove\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un calcio basso e potente che fa cadere\nil bersaglio. Danneggia maggiormente\ni Pok\u00e9mon pi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Patada baja que derriba al oponente. Cuanto m\u00e1s\npesa el objetivo, m\u00e1s da\u00f1o le causa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel\nist, desto mehr Schaden f\u00fcgt ihm die Attacke zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un puissant coup de pied bas qui fauche l\u2019ennemi.\nIl est plus efficace contre les ennemis lourds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u529b\u8e22\u5c0d\u624b\u7684\u8173\uff0c\n\u8b93\u5c0d\u624b\u6454\u5012\u9032\u884c\u653b\u64ca\u3002\n\u5c0d\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubc1c\uc744 \uac15\ud558\uac8c \uac78\uace0\n\uc0c1\ub300\ub97c \ub118\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3057\u3092\u3000\u3064\u3088\u304f\u3000\u3051\u308a\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u304c\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8db3\u3092\u3000\u5f37\u304f\u3000\u3051\u308a\n\u76f8\u624b\u3092\u3000\u8ee2\u3070\u305b\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick that makes the target\nfall over. The heavier the target,\nthe greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un calcio basso e potente che fa cadere\nil bersaglio. Danneggia maggiormente\ni Pok\u00e9mon pi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Patada baja. Cuanto m\u00e1s pesa el objetivo, m\u00e1s da\u00f1o \ncausa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel\nist, desto mehr Schaden f\u00fcgt ihm die Attacke zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un puissant coup de pied bas qui fauche l\u2019ennemi.\nIl est plus efficace contre les ennemis lourds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubc1c\uc744 \uac15\ud558\uac8c \uac78\uace0\n\uc0c1\ub300\ub97c \ub118\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3057\u3092\u3000\u3064\u3088\u304f\u3000\u3051\u308a\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u304c\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u8db3\u3092\u3000\u5f37\u304f\u3000\u3051\u308a\n\u76f8\u624b\u3092\u3000\u8ee2\u3070\u305b\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick that makes the target\nfall over. The heavier the target,\nthe greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un calcio basso e potente che fa cadere il bersaglio.\nDanneggia maggiormente i Pok\u00e9mon pi\u00f9 pesanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Patada baja. Cuanto m\u00e1s pesa el objetivo, m\u00e1s\nda\u00f1o causa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel\nist, desto mehr Schaden f\u00fcgt ihm die Attacke zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un puissant coup de pied bas qui fauche l\u2019ennemi.\nIl est plus efficace contre les ennemis lourds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubc1c\uc744 \uac15\ud558\uac8c \uac78\uace0\n\uc0c1\ub300\ub97c \ub118\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3057\u3092\u3000\u3064\u3088\u304f\u3000\u3051\u308a\u3000\u3042\u3044\u3066\u3092\n\u3053\u308d\u3070\u305b\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u304c\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick that makes the target\nfall over. It inflicts greater damage on\nheavier targets.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick that makes the target\nfall over. It inflicts greater damage on\nheavier targets.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un puissant coup de pied bas qui fauche\nl\u2019ennemi. Il est plus efficace contre\nles ennemis lourds.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A low, tripping kick\nthat inflicts more\ndamage on heavier\nfoes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A kick that inflicts more\ndamage on heavier foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A kick that inflicts more\ndamage on heavier foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\ncause flinching.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\ncause flinching.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 67,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "low-kick",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8e22\u5012"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3051\u305f\u3050\u308a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Low Kick"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Colpo Basso"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Patada Baja"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Fu\u00dfkick"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Balayage"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8e22\u5012"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc548\ub2e4\ub9ac\uac78\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3051\u305f\u3050\u308a"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": 90,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 50,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/5/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+    }
+}

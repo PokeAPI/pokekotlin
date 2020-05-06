@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "The target's ability is disabled as long as it remains on the field.\n\nThis effect is passed on by baton pass.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Nullifies target's ability until it leaves battle."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u80c3\u6db2\u5410\u5411\u5bf9\u624b\u7684\u8eab\u4f53\u3002\n\u6cbe\u4e0a\u7684\u80c3\u6db2\u4f1a\u6d88\u9664\n\u5bf9\u624b\u7684\u7279\u6027\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u80c3\u6db2\u3092\u3000\u76f8\u624b\u306e\n\u4f53\u306b\u3000\u5410\u304d\u3064\u3051\u308b\u3002\u3000\u3064\u3044\u305f\u3000\u80c3\u6db2\u306f\n\u76f8\u624b\u306e\u3000\u7279\u6027\u306e\u3000\u52b9\u679c\u3092\u3000\u6d88\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its stomach acids on the target.\nThe fluid eliminates the effect of the target\u2019s Ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia acidi gastrici sul bersaglio.\nIl fluido annulla l\u2019abilit\u00e0 del Pok\u00e9mon colpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "El usuario arroja sus jugos biliares al objetivo, lo \nque anula el efecto de la habilidad en uso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit eigenen Magens\u00e4ften\nan. Entfernt Effekte von dessen F\u00e4higkeit.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9pand ses sucs digestifs sur l\u2019ennemi.\nLe fluide neutralise le talent de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u80c3\u6db2\u5410\u5411\u5c0d\u624b\u7684\u8eab\u9ad4\u3002\n\u6cbe\u5230\u7684\u80c3\u6db2\u6703\u6d88\u9664\n\u5c0d\u624b\u7684\u7279\u6027\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubab8\uc5d0 \uc704\uc561\uc744 \ub0b4\ubc49\ub294\ub2e4.\n\ub2ec\ub77c\ubd99\uc740 \uc704\uc561\uc740 \uc0c1\ub300\uc758\n\ud2b9\uc131 \ud6a8\uacfc\ub97c \uc9c0\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3048\u304d\u3092\u3000\u3042\u3044\u3066\u306e\n\u304b\u3089\u3060\u306b\u3000\u306f\u304d\u3064\u3051\u308b\u3002\u3000\u3064\u3044\u305f\u3000\u3044\u3048\u304d\u306f\n\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3051\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u80c3\u6db2\u5410\u5411\u5bf9\u624b\u7684\u8eab\u4f53\u3002\n\u6cbe\u4e0a\u7684\u80c3\u6db2\u4f1a\u6d88\u9664\n\u5bf9\u624b\u7684\u7279\u6027\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u80c3\u6db2\u3092\u3000\u76f8\u624b\u306e\n\u4f53\u306b\u3000\u5410\u304d\u3064\u3051\u308b\u3002\u3000\u3064\u3044\u305f\u3000\u80c3\u6db2\u306f\n\u76f8\u624b\u306e\u3000\u7279\u6027\u306e\u3000\u52b9\u679c\u3092\u3000\u6d88\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its stomach acids on the target.\nThe fluid eliminates the effect of the target\u2019s Ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia acidi gastrici sul bersaglio.\nIl fluido annulla l\u2019abilit\u00e0 del Pok\u00e9mon colpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "El usuario arroja sus jugos biliares al objetivo, lo \nque anula el efecto de la habilidad en uso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit eigenen Magens\u00e4ften\nan. Entfernt Effekte von dessen F\u00e4higkeit.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9pand ses sucs digestifs sur l\u2019ennemi.\nLe fluide neutralise le talent de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u80c3\u6db2\u5410\u5411\u5c0d\u624b\u7684\u8eab\u9ad4\u3002\n\u6cbe\u5230\u7684\u80c3\u6db2\u6703\u6d88\u9664\n\u5c0d\u624b\u7684\u7279\u6027\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubab8\uc5d0 \uc704\uc561\uc744 \ub0b4\ubc49\ub294\ub2e4.\n\ub2ec\ub77c\ubd99\uc740 \uc704\uc561\uc740 \uc0c1\ub300\uc758\n\ud2b9\uc131 \ud6a8\uacfc\ub97c \uc9c0\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3048\u304d\u3092\u3000\u3042\u3044\u3066\u306e\n\u304b\u3089\u3060\u306b\u3000\u306f\u304d\u3064\u3051\u308b\u3002\u3000\u3064\u3044\u305f\u3000\u3044\u3048\u304d\u306f\n\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3051\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u80c3\u6db2\u3092\u3000\u76f8\u624b\u306e\n\u4f53\u306b\u3000\u5410\u304d\u3064\u3051\u308b\u3002\u3064\u3044\u305f\u3000\u80c3\u6db2\u306f\n\u76f8\u624b\u306e\u3000\u7279\u6027\u306e\u3000\u52b9\u679c\u3092\u3000\u6d88\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target\u2019s Ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia acidi gastrici sul bersaglio.\nIl fluido annulla l\u2019abilit\u00e0 del Pok\u00e9mon colpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El usuario arroja sus jugos biliares al objetivo, lo \nque anula el efecto de la habilidad en uso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit eigenen Magens\u00e4ften\nan. Entfernt Effekte von dessen F\u00e4higkeit.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9pand ses sucs digestifs sur l\u2019ennemi.\nLe fluide neutralise le talent de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubab8\uc5d0 \uc704\uc561\uc744 \ub0b4\ubc49\ub294\ub2e4.\n\ub2ec\ub77c\ubd99\uc740 \uc704\uc561\uc740 \uc0c1\ub300\uc758\n\ud2b9\uc131 \ud6a8\uacfc\ub97c \uc9c0\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3048\u304d\u3092\u3000\u3042\u3044\u3066\u306e\n\u304b\u3089\u3060\u306b\u3000\u306f\u304d\u3064\u3051\u308b\u3002\u3064\u3044\u305f\u3000\u3044\u3048\u304d\u306f\n\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3051\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u80c3\u6db2\u3092\u3000\u76f8\u624b\u306e\n\u4f53\u306b\u3000\u5410\u304d\u3064\u3051\u308b\u3002\u3064\u3044\u305f\u3000\u80c3\u6db2\u306f\n\u76f8\u624b\u306e\u3000\u7279\u6027\u306e\u3000\u52b9\u679c\u3092\u3000\u6d88\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target\u2019s Ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia acidi gastrici sul bersaglio.\nIl fluido annulla l\u2019abilit\u00e0 del Pok\u00e9mon colpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El usuario arroja sus jugos biliares al objetivo, lo\nque anula el efecto de la habilidad en uso.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift das Ziel mit eigenen Magens\u00e4ften\nan. Entfernt Effekte von dessen F\u00e4higkeit.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9pand ses sucs digestifs sur l\u2019ennemi.\nLe fluide neutralise le talent de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc758 \ubab8\uc5d0 \uc704\uc561\uc744 \ub0b4\ubc49\ub294\ub2e4.\n\ub2ec\ub77c\ubd99\uc740 \uc704\uc561\uc740 \uc0c1\ub300\uc758\n\ud2b9\uc131 \ud6a8\uacfc\ub97c \uc9c0\uc6b4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3048\u304d\u3092\u3000\u3042\u3044\u3066\u306e\n\u304b\u3089\u3060\u306b\u3000\u306f\u304d\u3064\u3051\u308b\u3002\u3064\u3044\u305f\u3000\u3044\u3048\u304d\u306f\n\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3051\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target\u2019s Ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its stomach acids on\nthe target. The fluid eliminates the effect\nof the target\u2019s Ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9pand ses sucs digestifs sur\nl\u2019ennemi. Le fluide neutralise la capacit\u00e9\nsp\u00e9ciale de l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its\nstomach acids on\nthe foe. The fluid\neliminates the effect\nof the foe\u2019s ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its\nstomach acids on\nthe foe. The fluid\neliminates the effect\nof the foe\u2019s ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user hurls up its\nstomach acids on\nthe foe. The fluid\neliminates the effect\nof the foe\u2019s ability.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 380,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "gastro-acid",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u80c3\u6db2"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3044\u3048\u304d"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Gastro Acid"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Gastroacido"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Bilis"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Magens\u00e4fte"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Suc Digestif"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u80c3\u6db2"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc704\uc561"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3044\u3048\u304d"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "poison",
+        "url": "/api/v2/type/4/"
+    }
+}

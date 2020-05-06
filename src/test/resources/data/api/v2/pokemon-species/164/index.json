@@ -1,0 +1,933 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 90,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "flying",
+            "url": "/api/v2/egg-group/4/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/83/"
+    },
+    "evolves_from_species": {
+        "name": "hoothoot",
+        "url": "/api/v2/pokemon-species/163/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5373\u4fbf\u662f\u5728\u9ed1\u6697\u91cc\uff0c\u5b83\u7684\u773c\u775b\u4e5f\u80fd\n\u770b\u5f97\u4e00\u6e05\u4e8c\u695a\uff0c\u4e0d\u4f1a\u653e\u8fc7\u4efb\u4f55\u730e\u7269\u3002\n\u6240\u4ee5\u4e5f\u88ab\u79f0\u4e3a\u9ed1\u591c\u5e1d\u738b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6697\u95c7\u3067\u3082\u3000\u306f\u3063\u304d\u308a\u3000\u898b\u3048\u308b\u3000\u76ee\u3092\n\u6301\u3063\u3066\u304a\u308a\u3000\u7372\u7269\u3092\u3000\u9003\u304c\u3055\u306a\u3044\u3002\n\u95c7\u591c\u306e\u3000\u5e1d\u738b\u3068\u3082\u3000\u547c\u3070\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "With eyes that can see in pitch-darkness, it\nnever lets its prey escape. Some even call it\n\u201cthe emperor of dark nights.\u201d",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Riesce a vedere benissimo anche nell\u2019oscurit\u00e0\ne non si lascia mai sfuggire una preda.\n\u00c8 chiamato anche \u201cre della notte\u201d.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Apodado el Emperador Nocturno, su aguzada\nvista lo convierte en un formidable cazador aun\nen la m\u00e1s impenetrable oscuridad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Dank seines perfekten Sehverm\u00f6gens entgeht\nihm selbst in der Dunkelheit keine Beute. Man\nnennt es auch den \u201eHerrscher der Nacht\u201c.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Sa vue per\u00e7ante lui permettant de distinguer sa\nproie m\u00eame dans l\u2019obscurit\u00e9 la plus profonde,\nil a re\u00e7u le surnom d\u2019\u00ab\u202fempereur de la nuit\u202f\u00bb.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u64c1\u6709\u5728\u9ed1\u6697\u4e2d\u4e5f\u80fd\u6e05\u695a\u770b\u898b\u7684\u773c\u775b\uff0c\n\u4e0d\u6703\u653e\u904e\u4efb\u4f55\u7375\u7269\uff0c\n\u6240\u4ee5\u4e5f\u88ab\u7a31\u70ba\u9ed1\u591c\u5e1d\u738b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc5b4\ub460 \uc18d\uc5d0\uc11c\ub3c4 \ub69c\ub837\uc774 \ubcfc \uc218 \uc788\ub294 \ub208\uc744\n\uac16\uace0 \uc788\uc5b4 \uba39\uc774\ub97c \ub193\uce58\uc9c0 \uc54a\ub294\ub2e4.\n\uc5b4\ub460\uc758 \uc81c\uc655\uc774\ub77c\uace0\ub3c4 \ubd88\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3089\u3084\u307f\u3067\u3082\u3000\u306f\u3063\u304d\u308a\u3000\u307f\u3048\u308b\u3000\u3081\u3092\n\u3082\u3063\u3066\u304a\u308a\u3000\u3048\u3082\u306e\u3092\u3000\u306b\u304c\u3055\u306a\u3044\u3002\n\u3084\u307f\u3088\u306e\u3000\u3066\u3044\u304a\u3046\u3068\u3082\u3000\u3088\u3070\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u305a\u304b\u306a\u3000\u5149\u3067\u3082\u3000\u898b\u3048\u308b\u3000\u512a\u308c\u305f\u3000\u76ee\u3068\n\u7fbd\u97f3\u3092\u3000\u7acb\u3066\u306a\u3044\u3000\u67d4\u3089\u304b\u3044\u3000\u7fbd\u306e\u3000\u304a\u304b\u3052\u3067\n\u6697\u95c7\u3067\u306f\u3000\u7372\u7269\u3092\u3000\u7d76\u5bfe\u306b\u3000\u9003\u304c\u3055\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Noctowl never fails at catching prey in darkness. This Pok\u00e9mon\nowes its success to its superior vision that allows it to see in\nminimal light, and to its soft, supple wings that make no sound\nin flight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Noctowl non manca mai la cattura di una preda nell\u2019oscurit\u00e0.\nL\u2019infallibilit\u00e0 gli deriva dall\u2019acutissima vista, che gli consente\ndi vedere anche alla luce pi\u00f9 flebile, e dalle ali morbide e\nsoffici, silenziosissime in volo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Noctowl no falla a la hora de cazar a su presa en la oscuridad.\nEl \u00e9xito se lo debe a una vista privilegiada, que le permite ver\ndonde apenas hay luz, y a las ligeras y flexibles alas que\ntiene, que no hacen ruido alguno al volar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Dank seines hervorragenden Sehverm\u00f6gens, mit dem es\nauch bei geringer Beleuchtung sehen kann, und dank seiner\ngeschmeidigen Fl\u00fcgel, mit denen es ger\u00e4uschlos fliegen kann,\nentgeht Noctuh keine Beute.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Dans l\u2019obscurit\u00e9, Noarfang ne rate jamais une proie.\nIl le doit \u00e0 sa vision surd\u00e9velopp\u00e9e qui lui permet de\ntout voir, m\u00eame avec une lueur tr\u00e8s faible, ainsi qu\u2019\u00e0\nses ailes tr\u00e8s souples et silencieuses.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc57d\uac04\uc758 \ube5b\ub9cc\uc73c\ub85c\ub3c4 \ubcfc \uc218 \uc788\ub294 \uc6b0\uc218\ud55c \ub208\uacfc\n\ub0a0\uac2f\uc18c\ub9ac\ub97c \ub0b4\uc9c0 \uc54a\ub294 \ubd80\ub4dc\ub7ec\uc6b4 \uae43\ud138 \ub355\ubd84\uc5d0\n\uc5b4\ub460 \uc18d\uc5d0\uc11c \uba39\uc774\ub97c \uc808\ub300 \ub193\uce58\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u305a\u304b\u306a\u3000\u3072\u304b\u308a\u3067\u3082\u3000\u202f\u3048\u308b\u3000\u3059\u3050\u308c\u305f\u3000\u3081\u3068\n\u306f\u304a\u3068\u3092\u3000\u305f\u3066\u306a\u3044\u3000\u3084\u308f\u3089\u304b\u3044\u3000\u306f\u306d\u306e\u3000\u304a\u304b\u3052\u3067\n\u304f\u3089\u3084\u202f\u3067\u306f\u3000\u3048\u3082\u306e\u3092\u3000\u305c\u3063\u305f\u3044\u306b\u3000\u306b\u304c\u3055\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u305a\u304b\u306a\u3000\u5149\u3067\u3082\u3000\u898b\u3048\u308b\u3000\u512a\u308c\u305f\u3000\u76ee\u3068\n\u7fbd\u97f3\u3092\u3000\u7acb\u3066\u306a\u3044\u3000\u67d4\u3089\u304b\u3044\u3000\u7fbd\u306e\u3000\u304a\u304b\u3052\u3067\n\u6697\u95c7\u3067\u306f\u3000\u7372\u7269\u3092\u3000\u7d76\u5bfe\u306b\u3000\u9003\u304c\u3055\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Noctowl never fails at catching prey in darkness. This Pok\u00e9mon\nowes its success to its superior vision that allows it to see in\nminimal light, and to its soft, supple wings that make no sound\nin flight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Noctowl non manca mai la cattura di una preda nell\u2019oscurit\u00e0.\nL\u2019infallibilit\u00e0 gli deriva dall\u2019acutissima vista, che gli consente\ndi vedere anche alla luce pi\u00f9 flebile, e dalle ali morbide e\nsoffici, silenziosissime in volo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Noctowl no falla a la hora de cazar a su presa en la oscuridad.\nEl \u00e9xito se lo debe a una vista privilegiada, que le permite ver\ndonde apenas hay luz, y a las ligeras y flexibles alas que\ntiene, que no hacen ruido alguno al volar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dank seines hervorragenden Sehverm\u00f6gens, mit dem es\nauch bei geringer Beleuchtung sehen kann, und dank seiner\ngeschmeidigen Fl\u00fcgel, mit denen es ger\u00e4uschlos fliegt,\nentgeht Noctuh keine Beute.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dans l\u2019obscurit\u00e9, Noarfang ne rate jamais une proie.\nIl le doit \u00e0 sa vision surd\u00e9velopp\u00e9e qui lui permet de\ntout voir, m\u00eame avec une lueur tr\u00e8s faible, ainsi qu\u2019\u00e0\nses ailes tr\u00e8s souples et silencieuses.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc57d\uac04\uc758 \ube5b\ub9cc\uc73c\ub85c\ub3c4 \ubcfc \uc218 \uc788\ub294 \uc6b0\uc218\ud55c \ub208\uacfc\n\ub0a0\uac2f\uc18c\ub9ac\ub97c \ub0b4\uc9c0 \uc54a\ub294 \ubd80\ub4dc\ub7ec\uc6b4 \uae43\ud138 \ub355\ubd84\uc5d0\n\uc5b4\ub460 \uc18d\uc5d0\uc11c \uba39\uc774\ub97c \uc808\ub300 \ub193\uce58\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u305a\u304b\u306a\u3000\u3072\u304b\u308a\u3067\u3082\u3000\u202f\u3048\u308b\u3000\u3059\u3050\u308c\u305f\u3000\u3081\u3068\n\u306f\u304a\u3068\u3092\u3000\u305f\u3066\u306a\u3044\u3000\u3084\u308f\u3089\u304b\u3044\u3000\u306f\u306d\u306e\u3000\u304a\u304b\u3052\u3067\n\u304f\u3089\u3084\u202f\u3067\u306f\u3000\u3048\u3082\u306e\u3092\u3000\u305c\u3063\u305f\u3044\u306b\u3000\u306b\u304c\u3055\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u7269\u4e8b\u3092\u3000\u8003\u3048\u51fa\u3059\u3068\n\u9996\u3092\u3000\uff11\uff18\uff10\u5ea6\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u982d\u306e\u3000\u50cd\u304d\u3092\u3000\u9ad8\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "When it needs to think, it rotates its head\n180 degrees to sharpen its intellectual power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quando pensa ruota la testa di 180 gradi per\npotenziare le sue capacit\u00e0 intellettive.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuando necesita pensar, gira su cabeza 180\u00b0 para\nagudizar su capacidad intelectual.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Muss es nachdenken, dreht es seinen Kopf um\n180 Grad, um so seinen Intellekt zu sch\u00e4rfen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quand il r\u00e9fl\u00e9chit, il tourne sa t\u00eate sur 180\u00b0 pour\noptimiser son mode de pens\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ubb54\uac00\ub97c \uc0dd\uac01\ud574\ub0b4\uba74\n\ubaa9\uc744 180\ub3c4 \ud68c\uc804\uc2dc\ucf1c\n\ub450\ub1cc \ud68c\uc804\uc744 \ub192\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3054\u3068\u3092\u3000\u304b\u3093\u304c\u3048\u3060\u3059\u3068\n\u304f\u3073\u3092\u3000\uff11\uff18\uff10\u3069\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u3042\u305f\u307e\u306e\u3000\u306f\u305f\u3089\u304d\u3092\u3000\u305f\u304b\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u4e21\u76ee\u306f\u3000\u7279\u6b8a\u306a\u3000\u3064\u304f\u308a\u3002\n\u308f\u305a\u304b\u306a\u3000\u5149\u3092\u3000\u96c6\u3081\u3066\u306f\n\u6697\u95c7\u3067\u3082\u3000\u307e\u308f\u308a\u3092\u3000\u898b\u5206\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially adapted. They concentrate\neven faint light and enable it to see in the dark.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ha degli occhi speciali con cui concentra anche la\nluce pi\u00f9 fioca per poter vedere al buio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sus ojos est\u00e1n especialmente adaptados.\nConcentran la luz para poder ver en la oscuridad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sein Sehverm\u00f6gen ist hervorragend. Selbst bei\nschwachem Licht kann es jedes Detail erkennen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ses yeux sont adapt\u00e9s \u00e0 la nuit. Ils peuvent\nconcentrer la faible lumi\u00e8re dans l\u2019obscurit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc591\ucabd \ub208\uc774 \ud2b9\uc218\ud55c \uad6c\uc870\ub2e4.\n\uc801\uc740 \uc591\uc758 \ube5b\uc774\ub77c\ub3c4 \uc798 \ubaa8\uc544\n\uc5b4\ub460 \uc18d\uc5d0\uc11c\ub3c4 \uc8fc\uc704\ub97c \ubd84\ubcc4\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u308a\u3087\u3046\u3081\u306f\u3000\u3068\u304f\u3057\u3085\u306a\u3000\u3064\u304f\u308a\u3002\n\u308f\u305a\u304b\u306a\u3000\u3072\u304b\u308a\u3092\u3000\u3042\u3064\u3081\u3066\u306f\n\u304f\u3089\u3084\u307f\u3067\u3082\u3000\u307e\u308f\u308a\u3092\u3000\u307f\u308f\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ses yeux sont capables de voir\ndistinctement m\u00eame quand il fait\ntr\u00e8s sombre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ses yeux sont capables de voir\ndistinctement m\u00eame quand il fait\ntr\u00e8s sombre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "When it needs to think, it rotates\nits head 180 degrees to sharpen\nits intellectual power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially adapted.\nThey concentrate even faint light\nand enable it to see in the dark.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially developed\nto enable it to see clearly even in\nmurky darkness and minimal light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "If it flips its head upside down,\nit\u2019s a sign that it is engaged in\nvery complex thinking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are special. They can\npick out objects as long as there\nis the tiniest amount of light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are specially adapted. They\nconcentrate even faint light and enable it\nto see in the dark.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "When it needs to think, it rotates its head\n180 degrees to sharpen its intellectual\npower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It unfailingly catches prey in darkness.\nNOCTOWL owe their success to superior\nvision that allows them to see in minimal\nlight, and to their supple and silent wings.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "NOCTOWL never fails at catching prey in\ndarkness. This POK\u00e9MON owes its\nsuccess to its superior vision that\fallows it to see in minimal light, and to\nits soft,  supple wings that make no\nsound in flight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "NOCTOWL never fails at catching prey in\ndarkness. This POK\u00e9MON owes its\nsuccess to its superior vision that\fallows it to see in minimal light, and to\nits soft,  supple wings that make no\nsound in flight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "Its extremely soft\nfeathers make no\nsound in flight.\fIt silently sneaks\nup on prey without\nbeing detected.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "When it needs to\nthink, it rotates\nits head 180 de\u00ad\fgrees to sharpen\nits intellectual\npower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Its eyes are\nspecially adapted.\nThey concentrate\feven faint light\nand enable it to\nsee in the dark.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u732b\u5934\u9e70\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3075\u304f\u308d\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Owl Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gufo",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon B\u00faho",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Eule",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Hibou",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8c93\u982d\u9df9\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubd80\uc5c9\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3075\u304f\u308d\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 164,
+    "is_baby": false,
+    "name": "noctowl",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u732b\u5934\u591c\u9e70"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e8\u30eb\u30ce\u30ba\u30af"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Noctowl"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Noctowl"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Noctowl"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Noctuh"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Noarfang"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8c93\u982d\u591c\u9df9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc57c\ubd80\uc5c9"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Yorunozuku"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e8\u30eb\u30ce\u30ba\u30af"
+        }
+    ],
+    "order": 196,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 118,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 16,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 107,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 107,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 16,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 164,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "wings",
+        "url": "/api/v2/pokemon-shape/9/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "noctowl",
+                "url": "/api/v2/pokemon/164/"
+            }
+        }
+    ]
+}

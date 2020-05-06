@@ -1,0 +1,682 @@
+{
+    "accuracy": 95,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/9/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Lowers the target's Speed by two stages.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Lowers the target's Speed by two stages."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u53e3\u4e2d\u5410\u51fa\u7684\u4e1d\u7f20\u7ed5\u5bf9\u624b\uff0c\n\u4ece\u800c\u5927\u5e45\u964d\u4f4e\u5bf9\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53e3\u304b\u3089\u3000\u5439\u304d\u3060\u3057\u305f\n\u7cf8\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u76f8\u624b\u306e\n\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are bound with silk blown\nfrom the user\u2019s mouth that harshly lowers the\nSpeed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa produce della seta che avvolge\ni nemici intorno e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Lanza seda a los rivales y reduce mucho su\nVelocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Umwickelt Gegner in der N\u00e4he mit F\u00e4den aus dem\nMund und senkt den Initiative-Wert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur crache de la soie pour ligoter l\u2019ennemi\net beaucoup baisser sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u53e3\u4e2d\u5410\u51fa\u7684\u7d72\u7e8f\u7e5e\u5c0d\u624b\uff0c\n\u5927\u5e45\u964d\u4f4e\u5c0d\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc785\uc5d0\uc11c \ubfdc\uc5b4\ub0b8\n\uc2e4\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\uc758\n\uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3061\u304b\u3089\u3000\u3075\u304d\u3060\u3057\u305f\n\u3044\u3068\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u3042\u3044\u3066\u306e\n\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u53e3\u4e2d\u5410\u51fa\u7684\u4e1d\u7f20\u7ed5\u5bf9\u624b\uff0c\n\u4ece\u800c\u5927\u5e45\u964d\u4f4e\u5bf9\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u53e3\u304b\u3089\u3000\u5439\u304d\u3060\u3057\u305f\n\u7cf8\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u76f8\u624b\u306e\n\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are bound with silk blown\nfrom the user\u2019s mouth that harshly lowers the\nSpeed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa produce della seta che avvolge\ni nemici intorno e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Lanza seda a los rivales y reduce mucho su\nVelocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Umwickelt Gegner in der N\u00e4he mit F\u00e4den aus dem\nMund und senkt den Initiative-Wert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur crache de la soie pour ligoter l\u2019ennemi\net beaucoup baisser sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u53e3\u4e2d\u5410\u51fa\u7684\u7d72\u7e8f\u7e5e\u5c0d\u624b\uff0c\n\u5927\u5e45\u964d\u4f4e\u5c0d\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc785\uc5d0\uc11c \ubfdc\uc5b4\ub0b8\n\uc2e4\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\uc758\n\uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3061\u304b\u3089\u3000\u3075\u304d\u3060\u3057\u305f\n\u3044\u3068\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u3042\u3044\u3066\u306e\n\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u53e3\u304b\u3089\u3000\u5439\u304d\u3060\u3057\u305f\n\u7cf8\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u76f8\u624b\u306e\n\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are bound\nwith silk blown from the user\u2019s mouth\nthat harshly lowers the Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa produce della seta che avvolge\ni nemici intorno e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Lanza seda a los rivales y reduce mucho su\nVelocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Umwickelt Gegner in der N\u00e4he mit F\u00e4den aus\ndem Mund und senkt den Initiative-Wert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur crache de la soie pour ligoter l\u2019ennemi\net baisser sensiblement sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc785\uc5d0\uc11c \ubfdc\uc5b4\ub0b8\n\uc2e4\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\uc758\n\uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3061\u304b\u3089\u3000\u3075\u304d\u3060\u3057\u305f\n\u3044\u3068\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u3042\u3044\u3066\u306e\n\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u53e3\u304b\u3089\u3000\u5439\u304d\u3060\u3057\u305f\n\u7cf8\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u76f8\u624b\u306e\n\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The opposing Pok\u00e9mon are bound\nwith silk blown from the user\u2019s mouth\nthat harshly lowers the Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa produce della seta che avvolge\ni nemici intorno e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lanza seda a los rivales y reduce mucho su\nVelocidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Umwickelt Ziele in der N\u00e4he mit F\u00e4den aus\ndem Mund und senkt den Initiative-Wert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur crache de la soie pour ligoter l\u2019ennemi\net baisser sensiblement sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc785\uc5d0\uc11c \ubfdc\uc5b4\ub0b8\n\uc2e4\uc744 \ud718\uac10\uc544\uc11c \uc0c1\ub300\uc758\n\uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3061\u304b\u3089\u3000\u3075\u304d\u3060\u3057\u305f\n\u3044\u3068\u3092\u3000\u307e\u304d\u3064\u3051\u3066\u3000\u3042\u3044\u3066\u306e\n\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The targets are bound with silk blown\nfrom the user\u2019s mouth. This silk reduces\nthe targets\u2019 Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The targets are bound with silk blown\nfrom the user\u2019s mouth. This silk reduces\nthe targets\u2019 Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur crache de la\nsoie pour ligoter l\u2019ennemi\net baisser sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is bound with\nsilk blown from the\nuser\u2019s mouth.\nIt reduces the\ntarget\u2019s Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is bound with\nsilk blown from the\nuser\u2019s mouth.\nIt reduces the\ntarget\u2019s Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is bound with\nsilk blown from the\nuser\u2019s mouth.\nIt reduces the\ntarget\u2019s Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is bound\nwith strings shot\nfrom the mouth to\nreduce its SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Binds the foe with string\nto reduce its SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Binds the foe with string\nto reduce its SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A move that lowers\nthe foe's SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A move that lowers\nthe foe's SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 81,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "string-shot",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5410\u4e1d"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3044\u3068\u3092\u306f\u304f"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "String Shot"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Millebave"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Disparo Demora"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Fadenschuss"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "S\u00e9cr\u00e9tion"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5410\u7d72"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2e4\ubfdc\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3044\u3068\u3092\u306f\u304f"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": -2,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/19/"
+    },
+    "target": {
+        "name": "all-opponents",
+        "url": "/api/v2/move-target/11/"
+    },
+    "type": {
+        "name": "bug",
+        "url": "/api/v2/type/7/"
+    }
+}

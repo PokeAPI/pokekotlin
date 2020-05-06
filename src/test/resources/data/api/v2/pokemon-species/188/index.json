@@ -1,0 +1,824 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        },
+        {
+            "name": "fairy",
+            "url": "/api/v2/egg-group/6/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/92/"
+    },
+    "evolves_from_species": {
+        "name": "hoppip",
+        "url": "/api/v2/pokemon-species/187/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "Die Bl\u00fcte auf seinem Kopf verstr\u00f6mt einen leicht\nbitteren Geruch, der eine entspannende Wirkung\nhaben soll.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6c17\u6e29\u304c\u3000\uff11\uff18\u5ea6\u3092\u3000\u8d85\u3048\u308b\u3068\u3000\u82b1\u304c\u3000\u958b\u304f\u3002\n\u6e29\u5ea6\u306b\u3000\u3088\u308a\u3000\u82b1\u306e\u3000\u958b\u304d\u304b\u305f\u304c\u3000\u5909\u308f\u308b\u306e\u3067\n\u6e29\u5ea6\u8a08\u306e\u3000\u4ee3\u308a\u306b\u3000\u3059\u308b\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Skiploom\u2019s flower blossoms when the temperature rises\nabove 64 degrees Fahrenheit. How much the flower opens\ndepends on the temperature. For that reason, this Pok\u00e9mon\nis sometimes used as a thermometer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il fiore di Skiploom sboccia quando la temperatura sale\noltre i 18 \u00b0C. L\u2019apertura del fiore dipende dalla temperatura.\nPer questo motivo il Pok\u00e9mon \u00e8 usato anche come\ntermometro.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Skiploom florece cuando la temperatura llega a 18 \u00b0C.\nLa apertura de los p\u00e9talos var\u00eda seg\u00fan la temperatura que\nhaga. Por este motivo, la gente lo usa a veces a modo de\nterm\u00f3metro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hubelupfs Blume beginnt zu bl\u00fchen, wenn die Temperatur\n\u00fcber 18 \u00b0C steigt. Wie weit sich die Blume \u00f6ffnet, h\u00e4ngt von\nder Temperatur ab. Daher wird dieses Pok\u00e9mon manchmal\nals Thermometer eingesetzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "La fleur de Floravol \u00e9clot lorsque la temp\u00e9rature atteint 18 \u00b0C.\nL\u2019ouverture de la fleur change en fonction de la temp\u00e9rature.\nCertaines personnes se servent de ce Pok\u00e9mon comme d\u2019un\nthermom\u00e8tre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc628\uc774 18\ub3c4\ub97c \ub118\uc73c\uba74 \uaf43\uc774 \ud540\ub2e4.\n\uc628\ub3c4\uc5d0 \ub530\ub77c \uaf43\uc774 \ud53c\ub294 \ubaa8\uc2b5\uc774 \ubc14\ub00c\uc5b4\uc11c\n\uc628\ub3c4\uacc4 \ub300\uc2e0 \uc4f0\uae30\ub3c4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u304a\u3093\u304c\u3000\uff11\uff18\u3069\u3092\u3000\u3053\u3048\u308b\u3068\u3000\u306f\u306a\u304c\u3000\u3072\u3089\u304f\u3002\n\u304a\u3093\u3069\u306b\u3000\u3088\u308a\u3000\u306f\u306a\u306e\u3000\u3072\u3089\u304d\u304b\u305f\u304c\u3000\u304b\u308f\u308b\u306e\u3067\n\u304a\u3093\u3069\u3051\u3044\u306e\u3000\u304b\u308f\u308a\u306b\u3000\u3059\u308b\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u6c17\u6e29\u304c\u3000\uff11\uff18\u5ea6\u3092\u3000\u8d85\u3048\u308b\u3068\u3000\u82b1\u304c\u3000\u958b\u304f\u3002\n\u6e29\u5ea6\u306b\u3000\u3088\u308a\u3000\u82b1\u306e\u3000\u958b\u304d\u304b\u305f\u304c\u3000\u5909\u308f\u308b\u306e\u3067\n\u6e29\u5ea6\u8a08\u306e\u3000\u4ee3\u308a\u306b\u3000\u3059\u308b\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Skiploom\u2019s flower blossoms when the temperature rises\nabove 64 degrees Fahrenheit. How much the flower opens\ndepends on the temperature. For that reason, this Pok\u00e9mon\nis sometimes used as a thermometer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il fiore di Skiploom sboccia quando la temperatura sale\noltre i 18 \u00b0C. L\u2019apertura del fiore dipende dalla temperatura.\nPer questo motivo il Pok\u00e9mon \u00e8 usato anche come\ntermometro.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Skiploom florece cuando la temperatura llega a 18 \u00b0C.\nLa apertura de los p\u00e9talos var\u00eda seg\u00fan la temperatura que\nhaga. Por este motivo, la gente lo usa a veces a modo de\nterm\u00f3metro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Hubelupfs Blume beginnt zu bl\u00fchen, wenn die Temperatur\n\u00fcber 18 \u00b0C steigt. Wie weit sich die Bl\u00fcte \u00f6ffnet, h\u00e4ngt von\nder H\u00f6he der Temperatur ab. Daher wird dieses Pok\u00e9mon\nmanchmal als Thermometer eingesetzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La fleur de Floravol \u00e9clot lorsque la temp\u00e9rature atteint 18 \u00b0C.\nL\u2019ouverture de la fleur change en fonction de la temp\u00e9rature.\nCertaines personnes se servent de ce Pok\u00e9mon comme d\u2019un\nthermom\u00e8tre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc628\uc774 18\ub3c4\ub97c \ub118\uc73c\uba74 \uaf43\uc774 \ud540\ub2e4.\n\uc628\ub3c4\uc5d0 \ub530\ub77c \uaf43\uc774 \ud53c\ub294 \ubaa8\uc2b5\uc774 \ubc14\ub00c\uc5b4\uc11c\n\uc628\ub3c4\uacc4 \ub300\uc2e0 \uc4f0\uae30\ub3c4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u304a\u3093\u304c\u3000\uff11\uff18\u3069\u3092\u3000\u3053\u3048\u308b\u3068\u3000\u306f\u306a\u304c\u3000\u3072\u3089\u304f\u3002\n\u304a\u3093\u3069\u306b\u3000\u3088\u308a\u3000\u306f\u306a\u306e\u3000\u3072\u3089\u304d\u304b\u305f\u304c\u3000\u304b\u308f\u308b\u306e\u3067\n\u304a\u3093\u3069\u3051\u3044\u306e\u3000\u304b\u308f\u308a\u306b\u3000\u3059\u308b\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u592a\u967d\u306e\u3000\u5149\u3092\u3000\u6d74\u3073\u308b\u305f\u3081\n\u82b1\u3073\u3089\u3092\u3000\u5e83\u3052\u308b\u3060\u3051\u3067\u306a\u304f\n\u8fd1\u3065\u3053\u3046\u3068\u3000\u7a7a\u306b\u3000\u6d6e\u304b\u3093\u3067\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It spreads its petals to absorb sunlight. It also floats\nin the air to get closer to the sun.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Spalanca i petali per assorbire la luce solare.\nFluttua nell\u2019aria per essere pi\u00f9 vicino al sole.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Abre sus p\u00e9talos para absorber la luz solar. Tambi\u00e9n\nflota en el aire para estar m\u00e1s cerca del sol.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es \u00f6ffnet seine Bl\u00fcte, um Sonnenlicht aufzunehmen.\nEs schwebt in der Luft, um der Sonne n\u00e4her zu sein.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il \u00e9tend ses p\u00e9tales pour absorber la lumi\u00e8re du soleil.\nIl flotte pour se rapprocher du soleil.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud0dc\uc591\uc758 \ube5b\uc744 \uc798 \ubc1b\uae30 \uc704\ud574\n\uaf43\uc78e\uc744 \ud3bc\uce60 \ubfd0\ub9cc \uc544\ub2c8\ub77c\n\uac00\uae4c\uc774 \uac00\ub824\uace0 \ud558\ub298\ub85c \ub5a0\uc62c\ub77c\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3088\u3046\u306e\u3000\u3072\u304b\u308a\u3092\u3000\u3042\u3073\u308b\u305f\u3081\n\u306f\u306a\u3073\u3089\u3092\u3000\u3072\u308d\u3052\u308b\u3060\u3051\u3067\u306a\u304f\n\u3061\u304b\u3065\u3053\u3046\u3068\u3000\u305d\u3089\u306b\u3046\u304b\u3093\u3067\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u982d\u306e\u4e0a\u306b\u3000\u54b2\u3044\u305f\u3000\u82b1\u306f\n\u6c17\u6e29\u306b\u3000\u3088\u3063\u3066\u3000\u958b\u3044\u305f\u308a\n\u9589\u3058\u305f\u308a\u3059\u308b\u3000\u6027\u8cea\u3092\u3000\u6301\u3064\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The bloom on top of its head opens and closes\nas the temperature fluctuates up and down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il fiore sul capo si apre e si chiude con il continuo\nmutare della temperatura corporea.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La flor de su cabeza se abre y cierra seg\u00fan suba o\nbaje la temperatura.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Temperaturschwankungen veranlassen es, die Bl\u00fcte\nauf seinem Kopf immer zu \u00f6ffnen oder zu schlie\u00dfen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Le bourgeon sur sa t\u00eate s\u2019ouvre et se ferme en\nfonction des fluctuations de la temp\u00e9rature ambiante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uba38\ub9ac \uc704\uc5d0 \ud540 \uaf43\uc740\n\uae30\uc628\uc5d0 \ub530\ub77c \ud3b4\uc9c0\uac70\ub098\n\uc624\ubbc0\ub77c\ub4dc\ub294 \uc131\uc9c8\uc744 \uac00\uc84c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u307e\u306e\u3046\u3048\u306b\u3000\u3055\u3044\u305f\u3000\u30cf\u30ca\u306f\n\u304d\u304a\u3093\u306b\u3000\u3088\u3063\u3066\u3000\u3072\u3089\u3044\u305f\u308a\n\u3068\u3058\u305f\u308a\u3059\u308b\u3000\u305b\u3044\u3057\u3064\u3092\u3000\u3082\u3064\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It blooms when the weather warms.\nIt floats in the sky to soak up as\nmuch sunlight as possible.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It blooms when the weather warms.\nIt floats in the sky to soak up as\nmuch sunlight as possible.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It blooms when the weather warms.\nIt floats in the sky to soak up as\nmuch sunlight as possible.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il fleurit lorsque les temp\u00e9ratures\nremontent. Il flotte dans le ciel \npour absorber les rayons du soleil.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It blooms when the weather warms.\nIt floats in the sky to soak up as\nmuch sunlight as possible.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il fleurit lorsque les temp\u00e9ratures\nremontent. Il flotte dans le ciel \npour absorber les rayons du soleil.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It spreads its petals to absorb\nsunlight. It also floats in the air\nto get closer to the sun.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "The bloom on top of its head opens\nand closes as the temperature\nfluctuates up and down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It blooms when the weather warms.\nIt floats in the sky to soak up as\nmuch sunlight as possible.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It blooms when the weather warms.\nIt floats in the sky to soak up as\nmuch sunlight as possible.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It blooms when the weather warms.\nIt floats in the sky to soak up as\nmuch sunlight as possible.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The bloom on top of its head opens and\ncloses as the temperature fluctuates up\nand down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It spreads its petals to absorb sunlight.\nIt also floats in the air to get closer to\nthe sun.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It blossoms when the temperature rises\nabove 64 degrees F. Because its flower\u2019s\nblooming changes with the temperature,\nit is sometimes used as a thermometer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "SKIPLOOM\u2019s flower blossoms when the\ntemperature rises above 64 degrees F.\nHow much the flower opens depends on\fthe temperature. For that reason, this\nPOK\u00e9MON is sometimes used as a\nthermometer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "SKIPLOOM\u2019s flower blossoms when the\ntemperature rises above 64 degrees F.\nHow much the flower opens depends on\fthe temperature. For that reason, this\nPOK\u00e9MON is sometimes used as a\nthermometer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "As soon as it\nrains, it closes\nits flower and\fhides in the shade\nof a tree to avoid\ngetting wet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It spreads its\npetals to absorb\nsunlight. It also\ffloats in the air\nto get closer to\nthe sun.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "The bloom on top\nof its head opens\nand closes as the\ftemperature fluc\u00ad\ntuates up and\ndown.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u68c9\u8349\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u308f\u305f\u304f\u3055\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Cottonweed Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gramigna",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Algad\u00f3n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "L\u00f6wenzahn",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pissenlit",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u68c9\u8349\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc19c\ud480\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u308f\u305f\u304f\u3055\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 188,
+    "is_baby": false,
+    "name": "skiploom",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6bfd\u5b50\u82b1"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30dd\u30dd\u30c3\u30b3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Skiploom"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Skiploom"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Skiploom"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Hubelupf"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Floravol"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6bfd\u5b50\u82b1"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub450\ucf54"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Popocco"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30dd\u30dd\u30c3\u30b3"
+        }
+    ],
+    "order": 217,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 136,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 68,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 68,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 188,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "skiploom",
+                "url": "/api/v2/pokemon/188/"
+            }
+        }
+    ]
+}

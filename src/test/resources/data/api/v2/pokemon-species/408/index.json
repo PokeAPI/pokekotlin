@@ -1,0 +1,928 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/211/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u592a\u53e4\u65f6\u4ee3\u7684\u5b9d\u53ef\u68a6\u3002\n\u62e5\u6709\u575a\u786c\u800c\u7ed3\u5b9e\u7684\u5934\u76d6\u9aa8\uff0c\n\u4f46\u662f\u8111\u5b50\u76f8\u5f53\u4e0d\u597d\u4f7f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u592a\u53e4\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\u3000\u786c\u304f\u3066\n\u4e08\u592b\u306a\u3000\u982d\u84cb\u9aa8\u3092\u3000\u6301\u3064\u304c\n\u982d\u306f\u3000\u76f8\u5f53\u306b\u3000\u60aa\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "A primeval Pok\u00e9mon, it possesses a hard and\nsturdy skull, lacking any intelligence within.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon che esisteva in epoca antica, dotato di\nun cranio duro e resistente ma dall\u2019intelligenza\nnon altrettanto sviluppata.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon arcaico cuenta con un cr\u00e1neo\ns\u00f3lido y resistente, pero su cerebro no est\u00e1 a la\npar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Dieses urzeitliche Pok\u00e9mon war trotz seines\nharten, robusten Sch\u00e4dels nicht sehr schlau.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon pr\u00e9historique dot\u00e9 d\u2019un cr\u00e2ne tr\u00e8s\nsolide, mais d\u2019un cerveau tr\u00e8s peu performant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u592a\u53e4\u6642\u4ee3\u7684\u5bf6\u53ef\u5922\u3002\n\u64c1\u6709\u5805\u786c\u800c\u7d50\u5be6\u7684\u982d\u84cb\u9aa8\uff0c\n\u4f46\u662f\u982d\u8166\u76f8\u7576\u4e0d\u9748\u5149\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ud0dc\uacf3\uc801 \ud3ec\ucf13\ubaac. \ub531\ub531\ud558\uace0\n\ud2bc\ud2bc\ud55c \ub450\uac1c\uace8\uc744 \uac00\uc84c\uc9c0\ub9cc\n\uba38\ub9ac\ub294 \uc815\ub9d0 \ub098\ube74\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3053\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\u3000\u304b\u305f\u304f\u3066\n\u3058\u3087\u3046\u3076\u306a\u3000\u305a\u304c\u3044\u3053\u3064\u3092\u3000\u3082\u3064\u304c\n\u3042\u305f\u307e\u306f\u3000\u305d\u3046\u3068\u3046\u306b\u3000\u308f\u308b\u304b\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u53d1\u73b0\u5934\u76d6\u9f99\u5316\u77f3\u7684\n\u5730\u5c42\u91cc\u4e5f\u4e00\u5e76\u51fa\u571f\u4e86\n\u88ab\u9524\u65ad\u4e86\u7684\u6811\u6728\u7684\u5316\u77f3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u30ba\u30ac\u30a4\u30c9\u30b9\u306e\u3000\u5316\u77f3\u304c\u3000\u898b\u3064\u304b\u308b\n\u5730\u5c64\u3067\u306f\u3000\u3078\u3057\u6298\u308c\u305f\u3000\u6a39\u6728\u306e\n\u5316\u77f3\u3082\u3000\u4e00\u7dd2\u306b\u3000\u51fa\u3066\u304f\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "In rock layers where Cranidos fossils are found,\nthe fossilized trunks of trees snapped in two\nare also often found.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Nelle zone ricche di fossili di Cranidos si\ntrovano spesso anche numerosi fossili di\nalberi spezzati.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "En los estratos geol\u00f3gicos donde se encuentran\nf\u00f3siles de Cranidos tambi\u00e9n aparecen muchos\nf\u00f3siles de \u00e1rboles destrozados.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "In den Erdschichten, in denen Fossilien von\nKoknodon entdeckt werden, finden sich\nauch \u00dcberreste abgebrochener B\u00e4ume.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Aupr\u00e8s des fossiles de Kranidos, il n\u2019est pas\nrare de trouver des arbres p\u00e9trifi\u00e9s\ncompl\u00e8tement broy\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u767c\u73fe\u982d\u84cb\u9f8d\u5316\u77f3\u7684\n\u5730\u5c64\u88e1\u4e5f\u80fd\u767c\u73fe\n\u6298\u65b7\u4e86\u7684\u6a39\u6728\u7684\u5316\u77f3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ub450\uac1c\ub3c4\uc2a4\uc758 \ud654\uc11d\uc774 \ubc1c\uacac\ub418\ub294\n\uc9c0\uce35\uc5d0\ub294 \ubd80\ub7ec\uc9c4 \ub098\ubb34\uc758\n\ud654\uc11d\ub3c4 \uac19\uc774 \ubc1c\uad74\ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u30ba\u30ac\u30a4\u30c9\u30b9\u306e\u3000\u304b\u305b\u304d\u304c\u3000\u307f\u3064\u304b\u308b\n\u3061\u305d\u3046\u3067\u306f\u3000\u3078\u3057\u304a\u308c\u305f\u3000\u3058\u3085\u3082\u304f\u306e\n\u304b\u305b\u304d\u3082\u3000\u3044\u3063\u3057\u3087\u306b\u3000\u3067\u3066\u304f\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3088\u305d\u3000\uff11\u5104\u5e74\u524d\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30b8\u30e3\u30f3\u30b0\u30eb\u3067\u3000\u751f\u307e\u308c\u80b2\u3061\u3000\u90aa\u9b54\u306a\n\u6a39\u6728\u306f\u3000\u982d\u7a81\u304d\u3067\u3000\u3078\u3057\u304a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "A lifelong jungle dweller from 100 million years\nago, it would snap obstructing trees with headbutts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Abitava nella giungla gi\u00e0 100 milioni di anni fa. Abbatte\ngli alberi che lo ostacolano con delle testate.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Viv\u00eda en la jungla hace 100 millones de a\u00f1os. Apartaba los\n\u00e1rboles del camino a cabezazos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt seit Urzeiten im Dschungel. Kann im Weg befindliche\nB\u00e4ume mit Kopfst\u00f6\u00dfen aus dem Weg r\u00e4umen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il vivait dans la jungle il y a 100 millions d\u2019ann\u00e9es.\nIl peut abattre un arbre d\u2019un coup de t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub300\ub7b5 1\uc5b5 \ub144 \uc804\uc758 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc815\uae00\uc5d0\uc11c \ud0dc\uc5b4\ub098\uace0 \uc790\ub77c\uba70 \ubc29\ud574\ub418\ub294\n\uc218\ubaa9\uc740 \ubc15\uce58\uae30\ub85c \uaebe\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3088\u305d\u3000\uff11\u304a\u304f\u306d\u3093\u307e\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30b8\u30e3\u30f3\u30b0\u30eb\u3067\u3000\u3046\u307e\u308c\u305d\u3060\u3061\u3000\u3058\u3083\u307e\u306a\n\u3058\u3085\u3082\u304f\u306f\u3000\u305a\u3064\u304d\u3067\u3000\u3078\u3057\u304a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u9244\u7403\u306e\u3000\u3088\u3046\u306a\u3000\u5316\u77f3\u304b\u3089\n\u5fa9\u6d3b\u3057\u305f\u3000\u53e4\u4ee3\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u982d\u7a81\u304d\u3067\u3000\u7372\u7269\u3092\u3000\u3057\u3068\u3081\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It was resurrected from an iron ball-like fossil.\nIt downs prey with its headbutts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 stato fatto rivivere da un fossile di ferro simile a una palla.\nAbbatte le prede con le punte sulla testa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Fue recreado a partir de un f\u00f3sil con forma esf\u00e9rica. Derriba a\nlas presas a cabezazos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es wurde aus einem ballartigen, eisernen Fossil geschaffen.\nEs schl\u00e4gt Beute mit einem Kopfsto\u00df.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "On l\u2019a ressuscit\u00e9 \u00e0 partir d\u2019un fossile de fer en forme de balle.\nIl abat ses proies \u00e0 coups de t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ucca0\uad6c \uac19\uc740 \ud654\uc11d\uc5d0\uc11c\n\ubd80\ud65c\ud55c \uace0\ub300 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ubc15\uce58\uae30\ub85c \uba39\uc774\ub97c \uaf3c\uc9dd \ubabb\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3063\u304d\u3085\u3046\u306e\u3000\u3088\u3046\u306a\u3000\u304b\u305b\u304d\u304b\u3089\n\u3075\u3063\u304b\u3064\u3057\u305f\u3000\u3053\u3060\u3044\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u305a\u3064\u304d\u3067\u3000\u3048\u3082\u306e\u3092\u3000\u3057\u3068\u3081\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3088\u305d\u3000\uff11\u5104\u5e74\u524d\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30b8\u30e3\u30f3\u30b0\u30eb\u3067\u3000\u751f\u307e\u308c\u80b2\u3061\u3000\u90aa\u9b54\u306a\n\u6a39\u6728\u306f\u3000\u982d\u7a81\u304d\u3067\u3000\u3078\u3057\u304a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "A lifelong jungle dweller from 100 million years\nago, it would snap obstructing trees with headbutts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Abitava nella giungla gi\u00e0 100 milioni di anni fa.\nAbbatte gli alberi che lo ostacolano con delle testate.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Viv\u00eda en la jungla hace 100 millones de a\u00f1os.\nApartaba los \u00e1rboles del camino a cabezazos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt seit Urzeiten im Dschungel. Kann im Weg\nbefindliche B\u00e4ume mit Kopfst\u00f6\u00dfen aus dem Weg\nr\u00e4umen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il vivait dans la jungle il y a 100 millions d\u2019ann\u00e9es.\nIl peut abattre un arbre d\u2019un coup de t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub300\ub7b5 1\uc5b5 \ub144 \uc804\uc758 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc815\uae00\uc5d0\uc11c \ud0dc\uc5b4\ub098 \uc790\ub77c \ubc29\ud574\ub418\ub294\n\uc218\ubaa9\uc740 \ubc15\uce58\uae30\ub85c \uaebe\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3088\u305d\u3000\uff11\u304a\u304f\u306d\u3093\u307e\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u30b8\u30e3\u30f3\u30b0\u30eb\u3067\u3000\u3046\u307e\u308c\u305d\u3060\u3061\u3000\u3058\u3083\u307e\u306a\n\u3058\u3085\u3082\u304f\u306f\u3000\u305a\u3064\u304d\u3067\u3000\u3078\u3057\u304a\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u9244\u7403\u306e\u3000\u3088\u3046\u306a\u3000\u5316\u77f3\u304b\u3089\n\u5fa9\u6d3b\u3057\u305f\u3000\u53e4\u4ee3\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u982d\u7a81\u304d\u3067\u3000\u7372\u7269\u3092\u3000\u3057\u3068\u3081\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It was resurrected from an iron ball-like fossil.\nIt downs prey with its headbutts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 stato fatto rivivere da un fossile di ferro simile a\nuna palla. Abbatte le prede con le punte sulla testa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Fue recreado a partir de un f\u00f3sil con forma esf\u00e9rica.\nDerriba a las presas a cabezazos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es wurde aus einem ballartigen, eisernen Fossil\ngeschaffen. Es schl\u00e4gt Beute mit einem Kopfsto\u00df.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "On l\u2019a ressuscit\u00e9 \u00e0 partir d\u2019un fossile de fer en forme\nde balle. Il abat ses proies \u00e0 coups de t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ucca0\uad6c \uac19\uc740 \ud654\uc11d\uc5d0\uc11c\n\ubd80\ud65c\ud55c \uace0\ub300 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ubc15\uce58\uae30\ub85c \uba39\uc774\ub97c \uaf3c\uc9dd \ubabb\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3063\u304d\u3085\u3046\u306e\u3000\u3088\u3046\u306a\u3000\u304b\u305b\u304d\u304b\u3089\n\u3075\u3063\u304b\u3064\u3057\u305f\u3000\u3053\u3060\u3044\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u305a\u3064\u304d\u3067\u3000\u3048\u3082\u306e\u3092\u3000\u3057\u3068\u3081\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "A lifelong jungle dweller from 100\nmillion years ago, it would snap\nobstructing trees with head butts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "A lifelong jungle dweller from 100\nmillion years ago, it would snap\nobstructing trees with head butts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "A lifelong jungle dweller from 100\nmillion years ago, it would snap\nobstructing trees with head butts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il vivait dans la jungle il y a\n100 millions d\u2019ann\u00e9es. Il abat\nun arbre d\u2019un coup de t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "A lifelong jungle dweller from 100\nmillion years ago, it would snap\nobstructing trees with head butts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il vivait dans la jungle il y a\n100 millions d\u2019ann\u00e9es. Il abat\nun arbre d\u2019un coup de t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "CRANIDOS toughen up their already\nrock-hard heads by headbutting\none another.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "CRANIDOS toughen up their already\nrock-hard heads by headbutting\none another.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "A lifelong jungle dweller from 100\nmillion years ago, it would snap\nobstructing trees with head butts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It was resurrected from an iron\nball-like fossil. It downs prey with\nits head butts.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It lived in jungles around 100\nmillion years ago. Its skull is as\nhard as iron.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u5934\u9524\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u305a\u3064\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Head Butt Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Cranioso",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Cabezazo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Kopfsto\u00df",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Coud\u2019Boule",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u982d\u9318\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubc15\uce58\uae30\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u305a\u3064\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "slow-then-very-fast",
+        "url": "/api/v2/growth-rate/5/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 30,
+    "id": 408,
+    "is_baby": false,
+    "name": "cranidos",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5934\u76d6\u9f99"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ba\u30ac\u30a4\u30c9\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Cranidos"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Cranidos"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Cranidos"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Koknodon"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Kranidos"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u982d\u84cb\u9f8d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub450\uac1c\ub3c4\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Zugaidos"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ba\u30ac\u30a4\u30c9\u30b9"
+        }
+    ],
+    "order": 436,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 36,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 36,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 408,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "cranidos",
+                "url": "/api/v2/pokemon/408/"
+            }
+        }
+    ]
+}

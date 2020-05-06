@@ -1,0 +1,682 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 160,
+    "color": {
+        "name": "white",
+        "url": "/api/v2/pokemon-color/9/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/347/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u66fe\u6709\u8fc7\u4e00\u4e2a\u65f6\u4ee3\uff0c\n\u8d35\u65cf\u4e4b\u95f4\u4f1a\u6bd4\u8d5b\n\u5982\u4f55\u628a\u5b83\u7684\u4f53\u6bdb\u4fee\u526a\u5f97\u7f8e\u4e3d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u6bdb\u3092\u3000\u3044\u304b\u306b\u3000\u7f8e\u3057\u304f\n\u30ab\u30c3\u30c8\u3059\u308b\u304b\u3000\u8cb4\u65cf\u305f\u3061\u306e\u3000\u9593\u3067\n\u7af6\u308f\u308c\u305f\u3000\u6642\u4ee3\u304c\u3000\u3042\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "There was an era when aristocrats would\ncompete to see who could trim their Furfrou\u2019s\nfur into the most exquisite style.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "In passato i nobili gareggiavano tra loro per\nstabilire quale Furfrou avesse il taglio pi\u00f9 bello.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Hubo una \u00e9poca en la que los arist\u00f3cratas\ncompet\u00edan entre ellos procurando que el corte\nde pelo de su Furfrou fuera el mejor de todos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es gab eine Zeit, in der Adlige darum stritten,\nwer seinem Coiffwaff den sch\u00f6nsten Schnitt\nverpassen k\u00f6nne.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il fut un temps o\u00f9 la noblesse organisait\ndes concours pour d\u00e9terminer quel Couafarel\narborait la plus belle coupe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u66fe\u7d93\u6709\u904e\u4e00\u500b\u6642\u4ee3\uff0c\n\u8cb4\u65cf\u4e4b\u9593\u6703\u4e92\u76f8\u6bd4\u8f03\n\u8ab0\u80fd\u628a\u7260\u7684\u9ad4\u6bdb\u4fee\u526a\u5f97\u66f4\u7f8e\u9e97\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ud138\uc744 \uc5bc\ub9c8\ub098 \uc544\ub984\ub2f5\uac8c\n\ucee4\ud2b8\ud558\ub294\uc9c0 \uadc0\uc871\ub4e4 \uc0ac\uc774\uc5d0\uc11c\n\uacbd\uc7c1\ud558\ub358 \uc2dc\ub300\uac00 \uc788\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3082\u3046\u3092\u3000\u3044\u304b\u306b\u3000\u3046\u3064\u304f\u3057\u304f\n\u30ab\u30c3\u30c8\u3059\u308b\u304b\u3000\u304d\u305e\u304f\u305f\u3061\u306e\u3000\u3042\u3044\u3060\u3067\n\u304d\u305d\u308f\u308c\u305f\u3000\u3058\u3060\u3044\u304c\u3000\u3042\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6614\u306e\u3000\u30ab\u30ed\u30b9\u5730\u65b9\u3067\u306f\n\u738b\u69d8\u3092\u3000\u8b77\u885b\u3059\u308b\u3000\u5f79\u76ee\u3092\n\u4e0e\u3048\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Historically, in the Kalos region, these Pok\u00e9mon\nwere the designated guardians of the king.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Nell\u2019antica Kalos, questo Pok\u00e9mon aveva il compito di\nproteggere i re.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Antiguamente, estos Pok\u00e9mon desempe\u00f1aban el cometido de\nguardi\u00e1n del rey en la regi\u00f3n de Kalos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Vor langer Zeit wurde dieses Pok\u00e9mon in der Kalos-Region\nals Leibgarde des K\u00f6nigs eingesetzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il y a fort longtemps dans la r\u00e9gion de Kalos, ce Pok\u00e9mon fut\nle gardien des rois et des reines.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uba3c \uc61b\ub0a0 \uce7c\ub85c\uc2a4\uc9c0\ubc29\uc5d0\uc11c\n\uc655\uc744 \ud638\uc704\ud558\ub294 \uc5ed\ud560\uc744\n\ub9e1\uc558\ub358 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3080\u304b\u3057\u306e\u3000\u30ab\u30ed\u30b9\u3061\u307b\u3046\u3067\u306f\n\u304a\u3046\u3055\u307e\u3092\u3000\u3054\u3048\u3044\u3059\u308b\u3000\u3084\u304f\u3081\u3092\n\u3042\u305f\u3048\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30dc\u30b5\u30dc\u30b5\u306e\u3000\u4f53\u6bdb\u3092\u3000\u5208\u308a\u3053\u3080\u3068\n\u59ff\u304c\u3000\u7f8e\u3057\u304f\u306a\u308b\u3000\u3060\u3051\u3067\u306a\u304f\n\u8eab\u4f53\u306e\u3000\u30ad\u30ec\u304c\u3000\u826f\u304f\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Trimming its fluffy fur not only makes\nit more elegant but also increases the\nswiftness of its movements.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La toelettatura del manto vaporoso non solo lo rende pi\u00f9\nbello, ma gli consente anche di muoversi pi\u00f9 liberamente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Cuando le esquilan su mullido pelaje, no solo mejora su\napariencia, sino que aumenta su agilidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Schneidet man sein Fell zurecht, wird es nicht nur sch\u00f6ner,\nsondern auch beweglicher.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Si son abondante fourrure gagne \u00e0 \u00eatre toilett\u00e9e, ce n\u2019est pas\nqu\u2019une question de style. En effet, cela lui permet \u00e9galement\nde se mouvoir plus librement.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubcf5\uc2ac\ubcf5\uc2ac\ud55c \ud138\uc744 \uae4e\uace0 \ub2e4\ub4ec\uc73c\uba74\n\ubaa8\uc2b5\uc774 \uc544\ub984\ub2e4\uc6cc\uc9c8 \ubfd0\ub9cc \uc544\ub2c8\ub77c\n\ubab8\uc758 \uc6c0\uc9c1\uc784\ub3c4 \uc88b\uc544\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30dc\u30b5\u30dc\u30b5\u306e\u3000\u305f\u3044\u3082\u3046\u3092\u3000\u304b\u308a\u3053\u3080\u3068\n\u3059\u304c\u305f\u304c\u3000\u3046\u3064\u304f\u3057\u304f\u306a\u308b\u3000\u3060\u3051\u3067\u306a\u304f\n\u304b\u3089\u3060\u306e\u3000\u30ad\u30ec\u304c\u3000\u3088\u304f\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6614\u306e\u3000\u30ab\u30ed\u30b9\u5730\u65b9\u3067\u306f\n\u738b\u69d8\u3092\u3000\u8b77\u885b\u3059\u308b\u3000\u5f79\u76ee\u3092\n\u4e0e\u3048\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Historically, in the Kalos region, these Pok\u00e9mon\nwere the designated guardians of the king.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nell\u2019antica Kalos, questo Pok\u00e9mon aveva il compito\ndi proteggere i re.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Antiguamente, estos Pok\u00e9mon desempe\u00f1aban el\ncometido de guardi\u00e1n del rey en la regi\u00f3n de Kalos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Vor langer Zeit wurde dieses Pok\u00e9mon in der\nKalos-Region als Leibgarde des K\u00f6nigs eingesetzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il y a fort longtemps dans la r\u00e9gion de Kalos,\nce Pok\u00e9mon fut le gardien des rois et des reines.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uba3c \uc61b\ub0a0 \uce7c\ub85c\uc2a4\uc9c0\ubc29\uc5d0\uc11c\n\uc655\uc744 \ud638\uc704\ud558\ub294 \uc5ed\ud560\uc744\n\ub9e1\uc558\ub358 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3080\u304b\u3057\u306e\u3000\u30ab\u30ed\u30b9\u3061\u307b\u3046\u3067\u306f\n\u304a\u3046\u3055\u307e\u3092\u3000\u3054\u3048\u3044\u3059\u308b\u3000\u3084\u304f\u3081\u3092\n\u3042\u305f\u3048\u3089\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30dc\u30b5\u30dc\u30b5\u306e\u3000\u4f53\u6bdb\u3092\u3000\u5208\u308a\u3053\u3080\u3068\n\u59ff\u304c\u3000\u7f8e\u3057\u304f\u306a\u308b\u3000\u3060\u3051\u3067\u306a\u304f\n\u8eab\u4f53\u306e\u3000\u30ad\u30ec\u304c\u3000\u826f\u304f\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Trimming its fluffy fur not only makes\nit more elegant but also increases the\nswiftness of its movements.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La toelettatura del manto vaporoso non solo lo rende\npi\u00f9 bello, ma gli consente anche di muoversi\npi\u00f9 liberamente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Cuando le esquilan su mullido pelaje, no solo mejora\nsu apariencia, sino que aumenta su agilidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Schneidet man sein Fell zurecht, wird es\nnicht nur sch\u00f6ner, sondern auch beweglicher.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Si son abondante fourrure gagne \u00e0 \u00eatre toilett\u00e9e,\nce n\u2019est pas qu\u2019une question de style. En effet, cela\nlui permet \u00e9galement de se mouvoir plus librement.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ubcf5\uc2ac\ubcf5\uc2ac\ud55c \ud138\uc744 \uae4e\uace0 \ub2e4\ub4ec\uc73c\uba74\n\ubaa8\uc2b5\uc774 \uc544\ub984\ub2e4\uc6cc\uc9c8 \ubfd0\ub9cc \uc544\ub2c8\ub77c\n\ubab8\uc758 \uc6c0\uc9c1\uc784\ub3c4 \uc88b\uc544\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30dc\u30b5\u30dc\u30b5\u306e\u3000\u305f\u3044\u3082\u3046\u3092\u3000\u304b\u308a\u3053\u3080\u3068\n\u3059\u304c\u305f\u304c\u3000\u3046\u3064\u304f\u3057\u304f\u306a\u308b\u3000\u3060\u3051\u3067\u306a\u304f\n\u304b\u3089\u3060\u306e\u3000\u30ad\u30ec\u304c\u3000\u3088\u304f\u306a\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        }
+    ],
+    "form_descriptions": [
+        {
+            "description": "Forms only differ in appearance.  Furfrou's trim can be changed at any time in Friseur Furfrou in Lumiose City.  It reverts to its Natural Form after five days unless trimmed again, or if it is deposited in the PC.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
+    "forms_switchable": true,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u8d35\u5bbe\u72ac\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30d7\u30fc\u30c9\u30eb\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Poodle Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Barboncino",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Caniche",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pudel",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Caniche",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8cb4\u8cd3\u72ac\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud478\ub4e4\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30d7\u30fc\u30c9\u30eb\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 676,
+    "is_baby": false,
+    "name": "furfrou",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u591a\u4e3d\u7c73\u4e9a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c8\u30ea\u30df\u30a2\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Furfrou"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Furfrou"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Furfrou"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Coiffwaff"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Couafarel"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u591a\u9e97\u7c73\u4e9e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud2b8\ub9ac\ubbf8\uc559"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c8\u30ea\u30df\u30a2\u30f3"
+        }
+    ],
+    "order": 677,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 93,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 676,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "furfrou",
+                "url": "/api/v2/pokemon/676/"
+            }
+        }
+    ]
+}

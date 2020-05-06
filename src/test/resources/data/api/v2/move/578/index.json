@@ -1,0 +1,533 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Protects all friendly Pok\u00e9mon from non-damaging moves for the rest of the turn.\n\nUnlike other blocking moves, this move may be used consecutively without its chance of success falling.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Protects all friendly Pok\u00e9mon from non-damaging moves."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\n\u9632\u4f4f\u653b\u51fb\u6211\u65b9\u7684\u53d8\u5316\u62db\u5f0f\u3002\n\u4f46\u65e0\u6cd5\u9632\u4f4f\u4f24\u5bb3\u62db\u5f0f\u7684\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5473\u65b9\u3078\u306e\u3000\u5909\u5316\u6280\u3092\u3000\u9632\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u6280\u306f\u3000\u53d7\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user protects itself and its allies from status\nmoves with a mysterious power. This does not stop\nmoves that do damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, protegge chi la usa\ne gli alleati dalle mosse di stato. \u00c8 tuttavia\ninefficace contro mosse che infliggono danni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Usa unos misteriosos poderes para protegerse a s\u00ed \nmismo y a sus aliados de ataques de estado, pero\nno de otro tipo de ataques.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Sch\u00fctzt mit einer mysteri\u00f6sen Macht seine\nMitstreiter und sich vor Status-Attacken, nicht\njedoch vor Attacken, die Schaden verursachen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Utilise une force myst\u00e9rieuse pour prot\u00e9ger\nl\u2019\u00e9quipe des capacit\u00e9s de statut. Ne prot\u00e8ge\npas des autres capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\n\u9632\u79a6\u4f4f\u653b\u64ca\u6211\u65b9\u7684\u8b8a\u5316\u62db\u5f0f\u3002\n\u4f46\u7121\u6cd5\u9632\u79a6\u4f4f\u653b\u64ca\u62db\u5f0f\u7684\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\uac19\uc740 \ud3b8\uc744 \uacf5\uaca9\ud558\ub294 \ubcc0\ud654 \uae30\uc220\uc744 \ub9c9\ub294\ub2e4.\n\ub370\ubbf8\uc9c0 \uae30\uc220\uc740 \ubc1b\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u307f\u304b\u305f\u3078\u306e\u3000\u3078\u3093\u304b\u308f\u3056\u3092\u3000\u3075\u305b\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u308f\u3056\u306f\u3000\u3046\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\n\u9632\u4f4f\u653b\u51fb\u6211\u65b9\u7684\u53d8\u5316\u62db\u5f0f\u3002\n\u4f46\u65e0\u6cd5\u9632\u4f4f\u4f24\u5bb3\u62db\u5f0f\u7684\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5473\u65b9\u3078\u306e\u3000\u5909\u5316\u6280\u3092\u3000\u9632\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u6280\u306f\u3000\u53d7\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user protects itself and its allies from status\nmoves with a mysterious power. This does not stop\nmoves that do damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, protegge chi la usa\ne gli alleati dalle mosse di stato. \u00c8 tuttavia\ninefficace contro mosse che infliggono danni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Usa unos misteriosos poderes para protegerse a s\u00ed \nmismo y a sus aliados de ataques de estado, pero\nno de otro tipo de ataques.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Sch\u00fctzt mit einer mysteri\u00f6sen Macht seine\nMitstreiter und sich vor Status-Attacken, nicht\njedoch vor Attacken, die Schaden verursachen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Utilise une force myst\u00e9rieuse pour prot\u00e9ger\nl\u2019\u00e9quipe des capacit\u00e9s de statut. Ne prot\u00e8ge\npas des autres capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u795e\u5947\u7684\u529b\u91cf\n\u9632\u79a6\u4f4f\u653b\u64ca\u6211\u65b9\u7684\u8b8a\u5316\u62db\u5f0f\u3002\n\u4f46\u7121\u6cd5\u9632\u79a6\u4f4f\u653b\u64ca\u62db\u5f0f\u7684\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\uac19\uc740 \ud3b8\uc744 \uacf5\uaca9\ud558\ub294 \ubcc0\ud654 \uae30\uc220\uc744 \ub9c9\ub294\ub2e4.\n\ub370\ubbf8\uc9c0 \uae30\uc220\uc740 \ubc1b\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u307f\u304b\u305f\u3078\u306e\u3000\u3078\u3093\u304b\u308f\u3056\u3092\u3000\u3075\u305b\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u308f\u3056\u306f\u3000\u3046\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5473\u65b9\u3078\u306e\u3000\u5909\u5316\u6280\u3092\u3000\u9632\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u6280\u306f\u3000\u53d7\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user protects itself and its allies from\nstatus moves with a mysterious power.\nThis does not stop moves that do damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, protegge chi la usa\ne gli alleati dalle mosse di stato. \u00c8 tuttavia\ninefficace contro mosse che infliggono danni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa unos misteriosos poderes para protegerse a s\u00ed \nmismo y a sus aliados de ataques de estado, pero\nno de otro tipo de ataques.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Sch\u00fctzt mit einer mysteri\u00f6sen Macht seine\nMitstreiter und sich vor Status-Attacken, nicht\njedoch vor Attacken, die Schaden verursachen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Utilise une force myst\u00e9rieuse pour prot\u00e9ger\nl\u2019\u00e9quipe des attaques de statut. Ne prot\u00e8ge\npas des autres capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\uac19\uc740 \ud3b8\uc744 \uacf5\uaca9\ud558\ub294 \ubcc0\ud654 \uae30\uc220\uc744 \ub9c9\ub294\ub2e4.\n\ub370\ubbf8\uc9c0 \uae30\uc220\uc740 \ubc1b\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u202f\u304b\u305f\u3078\u306e\u3000\u3078\u3093\u304b\u308f\u3056\u3092\u3000\u3075\u305b\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u308f\u3056\u306f\u3000\u3046\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u529b\u3092\u3000\u4f7f\u3063\u3066\n\u5473\u65b9\u3078\u306e\u3000\u5909\u5316\u6280\u3092\u3000\u9632\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u6280\u306f\u3000\u53d7\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user protects itself and its allies from\nstatus moves with a mysterious power.\nThis does not stop moves that do damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Grazie a un misterioso potere, protegge chi la usa\ne gli alleati dalle mosse di stato. \u00c8 tuttavia\ninefficace contro mosse che infliggono danni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa unos misteriosos poderes para protegerse a s\u00ed\nmismo y a sus aliados de ataques de estado, pero\nno de otro tipo de ataques.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Sch\u00fctzt sich und Mitstreiter mit einer\nmysteri\u00f6sen Macht vor Status-Attacken.\nEs werden jedoch weiterhin KP-Sch\u00e4den erlitten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Utilise une force myst\u00e9rieuse pour prot\u00e9ger\nl\u2019\u00e9quipe des attaques de statut. Ne prot\u00e8ge\npas des autres capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ud798\uc744 \uc0ac\uc6a9\ud558\uc5ec\n\uac19\uc740 \ud3b8\uc744 \uacf5\uaca9\ud558\ub294 \ubcc0\ud654 \uae30\uc220\uc744 \ub9c9\ub294\ub2e4.\n\ub370\ubbf8\uc9c0 \uae30\uc220\uc740 \ubc1b\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u3061\u304b\u3089\u3092\u3000\u3064\u304b\u3063\u3066\n\u307f\u304b\u305f\u3078\u306e\u3000\u3078\u3093\u304b\u308f\u3056\u3092\u3000\u3075\u305b\u3050\u3002\n\u30c0\u30e1\u30fc\u30b8\u308f\u3056\u306f\u3000\u3046\u3051\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "id": 578,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "field-effect",
+            "url": "/api/v2/move-category/11/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "crafty-shield",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u620f\u6cd5\u9632\u5b88"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c8\u30ea\u30c3\u30af\u30ac\u30fc\u30c9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Crafty Shield"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Truccodifesa"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Truco Defensa"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Trickschutz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Vigilance"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6232\u6cd5\u9632\u5b88"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud2b8\ub9ad\uac00\ub4dc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c8\u30ea\u30c3\u30af\u30ac\u30fc\u30c9"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 3,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "users-field",
+        "url": "/api/v2/move-target/4/"
+    },
+    "type": {
+        "name": "fairy",
+        "url": "/api/v2/type/18/"
+    }
+}

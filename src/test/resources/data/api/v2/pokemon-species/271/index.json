@@ -1,0 +1,780 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/136/"
+    },
+    "evolves_from_species": {
+        "name": "lotad",
+        "url": "/api/v2/pokemon-species/270/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f53\u4e2d\u3000\u30cc\u30eb\u30cc\u30eb\u3057\u305f\u3000\u7c98\u6db2\u3067\u3000\u8986\u308f\u308c\n\u305d\u306e\u3000\u624b\u3067\u3000\u89e6\u3089\u308c\u308b\u3068\u3000\u3068\u3066\u3082\u3000\u6c17\u6301\u3061\u60aa\u3044\u3002\n\u4eba\u9593\u306e\u3000\u5b50\u3069\u3082\u3068\u3000\u3088\u304f\u3000\u9593\u9055\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lombre\u2019s entire body is covered by a slippery, slimy film.\nIt feels horribly unpleasant to be touched by this Pok\u00e9mon\u2019s\nhands. Lombre is often mistaken for a human child.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019intero corpo di Lombre \u00e8 ricoperto di una pellicola viscida\ne scivolosa. Il contatto con le sue zampe d\u00e0 una sensazione\norribile. Spesso Lombre \u00e8 confuso con un bambino piccolo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lombre est\u00e1 completamente recubierto por una pel\u00edcula\nviscosa y resbaladiza. La sensaci\u00f3n que produce cuando\nroza a alguien con las manos es muy desagradable. A veces\nse confunde a este Pok\u00e9mon con un ni\u00f1o peque\u00f1o.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lombreros K\u00f6rper ist mit einem glitschigen Film bedeckt.\nEs f\u00fchlt sich widerlich an, wenn einen dieses Pok\u00e9mon mit\nseinen H\u00e4nden ber\u00fchrt. Lombrero wird h\u00e4ufig f\u00fcr ein Kind\ngehalten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Le corps de Lombre tout entier est recouvert d\u2019un voile\nvisqueux et glissant. Toucher ce Pok\u00e9mon est extr\u00eamement\nd\u00e9plaisant. On croit souvent \u00e0 tort que Lombre est un enfant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8 \uc804\uccb4\uac00 \ubbf8\ub048\ubbf8\ub048\ud55c \uc810\uc561\uc73c\ub85c \ub36e\uc5ec \uc788\uc5b4\uc11c\n\uadf8 \uc190\uc5d0 \ub2ff\uc73c\uba74 \ub9e4\uc6b0 \uae30\ubd84 \ub098\uc058\ub2e4.\n\uace7\uc798 \uc778\uac04\uc758 \uc544\uc774\ub85c \uc624\uc778\ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3058\u3085\u3046\u3000\u30cc\u30eb\u30cc\u30eb\u3057\u305f\u3000\u306d\u3093\u3048\u304d\u3067\u3000\u304a\u304a\u308f\u308c\n\u305d\u306e\u3000\u3066\u3067\u3000\u3055\u308f\u3089\u308c\u308b\u3068\u3000\u3068\u3066\u3082\u3000\u304d\u3082\u3061\u308f\u308b\u3044\u3002\n\u306b\u3093\u3052\u3093\u306e\u3000\u3053\u3069\u3082\u3068\u3000\u3088\u304f\u3000\u307e\u3061\u304c\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5915\u66ae\u308c\u306b\u306a\u308b\u3068\u3000\u6d3b\u52d5\u3059\u308b\u3000\u591c\u884c\u6027\u3002\n\u91e3\u308a\u4eba\u3092\u3000\u898b\u304b\u3051\u308b\u3068\u3000\u6c34\u4e2d\u304b\u3089\u3000\u7cf8\u3092\n\u5f15\u3063\u5f35\u308a\u3000\u30b8\u30e3\u30de\u3092\u3057\u3066\u306f\u3000\u559c\u3093\u3067\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lombre is nocturnal\u2014it will get active after dusk.\nIt is also a mischief maker. When this Pok\u00e9mon\nspots anglers, it tugs on their fishing lines from\nbeneath the surface and enjoys their consternation.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lombre \u00e8 un Pok\u00e9mon notturno, che si sveglia dopo\nil crepuscolo. \u00c8 anche molto dispettoso: quando scopre\nun pescatore, inizia a tirare l\u2019amo sott\u2019acqua e si diverte\na spiare la costernazione del malcapitato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lombre es, adem\u00e1s de travieso, nocturno; entra en acci\u00f3n de\nnoche. Cuando ve a gente pescando, se pone a tirar del sedal\npor debajo del agua y se divierte viendo la cara de enfado que\nse les queda.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lombrero liebt die Nacht und wird bei Einbruch der Dunkelheit\naktiv. Es spielt auch gerne Streiche. Wenn es Angler sieht,\nzieht es unter Wasser an ihren Angelschn\u00fcren und erfreut sich\nan ihrer Entr\u00fcstung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lombre est nocturne, il commence ses activit\u00e9s malicieuses\net sournoises au cr\u00e9puscule. Lorsque ce Pok\u00e9mon rep\u00e8re\ndes p\u00eacheurs, il s\u2019approche de leur ligne, tire dessus\net se moque de leur regard perplexe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud574 \uc9c8 \ubb34\ub835\uc774 \ub418\uba74 \ud65c\ub3d9\ud558\ub294 \uc57c\ud589\uc131\uc774\ub2e4.\n\ub09a\uc2dc\uafbc\uc744 \ubc1c\uacac\ud558\uba74 \ubb3c\uc18d\uc5d0\uc11c \uc904\uc744\n\ub2f9\uaca8 \ubc29\ud574\ud558\uace0\uc120 \uae30\ubed0\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3086\u3046\u3050\u308c\u306b\u306a\u308b\u3068\u3000\u304b\u3064\u3069\u3046\u3059\u308b\u3000\u3084\u3053\u3046\u305b\u3044\u3002\n\u3064\u308a\u3073\u3068\u3092\u3000\u202f\u304b\u3051\u308b\u3068\u3000\u3059\u3044\u3061\u3085\u3046\u304b\u3089\u3000\u3044\u3068\u3092\n\u3072\u3063\u3071\u308a\u3000\u30b8\u30e3\u30de\u3092\u3057\u3066\u306f\u3000\u3088\u308d\u3053\u3093\u3067\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u91e3\u308a\u4eba\u3092\u3000\u898b\u3064\u3051\u308b\u3068\n\u6c34\u4e2d\u304b\u3089\u3000\u91e3\u308a\u7cf8\u3092\u3000\u5f15\u3063\u5f35\u308a\n\u30b8\u30e3\u30de\u3057\u3066\u3000\u559c\u3076\u3000\u3044\u305f\u305a\u3089\u3082\u306e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it spots an angler,\nit will tug on the fishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 un po\u2019 dispettoso. Se vede un pescatore, gli tira\nla lenza solo per dargli fastidio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Tiene car\u00e1cter travieso. Si ve un pescador, tira del\nanzuelo para confundirlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es hat ein spitzb\u00fcbisches Wesen. Sieht es einen\nAngler, zieht es an der Angelschnur, um ihn zu \u00e4rgern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est un mauvais plaisantin. Quand il rep\u00e8re un\np\u00eacheur, il tire sur sa ligne pour le d\u00e9ranger.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub09a\uc2dc\uafbc\uc744 \ubc1c\uacac\ud558\uba74\n\ubb3c\uc18d\uc5d0\uc11c \ub09a\uc2ef\uc904\uc744 \uc7a1\uc544\ub2f9\uaca8\n\ubc29\ud574\ud558\uba70 \uc88b\uc544\ud558\ub294 \uc7a5\ub09c\uafb8\ub7ec\uae30\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u308a\u3073\u3068\u3092\u3000\u307f\u3064\u3051\u308b\u3068\n\u3059\u3044\u3061\u3085\u3046\u304b\u3089\u3000\u3064\u308a\u3044\u3068\u3092\u3000\u3072\u3063\u3071\u308a\n\u30b8\u30e3\u30de\u3057\u3066\u3000\u3088\u308d\u3053\u3076\u3000\u3044\u305f\u305a\u3089\u3082\u306e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u65e5\u5f53\u305f\u308a\u306e\u3000\u826f\u3044\u3000\u6c34\u8fba\u306b\u3000\u4f4f\u3080\u3002\n\u663c\u9593\u306f\u3000\u6c34\u8349\u306e\u3000\u30d9\u30c3\u30c9\u3067\u3000\u7720\u308a\n\u65e5\u304c\u3000\u66ae\u308c\u308b\u3068\u3000\u52d5\u304d\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It lives at the water\u2019s edge where it is sunny.\nIt sleeps on a bed of water-grass by day and\nbecomes active at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive in riva a specchi d\u2019acqua, in aree soleggiate.\nDi giorno dorme su di un letto di alghe, mentre la\nnotte \u00e8 attivo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive en el agua y, cuando hace sol, se queda en la\norilla. De d\u00eda duerme sobre las algas y de noche entra\nen acci\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt am Ufer, wo die Sonne scheint.\nTags\u00fcber schl\u00e4ft es in einem Bett aus Schilf\nund wird nachts aktiv.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il vit au bord de l\u2019eau dans les endroits ensoleill\u00e9s.\nLe jour, il s\u2019endort sur un tas d\u2019algues et ne se l\u00e8ve\nqu\u2019\u00e0 la nuit tomb\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud587\ubcd5\uc774 \uc798 \ub4dc\ub294 \ubb3c\uac00\uc5d0 \uc0b0\ub2e4.\n\ub0ae\uc5d0\ub294 \uc218\ucd08\ub85c \ub41c \uce68\ub300\uc5d0\uc11c\n\uc790\uace0 \ud574\uac00 \uc9c0\uba74 \ud65c\ub3d9\ud558\uae30 \uc2dc\uc791\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3042\u305f\u308a\u306e\u3000\u3088\u3044\u3000\u307f\u305a\u3079\u306b\u3000\u3059\u3080\u3002\n\u3072\u308b\u307e\u306f\u3000\u307f\u305a\u304f\u3055\u306e\u3000\u30d9\u30c3\u30c9\u3067\n\u306d\u3080\u308a\u3000\u3072\u304c\u3000\u304f\u308c\u308b\u3068\u3000\u3046\u3054\u304d\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est un mauvais plaisantin. Quand\nil rep\u00e8re un p\u00eacheur, il tire sur sa\nligne pour le d\u00e9ranger.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est un mauvais plaisantin. Quand\nil rep\u00e8re un p\u00eacheur, il tire sur sa\nligne pour le d\u00e9ranger.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It is nocturnal and becomes active\nat nightfall. It feeds on aquatic\nmosses that grow in the riverbed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It is nocturnal and becomes active\nat nightfall. It feeds on aquatic\nmosses that grow in the riverbed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has a mischievous spirit. If it\nspots an angler, it will tug on the\nfishing line to interfere.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It lives at the water\u2019s edge where it is\nsunny. It sleeps on a bed of water grass\nby day and becomes active at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It lives at the water\u2019s edge where it is\nsunny. It sleeps on a bed of water grass\nby day and becomes active at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "In the evening, it takes great delight in\npopping out of rivers and startling people.\nIt feeds on aquatic moss that grows on\nrocks in the riverbed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "LOMBRE\u2019s entire body is covered by a\nslippery, slimy film. It feels horribly\nunpleasant to be touched by this\fPOK\u00e9MON\u2019s hands.\nLOMBRE is often mistaken for a human\nchild.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "LOMBRE is nocturnal - it will get active\nafter dusk. It is also a mischief-maker.\nWhen this POK\u00e9MON spots anglers,\fit tugs on their fishing lines from\nbeneath the surface and enjoys their\nconsternation.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u723d\u6717\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3088\u3046\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Jolly Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Giocoso",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Alegre",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Frohmut",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Jovial",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u723d\u6717\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uba85\ub791\ud568\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3088\u3046\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "waters-edge",
+        "url": "/api/v2/pokemon-habitat/9/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 271,
+    "is_baby": false,
+    "name": "lombre",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u83b2\u5e3d\u5c0f\u7ae5"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30cf\u30b9\u30d6\u30ec\u30ed"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Lombre"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Lombre"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Lombre"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Lombrero"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Lombre"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u84ee\u5e3d\u5c0f\u7ae5"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub85c\ud1a0\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Hasubrero"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30cf\u30b9\u30d6\u30ec\u30ed"
+        }
+    ],
+    "order": 296,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "pond",
+                "url": "/api/v2/pal-park-area/4/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 20,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 56,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 20,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 271,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "lombre",
+                "url": "/api/v2/pokemon/271/"
+            }
+        }
+    ]
+}

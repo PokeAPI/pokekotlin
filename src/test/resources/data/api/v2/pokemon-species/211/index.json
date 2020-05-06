@@ -1,0 +1,806 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "water2",
+            "url": "/api/v2/egg-group/12/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/106/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u98f2\u202f\u8fbc\u3093\u3060\u3000\u6c34\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3057\u3066\n\u5168\u8eab\u306e\u3000\u6bd2\u91dd\u3092\u3000\u4e00\u6589\u306b\u3000\u6253\u3061\u51fa\u3059\u3002\n\u6cf3\u3050\u306e\u306f\u3000\u3061\u3087\u3063\u3068\u3000\u82e6\u624b\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish sucks in water, inflating itself. This Pok\u00e9mon\nuses the pressure of the water it swallowed to shoot toxic\nquills all at once from all over its body. It finds swimming\nsomewhat challenging.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish si gonfia assorbendo acqua. Poi usa la pressione\ndell\u2019acqua ingerita per sparare i suoi aculei velenosi\ntutti insieme in un colpo solo.\nNon si pu\u00f2 certo dire che sia un grande nuotatore.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish bebe agua y se hincha, y a continuaci\u00f3n usa la\npresi\u00f3n del agua que ha tragado para lanzar p\u00faas t\u00f3xicas\npor todo el cuerpo. Para este Pok\u00e9mon nadar es una especie\nde desaf\u00edo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Baldorfish saugt Wasser ein, um sich aufzublasen.\nDieses Pok\u00e9mon nutzt den Druck des Wassers dazu,\ngiftige Stacheln zu verschie\u00dfen. Es betrachtet Schwimmen\nals eine echte Herausforderung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish se gonfle en aspirant de l\u2019eau. Ce Pok\u00e9mon utilise\nla pression de l\u2019eau aval\u00e9e pour envoyer d\u2019un coup les pointes\ntoxiques de son corps. Nager lui demande un gros effort.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub4e4\uc774\ub9c8\uc2e0 \ubb3c\uc758 \ud798\uc744 \uc774\uc6a9\ud558\uc5ec\n\uc804\uc2e0\uc758 \ub3c5\uce68\uc744 \uc77c\uc81c\ud788 \uc3d8\uc544\ub304\ub2e4.\n\ud5e4\uc5c4\uce58\ub294 \uac83\uc774 \uc870\uae08 \uc11c\ud230 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u306e\u202f\u3053\u3093\u3060\u3000\u202f\u305a\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3057\u3066\n\u305c\u3093\u3057\u3093\u306e\u3000\u3069\u304f\u3070\u308a\u3092\u3000\u3044\u3063\u305b\u3044\u306b\u3000\u3046\u3061\u3060\u3059\u3002\n\u304a\u3088\u3050\u306e\u306f\u3000\u3061\u3087\u3063\u3068\u3000\u306b\u304c\u3066\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u98f2\u202f\u8fbc\u3093\u3060\u3000\u6c34\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3057\u3066\n\u5168\u8eab\u306e\u3000\u6bd2\u91dd\u3092\u3000\u4e00\u6589\u306b\u3000\u6253\u3061\u51fa\u3059\u3002\n\u6cf3\u3050\u306e\u306f\u3000\u3061\u3087\u3063\u3068\u3000\u82e6\u624b\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish sucks in water, inflating itself. This Pok\u00e9mon\nuses the pressure of the water it swallowed to shoot toxic\nquills all at once from all over its body. It finds swimming\nsomewhat challenging.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish si gonfia assorbendo acqua. Poi usa la pressione\ndell\u2019acqua ingerita per sparare i suoi aculei velenosi\ntutti insieme in un colpo solo.\nNon si pu\u00f2 certo dire che sia un grande nuotatore.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish bebe agua y se hincha, y a continuaci\u00f3n usa la\npresi\u00f3n del agua que ha tragado para lanzar p\u00faas t\u00f3xicas\npor todo el cuerpo. Para este Pok\u00e9mon nadar es una especie\nde desaf\u00edo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Baldorfish saugt Wasser ein, um sich aufzublasen. Dieses\nPok\u00e9mon nutzt den Druck des Wassers dazu, giftige Stacheln\naus seinem K\u00f6rper zu verschie\u00dfen. Es betrachtet Schwimmen\nals eine echte Herausforderung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Qwilfish se gonfle en aspirant de l\u2019eau. Ce Pok\u00e9mon utilise\nla pression de l\u2019eau aval\u00e9e pour envoyer d\u2019un coup les pointes\ntoxiques de son corps. Nager lui demande un gros effort.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub4e4\uc774\ub9c8\uc2e0 \ubb3c\uc758 \ud798\uc744 \uc774\uc6a9\ud558\uc5ec\n\uc804\uc2e0\uc758 \ub3c5\uce68\uc744 \uc77c\uc81c\ud788 \uc3d8\uc544\ub304\ub2e4.\n\ud5e4\uc5c4\uce58\ub294 \uac83\uc774 \uc870\uae08 \uc11c\ud230 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u306e\u202f\u3053\u3093\u3060\u3000\u202f\u305a\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3057\u3066\n\u305c\u3093\u3057\u3093\u306e\u3000\u3069\u304f\u3070\u308a\u3092\u3000\u3044\u3063\u305b\u3044\u306b\u3000\u3046\u3061\u3060\u3059\u3002\n\u304a\u3088\u3050\u306e\u306f\u3000\u3061\u3087\u3063\u3068\u3000\u306b\u304c\u3066\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5168\u8eab\u306e\u3000\u5c0f\u3055\u306a\u3000\u91dd\u306f\n\u30a6\u30ed\u30b3\u304c\u3000\u5909\u5316\u3057\u305f\u3082\u306e\u3002\n\u523a\u3055\u308b\u3068\u3000\u6bd2\u3067\u3000\u6c17\u3092\u5931\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "The small spikes covering its body developed from\nscales. They inject a toxin that causes fainting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "I piccoli aculei che coprono il suo corpo si sono\nformati dalle squame. Contengono una tossina che\nfa svenire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Las peque\u00f1as p\u00faas que cubren su cuerpo eran\nescamas. Inyectan una toxina que debilita.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Die kleinen Stacheln an seinem K\u00f6rper sind aus\nSchuppen entstanden. Damit injiziert es Gift.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Son corps est recouvert de pics provenant de ses\n\u00e9cailles. Ils s\u00e9cr\u00e8tent un poison \u00e9tourdissant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uc2e0\uc758 \uc791\uc740 \ubc14\ub298\uc740\n\ube44\ub298\uc774 \ubcc0\ud654\ud55c \uac83\uc774\ub2e4.\n\ucc14\ub9ac\uba74 \ub3c5 \ub54c\ubb38\uc5d0 \uc815\uc2e0\uc744 \uc783\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305c\u3093\u3057\u3093\u306e\u3000\u3061\u3044\u3055\u306a\u3000\u30cf\u30ea\u306f\n\u3046\u308d\u3053\u304c\u3000\u3078\u3093\u304b\u3057\u305f\u3082\u306e\u3002\n\u3055\u3055\u308b\u3068\u3000\u3069\u304f\u3067\u3000\u304d\u3092\u3046\u3057\u306a\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5168\u8eab\u306e\u3000\u6bd2\u91dd\u3092\u3000\u98db\u3070\u3059\u305f\u3081\n\uff11\uff10\u30ea\u30c3\u30c8\u30eb\u306e\u3000\u6c34\u3092\u3000\u4e00\u6c17\u306b\n\u98f2\u307f\u3053\u307f\u3000\u4f53\u3092\u3000\u3075\u304f\u3089\u307e\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "To fire its poison spikes, it must inflate its body by\ndrinking over 2.6 gallons of water all at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Per sparare le punte velenose, gonfia il corpo\nbevendo pi\u00f9 di 10 l d\u2019acqua in una volta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Para arrojar sus venenosas p\u00faas, infla su cuerpo\nbebiendo hasta diez litros de agua de una sola vez.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Um seine Giftstacheln abzufeuern, muss es\nseinen K\u00f6rper aufpumpen, indem es 10 l trinkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pour tirer ses dards empoisonn\u00e9s, il gonfle son corps\nen buvant 10 l d\u2019eau subitement.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uc2e0\uc758 \ub3c5\uce68\uc744 \ub0a0\ub9ac\uae30 \uc704\ud574\n10\ub9ac\ud130\uc758 \ubb3c\uc744 \ub2e8\ubc88\uc5d0\n\ub9c8\uc2dc\uace0 \ubab8\uc744 \ubd80\ud480\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u305c\u3093\u3057\u3093\u306e\u3000\u3069\u304f\u3070\u308a\u3092\u3000\u3068\u3070\u3059\u305f\u3081\n\uff11\uff10\u30ea\u30c3\u30c8\u30eb\u306e\u3000\u307f\u305a\u3092\u3000\u3044\u3063\u304d\u306b\n\u306e\u307f\u3053\u307f\u3000\u304b\u3089\u3060\u3092\u3000\u3075\u304f\u3089\u307e\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It shoots the poison spines on its\nbody in all directions. Its round\nform makes it a poor swimmer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It shoots the poison spines on its\nbody in all directions. Its round\nform makes it a poor swimmer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It shoots the poison spines on its\nbody in all directions. Its round\nform makes it a poor swimmer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il envoie ses piquants empoisonn\u00e9s\n\u00e0 la ronde. Sa forme sph\u00e9rique en\nfait un pi\u00e8tre nageur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It shoots the poison spines on its\nbody in all directions. Its round\nform makes it a poor swimmer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il envoie ses piquants empoisonn\u00e9s\n\u00e0 la ronde. Sa forme sph\u00e9rique en\nfait un pi\u00e8tre nageur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "The small spikes covering its body\ndeveloped from scales. They inject\na toxin that causes fainting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "To fire its poison spikes, it must\ninflate its body by drinking over\n2.6 gallons of water all at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It shoots the poison spines on its\nbody in all directions. Its round\nform makes it a poor swimmer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It shoots the poison spines on its\nbody in all directions. Its round\nform makes it a poor swimmer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It shoots the poison spines on its\nbody in all directions. Its round\nform makes it a poor swimmer.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "To fire its poison spikes, it must inflate\nits body by drinking over 2.6 gallons of \nwater all at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "The small spikes covering its body\ndeveloped from scales. They inject a\ntoxin that causes fainting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A QWILFISH uses the pressure of water\nit swallows to shoot toxic quills all at\nonce from all over its body. It finds\nswimming to be somewhat challenging.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "QWILFISH sucks in water, inflating\nitself. This POK\u00e9MON uses the pressure\nof the water it swallowed to shoot\ftoxic quills all at once from all over\nits body. It finds swimming somewhat\nchallenging.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "QWILFISH sucks in water, inflating\nitself. This POK\u00e9MON uses the pressure\nof the water it swallowed to shoot\ftoxic quills all at once from all over\nits body. It finds swimming somewhat\nchallenging.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "When faced with a\nlarger opponent,\nit swallows as\fmuch water as it\ncan to match the\nopponent's size.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "The small spikes\ncovering its body\ndeveloped from\fscales. They in\u00ad\nject a toxin that\ncauses fainting.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "To fire its poison\nspikes, it must\ninflate its body\fby drinking over\n2.6 gallons of\nwater all at once.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6c14\u7403\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3075\u3046\u305b\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Balloon Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pallone",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Globo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Ballon",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bouboule",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6c23\u7403\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud48d\uc120\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3075\u3046\u305b\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "sea",
+        "url": "/api/v2/pokemon-habitat/7/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 211,
+    "is_baby": false,
+    "name": "qwilfish",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5343\u9488\u9c7c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30cf\u30ea\u30fc\u30bb\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Qwilfish"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Qwilfish"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Qwilfish"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Baldorfish"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Qwilfish"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5343\u91dd\u9b5a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uce68\ubc14\ub8e8"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Harysen"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30cf\u30ea\u30fc\u30bb\u30f3"
+        }
+    ],
+    "order": 242,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "sea",
+                "url": "/api/v2/pal-park-area/5/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 38,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 163,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 161,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 211,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "fish",
+        "url": "/api/v2/pokemon-shape/3/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "qwilfish",
+                "url": "/api/v2/pokemon/211/"
+            }
+        }
+    ]
+}

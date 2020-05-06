@@ -1,0 +1,424 @@
+{
+    "base_happiness": 0,
+    "capture_rate": 3,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/422/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u80fd\u591f\u8ba9\u610f\u8bc6\u540c\u6b65\uff0c\u7406\u89e3\u5bf9\u65b9\u7684\u5fc3\u60c5\u3002\n\u7528\u6765\u7167\u6599\u4eba\u7684\u8bdd\u662f\u5f88\u65b9\u4fbf\u7684\u80fd\u529b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u610f\u8b58\u3092\u3000\u540c\u8abf\u3055\u305b\u3066\u3000\u76f8\u624b\u306e\n\u6c17\u6301\u3061\u3092\u3000\u7406\u89e3\u3002\u3000\u4eba\u306e\u3000\u304a\u4e16\u8a71\u3092\n\u3059\u308b\u306e\u306b\u3000\u4fbf\u5229\u306a\u3000\u80fd\u529b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It synchronizes its consciousness with others\nto understand their feelings. This faculty makes\nit useful for taking care of people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Sincronizzando la sua coscienza a quella degli\naltri, riesce a capire il loro stato d\u2019animo. Grazie\na quest\u2019abilit\u00e0 si prende cura degli esseri umani.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Sincroniza su consciencia con la de los dem\u00e1s\npara comprender sus sentimientos. Utiliza esta\ncapacidad para cuidar de las personas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es synchronisiert sein Bewusstsein mit dem\nanderer, um ihre Gef\u00fchle zu verstehen. Dadurch\nf\u00e4llt es ihm leicht, Menschen zu helfen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il acc\u00e8de \u00e0 la conscience des individus en\nse synchronisant avec eux. Cette facult\u00e9\nl\u2019aide \u00e0 prendre soin d\u2019eux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u80fd\u5920\u8b93\u610f\u8b58\u540c\u6b65\uff0c\n\u85c9\u6b64\u7406\u89e3\u5c0d\u65b9\u7684\u5fc3\u60c5\u3002\n\u5728\u7167\u9867\u5225\u4eba\u6642\u662f\u5f88\u65b9\u4fbf\u7684\u80fd\u529b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc758\uc2dd\uc744 \ub3d9\uc870\uc2dc\ucf1c \uc0c1\ub300\uc758\n\ub9c8\uc74c\uc744 \uc774\ud574\ud55c\ub2e4. \uc0ac\ub78c\uc744\n\ub3c4\uc6b8 \ub54c \ud3b8\ub9ac\ud55c \ub2a5\ub825\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3057\u304d\u3092\u3000\u3069\u3046\u3061\u3087\u3046\u3055\u305b\u3066\u3000\u3042\u3044\u3066\u306e\n\u304d\u3082\u3061\u3092\u3000\u308a\u304b\u3044\u3002\u3000\u3072\u3068\u306e\u3000\u304a\u305b\u308f\u3092\n\u3059\u308b\u306e\u306b\u3000\u3079\u3093\u308a\u306a\u3000\u306e\u3046\u308a\u3087\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u673a\u68b0\u7ed3\u6784\u7684\u8eab\u4f53\u53ea\u662f\u4e00\u4e2a\u5bb9\u5668\u3002\n\u88ab\u79f0\u4e3a\u9b42\u5fc3\u7684\u4eba\u9020\u9b42\u9b44\u624d\u662f\u5b83\u7684\u672c\u4f53\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6a5f\u68b0\u4ed5\u639b\u3051\u306e\u3000\u8eab\u4f53\u306f\u3000\u305f\u3060\u306e\n\u5668\u3002\u3000\u30bd\u30a6\u30eb\u30cf\u30fc\u30c8\u3068\u3000\u547c\u3070\u308c\u308b\n\u4eba\u9020\u306e\u3000\u9b42\u304c\u3000\u672c\u4f53\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Its mechanized body is merely a vessel. Its true\nself is its Soul-Heart, an artificial soul.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il suo corpo meccanico \u00e8 solo un contenitore.\nLa sua vera essenza \u00e8 un\u2019anima artificiale\nchiamata \u201cCuoreanima\u201d.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "El mecanismo que conforma su cuerpo es\ntan solo un recipiente. Su verdadera esencia\nes un alma artificial llamada Cor\u00e1nima.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Sein mechanischer K\u00f6rper ist nur ein Gef\u00e4\u00df.\nDas eigentliche Pok\u00e9mon ist eine k\u00fcnstlich\nerschaffene Seele namens \u201eSeelenherz\u201c.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Son corps m\u00e9canique n\u2019est qu\u2019une enveloppe.\nSa v\u00e9ritable nature est une \u00e2me artificielle\nnomm\u00e9e Animac\u0153ur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6a5f\u68b0\u7d50\u69cb\u7684\u8eab\u9ad4\u53ea\u662f\u4e00\u500b\u5bb9\u5668\u3002\n\u88ab\u7a31\u70ba\u9b42\u5fc3\u7684\u4eba\u9020\u9748\u9b42\u624d\u662f\u7260\u7684\u672c\u9ad4\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uacc4\uc7a5\uce58\ub85c \ub41c \ubab8\uc740 \uadf8\ub987\uc5d0\n\ubd88\uacfc\ud558\ub2e4. \uc18c\uc6b8\ud558\ud2b8\ub77c\uace0 \ubd88\ub9ac\ub294\n\uc778\uc870 \uc601\ud63c\uc774 \ubcf8\uccb4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u304b\u3044\u3058\u304b\u3051\u306e\u3000\u304b\u3089\u3060\u306f\u3000\u305f\u3060\u306e\n\u3046\u3064\u308f\u3002\u3000\u30bd\u30a6\u30eb\u30cf\u30fc\u30c8\u3068\u3000\u3088\u3070\u308c\u308b\n\u3058\u3093\u305e\u3046\u306e\u3000\u305f\u307e\u3057\u3044\u304c\u3000\u307b\u3093\u305f\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u4eba\u9020\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3058\u3093\u305e\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Artificial Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Artificiale",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Artificial",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Fabrikat",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Artificiel",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u4eba\u9020\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc778\uc870\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3058\u3093\u305e\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vii",
+        "url": "/api/v2/generation/7/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 120,
+    "id": 801,
+    "is_baby": false,
+    "name": "magearna",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u739b\u673a\u96c5\u5a1c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30de\u30ae\u30a2\u30ca"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Magearna"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Magearna"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Magearna"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Magearna"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Magearna"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u746a\u6a5f\u96c5\u5a1c"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9c8\uae30\uc544\ub098"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30de\u30ae\u30a2\u30ca"
+        }
+    ],
+    "order": 801,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "magearna-original",
+                "url": "/api/v2/pokemon/10147/"
+            }
+        },
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "magearna",
+                "url": "/api/v2/pokemon/801/"
+            }
+        }
+    ]
+}

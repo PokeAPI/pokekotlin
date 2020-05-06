@@ -1,0 +1,675 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "hail",
+                    "url": "/api/v2/move/258/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/33/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Removes stat, accuracy, and evasion modifiers from every Pok\u00e9mon on the field.\n\nThis does not count as a stat reduction for the purposes of clear body or white smoke.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Resets all Pok\u00e9mon's stats, accuracy, and evasion."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5347\u8d77\u9ed1\u96fe\uff0c\u5c06\u6b63\u5728\u573a\u4e0a\u6218\u6597\u7684\n\u5168\u4f53\u5b9d\u53ef\u68a6\u7684\u80fd\u529b\u53d8\u56de\u539f\u70b9\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u9ed2\u3044\u9727\u3092\u3000\u3060\u3057\u3066\u3000\u6226\u95d8\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u5168\u54e1\u306e\n\u80fd\u529b\u5909\u5316\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a haze that eliminates every stat\nchange among all the Pok\u00e9mon engaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una nube nera che annulla\nogni modifica alle statistiche di tutti i Pok\u00e9mon\nin campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Neblina que elimina los cambios de caracter\u00edsticas\nde todos los Pok\u00e9mon en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Erzeugt einen dunklen Nebel. Alle Ver\u00e4nderungen der\nStatuswerte der Kampfteilnehmer werden annulliert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un brouillard qui annule les changements de stats\nde tous les Pok\u00e9mon au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u653e\u51fa\u9ed1\u9727\uff0c\u8b93\u5834\u4e0a\u5168\u9ad4\u5bf6\u53ef\u5922\u7684\n\u80fd\u529b\u8b8a\u5316\u56de\u5230\u521d\u59cb\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud751\uc548\uac1c\ub97c \ubfdc\uc5b4 \ubc30\ud2c0\uc5d0\n\ucc38\uac00 \uc911\uc778 \ud3ec\ucf13\ubaac \uc804\uc6d0\uc758\n\ub2a5\ub825 \ubcc0\ud654\ub97c \uc6d0\ub798\ub300\ub85c \ub3cc\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u308d\u3044\u304d\u308a\u3092\u3000\u3060\u3057\u3066\u3000\u305b\u3093\u3068\u3046\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u305c\u3093\u3044\u3093\u306e\n\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5347\u8d77\u9ed1\u96fe\uff0c\u5c06\u6b63\u5728\u573a\u4e0a\u6218\u6597\u7684\n\u5168\u4f53\u5b9d\u53ef\u68a6\u7684\u80fd\u529b\u53d8\u56de\u539f\u70b9\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u9ed2\u3044\u9727\u3092\u3000\u3060\u3057\u3066\u3000\u6226\u95d8\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u5168\u54e1\u306e\n\u80fd\u529b\u5909\u5316\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a haze that eliminates every stat\nchange among all the Pok\u00e9mon engaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una nube nera che annulla\nogni modifica alle statistiche di tutti i Pok\u00e9mon\nin campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Neblina que elimina los cambios de caracter\u00edsticas\nde todos los Pok\u00e9mon en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Erzeugt einen dunklen Nebel. Alle Ver\u00e4nderungen der\nStatuswerte der Kampfteilnehmer werden annulliert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un brouillard qui annule les changements de stats\nde tous les Pok\u00e9mon au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653e\u51fa\u9ed1\u9727\uff0c\u8b93\u5834\u4e0a\u5168\u9ad4\u5bf6\u53ef\u5922\u7684\n\u80fd\u529b\u8b8a\u5316\u56de\u5230\u521d\u59cb\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud751\uc548\uac1c\ub97c \ubfdc\uc5b4 \ubc30\ud2c0\uc5d0\n\ucc38\uac00 \uc911\uc778 \ud3ec\ucf13\ubaac \uc804\uc6d0\uc758\n\ub2a5\ub825 \ubcc0\ud654\ub97c \uc6d0\ub798\ub300\ub85c \ub3cc\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u308d\u3044\u304d\u308a\u3092\u3000\u3060\u3057\u3066\u3000\u305b\u3093\u3068\u3046\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u305c\u3093\u3044\u3093\u306e\n\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u9ed2\u3044\u9727\u3092\u3000\u3060\u3057\u3066\u3000\u6226\u95d8\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u5168\u54e1\u306e\n\u80fd\u529b\u5909\u5316\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a haze that eliminates\nevery stat change among all the Pok\u00e9mon\nengaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una nube nera che annulla\nogni modifica alle statistiche di tutti i Pok\u00e9mon\nin campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Neblina que elimina los cambios de caracter\u00edsticas de \ntodos los Pok\u00e9mon en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Erzeugt einen dunklen Nebel.\nAlle Ver\u00e4nderungen der Statuswerte\nder Kampfteilnehmer werden annulliert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un brouillard qui annule les changements de stats\nde tous les Pok\u00e9mon au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud751\uc548\uac1c\ub97c \ubfdc\uc5b4 \ubc30\ud2c0\uc5d0\n\ucc38\uac00 \uc911\uc778 \ud3ec\ucf13\ubaac \uc804\uc6d0\uc758\n\ub2a5\ub825 \ubcc0\ud654\ub97c \uc6d0\ub798\ub300\ub85c \ub3cc\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u308d\u3044\u304d\u308a\u3092\u3000\u3060\u3057\u3066\u3000\u305b\u3093\u3068\u3046\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u305c\u3093\u3044\u3093\u306e\n\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u9ed2\u3044\u9727\u3092\u3000\u3060\u3057\u3066\u3000\u6226\u95d8\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u5168\u54e1\u306e\n\u80fd\u529b\u5909\u5316\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a haze that eliminates\nevery stat change among all the Pok\u00e9mon\nengaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa crea una nube nera che annulla\nogni modifica alle statistiche di tutti i Pok\u00e9mon\nin campo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Neblina que elimina los cambios de caracter\u00edsticas\nde todos los Pok\u00e9mon en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Erzeugt einen dunklen Nebel.\nAlle Ver\u00e4nderungen der Statuswerte\nder Kampfteilnehmer werden annulliert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un brouillard qui annule les changements de stats\nde tous les Pok\u00e9mon au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud751\uc548\uac1c\ub97c \ubfdc\uc5b4 \ubc30\ud2c0\uc5d0\n\ucc38\uac00 \uc911\uc778 \ud3ec\ucf13\ubaac \uc804\uc6d0\uc758\n\ub2a5\ub825 \ubcc0\ud654\ub97c \uc6d0\ub798\ub300\ub85c \ub3cc\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u308d\u3044\u304d\u308a\u3092\u3000\u3060\u3057\u3066\u3000\u305b\u3093\u3068\u3046\u306b\n\u3067\u3066\u3044\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3000\u305c\u3093\u3044\u3093\u306e\n\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3092\u3000\u3082\u3068\u306b\u3000\u3082\u3069\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a haze that eliminates\nevery stat change among all the Pok\u00e9mon\nengaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a haze that eliminates\nevery stat change among all the Pok\u00e9mon\nengaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un brouillard qui annule les\nchangements de stats de tous\nles Pok\u00e9mon au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\nhaze that eliminates\nevery stat change\namong all the Pok\u00e9mon\nengaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\nhaze that eliminates\nevery stat change\namong all the Pok\u00e9mon\nengaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user creates a\nhaze that eliminates\nevery stat change\namong all the Pok\u00e9mon\nengaged in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Eliminates all stat\nchanges among all\nPOK\u00e9MON engaged in\nbattle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Creates a black haze that\neliminates all stat changes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Creates a black haze that\neliminates all stat changes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Eliminates all\nstat changes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Eliminates all\nstat changes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 114,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "whole-field-effect",
+            "url": "/api/v2/move-category/10/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "haze",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9ed1\u96fe"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304f\u308d\u3044\u304d\u308a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Haze"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Nube"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Niebla"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Dunkelnebel"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Bu\u00e9e Noire"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9ed1\u9727"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud751\uc548\uac1c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304f\u308d\u3044\u304d\u308a"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "entire-field",
+        "url": "/api/v2/move-target/12/"
+    },
+    "type": {
+        "name": "ice",
+        "url": "/api/v2/type/15/"
+    }
+}

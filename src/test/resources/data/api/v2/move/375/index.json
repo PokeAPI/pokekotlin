@@ -1,0 +1,617 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "If the user has a major status effect and the target does not, the user's status is transferred to the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Transfers the user's major status effect to the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5229\u7528\u8d85\u80fd\u529b\u65bd\u4ee5\u6697\u793a\uff0c\n\u4ece\u800c\u5c06\u81ea\u5df1\u53d7\u5230\u7684\u5f02\u5e38\u72b6\u6001\n\u8f6c\u79fb\u7ed9\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\u3000\u6697\u793a\u3092\u3000\u304b\u3051\u3066\n\u81ea\u5206\u306e\u3000\u53d7\u3051\u3066\u3044\u308b\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u76f8\u624b\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Con la forza psichica e la suggestione, chi la usa\npu\u00f2 trasferire i suoi problemi di stato al Pok\u00e9mon\ncolpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Usa su poder mental para transferir al objetivo sus \nproblemas de estado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender nutzt seine Suggestivkr\u00e4fte, um eigene\nStatusprobleme auf das Ziel zu transferieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur transf\u00e8re ses probl\u00e8mes de statut\n\u00e0 l\u2019ennemi gr\u00e2ce \u00e0 son pouvoir de suggestion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8d85\u80fd\u529b\u65bd\u52a0\u6697\u793a\uff0c\n\u5c07\u81ea\u5df1\u7684\u7570\u5e38\u72c0\u614b\n\u8f49\u79fb\u7d66\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c \uc554\uc2dc\ub97c \uac78\uc5b4\uc11c\n\uc790\uc2e0\uc5d0\uac8c \uac78\ub824 \uc788\ub294 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\uc0c1\ub300\uc5d0\uac8c \uc62e\uae34\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\u3000\u3042\u3093\u3058\u3092\u3000\u304b\u3051\u3066\n\u3058\u3076\u3093\u306e\u3000\u3046\u3051\u3066\u3044\u308b\u3000\u3058\u3087\u3046\u305f\u3044\n\u3044\u3058\u3087\u3046\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u8d85\u80fd\u529b\u65bd\u4ee5\u6697\u793a\uff0c\n\u4ece\u800c\u5c06\u81ea\u5df1\u53d7\u5230\u7684\u5f02\u5e38\u72b6\u6001\n\u8f6c\u79fb\u7ed9\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\u3000\u6697\u793a\u3092\u3000\u304b\u3051\u3066\n\u81ea\u5206\u306e\u3000\u53d7\u3051\u3066\u3044\u308b\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u76f8\u624b\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Con la forza psichica e la suggestione, chi la usa\npu\u00f2 trasferire i suoi problemi di stato al Pok\u00e9mon\ncolpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Usa su poder mental para transferir al objetivo sus \nproblemas de estado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender nutzt seine Suggestivkr\u00e4fte, um eigene\nStatusprobleme auf das Ziel zu transferieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur transf\u00e8re ses probl\u00e8mes de statut\n\u00e0 l\u2019ennemi gr\u00e2ce \u00e0 son pouvoir de suggestion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8d85\u80fd\u529b\u65bd\u52a0\u6697\u793a\uff0c\n\u5c07\u81ea\u5df1\u7684\u7570\u5e38\u72c0\u614b\n\u8f49\u79fb\u7d66\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c \uc554\uc2dc\ub97c \uac78\uc5b4\uc11c\n\uc790\uc2e0\uc5d0\uac8c \uac78\ub824 \uc788\ub294 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\uc0c1\ub300\uc5d0\uac8c \uc62e\uae34\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\u3000\u3042\u3093\u3058\u3092\u3000\u304b\u3051\u3066\n\u3058\u3076\u3093\u306e\u3000\u3046\u3051\u3066\u3044\u308b\u3000\u3058\u3087\u3046\u305f\u3044\n\u3044\u3058\u3087\u3046\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\u3000\u6697\u793a\u3092\u3000\u304b\u3051\u3066\n\u81ea\u5206\u306e\u3000\u53d7\u3051\u3066\u3044\u308b\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u76f8\u624b\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic power of suggestion,\nthe user transfers its status conditions\nto the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Con la forza psichica e la suggestione, chi la usa\npu\u00f2 trasferire i suoi problemi di stato al Pok\u00e9mon\ncolpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa su poder mental para transferir al objetivo sus \nproblemas de estado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender nutzt seine Suggestivkr\u00e4fte, um eigene\nStatusprobleme auf das Ziel zu transferieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur transf\u00e8re ses probl\u00e8mes de statut \u00e0\nl\u2019ennemi gr\u00e2ce \u00e0 son pouvoir de suggestion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c \uc554\uc2dc\ub97c \uac78\uc5b4\uc11c\n\uc790\uc2e0\uc5d0\uac8c \uac78\ub824 \uc788\ub294 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\uc0c1\ub300\uc5d0\uac8c \uc62e\uae34\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\u3000\u3042\u3093\u3058\u3092\u3000\u304b\u3051\u3066\n\u3058\u3076\u3093\u306e\u3000\u3046\u3051\u3066\u3044\u308b\u3000\u3058\u3087\u3046\u305f\u3044\n\u3044\u3058\u3087\u3046\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u8d85\u80fd\u529b\u3067\u3000\u6697\u793a\u3092\u3000\u304b\u3051\u3066\n\u81ea\u5206\u306e\u3000\u53d7\u3051\u3066\u3044\u308b\u3000\u72b6\u614b\u7570\u5e38\u3092\n\u76f8\u624b\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic power of suggestion,\nthe user transfers its status conditions\nto the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Con la forza psichica e la suggestione, chi la usa\npu\u00f2 trasferire i suoi problemi di stato al Pok\u00e9mon\ncolpito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa su poder mental para transferir al objetivo sus\nproblemas de estado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender nutzt seine Suggestivkr\u00e4fte, um eigene\nStatusprobleme auf das Ziel zu transferieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur transf\u00e8re ses probl\u00e8mes de statut \u00e0\nl\u2019ennemi gr\u00e2ce \u00e0 son pouvoir de suggestion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ucd08\ub2a5\ub825\uc73c\ub85c \uc554\uc2dc\ub97c \uac78\uc5b4\uc11c\n\uc790\uc2e0\uc5d0\uac8c \uac78\ub824 \uc788\ub294 \uc0c1\ud0dc \uc774\uc0c1\uc744\n\uc0c1\ub300\uc5d0\uac8c \uc62e\uae34\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3087\u3046\u306e\u3046\u308a\u3087\u304f\u3067\u3000\u3042\u3093\u3058\u3092\u3000\u304b\u3051\u3066\n\u3058\u3076\u3093\u306e\u3000\u3046\u3051\u3066\u3044\u308b\u3000\u3058\u3087\u3046\u305f\u3044\n\u3044\u3058\u3087\u3046\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3046\u3064\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic power of suggestion,\nthe user transfers its status problems\nto the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic power of suggestion,\nthe user transfers its status problems\nto the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur transf\u00e8re ses probl\u00e8mes de\nstatut \u00e0 l\u2019ennemi gr\u00e2ce \u00e0 son pouvoir\nde suggestion.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic\npower of suggestion,\nthe user transfers\nits status problems\nto the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic\npower of suggestion,\nthe user transfers\nits status problems\nto the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "Using its psychic\npower of suggestion,\nthe user transfers\nits status problems\nto the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 375,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "psycho-shift",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7cbe\u795e\u8f6c\u79fb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b5\u30a4\u30b3\u30b7\u30d5\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Psycho Shift"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Psicotrasfer"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Psicocambio"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Psybann"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "\u00c9change Psy"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7cbe\u795e\u8f49\u79fb"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc0ac\uc774\ucf54\uc2dc\ud504\ud2b8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b5\u30a4\u30b3\u30b7\u30d5\u30c8"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": 90,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/16/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "psychic",
+        "url": "/api/v2/type/14/"
+    }
+}

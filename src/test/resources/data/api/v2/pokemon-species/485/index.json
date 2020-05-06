@@ -1,0 +1,694 @@
+{
+    "base_happiness": 100,
+    "capture_rate": 3,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/246/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u30de\u30b0\u30de\u306e\u3088\u3046\u306b\u3000\u71c3\u3048\u305f\u304e\u308b\n\u8840\u6db2\u304c\u3000\u4f53\u3092\u3000\u6d41\u308c\u3066\u3044\u308b\u3002\n\u706b\u5c71\u306e\u3000\u6d1e\u7a74\u306b\u3000\u751f\u606f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Boiling blood, like magma, circulates through its\nbody. It makes its dwelling place in volcanic caves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Nel suo corpo scorre sangue che ribolle come magma.\nVive in antri all\u2019interno di vulcani.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Su sangre fluye ardiendo como si fuera magma. Vive en\ncr\u00e1teres de volcanes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Das Blut, das durch seinen K\u00f6rper flie\u00dft, brodelt hei\u00df\nwie Magma. Es lebt in vulkanischen H\u00f6hlen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Le sang de ce Pok\u00e9mon des crat\u00e8res bouillonne dans\nson corps comme du magma.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\uadf8\ub9c8\ucc98\ub7fc \ud0c0\uc624\ub974\ub294\n\ud608\uc561\uc774 \ubab8\uc5d0\uc11c \ud750\ub974\uace0 \uc788\ub2e4.\n\ud654\uc0b0\uc758 \ub3d9\uad74\uc5d0 \uc11c\uc2dd\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30b0\u30de\u306e\u3000\u3088\u3046\u306b\u3000\u3082\u3048\u305f\u304e\u308b\n\u3051\u3064\u3048\u304d\u304c\u3000\u304b\u3089\u3060\u3092\u3000\u306a\u304c\u308c\u3066\u3044\u308b\u3002\n\u304b\u3056\u3093\u306e\u3000\u307b\u3089\u3042\u306a\u306b\u3000\u305b\u3044\u305d\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u706b\u5c71\u306e\u3000\u6d1e\u7a74\u306b\u3000\u751f\u606f\u3002\n\u5341\u5b57\u306e\u3000\u30c4\u30e1\u3092\u3000\u98df\u3044\u3053\u307e\u305b\u3066\n\u58c1\u3084\u3000\u5929\u4e95\u3092\u3000\u306f\u3044\u56de\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It dwells in volcanic caves. It digs in with its\ncross-shaped feet to crawl on ceilings and walls.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Vive nelle cavit\u00e0 dei vulcani. Scava con i suoi piedi a croce\nper scalare pareti e arrampicarsi sui soffitti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Habita cuevas volc\u00e1nicas. Cava con sus pies en forma de cruz\npara trepar por techos y paredes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt in vulkanischen H\u00f6hlen. Mit seinen kreuzf\u00f6rmigen\nKlauen kann es sogar an der Decke laufen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il hante les grottes volcaniques. Il rampe au mur et au plafond\ngr\u00e2ce \u00e0 ses pieds en forme de croix.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud654\uc0b0\uc758 \ub3d9\uad74\uc5d0\uc11c \uc11c\uc2dd\ud55c\ub2e4.\n\uc2ed\uc790\ud615\uc758 \ubc1c\ud1b1\uc744 \ubc15\uc544\uc11c\n\ubcbd\uc774\ub098 \ucc9c\uc7a5\uc744 \ub3cc\uc544\ub2e4\ub2cc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3056\u3093\u306e\u3000\u307b\u3089\u3042\u306a\u306b\u3000\u305b\u3044\u305d\u304f\u3002\n\u3058\u3085\u3046\u3058\u306e\u3000\u30c4\u30e1\u3092\u3000\u304f\u3044\u3053\u307e\u305b\u3066\n\u30ab\u30d9\u3084\u3000\u3066\u3093\u3058\u3087\u3046\u3092\u3000\u306f\u3044\u307e\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30b0\u30de\u306e\u3088\u3046\u306b\u3000\u71c3\u3048\u305f\u304e\u308b\n\u8840\u6db2\u304c\u3000\u4f53\u3092\u3000\u6d41\u308c\u3066\u3044\u308b\u3002\n\u706b\u5c71\u306e\u3000\u6d1e\u7a74\u306b\u3000\u751f\u606f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Boiling blood, like magma, circulates through its\nbody. It makes its dwelling place in volcanic caves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nel suo corpo scorre sangue che ribolle come magma.\nVive in antri all\u2019interno di vulcani.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Su sangre fluye ardiendo como si fuera magma.\nVive en cr\u00e1teres de volcanes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Das Blut, das durch seinen K\u00f6rper flie\u00dft, brodelt\nhei\u00df wie Magma. Es lebt in vulkanischen H\u00f6hlen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Le sang de ce Pok\u00e9mon des crat\u00e8res bouillonne dans\nson corps comme du magma.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\uadf8\ub9c8\ucc98\ub7fc \ud0c0\uc624\ub974\ub294\n\ud608\uc561\uc774 \ubab8\uc5d0\uc11c \ud750\ub974\uace0 \uc788\ub2e4.\n\ud654\uc0b0\uc758 \ub3d9\uad74\uc5d0 \uc11c\uc2dd\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30b0\u30de\u306e\u3000\u3088\u3046\u306b\u3000\u3082\u3048\u305f\u304e\u308b\n\u3051\u3064\u3048\u304d\u304c\u3000\u304b\u3089\u3060\u3092\u3000\u306a\u304c\u308c\u3066\u3044\u308b\u3002\n\u304b\u3056\u3093\u306e\u3000\u307b\u3089\u3042\u306a\u306b\u3000\u305b\u3044\u305d\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u706b\u5c71\u306e\u3000\u6d1e\u7a74\u306b\u3000\u751f\u606f\u3002\n\u5341\u5b57\u306e\u3000\u30c4\u30e1\u3092\u3000\u98df\u3044\u3053\u307e\u305b\u3066\n\u58c1\u3084\u3000\u5929\u4e95\u3092\u3000\u306f\u3044\u56de\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It dwells in volcanic caves. It digs in with its\ncross-shaped feet to crawl on ceilings and walls.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive nelle cavit\u00e0 dei vulcani. Scava con i suoi piedi\na croce per scalare pareti e arrampicarsi sui soffitti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Habita cuevas volc\u00e1nicas. Cava con sus pies en forma\nde cruz para trepar por techos y paredes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt in vulkanischen H\u00f6hlen. Mit seinen\nkreuzf\u00f6rmigen Klauen kann es sogar an der Decke\nlaufen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il hante les grottes volcaniques. Il rampe au mur et\nau plafond gr\u00e2ce \u00e0 ses pieds en forme de croix.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud654\uc0b0\uc758 \ub3d9\uad74\uc5d0\uc11c \uc11c\uc2dd\ud55c\ub2e4.\n\uc2ed\uc790\ud615\uc758 \ubc1c\ud1b1\uc744 \ubc15\uc544\uc11c\n\ubcbd\uc774\ub098 \ucc9c\uc7a5\uc744 \ub3cc\uc544\ub2e4\ub2cc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3056\u3093\u306e\u3000\u307b\u3089\u3042\u306a\u306b\u3000\u305b\u3044\u305d\u304f\u3002\n\u3058\u3085\u3046\u3058\u306e\u3000\u30c4\u30e1\u3092\u3000\u304f\u3044\u3053\u307e\u305b\u3066\n\u30ab\u30d9\u3084\u3000\u3066\u3093\u3058\u3087\u3046\u3092\u3000\u306f\u3044\u307e\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its body is made of rugged steel.\nHowever, it is partially melted in\nspots because of its own heat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Its body is made of rugged steel.\nHowever, it is partially melted in\nspots because of its own heat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Its body is made of rugged steel.\nHowever, it is partially melted in\nspots because of its own heat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Son corps est compos\u00e9 d\u2019acier brut\ndont certaines parties ont fondu\n\u00e0 cause de sa propre chaleur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Its body is made of rugged steel.\nHowever, it is partially melted in\nspots because of its own heat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Son corps est compos\u00e9 d\u2019acier brut\ndont certaines parties ont fondu\n\u00e0 cause de sa propre chaleur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Boiling blood, like magma, circulates\nthrough its body. It makes its dwelling\nplace in volcanic caves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Boiling blood, like magma, circulates\nthrough its body. It makes its dwelling\nplace in volcanic caves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Its body is made of rugged steel.\nHowever, it is partially melted in\nspots because of its own heat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It dwells in volcanic caves. It\ndigs in with its cross-shaped feet\nto crawl on ceilings and walls.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It dwells in volcanic caves. It\ndigs in with its cross-shaped feet\nto crawl on ceilings and walls.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u706b\u5c71\u53e3\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u304b\u3053\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Lava Dome Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Cratere",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Domo Lava",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Lavadom",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Caldeira",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u706b\u5c71\u53e3\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud654\uad6c\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u304b\u3053\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 10,
+    "id": 485,
+    "is_baby": false,
+    "name": "heatran",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5e2d\u591a\u84dd\u6069"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d2\u30fc\u30c9\u30e9\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Heatran"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Heatran"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Heatran"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Heatran"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Heatran"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5e2d\u591a\u85cd\u6069"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud788\ub4dc\ub7f0"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Heatran"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d2\u30fc\u30c9\u30e9\u30f3"
+        }
+    ],
+    "order": 486,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 90,
+            "rate": 3
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 485,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "heatran",
+                "url": "/api/v2/pokemon/485/"
+            }
+        }
+    ]
+}

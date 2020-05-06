@@ -1,0 +1,661 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/11/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Power is selected at random between 10 and 150, with an average of 71:\n\nMagnitude | Power | Chance\n--------: | ----: | -----:\n        4 |    10 |     5%\n        5 |    30 |    10%\n        6 |    50 |    20%\n        7 |    70 |    30%\n        8 |    90 |    20%\n        9 |   110 |    10%\n       10 |   150 |     5%\n\nThis move has double power against Pok\u00e9mon currently underground due to dig.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Power varies randomly from 10 to 150."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6643\u52a8\u5730\u9762\uff0c\u653b\u51fb\u81ea\u5df1\n\u5468\u56f4\u6240\u6709\u7684\u5b9d\u53ef\u68a6\u3002\n\u62db\u5f0f\u7684\u5a01\u529b\u4f1a\u6709\u5404\u79cd\u53d8\u5316\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u3092\u3000\u63fa\u3089\u3057\u3066\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks everything around it with a\nground-shaking quake. Its power varies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa scatena un terremoto d\u2019intensit\u00e0\nvariabile che danneggia i Pok\u00e9mon che ha intorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Sacudida s\u00edsmica de intensidad variable que afecta \na todos los Pok\u00e9mon a su alrededor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Erdbebenartiger Angriff von zuf\u00e4lliger St\u00e4rke gegen\nandere Pok\u00e9mon in der Umgebung des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Provoque un tremblement de terre d\u2019intensit\u00e9\nvariable qui affecte tous les Pok\u00e9mon alentour.\nL\u2019efficacit\u00e9 varie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6643\u52d5\u5730\u9762\uff0c\u653b\u64ca\u81ea\u5df1\n\u5468\u570d\u6240\u6709\u7684\u5bf6\u53ef\u5922\u3002\n\u62db\u5f0f\u7684\u5a01\u529b\u6709\u591a\u7a2e\u8b8a\u5316\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc744 \ud754\ub4e4\uc5b4\uc11c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc5ec\ub7ec\ubaa8\ub85c \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u3092\u3000\u3086\u3089\u3057\u3066\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6643\u52a8\u5730\u9762\uff0c\u653b\u51fb\u81ea\u5df1\n\u5468\u56f4\u6240\u6709\u7684\u5b9d\u53ef\u68a6\u3002\n\u62db\u5f0f\u7684\u5a01\u529b\u4f1a\u6709\u5404\u79cd\u53d8\u5316\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u3092\u3000\u63fa\u3089\u3057\u3066\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks everything around it with a\nground-shaking quake. Its power varies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa scatena un terremoto d\u2019intensit\u00e0\nvariabile che danneggia i Pok\u00e9mon che ha intorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Sacudida s\u00edsmica de intensidad variable que afecta \na todos los Pok\u00e9mon a su alrededor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Erdbebenartiger Angriff von zuf\u00e4lliger St\u00e4rke gegen\nandere Pok\u00e9mon in der Umgebung des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Provoque un tremblement de terre d\u2019intensit\u00e9\nvariable qui affecte tous les Pok\u00e9mon alentour.\nL\u2019efficacit\u00e9 varie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6643\u52d5\u5730\u9762\uff0c\u653b\u64ca\u81ea\u5df1\n\u5468\u570d\u6240\u6709\u7684\u5bf6\u53ef\u5922\u3002\n\u62db\u5f0f\u7684\u5a01\u529b\u6709\u591a\u7a2e\u8b8a\u5316\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc744 \ud754\ub4e4\uc5b4\uc11c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc5ec\ub7ec\ubaa8\ub85c \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u3092\u3000\u3086\u3089\u3057\u3066\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u3092\u3000\u63fa\u3089\u3057\u3066\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks everything around it\nwith a ground-shaking quake.\nIts power varies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa scatena un terremoto d\u2019intensit\u00e0\nvariabile che danneggia i Pok\u00e9mon che ha intorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Sacudida s\u00edsmica de intensidad variable que afecta \na todos los Pok\u00e9mon a su alrededor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Erdbebenartiger Angriff von zuf\u00e4lliger St\u00e4rke\ngegen andere Pok\u00e9mon in der Umgebung\ndes Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Provoque un tremblement de terre d\u2019intensit\u00e9\nvariable qui affecte tous les Pok\u00e9mon alentour.\nL\u2019efficacit\u00e9 varie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc744 \ud754\ub4e4\uc5b4\uc11c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc5ec\ub7ec\ubaa8\ub85c \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u3092\u3000\u3086\u3089\u3057\u3066\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u9762\u3092\u3000\u63fa\u3089\u3057\u3066\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6280\u306e\u3000\u5a01\u529b\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks everything around it\nwith a ground-shaking quake.\nIts power varies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa scatena un terremoto d\u2019intensit\u00e0\nvariabile che danneggia i Pok\u00e9mon che ha intorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Sacudida s\u00edsmica de intensidad variable que afecta\na todos los Pok\u00e9mon a su alrededor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Erdbebenartiger Angriff von zuf\u00e4lliger St\u00e4rke gegen\nandere Pok\u00e9mon in der Umgebung des Anwenders.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Provoque un tremblement de terre d\u2019intensit\u00e9\nvariable qui affecte tous les Pok\u00e9mon alentour.\nL\u2019efficacit\u00e9 varie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc744 \ud754\ub4e4\uc5b4\uc11c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc5ec\ub7ec\ubaa8\ub85c \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3081\u3093\u3092\u3000\u3086\u3089\u3057\u3066\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\u3044\u308d\u3044\u308d\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a ground-shaking quake\naffecting everyone around the user.\nIts power varies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a ground-shaking quake\naffecting everyone around the user.\nIts power varies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un tremblement de terre d\u2019intensit\u00e9\nvariable qui affecte tous les Pok\u00e9mon\nalentour. L\u2019efficacit\u00e9 varie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a\nground-shaking quake\naffecting everyone in\nbattle. Its power\nvaries.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a\nground-shaking quake\naffecting everyone in\nbattle. Its power\nvaries.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user looses a\nground-shaking quake\naffecting everyone in\nbattle. Its power\nvaries.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A ground-shaking\nattack against all\nstanding POK\u00e9MON.\nIts power varies.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A ground-shaking attack\nof random intensity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A ground-shaking attack\nof random intensity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A ground attack\nwith random power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A ground attack\nwith random power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 222,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "magnitude",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9707\u7ea7"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30de\u30b0\u30cb\u30c1\u30e5\u30fc\u30c9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Magnitude"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Magnitudo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Magnitud"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Intensit\u00e4t"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ampleur"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9707\u7d1a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9e4\uadf8\ub2c8\ud29c\ub4dc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30de\u30b0\u30cb\u30c1\u30e5\u30fc\u30c9"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/18/"
+    },
+    "target": {
+        "name": "all-other-pokemon",
+        "url": "/api/v2/move-target/9/"
+    },
+    "type": {
+        "name": "ground",
+        "url": "/api/v2/type/5/"
+    }
+}

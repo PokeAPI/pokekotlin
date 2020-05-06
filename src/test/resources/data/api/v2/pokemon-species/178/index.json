@@ -1,0 +1,926 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 75,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "flying",
+            "url": "/api/v2/egg-group/4/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/88/"
+    },
+    "evolves_from_species": {
+        "name": "natu",
+        "url": "/api/v2/pokemon-species/177/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u636e\u8bf4\u8be5\u5b9d\u53ef\u68a6\u867d\u7136\u6709\u7740\n\u80fd\u9884\u77e5\u672a\u6765\u7684\u529b\u91cf\uff0c\n\u4f46\u5374\u6ca1\u6709\u80fd\u6539\u53d8\u672a\u6765\u7684\u529b\u91cf\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u672a\u6765\u3092\u3000\u4e88\u77e5\u3059\u308b\u3000\u529b\u304c\u3000\u3042\u308b\u304c\n\u672a\u6765\u3092\u3000\u5909\u3048\u308b\u307b\u3069\u306e\u3000\u529b\u306f\n\u6301\u3063\u3066\u3044\u306a\u3044\u3068\u3000\u3044\u308f\u308c\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It\u2019s said that while this Pok\u00e9mon has the power\nto predict the future, it\u2019s not powerful enough\nto change the future it sees.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si dice che questo Pok\u00e9mon abbia il potere di\nprevedere il futuro, ma non di cambiarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Seg\u00fan se cree, este Pok\u00e9mon posee el don de la\nclarividencia, pero carece del poder para alterar\nel futuro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon kann zwar angeblich die\nZukunft voraussehen, aber seine Kr\u00e4fte\nreichen nicht aus, um diese auch zu \u00e4ndern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon aurait le pouvoir de voir l\u2019avenir.\nIl n\u2019a malheureusement pas celui de le changer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u64da\u8aaa\u9019\u7a2e\u5bf6\u53ef\u5922\u64c1\u6709\n\u80fd\u5920\u9810\u77e5\u672a\u4f86\u7684\u80fd\u529b\uff0c\n\u4f46\u662f\u6c92\u6709\u8db3\u4ee5\u6539\u8b8a\u672a\u4f86\u7684\u529b\u91cf\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ubbf8\ub798\ub97c \uc608\uc9c0\ud558\ub294 \ud798\uc774 \uc788\uc9c0\ub9cc,\n\ubbf8\ub798\ub97c \ubc14\uafc0 \uc815\ub3c4\uc758 \ud798\uc740\n\uc5c6\ub2e4\uace0 \uc804\ud574\uc9c0\ub294 \ud3ec\ucf13\ubaac.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u3089\u3044\u3092\u3000\u3088\u3061\u3059\u308b\u3000\u3061\u304b\u3089\u304c\u3000\u3042\u308b\u304c\n\u307f\u3089\u3044\u3092\u3000\u304b\u3048\u308b\u307b\u3069\u306e\u3000\u3061\u304b\u3089\u306f\n\u3082\u3063\u3066\u3044\u306a\u3044\u3068\u3000\u3044\u308f\u308c\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "1\u65e5\u4e2d\u3000\u592a\u967d\u3092\u3000\u898b\u3064\u3081\u3066\u3000\u52d5\u304b\u306a\u3044\u3002\n\u672a\u6765\u3092\u3000\u898b\u901a\u3059\u3000\u529b\u3092\u3000\u6301\u3064\u3068\u3000\u4fe1\u3058\u3089\u308c\n\u8056\u306a\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u3057\u3066\u3000\u796d\u308b\u3000\u4eba\u3082\u3000\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Xatu is known to stand motionless while staring at the sun all\nday long. Some people revere it as a mystical Pok\u00e9mon out of\ntheir belief that Xatu is in possession of the power to see into\nthe future.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Xatu \u00e8 noto per la sua immobilit\u00e0 mentre guarda il sole stando\nin piedi tutto il giorno. Alcuni lo considerano un Pok\u00e9mon\nmistico, convinti che Xatu possegga il potere di prevedere\nil futuro.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Xatu es conocido por el h\u00e1bito que tiene de quedarse todo\nel d\u00eda contemplando el sol. Hay mucha gente que lo venera\ncomo Pok\u00e9mon m\u00edstico, pues piensan que Xatu tiene el poder\nde ver el futuro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Xatu steht den ganzen Tag bewegungslos herum und starrt\ndie Sonne an. Einige Menschen verehren es als ein mystisches\nPok\u00e9mon. Sie glauben, dass Xatu in die Zukunft sehen k\u00f6nne.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "On sait que Xatu se tient toute la journ\u00e9e debout,\nles yeux perdus vers l\u2019horizon. Certaines personnes\nle v\u00e9n\u00e8rent comme un Pok\u00e9mon mystique, persuad\u00e9es\nque Xatu a le pouvoir de pr\u00e9dire l\u2019avenir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc628\uc885\uc77c \ud0dc\uc591\uc744 \ubc14\ub77c\ubcf4\uba70 \uc6c0\uc9c1\uc774\uc9c0 \uc54a\ub294\ub2e4.\n\ubbf8\ub798\ub97c \ub0b4\ub2e4\ubcf4\ub294 \ud798\uc744 \uc9c0\ub154\ub2e4\uace0 \uc5ec\uaca8\uc838\n\uc131\uc2a4\ub7ec\uc6b4 \ud3ec\ucf13\ubaac\uc73c\ub85c \ubaa8\uc2dc\ub294 \uc0ac\ub78c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u306b\u3061\u3058\u3085\u3046\u3000\u305f\u3044\u3088\u3046\u3092\u3000\u202f\u3064\u3081\u3066\u3000\u3046\u3054\u304b\u306a\u3044\u3002\n\u202f\u3089\u3044\u3092\u3000\u202f\u3068\u304a\u3059\u3000\u3061\u304b\u3089\u3092\u3000\u3082\u3064\u3068\u3000\u3057\u3093\u3058\u3089\u308c\n\u305b\u3044\u306a\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3068\u3057\u3066\u3000\u307e\u3064\u308b\u3000\u3072\u3068\u3082\u3000\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4e00\u65e5\u4e2d\u3000\u30cd\u30a4\u30c6\u30a3\u30aa\u304c\u3000\u3058\u3063\u3068\u3057\u3066\u3044\u308b\u306e\u306f\n\u672a\u6765\u4e88\u77e5\u3067\u3000\u308f\u304b\u3063\u305f\u3000\u6050\u308d\u3057\u3044\u3000\u51fa\u6765\u4e8b\u306b\n\u304a\u3073\u3048\u3066\u3044\u308b\u304b\u3089\u3060\u3068\u3000\u4fe1\u3058\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Xatu stands rooted and still in one spot all day long.\nPeople believe that this Pok\u00e9mon does so out of fear of the\nterrible things it has foreseen in the future.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Xatu rimane in piedi immobile nello stesso punto\ntutto il giorno. Qualcuno crede che si comporti cos\u00ec\nper gli eventi terribili che ha previsto per il futuro.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Xatu permanece de pie inm\u00f3vil y tranquilo en el mismo sitio\ndurante todo el d\u00eda. Se cree que no se mueve por temor a lo\nque ha visto que ocurrir\u00e1 en el futuro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Xatu bleibt den ganzen Tag an ein und demselben Ort\nwie angewurzelt stehen. Die Menschen glauben, dass es\ndies aus Angst vor den Dingen tut, die es f\u00fcr die Zukunft\nvorausgesehen hat.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Xatu se tient debout et immobile toute la journ\u00e9e.\nCertains pensent que ce Pok\u00e9mon a adopt\u00e9 cette\nposition \u00e0 cause de la terreur qu\u2019il a ressentie en\npr\u00e9voyant l\u2019avenir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc628\uc885\uc77c \ub124\uc774\ud2f0\uc624\uac00 \uaf3c\uc9dd\ud558\uc9c0 \uc54a\ub294 \uac83\uc740\n\ubbf8\ub798\uc608\uc9c0\ub85c \uc54c\uac8c \ub41c \ubb34\uc11c\uc6b4 \uc0ac\uac74\uc5d0\n\uac81\uc744 \uba39\uace0 \uc788\uae30 \ub54c\ubb38\uc774\ub77c\uace0 \ubbff\uc5b4\uc9c0\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3061\u306b\u3061\u3058\u3085\u3046\u3000\u30cd\u30a4\u30c6\u30a3\u30aa\u304c\u3000\u3058\u3063\u3068\u3057\u3066\u3044\u308b\u306e\u306f\n\u202f\u3089\u3044\u3088\u3061\u3067\u3000\u308f\u304b\u3063\u305f\u3000\u304a\u305d\u308d\u3057\u3044\u3000\u3067\u304d\u3054\u3068\u306b\n\u304a\u3073\u3048\u3066\u3044\u308b\u304b\u3089\u3060\u3068\u3000\u3057\u3093\u3058\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u307b\u3068\u3093\u3069\u3000\u52d5\u304b\u305a\u3000\u9cf4\u304d\u3082\u305b\u305a\n\u3058\u3063\u3068\u3059\u308b\u306e\u306f\u3000\u904e\u53bb\u3068\u3000\u672a\u6765\u3092\n\u898b\u3066\u3044\u308b\u304b\u3089\u3060\u3068\u3000\u4fe1\u3058\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "They say that it stays still and quiet because it is\nseeing both the past and future at the same time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Si dice che sia cos\u00ec quieto perch\u00e9 sta osservando\npassato e futuro allo stesso tempo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Dicen que se mantiene quieto y en silencio porque\nobserva el pasado y el futuro al mismo tiempo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Man sagt, es sei so still und in sich gekehrt, weil es\ndie Zukunft und die Vergangenheit parallel sieht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "On dit qu\u2019il est calme et tranquille car il peut voir en\npermanence le pass\u00e9 et le futur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uac70\uc758 \uc6c0\uc9c1\uc774\uac70\ub098 \uc6b8\uc9c0 \uc54a\uace0\n\uac00\ub9cc\ud788 \uc788\ub294 \uac83\uc740 \uacfc\uac70\uc640 \ubbf8\ub798\ub97c\n\ubcf4\uace0 \uc788\uae30 \ub54c\ubb38\uc774\ub77c\uace0 \uc5ec\uaca8\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u307b\u3068\u3093\u3069\u3000\u3046\u3054\u304b\u305a\u3000\u306a\u304d\u3082\u305b\u305a\n\u3058\u3063\u3068\u3059\u308b\u306e\u306f\u3000\u304b\u3053\u3068\u3000\u307f\u3089\u3044\u3092\n\u307f\u3066\u3044\u308b\u304b\u3089\u3060\u3068\u3000\u3057\u3093\u3058\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u671d\u65b9\u3000\u6607\u308b\u3000\u592a\u967d\u3092\n\u3058\u3063\u3068\u3000\u898b\u3064\u3081\u3000\u7948\u308a\u3092\u3000\u3055\u3055\u3052\u308b\u3068\n\u307b\u3068\u3093\u3069\u3000\u52d5\u304b\u305a\u3000\uff11\u65e5\u3092\u7d42\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Once it begins to meditate at sunrise, the entire day\nwill pass before it will move again.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Quando, all\u2019alba, inizia a meditare, riesce a rimanere\nimmobile fino alla fine del giorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Cuando se pone a meditar al amanecer, pierde la\nnoci\u00f3n del tiempo. Puede pasarse as\u00ed todo el d\u00eda.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Wenn es bei Sonnenaufgang anf\u00e4ngt zu meditieren,\nvergeht der ganze Tag, ehe es sich wieder bewegt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il peut rester \u00e0 m\u00e9diter sans bouger, du lever du\nsoleil jusqu\u2019\u00e0 la tomb\u00e9e de la nuit.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc120\uba85\ud558\uac8c \ub5a0\uc624\ub974\ub294 \ud0dc\uc591\uc744\n\uc870\uc6a9\ud788 \ubc14\ub77c\ubcf4\uba70 \uae30\ub3c4\ub97c \uc62c\ub9ac\uba74\n\uac70\uc758 \uc6c0\uc9c1\uc774\uc9c0 \uc54a\uace0 \ud558\ub8e8\uac00 \uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3055\u304c\u305f\u3000\u306e\u307c\u308b\u3000\u305f\u3044\u3088\u3046\u3092\n\u3058\u3063\u3068\u3000\u307f\u3064\u3081\u3000\u3044\u306e\u308a\u3092\u3000\u3055\u3055\u3052\u308b\u3068\n\u307b\u3068\u3093\u3069\u3000\u3046\u3054\u304b\u305a\u3000\uff11\u306b\u3061\u3092\u304a\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "This odd Pok\u00e9mon can see both\nthe past and the future. It eyes\nthe sun\u2019s movement all day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "This odd Pok\u00e9mon can see both\nthe past and the future. It eyes\nthe sun\u2019s movement all day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "This odd Pok\u00e9mon can see both\nthe past and the future. It eyes\nthe sun\u2019s movement all day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Cet \u00e9trange Pok\u00e9mon peut voir\nl\u2019avenir et le pass\u00e9. Il guette\nsans cesse la course du soleil.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "This odd Pok\u00e9mon can see both\nthe past and the future. It eyes\nthe sun\u2019s movement all day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Cet \u00e9trange Pok\u00e9mon peut voir\nl\u2019avenir et le pass\u00e9. Il guette\nsans cesse la course du soleil.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "In South America, it is said that\nits right eye sees the future and its\nleft eye views the past.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "They say that it stays still and\nquiet because it is seeing both the\npast and future at the same time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "This odd Pok\u00e9mon can see both\nthe past and the future. It eyes\nthe sun\u2019s movement all day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "This odd Pok\u00e9mon can see both\nthe past and the future. It eyes\nthe sun\u2019s movement all day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "This odd Pok\u00e9mon can see both\nthe past and the future. It eyes\nthe sun\u2019s movement all day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "They say that it stays still and quiet\nbecause it is seeing both the past and\nfuture at the same time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "In South America, it is said that its right\neye sees the future and its left eye\nviews the past.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It has the enigmatic power of foreseeing\nthe future. Some people in different lands\nhave long believed that XATU are\nemissaries from another world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "XATU is known to stand motionless while\nstaring at the sun all day long.\nSome people revere it as a mystical\fPOK\u00e9MON out of their belief that XATU\nis in possession of the power to see\ninto the future.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "XATU stands rooted and still in one\nspot all day long. People believe that\nthis POK\u00e9MON does so out of fear of\fthe terrible things it has foreseen in\nthe future.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "Once it begins to\nmeditate at sun\u00ad\nrise, the entire\fday will pass\nbefore it will\nmove again.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "In South America,\nit is said that\nits right eye sees\fthe future and its\nleft eye views the\npast.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "They say that it\nstays still and\nquiet because it\fis seeing both the\npast and future at\nthe same time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u795e\u79d8\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u305b\u3044\u308c\u3044\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Mystic Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Magico",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon M\u00edstico",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Mystik",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Mystique",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u795e\u79d8\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc815\ub839\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u305b\u3044\u308c\u3044\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 178,
+    "is_baby": false,
+    "name": "xatu",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5929\u7136\u9e1f"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30cd\u30a4\u30c6\u30a3\u30aa"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Xatu"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Xatu"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Xatu"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Xatu"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Xatu"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5929\u7136\u9ce5"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub124\uc774\ud2f0\uc624"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Natio"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30cd\u30a4\u30c6\u30a3\u30aa"
+        }
+    ],
+    "order": 207,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 170,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 162,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 163,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 160,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 178,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "wings",
+        "url": "/api/v2/pokemon-shape/9/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "xatu",
+                "url": "/api/v2/pokemon/178/"
+            }
+        }
+    ]
+}

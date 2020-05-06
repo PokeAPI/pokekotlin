@@ -1,0 +1,652 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/28/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Removes major status effects and confusion from every Pok\u00e9mon in the user's party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Cures the entire party of major status effects."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8ba9\u540c\u4f34\u95fb\u6c81\u4eba\u5fc3\u813e\u7684\u9999\u6c14\uff0c\n\u4ece\u800c\u6cbb\u6108\u6211\u65b9\u5168\u5458\u7684\u5f02\u5e38\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5fc3\u5730\u597d\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u9999\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u5473\u65b9\u5168\u54e1\u306e\u3000\u72b6\u614b\u7570\u5e38\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a soothing scent that heals all\nstatus conditions affecting the user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia un dolce profumo che cura\ntutti i problemi di stato propri e degli alleati.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cura todos los problemas de estado del equipo \ncon un suave aroma.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Heilt alle Statusprobleme des Teams mit\nberuhigendem Duft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re un parfum apaisant qui gu\u00e9rit\ntous les probl\u00e8mes de statut de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u91cb\u653e\u51fa\u5b9c\u4eba\u7684\u9999\u6c23\uff0c\n\u6cbb\u7652\u6211\u65b9\u5168\u9ad4\u7684\u7570\u5e38\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\ubd84 \uc88b\uc740 \ud3c9\uc628\ud55c \ud5a5\uae30\ub97c \ub9e1\uac8c \ud558\uc5ec\n\uac19\uc740 \ud3b8 \ubaa8\ub450\uc758 \uc0c1\ud0dc \uc774\uc0c1\uc744 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3053\u3061\u3088\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u304b\u304a\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u307f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u306e\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8ba9\u540c\u4f34\u95fb\u6c81\u4eba\u5fc3\u813e\u7684\u9999\u6c14\uff0c\n\u4ece\u800c\u6cbb\u6108\u6211\u65b9\u5168\u5458\u7684\u5f02\u5e38\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5fc3\u5730\u597d\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u9999\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u5473\u65b9\u5168\u54e1\u306e\u3000\u72b6\u614b\u7570\u5e38\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a soothing scent that heals all\nstatus conditions affecting the user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia un dolce profumo che cura\ntutti i problemi di stato propri e degli alleati.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cura todos los problemas de estado del equipo \ncon un suave aroma.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Heilt alle Statusprobleme des Teams mit\nberuhigendem Duft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re un parfum apaisant qui gu\u00e9rit\ntous les probl\u00e8mes de statut de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u91cb\u653e\u51fa\u5b9c\u4eba\u7684\u9999\u6c23\uff0c\n\u6cbb\u7652\u6211\u65b9\u5168\u9ad4\u7684\u7570\u5e38\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\ubd84 \uc88b\uc740 \ud3c9\uc628\ud55c \ud5a5\uae30\ub97c \ub9e1\uac8c \ud558\uc5ec\n\uac19\uc740 \ud3b8 \ubaa8\ub450\uc758 \uc0c1\ud0dc \uc774\uc0c1\uc744 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3053\u3061\u3088\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u304b\u304a\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u307f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u306e\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5fc3\u5730\u597d\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u9999\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u5473\u65b9\u5168\u54e1\u306e\u3000\u72b6\u614b\u7570\u5e38\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a soothing scent that\nheals all status conditions affecting\nthe user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia un dolce profumo che cura\ntutti i problemi di stato propri e degli alleati.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cura todos los problemas de estado del equipo \ncon un suave aroma.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Heilt alle Statusprobleme des Teams\nmit beruhigendem Duft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re un parfum apaisant qui gu\u00e9rit\ntous les probl\u00e8mes de statut de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\ubd84 \uc88b\uc740 \ud3c9\uc628\ud55c \ud5a5\uae30\ub97c \ub9e1\uac8c \ud558\uc5ec\n\uac19\uc740 \ud3b8 \ubaa8\ub450\uc758 \uc0c1\ud0dc \uc774\uc0c1\uc744 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3053\u3061\u3088\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u304b\u304a\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u202f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u306e\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5fc3\u5730\u597d\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u9999\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u5473\u65b9\u5168\u54e1\u306e\u3000\u72b6\u614b\u7570\u5e38\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a soothing scent that\nheals all status conditions affecting\nthe user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia un dolce profumo che cura\ntutti i problemi di stato propri e degli alleati.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cura todos los problemas de estado del equipo\ncon un suave aroma.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Heilt alle Statusprobleme des Teams\nmit beruhigendem Duft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re un parfum apaisant qui gu\u00e9rit\ntous les probl\u00e8mes de statut de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\ubd84 \uc88b\uc740 \ud3c9\uc628\ud55c \ud5a5\uae30\ub97c \ub9e1\uac8c \ud558\uc5ec\n\uac19\uc740 \ud3b8 \ubaa8\ub450\uc758 \uc0c1\ud0dc \uc774\uc0c1\uc744 \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3053\u3061\u3088\u3044\u3000\u3084\u3059\u3089\u3050\u3000\u304b\u304a\u308a\u3092\u3000\u304b\u304c\u305b\u3066\n\u307f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u306e\n\u3058\u3087\u3046\u305f\u3044\u3000\u3044\u3058\u3087\u3046\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a soothing scent that\nheals all status problems affecting\nthe user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a soothing scent that\nheals all status problems affecting\nthe user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re un parfum apaisant\nqui gu\u00e9rit tous les probl\u00e8mes de\nstatut de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a\nsoothing scent that\nheals all status\nproblems affecting\nthe user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a\nsoothing scent that\nheals all status\nproblems affecting\nthe user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user releases a\nsoothing scent that\nheals all status\nproblems affecting\nthe user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A soothing scent is\nreleased to heal\nall status problems\nin the user\u2019s party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Heals all status problems\nwith a soothing scent.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Heals all status problems\nwith a soothing scent.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 312,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "aromatherapy",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u82b3\u9999\u6cbb\u7597"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a2\u30ed\u30de\u30bb\u30e9\u30d4\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Aromatherapy"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Aromaterapia"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Aromaterapia"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Aromakur"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Aromath\u00e9rapie"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u82b3\u9999\u6cbb\u7642"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc544\ub85c\ub9c8\ud14c\ub77c\ud53c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a2\u30ed\u30de\u30bb\u30e9\u30d4\u30fc"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": 4,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/8/"
+    },
+    "target": {
+        "name": "user-and-allies",
+        "url": "/api/v2/move-target/13/"
+    },
+    "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+    }
+}

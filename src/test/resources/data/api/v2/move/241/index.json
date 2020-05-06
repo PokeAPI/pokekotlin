@@ -1,0 +1,888 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "fire-punch",
+                    "url": "/api/v2/move/7/"
+                },
+                {
+                    "name": "rolling-kick",
+                    "url": "/api/v2/move/27/"
+                },
+                {
+                    "name": "ember",
+                    "url": "/api/v2/move/52/"
+                },
+                {
+                    "name": "flamethrower",
+                    "url": "/api/v2/move/53/"
+                },
+                {
+                    "name": "solar-beam",
+                    "url": "/api/v2/move/76/"
+                },
+                {
+                    "name": "fire-spin",
+                    "url": "/api/v2/move/83/"
+                },
+                {
+                    "name": "fire-blast",
+                    "url": "/api/v2/move/126/"
+                },
+                {
+                    "name": "flame-wheel",
+                    "url": "/api/v2/move/172/"
+                },
+                {
+                    "name": "sacred-fire",
+                    "url": "/api/v2/move/221/"
+                },
+                {
+                    "name": "morning-sun",
+                    "url": "/api/v2/move/234/"
+                },
+                {
+                    "name": "synthesis",
+                    "url": "/api/v2/move/235/"
+                },
+                {
+                    "name": "moonlight",
+                    "url": "/api/v2/move/236/"
+                },
+                {
+                    "name": "heat-wave",
+                    "url": "/api/v2/move/257/"
+                },
+                {
+                    "name": "eruption",
+                    "url": "/api/v2/move/284/"
+                },
+                {
+                    "name": "blaze-kick",
+                    "url": "/api/v2/move/299/"
+                },
+                {
+                    "name": "blast-burn",
+                    "url": "/api/v2/move/307/"
+                },
+                {
+                    "name": "weather-ball",
+                    "url": "/api/v2/move/311/"
+                },
+                {
+                    "name": "overheat",
+                    "url": "/api/v2/move/315/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/11/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Changes the weather to sunshine for five turns, during which fire moves inflict 50% extra damage, and water moves inflict half damage.\n\nIf the user is holding heat rock, this effect lasts for eight turns.\n\nPok\u00e9mon cannot become frozen.\n\nthunder has 50% accuracy.\n\nsolar beam skips its charge turn.\n\nmoonlight, morning sun, and synthesis heal 2/3 of the user's max HP.\n\nPok\u00e9mon with chlorophyll have doubled original Speed.\n\nPok\u00e9mon with forecast become fire.\n\nPok\u00e9mon with leaf guard are not affected by major status effects.\n\nPok\u00e9mon with flower gift change form; every Pok\u00e9mon on their side of the field have their original Attack and Special Attack increased by 50%.\n\nPok\u00e9mon with dry skin lose 1/8 max HP at the end of each turn.\n\nPok\u00e9mon with solar power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Changes the weather to sunny for five turns."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\u9633\u5149\u53d8\u5f97\u5f3a\u70c8\uff0c\n\u4ece\u800c\u63d0\u9ad8\u706b\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\u3002\n\u6c34\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\u5219\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u65e5\u5dee\u3057\u3092\u3000\u5f37\u304f\u3057\u3066\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002\n\u307f\u305a\u30bf\u30a4\u30d7\u306e\u3000\u5a01\u529b\u306f\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies the sun for five turns, powering\nup Fire-type moves. It lowers the power of\nWater-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intensifica i raggi solari per cinque\nturni, potenziando le mosse di tipo Fuoco e\nriducendo la potenza di quelle di tipo Acqua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Hace que se intensifique el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de tipo\nFuego y debilita los de tipo Agua.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Die Sonne brennt unbarmherzig f\u00fcnf Runden lang.\nDadurch werden Attacken vom Typ Feuer verst\u00e4rkt,\nw\u00e4hrend Wasser-Attacken abgeschw\u00e4cht werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Fait briller le soleil pendant cinq tours, augmentant\nla puissance des capacit\u00e9s de type Feu et baissant\ncelle des capacit\u00e9s de type Eau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u967d\u5149\u589e\u5f37\uff0c\u5728\uff15\u56de\u5408\u5167\n\u63d0\u9ad8\u706b\u5c6c\u6027\u62db\u5f0f\u7684\u5a01\u529b\u3002\n\u6c34\u5c6c\u6027\u62db\u5f0f\u7684\u5a01\u529b\u6703\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ud587\uc0b4\uc744 \uac15\ud558\uac8c \ud574\uc11c\n\ubd88\uaf43\ud0c0\uc785 \uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.\n\ubb3c\ud0c0\uc785\uc758 \uc704\ub825\uc740 \ub5a8\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3072\u3056\u3057\u3092\u3000\u3064\u3088\u304f\u3057\u3066\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002\n\u307f\u305a\u30bf\u30a4\u30d7\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\uff15\u56de\u5408\u5185\u9633\u5149\u53d8\u5f97\u5f3a\u70c8\uff0c\n\u4ece\u800c\u63d0\u9ad8\u706b\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\u3002\n\u6c34\u5c5e\u6027\u7684\u62db\u5f0f\u5a01\u529b\u5219\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\u3000\u65e5\u5dee\u3057\u3092\u3000\u5f37\u304f\u3057\u3066\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002\n\u307f\u305a\u30bf\u30a4\u30d7\u306e\u3000\u5a01\u529b\u306f\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies the sun for five turns, powering\nup Fire-type moves. It lowers the power of\nWater-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intensifica i raggi solari per cinque\nturni, potenziando le mosse di tipo Fuoco e\nriducendo la potenza di quelle di tipo Acqua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Hace que se intensifique el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de tipo\nFuego y debilita los de tipo Agua.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Die Sonne brennt unbarmherzig f\u00fcnf Runden lang.\nDadurch werden Attacken vom Typ Feuer verst\u00e4rkt,\nw\u00e4hrend Wasser-Attacken abgeschw\u00e4cht werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Fait briller le soleil pendant cinq tours, augmentant\nla puissance des capacit\u00e9s de type Feu et baissant\ncelle des capacit\u00e9s de type Eau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u967d\u5149\u589e\u5f37\uff0c\u5728\uff15\u56de\u5408\u5167\n\u63d0\u9ad8\u706b\u5c6c\u6027\u62db\u5f0f\u7684\u5a01\u529b\u3002\n\u6c34\u5c6c\u6027\u62db\u5f0f\u7684\u5a01\u529b\u6703\u964d\u4f4e\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ud587\uc0b4\uc744 \uac15\ud558\uac8c \ud574\uc11c\n\ubd88\uaf43\ud0c0\uc785 \uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.\n\ubb3c\ud0c0\uc785\uc758 \uc704\ub825\uc740 \ub5a8\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3072\u3056\u3057\u3092\u3000\u3064\u3088\u304f\u3057\u3066\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002\n\u307f\u305a\u30bf\u30a4\u30d7\u306e\u3000\u3044\u308a\u3087\u304f\u306f\u3000\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u65e5\u5dee\u3057\u3092\n\u5f37\u304f\u3057\u3066\u3000\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies the sun\nfor five turns, powering up\nFire-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intensifica i raggi solari per\ncinque turni, potenziando le mosse di tipo Fuoco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa intensifica el efecto del sol durante \ncinco turnos, lo que potencia los movimientos de \ntipo Fuego.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Die Sonne brennt unbarmherzig f\u00fcnf Runden lang.\nDadurch werden Attacken vom Typ Feuer verst\u00e4rkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Fait briller le soleil pendant cinq tours, augmentant\nla puissance des capacit\u00e9s de type Feu.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ud587\uc0b4\uc744 \uac15\ud558\uac8c \ud574\uc11c\n\ubd88\uaf43\ud0c0\uc785 \uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3072\u3056\u3057\u3092\n\u3064\u3088\u304f\u3057\u3066\u3000\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u65e5\u5dee\u3057\u3092\n\u5f37\u304f\u3057\u3066\u3000\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\n\u6280\u306e\u3000\u5a01\u529b\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies the sun\nfor five turns, powering up\nFire-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa intensifica i raggi solari per\ncinque turni, potenziando le mosse di tipo Fuoco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Die Sonne brennt unbarmherzig f\u00fcnf Runden lang.\nDadurch werden Attacken vom Typ Feuer verst\u00e4rkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Fait briller le soleil pendant cinq tours, augmentant\nla puissance des capacit\u00e9s de type Feu.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \ud587\uc0b4\uc744 \uac15\ud558\uac8c \ud574\uc11c\n\ubd88\uaf43\ud0c0\uc785 \uae30\uc220\uc758 \uc704\ub825\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\u3000\u3072\u3056\u3057\u3092\n\u3064\u3088\u304f\u3057\u3066\u3000\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies the sun for\nfive turns, powering up\nFire-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies the sun for\nfive turns, powering up\nFire-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Fait briller le soleil pendant 5 tours et\nam\u00e9liore les capacit\u00e9s de type Feu.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies\nthe sun for five\nturns, powering up\nFire-type moves.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies\nthe sun for five\nturns, powering up\nFire-type moves.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user intensifies\nthe sun for five\nturns, powering up\nFire-type moves.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The sun blazes for\nfive turns, powering\nup FIRE-type\nmoves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Boosts the power of FIRE-\ntype moves for 5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Boosts the power of FIRE-\ntype moves for 5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Boosts fire-type\nmoves for 5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Boosts fire-type\nmoves for 5 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 241,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/183/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/184/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/185/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/186/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/187/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/188/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/189/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/190/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/191/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/192/"
+            },
+            "version_group": {
+                "name": "colosseum",
+                "url": "/api/v2/version-group/12/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/193/"
+            },
+            "version_group": {
+                "name": "xd",
+                "url": "/api/v2/version-group/13/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/194/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/195/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/196/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/197/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/198/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "whole-field-effect",
+            "url": "/api/v2/move-category/10/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "sunny-day",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5927\u6674\u5929"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306b\u307b\u3093\u3070\u308c"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Sunny Day"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Giornodisole"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "D\u00eda Soleado"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Sonnentag"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Z\u00e9nith"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5927\u6674\u5929"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ucf8c\uccad"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306b\u307b\u3093\u3070\u308c"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "entire-field",
+        "url": "/api/v2/move-target/12/"
+    },
+    "type": {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+    }
+}

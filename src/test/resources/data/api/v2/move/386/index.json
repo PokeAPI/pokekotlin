@@ -1,0 +1,617 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Power starts at 60 and is increased by 20 for every stage any of the target's stats has been raised, capping at 200.  Accuracy and evasion modifiers do not increase this move's power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Power increases against targets with more raised stats, up to a maximum of 200."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6839\u636e\u80fd\u529b\u53d8\u5316\uff0c\n\u5bf9\u624b\u63d0\u9ad8\u7684\u529b\u91cf\u8d8a\u5927\uff0c\n\u62db\u5f0f\u7684\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u80fd\u529b\u5909\u5316\u3067\n\u76f8\u624b\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The more the target has powered up with stat\nchanges, the greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Questa mossa diventa pi\u00f9 potente ogni volta che\nil bersaglio aumenta le proprie statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "La fuerza del ataque aumenta cuanto m\u00e1s se\nha fortalecido el objetivo con cambios de\ncaracter\u00edsticas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Je st\u00e4rker das Ziel durch Statusver\u00e4nderungen ist,\ndesto st\u00e4rker wirkt diese Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Plus l\u2019ennemi a utilis\u00e9 d\u2019augmentations de stats\net plus cette capacit\u00e9 est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c0d\u624b\u7684\u80fd\u529b\u56e0\u70ba\n\u80fd\u529b\u8b8a\u5316\u800c\u63d0\u9ad8\u5f97\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u5a01\u529b\u5c31\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub2a5\ub825 \ubcc0\ud654\ub85c\n\uc0c1\ub300\uac00 \ud30c\uc6cc\uc5c5\ud55c \ub9cc\ud07c\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3067\n\u3042\u3044\u3066\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6839\u636e\u80fd\u529b\u53d8\u5316\uff0c\n\u5bf9\u624b\u63d0\u9ad8\u7684\u529b\u91cf\u8d8a\u5927\uff0c\n\u62db\u5f0f\u7684\u5a01\u529b\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u80fd\u529b\u5909\u5316\u3067\n\u76f8\u624b\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The more the target has powered up with stat\nchanges, the greater the move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Questa mossa diventa pi\u00f9 potente ogni volta che\nil bersaglio aumenta le proprie statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "La fuerza del ataque aumenta cuanto m\u00e1s se\nha fortalecido el objetivo con cambios de\ncaracter\u00edsticas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Je st\u00e4rker das Ziel durch Statusver\u00e4nderungen ist,\ndesto st\u00e4rker wirkt diese Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Plus l\u2019ennemi a utilis\u00e9 d\u2019augmentations de stats\net plus cette capacit\u00e9 est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c0d\u624b\u7684\u80fd\u529b\u56e0\u70ba\n\u80fd\u529b\u8b8a\u5316\u800c\u63d0\u9ad8\u5f97\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u5a01\u529b\u5c31\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub2a5\ub825 \ubcc0\ud654\ub85c\n\uc0c1\ub300\uac00 \ud30c\uc6cc\uc5c5\ud55c \ub9cc\ud07c\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3067\n\u3042\u3044\u3066\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u80fd\u529b\u5909\u5316\u3067\n\u76f8\u624b\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The more the target has powered\nup with stat changes, the greater\nthe move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Questa mossa diventa pi\u00f9 potente ogni volta che\nil bersaglio aumenta le proprie statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "La fuerza del ataque aumenta cuanto m\u00e1s se\nha fortalecido el objetivo con cambios de\ncaracter\u00edsticas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Je st\u00e4rker das Ziel durch Statusver\u00e4nderungen ist,\ndesto st\u00e4rker wirkt diese Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Plus l\u2019ennemi a utilis\u00e9 d\u2019augmentations de stats\net plus cette capacit\u00e9 est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub2a5\ub825 \ubcc0\ud654\ub85c\n\uc0c1\ub300\uac00 \ud30c\uc6cc\uc5c5\ud55c \ub9cc\ud07c\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3067\n\u3042\u3044\u3066\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u80fd\u529b\u5909\u5316\u3067\n\u76f8\u624b\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u6280\u306e\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The more the target has powered\nup with stat changes, the greater\nthe move\u2019s power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Questa mossa diventa pi\u00f9 potente ogni volta che\nil bersaglio aumenta le proprie statistiche.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "La fuerza del ataque aumenta cuanto m\u00e1s se ha\nfortalecido el objetivo con cambios de\ncaracter\u00edsticas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Je st\u00e4rker das Ziel durch Statusver\u00e4nderungen ist,\ndesto st\u00e4rker wirkt diese Attacke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Plus l\u2019ennemi a utilis\u00e9 d\u2019augmentations de stats\net plus cette capacit\u00e9 est puissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub2a5\ub825 \ubcc0\ud654\ub85c\n\uc0c1\ub300\uac00 \ud30c\uc6cc\uc5c5\ud55c \ub9cc\ud07c\n\uae30\uc220\uc758 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u3067\n\u3042\u3044\u3066\u304c\u3000\u30d1\u30ef\u30fc\u30a2\u30c3\u30d7\u3000\u3057\u3066\u3044\u308b\u307b\u3069\n\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This attack\u2019s power increases\nthe more the target has powered\nup with stat changes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "This attack\u2019s power increases\nthe more the target has powered\nup with stat changes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Plus l\u2019ennemi a utilis\u00e9 des augmentations\nde stats et plus cette capacit\u00e9 est\npuissante.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "This attack\u2019s power\nincreases the more\nthe foe has powered\nup with stat changes.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "This attack\u2019s power\nincreases the more\nthe foe has powered\nup with stat changes.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "This attack\u2019s power\nincreases the more\nthe foe has powered\nup with stat changes.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 386,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "punishment",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u60e9\u7f5a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304a\u3057\u304a\u304d"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Punishment"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Punizione"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Castigo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Strafattacke"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Punition"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u61f2\u7f70"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud63c\ub0b4\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304a\u3057\u304a\u304d"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 60,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/23/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+    }
+}

@@ -1,0 +1,940 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "purple",
+        "url": "/api/v2/pokemon-color/7/"
+    },
+    "egg_groups": [
+        {
+            "name": "indeterminate",
+            "url": "/api/v2/egg-group/11/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/218/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5e73\u5e38\u5728\u6d77\u91cc\u751f\u6d3b\uff0c\n\u4f46\u53ea\u8981\u76ae\u80a4\u6ca1\u6709\u5e72\u71e5\uff0c\n\u4e5f\u53ef\u4ee5\u5728\u9646\u5730\u6d3b\u52a8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u666e\u6bb5\u3000\u6d77\u306e\u4e2d\u306b\u3000\u66ae\u3089\u3057\u3066\u3044\u308b\u304c\n\u76ae\u819a\u304c\u3000\u4e7e\u71e5\u3000\u3059\u308b\u307e\u3067\u306a\u3089\n\u9678\u5730\u3067\u3082\u3000\u6d3b\u52d5\u3000\u3067\u304d\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "While they normally live in the sea, they can\nfunction on land, too, until their skin dries out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Vive solitamente in mare, ma pu\u00f2 spostarsi\nanche sulla terraferma e restarvi finch\u00e9\nla pelle non inizia a seccarsi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Por lo general suele habitar en el agua, pero\ntambi\u00e9n puede moverse por tierra firme siempre\ny cuando su piel no se reseque por completo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt zwar f\u00fcr gew\u00f6hnlich im Meer, kann sich\naber auch an Land bewegen, bis seine Haut\naustrocknet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il vit normalement dans la mer, mais il peut\naussi s\u2019installer sur la terre ferme, tant que\nsa peau reste humide.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5e73\u5e38\u751f\u6d3b\u5728\u6d77\u88e1\uff0c\n\u4f46\u53ea\u8981\u76ae\u819a\u6c92\u6709\u4e7e\u71e5\uff0c\n\u4e5f\u53ef\u4ee5\u5728\u9678\u5730\u4e0a\u6d3b\u52d5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ud3c9\uc18c\uc5d0\ub294 \ubc14\ub2f7\uc18d\uc5d0\uc11c \uc9c0\ub0b4\uc9c0\ub9cc,\n\ud53c\ubd80\uac00 \ub9c8\ub974\uae30 \uc804\uae4c\uc9c0\ub294\n\uc721\uc9c0\uc5d0\uc11c\ub3c4 \ud65c\ub3d9\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3060\u3093\u3000\u3046\u307f\u306e\u306a\u304b\u306b\u3000\u304f\u3089\u3057\u3066\u3044\u308b\u304c\n\u3072\u3075\u304c\u3000\u304b\u3093\u305d\u3046\u3000\u3059\u308b\u307e\u3067\u306a\u3089\n\u308a\u304f\u3061\u3067\u3082\u3000\u304b\u3064\u3069\u3046\u3000\u3067\u304d\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4e00\u65e6\u63a5\u89e6\uff0c\u7d2b\u8272\u7684\u7c98\u6db2\u5c31\n\u4f1a\u7c98\u5230\u624b\u4e0a\u3002\u5373\u4f7f\u53cd\u590d\u6d17\n\u4e5f\u4e0d\u600e\u4e48\u80fd\u6d17\u6389\uff0c\u6240\u4ee5\u8981\u6ce8\u610f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u89e6\u308b\u3068\u3000\u7d2b\u306e\u3000\u7c98\u6db2\u304c\n\u624b\u306b\u3000\u3064\u304f\u305e\u3002\u3000\u6d17\u3063\u3066\u3082\u3000\u6d17\u3063\u3066\u3082\n\u306a\u304b\u306a\u304b\u3000\u843d\u3061\u306a\u3044\u306e\u3067\u3000\u6ce8\u610f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Purple mucus sticks to the hands of anyone\nwho touches it. Take care, as the substance is\ntroublesome to wash off. ",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Quando lo si tocca, lascia sulle mani un viscoso\nliquido viola difficile da rimuovere anche dopo\nripetuti lavaggi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Al tocarlo, segrega un fluido viol\u00e1ceo que\nmancha las manos y que es extremadamente\ndif\u00edcil de eliminar a\u00fan tras repetidos lavados.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Fasst man es an, schmiert man sich mit\nlilafarbenem Schleim voll, der nicht abgeht,\negal, wie oft man sich auch die H\u00e4nde w\u00e4scht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Au toucher, une s\u00e9cr\u00e9tion mauve se d\u00e9pose sur\nles mains. Faites bien attention, car elle ne part\nvraiment pas facilement, m\u00eame en lavant bien.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u7528\u624b\u6478\u7260\uff0c\u7d2b\u8272\u7684\u9ecf\u6db2\n\u5c31\u6703\u6cbe\u5230\u624b\u4e0a\u3002\u4e0d\u7ba1\u600e\u9ebc\u6d17\n\u90fd\u5f88\u96e3\u6d17\u6389\uff0c\u6240\u4ee5\u8981\u6ce8\u610f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ub9cc\uc9c0\uba74 \ubcf4\ub77c\uc0c9 \uc810\uc561\uc774\n\uc190\uc5d0 \ubb3b\ub294\ub2e4. \uc544\ubb34\ub9ac \uc53b\uc5b4\ub3c4\n\uc880\ucc98\ub7fc \ub5a8\uc5b4\uc9c0\uc9c0 \uc54a\uc73c\ubbc0\ub85c \uc8fc\uc758.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3055\u308f\u308b\u3068\u3000\u3080\u3089\u3055\u304d\u306e\u3000\u306d\u3093\u3048\u304d\u304c\n\u3066\u306b\u3000\u3064\u304f\u305e\u3002\u3000\u3042\u3089\u3063\u3066\u3082\u3000\u3042\u3089\u3063\u3066\u3082\n\u306a\u304b\u306a\u304b\u3000\u304a\u3061\u306a\u3044\u306e\u3067\u3000\u3061\u3085\u3046\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u4f4f\u3080\u3000\u5834\u6240\u306e\u3000\u74b0\u5883\u306b\u3000\u3088\u3063\u3066\n\u4f53\u306e\u3000\u5f62\u3084\u3000\u8272\u304c\n\u5909\u5316\u3057\u3084\u3059\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Its shape and coloration vary, depending on\nits habitat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Cambia facilmente aspetto e colore secondo il luogo\ndi provenienza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Shellos adapta la forma y color de su cuerpo dependiendo\ndel lugar en donde viva.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Form und Farbe dieses Pok\u00e9mon \u00e4ndern sich je nach\nder Umgebung, in der es lebt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il change facilement de couleur ou de forme en fonction\nde son environnement.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc0ac\ub294 \uc7a5\uc18c\uc758 \ud658\uacbd\uc5d0 \ub530\ub77c\n\ubab8\uc758 \ubaa8\uc591\uacfc \uc0c9\uae54\uc774\n\ubcc0\ud654\ud558\uae30 \uc26c\uc6b4 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3080\u3000\u3070\u3057\u3087\u306e\u3000\u304b\u3093\u304d\u3087\u3046\u306b\u3000\u3088\u3063\u3066\n\u304b\u3089\u3060\u306e\u3000\u304b\u305f\u3061\u3084\u3000\u3044\u308d\u304c\n\u3078\u3093\u304b\u3000\u3057\u3084\u3059\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u308f\u3089\u304b\u3044\u3000\u4f53\u3092\u3000\u5f37\u304f\u62bc\u3059\u3068\n\u7d2b\u8272\u306e\u3000\u30ca\u30be\u306e\u3000\u6db2\u4f53\u304c\n\u306b\u3058\u202f\u51fa\u308b\u306e\u3067\u3000\u8981\u6ce8\u610f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Beware of pushing strongly on its squishy body,\nas it makes a mysterious purple fluid ooze out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Se si esercita una forte pressione sul suo corpo, ne fuoriesce\nun misterioso liquido viola.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "No hay que apretarle muy fuerte, ya que, si lo haces, secreta\nun misterioso fluido morado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Nicht seinen K\u00f6rper zusammendr\u00fccken, sonst sickert eine\nseltsame lilafarbene Fl\u00fcssigkeit aus!",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Un \u00e9trange liquide mauve s\u2019\u00e9chappe de son corps,\nne lui appuyez pas dessus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ub4dc\ub7ec\uc6b4 \ubab8\uc744 \uac15\ud558\uac8c \ub204\ub974\uba74\n\ubcf4\ub78f\ube5b\uc774 \ub098\ub294 \uc815\uccb4\ubd88\uba85\uc758 \uc561\uccb4\uac00\n\ubc30\uc5b4 \ub098\uc624\ubbc0\ub85c \uc8fc\uc758\uac00 \ud544\uc694\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u308f\u3089\u304b\u3044\u3000\u304b\u3089\u3060\u3092\u3000\u3064\u3088\u304f\u304a\u3059\u3068\n\u3080\u3089\u3055\u304d\u3044\u308d\u306e\u3000\u306a\u305e\u306e\u3000\u3048\u304d\u305f\u3044\u304c\n\u306b\u3058\u202f\u3067\u308b\u306e\u3067\u3000\u3088\u3046\u3061\u3085\u3046\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4f4f\u3080\u3000\u5834\u6240\u306e\u3000\u74b0\u5883\u306b\u3000\u3088\u3063\u3066\n\u4f53\u306e\u3000\u5f62\u3084\u3000\u8272\u304c\n\u5909\u5316\u3057\u3084\u3059\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Its shape and coloration vary, depending on\nits habitat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cambia facilmente aspetto e colore secondo il luogo\ndi provenienza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Shellos adapta la forma y color de su cuerpo\ndependiendo del lugar en donde viva.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Form und Farbe dieses Pok\u00e9mon \u00e4ndern sich\nje nach der Umgebung, in der es lebt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il change facilement de couleur ou de forme en\nfonction de son environnement.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc0ac\ub294 \uc7a5\uc18c\uc758 \ud658\uacbd\uc5d0 \ub530\ub77c\n\ubab8\uc758 \ubaa8\uc591\uacfc \uc0c9\uae54\uc774\n\ubcc0\ud654\ud558\uae30 \uc26c\uc6b4 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3080\u3000\u3070\u3057\u3087\u306e\u3000\u304b\u3093\u304d\u3087\u3046\u306b\u3000\u3088\u3063\u3066\n\u304b\u3089\u3060\u306e\u3000\u304b\u305f\u3061\u3084\u3000\u3044\u308d\u304c\n\u3078\u3093\u304b\u3000\u3057\u3084\u3059\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u308f\u3089\u304b\u3044\u3000\u4f53\u3092\u3000\u5f37\u304f\u62bc\u3059\u3068\n\u7d2b\u8272\u306e\u3000\u30ca\u30be\u306e\u3000\u6db2\u4f53\u304c\n\u306b\u3058\u307f\u51fa\u308b\u306e\u3067\u3000\u8981\u6ce8\u610f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Beware of pushing strongly on its squishy body,\nas it makes a mysterious purple fluid ooze out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se si esercita una forte pressione sul suo corpo,\nne fuoriesce un misterioso liquido viola.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "No hay que apretarle muy fuerte, ya que, si lo haces,\nsecreta un misterioso fluido morado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Nicht seinen K\u00f6rper zusammendr\u00fccken,\nsonst sickert eine seltsame lilafarbene Fl\u00fcssigkeit aus!",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Un \u00e9trange liquide mauve s\u2019\u00e9chappe de son corps,\nne lui appuyez pas dessus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ub4dc\ub7ec\uc6b4 \ubab8\uc744 \uac15\ud558\uac8c \ub204\ub974\uba74\n\ubcf4\ub78f\ube5b\uc774 \ub098\ub294 \uc815\uccb4\ubd88\uba85\uc758 \uc561\uccb4\uac00\n\ubc30\uc5b4 \ub098\uc624\ubbc0\ub85c \uc8fc\uc758\uac00 \ud544\uc694\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u308f\u3089\u304b\u3044\u3000\u304b\u3089\u3060\u3092\u3000\u3064\u3088\u304f\u304a\u3059\u3068\n\u3080\u3089\u3055\u304d\u3044\u308d\u306e\u3000\u306a\u305e\u306e\u3000\u3048\u304d\u305f\u3044\u304c\n\u306b\u3058\u307f\u3067\u308b\u306e\u3067\u3000\u3088\u3046\u3061\u3085\u3046\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Beware of pushing strongly on\nits squishy body, as it makes a\nmysterious purple fluid ooze out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Beware of pushing strongly on\nits squishy body, as it makes a\nmysterious purple fluid ooze out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Beware of pushing strongly on\nits squishy body, as it makes a\nmysterious purple fluid ooze out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Un \u00e9trange liquide mauve s\u2019\u00e9chappe\nde son corps, ne lui appuyez pas\ndessus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Beware of pushing strongly on\nits squishy body, as it makes a\nmysterious purple fluid ooze out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Un \u00e9trange liquide mauve s\u2019\u00e9chappe\nde son corps, ne lui appuyez pas\ndessus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Its shape and coloration vary,\ndepending on its habitat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Its shape and coloration vary,\ndepending on its habitat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Beware of pushing strongly on\nits squishy body, as it makes a\nmysterious purple fluid ooze out.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It lives along bodies of water.\nIts body shape has changed to\nsuit its habitat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Its colors and shapes differ from\nregion to region. In the Sinnoh\nregion, two types are confirmed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [
+        {
+            "description": "Forms only affect appearance.  A form is determined before a wild encounter based on whether the battle is in western or eastern Sinnoh, or inherited from the mother when breeding, and cannot be changed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6d77\u5154\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30a6\u30df\u30a6\u30b7\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Sea Slug Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Lumacomare",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Babosa Mar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Seeschnecke",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Aqualimace",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6d77\u5154\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uac2f\ubbfc\uc22d\ub2ec\ud33d\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30a6\u30df\u30a6\u30b7\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 422,
+    "is_baby": false,
+    "name": "shellos",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u65e0\u58f3\u6d77\u5154"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ab\u30e9\u30ca\u30af\u30b7"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Shellos"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Shellos"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Shellos"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Schalellos"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Sancoki"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7121\u6bbc\u6d77\u5154"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uae5d\uc9c8\ubb34"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Karanakushi"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ab\u30e9\u30ca\u30af\u30b7"
+        }
+    ],
+    "order": 450,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "sea",
+                "url": "/api/v2/pal-park-area/5/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 60,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 60,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 422,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "squiggle",
+        "url": "/api/v2/pokemon-shape/2/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "shellos",
+                "url": "/api/v2/pokemon/422/"
+            }
+        }
+    ]
+}

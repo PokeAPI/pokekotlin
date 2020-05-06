@@ -1,0 +1,766 @@
+{
+    "base_happiness": 35,
+    "capture_rate": 3,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/193/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u3064\u304f\u3063\u3066\u3044\u308b\u3000\u5ca9\u77f3\u306f\u3000\u3059\u3079\u3066\n\u9055\u3046\u3000\u571f\u5730\u304b\u3089\u3000\u6398\u308a\u51fa\u3055\u308c\u305f\u3000\u3082\u306e\u3067\u3042\u308b\u3068\n\u6700\u8fd1\u306e\u3000\u7814\u7a76\u3067\u3000\u5224\u660e\u3057\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Regirock\u2019s body is composed entirely of rocks. Recently,\na study made the startling discovery that the rocks were all\nunearthed from different locations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il corpo di Regirock \u00e8 formato interamente da pietre.\nDa un recente studio \u00e8 emerso che ogni pietra proviene\nda un luogo diverso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Regirock est\u00e1 formado en su totalidad por piedras. En un\nestudio reciente, se descubri\u00f3 que cada una de las piedras\nhab\u00eda sido desenterrada en sitios distintos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Regirocks K\u00f6rper besteht komplett aus Steinen.\nErst k\u00fcrzlich stellte man erstaunt fest, dass die\nSteine alle an unterschiedlichen Orten ausgegraben\nwurden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Le corps de Regirock est enti\u00e8rement constitu\u00e9 de rochers.\nR\u00e9cemment, une \u00e9tude a d\u00e9couvert que ces rochers\nprovenaient de lieux tr\u00e8s vari\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uc774\ub8e8\uace0 \uc788\ub294 \uc554\uc11d\uc740 \ubaa8\ub450\n\ub2e4\ub978 \ub545\uc5d0\uc11c \ud30c\ub0b4\uc9c4 \uac83\ub4e4\uc774\ub77c\uace0\n\ucd5c\uadfc \uc5f0\uad6c\ub97c \ud1b5\ud574 \ud310\uba85\ub410\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3064\u304f\u3063\u3066\u3044\u308b\u3000\u304c\u3093\u305b\u304d\u306f\u3000\u3059\u3079\u3066\n\u3061\u304c\u3046\u3000\u3068\u3061\u304b\u3089\u3000\u307b\u308a\u3060\u3055\u308c\u305f\u3000\u3082\u306e\u3067\u3042\u308b\u3068\n\u3055\u3044\u304d\u3093\u306e\u3000\u3051\u3093\u304d\u3085\u3046\u3067\u3000\u306f\u3093\u3081\u3044\u3057\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u6614\u3000\u4eba\u306b\u3000\u5c01\u5370\u3055\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u6226\u3044\u3067\u3000\u4f53\u304c\u3000\u5d29\u308c\u308b\u3068\u3000\u81ea\u5206\u3067\n\u65b0\u3057\u3044\u3000\u5ca9\u3092\u3000\u63a2\u3057\u3066\u3000\u76f4\u3059\u3068\u3000\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Regirock was sealed away by people long ago. If this\nPok\u00e9mon\u2019s body is damaged in battle, it is said to seek\nout suitable rocks on its own to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Molto tempo fa Regirock era stato imprigionato dagli esseri\numani. Se subisce danni in lotta, cerca nuove rocce adatte\nper riparare le rotture.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "A Regirock lo mantuvieron encerrado y aislado hace tiempo.\nDicen que, si resulta da\u00f1ado en combate, se pone \u00e9l mismo\na buscar piedras parecidas a las suyas y se las pone para\nrecomponerse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Regirock wurde vor langer Zeit von Menschen\nweggeschlossen. Wenn der K\u00f6rper dieses Pok\u00e9mon\nim Kampf Schaden nimmt, sucht es nach passenden\nSteinen, um sich selbst zu reparieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Regirock fut isol\u00e9 par les gens il y a tr\u00e8s longtemps.\nLorsque le corps de ce Pok\u00e9mon est endommag\u00e9\nau combat, on raconte qu\u2019il cherche des rochers pour\nse r\u00e9parer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc624\ub798\uc804 \uc0ac\ub78c\uc5d0\uac8c \ubd09\uc778\ub41c \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc2f8\uc6c0\uc73c\ub85c \ubab8\uc774 \ubd80\uc11c\uc9c0\uba74 \uc2a4\uc2a4\ub85c\n\uc0c8\ub85c\uc6b4 \ubc14\uc704\ub97c \ucc3e\uc544\uc11c \uace0\uce5c\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3080\u304b\u3057\u3000\u3072\u3068\u306b\u3000\u3075\u3046\u3044\u3093\u3055\u308c\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u305f\u305f\u304b\u3044\u3067\u3000\u304b\u3089\u3060\u304c\u3000\u304f\u305a\u308c\u308b\u3068\u3000\u3058\u3076\u3093\u3067\n\u3042\u305f\u3089\u3057\u3044\u3000\u3044\u308f\u3092\u3000\u3055\u304c\u3057\u3066\u3000\u306a\u304a\u3059\u3068\u3000\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u4f5c\u3063\u3066\u3044\u308b\u3000\u5ca9\u77f3\u3068\n\u540c\u3058\u3000\u7269\u304c\u3000\u4e16\u754c\u4e2d\u306e\n\u3042\u3089\u3086\u308b\u3000\u5730\u5c64\u3067\u3000\u898b\u3064\u304b\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "The same rocks that form its body have been found\nin ground layers around the world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "I tipi di roccia che compongono il suo corpo possono\ntrovarsi in tutti gli strati geologici del mondo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Las rocas que componen el cuerpo de Regirock\npueden encontrarse en todos los estratos geol\u00f3gicos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Die Steine, aus denen sein K\u00f6rper besteht,\nstammen aus den unterschiedlichsten Ecken der Welt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Les roches qui composent son corps se retrouvent\n\u00e9galement dans les diverses couches terrestres.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \uc774\ub8e8\ub294 \uc554\uc11d\uacfc\n\uac19\uc740 \uac83\uc774 \uc138\uacc4 \uacf3\uacf3\uc758\n\uc5ec\ub7ec \uc9c0\uce35\uc5d0\uc11c \ubc1c\uacac\ub418\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3064\u304f\u3063\u3066\u3044\u308b\u3000\u304c\u3093\u305b\u304d\u3068\n\u304a\u306a\u3058\u3000\u3082\u306e\u304c\u3000\u305b\u304b\u3044\u3058\u3085\u3046\u306e\n\u3042\u3089\u3086\u308b\u3000\u3061\u305d\u3046\u3067\u3000\u307f\u3064\u304b\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5168\u8eab\u304c\u3000\u5ca9\u3067\u3000\u3067\u304d\u3066\u3044\u308b\u3002\n\u6226\u3044\u3067\u3000\u4f53\u304c\u3000\u6b20\u3051\u3066\u3082\n\u5ca9\u3092\u3000\u304f\u3063\u3064\u3051\u3066\u3000\u6cbb\u3057\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock. If any part chips off\nin battle, it attaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 formato interamente da rocce. Se si staccano\nnella lotta, ne cerca altre per sostituirle.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Su cuerpo est\u00e1 hecho de roca. Si se astilla durante el\ncombate, emplea piedras para repararlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sein K\u00f6rper besteht aus Stein. Bricht im Kampf\netwas heraus, wird es durch Stein wieder ersetzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Tout son corps est fait de roche. S\u2019il s\u2019\u00e9br\u00e8che au\ncombat, il utilise des pierres pour le r\u00e9parer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uc2e0\uc774 \ubc14\uc704\ub85c \ub418\uc5b4 \uc788\ub2e4.\n\uc2f8\uc6c0\uc73c\ub85c \ubab8\uc774 \uae68\uc5b4\uc838\ub3c4\n\ubc14\uc704\ub97c \ubd99\uc5ec\uc11c \uce58\ub8cc\ud574 \ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u305c\u3093\u3057\u3093\u304c\u3000\u3044\u308f\u3067\u3000\u3067\u304d\u3066\u3044\u308b\u3002\n\u305f\u305f\u304b\u3044\u3067\u3000\u304b\u3089\u3060\u304c\u3000\u304b\u3051\u3066\u3082\n\u3044\u308f\u3092\u3000\u304f\u3063\u3064\u3051\u3066\u3000\u306a\u304a\u3057\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock.\nIf any part chips off in battle, it\nattaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock.\nIf any part chips off in battle, it\nattaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock.\nIf any part chips off in battle, it\nattaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Tout son corps est fait de roche.\nS\u2019il s\u2019\u00e9br\u00e8che au combat, il utilise\ndes pierres pour le r\u00e9parer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock.\nIf any part chips off in battle, it\nattaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Tout son corps est fait de roche.\nS\u2019il s\u2019\u00e9br\u00e8che au combat, il utilise\ndes pierres pour le r\u00e9parer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "The same rocks that form its body\nhave been found in ground layers\naround the world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "The same rocks that form its body\nhave been found in ground layers\naround the world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock.\nIf any part chips off in battle, it\nattaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock.\nIf any part chips off in battle, it\nattaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Its entire body is made of rock.\nIf any part chips off in battle, it\nattaches rocks to repair itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It is entirely composed of rocks with no\nsign of a brain or heart. It is a mystery\neven to modern scientists.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It is entirely composed of rocks with no\nsign of a brain or heart. It is a mystery\neven to modern scientists.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON that is made entirely of rocks\nand boulders. If parts of its body chip off\nin battle, REGIROCK repairs itself by\nadding new rocks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "REGIROCK\u2019s body is composed entirely of\nrocks. Recently, a study made the\nstartling discovery that the rocks\fwere all unearthed from different\nlocations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "REGIROCK was sealed away by people\nlong ago. If this POK\u00e9MON\u2019s body is\ndamaged in battle, it is said to seek\fout suitable rocks on its own to repair\nitself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u5ca9\u5c71\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3044\u308f\u3084\u307e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Rock Peak Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Picco",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pico Roca",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Steingipfel",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pic Rocheux",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5ca9\u5c71\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubc14\uc704\uc0b0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3044\u308f\u3084\u307e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "cave",
+        "url": "/api/v2/pokemon-habitat/1/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 80,
+    "id": 377,
+    "is_baby": false,
+    "name": "regirock",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u96f7\u5409\u6d1b\u514b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ec\u30b8\u30ed\u30c3\u30af"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Regirock"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Regirock"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Regirock"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Regirock"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Regirock"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u96f7\u5409\u6d1b\u514b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub808\uc9c0\ub77d"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Regirock"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ec\u30b8\u30ed\u30c3\u30af"
+        }
+    ],
+    "order": 407,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 90,
+            "rate": 3
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 202,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 193,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 377,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "regirock",
+                "url": "/api/v2/pokemon/377/"
+            }
+        }
+    ]
+}

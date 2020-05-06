@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the user is holding a plate or a drive, this move's type is the type corresponding to that item.\n\nNote: This effect is technically shared by both techno blast and judgment; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u653e\u51fa\u65e0\u6570\u7684\u5149\u5f39\u3002\n\u5c5e\u6027\u4f1a\u6839\u636e\u81ea\u5df1\n\u643a\u5e26\u7684\u77f3\u677f\u4e0d\u540c\u800c\u6539\u53d8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7121\u6570\u306e\u3000\u5149\u5f3e\u3092\u3000\u76f8\u624b\u306b\u3000\u653e\u51fa\u3059\u308b\u3002\n\u81ea\u5206\u306e\u3000\u6301\u3064\u3000\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\n\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user releases countless shots of light at the\ntarget. This move\u2019s type varies depending on the\nkind of Plate the user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia numerosi colpi di luce. Il tipo\nvaria a seconda della lastra che ha.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Emite incontables haces de luz. Var\u00eda seg\u00fan el tipo \nde tabla que lleve el usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender feuert unz\u00e4hlige Lichtstrahlen ab.\nDeren Typ h\u00e4ngt von der gehaltenen Tafel ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re une myriade de rayons de lumi\u00e8re.\nLe type varie selon la Plaque que tient le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u653e\u51fa\u7121\u6578\u7684\u5149\u5f48\u3002\n\u62db\u5f0f\u7684\u5c6c\u6027\u6703\u96a8\u8457\u81ea\u5df1\n\u651c\u5e36\u7684\u77f3\u677f\u4e0d\u540c\u800c\u6539\u8b8a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc218\ud55c \uad11\ud0c4\uc744 \uc0c1\ub300\uc5d0\uac8c \ubc29\ucd9c\ud55c\ub2e4.\n\uc790\uc2e0\uc774 \uac00\uc9c0\uace0 \uc788\ub294 \ud50c\ub808\uc774\ud2b8\uc5d0 \ub530\ub77c\n\ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3080\u3059\u3046\u306e\u3000\u3053\u3046\u3060\u3093\u3092\u3000\u3042\u3044\u3066\u306b\n\u307b\u3046\u3057\u3085\u3064\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3082\u3064\n\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u653e\u51fa\u65e0\u6570\u7684\u5149\u5f39\u3002\n\u5c5e\u6027\u4f1a\u6839\u636e\u81ea\u5df1\n\u643a\u5e26\u7684\u77f3\u677f\u4e0d\u540c\u800c\u6539\u53d8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7121\u6570\u306e\u3000\u5149\u5f3e\u3092\u3000\u76f8\u624b\u306b\u3000\u653e\u51fa\u3059\u308b\u3002\n\u81ea\u5206\u306e\u3000\u6301\u3064\u3000\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\n\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user releases countless shots of light at the\ntarget. This move\u2019s type varies depending on the\nkind of Plate the user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia numerosi colpi di luce. Il tipo\nvaria a seconda della lastra che ha.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Emite incontables haces de luz. Var\u00eda seg\u00fan el tipo \nde tabla que lleve el usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender feuert unz\u00e4hlige Lichtstrahlen ab.\nDeren Typ h\u00e4ngt von der gehaltenen Tafel ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re une myriade de rayons de lumi\u00e8re.\nLe type varie selon la Plaque que tient le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u653e\u51fa\u7121\u6578\u7684\u5149\u5f48\u3002\n\u62db\u5f0f\u7684\u5c6c\u6027\u6703\u96a8\u8457\u81ea\u5df1\n\u651c\u5e36\u7684\u77f3\u677f\u4e0d\u540c\u800c\u6539\u8b8a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc218\ud55c \uad11\ud0c4\uc744 \uc0c1\ub300\uc5d0\uac8c \ubc29\ucd9c\ud55c\ub2e4.\n\uc790\uc2e0\uc774 \uac00\uc9c0\uace0 \uc788\ub294 \ud50c\ub808\uc774\ud2b8\uc5d0 \ub530\ub77c\n\ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3080\u3059\u3046\u306e\u3000\u3053\u3046\u3060\u3093\u3092\u3000\u3042\u3044\u3066\u306b\n\u307b\u3046\u3057\u3085\u3064\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3082\u3064\n\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7121\u6570\u306e\u3000\u5149\u5f3e\u3092\u3000\u76f8\u624b\u306b\u3000\u653e\u51fa\u3059\u308b\u3002\n\u81ea\u5206\u306e\u3000\u6301\u3064\u3000\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\n\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user releases countless shots of\nlight at the target. This move\u2019s type varies\ndepending on the kind of Plate the user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia numerosi colpi di luce. Il tipo\nvaria a seconda della lastra che ha.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Emite incontables haces de luz. Var\u00eda seg\u00fan el tipo \nde tabla que lleve el usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender feuert unz\u00e4hlige Lichtstrahlen ab.\nDeren Typ h\u00e4ngt von der gehaltenen Tafel ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re une myriade de rayons de\nlumi\u00e8re. Le type varie selon la Plaque que\ntient le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc218\ud55c \uad11\ud0c4\uc744 \uc0c1\ub300\uc5d0\uac8c \ubc29\ucd9c\ud55c\ub2e4.\n\uc790\uc2e0\uc774 \uac00\uc9c0\uace0 \uc788\ub294 \ud50c\ub808\uc774\ud2b8\uc5d0 \ub530\ub77c\n\ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3080\u3059\u3046\u306e\u3000\u3053\u3046\u3060\u3093\u3092\u3000\u3042\u3044\u3066\u306b\n\u307b\u3046\u3057\u3085\u3064\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3082\u3064\n\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u7121\u6570\u306e\u3000\u5149\u5f3e\u3092\u3000\u76f8\u624b\u306b\u3000\u653e\u51fa\u3059\u308b\u3002\n\u81ea\u5206\u306e\u3000\u6301\u3064\u3000\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\n\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user releases countless shots of\nlight at the target. This move\u2019s type varies\ndepending on the kind of Plate the user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa rilascia numerosi colpi di luce. Il tipo\nvaria a seconda della lastra che ha.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Emite incontables haces de luz. Var\u00eda seg\u00fan el tipo\nde tabla que lleve el usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender feuert unz\u00e4hlige Lichtstrahlen ab.\nDeren Typ h\u00e4ngt von der gehaltenen Tafel ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re une myriade de rayons de\nlumi\u00e8re. Le type varie selon la Plaque que\ntient le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc218\ud55c \uad11\ud0c4\uc744 \uc0c1\ub300\uc5d0\uac8c \ubc29\ucd9c\ud55c\ub2e4.\n\uc790\uc2e0\uc774 \uac00\uc9c0\uace0 \uc788\ub294 \ud50c\ub808\uc774\ud2b8\uc5d0 \ub530\ub77c\n\ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3080\u3059\u3046\u306e\u3000\u3053\u3046\u3060\u3093\u3092\u3000\u3042\u3044\u3066\u306b\n\u307b\u3046\u3057\u3085\u3064\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3082\u3064\n\u30d7\u30ec\u30fc\u30c8\u306b\u3000\u3088\u308a\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user releases countless shots of\nlight at the target. Its type varies with\nthe kind of Plate the user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user releases countless shots of\nlight at the target. Its type varies with\nthe kind of Plate the user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur lib\u00e8re une myriade de rayons de\nlumi\u00e8re. Le type varie selon la Plaque\nque tient le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 449,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "judgment",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5236\u88c1\u5149\u783e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3055\u3070\u304d\u306e\u3064\u3076\u3066"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Judgment"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Giudizio"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Sentencia"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Urteilskraft"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Jugement"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5236\u88c1\u5149\u792b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2ec\ud310\uc758\ubb49\uce58"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3055\u3070\u304d\u306e\u3064\u3076\u3066"
+        }
+    ],
+    "past_values": [],
+    "power": 100,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/14/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

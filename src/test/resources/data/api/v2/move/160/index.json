@@ -1,0 +1,661 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/12/"
+    },
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "User's type changes to the type of one of its moves, selected at random.  hidden power and weather ball are treated as normal.  Only moves with a different type are eligible, and curse is never eligible.  If the user has no suitable moves, this move will fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User's type changes to the type of one of its moves at random."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u81ea\u5df1\u7684\u5c5e\u6027\u8f6c\u6362\u6210\n\u548c\u5df2\u5b66\u4f1a\u7684\u62db\u5f0f\u4e2d\n\u7b2c\u4e00\u4e2a\u62db\u5f0f\u76f8\u540c\u7684\u5c5e\u6027\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u6280\u3067\u3000\u4e00\u756a\u3000\u4e0a\u306e\n\u6280\u3068\u3000\u540c\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its type to become the same type\nas the move at the top of the list of moves it knows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Il tipo di chi la usa muta in quello della prima\nmossa nella lista delle sue mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cambia el tipo del usuario por el del primero de sus \nmovimientos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Wandelt den Typ des Anwenders in den Typ der\nersten Attacke des Anwenders um.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur change de type pour prendre celui\nde la premi\u00e8re capacit\u00e9 de sa liste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u81ea\u5df1\u7684\u5c6c\u6027\u8f49\u63db\u6210\n\u8207\u5df2\u5b78\u6703\u7684\u62db\u5f0f\u4e2d\n\u7b2c\uff11\u500b\u62db\u5f0f\u76f8\u540c\u7684\u5c6c\u6027\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ud0c0\uc785\uc744 \ubc30\uc6b4 \uae30\uc220 \uc911\n\uac00\uc7a5 \uc704\uc5d0 \uc788\ub294 \uae30\uc220\uacfc\n\uac19\uc740 \ud0c0\uc785\uc73c\ub85c \ubc14\uafbc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u308f\u3056\u3067\u3000\u3044\u3061\u3070\u3093\u3000\u3046\u3048\u306e\n\u308f\u3056\u3068\u3000\u304a\u306a\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u81ea\u5df1\u7684\u5c5e\u6027\u8f6c\u6362\u6210\n\u548c\u5df2\u5b66\u4f1a\u7684\u62db\u5f0f\u4e2d\n\u7b2c\u4e00\u4e2a\u62db\u5f0f\u76f8\u540c\u7684\u5c5e\u6027\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u6280\u3067\u3000\u4e00\u756a\u3000\u4e0a\u306e\n\u6280\u3068\u3000\u540c\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its type to become the same type\nas the move at the top of the list of moves it knows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Il tipo di chi la usa muta in quello della prima\nmossa nella lista delle sue mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cambia el tipo del usuario por el del primero de sus \nmovimientos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Wandelt den Typ des Anwenders in den Typ der\nersten Attacke des Anwenders um.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur change de type pour prendre celui\nde la premi\u00e8re capacit\u00e9 de sa liste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u81ea\u5df1\u7684\u5c6c\u6027\u8f49\u63db\u6210\n\u8207\u5df2\u5b78\u6703\u7684\u62db\u5f0f\u4e2d\n\u7b2c\uff11\u500b\u62db\u5f0f\u76f8\u540c\u7684\u5c6c\u6027\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ud0c0\uc785\uc744 \ubc30\uc6b4 \uae30\uc220 \uc911\n\uac00\uc7a5 \uc704\uc5d0 \uc788\ub294 \uae30\uc220\uacfc\n\uac19\uc740 \ud0c0\uc785\uc73c\ub85c \ubc14\uafbc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u308f\u3056\u3067\u3000\u3044\u3061\u3070\u3093\u3000\u3046\u3048\u306e\n\u308f\u3056\u3068\u3000\u304a\u306a\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u6280\u3067\u3000\u4e00\u756a\u3000\u4e0a\u306e\n\u6280\u3068\u3000\u540c\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its type to become the\nsame type as the move at the top of the\nlist of moves it knows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Il tipo di chi la usa muta in quello della prima\nmossa nella lista delle sue mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cambia el tipo del usuario por el del primero de sus \nmovimientos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Wandelt den Typ des Anwenders in den Typ\nder ersten Attacke des Anwenders um.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur change de type pour prendre celui\nde la premi\u00e8re capacit\u00e9 de sa liste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ud0c0\uc785\uc744 \ubc30\uc6b4 \uae30\uc220 \uc911\n\uac00\uc7a5 \uc704\uc5d0 \uc788\ub294 \uae30\uc220\uacfc\n\uac19\uc740 \ud0c0\uc785\uc73c\ub85c \ubc14\uafbc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u308f\u3056\u3067\u3000\u3044\u3061\u3070\u3093\u3000\u3046\u3048\u306e\n\u308f\u3056\u3068\u3000\u304a\u306a\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u6280\u3067\u3000\u4e00\u756a\u3000\u4e0a\u306e\n\u6280\u3068\u3000\u540c\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its type to become the\nsame type as the move at the top of the\nlist of moves it knows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Il tipo di chi la usa muta in quello della prima\nmossa nella lista delle sue mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cambia el tipo del usuario por el del primero de\nsus movimientos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Wandelt den Typ des Anwenders in den Typ\nder ersten Attacke des Anwenders um.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur change de type pour prendre celui\nde la premi\u00e8re capacit\u00e9 de sa liste.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ud0c0\uc785\uc744 \ubc30\uc6b4 \uae30\uc220 \uc911\n\uac00\uc7a5 \uc704\uc5d0 \uc788\ub294 \uae30\uc220\uacfc\n\uac19\uc740 \ud0c0\uc785\uc73c\ub85c \ubc14\uafbc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u30bf\u30a4\u30d7\u3092\n\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u308f\u3056\u3067\u3000\u3044\u3061\u3070\u3093\u3000\u3046\u3048\u306e\n\u308f\u3056\u3068\u3000\u304a\u306a\u3058\u3000\u30bf\u30a4\u30d7\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its type to become the\nsame type as one of its moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its type to become the\nsame type as one of its moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur change de type pour prendre\ncelui de l\u2019une de ses capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its\ntype to become the\nsame type as one of\nits moves.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its\ntype to become the\nsame type as one of\nits moves.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user changes its\ntype to become the\nsame type as one of\nits moves.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user changes\nits type to match\nthe type of one of\nits moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Changes the user\u2019s type\ninto a known move\u2019s type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Changes the user\u2019s type\ninto an own move\u2019s type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Change user's type\nto a move's type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Change user's type\nto a move's type.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 160,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "conversion",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7eb9\u7406"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c6\u30af\u30b9\u30c1\u30e3\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Conversion"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Conversione"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Conversi\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Umwandlung"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Conversion"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7d0b\u7406"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud14d\uc2a4\ucc98"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c6\u30af\u30b9\u30c1\u30e3\u30fc"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/23/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

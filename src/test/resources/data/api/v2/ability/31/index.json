@@ -1,0 +1,901 @@
+{
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Has no overworld effect.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "effect_entries": [
+                {
+                    "effect": "Does not affect non-damaging electric moves, i.e. thunder wave.  Increases the frequency of Match Call calls on the overworld if any party Pok\u00e9mon has this ability.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "effect_entries": [
+                {
+                    "effect": "Redirects electric moves without negating them or granting any Special Attack boost.  Does not redirect hidden power.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "All other Pok\u00e9mon's single-target electric-type moves are redirected to this Pok\u00e9mon if it is an eligible target.  Other Pok\u00e9mon's Electric moves raise this Pok\u00e9mon's Special Attack one stage, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pok\u00e9mon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pok\u00e9mon.  follow me takes precedence over this ability.\n\nIf the Pok\u00e9mon is a ground-type and thus immune to Electric moves, its immunity prevents the Special Attack boost.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Redirects single-target electric moves to this Pok\u00e9mon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u7535\u5c5e\u6027\u7684\u62db\u5f0f\u5438\u5f15\u5230\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u4e0d\u4f1a\u53d7\u5230\u4f24\u5bb3\uff0c\u800c\u662f\u4f1a\u63d0\u9ad8\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\u3000\u6280\u3092\u3000\u81ea\u5206\u306b\n\u5bc4\u305b\u3064\u3051\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u305a\u306b\n\u7279\u653b\u304c\u3000\u4e0a\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The Pok\u00e9mon draws in all Electric-type moves. \nInstead of being hit by Electric-type moves, \nit boosts its Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attira e neutralizza mosse di tipo Elettro\ne aumenta l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Adem\u00e1s de atraer y neutralizar los movimientos de\ntipo El\u00e9ctrico, sube el Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Zieht Elektro-Attacken an. Statt durch diese\nSchaden zu nehmen, erh\u00f6ht es den eigenen\nSpezial-Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon d\u00e9tourne sur lui les capacit\u00e9s de\ntype \u00c9lectrik et les neutralise, tout en montant\nson Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u96fb\u5c6c\u6027\u7684\u62db\u5f0f\u5438\u5f15\u5230\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u4e0d\u4f46\u4e0d\u6703\u53d7\u5230\u50b7\u5bb3\uff0c\u53cd\u800c\u6703\u63d0\u9ad8\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ud0c0\uc785\uc758 \uae30\uc220\uc744 \uc790\uc2e0\uc5d0\uac8c\n\ub04c\uc5b4\ubaa8\uc544 \ub370\ubbf8\uc9c0\ub97c \ubc1b\uc9c0 \uc54a\uace0\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u3092\u3000\u3058\u3076\u3093\u306b\n\u3088\u305b\u3064\u3051\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u305a\u306b\n\u3068\u304f\u3053\u3046\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u7535\u5c5e\u6027\u7684\u62db\u5f0f\u5438\u5f15\u5230\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u4e0d\u4f1a\u53d7\u5230\u4f24\u5bb3\uff0c\u800c\u662f\u4f1a\u63d0\u9ad8\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\u3000\u6280\u3092\u3000\u81ea\u5206\u306b\n\u5bc4\u305b\u3064\u3051\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u305a\u306b\n\u7279\u653b\u304c\u3000\u4e0a\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The Pok\u00e9mon draws in all Electric-type moves. \nInstead of being hit by Electric-type moves, \nit boosts its Sp. Atk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attira e neutralizza mosse di tipo Elettro\ne aumenta l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Adem\u00e1s de atraer y neutralizar los movimientos de\ntipo El\u00e9ctrico, sube el Ataque Especial.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Zieht Elektro-Attacken an. Statt durch diese\nSchaden zu nehmen, erh\u00f6ht es den eigenen\nSpezial-Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon d\u00e9tourne sur lui les capacit\u00e9s de\ntype \u00c9lectrik et les neutralise, tout en montant\nson Attaque Sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u96fb\u5c6c\u6027\u7684\u62db\u5f0f\u5438\u5f15\u5230\u81ea\u5df1\u8eab\u4e0a\uff0c\n\u4e0d\u4f46\u4e0d\u6703\u53d7\u5230\u50b7\u5bb3\uff0c\u53cd\u800c\u6703\u63d0\u9ad8\u7279\u653b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ud0c0\uc785\uc758 \uae30\uc220\uc744 \uc790\uc2e0\uc5d0\uac8c\n\ub04c\uc5b4\ubaa8\uc544 \ub370\ubbf8\uc9c0\ub97c \ubc1b\uc9c0 \uc54a\uace0\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u3092\u3000\u3058\u3076\u3093\u306b\n\u3088\u305b\u3064\u3051\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u305a\u306b\n\u3068\u304f\u3053\u3046\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u547c\u3073\u8fbc\u3093\u3067\n\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Draws in all Electric-type moves\nto boost its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Neutralizza mosse di tipo Elettro\nper aumentare l\u2019Attacco Speciale. ",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Atrae y neutraliza movimientos de\ntipo El\u00e9ctrico y sube el At. Esp.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Absorbiert Elektro-Attacken\nund steigert den Spezial-Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attire et neutralise les attaques\n\u00c9lectrik et monte l\u2019Atq. Sp\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub97c \ub04c\uc5b4\ubaa8\uc544\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u3088\u3073\u3053\u3093\u3067\n\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u547c\u3073\u8fbc\u3093\u3067\n\u7279\u653b\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Draws in all Electric-type moves\nto boost its Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Neutralizza mosse di tipo Elettro\nper aumentare l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Atrae y neutraliza movimientos de\ntipo El\u00e9ctrico y sube el At. Esp.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Absorbiert Elektro-Attacken\nund steigert den Spezial-Angriff.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attire et neutralise les attaques\n\u00c9lectrik et monte l\u2019Atq. Sp\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub97c \ub04c\uc5b4\ubaa8\uc544\n\ud2b9\uc218\uacf5\uaca9\uc744 \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u3088\u3073\u3053\u3093\u3067\n\u3068\u304f\u3053\u3046\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Draws in all Electric-type\nmoves to up Sp. Attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "Draws in all Electric-type\nmoves to up Sp. Attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Attire l\u2019\u00e9lectricit\u00e9 et\naugmente l\u2019Atq. Sp\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The Pok\u00e9mon draws in all\nElectric-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The Pok\u00e9mon draws in all\nElectric-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The Pok\u00e9mon draws in all\nElectric-type moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Draws electrical moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Draws electrical moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Draws electrical moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 31,
+    "is_main_series": true,
+    "name": "lightning-rod",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u907f\u96f7\u9488"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3072\u3089\u3044\u3057\u3093"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Lightning Rod"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Parafulmine"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Pararrayos"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Blitzf\u00e4nger"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Paratonnerre"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u907f\u96f7\u91dd"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud53c\ub8b0\uce68"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3072\u3089\u3044\u3057\u3093"
+        }
+    ],
+    "pokemon": [
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu",
+                "url": "/api/v2/pokemon/25/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "raichu",
+                "url": "/api/v2/pokemon/26/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "cubone",
+                "url": "/api/v2/pokemon/104/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "marowak",
+                "url": "/api/v2/pokemon/105/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "rhyhorn",
+                "url": "/api/v2/pokemon/111/"
+            },
+            "slot": 1
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "rhydon",
+                "url": "/api/v2/pokemon/112/"
+            },
+            "slot": 1
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "goldeen",
+                "url": "/api/v2/pokemon/118/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "seaking",
+                "url": "/api/v2/pokemon/119/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pichu",
+                "url": "/api/v2/pokemon/172/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "electrike",
+                "url": "/api/v2/pokemon/309/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "manectric",
+                "url": "/api/v2/pokemon/310/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "plusle",
+                "url": "/api/v2/pokemon/311/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "rhyperior",
+                "url": "/api/v2/pokemon/464/"
+            },
+            "slot": 1
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "blitzle",
+                "url": "/api/v2/pokemon/522/"
+            },
+            "slot": 1
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "zebstrika",
+                "url": "/api/v2/pokemon/523/"
+            },
+            "slot": 1
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "togedemaru",
+                "url": "/api/v2/pokemon/777/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "sceptile-mega",
+                "url": "/api/v2/pokemon/10065/"
+            },
+            "slot": 1
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-rock-star",
+                "url": "/api/v2/pokemon/10080/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-belle",
+                "url": "/api/v2/pokemon/10081/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-pop-star",
+                "url": "/api/v2/pokemon/10082/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-phd",
+                "url": "/api/v2/pokemon/10083/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-libre",
+                "url": "/api/v2/pokemon/10084/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-cosplay",
+                "url": "/api/v2/pokemon/10085/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-original-cap",
+                "url": "/api/v2/pokemon/10094/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-hoenn-cap",
+                "url": "/api/v2/pokemon/10095/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-sinnoh-cap",
+                "url": "/api/v2/pokemon/10096/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-unova-cap",
+                "url": "/api/v2/pokemon/10097/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-kalos-cap",
+                "url": "/api/v2/pokemon/10098/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-alola-cap",
+                "url": "/api/v2/pokemon/10099/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "marowak-alola",
+                "url": "/api/v2/pokemon/10115/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": true,
+            "pokemon": {
+                "name": "pikachu-partner-cap",
+                "url": "/api/v2/pokemon/10148/"
+            },
+            "slot": 3
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "marowak-totem",
+                "url": "/api/v2/pokemon/10149/"
+            },
+            "slot": 2
+        },
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "togedemaru-totem",
+                "url": "/api/v2/pokemon/10154/"
+            },
+            "slot": 2
+        }
+    ]
+}

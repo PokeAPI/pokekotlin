@@ -1,0 +1,809 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "yellow",
+        "url": "/api/v2/pokemon-color/10/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/94/"
+    },
+    "evolves_from_species": {
+        "name": "sunkern",
+        "url": "/api/v2/pokemon-species/191/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u592a\u967d\u30a8\u30cd\u30eb\u30ae\u30fc\u304b\u3089\u3000\u6804\u990a\u3092\u3000\u3064\u304f\u308a\u3060\u3059\u3002\n\u6c17\u6e29\u306e\u3000\u9ad8\u3044\u3000\u65e5\u4e2d\u3000\u6d3b\u767a\u306b\u3000\u52d5\u304d\n\u592a\u967d\u304c\u3000\u6c88\u3080\u3068\u3000\u3071\u3063\u305f\u308a\u3000\u52d5\u304b\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sunflora converts solar energy into nutrition. It moves around\nactively in the daytime when it is warm. It stops moving as\nsoon as the sun goes down for the night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sunflora converte l\u2019energia solare in nutrimento. \u00c8 attivo\ndurante il giorno quando fa caldo. Tuttavia, appena il sole\ntramonta non fa pi\u00f9 il minimo movimento.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sunflora transforma la energ\u00eda solar en nutrientes. De d\u00eda,\ncuando hace calor, est\u00e1 en continuo movimiento. Solo para\ncuando comienza a anochecer.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sonnflora verwandelt Solarenergie in N\u00e4hrstoffe. Tags\u00fcber,\nwenn es warm ist, ist es sehr aktiv. Wenn aber die Sonne\nuntergegangen ist, h\u00f6rt es auf, sich zu bewegen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "H\u00e9liatronc convertit l\u2019\u00e9nergie solaire en nutriments. Il remue\nactivement pendant la journ\u00e9e, quand il fait chaud. Il redevient\nimmobile d\u00e8s que le soleil se couche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud0dc\uc591 \uc5d0\ub108\uc9c0\uc5d0\uc11c \uc601\uc591\uc744 \ub9cc\ub4e4\uc5b4\ub0b8\ub2e4.\n\uae30\uc628\uc774 \ub192\uc740 \ub0ae\uc5d0\ub294 \ud65c\ubc1c\ud558\uac8c \uc6c0\uc9c1\uc774\uace0\n\ud0dc\uc591\uc774 \uc9c0\uba74 \ub69d \ud558\ub2c8 \uc6c0\uc9c1\uc774\uc9c0 \uc54a\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3088\u3046\u30a8\u30cd\u30eb\u30ae\u30fc\u304b\u3089\u3000\u3048\u3044\u3088\u3046\u3092\u3000\u3064\u304f\u308a\u3060\u3059\u3002\n\u304d\u304a\u3093\u306e\u3000\u305f\u304b\u3044\u3000\u306b\u3063\u3061\u3085\u3046\u3000\u304b\u3063\u3071\u3064\u306b\u3000\u3046\u3054\u304d\n\u305f\u3044\u3088\u3046\u304c\u3000\u3057\u305a\u3080\u3068\u3000\u3071\u3063\u305f\u308a\u3000\u3046\u3054\u304b\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u592a\u967d\u30a8\u30cd\u30eb\u30ae\u30fc\u304b\u3089\u3000\u6804\u990a\u3092\u3000\u3064\u304f\u308a\u3060\u3059\u3002\n\u6c17\u6e29\u306e\u3000\u9ad8\u3044\u3000\u65e5\u4e2d\u3000\u6d3b\u767a\u306b\u3000\u52d5\u304d\n\u592a\u967d\u304c\u3000\u6c88\u3080\u3068\u3000\u3071\u3063\u305f\u308a\u3000\u52d5\u304b\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Sunflora converts solar energy into nutrition. It moves around\nactively in the daytime when it is warm. It stops moving as\nsoon as the sun goes down for the night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Sunflora converte l\u2019energia solare in nutrimento. \u00c8 attivo\ndurante il giorno quando fa caldo. Tuttavia, appena il sole\ntramonta non fa pi\u00f9 il minimo movimento.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Sunflora transforma la energ\u00eda solar en nutrientes. De d\u00eda,\ncuando hace calor, est\u00e1 en continuo movimiento. Solo para\ncuando comienza a anochecer.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Sonnflora verwandelt Solarenergie in N\u00e4hrstoffe. Tags\u00fcber,\nwenn es warm ist, ist es sehr aktiv. Wenn aber die Sonne\nuntergegangen ist, h\u00f6rt es auf, sich zu bewegen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "H\u00e9liatronc convertit l\u2019\u00e9nergie solaire en nutriments. Il remue\nactivement pendant la journ\u00e9e, quand il fait chaud. Il redevient\nimmobile d\u00e8s que le soleil se couche.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud0dc\uc591 \uc5d0\ub108\uc9c0\uc5d0\uc11c \uc601\uc591\uc744 \ub9cc\ub4e4\uc5b4\ub0b8\ub2e4.\n\uae30\uc628\uc774 \ub192\uc740 \ub0ae\uc5d0\ub294 \ud65c\ubc1c\ud558\uac8c \uc6c0\uc9c1\uc774\uace0\n\ud0dc\uc591\uc774 \uc9c0\uba74 \ub69d \ud558\ub2c8 \uc6c0\uc9c1\uc774\uc9c0 \uc54a\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3088\u3046\u30a8\u30cd\u30eb\u30ae\u30fc\u304b\u3089\u3000\u3048\u3044\u3088\u3046\u3092\u3000\u3064\u304f\u308a\u3060\u3059\u3002\n\u304d\u304a\u3093\u306e\u3000\u305f\u304b\u3044\u3000\u306b\u3063\u3061\u3085\u3046\u3000\u304b\u3063\u3071\u3064\u306b\u3000\u3046\u3054\u304d\n\u305f\u3044\u3088\u3046\u304c\u3000\u3057\u305a\u3080\u3068\u3000\u3071\u3063\u305f\u308a\u3000\u3046\u3054\u304b\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6696\u304b\u3044\u3000\u65e5\u5dee\u3057\u304c\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3002\n\u592a\u967d\u3092\u3000\u8ffd\u3044\u304b\u3051\u3066\u3000\u79fb\u52d5\u3059\u308b\n\u7fd2\u6027\u3067\u3000\u77e5\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It gets energy from warm sunlight and is known for\nits habit of moving in pursuit of it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Trae energia dalla luce del sole e si muove di continuo\nper cercare di assorbirne sempre di pi\u00f9.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Obtiene energ\u00eda de la luz solar. Este Pok\u00e9mon es\nfamoso por su heliotropismo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Warmes Sonnenlicht gibt ihm Energie. Daher wandert\nes stets dem Sonnenlicht hinterher.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Les rayons du soleil lui donnent de l\u2019\u00e9nergie. Il est\nconnu pour migrer vers les r\u00e9gions ensoleill\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub530\ub73b\ud55c \ud587\uc0b4\uc774 \uc5d0\ub108\uc9c0\ub2e4.\n\ud0dc\uc591\uc744 \ucad3\uc544 \uc774\ub3d9\ud558\ub294\n\uc2b5\uc131\uc73c\ub85c \uc54c\ub824\uc838 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u305f\u304b\u3044\u3000\u3072\u3056\u3057\u304c\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3002\n\u305f\u3044\u3088\u3046\u3092\u3000\u304a\u3044\u304b\u3051\u3066\u3000\u3044\u3069\u3046\u3059\u308b\n\u3057\u3085\u3046\u305b\u3044\u3067\u3000\u3057\u3089\u308c\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u6691\u3044\u3000\u5b63\u7bc0\u304c\u3000\u8fd1\u3065\u304f\u3068\n\u9854\u306e\u3000\u82b1\u3073\u3089\u306f\u3000\u9bae\u3084\u304b\u306b\u306a\u308a\n\u6d3b\u767a\u306b\u3000\u52d5\u304f\u3088\u3046\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "As the hot season approaches, the petals on this\nPok\u00e9mon\u2019s face become more vivid and lively.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Con l\u2019avvicinarsi della bella stagione, i suoi petali si\nfanno pi\u00f9 vivi e splendenti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "A medida que se acerca el verano, va adquiriendo un\ncolor m\u00e1s vivo e intenso en los p\u00e9talos de la cara.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Steht der Sommer bevor, werden die Bl\u00e4tter um\ndas Gesicht dieses Pok\u00e9mon aktiv und lebhaft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c0 l\u2019approche des beaux jours, les p\u00e9tales entourant\nsa t\u00eate deviennent plus chatoyants.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ub354\uc6b4 \uacc4\uc808\uc774 \ub2e4\uac00\uc624\uba74\n\uc5bc\uad74\uc758 \uaf43\uc78e\uc774 \uc120\uba85\ud574\uc9c0\uace0\n\ud65c\ubc1c\ud558\uac8c \uc6c0\uc9c1\uc774\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3064\u3044\u3000\u304d\u305b\u3064\u304c\u3000\u3061\u304b\u3065\u304f\u3068\n\u304b\u304a\u306e\u3000\u306f\u306a\u3073\u3089\u306f\u3000\u3042\u3056\u3084\u304b\u306b\u306a\u308a\n\u304b\u3063\u3071\u3064\u306b\u3000\u3046\u3054\u304f\u3088\u3046\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Since it converts sunlight\ninto energy, it is always looking\nin the direction of the sun.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Since it converts sunlight\ninto energy, it is always looking\nin the direction of the sun.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It gets energy from warm sunlight\nand is known for its habit of\nmoving in pursuit of it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Les rayons du soleil lui donnent de\nl\u2019\u00e9nergie. Il est connu pour migrer\nvers les r\u00e9gions ensoleill\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It gets energy from warm sunlight\nand is known for its habit of\nmoving in pursuit of it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Les rayons du soleil lui donnent de\nl\u2019\u00e9nergie. Il est connu pour migrer\nvers les r\u00e9gions ensoleill\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "In the daytime, it rushes about in a\nhectic manner, but it comes to a\ncomplete stop when the sun sets.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It converts sunlight into energy.\nIn the darkness after sunset, it\ncloses its petals and becomes still.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It gets energy from warm sunlight\nand is known for its habit of\nmoving in pursuit of it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It gets energy from warm sunlight\nand is known for its habit of\nmoving in pursuit of it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It gets energy from warm sunlight\nand is known for its habit of\nmoving in pursuit of it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It converts sunlight into energy. In the\ndarkness after sunset, it closes its petals\nand becomes still.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "In the daytime, it rushes about in a\nhectic manner, but it comes to a complete\nstop when the sun sets.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "SUNFLORA convert solar energy into\nnutrition. They are highly active in the\nwarm daytime but suddenly stop moving as\nsoon as the sun sets.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "SUNFLORA converts solar energy into\nnutrition. It moves around actively in\nthe daytime when it is warm.\fIt stops moving as soon as the sun goes\ndown for the night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "SUNFLORA converts solar energy into\nnutrition. It moves around actively in\nthe daytime when it is warm.\fIt stops moving as soon as the sun goes\ndown for the night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "As the hot season\napproaches, the\npetals on this\fPOK\u00e9MON's face\nbecome more vivid\nand lively.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "In the daytime, it\nrushes about in a\nhectic manner, but\fit comes to a com\u00ad\nplete stop when\nthe sun sets.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It converts sun\u00ad\nlight into energy.\nIn the darkness\fafter sunset, it\ncloses its petals\nand becomes still.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u592a\u9633\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u305f\u3044\u3088\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Sun Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Sole",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Sol",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Sonne",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Soleil",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u592a\u967d\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud0dc\uc591\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u305f\u3044\u3088\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 192,
+    "is_baby": false,
+    "name": "sunflora",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5411\u65e5\u82b1\u602a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ad\u30de\u30ef\u30ea"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Sunflora"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sunflora"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Sunflora"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Sonnflora"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "H\u00e9liatronc"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5411\u65e5\u82b1\u602a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud574\ub8e8\ubbf8"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Kimawari"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ad\u30de\u30ef\u30ea"
+        }
+    ],
+    "order": 222,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 21,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 104,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 103,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 192,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "sunflora",
+                "url": "/api/v2/pokemon/192/"
+            }
+        }
+    ]
+}

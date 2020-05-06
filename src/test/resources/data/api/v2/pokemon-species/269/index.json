@@ -1,0 +1,783 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "bug",
+            "url": "/api/v2/egg-group/3/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/135/"
+    },
+    "evolves_from_species": {
+        "name": "cascoon",
+        "url": "/api/v2/pokemon-species/268/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7fbd\u3070\u305f\u304f\u3068\u3000\u7d30\u304b\u3044\u3000\u7c89\u304c\u3000\u821e\u3044\u4e0a\u304c\u308b\u3002\n\u5438\u3044\u3053\u3080\u3068\u3000\u30d7\u30ed\u30ec\u30b9\u30e9\u30fc\u3082\u3000\u5bdd\u8fbc\u3080\u3000\u731b\u6bd2\u3060\u3002\n\u89e6\u89d2\u306e\u3000\u30ec\u30fc\u30c0\u30fc\u3067\u3000\u30a8\u30b5\u3092\u3000\u63a2\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "When Dustox flaps its wings, a fine dust is scattered all over.\nThis dust is actually a powerful poison that will even make a\npro wrestler sick. This Pok\u00e9mon searches for food using its\nantennae like radar.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Quando agita le ali, Dustox sparge una polvere sottile\ntutt\u2019intorno. In realt\u00e0 si tratta di un potente veleno capace\ndi mettere al tappeto anche un campione di lotta libera.\nPer cercare il cibo usa le antenne come un radar.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Cuando Dustox bate las alas, libera un polvillo fino que en\nrealidad es un peligroso veneno que puede resultar da\u00f1ino\nhasta al m\u00e1s fuerte de los fuertes. Las antenas le sirven de\nradar para buscar comida.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Wenn Pudox mit den Fl\u00fcgeln schl\u00e4gt, verteilt es einen\nfeinen Puder. Es handelt sich um ein starkes Gift,\ndas sogar einen Profiboxer umhauen w\u00fcrde. Bei der\nFuttersuche benutzt dieses Pok\u00e9mon seine Antennen\nals Radar.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque Papinox bat des ailes, une l\u00e9g\u00e8re poussi\u00e8re\nse r\u00e9pand. Cette poussi\u00e8re est en fait un puissant poison\ncapable de mettre au tapis un boxeur professionnel.\nCe Pok\u00e9mon cherche sa nourriture avec ses antennes,\ncomme un radar.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uac2f\uc9d3\ud558\uba74 \ubbf8\uc138\ud55c \uac00\ub8e8\uac00 \ub0a0\ub9b0\ub2e4.\n\ub4e4\uc774\ub9c8\uc2dc\uba74 \ud504\ub85c\ub808\uc2ac\ub7ec\ub3c4 \uc7a0\ub4dc\ub294 \ub9f9\ub3c5\uc774\ub2e4.\n\ub354\ub4ec\uc774\uc758 \ub808\uc774\ub354\ub85c \uba39\uc774\ub97c \ucc3e\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u3070\u305f\u304f\u3068\u3000\u3053\u307e\u304b\u3044\u3000\u3053\u306a\u304c\u3000\u307e\u3044\u3042\u304c\u308b\u3002\n\u3059\u3044\u3053\u3080\u3068\u3000\u30d7\u30ed\u30ec\u30b9\u30e9\u30fc\u3082\u3000\u306d\u3053\u3080\u3000\u3082\u3046\u3069\u304f\u3060\u3002\n\u3057\u3087\u3063\u304b\u304f\u306e\u3000\u30ec\u30fc\u30c0\u30fc\u3067\u3000\u30a8\u30b5\u3092\u3000\u3055\u304c\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u706f\u308a\u306b\u3000\u5f15\u304d\u5bc4\u305b\u3089\u308c\u308b\u3000\u7fd2\u6027\u3092\u3000\u6301\u3064\u3002\n\u8857\u706f\u308a\u306b\u3000\u8a98\u308f\u308c\u305f\u3000\u30c9\u30af\u30b1\u30a4\u30eb\u306e\u3000\u7fa4\u308c\u304c\n\u8857\u8def\u6a39\u306e\u3000\u8449\u3063\u3071\u3092\u3000\u98df\u3079\u6563\u3089\u304b\u3057\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dustox is instinctively drawn to light. Swarms of this Pok\u00e9mon\nare attracted by the bright lights of cities, where they wreak\nhavoc by stripping the leaves off roadside trees for food.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dustox \u00e8 istintivamente attratto dalla luce. Nugoli di questi\nPok\u00e9mon sono attirati dalla luce intensa delle citt\u00e0, dove\ncausano danni ingenti strappando le foglie delle piante\ndi cui si nutrono lungo le strade urbane.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Los Dustox se acercan a la luz de forma instintiva. De hecho,\nse agrupan en enjambres alrededor de las luces de las\nciudades y causan estragos en las hojas de los \u00e1rboles que\nest\u00e1n a pie de calle para alimentarse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pudox wird instinktiv vom Licht angezogen. In hell\nerleuchteten St\u00e4dten kann man Scharen dieser Pok\u00e9mon\ndabei beobachten, wie sie gro\u00dfen Schaden anrichten,\nindem sie die Bl\u00e4tter von B\u00e4umen abfressen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Papinox est instinctivement attir\u00e9 par la lumi\u00e8re. Des nu\u00e9es\nde ce Pok\u00e9mon sont attir\u00e9es par les r\u00e9verb\u00e8res des villes,\no\u00f9 il s\u00e8me la pagaille en grignotant les feuilles des arbres\nen bordure de route.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubd88\ube5b\uc5d0 \uc774\ub04c\ub9ac\ub294 \uc2b5\uc131\uc744 \uc9c0\ub154\ub2e4.\n\uac70\ub9ac\uc758 \ubd88\ube5b\uc5d0 \uc720\uc778\ub41c \ub3c5\ucf00\uc77c \ubb34\ub9ac\uac00\n\uac00\ub85c\uc218\uc758 \uc78e\uc744 \uc5b4\uc9c0\ub974\uba70 \uba39\uc5b4\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u304b\u308a\u306b\u3000\u3072\u304d\u3088\u305b\u3089\u308c\u308b\u3000\u3057\u3085\u3046\u305b\u3044\u3092\u3000\u3082\u3064\u3002\n\u307e\u3061\u3042\u304b\u308a\u306b\u3000\u3055\u305d\u308f\u308c\u305f\u3000\u30c9\u30af\u30b1\u30a4\u30eb\u306e\u3000\u3080\u308c\u304c\n\u304c\u3044\u308d\u3058\u3085\u306e\u3000\u306f\u3063\u3071\u3092\u3000\u305f\u3079\u3061\u3089\u304b\u3057\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u8972\u308f\u308c\u308b\u3068\u3000\u6fc0\u3057\u304f\u3000\u7fbd\u3070\u305f\u3044\u3066\n\u731b\u6bd2\u306e\u3000\u7c89\u3092\u3000\u307e\u304d\u6563\u3089\u3059\u3002\n\u65e5\u304c\u66ae\u308c\u308b\u3068\u3000\u884c\u52d5\u3092\u3000\u306f\u3058\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It violently flutters its wings to scatter toxic dust\nwhen attacked. It becomes active after sunset.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se attaccato, sbatte con forza le ali e sparge una\npolvere tossica. Lo si vede in giro dopo il tramonto.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuando se le ataca, bate las alas con fuerza para\nesparcir polvo t\u00f3xico. Es un Pok\u00e9mon nocturno.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Wird es angegriffen, flattert es mit den Fl\u00fcgeln\nund verteilt giftigen Puder. Es ist nachtaktiv.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quand on l\u2019attaque, il bat des ailes pour r\u00e9pandre sa\npoudre toxique. Il sort apr\u00e8s le coucher du soleil.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc2b5\uaca9\ub2f9\ud558\uba74 \uaca9\ud558\uac8c \ub0a0\uac1c\ub97c \uccd0\uc11c\n\ub9f9\ub3c5 \uac00\ub8e8\ub97c \ud769\ubfcc\ub9b0\ub2e4.\n\ub0a0\uc774 \uc800\ubb3c\uba74 \ud589\ub3d9\uc744 \uc2dc\uc791\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u305d\u308f\u308c\u308b\u3068\u3000\u306f\u3052\u3057\u304f\u3000\u306f\u3070\u305f\u3044\u3066\n\u3082\u3046\u3069\u304f\u306e\u3000\u3053\u306a\u3092\u3000\u307e\u304d\u3061\u3089\u3059\u3002\n\u3072\u304c\u304f\u308c\u308b\u3068\u3000\u3053\u3046\u3069\u3046\u3092\u3000\u306f\u3058\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u591c\u884c\u6027\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u660e\u304b\u308a\u306b\u3000\u8a98\u308f\u308c\u305f\u3000\u30c9\u30af\u30b1\u30a4\u30eb\u304c\n\u8857\u8def\u6a39\u306e\u3000\u8449\u3092\u3000\u98df\u3044\u6563\u3089\u304b\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "A nocturnal Pok\u00e9mon. Drawn by streetlights, they\nmessily eat the leaves of trees lining boulevards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon notturno. Attirato dalla luce dei lampioni,\ndivora le foglie degli alberi lungo i viali.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon nocturno. Atra\u00eddo por las luces de la ciudad,\nse come las hojas y arbustos de las avenidas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Nachtaktives Pok\u00e9mon, das vom Licht der Stadt\nangezogen wird und dort die Bl\u00e4tter der B\u00e4ume frisst.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon nocturne est attir\u00e9 par les lueurs de\nla ville et aime les feuilles des arbres urbains.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc57c\ud589\uc131 \ud3ec\ucf13\ubaac\uc774\ub2e4. \ubd88\ube5b\uc5d0\n\uc774\ub04c\ub824\ub098\uc628 \ub3c5\ucf00\uc77c\uc774 \uac00\ub85c\uc218\uc758\n\uc78e\uc744 \ud5e4\uc801\uac70\ub9ac\uba70 \uba39\uc5b4\ub304\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u3053\u3046\u305b\u3044\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3042\u304b\u308a\u306b\u3000\u3055\u305d\u308f\u308c\u305f\u3000\u30c9\u30af\u30b1\u30a4\u30eb\u304c\n\u304c\u3044\u308d\u3058\u3085\u306e\u3000\u306f\u3092\u3000\u304f\u3044\u3061\u3089\u304b\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Toxic powder is scattered with each\nflap. At night, it is known to strip\nleaves off trees lining boulevards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Toxic powder is scattered with each\nflap. At night, it is known to strip\nleaves off trees lining boulevards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Toxic powder is scattered with each\nflap. At night, it is known to strip\nleaves off trees lining boulevards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il disperse un nuage de poudre\ntoxique \u00e0 chaque coup d\u2019aile. Il\naime les feuilles d\u2019arbres urbains.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Toxic powder is scattered with each\nflap. At night, it is known to strip\nleaves off trees lining boulevards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il disperse un nuage de poudre\ntoxique \u00e0 chaque coup d\u2019aile. Il\naime les feuilles d\u2019arbres urbains.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It scatters its fine dust all over\nwhen it is attacked. It is a\nnocturnal Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It scatters its fine dust all over\nwhen it is attacked. It is a\nnocturnal Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Toxic powder is scattered with each\nflap. At night, it is known to strip\nleaves off trees lining boulevards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It violently flutters its wings to\nscatter toxic dust when attacked.\nIt becomes active after sunset.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "A nocturnal Pok\u00e9mon. Drawn by\nstreetlights, they messily eat the\nleaves of trees lining boulevards.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It scatters horribly toxic dust when it\nsenses danger. They tend to gather in the\nglow of streetlamps at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It scatters horribly toxic dust when it\nsenses danger. They tend to gather in the\nglow of streetlamps at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It is a nocturnal POK\u00e9MON that flies from\nfields and mountains to the attraction of\nstreetlights at night. It looses highly\ntoxic powder from its wings.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "When DUSTOX flaps its wings, a fine\ndust is scattered all over. This dust is\nactually a powerful poison that will\feven make a pro wrestler sick.\nThis POK\u00e9MON searches for food using\nits antennae like radar.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "DUSTOX is instinctively drawn to light.\nSwarms of this POK\u00e9MON are attracted\nby the bright lights of cities, where\fthey wreak havoc by stripping the\nleaves off roadside trees for food.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6bd2\u86fe\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3069\u304f\u304c\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Poison Moth Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Velentarma",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Polilla Ven.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Giftmotte",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Papipoison",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6bd2\u86fe\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub3c5\ub098\ubc29\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3069\u304f\u304c\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 15,
+    "id": 269,
+    "is_baby": false,
+    "name": "dustox",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6bd2\u7c89\u86fe"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c9\u30af\u30b1\u30a4\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Dustox"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Dustox"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Dustox"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Pudox"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Papinox"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6bd2\u7c89\u86fe"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub3c5\ucf00\uc77c"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Dokucale"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c9\u30af\u30b1\u30a4\u30eb"
+        }
+    ],
+    "order": 294,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 18,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 52,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 52,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 18,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 269,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "bug-wings",
+        "url": "/api/v2/pokemon-shape/13/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "dustox",
+                "url": "/api/v2/pokemon/269/"
+            }
+        }
+    ]
+}

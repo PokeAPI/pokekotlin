@@ -1,0 +1,944 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "yellow",
+        "url": "/api/v2/pokemon-color/10/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        },
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/89/"
+    },
+    "evolves_from_species": {
+        "name": "flaaffy",
+        "url": "/api/v2/pokemon-species/180/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c3e\u5df4\u4e0a\u7684\u5149\u80fd\u4f20\u81f3\u5b87\u5b99\uff0c\n\u6240\u4ee5\u8eab\u5728\u4f55\u5904\u4e00\u76ee\u4e86\u7136\u3002\n\u56e0\u6b64\u5b83\u5e73\u65f6\u4e0d\u4f1a\u8ba9\u5c3e\u5df4\u53d1\u5149\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30b7\u30c3\u30dd\u306e\u3000\u5149\u306f\u3000\u5b87\u5b99\u307e\u3067\n\u5c4a\u304f\u306e\u3067\u3000\u3069\u3053\u306b\u3044\u308b\u304b\u3000\u307e\u308b\u308f\u304b\u308a\u3002\n\u3060\u304b\u3089\u3000\u666e\u6bb5\u306f\u3000\u6d88\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "The light from its tail can be seen from space.\nThis is why you can always tell exactly where it\nis, which is why it usually keeps the light off.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Questo Pok\u00e9mon \u00e8 facile da individuare grazie\nalla luce della sua coda, visibile anche dallo\nspazio. Per questo di solito la tiene spenta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La luz que emite su cola puede verse desde el\nespacio, delatando su presencia a todos. Es por\neso que normalmente la mantiene apagada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Das Licht seiner Schweifspitze kann man selbst\naus dem Weltall noch sehen. Um seinen Standort\nzu verbergen, macht es sein Licht zumeist aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La lumi\u00e8re de sa queue est si vive qu\u2019on peut\nla voir depuis l\u2019espace. En g\u00e9n\u00e9ral, il l\u2019\u00e9teint\ndonc pour \u00e9viter de se faire rep\u00e9rer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5c3e\u5df4\u767c\u51fa\u7684\u5149\u80fd\u76f4\u9054\u5b87\u5b99\uff0c\n\u8b93\u7260\u7684\u6240\u5728\u4f4d\u7f6e\u4e00\u76ee\u4e86\u7136\uff0c\n\u6240\u4ee5\u7260\u5e73\u5e38\u4e0d\u6703\u8b93\u5c3e\u5df4\u767c\u5149\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uaf2c\ub9ac\uc758 \ube5b\uc740 \uc6b0\uc8fc\uae4c\uc9c0 \ub3c4\ub2ec\ud558\uc5ec\n\uc5b4\ub514\uc5d0 \uc788\ub4e0 \ubc14\ub85c \uc54c \uc218 \uc788\ub2e4.\n\uadf8\ub798\uc11c \ud3c9\uc18c\uc5d0\ub294 \ub044\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30b7\u30c3\u30dd\u306e\u3000\u3072\u304b\u308a\u306f\u3000\u3046\u3061\u3085\u3046\u307e\u3067\n\u3068\u3069\u304f\u306e\u3067\u3000\u3069\u3053\u306b\u3044\u308b\u304b\u3000\u307e\u308b\u308f\u304b\u308a\u3002\n\u3060\u304b\u3089\u3000\u3075\u3060\u3093\u306f\u3000\u3051\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u706f\u308a\u306f\u3000\u5b87\u5b99\u304b\u3089\u3082\u3000\u898b\u3048\u308b\u3002\n\u6614\u306e\u3000\u4eba\u306f\u3000\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u706f\u308a\u3092\u3000\u4f7f\u3044\n\u9060\u304f\u306e\u3000\u4ef2\u9593\u3068\u3000\u5408\u56f3\u3092\u3000\u9001\u308a\u3042\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos gives off so much light that it can be seen even from\nspace. People in the old days used the light of this Pok\u00e9mon\nto send signals back and forth with others far away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos emana una luce cos\u00ec intensa da essere visibile\nanche dallo spazio. In passato si usava questo Pok\u00e9mon\nper mandare segnali luminosi a persone molto lontane.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos desprende tanta luz que es posible verle hasta\ndesde el espacio. Antes, la gente usaba su luz como sistema\nde comunicaci\u00f3n para enviarse se\u00f1ales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos strahlt so viel Licht aus, dass es sogar aus dem\nWeltraum noch gesehen werden kann. In der Antike benutzten\ndie Menschen das Licht dieses Pok\u00e9mon dazu, Signale \u00fcber\nweite Entfernungen auszutauschen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pharamp est si lumineux qu\u2019on peut le voir de l\u2019espace.\nJadis, les gens utilisaient la lumi\u00e8re de ce Pok\u00e9mon pour\ncommuniquer et s\u2019envoyer des signaux \u00e0 grande distance.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\ub8e1\uc758 \ube5b\uc740 \uc6b0\uc8fc\uc5d0\uc11c\ub3c4 \ubcf4\uc778\ub2e4.\n\uc61b\ub0a0 \uc0ac\ub78c\uc740 \uc804\ub8e1\uc758 \ube5b\uc744 \uc368\uc11c\n\uba40\ub9ac \uc788\ub294 \ub3d9\ub8cc\uc640 \uc2e0\ud638\ub97c \uc8fc\uace0\ubc1b\uc558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u3042\u304b\u308a\u306f\u3000\u3046\u3061\u3085\u3046\u304b\u3089\u3082\u3000\u202f\u3048\u308b\u3002\n\u3080\u304b\u3057\u306e\u3000\u3072\u3068\u306f\u3000\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u3042\u304b\u308a\u3092\u3000\u3064\u304b\u3044\n\u3068\u304a\u304f\u306e\u3000\u306a\u304b\u307e\u3068\u3000\u3042\u3044\u305a\u3092\u3000\u304a\u304f\u308a\u3042\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u706f\u308a\u306f\u3000\u5b87\u5b99\u304b\u3089\u3082\u3000\u898b\u3048\u308b\u3002\n\u6614\u306e\u3000\u4eba\u306f\u3000\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u706f\u308a\u3092\u3000\u4f7f\u3044\n\u9060\u304f\u306e\u3000\u4ef2\u9593\u3068\u3000\u5408\u56f3\u3092\u3000\u9001\u308a\u3042\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos gives off so much light that it can be seen even from\nspace. People in the old days used the light of this Pok\u00e9mon\nto send signals back and forth with others far away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos emana una luce cos\u00ec intensa da essere visibile\nanche dallo spazio. In passato si usava questo Pok\u00e9mon\nper mandare segnali luminosi a persone molto lontane.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos desprende tanta luz que es posible verle hasta\ndesde el espacio. Antes, la gente usaba su luz como sistema\nde comunicaci\u00f3n para enviarse se\u00f1ales.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ampharos strahlt so viel Licht aus, dass es sogar aus dem\nWeltraum noch gesehen werden kann. In der Antike benutzten\ndie Menschen das Licht dieses Pok\u00e9mon dazu, Signale \u00fcber\nweite Entfernungen auszutauschen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pharamp est si lumineux qu\u2019on peut le voir de l\u2019espace.\nJadis, les gens utilisaient la lumi\u00e8re de ce Pok\u00e9mon pour\ncommuniquer et s\u2019envoyer des signaux \u00e0 grande distance.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\ub8e1\uc758 \ube5b\uc740 \uc6b0\uc8fc\uc5d0\uc11c\ub3c4 \ubcf4\uc778\ub2e4.\n\uc61b\ub0a0 \uc0ac\ub78c\uc740 \uc804\ub8e1\uc758 \ube5b\uc744 \uc368\uc11c\n\uba40\ub9ac \uc788\ub294 \ub3d9\ub8cc\uc640 \uc2e0\ud638\ub97c \uc8fc\uace0\ubc1b\uc558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u3042\u304b\u308a\u306f\u3000\u3046\u3061\u3085\u3046\u304b\u3089\u3082\u3000\u202f\u3048\u308b\u3002\n\u3080\u304b\u3057\u306e\u3000\u3072\u3068\u306f\u3000\u30c7\u30f3\u30ea\u30e5\u30a6\u306e\u3000\u3042\u304b\u308a\u3092\u3000\u3064\u304b\u3044\n\u3068\u304a\u304f\u306e\u3000\u306a\u304b\u307e\u3068\u3000\u3042\u3044\u305a\u3092\u3000\u304a\u304f\u308a\u3042\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5c3b\u5c3e\u306e\u3000\u5148\u304c\u3000\u5149\u308a\u8f1d\u304f\u3002\n\u5149\u306f\u3000\u306f\u308b\u304b\u3000\u9060\u304f\u307e\u3067\u3000\u5c4a\u304d\n\u8ff7\u3063\u305f\u8005\u306e\u3000\u9053\u6a19\u3068\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "The tail\u2019s tip shines brightly and can be seen from\nfar away. It acts as a beacon for lost people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "La punta molto luminosa della coda \u00e8 visibile da\ngrandi distanze. Fa da segnale per chi si \u00e8 perso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "La punta de su cola reluce brillantemente y puede ser\nvista desde lejos. Es usado como faro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Seine Schweifspitze ist so hell, dass viele\nVerschollene es als Orientierungspunkt nutzen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Le bout de sa queue brille si fort qu\u2019il peut \u00eatre vu de\ntr\u00e8s loin. Il sert de balise aux gens.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uaf2c\ub9ac \ub05d\uc774 \ube5b\ub098\uba70 \ubc18\uc9dd\uc778\ub2e4.\n\ube5b\uc774 \uc544\ub4dd\ud788 \uba3c \uacf3\uae4c\uc9c0 \ub2ff\uc544\uc11c\n\uae38 \uc783\uc740 \uc790\ub4e4\uc758 \uc774\uc815\ud45c\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3063\u307d\u306e\u3000\u3055\u304d\u304c\u3000\u3072\u304b\u308a\u304b\u304c\u3084\u304f\u3002\n\u3072\u304b\u308a\u306f\u3000\u306f\u308b\u304b\u3000\u3068\u304a\u304f\u307e\u3067\u3000\u3068\u3069\u304d\n\u307e\u3088\u3063\u305f\u3082\u306e\u306e\u3000\u307f\u3061\u3057\u308b\u3079\u3068\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5c3b\u5c3e\u306e\u5148\u304c\u3000\u5149\u308a\u8f1d\u304f\u3002\n\u5149\u306f\u3000\u306f\u308b\u304b\u3000\u9060\u304f\u307e\u3067\u3000\u5c4a\u304d\n\u8ff7\u3063\u305f\u8005\u306e\u3000\u9053\u6a19\u3068\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The tail\u2019s tip shines brightly and can be seen from\nfar away. It acts as a beacon for lost people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La punta molto luminosa della coda \u00e8 visibile da\ngrandi distanze. Fa da segnale per chi si \u00e8 perso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La punta de su cola reluce brillantemente y puede ser\nvista desde lejos. Es usado como faro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Seine Schweifspitze ist so hell, dass viele\nVerschollene es als Orientierungspunkt nutzen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Le bout de sa queue brille si fort qu\u2019il peut \u00eatre vu\nde tr\u00e8s loin. Il sert de balise aux gens.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uaf2c\ub9ac \ub05d\uc774 \ube5b\ub098\uba70 \ubc18\uc9dd\uc778\ub2e4.\n\ube5b\uc774 \uc544\ub4dd\ud788 \uba3c \uacf3\uae4c\uc9c0 \ub2ff\uc544\uc11c\n\uae38 \uc783\uc740 \uc790\ub4e4\uc758 \uc774\uc815\ud45c\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3063\u307d\u306e\u3055\u304d\u304c\u3000\u3072\u304b\u308a\u304b\u304c\u3084\u304f\u3002\n\u3072\u304b\u308a\u306f\u3000\u306f\u308b\u304b\u3000\u3068\u304a\u304f\u307e\u3067\u3000\u3068\u3069\u304d\n\u307e\u3088\u3063\u305f\u3082\u306e\u306e\u3000\u307f\u3061\u3057\u308b\u3079\u3068\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The tip of its tail shines so brightly it\ncan be used to send sea-navigation\nbeacons to distant foreign shores.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The tip of its tail shines so brightly it\ncan be used to send sea-navigation\nbeacons to distant foreign shores.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "The tip of its tail shines brightly.\nIn the olden days, people sent\nsignals using the tail\u2019s light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Le bout de sa queue brille avec\nintensit\u00e9. Jadis, on s\u2019en servait\npour envoyer des signaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "The tip of its tail shines brightly.\nIn the olden days, people sent\nsignals using the tail\u2019s light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Le bout de sa queue brille avec\nintensit\u00e9. Jadis, on s\u2019en servait\npour envoyer des signaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "The bright light on its tail can be\nseen far away. It has been treasured\nsince ancient times as a beacon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "The tail\u2019s tip shines brightly and\ncan be seen from far away. It acts\nas a beacon for lost people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "The tip of its tail shines brightly.\nIn the olden days, people sent\nsignals using the tail\u2019s light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "The tip of its tail shines brightly.\nIn the olden days, people sent\nsignals using the tail\u2019s light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "The tip of its tail shines brightly.\nIn the olden days, people sent\nsignals using the tail\u2019s light.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The tail\u2019s tip shines brightly and can be\nseen from far away. It acts as a beacon\nfor lost people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "The bright light on its tail can be seen\nfar away. It has been treasured since\nancient times as a beacon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It gives off so much light that it can be\nseen even from space. People in the old\ndays used its light to send signals back\nand forth with others far away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "AMPHAROS gives off so much light that\nit can be seen even from space.\nPeople in the old days used the light of\fthis POK\u00e9MON to send signals back and\nforth with others far away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "AMPHAROS gives off so much light that\nit can be seen even from space.\nPeople in the old days used the light of\fthis POK\u00e9MON to send signals back and\nforth with others far away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "When it gets dark,\nthe light from its\nbright, shiny tail\fcan be seen from\nfar away on the\nocean's surface.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "The bright light\non its tail can be\nseen far away. It\fhas been treasured\nsince ancient\ntimes as a beacon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "The tail's tip\nshines brightly\nand can be seen\ffrom far away. It\nacts as a beacon\nfor lost people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": true,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u706f\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30e9\u30a4\u30c8\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Light Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Luce",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Luz",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Leuchte",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Lumi\u00e8re",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u71c8\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub77c\uc774\ud2b8\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30e9\u30a4\u30c8\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 181,
+    "is_baby": false,
+    "name": "ampharos",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7535\u9f99"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c7\u30f3\u30ea\u30e5\u30a6"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Ampharos"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Ampharos"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Ampharos"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Ampharos"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Pharamp"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u96fb\u9f8d"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc804\ub8e1"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Denryu"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c7\u30f3\u30ea\u30e5\u30a6"
+        }
+    ],
+    "order": 210,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 129,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 47,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 27,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 55,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 55,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 181,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "ampharos",
+                "url": "/api/v2/pokemon/181/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "ampharos-mega",
+                "url": "/api/v2/pokemon/10045/"
+            }
+        }
+    ]
+}

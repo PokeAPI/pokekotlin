@@ -1,0 +1,135 @@
+[
+    {
+        "location_area": {
+            "name": "snowpoint-temple-1f",
+            "url": "/api/v2/location-area/107/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 47,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 47
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 49,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 49
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 49,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "platinum",
+                    "url": "/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "lake-acuity-area",
+            "url": "/api/v2/location-area/138/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "swarm-yes",
+                                "url": "/api/v2/encounter-condition-value/1/"
+                            }
+                        ],
+                        "max_level": 35,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "swarm-yes",
+                                "url": "/api/v2/encounter-condition-value/1/"
+                            }
+                        ],
+                        "max_level": 35,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 40,
+                "version": {
+                    "name": "diamond",
+                    "url": "/api/v2/version/12/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "swarm-yes",
+                                "url": "/api/v2/encounter-condition-value/1/"
+                            }
+                        ],
+                        "max_level": 35,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "swarm-yes",
+                                "url": "/api/v2/encounter-condition-value/1/"
+                            }
+                        ],
+                        "max_level": 35,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 40,
+                "version": {
+                    "name": "pearl",
+                    "url": "/api/v2/version/13/"
+                }
+            }
+        ]
+    }
+]

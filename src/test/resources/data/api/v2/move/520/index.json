@@ -1,0 +1,579 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If a friendly Pok\u00e9mon used fire pledge earlier this turn, all opposing Pok\u00e9mon will take 1/8 their max HP in damage at the end of every turn for four turns (including this one).",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "With Fire Pledge, damages opposing Pok\u00e9mon for 1/8 their max HP every turn for four turns."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u8349\u67f1\u8fdb\u884c\u653b\u51fb\u3002\n\u5982\u679c\u548c\u6c34\u7ec4\u5408\uff0c\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\uff0c\n\u5468\u56f4\u4f1a\u53d8\u6210\u6e7f\u5730\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u306e\u67f1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u307f\u305a\u3068\u3000\u7d44\u307f\u3042\u308f\u305b\u308b\u3068\u3000\u5a01\u529b\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u6e7f\u539f\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il bersaglio con una colonna d\u2019erba.\nSe usata con Acquapatto, gli effetti aumentano\ne il campo diventa una palude.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con columnas de hojas. Combinado con \nVoto Agua, crea un pantano y aumenta su\npotencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ein Angriff mit Pflanzens\u00e4ulen. Mit Wassers\u00e4ulen\nkombiniert steigt die Wirkung und die Umgebung\nwird zu einem Sumpf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une masse v\u00e9g\u00e9tale s\u2019abat sur l\u2019ennemi.\nEn l\u2019utilisant avec Aire d\u2019Eau, l\u2019effet augmente\net un mar\u00e9cage appara\u00eet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8349\u67f1\u9032\u884c\u653b\u64ca\u3002\n\u548c\u6c34\u4e4b\u8a93\u7d04\u540c\u6642\u4f7f\u7528\u6642\uff0c\u5a01\u529b\u6703\u63d0\u9ad8\uff0c\n\u5468\u570d\u6703\u8b8a\u6210\u6fd5\u5730\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uae30\ub465\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\ubb3c\uacfc \uc870\ud569\ud558\uba74 \uc704\ub825\uc774\n\uc62c\ub77c\uac00\uace0 \uc8fc\ubcc0\uc774 \uc2b5\uc9c0\ucd08\uc6d0\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u306e\u3000\u306f\u3057\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307f\u305a\u3068\u3000\u304f\u307f\u3042\u308f\u305b\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u3057\u3064\u3052\u3093\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8349\u67f1\u8fdb\u884c\u653b\u51fb\u3002\n\u5982\u679c\u548c\u6c34\u7ec4\u5408\uff0c\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\uff0c\n\u5468\u56f4\u4f1a\u53d8\u6210\u6e7f\u5730\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u306e\u67f1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u307f\u305a\u3068\u3000\u7d44\u307f\u3042\u308f\u305b\u308b\u3068\u3000\u5a01\u529b\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u6e7f\u539f\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il bersaglio con una colonna d\u2019erba.\nSe usata con Acquapatto, gli effetti aumentano\ne il campo diventa una palude.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con columnas de hojas. Combinado con \nVoto Agua, crea un pantano y aumenta su\npotencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ein Angriff mit Pflanzens\u00e4ulen. Mit Wassers\u00e4ulen\nkombiniert steigt die Wirkung und die Umgebung\nwird zu einem Sumpf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une masse v\u00e9g\u00e9tale s\u2019abat sur l\u2019ennemi.\nEn l\u2019utilisant avec Aire d\u2019Eau, l\u2019effet augmente\net un mar\u00e9cage appara\u00eet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8349\u67f1\u9032\u884c\u653b\u64ca\u3002\n\u548c\u6c34\u4e4b\u8a93\u7d04\u540c\u6642\u4f7f\u7528\u6642\uff0c\u5a01\u529b\u6703\u63d0\u9ad8\uff0c\n\u5468\u570d\u6703\u8b8a\u6210\u6fd5\u5730\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uae30\ub465\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\ubb3c\uacfc \uc870\ud569\ud558\uba74 \uc704\ub825\uc774\n\uc62c\ub77c\uac00\uace0 \uc8fc\ubcc0\uc774 \uc2b5\uc9c0\ucd08\uc6d0\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u306e\u3000\u306f\u3057\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307f\u305a\u3068\u3000\u304f\u307f\u3042\u308f\u305b\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u3057\u3064\u3052\u3093\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u306e\u67f1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u202f\u305a\u3068\u3000\u7d44\u202f\u3042\u308f\u305b\u308b\u3068\u3000\u5a01\u529b\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u6e7f\u539f\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "A column of grass hits the target. When used with\nits water equivalent, its damage increases and\na vast swamp appears.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il bersaglio con una colonna d\u2019erba.\nSe usata con Acquapatto, gli effetti aumentano\ne il campo diventa una palude.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con columnas de hojas. Combinado con \nVoto Agua, crea un pantano y aumenta su\npotencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ein Angriff mit Pflanzs\u00e4ulen. Mit Wassers\u00e4ulen\nkombiniert steigt die Wirkung und die Umgebung\nwird zu einem Sumpf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une masse v\u00e9g\u00e9tale s\u2019abat sur l\u2019ennemi.\nEn l\u2019utilisant avec Aire d\u2019Eau, l\u2019effet augmente\net un mar\u00e9cage appara\u00eet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uae30\ub465\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\ubb3c\uacfc \uc870\ud569\ud558\uba74 \uc704\ub825\uc774\n\uc62c\ub77c\uac00\uace0 \uc8fc\ubcc0\uc774 \uc2b5\uc9c0\ucd08\uc6d0\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u306e\u3000\u306f\u3057\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u202f\u305a\u3068\u3000\u304f\u202f\u3042\u308f\u305b\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u3057\u3064\u3052\u3093\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u8349\u306e\u67f1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u307f\u305a\u3068\u3000\u7d44\u307f\u3042\u308f\u305b\u308b\u3068\u3000\u5a01\u529b\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u6e7f\u539f\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A column of grass hits the target. When used with\nits water equivalent, its damage increases and\na vast swamp appears.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il bersaglio con una colonna d\u2019erba.\nSe usata con Acquapatto, gli effetti aumentano\ne il campo diventa una palude.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con columnas de hojas. Combinado con\nVoto Agua, crea un pantano y aumenta su\npotencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ein Angriff mit Pflanzs\u00e4ulen. Mit Wassers\u00e4ulen\nkombiniert steigt die Wirkung und die Umgebung\nwird zu einem Sumpf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une masse v\u00e9g\u00e9tale s\u2019abat sur l\u2019ennemi.\nEn l\u2019utilisant avec Aire d\u2019Eau, l\u2019effet augmente\net un mar\u00e9cage appara\u00eet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud480\uae30\ub465\uc73c\ub85c \uacf5\uaca9\ud55c\ub2e4.\n\ubb3c\uacfc \uc870\ud569\ud558\uba74 \uc704\ub825\uc774\n\uc62c\ub77c\uac00\uace0 \uc8fc\ubcc0\uc774 \uc2b5\uc9c0\ucd08\uc6d0\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3055\u306e\u3000\u306f\u3057\u3089\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307f\u305a\u3068\u3000\u304f\u307f\u3042\u308f\u305b\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\n\u3042\u304c\u3063\u3066\u3000\u3042\u305f\u308a\u304c\u3000\u3057\u3064\u3052\u3093\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A column of grass hits opposing Pok\u00e9mon.\nWhen used with its water equivalent, its\ndamage increases into a vast swamp.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "A column of grass hits opposing Pok\u00e9mon.\nWhen used with its water equivalent, its\ndamage increases into a vast swamp.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une masse v\u00e9g\u00e9tale s\u2019abat sur l\u2019ennemi.\nEn l\u2019utilisant avec Aire d\u2019Eau, l\u2019effet\naugmente et un mar\u00e9cage appara\u00eet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 520,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "grass-pledge",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u8349\u4e4b\u8a93\u7ea6"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304f\u3055\u306e\u3061\u304b\u3044"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Grass Pledge"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Erbapatto"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Voto Planta"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Pflanzens\u00e4ulen"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Aire d\u2019Herbe"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u8349\u4e4b\u8a93\u7d04"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud480\uc758\ub9f9\uc138"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304f\u3055\u306e\u3061\u304b\u3044"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 50,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 80,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+    }
+}

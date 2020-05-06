@@ -1,0 +1,655 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/27/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Hits Pok\u00e9mon under the effects of dig and fly.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Never misses."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f7f\u51fa\u6df7\u5f71\u4e4b\u62f3\u3002\n\u653b\u51fb\u5fc5\u5b9a\u4f1a\u547d\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u653b\u6483\u306f\u3000\u5fc5\u305a\u3000\u547d\u4e2d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a punch from the shadows. This\nattack never misses.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Il bersaglio riceve un pugno proveniente\ndalle tenebre. Questa mossa \u00e8 infallibile.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo ineludible procedente de las sombras. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Faust aus dem Schattenreich.\nAusweichen unm\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur surgit des ombres et donne un coup\nde poing. N\u2019\u00e9choue jamais.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6697\u85cf\u5728\u9670\u5f71\u4e4b\u4e2d\u51fa\u62f3\u3002\n\u653b\u64ca\u5fc5\u5b9a\u6703\u547d\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\uc5d0 \uc11e\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uacf5\uaca9\uc740 \ubc18\ub4dc\uc2dc \uba85\uc911\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u3053\u3046\u3052\u304d\u306f\u3000\u304b\u306a\u3089\u305a\u3000\u3081\u3044\u3061\u3085\u3046\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u51fa\u6df7\u5f71\u4e4b\u62f3\u3002\n\u653b\u51fb\u5fc5\u5b9a\u4f1a\u547d\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u653b\u6483\u306f\u3000\u5fc5\u305a\u3000\u547d\u4e2d\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a punch from the shadows. This\nattack never misses.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Il bersaglio riceve un pugno proveniente\ndalle tenebre. Questa mossa \u00e8 infallibile.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo ineludible procedente de las sombras. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Faust aus dem Schattenreich.\nAusweichen unm\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur surgit des ombres et donne un coup\nde poing. N\u2019\u00e9choue jamais.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6697\u85cf\u5728\u9670\u5f71\u4e4b\u4e2d\u51fa\u62f3\u3002\n\u653b\u64ca\u5fc5\u5b9a\u6703\u547d\u4e2d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\uc5d0 \uc11e\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uacf5\uaca9\uc740 \ubc18\ub4dc\uc2dc \uba85\uc911\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u3053\u3046\u3052\u304d\u306f\u3000\u304b\u306a\u3089\u305a\u3000\u3081\u3044\u3061\u3085\u3046\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u653b\u6483\u306f\u3000\u5fc5\u305a\u3000\u547d\u4e2d\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a punch from the shadows.\nThis attack never misses.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Il bersaglio riceve un pugno proveniente\ndalle tenebre. Questa mossa \u00e8 infallibile.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo ineludible procedente de las sombras. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Faust aus dem Schattenreich.\nAusweichen unm\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur surgit des ombres et donne un coup\nde poing. N\u2019\u00e9choue jamais.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\uc5d0 \uc11e\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uacf5\uaca9\uc740 \ubc18\ub4dc\uc2dc \uba85\uc911\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u3053\u3046\u3052\u304d\u306f\u3000\u304b\u306a\u3089\u305a\u3000\u3081\u3044\u3061\u3085\u3046\u3000\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5f71\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u653b\u6483\u306f\u3000\u5fc5\u305a\u3000\u547d\u4e2d\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a punch from the shadows.\nThis attack never misses.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Il bersaglio riceve un pugno proveniente\ndalle tenebre. Questa mossa \u00e8 infallibile.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f1etazo ineludible procedente de las sombras.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit der Faust aus dem Schattenreich.\nAusweichen unm\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur surgit des ombres et donne un coup\nde poing. N\u2019\u00e9choue jamais.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9bc\uc790\uc5d0 \uc11e\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uacf5\uaca9\uc740 \ubc18\ub4dc\uc2dc \uba85\uc911\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3052\u306b\u3000\u307e\u304e\u308c\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u3053\u3046\u3052\u304d\u306f\u3000\u304b\u306a\u3089\u305a\u3000\u3081\u3044\u3061\u3085\u3046\u3000\u3059\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a punch from the shadows.\nThe punch lands without fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a punch from the shadows.\nThe punch lands without fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur surgit des ombres et donne\nun coup de poing. N\u2019\u00e9choue jamais.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user throws a\npunch from the\nshadows. It cannot\nbe evaded.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "An unavoidable punch that\nis thrown from shadows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "An unavoidable punch that\nis thrown from shadows.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 325,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "shadow-punch",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6697\u5f71\u62f3"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b7\u30e3\u30c9\u30fc\u30d1\u30f3\u30c1"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Shadow Punch"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Pugnodombra"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Pu\u00f1o Sombra"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Finsterfaust"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Poing Ombre"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6697\u5f71\u62f3"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc100\ub3c4\ud380\uce58"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b7\u30e3\u30c9\u30fc\u30d1\u30f3\u30c1"
+        }
+    ],
+    "past_values": [],
+    "power": 60,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+    }
+}

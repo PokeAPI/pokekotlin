@@ -1,0 +1,632 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target has less than half its max HP remaining, this move has double power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has double power against Pok\u00e9mon that have less than half their max HP remaining."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5f53\u5bf9\u624b\u7684\uff28\uff30\n\u8d1f\u4f24\u5230\u4e00\u534a\u5de6\u53f3\u65f6\uff0c\n\u62db\u5f0f\u5a01\u529b\u4f1a\u53d8\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\uff28\uff30\u306e\u3000\u534a\u5206\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u6280\u306e\u3000\u5a01\u529b\u304c\n\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "If the target\u2019s HP is half or less, this attack will hit\nwith double the power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Se i PS del bersaglio sono scesi a met\u00e0 o meno,\nquesta mossa colpir\u00e0 con il doppio della potenza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Si al objetivo le queda la mitad o menos de sus PS, \nel ataque ser\u00e1 el doble de fuerte.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel die H\u00e4lfte oder weniger seiner\nmaximalen KP, trifft diese Attacke mit doppelter\nKraft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus puissante lorsque\nl\u2019ennemi a moins de la moiti\u00e9 de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7576\u5c0d\u624b\u8ca0\u50b7\uff0c\n\uff28\uff30\u5269\u4e00\u534a\u5de6\u53f3\u6642\uff0c\n\u62db\u5f0f\u5a01\u529b\u6703\u8b8a\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 HP\uc758 \uc808\ubc18 \uc815\ub3c4\n\uc0c1\ucc98\ub97c \uc785\uace0 \uc788\uc73c\uba74 \uae30\uc220\uc758\n\uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u3000\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\n\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f53\u5bf9\u624b\u7684\uff28\uff30\n\u8d1f\u4f24\u5230\u4e00\u534a\u5de6\u53f3\u65f6\uff0c\n\u62db\u5f0f\u5a01\u529b\u4f1a\u53d8\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\uff28\uff30\u306e\u3000\u534a\u5206\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u6280\u306e\u3000\u5a01\u529b\u304c\n\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "If the target\u2019s HP is half or less, this attack will hit\nwith double the power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Se i PS del bersaglio sono scesi a met\u00e0 o meno,\nquesta mossa colpir\u00e0 con il doppio della potenza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Si al objetivo le queda la mitad o menos de sus PS, \nel ataque ser\u00e1 el doble de fuerte.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel die H\u00e4lfte oder weniger seiner\nmaximalen KP, trifft diese Attacke mit doppelter\nKraft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus puissante lorsque\nl\u2019ennemi a moins de la moiti\u00e9 de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7576\u5c0d\u624b\u8ca0\u50b7\uff0c\n\uff28\uff30\u5269\u4e00\u534a\u5de6\u53f3\u6642\uff0c\n\u62db\u5f0f\u5a01\u529b\u6703\u8b8a\u6210\uff12\u500d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 HP\uc758 \uc808\ubc18 \uc815\ub3c4\n\uc0c1\ucc98\ub97c \uc785\uace0 \uc788\uc73c\uba74 \uae30\uc220\uc758\n\uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u3000\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\n\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\uff28\uff30\u306e\u3000\u534a\u5206\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u6280\u306e\u3000\u5a01\u529b\u304c\n\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "If the target\u2019s HP is half or less,\nthis attack will hit with double\nthe power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Se i PS del bersaglio sono scesi a met\u00e0 o meno,\nquesta mossa colpir\u00e0 con il doppio della potenza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Si al objetivo le queda la mitad o menos de sus PS, \nel ataque ser\u00e1 el doble de fuerte.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel die H\u00e4lfte oder weniger\nseiner maximalen KP, trifft diese Attacke\nmit doppelter Kraft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus puissante lorsque\nl\u2019ennemi a moins de la moiti\u00e9 de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 HP\uc758 \uc808\ubc18 \uc815\ub3c4\n\uc0c1\ucc98\ub97c \uc785\uace0 \uc788\uc73c\uba74 \uae30\uc220\uc758\n\uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u3000\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\n\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u304c\u3000\uff28\uff30\u306e\u3000\u534a\u5206\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u6280\u306e\u3000\u5a01\u529b\u304c\n\uff12\u500d\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "If the target\u2019s HP is half or less,\nthis attack will hit with double\nthe power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Se i PS del bersaglio sono scesi a met\u00e0 o meno,\nquesta mossa colpir\u00e0 con il doppio della potenza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Si al objetivo le queda la mitad o menos de sus PS,\nel ataque ser\u00e1 el doble de fuerte.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Hat das Ziel die H\u00e4lfte oder weniger\nseiner maximalen KP, trifft diese Attacke\nmit doppelter Kraft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus puissante lorsque\nl\u2019ennemi a moins de la moiti\u00e9 de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uac00 HP\uc758 \uc808\ubc18 \uc815\ub3c4\n\uc0c1\ucc98\ub97c \uc785\uace0 \uc788\uc73c\uba74 \uae30\uc220\uc758\n\uc704\ub825\uc774 2\ubc30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\u3000\u304f\u3089\u3044\n\u304d\u305a\u3092\u3000\u304a\u3063\u3066\u3044\u308b\u3068\u3000\u308f\u3056\u306e\u3000\u3044\u308a\u3087\u304f\u304c\n\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "If the target\u2019s HP is down to about half,\nthis attack will hit with double\nthe power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "If the target\u2019s HP is down to about half,\nthis attack will hit with double\nthe power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est deux fois plus\npuissante lorsque l\u2019ennemi a moins\nde la moiti\u00e9 de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "If the foe\u2019s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "If the foe\u2019s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "If the foe\u2019s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 362,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/937/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/938/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/939/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "brine",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u76d0\u6c34"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3057\u304a\u307f\u305a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Brine"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Acquadisale"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Salmuera"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Lake"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Saumure"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9e7d\u6c34"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc18c\uae08\ubb3c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3057\u304a\u307f\u305a"
+        }
+    ],
+    "past_values": [],
+    "power": 65,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/4/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

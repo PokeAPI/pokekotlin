@@ -1,0 +1,621 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User carries the target high into the air for one turn, during which no moves will hit either Pok\u00e9mon and neither can act.  On the following turn, the user drops the target, inflicting damage and ending the effect.\n\nIf the target is flying-type, this move will function as normal but inflict no damage.\n\ngust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind can hit both the user and the target during this effect.  gust and twister will additionally have double power.\n\nThe damage from hail and sandstorm still applies during this effect.\n\nEither Pok\u00e9mon may be hit during this effect if also under the effect of lock on, mind reader, or no guard.\n\nThis move cannot be used while gravity is in effect.\n\nThis move cannot be selected by sleep talk.\n\n*Bug*: If gravity is used during a double or triple battle while this move is in effect, this move is not correctly canceled on the target, and it remains high in the air indefinitely.  As this move prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Carries the target high into the air, dodging all attacks against either, and drops it next turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7b2c\uff11\u56de\u5408\u5c06\u5bf9\u624b\u5e26\u5230\u7a7a\u4e2d\uff0c\n\u7b2c\uff12\u56de\u5408\u5c06\u5176\u6454\u4e0b\u8fdb\u884c\u653b\u51fb\u3002\n\u88ab\u5e26\u5230\u7a7a\u4e2d\u7684\u5bf9\u624b\u4e0d\u80fd\u52a8\u5f39\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u76f8\u624b\u3092\u3000\u7a7a\u3078\u3000\u9023\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u9023\u308c\u3055\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\u3000\u52d5\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user takes the target into the sky, then drops it\nduring the next turn. The target cannot attack while\nin the sky.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Porta il bersaglio in cielo e lo scaglia a terra\nal turno successivo. Il bersaglio catturato non pu\u00f2\nmuoversi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Primer turno: lanza al objetivo al aire. Segundo\nturno: lo hace caer. Mientras est\u00e1 en el aire, no lo \ndeja moverse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 mit dem Ziel in die Luft auf und\nl\u00e4sst es in Runde 2 fallen. Das Ziel kann dabei nicht\nangreifen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emm\u00e8ne l\u2019ennemi dans les airs au\npremier tour et le l\u00e2che dans le vide au second.\nL\u2019ennemi saisi ne peut pas attaquer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u5f8c\u7684\u7b2c\uff11\u56de\u5408\u5c07\u5c0d\u624b\u5e36\u5230\u7a7a\u4e2d\uff0c\n\u4e26\u65bc\u7b2c\uff12\u56de\u5408\u6454\u4e0b\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u88ab\u5e36\u5230\u7a7a\u4e2d\u7684\u5c0d\u624b\u5c07\u7121\u6cd5\u884c\u52d5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ud558\ub298\ub85c \ub04c\uace0 \uac00\uc11c\n2\ud134\uc9f8\uc5d0 \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub04c\ub824\uac04 \uc0c1\ub300\ub294 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u305d\u3089\u3078\u3000\u3064\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u308c\u3055\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\u3000\u3046\u3054\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7b2c\uff11\u56de\u5408\u5c06\u5bf9\u624b\u5e26\u5230\u7a7a\u4e2d\uff0c\n\u7b2c\uff12\u56de\u5408\u5c06\u5176\u6454\u4e0b\u8fdb\u884c\u653b\u51fb\u3002\n\u88ab\u5e26\u5230\u7a7a\u4e2d\u7684\u5bf9\u624b\u4e0d\u80fd\u52a8\u5f39\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u76f8\u624b\u3092\u3000\u7a7a\u3078\u3000\u9023\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u9023\u308c\u3055\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\u3000\u52d5\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user takes the target into the sky, then drops it\nduring the next turn. The target cannot attack while\nin the sky.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Porta il bersaglio in cielo e lo scaglia a terra\nal turno successivo. Il bersaglio catturato non pu\u00f2\nmuoversi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Primer turno: lanza al objetivo al aire. Segundo\nturno: lo hace caer. Mientras est\u00e1 en el aire, no lo \ndeja moverse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 mit dem Ziel in die Luft auf und\nl\u00e4sst es in Runde 2 fallen. Das Ziel kann dabei nicht\nangreifen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emm\u00e8ne l\u2019ennemi dans les airs au\npremier tour et le l\u00e2che dans le vide au second.\nL\u2019ennemi saisi ne peut pas attaquer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u7528\u5f8c\u7684\u7b2c\uff11\u56de\u5408\u5c07\u5c0d\u624b\u5e36\u5230\u7a7a\u4e2d\uff0c\n\u4e26\u65bc\u7b2c\uff12\u56de\u5408\u6454\u4e0b\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u88ab\u5e36\u5230\u7a7a\u4e2d\u7684\u5c0d\u624b\u5c07\u7121\u6cd5\u884c\u52d5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ud558\ub298\ub85c \ub04c\uace0 \uac00\uc11c\n2\ud134\uc9f8\uc5d0 \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub04c\ub824\uac04 \uc0c1\ub300\ub294 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u305d\u3089\u3078\u3000\u3064\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u308c\u3055\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\u3000\u3046\u3054\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u76f8\u624b\u3092\u3000\u7a7a\u3078\u3000\u9023\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u9023\u308c\u3055\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\u3000\u52d5\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Porta il bersaglio in cielo e lo scaglia a terra\nal turno successivo. Il bersaglio catturato non pu\u00f2\nmuoversi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Primer turno: lanza al objetivo al aire. Segundo\nturno: lo hace caer. Mientras est\u00e1 en el aire, no lo \ndeja moverse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 mit dem Ziel in die Luft auf\nund l\u00e4sst es in Runde 2 fallen. Das Ziel kann\ndabei nicht angreifen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emm\u00e8ne l\u2019ennemi dans les airs au\npremier tour et le l\u00e2che dans le vide au second.\nL\u2019ennemi saisi ne peut pas attaquer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ud558\ub298\ub85c \ub04c\uace0 \uac00\uc11c\n2\ud134\uc9f8\uc5d0 \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub04c\ub824\uac04 \uc0c1\ub300\ub294 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u305d\u3089\u3078\u3000\u3064\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u308c\u3055\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\u3000\u3046\u3054\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u76ee\u3067\u3000\u76f8\u624b\u3092\u3000\u7a7a\u3078\u3000\u9023\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u76ee\u306b\u3000\u843d\u3068\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u9023\u308c\u3055\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\u3000\u52d5\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Porta il bersaglio in cielo e lo scaglia a terra\nal turno successivo. Il bersaglio catturato non pu\u00f2\nmuoversi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Primer turno: lanza al objetivo al aire. Segundo\nturno: lo hace caer. Mientras est\u00e1 en el aire, no lo\ndeja moverse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Steigt in Runde 1 mit dem Ziel in die Luft auf\nund l\u00e4sst es in Runde 2 fallen. Das Ziel kann\ndabei nicht angreifen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emm\u00e8ne l\u2019ennemi dans les airs au\npremier tour et le l\u00e2che dans le vide au second.\nL\u2019ennemi saisi ne peut pas attaquer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "1\ud134\uc9f8\uc5d0 \uc0c1\ub300\ub97c \ud558\ub298\ub85c \ub04c\uace0 \uac00\uc11c\n2\ud134\uc9f8\uc5d0 \ub5a8\uc5b4\ub728\ub824 \uacf5\uaca9\ud55c\ub2e4.\n\ub04c\ub824\uac04 \uc0c1\ub300\ub294 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u30bf\u30fc\u30f3\u3081\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u305d\u3089\u3078\u3000\u3064\u308c\u3055\u308a\n\uff12\u30bf\u30fc\u30f3\u3081\u306b\u3000\u304a\u3068\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u308c\u3055\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\u3000\u3046\u3054\u3051\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user takes the target into the sky,\nthen drops it during the next turn.\nThe target cannot attack while in the sky.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur emm\u00e8ne l\u2019ennemi dans les airs\nau 1er tour et le l\u00e2che dans le vide au\n2\u00e8. L\u2019ennemi saisi ne peut pas attaquer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 507,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/967/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/968/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/969/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/970/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/971/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/972/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "sky-drop",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u81ea\u7531\u843d\u4f53"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d5\u30ea\u30fc\u30d5\u30a9\u30fc\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Sky Drop"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Cadutalibera"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Ca\u00edda Libre"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Freier Fall"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Chute Libre"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u81ea\u7531\u843d\u9ad4"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud504\ub9ac\ud3f4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d5\u30ea\u30fc\u30d5\u30a9\u30fc\u30eb"
+        }
+    ],
+    "past_values": [],
+    "power": 60,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "flying",
+        "url": "/api/v2/type/3/"
+    }
+}

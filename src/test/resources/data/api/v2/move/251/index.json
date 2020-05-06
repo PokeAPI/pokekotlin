@@ -1,0 +1,690 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/14/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Determines damage using each participant's base Attack and the opponent's base Defense in place of calculated stats.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Inflicts typeless regular damage.  Every Pok\u00e9mon in the user's party, excepting those that have fainted or have a major status effect, attacks the target.  Calculated stats are ignored; the base stats for the target and assorted attackers are used instead.  The random factor in the damage formula is not used.  dark Pok\u00e9mon still get STAB.\n\nThis effect breaks through wonder guard.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Hits once for every conscious Pok\u00e9mon the trainer has."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6211\u65b9\u5168\u5458\u8fdb\u884c\u653b\u51fb\u3002\n\u540c\u884c\u7684\u5b9d\u53ef\u68a6\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u653b\u51fb\u6b21\u6570\u8d8a\u591a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5473\u65b9\u3000\u5168\u54e1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4ef2\u9593\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u591a\u3044\u307b\u3069\n\u6280\u306e\u3000\u653b\u6483\u56de\u6570\u304c\u3000\u5897\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all party Pok\u00e9mon to attack the target.\nThe more party Pok\u00e9mon, the greater the number\nof attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa chiama in aiuto i Pok\u00e9mon della\nsquadra: pi\u00f9 ce ne sono, maggiore \u00e8 il numero\ndi attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de todo el equipo Pok\u00e9mon. Cuantos m\u00e1s \nhaya, m\u00e1s veces se atacar\u00e1.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Das gesamte Team nimmt aktiv am Kampf teil.\nJe mehr Pok\u00e9mon, desto h\u00f6her die Anzahl der\nAngriffe.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle tous les Pok\u00e9mon de son\n\u00e9quipe \u00e0 attaquer. Plus ils sont nombreux, plus\nil y a d\u2019attaques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u6211\u65b9\u6240\u6709\u5bf6\u53ef\u5922\u9032\u884c\u653b\u64ca\u3002\n\u540c\u884c\u7684\u5bf6\u53ef\u5922\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u653b\u64ca\u6b21\u6578\u8d8a\u591a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uac19\uc740 \ud3b8 \uc804\uc6d0\uc774 \uacf5\uaca9\ud55c\ub2e4.\n\ub3d9\ub8cc \ud3ec\ucf13\ubaac\uc774 \ub9ce\uc744\uc218\ub85d\n\uae30\uc220\uc758 \uacf5\uaca9 \ud69f\uc218\uac00 \uc99d\uac00\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u306a\u304b\u307e\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u304a\u3044\u307b\u3069\n\u308f\u3056\u306e\u3000\u3053\u3046\u3052\u304d\u304b\u3044\u3059\u3046\u304c\u3000\u3075\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6211\u65b9\u5168\u5458\u8fdb\u884c\u653b\u51fb\u3002\n\u540c\u884c\u7684\u5b9d\u53ef\u68a6\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u653b\u51fb\u6b21\u6570\u8d8a\u591a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5473\u65b9\u3000\u5168\u54e1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4ef2\u9593\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u591a\u3044\u307b\u3069\n\u6280\u306e\u3000\u653b\u6483\u56de\u6570\u304c\u3000\u5897\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all party Pok\u00e9mon to attack the target.\nThe more party Pok\u00e9mon, the greater the number\nof attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa chiama in aiuto i Pok\u00e9mon della\nsquadra: pi\u00f9 ce ne sono, maggiore \u00e8 il numero\ndi attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de todo el equipo Pok\u00e9mon. Cuantos m\u00e1s \nhaya, m\u00e1s veces se atacar\u00e1.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Das gesamte Team nimmt aktiv am Kampf teil.\nJe mehr Pok\u00e9mon, desto h\u00f6her die Anzahl der\nAngriffe.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle tous les Pok\u00e9mon de son\n\u00e9quipe \u00e0 attaquer. Plus ils sont nombreux, plus\nil y a d\u2019attaques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u8b93\u6211\u65b9\u6240\u6709\u5bf6\u53ef\u5922\u9032\u884c\u653b\u64ca\u3002\n\u540c\u884c\u7684\u5bf6\u53ef\u5922\u8d8a\u591a\uff0c\n\u62db\u5f0f\u7684\u653b\u64ca\u6b21\u6578\u8d8a\u591a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uac19\uc740 \ud3b8 \uc804\uc6d0\uc774 \uacf5\uaca9\ud55c\ub2e4.\n\ub3d9\ub8cc \ud3ec\ucf13\ubaac\uc774 \ub9ce\uc744\uc218\ub85d\n\uae30\uc220\uc758 \uacf5\uaca9 \ud69f\uc218\uac00 \uc99d\uac00\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u306a\u304b\u307e\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u304a\u3044\u307b\u3069\n\u308f\u3056\u306e\u3000\u3053\u3046\u3052\u304d\u304b\u3044\u3059\u3046\u304c\u3000\u3075\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5473\u65b9\u3000\u5168\u54e1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4ef2\u9593\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u591a\u3044\u307b\u3069\n\u6280\u306e\u3000\u653b\u6483\u56de\u6570\u304c\u3000\u5897\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all party Pok\u00e9mon to attack\nthe target. The more party Pok\u00e9mon,\nthe greater the number of attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa chiama in aiuto i Pok\u00e9mon della\nsquadra: pi\u00f9 ce ne sono, maggiore \u00e8 il numero\ndi attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de todo el equipo Pok\u00e9mon. Cuantos m\u00e1s \nhaya, m\u00e1s veces se atacar\u00e1.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Das gesamte Team nimmt aktiv am Kampf teil.\nJe mehr Pok\u00e9mon, desto h\u00f6her die Anzahl der\nAngriffe.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle tous les Pok\u00e9mon de son\n\u00e9quipe \u00e0 attaquer. Plus ils sont nombreux, plus\nil y a d\u2019attaques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uac19\uc740 \ud3b8 \uc804\uc6d0\uc774 \uacf5\uaca9\ud55c\ub2e4.\n\ub3d9\ub8cc \ud3ec\ucf13\ubaac\uc774 \ub9ce\uc744\uc218\ub85d\n\uae30\uc220\uc758 \uacf5\uaca9 \ud69f\uc218\uac00 \uc99d\uac00\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u202f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u306a\u304b\u307e\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u304a\u3044\u307b\u3069\n\u308f\u3056\u306e\u3000\u3053\u3046\u3052\u304d\u304b\u3044\u3059\u3046\u304c\u3000\u3075\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5473\u65b9\u3000\u5168\u54e1\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u4ef2\u9593\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u591a\u3044\u307b\u3069\n\u6280\u306e\u3000\u653b\u6483\u56de\u6570\u304c\u3000\u5897\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all party Pok\u00e9mon to attack\nthe target. The more party Pok\u00e9mon,\nthe greater the number of attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa chiama in aiuto i Pok\u00e9mon della\nsquadra: pi\u00f9 ce ne sono, maggiore \u00e8 il numero\ndi attacchi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque de todo el equipo Pok\u00e9mon. Cuantos m\u00e1s\nhaya, m\u00e1s veces se atacar\u00e1.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Das gesamte Team nimmt aktiv am Kampf teil.\nJe mehr Pok\u00e9mon, desto h\u00f6her die Anzahl der\nAngriffe.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle tous les Pok\u00e9mon de son\n\u00e9quipe \u00e0 attaquer. Plus ils sont nombreux, plus\nil y a d\u2019attaques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uac19\uc740 \ud3b8 \uc804\uc6d0\uc774 \uacf5\uaca9\ud55c\ub2e4.\n\ub3d9\ub8cc \ud3ec\ucf13\ubaac\uc774 \ub9ce\uc744\uc218\ub85d\n\uae30\uc220\uc758 \uacf5\uaca9 \ud69f\uc218\uac00 \uc99d\uac00\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u304b\u305f\u3000\u305c\u3093\u3044\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u306a\u304b\u307e\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u304a\u3044\u307b\u3069\n\u308f\u3056\u306e\u3000\u3053\u3046\u3052\u304d\u304b\u3044\u3059\u3046\u304c\u3000\u3075\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all party Pok\u00e9mon to attack\nthe target. The more party Pok\u00e9mon,\nthe greater the number of attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all party Pok\u00e9mon to attack\nthe target. The more party Pok\u00e9mon,\nthe greater the number of attacks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle tous les Pok\u00e9mon de\nson \u00e9quipe \u00e0 attaquer. Plus ils sont\nnombreux, plus il y a d\u2019attaques.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all the\nparty Pok\u00e9mon to\nattack the foe. The\nmore party Pok\u00e9mon,\nthe more damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all the\nparty Pok\u00e9mon to\nattack the foe. The\nmore party Pok\u00e9mon,\nthe more damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user gets all the\nparty Pok\u00e9mon to\nattack the foe. The\nmore party Pok\u00e9mon,\nthe more damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "All party POK\u00e9MON\njoin in the attack.\nThe more allies,\nthe more damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Summons party POK\u00e9MON to\njoin in the attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Summons party POK\u00e9MON to\njoin in the attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Party POK\u00e9MON join\nin the attack.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Party POK\u00e9MON join\nin the attack.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 251,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": 6,
+        "max_turns": null,
+        "min_hits": 6,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "beat-up",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u56f4\u653b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3075\u304f\u308d\u3060\u305f\u304d"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Beat Up"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Picchiaduro"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Paliza"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Pr\u00fcgler"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Baston"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u570d\u653b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc9d1\ub2e8\uad6c\ud0c0"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3075\u304f\u308d\u3060\u305f\u304d"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 10,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/7/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+    }
+}

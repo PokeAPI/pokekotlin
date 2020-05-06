@@ -1,0 +1,661 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/16/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Removes leech seed from the user, frees the user from bind, clamp, fire spin, magma storm, sand tomb, whirlpool, and wrap, and clears spikes, stealth rock, and toxic spikes from the user's side of the field.  If this move misses or has no effect, its effect doesn't activate.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u901a\u8fc7\u65cb\u8f6c\u6765\u653b\u51fb\u5bf9\u624b\u3002\n\u8fd8\u53ef\u4ee5\u6446\u8131\u7ed1\u7d27\u3001\u7d27\u675f\u3001\n\u5bc4\u751f\u79cd\u5b50\u548c\u6492\u83f1\u7b49\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u5439\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that can also eliminate such moves as\nBind, Wrap, Leech Seed, and Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attacco rotante che elimina gli effetti di\nmosse come Legatutto, Avvolgibotta, Punte\ne Parassiseme.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataque giratorio que puede eliminar movimientos \ncomo Atadura, Constricci\u00f3n, Drenadoras y P\u00faas. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den\nAnwender unter anderem von Wickel, Klammergriff,\nEgelsamen und Stachler.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque tournoyante pouvant aussi annuler\npar exemple \u00c9treinte, Ligotage, Vampigraine ou\nPicots.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u65cb\u8f49\u4f86\u653b\u64ca\u5c0d\u624b\u3002\n\u4e5f\u53ef\u4ee5\u64fa\u812b\u7d81\u7dca\u3001\u7dca\u675f\uff0c\n\u4ee5\u53ca\u89e3\u9664\u5bc4\u751f\u7a2e\u5b50\u548c\u6492\u83f1\u7b49\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud574\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc870\uc774\uae30, \uae40\ubc25\ub9d0\uc774, \uc528\ubfcc\ub9ac\uae30,\n\uc555\uc815\ubfcc\ub9ac\uae30 \ub4f1\ub3c4 \ub0a0\ub824\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u3075\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u901a\u8fc7\u65cb\u8f6c\u6765\u653b\u51fb\u5bf9\u624b\u3002\n\u8fd8\u53ef\u4ee5\u6446\u8131\u7ed1\u7d27\u3001\u7d27\u675f\u3001\n\u5bc4\u751f\u79cd\u5b50\u548c\u6492\u83f1\u7b49\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u5439\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that can also eliminate such moves as\nBind, Wrap, Leech Seed, and Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attacco rotante che elimina gli effetti di\nmosse come Legatutto, Avvolgibotta, Punte\ne Parassiseme.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataque giratorio que puede eliminar movimientos \ncomo Atadura, Constricci\u00f3n, Drenadoras y P\u00faas. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den\nAnwender unter anderem von Wickel, Klammergriff,\nEgelsamen und Stachler.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque tournoyante pouvant aussi annuler\npar exemple \u00c9treinte, Ligotage, Vampigraine ou\nPicots.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5229\u7528\u65cb\u8f49\u4f86\u653b\u64ca\u5c0d\u624b\u3002\n\u4e5f\u53ef\u4ee5\u64fa\u812b\u7d81\u7dca\u3001\u7dca\u675f\uff0c\n\u4ee5\u53ca\u89e3\u9664\u5bc4\u751f\u7a2e\u5b50\u548c\u6492\u83f1\u7b49\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud574\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc870\uc774\uae30, \uae40\ubc25\ub9d0\uc774, \uc528\ubfcc\ub9ac\uae30,\n\uc555\uc815\ubfcc\ub9ac\uae30 \ub4f1\ub3c4 \ub0a0\ub824\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u3075\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u5439\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attacco rotante che elimina gli effetti di\nmosse come Legatutto, Avvolgibotta, Punte\ne Parassiseme.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque giratorio que puede eliminar movimientos \ncomo Atadura, Constricci\u00f3n, Drenadoras y P\u00faas. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Trifft das Ziel mit einer Dreh-Attacke. Befreit\nden Anwender unter anderem von Wickel,\nKlammergriff, Egelsamen und Stachler.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque tournoyante pouvant aussi annuler\npar exemple \u00c9treinte, Ligotage, Vampigraine ou\nPicots.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud574\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc870\uc774\uae30, \uae40\ubc25\ub9d0\uc774, \uc528\ubfcc\ub9ac\uae30,\n\uc555\uc815\ubfcc\ub9ac\uae30 \ub4f1\ub3c4 \ub0a0\ub824\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u3075\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u56de\u8ee2\u3057\u3066\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u5439\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attacco rotante che elimina gli effetti di\nmosse come Legatutto, Avvolgibotta, Punte\ne Parassiseme.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque giratorio que puede eliminar movimientos\ncomo Atadura, Constricci\u00f3n, Drenadoras y P\u00faas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Trifft das Ziel mit einer Dreh-Attacke.\nBefreit sich unter anderem von Wickel,\nKlammergriff, Egelsamen und Stachler.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque tournoyante pouvant aussi annuler\npar exemple \u00c9treinte, Ligotage, Vampigraine ou\nPicots.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud68c\uc804\ud574\uc11c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\uc870\uc774\uae30, \uae40\ubc25\ub9d0\uc774, \uc528\ubfcc\ub9ac\uae30,\n\uc555\uc815\ubfcc\ub9ac\uae30 \ub4f1\ub3c4 \ub0a0\ub824\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3044\u3066\u3093\u3057\u3066\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3057\u3081\u3064\u3051\u308b\u3000\u307e\u304d\u3064\u304f\u3000\u3084\u3069\u308a\u304e\u306e\u30bf\u30cd\n\u307e\u304d\u3073\u3057\u3000\u306a\u3069\u3082\u3000\u3075\u304d\u3068\u3070\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that can also eliminate\nsuch moves as Bind, Wrap, Leech Seed,\nand Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque tournoyante pouvant aussi\nannuler par ex. \u00c9treinte, Ligotage,\nVampigraine ou Picots.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that\ncan also eliminate\nsuch moves as Bind,\nWrap, Leech Seed,\nand Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that\ncan also eliminate\nsuch moves as Bind,\nWrap, Leech Seed,\nand Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "A spin attack that\ncan also eliminate\nsuch moves as Bind,\nWrap, Leech Seed,\nand Spikes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nfrees the user from\nBIND, WRAP, LEECH\nSEED, and SPIKES.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Spins the body at high\nspeed to strike the foe.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Spins the body at high\nspeed to strike the foe.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A high-speed\nspinning attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A high-speed\nspinning attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 229,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "rapid-spin",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9ad8\u901f\u65cb\u8f6c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3053\u3046\u305d\u304f\u30b9\u30d4\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Rapid Spin"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Rapigiro"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Giro R\u00e1pido"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Turbodreher"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Tour Rapide"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9ad8\u901f\u65cb\u8f49"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uace0\uc18d\uc2a4\ud540"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3053\u3046\u305d\u304f\u30b9\u30d4\u30f3"
+        }
+    ],
+    "past_values": [],
+    "power": 20,
+    "pp": 40,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

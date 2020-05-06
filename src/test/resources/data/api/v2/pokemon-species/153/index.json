@@ -1,0 +1,806 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        },
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/79/"
+    },
+    "evolves_from_species": {
+        "name": "chikorita",
+        "url": "/api/v2/pokemon-species/152/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u9996\u306e\u3000\u5468\u308a\u306e\u3000\u304f\u308b\u308a\u3068\u3000\u5dfb\u3044\u305f\u3000\u8449\u3063\u3071\u306e\n\u4e2d\u306b\u306f\u3000\u5c0f\u3055\u306a\u3000\u6728\u306e\u82bd\u304c\u3000\uff11\u500b\u3000\u306a\u3063\u3066\u3044\u308b\u3002\n\u305d\u306e\u3000\u9999\u308a\u306f\u3000\u4eba\u3092\u3000\u5143\u6c17\u306b\u3000\u3055\u305b\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Bayleef\u2019s neck is ringed by curled-up leaves. Inside each\ntubular leaf is a small shoot of a tree. The fragrance of this\nshoot makes people peppy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il collo di Bayleef \u00e8 agghindato da foglie, dentro cui\n\u00e8 presente il piccolo germoglio di un albero. L\u2019aroma emanato\nda questo germoglio ha un effetto energizzante sull\u2019uomo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Bayleef tiene un collar de hojas alrededor del cuello y un\nbrote de un \u00e1rbol en cada una de ellas. La fragancia que\ndesprenden estos brotes anima a la gente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lorblatts Nacken ist mit zusammengerollten Bl\u00e4ttern behangen.\nIn jedem Blatt befindet sich ein kleiner Trieb eines Baumes.\nDer Duft dieses Triebes bringt Menschen auf Trab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Le cou de Macronium est entour\u00e9 de nombreuses feuilles.\nDans chacune d\u2019elles se trouve une pousse d\u2019arbre. Le parfum\nde cette pousse donne la p\u00eache aux personnes qui le sentent.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa9 \uc8fc\ubcc0\uc758 \ub465\uadf8\ub807\uac8c \ub9d0\ub9b0 \uc78e\uc0ac\uadc0\n\uc548\uc5d0\ub294 \uc791\uc740 \uc0c8\uc2f9 \ud55c \uac1c\uac00 \ub098 \uc788\ub2e4.\n\uadf8 \ud5a5\uae30\ub294 \uc0ac\ub78c\uc744 \uae30\uc6b4 \ub098\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3073\u306e\u3000\u307e\u308f\u308a\u306e\u3000\u304f\u308b\u308a\u3068\u3000\u307e\u3044\u305f\u3000\u306f\u3063\u3071\u306e\n\u306a\u304b\u306b\u306f\u3000\u3061\u3044\u3055\u306a\u3000\u304d\u306e\u3081\u304c\u3000\uff11\u3053\u3000\u306a\u3063\u3066\u3044\u308b\u3002\n\u305d\u306e\u3000\u304b\u304a\u308a\u306f\u3000\u3072\u3068\u3092\u3000\u3052\u3093\u304d\u306b\u3000\u3055\u305b\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u9996\u306e\u3000\u5468\u308a\u306e\u3000\u304f\u308b\u308a\u3068\u3000\u5dfb\u3044\u305f\u3000\u8449\u3063\u3071\u306e\n\u4e2d\u306b\u306f\u3000\u5c0f\u3055\u306a\u3000\u6728\u306e\u82bd\u304c\u3000\uff11\u500b\u3000\u306a\u3063\u3066\u3044\u308b\u3002\n\u305d\u306e\u3000\u9999\u308a\u306f\u3000\u4eba\u3092\u3000\u5143\u6c17\u306b\u3000\u3055\u305b\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Bayleef\u2019s neck is ringed by curled-up leaves. Inside each\ntubular leaf is a small shoot of a tree. The fragrance of this\nshoot makes people peppy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il collo di Bayleef \u00e8 agghindato da foglie, dentro cui\n\u00e8 presente il piccolo germoglio di un albero. L\u2019aroma emanato\nda questo germoglio ha un effetto energizzante sull\u2019uomo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Bayleef tiene un collar de hojas alrededor del cuello y un\nbrote de un \u00e1rbol en cada una de ellas. La fragancia que\ndesprenden estos brotes anima a la gente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Lorblatts Nacken ist mit zusammengerollten Bl\u00e4ttern behangen.\nIn jedem Blatt befindet sich ein kleiner Trieb eines Baumes.\nDer Duft dieses Triebes bringt Menschen auf Trab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Le cou de Macronium est entour\u00e9 de nombreuses feuilles.\nDans chacune d\u2019elles se trouve une pousse d\u2019arbre. Le parfum\nde cette pousse donne la p\u00eache aux personnes qui le sentent.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa9 \uc8fc\ubcc0\uc758 \ub465\uadf8\ub807\uac8c \ub9d0\ub9b0 \uc78e\uc0ac\uadc0\n\uc548\uc5d0\ub294 \uc791\uc740 \uc0c8\uc2f9 \ud55c \uac1c\uac00 \ub098 \uc788\ub2e4.\n\uadf8 \ud5a5\uae30\ub294 \uc0ac\ub78c\uc744 \uae30\uc6b4 \ub098\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3073\u306e\u3000\u307e\u308f\u308a\u306e\u3000\u304f\u308b\u308a\u3068\u3000\u307e\u3044\u305f\u3000\u306f\u3063\u3071\u306e\n\u306a\u304b\u306b\u306f\u3000\u3061\u3044\u3055\u306a\u3000\u304d\u306e\u3081\u304c\u3000\uff11\u3053\u3000\u306a\u3063\u3066\u3044\u308b\u3002\n\u305d\u306e\u3000\u304b\u304a\u308a\u306f\u3000\u3072\u3068\u3092\u3000\u3052\u3093\u304d\u306b\u3000\u3055\u305b\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u9996\u56de\u308a\u306e\u3000\u3064\u307c\u307f\u304b\u3089\u3000\u306b\u304a\u3046\n\u30b9\u30d1\u30a4\u30b7\u30fc\u306a\u3000\u9999\u308a\u306f\n\u304b\u3044\u3060\u3000\u4eba\u3092\u3000\u5143\u6c17\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give off a spicy aroma\nthat perks people up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Le foglie attorno al suo collo emanano un aroma\nspeziato dall\u2019effetto energizzante.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Su cuello desprende un dulce aroma que anima a\nquien lo huele.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Die Knospen an seinem Hals geben ein\nw\u00fcrziges Aroma ab, das andere aufheitert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Le collier de bourgeons \u00e0 son cou r\u00e9pand un ar\u00f4me\n\u00e9pic\u00e9 qui vous donne du tonus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa9 \uc8fc\uc704\uc758 \ubd09\uc624\ub9ac\ub85c\ubd80\ud130 \ud48d\uae30\ub294\n\ud5a5\uae0b\ud55c \ud5a5\uae30\ub294 \ud5a5\uae30\ub97c\n\ub9e1\uc740 \uc0ac\ub78c\uc744 \ud798\uc774 \ub098\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3073\u307e\u308f\u308a\u306e\u3000\u3064\u307c\u307f\u304b\u3089\u3000\u306b\u304a\u3046\n\u30b9\u30d1\u30a4\u30b7\u30fc\u306a\u3000\u304b\u304a\u308a\u306f\n\u304b\u3044\u3060\u3000\u3072\u3068\u3092\u3000\u3052\u3093\u304d\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u9996\u306e\u3000\u307e\u308f\u308a\u304b\u3089\u3000\u767a\u6563\u3059\u308b\n\u30b9\u30d1\u30a4\u30b9\u306e\u3088\u3046\u306a\u3000\u9999\u308a\u306b\u306f\n\u5143\u6c17\u3092\u3000\u51fa\u3055\u305b\u308b\u3000\u52b9\u679c\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "A spicy aroma emanates from around its neck.\nThe aroma acts as a stimulant to restore health.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dal suo collo si propaga un profumo vivace. Esso\nstimola il recupero della salute.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Emana un aroma picante de su cuello. El aroma act\u00faa\ncomo estimulante para recuperar salud.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ein w\u00fcrziges Aroma geht von seinen Bl\u00e4ttern aus.\nDas Aroma soll gesundheitsf\u00f6rdernd sein.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Un ar\u00f4me \u00e9pic\u00e9 \u00e9mane de son cou. Il agit comme\nun stimulant et lui fait r\u00e9cup\u00e9rer son \u00e9nergie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ubaa9 \uc8fc\ubcc0\uc5d0\uc11c \ubc1c\uc0b0\ud558\ub294\n\ud5a5\uc2e0\ub8cc \uac19\uc740 \ud5a5\uae30\uc5d0\ub294\n\ud798\uc744 \ub0b4\ub3c4\ub85d \ud558\ub294 \ud6a8\uacfc\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3073\u306e\u3000\u307e\u308f\u308a\u304b\u3089\u3000\u306f\u3063\u3055\u3093\u3059\u308b\n\u30b9\u30d1\u30a4\u30b9\u306e\u3088\u3046\u306a\u3000\u304b\u304a\u308a\u306b\u306f\n\u3052\u3093\u304d\u3092\u3000\u3060\u3055\u305b\u308b\u3000\u3053\u3046\u304b\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give\noff a spicy aroma that perks\npeople up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give\noff a spicy aroma that perks\npeople up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give\noff a spicy aroma that perks\npeople up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Le collier de bourgeons \u00e0 son cou\nr\u00e9pand un ar\u00f4me \u00e9pic\u00e9 qui vous\ndonne du tonus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give\noff a spicy aroma that perks\npeople up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Le collier de bourgeons \u00e0 son cou\nr\u00e9pand un ar\u00f4me \u00e9pic\u00e9 qui vous\ndonne du tonus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "A spicy aroma emanates from around\nits neck. The aroma acts as a\nstimulant to restore health.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "The scent of spices comes from\naround its neck. Somehow,\nsniffing it makes you want to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give\noff a spicy aroma that perks\npeople up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give\noff a spicy aroma that perks\npeople up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "The buds that ring its neck give\noff a spicy aroma that perks\npeople up.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The scent of spices comes from around\nits neck. Somehow, sniffing it makes you\nwant to fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "A spicy aroma emanates from around its\nneck. The aroma acts as a stimulant to\nrestore health.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A BAYLEEF\u2019s neck is ringed by curled-up\nleaves. Inside each leaf is a small tree\nshoot. The fragrance of this shoot\nmakes people peppy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "BAYLEEF\u2019s neck is ringed by curled-up\nleaves. Inside each tubular leaf is a\nsmall shoot of a tree.\fThe fragrance of this shoot makes\npeople peppy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "BAYLEEF\u2019s neck is ringed by curled-up\nleaves. Inside each tubular leaf is a\nsmall shoot of a tree.\fThe fragrance of this shoot makes\npeople peppy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "The scent that\nwafts from the\nleaves on its neck\fcauses anyone who\nsmells it to\nbecome energetic.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "A spicy aroma ema\u00ad\nnates from around\nits neck. The\faroma acts as a\nstimulant to re\u00ad\nstore health.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "The scent of\nspices comes from\naround its neck.\fSomehow, sniffing\nit makes you want\nto fight.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u53f6\u5b50\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u306f\u3063\u3071\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Leaf Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Foglia",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Hoja",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Laub",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Feuille",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8449\u5b50\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc78e\uc0ac\uadc0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u306f\u3063\u3071\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 153,
+    "is_baby": false,
+    "name": "bayleef",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6708\u6842\u53f6"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d9\u30a4\u30ea\u30fc\u30d5"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Bayleef"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Bayleef"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Bayleef"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Lorblatt"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Macronium"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6708\u6842\u8449"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubca0\uc774\ub9ac\ud504"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Bayleaf"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d9\u30a4\u30ea\u30fc\u30d5"
+        }
+    ],
+    "order": 185,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 2,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 2,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 153,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "bayleef",
+                "url": "/api/v2/pokemon/153/"
+            }
+        }
+    ]
+}

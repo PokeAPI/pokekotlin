@@ -1,0 +1,806 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/110/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u30cf\u30c1\u30df\u30c4\u306e\u3000\u67d3\u202f\u8fbc\u3093\u3060\u3000\u624b\u306e\u5e73\u3092\u3000\u306a\u3081\u3066\u3044\u308b\u3002\n\u30d2\u30e1\u30b0\u30de\u306e\u3000\u30cf\u30c1\u30df\u30c4\u306f\u3000\u679c\u7269\u3068\u3000\u30b9\u30d4\u30a2\u30fc\u306e\n\u96c6\u3081\u305f\u3000\u82b1\u7c89\u304c\u3000\u30d6\u30ec\u30f3\u30c9\u3055\u308c\u3066\u3000\u3064\u304f\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon likes to lick its palms that are sweetened by\nbeing soaked in honey. Teddiursa concocts its own honey\nby blending fruits and pollen collected by Beedrill.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 solito inzuppare nel miele le zampe anteriori per poi\nsucchiarle avidamente. Teddiursa produce il proprio miele\ndai frutti e dal polline raccolto da Beedrill.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "A Teddiursa le encanta chuparse las palmas impregnadas de\ndulce miel. Este Pok\u00e9mon fabrica su propia miel mezclando\nfrutos y el polen que recoge Beedrill.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Teddiursa leckt gern seine mit Honig bedeckten Pfoten ab.\nDieses Pok\u00e9mon bereitet seinen eigenen Honig zu, indem es\ndie von Bibor gesammelten Fr\u00fcchte und Pollen vermengt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon aime se l\u00e9cher les paumes quand elles sont\nencore pleines de miel. Teddiursa concocte son propre miel\nen m\u00e9langeant les fruits et le pollen r\u00e9colt\u00e9 par Dardargnan.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uafc0\uc774 \ubc34 \uc190\ubc14\ub2e5\uc744 \ud565\uace0 \uc788\ub2e4.\n\uae5c\uc9c0\uacf0\uc758 \uafc0\uc740 \uacfc\uc77c\uacfc \ub3c5\uce68\ubd95\uc774\n\ubaa8\uc740 \uaf43\uac00\ub8e8\uac00 \ud63c\ud569\ub418\uc5b4 \ub9cc\ub4e4\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30cf\u30c1\u30df\u30c4\u306e\u3000\u3057\u202f\u3053\u3093\u3060\u3000\u3066\u306e\u3072\u3089\u3092\u3000\u306a\u3081\u3066\u3044\u308b\u3002\n\u30d2\u30e1\u30b0\u30de\u306e\u3000\u30cf\u30c1\u30df\u30c4\u306f\u3000\u304f\u3060\u3082\u306e\u3068\u3000\u30b9\u30d4\u30a2\u30fc\u306e\n\u3042\u3064\u3081\u305f\u3000\u304b\u3075\u3093\u304c\u3000\u30d6\u30ec\u30f3\u30c9\u3055\u308c\u3066\u3000\u3064\u304f\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30df\u30c4\u306e\u3000\u67d3\u202f\u8fbc\u3093\u3060\u3000\u624b\u306e\u5e73\u3092\u3000\u306a\u3081\u3066\u3044\u308b\u3002\n\u30d2\u30e1\u30b0\u30de\u306e\u3000\u30df\u30c4\u306f\u3000\u679c\u7269\u3068\u3000\u30b9\u30d4\u30a2\u30fc\u306e\n\u96c6\u3081\u305f\u3000\u82b1\u7c89\u304c\u3000\u30d6\u30ec\u30f3\u30c9\u3055\u308c\u3066\u3000\u3064\u304f\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon likes to lick its palms that are sweetened by\nbeing soaked in honey. Teddiursa concocts its own honey\nby blending fruits and pollen collected by Beedrill.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 solito inzuppare nel miele le zampe anteriori per poi\nsucchiarle avidamente. Teddiursa produce il proprio miele\ndai frutti e dal polline raccolto da Beedrill.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "A Teddiursa le encanta chuparse las palmas impregnadas de\ndulce miel. Este Pok\u00e9mon fabrica su propia miel mezclando\nfrutos y el polen que recoge Beedrill.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Teddiursa leckt gern seine mit Honig bedeckten Pranken ab.\nDieses Pok\u00e9mon bereitet seinen eigenen Honig zu, indem es\ndie von Bibor gesammelten Fr\u00fcchte und Pollen miteinander\nvermengt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon aime se l\u00e9cher les paumes quand elles sont\nencore pleines de miel. Teddiursa concocte son propre miel\nen m\u00e9langeant les fruits et le pollen ramass\u00e9s par Dardargnan.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uafc0\uc774 \ubc34 \uc190\ubc14\ub2e5\uc744 \ud565\uace0 \uc788\ub2e4.\n\uae5c\uc9c0\uacf0\uc758 \uafc0\uc740 \uacfc\uc77c\uacfc \ub3c5\uce68\ubd95\uc774\n\ubaa8\uc740 \uaf43\uac00\ub8e8\uac00 \ud63c\ud569\ub418\uc5b4 \ub9cc\ub4e4\uc5b4\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30df\u30c4\u306e\u3000\u3057\u202f\u3053\u3093\u3060\u3000\u3066\u306e\u3072\u3089\u3092\u3000\u306a\u3081\u3066\u3044\u308b\u3002\n\u30d2\u30e1\u30b0\u30de\u306e\u3000\u30df\u30c4\u306f\u3000\u304f\u3060\u3082\u306e\u3068\u3000\u30b9\u30d4\u30a2\u30fc\u306e\n\u3042\u3064\u3081\u305f\u3000\u304b\u3075\u3093\u304c\u3000\u30d6\u30ec\u30f3\u30c9\u3055\u308c\u3066\u3000\u3064\u304f\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u98df\u3079\u7269\u304c\u3000\u6e1b\u308b\u3000\u51ac\u306e\u524d\u306b\n\u3042\u3061\u3053\u3061\u306b\u3000\u98df\u3079\u7269\u3092\u3000\u96a0\u3059\n\u7fd2\u6027\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Before food becomes scarce in wintertime, its habit\nis to hoard food in many hidden locations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Per prepararsi all\u2019inverno, \u00e8 sua abitudine accumulare\nil cibo in diversi nascondigli.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Antes de que la comida escasee en invierno, tiene\npor costumbre ocultar comida en lugares secretos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Steht der Winter vor der T\u00fcre, hortet es Nahrung\nan vielen verschiedenen, nur ihm bekannten Orten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il se fait des r\u00e9serves de nourriture dans des\ncachettes avant l\u2019arriv\u00e9e de l\u2019hiver.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uba39\uc774\uac00 \uc904\uc5b4\ub4dc\ub294 \uaca8\uc6b8 \uc804\uc5d0\n\uc774\uacf3\uc800\uacf3\uc5d0 \uba39\uc744 \uac83\uc744 \uc228\uaca8\ub450\ub294\n\uc2b5\uc131\uc744 \uc9c0\ub2c8\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3079\u3082\u306e\u304c\u3000\u3078\u308b\u3000\u3075\u3086\u306e\u307e\u3048\u306b\n\u3042\u3061\u3053\u3061\u306b\u3000\u305f\u3079\u3082\u306e\u3092\u3000\u304b\u304f\u3059\n\u3057\u3085\u3046\u305b\u3044\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30df\u30c4\u3092\u898b\u3064\u3051\u308b\u3068\u3000\u4e09\u65e5\u6708\u6a21\u69d8\u304c\n\u8f1d\u304f\u3002\u7518\u3044\u30df\u30c4\u304c\u3000\u67d3\u307f\u3053\u3093\u3060\n\u624b\u306e\u3072\u3089\u3092\u3000\u3044\u3064\u3082\u3000\u306a\u3081\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "If it finds honey, its crescent mark glows. It always\nlicks its paws because they\u2019re soaked with honey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se trova del miele la sua mezzaluna diventa pi\u00f9\nluminosa. Si lecca le zampe intrise di miele.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Si encuentra miel, brillar\u00e1 la marca de su frente.\nSe lame las garras cuando est\u00e1n llenas de miel.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Findet es Honig, leuchtet die Sichel auf seinem\nKopf. Es leckt oft seine mit Honig bedeckten Pfoten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sa marque en forme de lune brille quand il trouve\ndu miel. Il l\u00e8che ses pattes qui en sont toujours\ncouvertes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uafc0\uc744 \ubc1c\uacac\ud558\uba74 \ucd08\uc2b9\ub2ec \ubaa8\uc591\uc774\n\ube5b\ub09c\ub2e4. \ub2ec\ucf64\ud55c\uafc0\uc774 \ubc30\uc5b4\ub4e0\n\uc190\ubc14\ub2e5\uc744 \ud56d\uc0c1 \ud565\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30df\u30c4\u3092\u307f\u3064\u3051\u308b\u3068\u3000\u307f\u304b\u3065\u304d\u3082\u3088\u3046\u304c\n\u304b\u304c\u3084\u304f\u3002\u3042\u307e\u3044\u30df\u30c4\u304c\u3000\u3057\u307f\u3053\u3093\u3060\n\u3066\u306e\u3072\u3089\u3092\u3000\u3044\u3064\u3082\u3000\u306a\u3081\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It lets honey soak into its paws\nso it can lick them all the time.\nEvery set of paws tastes unique.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It lets honey soak into its paws\nso it can lick them all the time.\nEvery set of paws tastes unique.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It lets honey soak into its paws\nso it can lick them all the time.\nEvery set of paws tastes unique.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il baigne ses griffes dans le miel \npour les l\u00e9cher. Chaque paire\nde pattes a un go\u00fbt unique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It lets honey soak into its paws\nso it can lick them all the time.\nEvery set of paws tastes unique.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il baigne ses griffes dans le miel \npour les l\u00e9cher. Chaque paire\nde pattes a un go\u00fbt unique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Before food becomes scarce in\nwintertime, its habit is to hoard\nfood in many hidden locations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "If it finds honey, its crescent mark\nglows. It always licks its paws\nbecause they\u2019re soaked with honey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It lets honey soak into its paws\nso it can lick them all the time.\nEvery set of paws tastes unique.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It lets honey soak into its paws\nso it can lick them all the time.\nEvery set of paws tastes unique.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It lets honey soak into its paws\nso it can lick them all the time.\nEvery set of paws tastes unique.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "If it finds honey, its crescent mark glows.\nIt always licks its paws because they are\nsoaked with honey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Before food becomes scarce in wintertime,\nits habit is to hoard food in many hidden\nlocations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It licks its palms that are sweetened by\nbeing soaked in honey. A TEDDIURSA makes\nits own honey by blending fruits and pollen\ncollected by BEEDRILL.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "This POK\u00e9MON likes to lick its palms that\nare sweetened by being soaked in honey.\nTEDDIURSA concocts its own honey by\fblending fruits and pollen collected by\nBEEDRILL.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "This POK\u00e9MON likes to lick its palms that\nare sweetened by being soaked in honey.\nTEDDIURSA concocts its own honey by\fblending fruits and pollen collected by\nBEEDRILL.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "It always licks\nhoney. Its palm\ntastes sweet\fbecause of all the\nhoney it has\nabsorbed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "Before food be\u00ad\ncomes scarce in\nwintertime, its\fhabit is to hoard\nfood in many hid\u00ad\nden locations.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "If it finds honey,\nits crescent mark\nglows. It always\flicks its paws\nbecause they are\nsoaked with honey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5c0f\u718a\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3053\u3050\u307e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Little Bear Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Orsetto",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Osito",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Kleinb\u00e4r",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Mini Ours",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5c0f\u718a\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc544\uae30\uacf0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3053\u3050\u307e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "mountain",
+        "url": "/api/v2/pokemon-habitat/4/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 216,
+    "is_baby": false,
+    "name": "teddiursa",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u718a\u5b9d\u5b9d"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d2\u30e1\u30b0\u30de"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Teddiursa"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Teddiursa"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Teddiursa"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Teddiursa"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Teddiursa"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u718a\u5bf6\u5bf6"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uae5c\uc9c0\uacf0"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Himeguma"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d2\u30e1\u30b0\u30de"
+        }
+    ],
+    "order": 247,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 132,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 198,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 193,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 216,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "teddiursa",
+                "url": "/api/v2/pokemon/216/"
+            }
+        }
+    ]
+}

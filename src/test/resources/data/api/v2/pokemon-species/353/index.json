@@ -1,0 +1,890 @@
+{
+    "base_happiness": 35,
+    "capture_rate": 225,
+    "color": {
+        "name": "black",
+        "url": "/api/v2/pokemon-color/1/"
+    },
+    "egg_groups": [
+        {
+            "name": "indeterminate",
+            "url": "/api/v2/egg-group/11/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/181/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u56e0\u4e3a\u4f1a\u541e\u98df\u7c7b\u4f3c\u4e8e\n\u6028\u6068\u3001\u5ac9\u5992\u4e4b\u7c7b\u7684\u611f\u60c5\uff0c\n\u6240\u4ee5\u5bf9\u4e8e\u6709\u7684\u4eba\u6765\u8bf4\u662f\u53ef\u8d35\u7684\u5b58\u5728\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6068\u307f\u3000\u59ac\u307f\u3000\u5ac9\u307f\u306e\u3000\u3088\u3046\u306a\n\u611f\u60c5\u3092\u3000\u98df\u3089\u3046\u306e\u3067\u3000\u4eba\u306b\u3000\u3088\u3063\u3066\u306f\n\u3042\u308a\u304c\u305f\u3044\u3000\u5b58\u5728\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It eats up emotions like malice, jealousy, and\nresentment, so some people are grateful for\nits presence.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si nutre di sentimenti turpi come rancore, invidia\ne gelosia. Per questo, alcuni sono felici che\nesista.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Se alimenta de sentimientos negativos como la\nenvidia, el rencor y el odio, as\u00ed que su presencia\nes m\u00e1s que bienvenida por los humanos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Da es sich von Gef\u00fchlen wie Rachsucht, Neid\nund Eifersucht ern\u00e4hrt, sind die Menschen f\u00fcr\ndie Existenz dieses Pok\u00e9mon dankbar.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Les gens appr\u00e9cient ce Pok\u00e9mon, car il se\nnourrit de leurs \u00e9motions n\u00e9gatives telles que\nla ranc\u0153ur et la jalousie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u56e0\u70ba\u6703\u541e\u98df\u6028\u6068\u3001\u5ac9\u5992\n\u4e4b\u985e\u7684\u60c5\u611f\uff0c\u5c0d\u67d0\u4e9b\u4eba\u4f86\u8aaa\n\u662f\u5f88\u53ef\u8cb4\u7684\u5bf6\u53ef\u5922\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc6d0\ud55c, \uc2dc\uc0d8, \uc9c8\ud22c \uac19\uc740\n\uac10\uc815\uc744 \uba39\uae30 \ub54c\ubb38\uc5d0 \uc0ac\ub78c\uc5d0\uac8c\ub294\n\uace0\ub9c8\uc6b4 \uc874\uc7ac\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3089\u307f\u3000\u306d\u305f\u307f\u3000\u305d\u306d\u307f\u306e\u3000\u3088\u3046\u306a\n\u304b\u3093\u3058\u3087\u3046\u3092\u3000\u304f\u3089\u3046\u306e\u3067\u3000\u3072\u3068\u306b\n\u3088\u3063\u3066\u306f\u3000\u3042\u308a\u304c\u305f\u3044\u3000\u305d\u3093\u3056\u3044\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4eba\u306e\u3000\u5fc3\u306b\u3000\u3042\u308b\u3000\u3046\u3089\u202f\u3084\u3000\u306d\u305f\u202f\u3000\u306a\u3069\u306e\n\u611f\u60c5\u3092\u3000\u98df\u3079\u3066\u3000\u6210\u9577\u3059\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u6068\u3080\u3000\u5fc3\u3092\u3000\u63a2\u3057\u3066\u3000\u8857\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Shuppet grows by feeding on dark emotions, such as\nvengefulness and envy, in the hearts of people. It roams\nthrough cities in search of grudges that taint people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Shuppet cresce alimentandosi di sentimenti turpi, come la\nvendetta e l\u2019invidia, insiti nel cuore delle persone. Si aggira\nper le citt\u00e0 in cerca del rancore che insudicia gli animi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Shuppet crece aliment\u00e1ndose de sentimientos negativos,\ncomo el rencor y la envidia, que nacen en el coraz\u00f3n de las\npersonas. Se dedica a vagar por las ciudades en busca del\nrencor que contamina a la gente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Shuppet w\u00e4chst, indem es sich von d\u00fcsteren Gef\u00fchlen\nwie Rachsucht und Neid ern\u00e4hrt. Es streift durch St\u00e4dte\nund sucht nach Empfindungen, die als Ursache f\u00fcr den\nVerderb der Menschen gelten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Polichombr grandit en se nourrissant des \u00e9motions n\u00e9gatives\ndes gens, comme le d\u00e9sir de vengeance ou la jalousie. Il erre\ndans les villes \u00e0 la recherche des gens qui n\u2019ont pas le moral.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc0ac\ub78c\uc758 \ub9c8\uc74c\uc18d\uc5d0 \uc788\ub294 \uc6d0\ud55c\uacfc \uc9c8\ud22c \uac19\uc740\n\uac10\uc815\uc744 \uba39\uace0 \uc131\uc7a5\ud558\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc6d0\ub9dd\ud558\ub294 \ub9c8\uc74c\uc744 \ucc3e\uc544 \ub9c8\uc744\uc744 \ud5e4\ub9e8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3068\u306e\u3000\u3053\u3053\u308d\u306b\u3000\u3042\u308b\u3000\u3046\u3089\u202f\u3084\u3000\u306d\u305f\u202f\u3000\u306a\u3069\u306e\n\u304b\u3093\u3058\u3087\u3046\u3092\u3000\u305f\u3079\u3066\u3000\u305b\u3044\u3061\u3087\u3046\u3059\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3046\u3089\u3080\u3000\u3053\u3053\u308d\u3092\u3000\u3055\u304c\u3057\u3066\u3000\u307e\u3061\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u306d\u305f\u202f\u3000\u6068\u202f\u306e\u3000\u611f\u60c5\u306b\u3000\u5f15\u304d\u5bc4\u305b\u3089\u308c\u308b\u3002\n\u8ab0\u304b\u3092\u3000\u6068\u3080\u3000\u5fc3\u304c\u3000\u5f37\u304f\u3000\u306a\u308b\u3068\n\u30ab\u30b2\u30dc\u30a6\u30ba\u304c\u3000\u8ed2\u4e0b\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u4e26\u3076\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Shuppet is attracted by feelings of jealousy and vindictiveness.\nIf someone develops strong feelings of vengeance, this\nPok\u00e9mon will appear in a swarm and line up beneath the eaves\nof that person\u2019s home.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Shuppet \u00e8 attratto dai sentimenti turpi di gelosia e vendetta.\nSe qualcuno serba un forte rancore, questi Pok\u00e9mon arrivano\na frotte per annidarsi sotto i cornicioni di casa sua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "A Shuppet le atraen los sentimientos de celos y rencor.\nSi alguien desarrolla fuertes sentimientos de venganza,\naparecer\u00e1 una multitud de Shuppet que se quedar\u00e1 bajo\nlos aleros de su casa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Shuppet wird durch Gef\u00fchle wie Neid und Rachsucht\nangezogen. Wenn jemand starke Rachegel\u00fcste entwickelt,\nerscheinen diese Pok\u00e9mon in Scharen und reihen sich unter\nder Dachrinne des Hauses dieser Person auf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Les Polichombr sont attir\u00e9s par les sentiments de jalousie\net les esprits revanchards. Si quelqu\u2019un veut se venger,\nces Pok\u00e9mon apparaissent en nu\u00e9e et s\u2019alignent devant\nla porte des gens concern\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c8\ud22c\uc640 \uc6d0\ud55c\uc758 \uac10\uc815\uc5d0 \uc774\ub04c\ub9b0\ub2e4.\n\ub204\uad70\uac00\ub97c \uc6d0\ub9dd\ud558\ub294 \ub9c8\uc74c\uc774 \uac15\ud574\uc9c0\uba74\n\uc5b4\ub460\ub300\uc2e0\uc774 \ucc98\ub9c8 \ubc11\uc5d0 \uc8fd \uc904\uc744 \uc120\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u306d\u305f\u202f\u3000\u3046\u3089\u202f\u306e\u3000\u304b\u3093\u3058\u3087\u3046\u306b\u3000\u3072\u304d\u3088\u305b\u3089\u308c\u308b\u3002\n\u3060\u308c\u304b\u3092\u3000\u3046\u3089\u3080\u3000\u3053\u3053\u308d\u304c\u3000\u3064\u3088\u304f\u3000\u306a\u308b\u3068\n\u30ab\u30b2\u30dc\u30a6\u30ba\u304c\u3000\u306e\u304d\u3057\u305f\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u306a\u3089\u3076\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6068\u307f\u306e\u3000\u611f\u60c5\u304c\u3000\u5927\u597d\u304d\u3002\n\u6068\u307f\u3092\u3000\u6301\u3064\u3000\u4eba\u304c\u3000\u4f4f\u3080\u3000\u5bb6\u306e\n\u8ed2\u4e0b\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u3076\u3089\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It loves vengeful emotions and hangs in rows under\nthe eaves of houses where vengeful people live.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Si annida sotto le grondaie di case dove vive gente\nche cova sentimenti di vendetta, che lui adora.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Les atraen los sentimientos de rencor y celos.\nSuelen vivir cerca de las casas de gente vengativa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es liebt Rachegef\u00fchle. Diese Pok\u00e9mon h\u00e4ngen sich\nan Dachrinnen von H\u00e4usern, in denen Rachs\u00fcchtige\nleben.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il aime le go\u00fbt de la vengeance. Les Pok\u00e9mon de\ncette esp\u00e8ce vivent en rangs sous les goutti\u00e8res\ndes gens vindicatifs.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc6d0\ub9dd\ud558\ub294 \uac10\uc815\uc744 \ub9e4\uc6b0 \uc88b\uc544\ud55c\ub2e4.\n\uc6d0\ud55c\uc744 \uac00\uc9c0\uace0 \uc788\ub294 \uc0ac\ub78c\uc774 \uc0ac\ub294 \uc9d1\n\ucc98\ub9c8 \ubc11\uc5d0 \uc8fd \ub9e4\ub2ec\ub824 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3089\u307f\u306e\u3000\u304b\u3093\u3058\u3087\u3046\u304c\u3000\u3060\u3044\u3059\u304d\u3002\n\u3046\u3089\u307f\u3092\u3000\u3082\u3064\u3000\u3072\u3068\u304c\u3000\u3059\u3080\u3000\u3044\u3048\u306e\n\u306e\u304d\u3057\u305f\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u3076\u3089\u3055\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u982d\u306e\u3000\u30c4\u30ce\u3067\u3000\u6068\u307f\u3084\u3000\u306d\u305f\u307f\u306e\n\u611f\u60c5\u3092\u3000\u98df\u3079\u308b\u3068\u3000\u8a00\u308f\u308c\u308b\u3002\n\u771f\u591c\u4e2d\u3000\u6d3b\u767a\u306b\u3000\u6d3b\u52d5\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It uses its horn to feed on envy and malice--\nor so it\u2019s said. It\u2019s very active at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Si dice che si nutra di rancore e invidia con il corno\nche ha sulla testa. A mezzanotte si scatena.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dicen que con su cuerno se alimenta de sentimientos\nde celos y envidia. Es muy activo a medianoche.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Man sagt, durch sein Horn ern\u00e4hre es sich von\nRachsucht und Neid. Erst nachts wird es richtig aktiv.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon, tr\u00e8s actif la nuit, utilise sa corne pour\nse repa\u00eetre de rancune ou de jalousie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uba38\ub9ac\uc758 \ubfd4\ub85c \uc6d0\ud55c\uacfc \uc9c8\ud22c\uc758\n\uac10\uc815\uc744 \uba39\ub294\ub2e4\uace0 \uc804\ud574\uc9c4\ub2e4.\n\ud55c\ubc24\uc911\uc5d0 \ud65c\ubc1c\ud558\uac8c \ud65c\ub3d9\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u307e\u306e\u3000\u30c4\u30ce\u3067\u3000\u3046\u3089\u307f\u3084\u3000\u306d\u305f\u307f\u306e\n\u304b\u3093\u3058\u3087\u3046\u3092\u3000\u305f\u3079\u308b\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u307e\u3088\u306a\u304b\u3000\u304b\u3063\u3071\u3064\u306b\u3000\u304b\u3064\u3069\u3046\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It feeds on the dark emotions of\nsadness and hatred, which make it\ngrow steadily stronger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It feeds on the dark emotions of\nsadness and hatred, which make it\ngrow steadily stronger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il aime le go\u00fbt de la vengeance.\nIls vivent en rangs sous les\ngoutti\u00e8res des gens vindicatifs.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il aime le go\u00fbt de la vengeance.\nIls vivent en rangs sous les\ngoutti\u00e8res des gens vindicatifs.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It uses its horn to feed on envy\nand malice, or so it\u2019s said.\nIt\u2019s very active at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It uses its horn to feed on envy\nand malice, or so it\u2019s said.\nIt\u2019s very active at night.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It loves to feed on feelings like envy and\nmalice. Its upright horn catches the\nemotions of people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It loves to feed on feelings like envy and\nmalice. Its upright horn catches the\nemotions of people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "This POK\u00e9MON roams about deep in the\nnight seeking such negative emotions as\ngrudges and envy. It retreats to its nest\nwhen the sun begins to rise.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "SHUPPET grows by feeding on dark\nemotions, such as vengefulness and \nenvy, in the hearts of people.\fIt roams through cities in search of\ngrudges that taint people.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "SHUPPET is attracted by feelings\nof jealousy and vindictiveness.\nIf someone develops strong feelings of\fvengeance, this POK\u00e9MON will appear\nin a swarm and line up beneath the eaves\nof that person\u2019s home.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u4eba\u5076\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u306b\u3093\u304e\u3087\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Puppet Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pupazzo",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon T\u00edtere",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Puppe",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Poup\u00e9e",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u4eba\u5076\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc778\ud615\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u306b\u3093\u304e\u3087\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "fast",
+        "url": "/api/v2/growth-rate/3/"
+    },
+    "habitat": {
+        "name": "urban",
+        "url": "/api/v2/pokemon-habitat/8/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 25,
+    "id": 353,
+    "is_baby": false,
+    "name": "shuppet",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6028\u5f71\u5a03\u5a03"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ab\u30b2\u30dc\u30a6\u30ba"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Shuppet"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Shuppet"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Shuppet"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Shuppet"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Polichombr"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6028\u5f71\u5a03\u5a03"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc5b4\ub460\ub300\uc2e0"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Kagebouzu"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ab\u30b2\u30dc\u30a6\u30ba"
+        }
+    ],
+    "order": 381,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 151,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 122,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 210,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 146,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 353,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "ball",
+        "url": "/api/v2/pokemon-shape/1/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "shuppet",
+                "url": "/api/v2/pokemon/353/"
+            }
+        }
+    ]
+}

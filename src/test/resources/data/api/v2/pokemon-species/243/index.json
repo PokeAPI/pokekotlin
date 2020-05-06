@@ -1,0 +1,799 @@
+{
+    "base_happiness": 35,
+    "capture_rate": 3,
+    "color": {
+        "name": "yellow",
+        "url": "/api/v2/pokemon-color/10/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/123/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u96f7\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u3092\u3000\u5bbf\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u305d\u306e\u3000\u9060\u307c\u3048\u306f\u3000\u96f7\u304c\u3000\u843d\u3061\u305f\u3000\u3068\u304d\u306e\n\u3088\u3046\u306b\u3000\u7a7a\u6c17\u3092\u3000\u9707\u308f\u305b\u3000\u5927\u5730\u3092\u3000\u63fa\u308b\u304c\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Raikou embodies the speed of lightning. The roars of\nthis Pok\u00e9mon send shock waves shuddering through the\nair and shake the ground as if lightning bolts had come\ncrashing down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Raikou rappresenta la velocit\u00e0 del fulmine. Il suo ruggito crea\nterrificanti onde d\u2019urto nell\u2019aria e scuote il suolo come se\nfosse percosso dalla furia di un fulmine durante il temporale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Raikou tiene la velocidad del rayo. Los rugidos de este\nPok\u00e9mon emiten ondas de choque que se esparcen vibrando\npor el aire y sacuden el suelo como si fueran aut\u00e9nticas\ndescargas de rayo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Raikou ist so schnell wie der Blitz. Das Gebr\u00fcll dieses\nPok\u00e9mon sendet Schockwellen aus, die wie Donnerschl\u00e4ge\ndurch die Luft beben und den Boden ersch\u00fcttern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Raikou incarne la vitesse de l\u2019\u00e9clair. Les rugissements de\nce Pok\u00e9mon lib\u00e8rent des ondes de choc provenant du ciel\net frappant le sol avec la puissance de la foudre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ubc88\uac1c\uc758 \uc2a4\ud53c\ub4dc\uac00 \uae43\ub4e4\uc5b4 \uc788\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uadf8 \uc6b8\uc74c\uc18c\ub9ac\ub294 \ubc88\uac1c\uac00 \ub0b4\ub9ac\ucce4\uc744 \ub54c\ucc98\ub7fc\n\uacf5\uae30\ub97c \ub5a8\ub9ac\uac8c \ud558\uba70 \ub300\uc9c0\ub97c \ud754\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u202f\u306a\u308a\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u3092\u3000\u3084\u3069\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u305d\u306e\u3000\u3068\u304a\u307c\u3048\u306f\u3000\u304b\u202f\u306a\u308a\u304c\u3000\u304a\u3061\u305f\u3000\u3068\u304d\u306e\n\u3088\u3046\u306b\u3000\u304f\u3046\u304d\u3092\u3000\u3075\u308b\u308f\u305b\u3000\u3060\u3044\u3061\u3092\u3000\u3086\u308b\u304c\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u96f7\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u3092\u3000\u5bbf\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u305d\u306e\u3000\u9060\u307c\u3048\u306f\u3000\u96f7\u304c\u3000\u843d\u3061\u305f\u3000\u3068\u304d\u306e\n\u3088\u3046\u306b\u3000\u7a7a\u6c17\u3092\u3000\u9707\u308f\u305b\u3000\u5927\u5730\u3092\u3000\u63fa\u308b\u304c\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Raikou embodies the speed of lightning. The roars of this\nPok\u00e9mon send shock waves shuddering through the air\nand shake the ground as if lightning bolts had come\ncrashing down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Raikou rappresenta la velocit\u00e0 del fulmine. Il suo ruggito crea\nterrificanti onde d\u2019urto nell\u2019aria e scuote il suolo come se\nfosse percosso dalla furia di un fulmine durante il temporale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Raikou tiene la velocidad del rayo. Los rugidos de este\nPok\u00e9mon emiten ondas de choque que se esparcen vibrando\npor el aire y sacuden el suelo como si fueran aut\u00e9nticas\ndescargas de rayo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Raikou ist so schnell wie der Blitz. Das Gebr\u00fcll dieses\nPok\u00e9mon sendet Schockwellen aus, die wie Donnerschl\u00e4ge\ndurch die Luft beben und den Boden ersch\u00fcttern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Raikou incarne la vitesse de l\u2019\u00e9clair. Les rugissements de\nce Pok\u00e9mon lib\u00e8rent des ondes de choc provenant du ciel\net frappant le sol avec la puissance de la foudre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubc88\uac1c\uc758 \uc2a4\ud53c\ub4dc\uac00 \uae43\ub4e4\uc5b4 \uc788\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uadf8 \uc6b8\uc74c\uc18c\ub9ac\ub294 \ubc88\uac1c\uac00 \ub0b4\ub9ac\ucce4\uc744 \ub54c\ucc98\ub7fc\n\uacf5\uae30\ub97c \ub5a8\ub9ac\uac8c \ud558\uba70 \ub300\uc9c0\ub97c \ud754\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u202f\u306a\u308a\u306e\u3000\u30b9\u30d4\u30fc\u30c9\u3092\u3000\u3084\u3069\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u305d\u306e\u3000\u3068\u304a\u307c\u3048\u306f\u3000\u304b\u202f\u306a\u308a\u304c\u3000\u304a\u3061\u305f\u3000\u3068\u304d\u306e\n\u3088\u3046\u306b\u3000\u304f\u3046\u304d\u3092\u3000\u3075\u308b\u308f\u305b\u3000\u3060\u3044\u3061\u3092\u3000\u3086\u308b\u304c\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u3067\u3000\u6e26\u5dfb\u304f\u3000\u529b\u3092\n\u96fb\u6483\u3068\u3057\u3066\u3000\u51fa\u3057\u306a\u304c\u3089\u3000\u5927\u5730\u3092\n\u99c6\u3051\u5de1\u308b\u3000\u8352\u3005\u3057\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "This rough Pok\u00e9mon stores energy inside its body,\nthen sweeps across the land, shooting\noff electricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon violento che accumula energia nel corpo\ne poi corre all\u2019impazzata, scaricando elettricit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Este duro Pok\u00e9mon almacena energ\u00eda en su cuerpo.\nDespu\u00e9s, cuando se desplaza por tierra, la suelta.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Dieses aggressive Pok\u00e9mon speichert Energie\nin seinem K\u00f6rper und entl\u00e4dt sie, wenn es \u00fcber\ndas Land streift.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ce terrible Pok\u00e9mon emmagasine de l\u2019\u00e9nergie puis\ncourt en lan\u00e7ant de puissants \u00e9clairs.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc5d0\uc11c \ub4e4\ub053\ub294 \ud798\uc744\n\uc804\uaca9\uc73c\ub85c \ub0b4\ubcf4\ub0b4\uba74\uc11c \ub300\uc9c0\ub97c\n\ub2ec\ub9ac\ub294 \ub09c\ud3ed\ud55c \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u3067\u3000\u3046\u305a\u307e\u304f\u3000\u3061\u304b\u3089\u3092\n\u3067\u3093\u3052\u304d\u3068\u3057\u3066\u3000\u3060\u3057\u306a\u304c\u3089\u3000\u3060\u3044\u3061\u3092\n\u304b\u3051\u3081\u3050\u308b\u3000\u3042\u3089\u3042\u3089\u3057\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u96e8\u96f2\u3092\u3000\u80cc\u8ca0\u3063\u3066\u3044\u308b\u306e\u3067\n\u3069\u3093\u306a\u3068\u304d\u3067\u3082\u3000\u96f7\u3092\u3000\u51fa\u305b\u308b\u3002\n\u96f7\u3068\u3068\u3082\u306b\u3000\u843d\u3061\u3066\u304d\u305f\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The rain clouds it carries let it fire thunderbolts\nat will. They say that it descended with lightning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Grazie alle nubi di pioggia che ha con s\u00e9 lancia\nfulmini a volont\u00e0. Pare che sia arrivato con un lampo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Las nubes de lluvia que lleva le permiten lanzar rayos\na voluntad. Dicen que apareci\u00f3 con un rayo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Die Regenwolken, die es tr\u00e4gt, erm\u00f6glichen es ihm,\nGewitter zu erzeugen. Es strotzt vor Blitzen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Le nuage de pluie qu\u2019il porte peut rel\u00e2cher la foudre\n\u00e0 volont\u00e9. On dit de lui qu\u2019il est venu avec l\u2019orage.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ube44\uad6c\ub984\uc744 \uc9ca\uc5b4\uc9c0\uace0 \uc788\uc5b4\uc11c\n\uc5b4\ub5a4 \ub54c\ub77c\ub3c4 \ubc88\uac1c\ub97c \uce60 \uc218 \uc788\ub2e4.\n\ubc88\uac1c\uc640 \ud568\uaed8 \ub5a8\uc5b4\uc84c\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u307e\u3050\u3082\u3092\u3000\u305b\u304a\u3063\u3066\u3044\u308b\u306e\u3067\n\u3069\u3093\u306a\u3068\u304d\u3067\u3082\u3000\u304b\u307f\u306a\u308a\u3092\u3000\u3060\u305b\u308b\u3002\n\u304b\u307f\u306a\u308a\u3068\u3068\u3082\u306b\u3000\u304a\u3061\u3066\u304d\u305f\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It is said to have fallen with\nlightning. It can fire thunderbolts\nfrom the rain clouds on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It is said to have fallen with\nlightning. It can fire thunderbolts\nfrom the rain clouds on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It is said to have fallen with\nlightning. It can fire thunderbolts\nfrom the rain clouds on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "On pr\u00e9tend qu\u2019il est tomb\u00e9 avec la\nfoudre. Il peut lancer des \u00e9clairs\ngr\u00e2ce aux nuages sur son dos.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It is said to have fallen with\nlightning. It can fire thunderbolts\nfrom the rain clouds on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "On pr\u00e9tend qu\u2019il est tomb\u00e9 avec la\nfoudre. Il peut lancer des \u00e9clairs\ngr\u00e2ce aux nuages sur son dos.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that races across the\nland while barking a cry that sounds\nlike crashing thunder.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "The rain clouds it carries let it\nfire thunderbolts at will. They say\nthat it descended with lightning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It is said to have fallen with\nlightning. It can fire thunderbolts\nfrom the rain clouds on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It is said to have fallen with\nlightning. It can fire thunderbolts\nfrom the rain clouds on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It is said to have fallen with\nlightning. It can fire thunderbolts\nfrom the rain clouds on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The rain clouds it carries let it fire\nthunderbolts at will. They say that it\ndescended with lightning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "This POK\u00e9MON races across the\nland while barking a cry that sounds\nlike crashing thunder.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "RAIKOU embodies the speed of lightning.\nIts roars send shock waves shuddering\nthrough the air and ground as if\nlightning bolts were crashing down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "RAIKOU embodies the speed of lightning.\nThe roars of this POK\u00e9MON send shock\nwaves shuddering through the air and\fshake the ground as if lightning bolts\nhad come crashing down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "RAIKOU embodies the speed of lightning.\nThe roars of this POK\u00e9MON send shock\nwaves shuddering through the air and\fshake the ground as if lightning bolts\nhad come crashing down.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "This rough POK\u00e9MON\nstores energy\ninside its body,\fthen sweeps across\nthe land, shooting\noff electricity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON that\nraces across the\nland while barking\fa cry that sounds\nlike crashing\nthunder.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "The rain clouds it\ncarries let it\nfire thunderbolts\fat will. They say\nthat it descended\nwith lightning.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u5929\u96f7\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3044\u304b\u305a\u3061\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Thunder Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Tuono",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Trueno",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Donner",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Foudre",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5929\u96f7\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc6b0\ub8b0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3044\u304b\u305a\u3061\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 80,
+    "id": 243,
+    "is_baby": false,
+    "name": "raikou",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u96f7\u516c"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e9\u30a4\u30b3\u30a6"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Raikou"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Raikou"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Raikou"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Raikou"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Raikou"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u96f7\u516c"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub77c\uc774\ucf54"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Raikou"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e9\u30a4\u30b3\u30a6"
+        }
+    ],
+    "order": 268,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 90,
+            "rate": 3
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 243,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 238,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 243,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "raikou",
+                "url": "/api/v2/pokemon/243/"
+            }
+        }
+    ]
+}

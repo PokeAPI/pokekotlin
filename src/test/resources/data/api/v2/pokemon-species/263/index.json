@@ -1,0 +1,773 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 255,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/134/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u80cc\u4e2d\u306e\u3000\u786c\u3044\u3000\u6bdb\u3092\u3000\u6a39\u6728\u306b\u3000\u3053\u3059\u308a\u3064\u3051\n\u81ea\u5206\u306e\u3000\u7e04\u5f35\u308a\u3067\u3000\u3042\u308b\u3000\u5370\u3092\u3000\u3064\u3051\u308b\u3002\n\u6b7b\u3093\u3060\u3000\u3075\u308a\u3092\u3000\u3057\u3066\u3000\u6575\u306e\u3000\u76ee\u3092\u3000\u8aa4\u9b54\u5316\u3059\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "The hair on Zigzagoon\u2019s back is bristly. It rubs the hard back\nhair against trees to leave its territorial markings. This Pok\u00e9mon\nmay play dead to fool foes in battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "La schiena di Zigzagoon \u00e8 caratterizzata da una folta pelliccia\nrizzata. Per delimitare il suo territorio strofina il suo pelo irsuto\ncontro i tronchi degli alberi. Per confondere i nemici, in lotta\nsi finge morto.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Zigzagoon tiene erizado el pelo del lomo, y suele frot\u00e1rselo\ncontra los \u00e1rboles para marcar su territorio. Este Pok\u00e9mon\nhace como si estuviera debilitado para enga\u00f1ar a sus\nenemigos en combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Das Haar auf Zigzachs\u2019 R\u00fccken ist struppig. Es reibt seine\nR\u00fcckenborsten an B\u00e4umen, um sein Revier zu markieren.\nDieses Pok\u00e9mon stellt sich im Kampf schon einmal tot,\num seine Feinde reinzulegen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Les poils sur le dos de Zigzaton sont durs. Il frotte son dos\ncontre les arbres pour marquer son territoire. Ce Pok\u00e9mon\nfait parfois le mort pour tromper ses ennemis au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub4f1\uc758 \ubee3\ubee3\ud55c \ud138\uc744 \ub098\ubb34\uc5d0 \ubb38\uc9c8\ub7ec\uc11c\n\uc790\uc2e0\uc758 \uc601\uc5ed\uc774\ub780 \ud45c\uc2dc\ub97c \ud574\ub454\ub2e4.\n\uc8fd\uc740 \ucc99\ud558\uba70 \uc801\uc758 \ub208\uc744 \uc18d\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u306a\u304b\u306e\u3000\u304b\u305f\u3044\u3000\u3051\u3092\u3000\u3058\u3085\u3082\u304f\u306b\u3000\u3053\u3059\u308a\u3064\u3051\n\u3058\u3076\u3093\u306e\u3000\u306a\u308f\u3070\u308a\u3067\u3000\u3042\u308b\u3000\u3057\u308b\u3057\u3092\u3000\u3064\u3051\u308b\u3002\n\u3057\u3093\u3060\u3000\u3075\u308a\u3092\u3000\u3057\u3066\u3000\u3066\u304d\u306e\u3000\u3081\u3092\u3000\u3054\u307e\u304b\u3059\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u3042\u3063\u3061\u3000\u3053\u3063\u3061\u3078\u3000\u30b8\u30b0\u30b6\u30b0\u3000\u6b69\u304f\u306e\u306f\n\u597d\u5947\u5fc3\u304c\u3000\u3068\u3066\u3082\u3000\u5f37\u304f\u3066\u3000\u76ee\u306b\u3000\u6620\u308b\n\u8272\u3093\u306a\u3000\u3082\u306e\u306b\u3000\u8208\u5473\u3092\u3000\u6301\u3064\u304b\u3089\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Zigzagoon restlessly wanders everywhere at all times.\nThis Pok\u00e9mon does so because it is very curious. It becomes\ninterested in anything that it happens to see.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Zigzagoon scorrazza a destra e a manca senza sosta,\na causa della sua indole molto curiosa. Qualunque cosa\nveda riesce ad attirare la sua attenzione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Zigzagoon est\u00e1 todo el d\u00eda dando vueltas de aqu\u00ed para all\u00e1.\nEs un Pok\u00e9mon muy inquieto. Se interesa por todo lo que se\nencuentra en su camino.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Zigzachs ist ein rastloser Wanderer. Dieses Pok\u00e9mon\nist n\u00e4mlich sehr neugierig und es inspiziert alles, was ihm\nzuf\u00e4llig begegnet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Zigzaton se prom\u00e8ne nerveusement un peu partout. En effet,\nce Pok\u00e9mon est tr\u00e8s curieux. Tout ce qu\u2019il voit l\u2019int\u00e9resse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud56d\uc0c1 \uc774\ucabd\uc800\ucabd \uc9c0\uadf8\uc7ac\uadf8\ub85c \uac77\ub294 \uac83\uc740\n\ud638\uae30\uc2ec\uc774 \ub9e4\uc6b0 \uac15\ud574\uc11c \ub208\uc5d0 \ube44\uce5c\n\uc5ec\ub7ec \uac00\uc9c0 \uac83\ub4e4\uc5d0 \ud765\ubbf8\ub97c \ub290\ub07c\uae30 \ub54c\ubb38\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u3042\u3063\u3061\u3000\u3053\u3063\u3061\u3078\u3000\u30b8\u30b0\u30b6\u30b0\u3000\u3042\u308b\u304f\u306e\u306f\n\u3053\u3046\u304d\u3057\u3093\u304c\u3000\u3068\u3066\u3082\u3000\u3064\u3088\u304f\u3066\u3000\u3081\u306b\u3000\u3046\u3064\u308b\n\u3044\u308d\u3093\u306a\u3000\u3082\u306e\u306b\u3000\u304d\u3087\u3046\u202f\u3092\u3000\u3082\u3064\u304b\u3089\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u597d\u5947\u5fc3\u3000\u65fa\u76db\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u306a\u306b\u306b\u3067\u3082\u3000\u8208\u5473\u3092\u3000\u6301\u3064\u306e\u3067\n\u3044\u3064\u3082\u3000\u30b8\u30b0\u30b6\u30b0\u306b\u3000\u6b69\u3044\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon with abundant curiosity. It shows an\ninterest in everything, so it always zigzags.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019estrema curiosit\u00e0 lo porta a spostarsi di continuo\nin ogni direzione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es un Pok\u00e9mon muy inquieto, se interesa por todo.\nSiempre est\u00e1 de aqu\u00ed para all\u00e1.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ein sehr neugieriges Pok\u00e9mon. Es zeigt an allem\nInteresse, daher l\u00e4uft es zickzack.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon d\u2019une curiosit\u00e9 insatiable. Il montre\nde l\u2019int\u00e9r\u00eat pour tout ce qui l\u2019entoure et passe d\u2019un\nendroit \u00e0 un autre en zigzaguant pour tout regarder.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud638\uae30\uc2ec\uc774 \uc655\uc131\ud55c \ud3ec\ucf13\ubaac.\n\ubb34\uc5c7\uc774\ub4e0\uc9c0 \ud765\ubbf8\ub97c \uac00\uc9c0\ubbc0\ub85c\n\ud56d\uc0c1 \uc9c0\uadf8\uc7ac\uadf8\ub85c \uac77\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u304d\u3057\u3093\u3000\u304a\u3046\u305b\u3044\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u306a\u306b\u306b\u3067\u3082\u3000\u304d\u3087\u3046\u307f\u3092\u3000\u3082\u3064\u306e\u3067\n\u3044\u3064\u3082\u3000\u30b8\u30b0\u30b6\u30b0\u306b\u3000\u3042\u308b\u3044\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30b8\u30b0\u30b6\u30b0\u306b\u3000\u6b69\u3044\u3066\u3000\u8349\u9670\u3084\n\u5730\u9762\u306b\u3000\u57cb\u307e\u3063\u3066\u3044\u308b\u3000\u5b9d\u7269\u3092\n\u898b\u3064\u3051\u308b\u306e\u304c\u3000\u5f97\u610f\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It\u2019s good at finding\nitems in the grass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Avanza a zigzag. \u00c8 bravo a trovare strumenti\nnell\u2019erba e sul terreno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se mueve en zigzag. Se le da bien encontrar\nobjetos ocultos en la hierba e incluso enterrados.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es l\u00e4uft im Zickzack. Es hat das Talent, Items\nim Gras, aber auch im Boden, zu finden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il marche en zigzaguant et n\u2019a pas son pareil pour\ntrouver des objets dans l\u2019herbe ou sous terre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\uadf8\uc7ac\uadf8\ub85c \uac78\uc5b4\uc11c \ud480\uc232\uc774\ub098\n\ub545\uc5d0 \ubb3b\ud600 \uc788\ub294 \ubcf4\ubb3c\uc744\n\ucc3e\uc544\ub0b4\ub294 \uac83\uc774 \ud2b9\uae30\uc778 \ud3ec\ucf13\ubaac\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30b8\u30b0\u30b6\u30b0\u306b\u3000\u3042\u308b\u3044\u3066\u3000\u304f\u3055\u304b\u3052\u3084\n\u3058\u3081\u3093\u306b\u3000\u3046\u307e\u3063\u3066\u3044\u308b\u3000\u305f\u304b\u3089\u3082\u306e\u3092\n\u307f\u3064\u3051\u308b\u306e\u304c\u3000\u3068\u304f\u3044\u306a\u3000\u30dd\u30b1\u30e2\u30f3\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It is\ngood at finding items in the\ngrass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It is\ngood at finding items in the\ngrass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It is\ngood at finding items in the\ngrass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il marche en zigzaguant et n\u2019a\npas son pareil pour trouver des\nobjets dans l\u2019herbe ou sous terre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It is\ngood at finding items in the\ngrass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il marche en zigzaguant et n\u2019a\npas son pareil pour trouver des\nobjets dans l\u2019herbe ou sous terre.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It gets interested in everything,\nwhich is why it zigs and zags.\nIt is good at finding items.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It gets interested in everything,\nwhich is why it zigs and zags.\nIt is good at finding items.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It is\ngood at finding items in the\ngrass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It is\ngood at finding items in the\ngrass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It walks in zigzag fashion. It is\ngood at finding items in the\ngrass and even in the ground.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON with abundant curiosity.\nIt shows an interest in everything, so it\nalways zigs and zags.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "A POK\u00e9MON with abundant curiosity.\nIt shows an interest in everything, so it\nalways zigs and zags.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Rubbing its nose against the ground, it\nalways wanders about back and forth in\nsearch of something. It is distinguished\nby the zigzag footprints it leaves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "The hair on ZIGZAGOON\u2019s back is \nbristly. It rubs the hard back hair\nagainst trees to leave its territorial\fmarkings.\nThis POK\u00e9MON may play dead to fool foes\nin battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "ZIGZAGOON restlessly wanders\neverywhere at all times. This POK\u00e9MON\ndoes so because it is very curious.\fIt becomes interested in anything\nthat it happens to see.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u8c46\u72f8\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u307e\u3081\u3060\u306c\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Tiny Raccoon Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Procione",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Mapachito",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Kleindachs",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Petit Raton",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8c46\u8c8d\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc559\uc99d\ub108\uad6c\ub9ac\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u307e\u3081\u3060\u306c\u304d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 263,
+    "is_baby": false,
+    "name": "zigzagoon",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u86c7\u7eb9\u718a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b8\u30b0\u30b6\u30b0\u30de"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Zigzagoon"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Zigzagoon"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Zigzagoon"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Zigzachs"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Zigzaton"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u86c7\u7d0b\u718a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc9c0\uadf8\uc81c\uad6c\ub9ac"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Ziguzaguma"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b8\u30b0\u30b6\u30b0\u30de"
+        }
+    ],
+    "order": 288,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 30,
+            "rate": 50
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 12,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 12,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 12,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 263,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "zigzagoon",
+                "url": "/api/v2/pokemon/263/"
+            }
+        }
+    ]
+}

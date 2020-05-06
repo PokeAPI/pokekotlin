@@ -1,0 +1,717 @@
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "leer",
+                    "url": "/api/v2/move/43/"
+                },
+                {
+                    "name": "rage",
+                    "url": "/api/v2/move/99/"
+                }
+            ],
+            "use_before": [
+                {
+                    "name": "leer",
+                    "url": "/api/v2/move/43/"
+                },
+                {
+                    "name": "bite",
+                    "url": "/api/v2/move/44/"
+                },
+                {
+                    "name": "super-fang",
+                    "url": "/api/v2/move/162/"
+                },
+                {
+                    "name": "crunch",
+                    "url": "/api/v2/move/242/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/10/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Lowers the target's Speed by two stages.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Lowers the target's Speed by two stages."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u6050\u6016\u7684\u8138\u77aa\u7740\u5bf9\u624b\uff0c\n\u4f7f\u5176\u5bb3\u6015\uff0c\n\u4ece\u800c\u5927\u5e45\u964d\u4f4e\u5bf9\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6050\u308d\u3057\u3044\u3000\u9854\u3067\u3000\u306b\u3089\u307f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens the target with a scary face to\nharshly lower its Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa spaventa il bersaglio con una faccia\nterribile e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Asusta al objetivo para reducir mucho su Velocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Jagt dem Ziel mit einer Grimasse Angst ein.\nDessen Initiative-Wert sinkt stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une grimace qui effraie l\u2019ennemi et r\u00e9duit\nbeaucoup sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6050\u6016\u7684\u8868\u60c5\u77aa\u8457\u5c0d\u624b\uff0c\n\u8b93\u5c0d\u624b\u5bb3\u6015\uff0c\n\u5927\u5e45\u964d\u4f4e\u5c0d\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc11c\uc6b4 \uc5bc\uad74\ub85c \ub178\ub824\ubcf4\uace0 \uac81\uc8fc\uc5b4\n\uc0c1\ub300\uc758 \uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u305d\u308d\u3057\u3044\u3000\u304b\u304a\u3067\u3000\u306b\u3089\u307f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6050\u6016\u7684\u8138\u77aa\u7740\u5bf9\u624b\uff0c\n\u4f7f\u5176\u5bb3\u6015\uff0c\n\u4ece\u800c\u5927\u5e45\u964d\u4f4e\u5bf9\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6050\u308d\u3057\u3044\u3000\u9854\u3067\u3000\u306b\u3089\u307f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens the target with a scary face to\nharshly lower its Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa spaventa il bersaglio con una faccia\nterribile e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Asusta al objetivo para reducir mucho su Velocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Jagt dem Ziel mit einer Grimasse Angst ein.\nDessen Initiative-Wert sinkt stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une grimace qui effraie l\u2019ennemi et r\u00e9duit\nbeaucoup sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6050\u6016\u7684\u8868\u60c5\u77aa\u8457\u5c0d\u624b\uff0c\n\u8b93\u5c0d\u624b\u5bb3\u6015\uff0c\n\u5927\u5e45\u964d\u4f4e\u5c0d\u624b\u7684\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc11c\uc6b4 \uc5bc\uad74\ub85c \ub178\ub824\ubcf4\uace0 \uac81\uc8fc\uc5b4\n\uc0c1\ub300\uc758 \uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u305d\u308d\u3057\u3044\u3000\u304b\u304a\u3067\u3000\u306b\u3089\u307f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6050\u308d\u3057\u3044\u3000\u9854\u3067\u3000\u306b\u3089\u202f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens the target with a scary\nface to harshly lower its Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa spaventa il bersaglio con una faccia\nterribile e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Asusta al objetivo para reducir mucho su Velocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Jagt dem Ziel mit einer Grimasse Angst ein.\nDessen Initiative-Wert sinkt stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une grimace qui effraie l\u2019ennemi et r\u00e9duit\nfortement sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc11c\uc6b4 \uc5bc\uad74\ub85c \ub178\ub824\ubcf4\uace0 \uac81\uc8fc\uc5b4\n\uc0c1\ub300\uc758 \uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u305d\u308d\u3057\u3044\u3000\u304b\u304a\u3067\u3000\u306b\u3089\u202f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6050\u308d\u3057\u3044\u3000\u9854\u3067\u3000\u306b\u3089\u307f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u76f8\u624b\u306e\u3000\u7d20\u65e9\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens the target with a scary\nface to harshly lower its Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa spaventa il bersaglio con una faccia\nterribile e ne riduce di molto la Velocit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Asusta al objetivo para reducir mucho su Velocidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Jagt dem Ziel mit einer Grimasse Angst ein.\nDessen Initiative-Wert sinkt stark.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une grimace qui effraie l\u2019ennemi et r\u00e9duit\nfortement sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubb34\uc11c\uc6b4 \uc5bc\uad74\ub85c \ub178\ub824\ubcf4\uace0 \uac81\uc8fc\uc5b4\n\uc0c1\ub300\uc758 \uc2a4\ud53c\ub4dc\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u305d\u308d\u3057\u3044\u3000\u304b\u304a\u3067\u3000\u306b\u3089\u307f\u3000\u304a\u3073\u3048\u3055\u305b\u3066\n\u3042\u3044\u3066\u306e\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\n",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens the target with a scary\nface to harshly reduce its Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens the target with a scary\nface to harshly reduce its Speed stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une grimace qui effraie l\u2019ennemi et\nr\u00e9duit fortement sa Vitesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens\nthe foe with a scary\nface to sharply\nreduce its Speed\nstat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens\nthe foe with a scary\nface to sharply\nreduce its Speed\nstat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user frightens\nthe foe with a scary\nface to sharply\nreduce its Speed\nstat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Frightens the foe\nwith a scary face\nto sharply reduce\nits SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Frightens with a scary face\nto sharply reduce SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Frightens with a scary face\nto sharply reduce SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Sharply reduces\nthe foe's SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Sharply reduces\nthe foe's SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 184,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "scary-face",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9b3c\u9762"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3053\u308f\u3044\u304b\u304a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Scary Face"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Visotruce"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Cara Susto"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Grimasse"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Grimace"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9b3c\u9762"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uac81\ub098\ub294\uc5bc\uad74"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3053\u308f\u3044\u304b\u304a"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": 90,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": -2,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/2/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

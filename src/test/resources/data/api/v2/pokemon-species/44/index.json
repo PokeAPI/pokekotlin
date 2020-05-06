@@ -1,0 +1,874 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/18/"
+    },
+    "evolves_from_species": {
+        "name": "oddish",
+        "url": "/api/v2/pokemon-species/43/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "Aus seinem Mund tropft \u00fcbelriechender Honig.\nBekommt man etwas davon ab, haftet sein\nGestank selbst nach 10 Waschg\u00e4ngen noch an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3046\u3084\u3089\u3000\u30af\u30b5\u30a4\u30cf\u30ca\u306f\u3000\u53e3\u304b\u3089\u3000\u5782\u3089\u3057\u3066\u3044\u308b\n\u731b\u70c8\u306b\u3000\u81ed\u3044\u3000\u30cb\u30aa\u30a4\u304c\u3000\u5927\u597d\u304d\u3000\u3089\u3057\u3044\u3002\n\u30cb\u30aa\u30a4\u3092\u3000\u55c5\u3044\u3067\u3000\u3055\u3089\u306b\u3000\u202f\u3064\u3092\u3000\u3042\u3075\u308c\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "From its mouth Gloom drips honey that smells absolutely\nhorrible. Apparently, it loves the horrid stench. It sniffs the\nnoxious fumes and then drools even more of its honey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Dalla bocca di Gloom fuoriesce una resina maleodorante\ne disgustosa. Evidentemente adora questo fetido olezzo,\npoich\u00e9 lo annusa avidamente producendo poi altra resina.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Gloom babea un n\u00e9ctar que tiene un olor realmente horrible,\naunque parece ser que a \u00e9l le gusta. De hecho, aspira los\ngases nocivos y libera m\u00e1s n\u00e9ctar a\u00fan.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Aus Duflors Mund tropft \u00fcbelst riechender Honig.\nDiesen Gestank scheint es zu lieben, denn es\nschnieft die giftigen D\u00e4mpfe ein und sabbert danach\nnoch mehr Honig.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ortide bave un miel qui sent horriblement mauvais.\nApparemment, il adore cette odeur naus\u00e9abonde.\nIl en renifle les fum\u00e9es toxiques et se met \u00e0 baver\ndu miel de plus belle.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ubb34\ub798\ub3c4 \ub0c4\uc0c8\uaf2c\ub294 \uc785\uc5d0\uc11c \ub098\ub294\n\ub9f9\ub82c\ud55c \uc545\ucde8\ub97c \ub9e4\uc6b0 \uc88b\uc544\ud558\ub294 \uac83 \uac19\ub2e4.\n\ub0c4\uc0c8\ub97c \ub9e1\uc73c\uba74 \ub354\uc6b1 \uafc0\uc774 \ub118\uccd0\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3046\u3084\u3089\u3000\u30af\u30b5\u30a4\u30cf\u30ca\u306f\u3000\u304f\u3061\u304b\u3089\u3000\u305f\u3089\u3057\u3066\u3044\u308b\n\u3082\u3046\u308c\u3064\u306b\u3000\u304f\u3055\u3044\u3000\u30cb\u30aa\u30a4\u304c\u3000\u3060\u3044\u3059\u304d\u3000\u3089\u3057\u3044\u3002\n\u30cb\u30aa\u30a4\u3092\u3000\u304b\u3044\u3067\u3000\u3055\u3089\u306b\u3000\u202f\u3064\u3092\u3000\u3042\u3075\u308c\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5371\u967a\u3092\u3000\u611f\u3058\u308b\u3068\u3000\u3081\u3057\u3079\u306e\u3000\u653e\u3064\u3000\u304f\u3055\u3044\n\u81ed\u3044\u304c\u3000\u3055\u3089\u306b\u3000\u5f37\u307e\u308b\u304c\u3000\u5fc3\u304c\u3000\u7a4f\u3084\u304b\u306a\n\u3068\u304d\u306f\u3000\u304f\u3055\u3044\u3000\u81ed\u3044\u3092\u3000\u51fa\u3055\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Gloom releases a foul fragrance from the pistil of its flower.\nWhen faced with danger, the stench worsens.\nIf this Pok\u00e9mon is feeling calm and secure, it does not\nrelease its usual stinky aroma.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Gloom rilascia un odore fetido dal pistillo del suo fiore.\nQuando \u00e8 in pericolo, l\u2019olezzo peggiora. Quando invece\nsi sente tranquillo e sicuro, non emana questa sostanza\nmaleodorante.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Gloom libera un f\u00e9tido olor por el pistilo de la flor. Cuando\nest\u00e1 en peligro, el hedor se intensifica. Si este Pok\u00e9mon est\u00e1\ntranquilo y no se siente amenazado, no libera el desagradable\nolor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Duflor produziert einen ekelerregenden Gestank aus\ndem Stempel seiner Blume. Wenn es in Gefahr ger\u00e4t,\nwird der Gestank noch unertr\u00e4glicher. Wenn sich dieses\nPok\u00e9mon in Sicherheit befindet, st\u00f6\u00dft es keinen\nGestank aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La plupart du temps, Ortide d\u00e9gage un parfum immonde du\npistil de sa fleur. Lorsqu\u2019il se sent en danger, la puanteur est\nencore pire. Lorsque ce Pok\u00e9mon se sent bien et en s\u00e9curit\u00e9,\nil ne d\u00e9gage aucune odeur naus\u00e9abonde.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc704\ud5d8\uc744 \ub290\ub07c\uba74 \uc554\uc220\uc5d0\uc11c \ub0b4\ub294 \uad6c\ub9b0\n\ub0c4\uc0c8\uac00 \ub354 \uac15\ud574\uc9c0\uc9c0\ub9cc \ub9c8\uc74c\uc774 \ud3c9\uc548\ud560\n\ub54c\ub294 \uad6c\ub9b0 \ub0c4\uc0c8\ub97c \ub0b4\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u3051\u3093\u3092\u3000\u304b\u3093\u3058\u308b\u3068\u3000\u3081\u3057\u3079\u306e\u3000\u306f\u306a\u3064\u3000\u304f\u3055\u3044\n\u306b\u304a\u3044\u306f\u3000\u3055\u3089\u306b\u3000\u3064\u3088\u307e\u308b\u304c\u3000\u3053\u3053\u308d\u3000\u304a\u3060\u3084\u304b\u306a\n\u3068\u304d\u306f\u3000\u304f\u3055\u3044\u3000\u306b\u304a\u3044\u3092\u3000\u3060\u3055\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u53e3\u304b\u3089\u3000\u305f\u308c\u3066\u3044\u308b\u3000\u30df\u30c4\u306f\n\uff12\u30ad\u30ed\u3000\u96e2\u308c\u3066\u3044\u3066\u3082\u3000\u9f3b\u304c\n\u307e\u304c\u308b\u307b\u3069\u3000\u731b\u70c8\u306b\u3000\u304f\u3055\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth smells so\natrocious, it can curl noses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il fluido che fuoriesce dalla sua bocca \u00e8 cos\u00ec\npuzzolente che si sente anche a 2 km di distanza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "La miel que emana de su boca posee un hedor capaz\nde derribar enemigos a 2 km de distancia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Der Honig, den es abgibt, riecht so entsetzlich,\ndass sich sogar Nasen in 2 km Entfernung r\u00fcmpfen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019odeur du nectar de sa bouche est si r\u00e9pugnante\nqu\u2019elle agresse les narines \u00e0 2 km.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc785\uc5d0\uc11c \ud758\ub7ec\ub0b4\ub9ac\ub294 \uafc0\uc740\n2km \ub5a8\uc5b4\uc838 \uc788\uc5b4\ub3c4 \uba38\ub9ac\uac00\n\uc544\ud50c \uc815\ub3c4\ub85c \uc2ec\ud55c \uc545\ucde8\uac00 \ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3061\u304b\u3089\u3000\u305f\u308c\u3066\u3044\u308b\u3000\u30df\u30c4\u306f\n\uff12\u30ad\u30ed\u3000\u306f\u306a\u308c\u3066\u3044\u3066\u3082\u3000\u306f\u306a\u304c\n\u307e\u304c\u308b\u307b\u3069\u3000\u3082\u3046\u308c\u3064\u306b\u3000\u304f\u3055\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u731b\u70c8\u306a\u3000\u30af\u30b5\u3055\uff01\u3000\u305d\u308c\u306a\u306e\u306b\n\uff11\uff10\uff10\uff10\u4eba\u306b\u3000\uff11\u4eba\u3050\u3089\u3044\n\u3053\u308c\u3092\u3000\u597d\u3093\u3067\u3000\u304b\u3050\u3000\u4eba\u304c\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Smells incredibly foul! However, around one out\nof a thousand people enjoy sniffing its\nnose-bending stink.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Puzza da levare il fiato! Tuttavia circa una persona\nsu mille adora annusarne il fetido lezzo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00a1Huele bastante mal! De todas formas, una de cada\nmil personas aprecian su f\u00e9tido olor.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon sondert einen \u00fcbelriechenden\nGeruch ab. Trotzdem halten einige Leute es im Haus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il sent tr\u00e8s mauvais\u202f! Mais une personne sur 1\u202f000\naime la puanteur de son corps naus\u00e9abond.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ub82c\ud55c \uc545\ucde8\uac00 \ub09c\ub2e4! \uadf8\ub7fc\uc5d0\ub3c4\n\ubd88\uad6c\ud558\uace0 1000\uba85\uc5d0 \ud55c \uba85 \uc815\ub3c4\n\uc774 \ub0c4\uc0c8\ub97c \uc990\uaca8 \ub9e1\ub294 \uc0ac\ub78c\uc774 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u3046\u308c\u3064\u306a\u3000\u30af\u30b5\u3055\uff01\u3000\u305d\u308c\u306a\u306e\u306b\n\uff11\uff10\uff10\uff10\u306b\u3093\u306b\u3000\u3072\u3068\u308a\u3050\u3089\u3044\n\u3053\u308c\u3092\u3000\u3053\u306e\u3093\u3067\u3000\u304b\u3050\u3072\u3068\u304c\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth\nsmells so atrocious, it can curl\nnoses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth\nsmells so atrocious, it can curl\nnoses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth\nsmells so atrocious, it can curl\nnoses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019odeur du nectar de sa bouche est\nsi r\u00e9pugnante qu\u2019elle agresse les\nnarines \u00e0 deux kilom\u00e8tres.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth\nsmells so atrocious, it can curl\nnoses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019odeur du nectar de sa bouche est\nsi r\u00e9pugnante qu\u2019elle agresse les\nnarines \u00e0 deux kilom\u00e8tres.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It secretes a sticky, drool-like\nhoney. Although sweet, it smells\ntoo repulsive to get very close.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "What appears to be drool is actually\nsweet honey. It is very sticky and\nclings stubbornly if touched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth\nsmells so atrocious, it can curl\nnoses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth\nsmells so atrocious, it can curl\nnoses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "The honey it drools from its mouth\nsmells so atrocious, it can curl\nnoses more than a mile away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The fluid that oozes from its mouth isn\u2019t\ndrool. It is a nectar that is used to\nattract prey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Its pistils exude an incredibly foul odor.\nThe horrid stench can cause fainting at a\ndistance of 1.25 miles.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A horribly noxious honey drools from its\nmouth. One whiff of the honey can result\nin memory loss. Some fans are said to\nenjoy this overwhelming stink, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "From its mouth GLOOM drips honey that\nsmells absolutely horrible.\nApparently, it loves the horrid stench.\fIt sniffs the noxious fumes and then \ndrools even more of its honey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "GLOOM releases a foul fragrance from\nthe pistil of its flower. When faced\nwith danger, the stench worsens.\fIf this POK\u00e9MON is feeling calm and\nsecure, it does not release its usual\nstinky aroma.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "The smell from its\ndrool-like syrup\nand the pollen on\fits petals is so\nbad, it may make\nopponents faint.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It secretes a\nsticky, drool-like\nhoney. Although\fsweet, it smells\ntoo repulsive to\nget very close.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "What appears to be\ndrool is actually\nsweet honey. It is\fvery sticky and\nclings stubbornly\nif touched.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "Smells incredibly\nfoul! However,\naround 1 out of\f1,000 people enjoy\nsniffing its nose-\nbending stink.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "The fluid that\noozes from its\nmouth isn't drool.\fIt is a nectar\nthat is used to\nattract prey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "The fluid that\noozes from its\nmouth isn't drool.\fIt is a nectar\nthat is used to\nattract prey.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6742\u8349\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3056\u3063\u305d\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Weed Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Malerba",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Hierbajo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Unkraut",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Racine",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u96dc\u8349\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc7a1\ucd08\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3056\u3063\u305d\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 20,
+    "id": 44,
+    "is_baby": false,
+    "name": "gloom",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u81ed\u81ed\u82b1"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30af\u30b5\u30a4\u30cf\u30ca"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Gloom"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Gloom"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Gloom"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Duflor"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ortide"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u81ed\u81ed\u82b1"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub0c4\uc0c8\uaf2c"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Kusaihana"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30af\u30b5\u30a4\u30cf\u30ca"
+        }
+    ],
+    "order": 48,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 92,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 106,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 84,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 89,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 84,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 44,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 44,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "gloom",
+                "url": "/api/v2/pokemon/44/"
+            }
+        }
+    ]
+}

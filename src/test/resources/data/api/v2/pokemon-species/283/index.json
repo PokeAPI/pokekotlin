@@ -1,0 +1,997 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 200,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "bug",
+            "url": "/api/v2/egg-group/3/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/141/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5982\u679c\u9047\u5230\u5371\u9669\uff0c\u5c31\u4f1a\u4ece\u7a81\u8d77\u7684\n\u5730\u65b9\u5206\u6ccc\u51fa\u751c\u6c41\u3002\u6536\u96c6\u5b83\u5236\u6210\u7cd6\u6d46\uff0c\n\u7136\u540e\u6d82\u62b9\u5728\u9762\u5305\u4e0a\u5c31\u4f1a\u975e\u5e38\u53ef\u53e3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30d4\u30f3\u30c1\u306b\u3000\u306a\u308b\u3068\u3000\u7a81\u8d77\u304b\u3089\u3000\u7518\u3044\n\u6c41\u3092\u3000\u51fa\u3059\u3002\u3000\u3053\u308c\u3092\u3000\u96c6\u3081\u305f\n\u30b7\u30ed\u30c3\u30d7\u306f\u3000\u30d1\u30f3\u306b\u3064\u3051\u308b\u3068\u3000\u7f8e\u5473\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "If it\u2019s in a pinch, it will secrete a sweet liquid\nfrom the tip of its head. Syrup made from\ngathering that liquid is tasty on bread.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Quando \u00e8 in difficolt\u00e0, secerne un liquido dolce\ndalla punta della testa. Lo sciroppo ricavato da\nquesto liquido \u00e8 ottimo da spalmare sul pane.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si se siente amenazado, segrega un l\u00edquido\ndulce por la cabeza. El sirope elaborado con\nese l\u00edquido resulta delicioso untado en pan.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "In Gefahrensituationen scheidet es eine s\u00fc\u00dfe\nFl\u00fcssigkeit aus seinem Fortsatz aus. Der daraus\nhergestellte Sirup schmeckt k\u00f6stlich auf Brot.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "En cas de danger, il s\u00e9cr\u00e8te un liquide sucr\u00e9\ndu sommet de sa t\u00eate. Le sirop fabriqu\u00e9 \u00e0 partir\nde ce liquide est d\u00e9licieux \u00e9tal\u00e9 sur du pain\u202f!",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u9047\u5230\u5371\u96aa\u6642\u6703\u5f9e\u7a81\u8d77\u7684\u90e8\u5206\n\u6d41\u51fa\u751c\u751c\u7684\u6c41\u6db2\u3002\u628a\u9019\u7a2e\u6c41\u6db2\n\u88fd\u6210\u7684\u7cd6\u6f3f\u5857\u5728\u9eb5\u5305\u4e0a\u6703\u5f88\u53ef\u53e3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc704\uae30\ub97c \ub9de\uc73c\uba74 \ub3cc\uae30\uc5d0\uc11c\n\ub2ec\ucf64\ud55c \uc561\uccb4\uac00 \ub098\uc628\ub2e4. \uc774\uac83\uc744 \ubaa8\uc740\n\uc2dc\ub7fd\uc744 \ube75\uc5d0 \ubc14\ub974\uba74 \ub9db\uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30d4\u30f3\u30c1\u306b\u3000\u306a\u308b\u3068\u3000\u3068\u3063\u304d\u304b\u3089\u3000\u3042\u307e\u3044\n\u3057\u308b\u3092\u3000\u3060\u3059\u3002\u3000\u3053\u308c\u3092\u3000\u3042\u3064\u3081\u305f\n\u30b7\u30ed\u30c3\u30d7\u306f\u3000\u30d1\u30f3\u306b\u3064\u3051\u308b\u3068\u3000\u3046\u307e\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5371\u9669\u6765\u4e34\u65f6\uff0c\u4f1a\u4ece\u5934\u7684\u9876\u7aef\n\u6e17\u51fa\u6709\u751c\u5473\u7684\u6db2\u4f53\u3002\n\u9e1f\u5b9d\u53ef\u68a6\u8ba8\u538c\u5b83\u7684\u5473\u9053\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5371\u967a\u304c\u3000\u53ca\u3076\u3068\u3000\u982d\u306e\u3000\u5148\u304b\u3089\n\u7518\u3044\u5473\u306e\u3000\u6db2\u4f53\u304c\u3000\u306b\u3058\u307f\u3060\u3059\u3002\n\u3068\u308a\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u5acc\u3044\u306a\u5473\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "When this Pok\u00e9mon senses danger, a sweet\nfluid oozes from the tip of its head. The taste\nof it disgusts bird Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Quando si sente minacciato, secerne dalla punta\ndella testa un liquido dal sapore dolciastro che\ni Pok\u00e9mon alati detestano.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Si se encuentra en peligro, segrega un l\u00edquido\ndulce que los Pok\u00e9mon p\u00e1jaro encuentran\ndesagradable.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Wittert es Gefahr, scheidet es eine s\u00fc\u00dfliche\nFl\u00fcssigkeit aus seinem Kopf aus. Vogel-Pok\u00e9mon\nbehagt dieser Geschmack \u00fcberhaupt nicht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "D\u00e8s qu\u2019il se sent en danger, le sommet de sa\nt\u00eate s\u00e9cr\u00e8te un liquide sucr\u00e9, qui a le don de\nprovoquer le d\u00e9go\u00fbt chez les Pok\u00e9mon oiseaux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5371\u96aa\u4f86\u81e8\u6642\uff0c\u6703\u5f9e\u982d\u7684\u9802\u7aef\n\u6ef2\u51fa\u6709\u751c\u5473\u7684\u6db2\u9ad4\u3002\n\u662f\u9ce5\u5bf6\u53ef\u5922\u8a0e\u53ad\u7684\u5473\u9053\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uc704\ud5d8\uc5d0 \ucc98\ud558\uba74 \uba38\ub9ac\ub05d\uc5d0\uc11c\n\ub2ec\ucf64\ud55c \uc561\uccb4\uac00 \ubc30\uc5b4 \ub098\uc628\ub2e4.\n\uc0c8\ud3ec\ucf13\ubaac\uc774 \uc2eb\uc5b4\ud558\ub294 \ub9db\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u3051\u3093\u304c\u3000\u304a\u3088\u3076\u3068\u3000\u3042\u305f\u307e\u306e\u3000\u3055\u304d\u304b\u3089\n\u3042\u307e\u3044\u3042\u3058\u306e\u3000\u3048\u304d\u305f\u3044\u304c\u3000\u306b\u3058\u307f\u3060\u3059\u3002\n\u3068\u308a\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304d\u3089\u3044\u306a\u3000\u3042\u3058\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5371\u967a\u3092\u3000\u611f\u3058\u308b\u3068\u3000\u982d\u306e\u3000\u5148\u3063\u307d\u304b\u3089\n\u6c34\u3042\u3081\u306e\u3088\u3046\u306a\u3000\u7518\u3044\u3000\u6db2\u4f53\u3092\u3000\u51fa\u3059\u3002\n\u3053\u308c\u304c\u3000\u597d\u7269\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3082\u3000\u3044\u308b\u3088\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "If Surskit senses danger, it secretes a thick, sugary syrup from\nthe tip of its head. There are some Pok\u00e9mon that love eating\nthis syrup.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "In caso di pericolo Surskit secerne un fluido denso e\nzuccheroso dall\u2019aculeo posto sulla sommit\u00e0 del capo.\nEsistono Pok\u00e9mon che adorano cibarsi di questo fluido.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Cuando Surskit siente que hay peligro, segrega un n\u00e9ctar\nespeso y dulce por la cabeza. Hay Pok\u00e9mon a los que les\nencanta beb\u00e9rselo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Wenn Gehweiher Gefahr wittert, scheidet es einen\ndickfl\u00fcssigen Sirup aus seinem Kopf aus. Es gibt einige\nPok\u00e9mon, die ganz wild auf diesen Sirup sind.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque Arakdo se sent en danger, le haut de sa t\u00eate s\u00e9cr\u00e8te\nun sirop \u00e9pais et sucr\u00e9. Certains Pok\u00e9mon adorent boire\nde ce sirop.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc704\ud5d8\uc744 \uac10\uc9c0\ud558\uba74 \uba38\ub9ac\ub05d\uc5d0\uc11c\n\ubb3c\uc5ff\uac19\uc774 \ub2ec\ucf64\ud55c \uc561\uccb4\uac00 \ub098\uc628\ub2e4.\n\uc774\uac83\uc744 \uc88b\uc544\ud558\ub294 \ud3ec\ucf13\ubaac\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u3051\u3093\u3092\u3000\u304b\u3093\u3058\u308b\u3068\u3000\u3042\u305f\u307e\u306e\u3000\u3055\u304d\u3063\u307d\u304b\u3089\n\u202f\u305a\u3042\u3081\u306e\u3088\u3046\u306a\u3000\u3042\u307e\u3044\u3000\u3048\u304d\u305f\u3044\u3092\u3000\u3060\u3059\u3002\n\u3053\u308c\u304c\u3000\u3053\u3046\u3076\u3064\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3082\u3000\u3044\u308b\u3088\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u307e\u5148\u304b\u3089\u3000\u6cb9\u304c\u3000\u306b\u3058\u202f\u51fa\u3066\u3000\u3044\u308b\u306e\u3067\n\u6c34\u306e\u3000\u4e0a\u3092\u3000\u6ed1\u308b\u3000\u3088\u3046\u306b\u3000\u6b69\u3051\u308b\u306e\u3060\u3002\n\u6c60\u3084\u3000\u6e56\u306e\u3000\u5fae\u751f\u7269\u3092\u3000\u98df\u3079\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "From the tips of its feet, Surskit secretes an oil that enables it\nto walk on water as if it were skating. This Pok\u00e9mon feeds on\nmicroscopic organisms in ponds and lakes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dalla punta delle zampe Surskit secerne un olio che gli\nconsente di camminare sul pelo dell\u2019acqua come se\nstesse pattinando. Si ciba di organismi microscopici\nin stagni e laghi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Surskit segrega un aceite por la punta de las patas que le\npermite caminar sobre el agua como si fuera patinando. Este\nPok\u00e9mon se alimenta de microorganismos en charcas y lagos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Gehweiher scheidet aus seinen Zehen ein \u00d6l aus, das es ihm\nerm\u00f6glicht, \u00fcber Wasser zu gleiten. Dieses Pok\u00e9mon ern\u00e4hrt\nsich von Mikroorganismen aus Teichen und Seen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Du bout de ses pattes, Arakdo s\u00e9cr\u00e8te une huile lui\npermettant de marcher sur l\u2019eau, comme s\u2019il glissait.\nCe Pok\u00e9mon se nourrit des organismes microscopiques\npr\u00e9sents dans les lacs et les \u00e9tangs.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubc1c\ub05d\uc5d0\uc11c \uae30\ub984\uc774 \ubc30\uc5b4 \ub098\uc640\n\ubb3c \uc704\ub97c \ubbf8\ub044\ub7ec\uc9c0\ub4ef \uac78\uc744 \uc218 \uc788\ub2e4.\n\uc5f0\ubabb\uc774\ub098 \ud638\uc218\uc758 \ubbf8\uc0dd\ubb3c\uc744 \uba39\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u307e\u3055\u304d\u304b\u3089\u3000\u3042\u3076\u3089\u304c\u3000\u306b\u3058\u202f\u3067\u3066\u3000\u3044\u308b\u306e\u3067\n\u202f\u305a\u306e\u3000\u3046\u3048\u3092\u3000\u3059\u3079\u308b\u3000\u3088\u3046\u306b\u3000\u3042\u308b\u3051\u308b\u306e\u3060\u3002\n\u3044\u3051\u3084\u3000\u202f\u305a\u3046\u202f\u306e\u3000\u3073\u305b\u3044\u3076\u3064\u3092\u3000\u305f\u3079\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6c34\u9762\u3092\u3000\u6ed1\u308b\u3088\u3046\u306b\u3000\u6b69\u304f\u3002\n\u982d\u306e\u3000\u5148\u304b\u3089\u3000\u7518\u3044\u3000\u306b\u304a\u3044\u3092\n\u51fa\u3057\u3066\u3000\u7372\u7269\u3092\u3000\u8a98\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on water. It draws prey\nwith a sweet scent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cammina a pelo d\u2019acqua. Dall\u2019aculeo sulla testa\nemana un dolce aroma con cui attira le prede.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Parece que patina sobre el agua. Atrae a las presas\ncon el suave aroma de su cabeza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Scheinbar reitet es auf dem Wasser. Es lockt seine\nBeute mit einem s\u00fc\u00dfen Duft an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il semble patiner sur l\u2019eau. Le parfum diffus\u00e9 par\nle sommet de sa t\u00eate sert \u00e0 attirer ses proies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc218\uba74\uc744 \ubbf8\ub044\ub7ec\uc9c0\ub4ef\uc774 \uac77\ub294\ub2e4.\n\uba38\ub9ac\ub05d\uc5d0\uc11c \ub2ec\ucf64\ud55c \ub0c4\uc0c8\ub97c\n\ub0b4\uc5b4 \uba39\uc774\ub97c \ub04c\uc5b4\ub4e4\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3044\u3081\u3093\u3092\u3000\u3059\u3079\u308b\u3088\u3046\u306b\u3000\u3042\u308b\u304f\u3002\n\u3042\u305f\u307e\u306e\u3000\u3055\u304d\u304b\u3089\u3000\u3042\u307e\u3044\u3000\u306b\u304a\u3044\u3092\n\u3060\u3057\u3066\u3000\u3048\u3082\u306e\u3092\u3000\u3055\u305d\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u666e\u6bb5\u306f\u3000\u6c60\u306b\u3000\u4f4f\u3093\u3067\u3044\u308b\u304c\n\u5915\u7acb\u306e\u3000\u5f8c\u306b\u306f\u3000\u8857\u4e2d\u306e\n\u6c34\u305f\u307e\u308a\u306b\u3000\u59ff\u3092\u3000\u73fe\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "They usually live on ponds, but after an evening\nshower, they may appear on puddles in towns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Normalmente vivono negli stagni, ma dopo un\nacquazzone \u00e8 possibile trovarli anche in citt\u00e0,\nnelle pozzanghere.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive en estanques, pero cuando se desata una\ntormenta puede aparecer en los charcos que se\nforman en las ciudades.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Normalerweise leben sie in Teichen, aber nach\neinem Schauer am Abend kann man sie auch in\nPf\u00fctzen in den St\u00e4dten finden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ils vivent g\u00e9n\u00e9ralement dans les \u00e9tangs mais, apr\u00e8s\ndes averses passag\u00e8res, on peut en trouver dans\ndes flaques au milieu des villes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ubcf4\ud1b5\uc740 \uc5f0\ubabb\uc5d0\uc11c \uc0b4\uace0 \uc788\uc9c0\ub9cc\n\uc18c\ub098\uae30\uac00 \uc628 \ub4a4\uc5d0\ub294 \ub9c8\uc744 \uc548\uc758\n\ubb3c\uc6c5\ub369\uc774\uc5d0 \ubaa8\uc2b5\uc744 \ub4dc\ub7ec\ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3060\u3093\u306f\u3000\u3044\u3051\u306b\u3000\u3059\u3093\u3067\u3044\u308b\u304c\n\u3086\u3046\u3060\u3061\u306e\u3000\u3042\u3068\u306b\u306f\u3000\u307e\u3061\u306a\u304b\u306e\n\u307f\u305a\u305f\u307e\u308a\u306b\u3000\u3059\u304c\u305f\u3092\u3000\u3042\u3089\u308f\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on\nwater. It draws prey with a sweet\nscent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on\nwater. It draws prey with a sweet\nscent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on\nwater. It draws prey with a sweet\nscent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il semble patiner sur l\u2019eau. Le parfum\ndiffus\u00e9 par le sommet de sa t\u00eate sert\n\u00e0 attirer ses proies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on\nwater. It draws prey with a sweet\nscent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il semble patiner sur l\u2019eau. Le parfum\ndiffus\u00e9 par le sommet de sa t\u00eate sert\n\u00e0 attirer ses proies.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It secretes a thick, sweet-scented\nsyrup from the tip of its head.\nIt lives on weed-choked ponds.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It secretes a thick, sweet-scented\nsyrup from the tip of its head.\nIt lives on weed-choked ponds.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on\nwater. It draws prey with a sweet\nscent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on\nwater. It draws prey with a sweet\nscent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It appears as if it is skating on\nwater. It draws prey with a sweet\nscent from the tip of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "They usually live on ponds, but after an\nevening shower, they may appear on\npuddles in towns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "They usually live on ponds, but after an\nevening shower, they may appear on\npuddles in towns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "They gather on puddles after evening\ndownpours, gliding across the surface\nof water as if sliding. It secretes honey\nwith a sweet aroma from its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "If SURSKIT senses danger, it secretes\na thick, sugary syrup from the tip of\nits head.\fThere are some POK\u00e9MON that love\neating this syrup.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "From the tips of its feet, SURSKIT\nsecretes an oil that enables it to walk\non water as if it were skating.\fThis POK\u00e9MON feeds on microscopic\norganisms in ponds and lakes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6c34\u9efe\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3042\u3081\u3093\u307c\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Pond Skater Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Sfiorapozze",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Zapatero",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Wassergeher",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Maresurfeur",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6c34\u9efd\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc18c\uae08\uc7c1\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3042\u3081\u3093\u307c\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "waters-edge",
+        "url": "/api/v2/pokemon-habitat/9/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 283,
+    "is_baby": false,
+    "name": "surskit",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6e9c\u6e9c\u7cd6\u7403"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a2\u30e1\u30bf\u30de"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Surskit"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Surskit"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Surskit"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Gehweiher"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Arakdo"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6e9c\u6e9c\u7cd6\u7403"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ube44\uad6c\uc220"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Ametama"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a2\u30e1\u30bf\u30de"
+        }
+    ],
+    "order": 309,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "pond",
+                "url": "/api/v2/pal-park-area/4/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 33,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 47,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 32,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 283,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "armor",
+        "url": "/api/v2/pokemon-shape/14/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "surskit",
+                "url": "/api/v2/pokemon/283/"
+            }
+        }
+    ]
+}

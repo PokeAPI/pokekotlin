@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Inflicts regular damage with no additional effect."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u4f7f\u51fa\u5982\u5b50\u5f39\u822c\n\u5feb\u901f\u800c\u575a\u786c\u7684\u62f3\u5934\u3002\n\u5fc5\u5b9a\u80fd\u591f\u5148\u5236\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f3e\u4e38\u306e\u3000\u3088\u3046\u306a\u3000\u901f\u304f\u3066\u3000\u786c\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u76f8\u624b\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes the target with tough punches as\nfast as bullets. This move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una scarica di pugni veloci\ncome proiettili.\nQuesta mossa ha priorit\u00e0 alta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con fuertes pu\u00f1etazos tan r\u00e1pidos como\nproyectiles. Este movimiento tiene prioridad alta. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird von ultraschnellen Hieben getroffen.\nHohe Erstschlagquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des coups de poing aussi rapides\nque des balles de revolver. Frappe en priorit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u9023\u7e8c\u63ee\u51fa\u5982\u5b50\u5f48\u822c\n\u5feb\u901f\u4e14\u5805\u786c\u7684\u62f3\u982d\u3002\n\u5fc5\u5b9a\u80fd\u5920\u767c\u52d5\u5148\u5236\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c4\ud658\ucc98\ub7fc \ube60\ub974\uace0 \ub2e8\ub2e8\ud55c\n\ud380\uce58\ub97c \uc0c1\ub300\uc5d0\uac8c \ub0a0\ub9b0\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\uc744 \ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3060\u3093\u304c\u3093\u306e\u3000\u3088\u3046\u306a\u3000\u306f\u3084\u304f\u3066\u3000\u304b\u305f\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5bf9\u624b\u4f7f\u51fa\u5982\u5b50\u5f39\u822c\n\u5feb\u901f\u800c\u575a\u786c\u7684\u62f3\u5934\u3002\n\u5fc5\u5b9a\u80fd\u591f\u5148\u5236\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f3e\u4e38\u306e\u3000\u3088\u3046\u306a\u3000\u901f\u304f\u3066\u3000\u786c\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u76f8\u624b\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes the target with tough punches as\nfast as bullets. This move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una scarica di pugni veloci\ncome proiettili.\nQuesta mossa ha priorit\u00e0 alta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con fuertes pu\u00f1etazos tan r\u00e1pidos como\nproyectiles. Este movimiento tiene prioridad alta. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird von ultraschnellen Hieben getroffen.\nHohe Erstschlagquote.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des coups de poing aussi rapides\nque des balles de revolver. Frappe en priorit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u5c0d\u624b\u9023\u7e8c\u63ee\u51fa\u5982\u5b50\u5f48\u822c\n\u5feb\u901f\u4e14\u5805\u786c\u7684\u62f3\u982d\u3002\n\u5fc5\u5b9a\u80fd\u5920\u767c\u52d5\u5148\u5236\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c4\ud658\ucc98\ub7fc \ube60\ub974\uace0 \ub2e8\ub2e8\ud55c\n\ud380\uce58\ub97c \uc0c1\ub300\uc5d0\uac8c \ub0a0\ub9b0\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\uc744 \ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3060\u3093\u304c\u3093\u306e\u3000\u3088\u3046\u306a\u3000\u306f\u3084\u304f\u3066\u3000\u304b\u305f\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f3e\u4e38\u306e\u3000\u3088\u3046\u306a\u3000\u901f\u304f\u3066\u3000\u786c\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u76f8\u624b\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una scarica di pugni\nveloci come proiettili. Con questa mossa\nsi colpisce per primi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con fuertes pu\u00f1etazos tan r\u00e1pidos como\nproyectiles. Este movimiento siempre va primero. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird von ultraschnellen Hieben getroffen.\nErstschlaggarantie.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des coups de poing aussi\nrapides que des balles de revolver.\nFrappe toujours en premier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c4\ud658\ucc98\ub7fc \ube60\ub974\uace0 \ub2e8\ub2e8\ud55c\n\ud380\uce58\ub97c \uc0c1\ub300\uc5d0\uac8c \ub0a0\ub9b0\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\uc744 \ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3060\u3093\u304c\u3093\u306e\u3000\u3088\u3046\u306a\u3000\u306f\u3084\u304f\u3066\u3000\u304b\u305f\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5f3e\u4e38\u306e\u3000\u3088\u3046\u306a\u3000\u901f\u304f\u3066\u3000\u786c\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u76f8\u624b\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u5fc5\u305a\u3000\u5148\u5236\u653b\u6483\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con una scarica di pugni\nveloci come proiettili. Con questa mossa\nsi colpisce per primi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con fuertes pu\u00f1etazos tan r\u00e1pidos como\nproyectiles. Este movimiento siempre va primero.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel wird von ultraschnellen Hieben getroffen.\nErstschlaggarantie.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des coups de poing aussi\nrapides que des balles de revolver.\nFrappe toujours en premier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c4\ud658\ucc98\ub7fc \ube60\ub974\uace0 \ub2e8\ub2e8\ud55c\n\ud380\uce58\ub97c \uc0c1\ub300\uc5d0\uac8c \ub0a0\ub9b0\ub2e4.\n\ubc18\ub4dc\uc2dc \uc120\uc81c\uacf5\uaca9\uc744 \ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3060\u3093\u304c\u3093\u306e\u3000\u3088\u3046\u306a\u3000\u306f\u3084\u304f\u3066\u3000\u304b\u305f\u3044\n\u30d1\u30f3\u30c1\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304f\u308a\u3060\u3059\u3002\n\u304b\u306a\u3089\u305a\u3000\u305b\u3093\u305b\u3044\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes the target\nwith tough punches as fast as bullets.\nThis move always goes first.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur envoie des coups de poing aussi\nrapides que des balles de revolver. Frappe\ntoujours en premier.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 418,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "bullet-punch",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5b50\u5f39\u62f3"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d0\u30ec\u30c3\u30c8\u30d1\u30f3\u30c1"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Bullet Punch"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Pugnoscarica"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Pu\u00f1o Bala"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Patronenhieb"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Pisto-Poing"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5b50\u5f48\u62f3"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubd88\ub9bf\ud380\uce58"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d0\u30ec\u30c3\u30c8\u30d1\u30f3\u30c1"
+        }
+    ],
+    "past_values": [],
+    "power": 40,
+    "pp": 30,
+    "priority": 1,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/1/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "steel",
+        "url": "/api/v2/type/9/"
+    }
+}

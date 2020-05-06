@@ -1,0 +1,930 @@
+{
+    "base_happiness": 35,
+    "capture_rate": 45,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/126/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8bde\u751f\u4e8e\u5730\u4e0b\uff0c\u4f1a\u4e00\u8fb9\u5403\u7740\u6ce5\u571f\uff0c\n\u4e00\u8fb9\u671d\u81f3\u4eb2\u6240\u5728\u7684\u5730\u9762\u524d\u8fdb\u3002\n\u56e0\u4e3a\u5149\u7ebf\u523a\u773c\uff0c\u6240\u4ee5\u5b83\u4e0d\u592a\u80fd\u9002\u5e94\u54e6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u4e0b\u3067\u3000\u751f\u307e\u308c\u3000\u571f\u3092\u3000\u98df\u3044\u306a\u304c\u3089\n\u89aa\u306e\u3000\u3044\u308b\u3000\u5730\u4e0a\u3092\u3000\u76ee\u6307\u3059\u3002\n\u307e\u3076\u3057\u3044\u306e\u3067\u3000\u5149\u306f\u3000\u82e6\u624b\u3060\u3088\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Born underground, it eats its way through dirt to\nthe surface, where its parents are. It doesn\u2019t\ndeal well with the bright light it finds there.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Nasce sottoterra e risale in superficie verso i\ngenitori mangiando la terra lungo il cammino.\nDetesta la luce, che trova troppo abbagliante.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Nace bajo el suelo y, para reunirse con sus\nprogenitores en la superficie, asciende comiendo\ntierra. Evita la luz directa porque lo deslumbra.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es wird unterirdisch geboren und frisst sich\ndurchs Erdreich an die Oberfl\u00e4che zu seinen\nEltern. Es verabscheut grelles, blendendes Licht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il na\u00eet sous terre et doit se frayer un chemin \u00e0\ncoups de m\u00e2choire pour rejoindre ses parents\n\u00e0 la surface. Il d\u00e9teste la lumi\u00e8re, qui l\u2019\u00e9blouit.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u8a95\u751f\u5728\u5730\u88e1\uff0c\u6703\u4e00\u908a\u5403\u8457\u6ce5\u571f\n\u4e00\u908a\u671d\u6bcd\u89aa\u6240\u5728\u7684\u5730\u9762\u4e0a\u524d\u9032\u3002\n\u5149\u7dda\u5f88\u523a\u773c\uff0c\u6240\u4ee5\u7260\u4e0d\u592a\u80fd\u9069\u61c9\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\ud558\uc5d0\uc11c \ud0dc\uc5b4\ub098 \ud759\uc744 \uba39\uc73c\uba74\uc11c\n\uc5b4\ubc84\uc774\uac00 \uc788\ub294 \uc9c0\uc0c1\uc744 \ud5a5\ud574 \uc62c\ub77c\uac04\ub2e4.\n\ub208\uc774 \ubd80\uc154\uc11c \ube5b\uc740 \uc88b\uc544\ud558\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u304b\u3067\u3000\u3046\u307e\u308c\u3000\u3064\u3061\u3092\u3000\u304f\u3044\u306a\u304c\u3089\n\u304a\u3084\u306e\u3000\u3044\u308b\u3000\u3061\u3058\u3087\u3046\u3092\u3000\u3081\u3056\u3059\u3002\n\u307e\u3076\u3057\u3044\u306e\u3067\u3000\u3072\u304b\u308a\u306f\u3000\u306b\u304c\u3066\u3060\u3088\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u4e2d\u3000\u6df1\u304f\u3067\u3000\u751f\u307e\u308c\u308b\u3000\u30e8\u30fc\u30ae\u30e9\u30b9\u306f\n\u571f\u3092\u3000\u98df\u3079\u5c3d\u304f\u3057\u3066\u3000\u5730\u4e0a\u3078\u3000\u51fa\u306a\u3044\u3068\n\u89aa\u306e\u3000\u9854\u3092\u3000\u898b\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar is born deep under the ground. To come up to the\nsurface, this Pok\u00e9mon must eat its way through the soil above.\nUntil it does so, Larvitar cannot see its parents.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar nasce nelle viscere della terra. Per emergere\nin superficie deve farsi strada inghiottendo la terra che\nlo ostacola. Larvitar non pu\u00f2 vedere il volto dei propri\ngenitori finch\u00e9 non emerge.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar nace bajo tierra a gran profundidad. Para subir a la\nsuperficie, este Pok\u00e9mon debe comer lo que encuentra en su\ncamino para abrirse paso. Y, hasta que no est\u00e1 arriba, no\npuede verles la cara a sus padres.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar wurde tief unter der Erde geboren. Um an die\nOberfl\u00e4che zu gelangen, muss es sich durch das Erdreich\nfressen. Erst dann bekommt es seine Eltern zu Gesicht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Embrylex est n\u00e9 sous terre. Pour remonter \u00e0 la surface,\nce Pok\u00e9mon doit manger la terre au-dessus de lui.\nJusqu\u2019\u00e0 ce qu\u2019il y parvienne, Embrylex ne peut pas voir\nle visage de ses parents.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc18d \uae4a\uc740 \uacf3\uc5d0\uc11c \ud0dc\uc5b4\ub098\ub294 \uc560\ubc84\ub77c\uc2a4\ub294\n\ud759\uc744 \uba39\uc5b4\uce58\uc6b0\uace0 \uc9c0\uc0c1\uc5d0 \ub098\uc624\uc9c0 \uc54a\uc73c\uba74\n\ubd80\ubaa8\uc758 \uc5bc\uad74\uc744 \ubcfc \uc218\uac00 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3061\u3085\u3046\u3000\u3075\u304b\u304f\u3067\u3000\u3046\u307e\u308c\u308b\u3000\u30e8\u30fc\u30ae\u30e9\u30b9\u306f\n\u3064\u3061\u3092\u3000\u305f\u3079\u3064\u304f\u3057\u3066\u3000\u3061\u3058\u3087\u3046\u3078\u3000\u3067\u306a\u3044\u3068\n\u304a\u3084\u306e\u3000\u304b\u304a\u3092\u3000\u202f\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u4e2d\u3000\u6df1\u304f\u3067\u3000\u751f\u307e\u308c\u308b\u3000\u30e8\u30fc\u30ae\u30e9\u30b9\u306f\n\u571f\u3092\u3000\u98df\u3079\u5c3d\u304f\u3057\u3066\u3000\u5730\u4e0a\u3078\u3000\u51fa\u306a\u3044\u3068\n\u89aa\u306e\u3000\u9854\u3092\u3000\u898b\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar is born deep under the ground. To come up to the\nsurface, this Pok\u00e9mon must eat its way through the soil above.\nUntil it does so, Larvitar cannot see its parents.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar nasce nelle viscere della terra. Per emergere\nin superficie deve farsi strada inghiottendo la terra che\nlo ostacola. Larvitar non pu\u00f2 vedere il volto dei propri\ngenitori finch\u00e9 non emerge.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar nace bajo tierra a gran profundidad. Para subir a la\nsuperficie, este Pok\u00e9mon debe comer lo que encuentra en su\ncamino para abrirse paso. Y, hasta que no est\u00e1 arriba, no\npuede verles la cara a sus padres.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Larvitar wurde tief unter der Erde geboren. Um an die\nOberfl\u00e4che zu gelangen, muss es sich durch das Erdreich\nfressen. Erst dann bekommt es seine Eltern zu Gesicht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Embrylex est n\u00e9 sous terre. Pour remonter \u00e0 la surface,\nce Pok\u00e9mon doit manger la terre au-dessus de lui.\nJusqu\u2019\u00e0 ce qu\u2019il y parvienne, Embrylex ne peut pas voir\nle visage de ses parents.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc18d \uae4a\uc740 \uacf3\uc5d0\uc11c \ud0dc\uc5b4\ub098\ub294 \uc560\ubc84\ub77c\uc2a4\ub294\n\ud759\uc744 \uba39\uc5b4\uce58\uc6b0\uace0 \uc9c0\uc0c1\uc5d0 \ub098\uc624\uc9c0 \uc54a\uc73c\uba74\n\ubd80\ubaa8\uc758 \uc5bc\uad74\uc744 \ubcfc \uc218\uac00 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3061\u3085\u3046\u3000\u3075\u304b\u304f\u3067\u3000\u3046\u307e\u308c\u308b\u3000\u30e8\u30fc\u30ae\u30e9\u30b9\u306f\n\u3064\u3061\u3092\u3000\u305f\u3079\u3064\u304f\u3057\u3066\u3000\u3061\u3058\u3087\u3046\u3078\u3000\u3067\u306a\u3044\u3068\n\u304a\u3084\u306e\u3000\u304b\u304a\u3092\u3000\u202f\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u3044\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u5e95\u3000\u5965\u6df1\u304f\u3067\u3000\u751f\u307e\u308c\u308b\u3002\n\u307e\u308f\u308a\u306e\u3000\u571f\u3092\u3000\u305f\u3044\u3089\u3052\u308b\u3068\n\u5730\u4e0a\u306b\u3000\u73fe\u308f\u308c\u3000\u30b5\u30ca\u30ae\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Born deep underground, it comes aboveground and\nbecomes a pupa once it has finished eating the\nsurrounding soil.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nasce nelle profondit\u00e0 del sottosuolo. Dopo aver\ndivorato la terra circostante emerge in superficie e\ndiventa crisalide.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nace muy profundo en el suelo y sube a la superficie,\ndonde se convierte en una larva comi\u00e9ndose la tierra\nque lo rodea.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sie schl\u00fcpfen tief unter der Erde und fressen sich\ndurch das Erdreich bis zur Oberfl\u00e4che durch,\nwo sie sich verpuppen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il vit tr\u00e8s profond sous terre. Il n\u2019en sort pour \u00e9voluer\nqu\u2019apr\u00e8s avoir d\u00e9vor\u00e9 tout ce qui l\u2019entourait.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub545\uc18d \uae4a\uc740 \uacf3\uc5d0\uc11c \ud0dc\uc5b4\ub09c\ub2e4.\n\uc8fc\ubcc0\uc758 \ud759\uc744 \ub2e4 \uba39\uc73c\uba74\n\uc9c0\uc0c1\uc73c\ub85c \uc62c\ub77c\uc640 \ubc88\ub370\uae30\uac00 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u3066\u3044\u3000\u304a\u304f\u3075\u304b\u304f\u3067\u3000\u3046\u307e\u308c\u308b\u3002\n\u307e\u308f\u308a\u306e\u3000\u3064\u3061\u3092\u3000\u305f\u3044\u3089\u3052\u308b\u3068\n\u3061\u3058\u3087\u3046\u306b\u3000\u3042\u3089\u308f\u308c\u3000\u30b5\u30ca\u30ae\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u571f\u3092\u3000\u98df\u3079\u3066\u3000\u751f\u304d\u3066\u3044\u308b\u3002\n\u5927\u304d\u306a\u3000\u5c71\u3072\u3068\u3064\u3000\u98df\u3079\u7d42\u308f\u308b\u3068\n\u6210\u9577\u306e\u305f\u3081\u3000\u7720\u308a\u306f\u3058\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It feeds on soil. After it has eaten a large mountain,\nit falls asleep so it can grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Si nutre di terra. Dopo aver divorato una montagna\nintera, si addormenta per poter crescere.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se alimenta de tierra. Despu\u00e9s de comer una gran\nmonta\u00f1a, se duerme y empieza a crecer.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es ern\u00e4hrt sich von Erde. Nachdem es einen Berg\nverspeist hat, schl\u00e4ft es ein, um zu wachsen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il se nourrit de terre. Une fois qu\u2019il a absorb\u00e9 une\nmontagne, il s\u2019endort et commence \u00e0 \u00e9voluer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud759\uc744 \uba39\uc73c\uba70 \uc0b4\uace0 \uc788\ub2e4.\n\ud070 \uc0b0\uc744 \ud558\ub098 \ub2e4 \uba39\uc73c\uba74\n\uc131\uc7a5\uc744 \uc704\ud574 \uc7a0\uc790\uae30 \uc2dc\uc791\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3061\u3092\u3000\u305f\u3079\u3066\u3000\u3044\u304d\u3066\u3044\u308b\u3002\n\u304a\u304a\u304d\u306a\u3000\u3084\u307e\u3072\u3068\u3064\u3000\u305f\u3079\u304a\u308f\u308b\u3068\n\u305b\u3044\u3061\u3087\u3046\u306e\u305f\u3081\u3000\u306d\u3080\u308a\u306f\u3058\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Born deep underground, it comes\naboveground and becomes a pupa once it\nhas finished eating the surrounding soil.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Born deep underground, it comes\naboveground and becomes a pupa once it\nhas finished eating the surrounding soil.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that eats soil. Once it\nhas eaten a large mountain, it\ngoes to sleep so it can grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon qui se nourrit de terre.\nApr\u00e8s avoir d\u00e9vor\u00e9 une montagne,\nil s\u2019endort pour grandir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that eats soil. Once it\nhas eaten a large mountain, it\ngoes to sleep so it can grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon qui se nourrit de terre.\nApr\u00e8s avoir d\u00e9vor\u00e9 une montagne,\nil s\u2019endort pour grandir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It is born deep underground. It\ncan\u2019t emerge until it has entirely\nconsumed the soil around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It feeds on soil. After it has eaten\na large mountain, it falls asleep\nso it can grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that eats soil. Once it\nhas eaten a large mountain, it\ngoes to sleep so it can grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that eats soil. Once it\nhas eaten a large mountain, it\ngoes to sleep so it can grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that eats soil. Once it\nhas eaten a large mountain, it\ngoes to sleep so it can grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It feeds on soil. After it has eaten a\nlarge mountain, it will fall asleep so it\ncan grow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It is born deep underground. It can\u2019t\nemerge until it has entirely consumed the\nsoil around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "A LARVITAR is born deep under the ground.\nIt must eat its way through the soil above\nand reach the surface for it to see its\nparents\u2019 faces.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "LARVITAR is born deep under the ground.\nTo come up to the surface, this POK\u00e9MON\nmust eat its way through the soil above.\fUntil it does so, LARVITAR cannot see\nits parent\u2019s face.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "LARVITAR is born deep under the ground.\nTo come up to the surface, this POK\u00e9MON\nmust eat its way through the soil above.\fUntil it does so, LARVITAR cannot see\nits parent\u2019s face.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "Born deep under\u00ad\nground, this\nPOK\u00e9MON becomes a\fpupa after eating\nenough dirt to\nmake a mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It is born deep\nunderground. It\ncan't emerge until\fit has entirely\nconsumed the soil\naround it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It feeds on soil.\nAfter it has eaten\na large mountain,\fit will fall\nasleep so it can\ngrow.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5ca9\u77f3\u80a4\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3044\u308f\u306f\u3060\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Rock Skin Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Peldisasso",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Piel Roca",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Felshaut",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Peaupierre",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5ca9\u77f3\u819a\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubc14\uc704\ud45c\uba74\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3044\u308f\u306f\u3060\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "mountain",
+        "url": "/api/v2/pokemon-habitat/4/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 40,
+    "id": 246,
+    "is_baby": false,
+    "name": "larvitar",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5e7c\u57fa\u62c9\u65af"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e8\u30fc\u30ae\u30e9\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Larvitar"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Larvitar"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Larvitar"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Larvitar"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Embrylex"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5e7c\u57fa\u62c9\u65af"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc560\ubc84\ub77c\uc2a4"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Yogiras"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e8\u30fc\u30ae\u30e9\u30b9"
+        }
+    ],
+    "order": 271,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 102,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 79,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 292,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 249,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 244,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 246,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "larvitar",
+                "url": "/api/v2/pokemon/246/"
+            }
+        }
+    ]
+}

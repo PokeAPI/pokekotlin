@@ -1,0 +1,943 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 75,
+    "color": {
+        "name": "purple",
+        "url": "/api/v2/pokemon-color/7/"
+    },
+    "egg_groups": [
+        {
+            "name": "indeterminate",
+            "url": "/api/v2/egg-group/11/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/218/"
+    },
+    "evolves_from_species": {
+        "name": "shellos",
+        "url": "/api/v2/pokemon-species/422/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u66fe\u7ecf\u4e00\u76f4\u80cc\u7740\u58f3\u3002\n\u5728\u80cc\u7684\u91cc\u9762\u6709\u7740\n\u53c8\u786c\u53c8\u8584\u7684\u58f3\u7684\u75d5\u8ff9\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6614\u306f\u3000\u30ab\u30e9\u3092\u3000\u80cc\u8ca0\u3063\u3066\u3044\u305f\u3002\n\u80cc\u4e2d\u306e\u3000\u5965\u306b\u3000\u305d\u306e\u540d\u6b8b\u306e\n\u786c\u304f\u3066\u3000\u8584\u3044\u3000\u76bf\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Long ago, it had a shell on its back. There\u2019s now\na vestigial plate on its back that\u2019s hard but thin.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "In passato era protetto da un carapace di cui\nl\u2019unica traccia rimasta \u00e8 il disco duro e sottile\nsul suo dorso.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Un caparaz\u00f3n le cubr\u00eda la espalda anta\u00f1o, y el\n\u00fanico indicio de este hecho es la fina y dura\nplaca en la capa interna del lomo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Vor langer Zeit hatte es einen Panzer. In seinem\nR\u00fccken ist davon noch eine harte, d\u00fcnne Platte\n\u00fcbrig.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La fine soucoupe qui se trouve \u00e0 l\u2019int\u00e9rieur de\nson dos est le dernier vestige de la carapace\njadis port\u00e9e par son esp\u00e8ce.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u904e\u53bb\u80cc\u4e0a\u66fe\u7d93\u6709\u6bbc\uff0c\n\u5982\u4eca\u53ea\u5728\u80cc\u90e8\u5167\u5074\u6b98\u7559\u8457\n\u53c8\u786c\u53c8\u8584\u7684\u5f27\u72c0\u7269\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc61b\ub0a0\uc5d0\ub294 \uaecd\uc9c8\uc744 \ub4f1\uc5d0 \uc9c0\uace0 \uc788\uc5c8\ub2e4.\n\uadf8 \ud754\uc801\uc774 \ub0a8\uc544 \ub4f1 \uc548\uc5d0\n\ub531\ub531\ud558\uace0 \uc587\uc740 \uc811\uc2dc\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3080\u304b\u3057\u306f\u3000\u30ab\u30e9\u3092\u3000\u3057\u3087\u3063\u3066\u3044\u305f\u3002\n\u305b\u306a\u304b\u306e\u3000\u304a\u304f\u306b\u3000\u305d\u306e\u306a\u3054\u308a\u306e\n\u304b\u305f\u304f\u3066\u3000\u3046\u3059\u3044\u3000\u3055\u3089\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u65e0\u5f62\u7684\u6d6e\u6e38\u751f\u7269\u662f\u5b83\u7684\u4e3b\u8981\u98df\u7269\u3002\n\u4f1a\u5230\u9646\u5730\u4e0a\u6765\uff0c\u4f46\u539f\u56e0\u5c1a\u4e0d\u6e05\u695a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u76ee\u306b\u3000\u898b\u3048\u306a\u3044\u3000\u30d7\u30e9\u30f3\u30af\u30c8\u30f3\u304c\u3000\u4e3b\u306a\n\u990c\u3002\u3000\u9678\u306b\u3000\u4e0a\u3063\u3066\u304f\u308b\u304c\n\u7406\u7531\u306f\u3000\u307e\u3060\u3000\u308f\u304b\u3063\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Plankton, invisible to the naked eye, is its main\nfood source. It comes onto the land periodically,\nbut the reason for this is not known.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Si nutre principalmente di plancton.\nA volte si sposta sulla terraferma per motivi\nancora sconosciuti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Su principal alimento es plancton invisible. Sale\na la superficie, pero a\u00fan se desconoce el motivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Es ern\u00e4hrt sich haupts\u00e4chlich von Plankton,\ndas man mit blo\u00dfem Auge nicht sehen kann.\nEs ist noch unklar, warum es an Land kommt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il s\u2019alimente principalement de plancton invisible\n\u00e0 l\u2019\u0153il nu. On ne sait toujours pas pourquoi il a\nquitt\u00e9 l\u2019oc\u00e9an au profit de la terre ferme.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u7260\u7684\u4e3b\u8981\u98df\u7269\u662f\u7121\u5f62\u7684\u6d6e\u6e38\u751f\u7269\u3002\n\u6703\u5230\u9678\u5730\u4e0a\u4f86\uff0c\u4f46\u539f\u56e0\u5c1a\u4e0d\u6e05\u695a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\uc5d0 \ubcf4\uc774\uc9c0 \uc54a\ub294 \ud50c\ub791\ud06c\ud1a4\uc774 \uc8fc\ub41c\n\uba39\uc774\ub2e4. \uc721\uc9c0\uc5d0 \uc62c\ub77c\uc624\uc9c0\ub9cc\n\uc774\uc720\ub294 \uc544\uc9c1 \ubc1d\ud600\uc9c0\uc9c0 \uc54a\uc558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3081\u306b\u3000\u307f\u3048\u306a\u3044\u3000\u30d7\u30e9\u30f3\u30af\u30c8\u30f3\u304c\u3000\u304a\u3082\u306a\n\u30a8\u30b5\u3002\u3000\u308a\u304f\u306b\u3000\u3042\u304c\u3063\u3066\u304f\u308b\u304c\n\u308a\u3086\u3046\u306f\u3000\u307e\u3060\u3000\u308f\u304b\u3063\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6614\u306f\u3000\u4e08\u592b\u306a\u3000\u6bbb\u3067\n\u4f53\u3092\u3000\u5b88\u3063\u3066\u3044\u305f\u3089\u3057\u3044\u3002\n\u6d77\u306e\u3000\u6d45\u702c\u306b\u3000\u751f\u606f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It apparently had a huge shell for protection in\nancient times. It lives in shallow tidal pools.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pare che in passato il suo corpo fosse protetto da un enorme\ncarapace. Vive in bacini poco profondi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Al parecer, hace mucho tiempo ten\u00eda una gran concha\nprotectora. Vive en aguas poco profundas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "In Urzeiten muss es einen gro\u00dfen Schutzpanzer\nbesessen haben. Es lebt in kleinen Wasserstellen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jadis, il semble qu\u2019il portait une grande carapace pour\nse prot\u00e9ger. Il hante les eaux peu profondes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\uc8fc \uc61b\ub0a0\uc5d0\ub294 \ud2bc\ud2bc\ud55c \uaecd\uc9c8\ub85c\n\ubab8\uc744 \ubcf4\ud638\ud558\uace0 \uc788\uc5c8\ub358 \ub4ef\ud558\ub2e4.\n\ubc14\ub2e4\uc758 \uc595\uc740 \uacf3\uc5d0\uc11c \uc11c\uc2dd\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3080\u304b\u3057\u306f\u3000\u3058\u3087\u3046\u3076\u306a\u3000\u30ab\u30e9\u3067\n\u304b\u3089\u3060\u3092\u3000\u307e\u3082\u3063\u3066\u3044\u305f\u3089\u3057\u3044\u3002\n\u3046\u202f\u306e\u3000\u3042\u3055\u305b\u306b\u3000\u305b\u3044\u305d\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5929\u6575\u306b\u3000\u8972\u308f\u308c\u305f\u3068\u304d\u306f\n\u7d2b\u8272\u306e\u3000\u6db2\u4f53\u3092\n\u4f53\u304b\u3089\u3000\u51fa\u3057\u3066\u3000\u9003\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "When its natural enemy attacks, it oozes purple\nfluid and escapes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Se minacciato da un nemico naturale rilascia un liquido viola\ne se la d\u00e0 a gambe, per cos\u00ec dire...",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Si se ve amenazado por sus enemigos naturales, segrega un\nl\u00edquido morado y huye r\u00e1pidamente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Wird es von einem nat\u00fcrlichen Feind angegriffen, flieht es,\nindem es ein lila Sekret \u00fcber die Haut ausst\u00f6\u00dft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Attaqu\u00e9 par un pr\u00e9dateur, il fuit en lib\u00e9rant un liquide mauve.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ucc9c\uc801\uc5d0\uac8c \uc2b5\uaca9\ub2f9\ud588\uc744 \ub54c\ub294\n\ubcf4\ub77c\uc0c9 \uc561\uccb4\ub97c\n\ubab8\uc5d0\uc11c \ub0b4\uc5b4 \ub3c4\ub9dd\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3066\u304d\u306b\u3000\u304a\u305d\u308f\u308c\u305f\u3000\u3068\u304d\u306f\n\u3080\u3089\u3055\u304d\u3044\u308d\u306e\u3000\u3048\u304d\u305f\u3044\u3092\n\u304b\u3089\u3060\u304b\u3089\u3000\u3060\u3057\u3066\u3000\u306b\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6614\u306f\u3000\u4e08\u592b\u306a\u3000\u6bbb\u3067\n\u4f53\u3092\u3000\u5b88\u3063\u3066\u3044\u305f\u3089\u3057\u3044\u3002\n\u6d77\u306e\u3000\u6d45\u702c\u306b\u3000\u751f\u606f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It apparently had a huge shell for protection in\nancient times. It lives in shallow tidal pools.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pare che in passato il suo corpo fosse protetto da\nun enorme carapace. Vive in bacini poco profondi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Al parecer, hace mucho tiempo ten\u00eda una gran concha\nprotectora. Vive en aguas poco profundas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "In Urzeiten muss es einen gro\u00dfen Schutzpanzer\nbesessen haben. Es lebt in kleinen Wasserstellen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Jadis, il semble qu\u2019il portait une grande carapace\npour se prot\u00e9ger. Il hante les eaux peu profondes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\uc8fc \uc61b\ub0a0\uc5d0\ub294 \ud2bc\ud2bc\ud55c \uaecd\uc9c8\ub85c\n\ubab8\uc744 \ubcf4\ud638\ud558\uace0 \uc788\uc5c8\ub358 \ub4ef\ud558\ub2e4.\n\ubc14\ub2e4\uc758 \uc595\uc740 \uacf3\uc5d0\uc11c \uc11c\uc2dd\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3080\u304b\u3057\u306f\u3000\u3058\u3087\u3046\u3076\u306a\u3000\u30ab\u30e9\u3067\n\u304b\u3089\u3060\u3092\u3000\u307e\u3082\u3063\u3066\u3044\u305f\u3089\u3057\u3044\u3002\n\u3046\u307f\u306e\u3000\u3042\u3055\u305b\u306b\u3000\u305b\u3044\u305d\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5929\u6575\u306b\u3000\u8972\u308f\u308c\u305f\u3068\u304d\u306f\n\u7d2b\u8272\u306e\u3000\u6db2\u4f53\u3092\n\u4f53\u304b\u3089\u3000\u51fa\u3057\u3066\u3000\u9003\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When its natural enemy attacks, it oozes purple\nfluid and escapes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se minacciato da un nemico naturale rilascia un\nliquido viola e se la d\u00e0 a gambe, per cos\u00ec dire...",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Si se ve amenazado por sus enemigos naturales,\nsegrega un l\u00edquido morado y huye r\u00e1pidamente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Wird es von einem nat\u00fcrlichen Feind angegriffen,\nflieht es, indem es ein lila Sekret \u00fcber die Haut\nausst\u00f6\u00dft.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Attaqu\u00e9 par un pr\u00e9dateur, il fuit en lib\u00e9rant un liquide\nmauve.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ucc9c\uc801\uc5d0\uac8c \uc2b5\uaca9\ub2f9\ud588\uc744 \ub54c\ub294\n\ubcf4\ub77c\uc0c9 \uc561\uccb4\ub97c\n\ubab8\uc5d0\uc11c \ub0b4\uc5b4 \ub3c4\ub9dd\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3066\u3093\u3066\u304d\u306b\u3000\u304a\u305d\u308f\u308c\u305f\u3000\u3068\u304d\u306f\n\u3080\u3089\u3055\u304d\u3044\u308d\u306e\u3000\u3048\u304d\u305f\u3044\u3092\n\u304b\u3089\u3060\u304b\u3089\u3000\u3060\u3057\u3066\u3000\u306b\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Long ago, its entire back was\nshielded with a sturdy shell. There\nare traces of it left in its cells.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Long ago, its entire back was\nshielded with a sturdy shell. There\nare traces of it left in its cells.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Long ago, its entire back was\nshielded with a sturdy shell. There\nare traces of it left in its cells.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ses g\u00e8nes ont d\u00e9montr\u00e9 qu\u2019il avait\njadis une carapace couvrant la\ntotalit\u00e9 de son dos.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Long ago, its entire back was\nshielded with a sturdy shell. There\nare traces of it left in its cells.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ses g\u00e8nes ont d\u00e9montr\u00e9 qu\u2019il avait\njadis une carapace couvrant la\ntotalit\u00e9 de son dos.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "When its natural enemy attacks,\nit oozes purple fluid and escapes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "When its natural enemy attacks,\nit oozes purple fluid and escapes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Long ago, its entire back was\nshielded with a sturdy shell. There\nare traces of it left in its cells.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It apparently had a huge shell for\nprotection in ancient times.\nIt lives in shallow tidal pools.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has a pliable body without any\nbones. If any part of its body is\ntorn off, it grows right back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [
+        {
+            "description": "Forms only affect appearance.  A form is determined before a wild encounter based on whether the battle is in western or eastern Sinnoh and cannot be changed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6d77\u5154\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u30a6\u30df\u30a6\u30b7\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Sea Slug Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Lumacomare",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Babosa Mar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Seeschnecke",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Aqualimace",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6d77\u5154\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uac2f\ubbfc\uc22d\ub2ec\ud33d\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u30a6\u30df\u30a6\u30b7\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 423,
+    "is_baby": false,
+    "name": "gastrodon",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6d77\u5154\u517d"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c8\u30ea\u30c8\u30c9\u30f3"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Gastrodon"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Gastrodon"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Gastrodon"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Gastrodon"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Tritosor"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6d77\u5154\u7378"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud2b8\ub9ac\ud1a0\ub3c8"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Toritodon"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c8\u30ea\u30c8\u30c9\u30f3"
+        }
+    ],
+    "order": 451,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "sea",
+                "url": "/api/v2/pal-park-area/5/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 61,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 61,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 423,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "squiggle",
+        "url": "/api/v2/pokemon-shape/2/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "gastrodon",
+                "url": "/api/v2/pokemon/423/"
+            }
+        }
+    ]
+}

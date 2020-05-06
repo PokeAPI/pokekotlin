@@ -1,0 +1,761 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 75,
+    "color": {
+        "name": "gray",
+        "url": "/api/v2/pokemon-color/4/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/291/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6027\u683c\u80c6\u5c0f\u7684\u5b9d\u53ef\u68a6\uff0c\n\u4e0d\u548c\u4f19\u4f34\u5446\u5728\u4e00\u8d77\u7684\u65f6\u5019\uff0c\n\u901a\u5e38\u90fd\u4f1a\u5e7b\u5316\u6210\u5176\u4ed6\u4e1c\u897f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u81c6\u75c5\u306a\u3000\u6027\u8cea\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3067\n\u4ef2\u9593\u3068\u3000\u3044\u308b\u3068\u304d\u3000\u4ee5\u5916\u306f\u3000\u307b\u307c\n\u4ed6\u306e\u3000\u8ab0\u304b\u306b\u3000\u5316\u3051\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon has a cowardly disposition, so\nwhen it\u2019s not around friends, it basically\nalways stays transformed as something else.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 un Pok\u00e9mon molto timido. Quando non \u00e8\ncircondato dai suoi simili, assume sembianze\ndiverse dalle quelle abituali.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es tan miedoso que, cuando no se halla junto a\nsus compa\u00f1eros, casi siempre adopta un\naspecto distinto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Ein furchtsames Pok\u00e9mon, das die Gestalt eines\nanderen annimmt, wenn es sich nicht in der\nGesellschaft seiner Artgenossen befindet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Timide de nature, il change constamment\nd\u2019apparence, sauf quand il est entour\u00e9 de\nses cong\u00e9n\u00e8res.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6027\u60c5\u81bd\u5c0f\u7684\u5bf6\u53ef\u5922\u3002\n\u9664\u4e86\u548c\u5925\u4f34\u5f85\u5728\u4e00\u8d77\u7684\u6642\u5019\u4e4b\u5916\uff0c\n\u901a\u5e38\u90fd\u6703\u5e7b\u5316\u6210\u5176\u4ed6\u6771\u897f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uac81\uc774 \ub9ce\uc740 \ud3ec\ucf13\ubaac\uc73c\ub85c\n\ub3d9\ub8cc\uc640 \uc788\uc744 \ub54c \ub9d0\uace0\ub294 \uac70\uc758\n\ub2e4\ub978 \ub204\uad70\uac00\ub85c \ub454\uac11\ud558\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304f\u3073\u3087\u3046\u306a\u3000\u305b\u3044\u3057\u3064\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3067\n\u306a\u304b\u307e\u3068\u3000\u3044\u308b\u3068\u304d\u3000\u3044\u304c\u3044\u306f\u3000\u307b\u307c\n\u307b\u304b\u306e\u3000\u3060\u308c\u304b\u306b\u3000\u3070\u3051\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4eba\u3084\u3000\u307b\u304b\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u5316\u3051\u308b\u3002\n\u81ea\u5206\u306e\u3000\u6b63\u4f53\u3092\u3000\u96a0\u3059\u3053\u3068\u3067\n\u5371\u967a\u304b\u3089\u3000\u8eab\u3092\u3000\u5b88\u3063\u3066\u3044\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "To protect themselves from danger, they hide their\ntrue identities by transforming into people\nand Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Si protegge dai pericoli trasformandosi in essere umano o in\nun altro Pok\u00e9mon, nascondendo cos\u00ec la sua vera identit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Se transforma en humanos o en otros Pok\u00e9mon. Se defiende\ndel peligro ocultando su verdadera apariencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es tarnt sich als Mensch oder als andere Pok\u00e9mon. Es sch\u00fctzt\nsich vor Gefahren, indem es seine wahre Gestalt geheim h\u00e4lt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il peut se transformer en humain ou en d\u2019autres Pok\u00e9mon.\nIl se prot\u00e8ge du danger en dissimulant sa vraie identit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc0ac\ub78c\uc774\ub098 \ub2e4\ub978 \ud3ec\ucf13\ubaac\uc73c\ub85c \ub454\uac11\ud55c\ub2e4.\n\uc790\uc2e0\uc758 \uc815\uccb4\ub97c \uac10\ucd94\uc5b4\n\uc704\ud5d8\uc73c\ub85c\ubd80\ud130 \ubab8\uc744 \uc9c0\ud0a4\ub294 \uac83\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3068\u3084\u3000\u307b\u304b\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3070\u3051\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3057\u3087\u3046\u305f\u3044\u3092\u3000\u304b\u304f\u3059\u3053\u3068\u3067\n\u304d\u3051\u3093\u304b\u3089\u3000\u202f\u3092\u3000\u307e\u3082\u3063\u3066\u3044\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u305d\u3063\u304f\u308a\u306b\u3000\u5316\u3051\u3066\u3044\u308b\u3088\u3046\u306b\n\u202f\u305b\u304b\u3051\u3000\u3060\u307e\u3057\u305f\u308a\u3000\u9a5a\u304b\u3057\u3066\n\u305d\u306e\u3059\u304d\u306b\u3000\u9003\u3052\u51fa\u3059\u3053\u3068\u304c\u3000\u591a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It changes so it looks just like its foe, tricks it, and\nthen uses that opportunity to flee.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Inganna spesso il nemico assumendone la forma e lasciandolo\nesterrefatto, per poi darsi alla fuga.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Adopta la apariencia de su enemigo para enga\u00f1arlo vilmente y\naprovecha su estupor para poner tierra por medio.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Nicht selten \u00fcberrumpelt es Gegner, indem es ihre Gestalt\nannimmt und den \u00dcberraschungseffekt zur Flucht nutzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il prend l\u2019apparence de son adversaire pour le d\u00e9sorienter\net prendre la fuite gr\u00e2ce \u00e0 la confusion caus\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc640 \ub611 \ub2ee\uac8c \ub454\uac11\ud55c \uac83\ucc98\ub7fc\n\ubcf4\uc774\uac8c \ud558\uc5ec \uc18d\uc774\uac70\ub098 \ub180\ub77c\uac8c \ud574\uc11c\n\uadf8 \ud2c8\uc5d0 \ub3c4\ub9dd\uac00\ub294 \uc77c\uc774 \ub9ce\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u305d\u3063\u304f\u308a\u306b\u3000\u3070\u3051\u3066\u3044\u308b\u3088\u3046\u306b\n\u202f\u305b\u304b\u3051\u3000\u3060\u307e\u3057\u305f\u308a\u3000\u304a\u3069\u308d\u304b\u3057\u3066\n\u305d\u306e\u3059\u304d\u306b\u3000\u306b\u3052\u3060\u3059\u3053\u3068\u304c\u3000\u304a\u304a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u4eba\u3084\u3000\u307b\u304b\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u5316\u3051\u308b\u3002\n\u81ea\u5206\u306e\u3000\u6b63\u4f53\u3092\u3000\u96a0\u3059\u3053\u3068\u3067\n\u5371\u967a\u304b\u3089\u3000\u8eab\u3092\u3000\u5b88\u3063\u3066\u3044\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "To protect themselves from danger, they hide their\ntrue identities by transforming into people\nand Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Si protegge dai pericoli trasformandosi in essere\numano o in un altro Pok\u00e9mon, nascondendo cos\u00ec la\nsua vera identit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se transforma en humanos o en otros Pok\u00e9mon.\nSe defiende del peligro ocultando su verdadera\napariencia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es tarnt sich als Mensch oder als andere Pok\u00e9mon.\nEs sch\u00fctzt sich vor Gefahren, indem es seine wahre\nGestalt geheim h\u00e4lt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il peut se transformer en humain ou en d\u2019autres\nPok\u00e9mon. Il se prot\u00e8ge du danger en dissimulant\nsa vraie identit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc0ac\ub78c\uc774\ub098 \ub2e4\ub978 \ud3ec\ucf13\ubaac\uc73c\ub85c \ub454\uac11\ud55c\ub2e4.\n\uc790\uc2e0\uc758 \uc815\uccb4\ub97c \uac10\ucd94\uc5b4\n\uc704\ud5d8\uc73c\ub85c\ubd80\ud130 \ubab8\uc744 \uc9c0\ud0a4\ub294 \uac83\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3068\u3084\u3000\u307b\u304b\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3070\u3051\u308b\u3002\n\u3058\u3076\u3093\u306e\u3000\u3057\u3087\u3046\u305f\u3044\u3092\u3000\u304b\u304f\u3059\u3053\u3068\u3067\n\u304d\u3051\u3093\u304b\u3089\u3000\u307f\u3092\u3000\u307e\u3082\u3063\u3066\u3044\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u305d\u3063\u304f\u308a\u306b\u3000\u5316\u3051\u3066\u3044\u308b\u3088\u3046\u306b\n\u307f\u305b\u304b\u3051\u3000\u3060\u307e\u3057\u305f\u308a\u3000\u9a5a\u304b\u3057\u3066\n\u305d\u306e\u3059\u304d\u306b\u3000\u9003\u3052\u51fa\u3059\u3053\u3068\u304c\u3000\u591a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It changes so it looks just like its foe, tricks it, and\nthen uses that opportunity to flee.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Inganna spesso il nemico assumendone la forma e\nlasciandolo esterrefatto, per poi darsi alla fuga.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Adopta la apariencia de su enemigo para enga\u00f1arlo\nvilmente y aprovecha su estupor para poner tierra por\nmedio.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Nicht selten \u00fcberrumpelt es Gegner, indem es ihre\nGestalt annimmt und den \u00dcberraschungseffekt zur\nFlucht nutzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il prend l\u2019apparence de son adversaire pour le\nd\u00e9sorienter et prendre la fuite gr\u00e2ce \u00e0 la confusion\ncaus\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc640 \ub611 \ub2ee\uac8c \ub454\uac11\ud55c \uac83\ucc98\ub7fc\n\ubcf4\uc774\uac8c \ud558\uc5ec \uc18d\uc774\uac70\ub098 \ub180\ub77c\uac8c \ud574\uc11c\n\uadf8 \ud2c8\uc5d0 \ub3c4\ub9dd\uac00\ub294 \uc77c\uc774 \ub9ce\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u305d\u3063\u304f\u308a\u306b\u3000\u3070\u3051\u3066\u3044\u308b\u3088\u3046\u306b\n\u307f\u305b\u304b\u3051\u3000\u3060\u307e\u3057\u305f\u308a\u3000\u304a\u3069\u308d\u304b\u3057\u3066\n\u305d\u306e\u3059\u304d\u306b\u3000\u306b\u3052\u3060\u3059\u3053\u3068\u304c\u3000\u304a\u304a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It changes so it looks just\nlike its foe, tricks it, and then\nuses that opportunity to flee.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It changes so it looks just\nlike its foe, tricks it, and then\nuses that opportunity to flee.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "To protect themselves from danger,\nthey hide their true identities by\ntransforming into people and Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il peut se transformer en humain ou en\nd\u2019autres Pok\u00e9mon. Il se prot\u00e8ge du\ndanger en dissimulant sa vraie identit\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It changes into the forms of others\nto surprise them. Apparently, it\noften transforms into a silent child.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il a le pouvoir de prendre l\u2019apparence\ndes autres. On dit qu\u2019il se transforme\nsouvent en petit enfant silencieux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u6076\u72d0\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u308f\u308b\u304e\u3064\u306d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Tricky Fox Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Malavolpe",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Zorro Pillo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Lausefuchs",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Sombrenard",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u60e1\u72d0\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ub098\uc05c\uc5ec\uc6b0\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u308f\u308b\u304e\u3064\u306d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 25,
+    "id": 570,
+    "is_baby": false,
+    "name": "zorua",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7d22\u7f57\u4e9a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30be\u30ed\u30a2"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Zorua"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Zorua"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Zorua"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Zorua"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Zorua"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7d22\u7f85\u4e9e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc870\ub85c\uc544"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30be\u30ed\u30a2"
+        }
+    ],
+    "order": 571,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 124,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 154,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 151,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 76,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 570,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "zorua",
+                "url": "/api/v2/pokemon/570/"
+            }
+        }
+    ]
+}

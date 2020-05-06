@@ -1,0 +1,533 @@
+{
+    "accuracy": 95,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 30,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to burn the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5c06\u6eda\u70eb\u7684\u84b8\u6c7d\u55b7\u5411\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u707c\u4f24\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u71b1\u3044\u3000\u84b8\u6c17\u3092\n\u76f8\u624b\u306b\u3000\u6d74\u3073\u305b\u308b\u3002\n\u76f8\u624b\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Travolge il bersaglio con un\u2019ondata di vapore\nrovente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Envuelve al Pok\u00e9mon oponente con vapor\nextremadamente caliente que puede llegar a\nquemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender feuert einen siedend hei\u00dfen\nDampfschwall auf das Ziel ab. Dieses kann\ndabei Verbrennungen erleiden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Plonge l\u2019ennemi dans une chaleur \u00e9touffante.\nPeut le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u8d85\u9ad8\u6eab\u7684\u84b8\u6c7d\u5674\u5411\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uad49\uc7a5\ud788 \ub728\uac70\uc6b4\n\uc99d\uae30\ub97c \ubfdc\ub294\ub2e4.\n\uc0c1\ub300\ub294 \ud654\uc0c1\uc744 \uc785\uae30\ub3c4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u3042\u3064\u3044\u3000\u3058\u3087\u3046\u304d\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u3073\u305b\u308b\u3002\n\u3042\u3044\u3066\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u6eda\u70eb\u7684\u84b8\u6c7d\u55b7\u5411\u5bf9\u624b\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u707c\u4f24\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u71b1\u3044\u3000\u84b8\u6c17\u3092\n\u76f8\u624b\u306b\u3000\u6d74\u3073\u305b\u308b\u3002\n\u76f8\u624b\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Travolge il bersaglio con un\u2019ondata di vapore\nrovente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Envuelve al Pok\u00e9mon oponente con vapor\nextremadamente caliente que puede llegar a\nquemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender feuert einen siedend hei\u00dfen\nDampfschwall auf das Ziel ab. Dieses kann\ndabei Verbrennungen erleiden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Plonge l\u2019ennemi dans une chaleur \u00e9touffante.\nPeut le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u8d85\u9ad8\u6eab\u7684\u84b8\u6c7d\u5674\u5411\u5c0d\u624b\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uad49\uc7a5\ud788 \ub728\uac70\uc6b4\n\uc99d\uae30\ub97c \ubfdc\ub294\ub2e4.\n\uc0c1\ub300\ub294 \ud654\uc0c1\uc744 \uc785\uae30\ub3c4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u3042\u3064\u3044\u3000\u3058\u3087\u3046\u304d\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u3073\u305b\u308b\u3002\n\u3042\u3044\u3066\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u71b1\u3044\u3000\u84b8\u6c17\u3092\n\u76f8\u624b\u306b\u3000\u6d74\u3073\u305b\u308b\u3002\n\u76f8\u624b\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Travolge il bersaglio con un\u2019ondata di vapore\nrovente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Envuelve al Pok\u00e9mon oponente con vapor\nextremadamente caliente que puede llegar a\nquemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender feuert einen siedend hei\u00dfen\nDampfschwall auf das Ziel ab. Dieses kann\ndabei Verbrennungen erleiden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Plonge l\u2019ennemi dans une chaleur \u00e9touffante.\nPeut le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uad49\uc7a5\ud788 \ub728\uac70\uc6b4\n\uc99d\uae30\ub97c \ubfdc\ub294\ub2e4.\n\uc0c1\ub300\ub294 \ud654\uc0c1\uc744 \uc785\uae30\ub3c4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u3042\u3064\u3044\u3000\u3058\u3087\u3046\u304d\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u3073\u305b\u308b\u3002\n\u3042\u3044\u3066\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u71b1\u3044\u3000\u84b8\u6c17\u3092\n\u76f8\u624b\u306b\u3000\u6d74\u3073\u305b\u308b\u3002\n\u76f8\u624b\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user immerses the target in superheated steam.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Travolge il bersaglio con un\u2019ondata di vapore\nrovente che pu\u00f2 anche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Envuelve al Pok\u00e9mon oponente con vapor\nextremadamente caliente que puede llegar a\nquemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender feuert einen siedend hei\u00dfen\nDampfschwall auf das Ziel ab. Dieses kann\ndabei Verbrennungen erleiden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Plonge l\u2019ennemi dans une chaleur \u00e9touffante.\nPeut le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uad49\uc7a5\ud788 \ub728\uac70\uc6b4\n\uc99d\uae30\ub97c \ubfdc\ub294\ub2e4.\n\uc0c1\ub300\ub294 \ud654\uc0c1\uc744 \uc785\uae30\ub3c4 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u306e\u3059\u3054\u304f\u3000\u3042\u3064\u3044\u3000\u3058\u3087\u3046\u304d\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u3073\u305b\u308b\u3002\n\u3042\u3044\u3066\u306f\u3000\u3084\u3051\u3069\u3059\u308b\u3000\u3053\u3068\u304c\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "id": 592,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "burn",
+            "url": "/api/v2/move-ailment/4/"
+        },
+        "ailment_chance": 30,
+        "category": {
+            "name": "damage+ailment",
+            "url": "/api/v2/move-category/4/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "steam-eruption",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u84b8\u6c7d\u7206\u70b8"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b9\u30c1\u30fc\u30e0\u30d0\u30fc\u30b9\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Steam Eruption"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Vaporscoppio"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Chorro de Vapor"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Dampfschwall"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Jet de Vapeur"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u84b8\u6c7d\u7206\u70b8"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2a4\ud300\ubc84\uc2a4\ud2b8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b9\u30c1\u30fc\u30e0\u30d0\u30fc\u30b9\u30c8"
+        }
+    ],
+    "past_values": [],
+    "power": 110,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

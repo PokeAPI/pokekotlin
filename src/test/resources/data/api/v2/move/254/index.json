@@ -1,0 +1,686 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "spit-up",
+                    "url": "/api/v2/move/255/"
+                },
+                {
+                    "name": "swallow",
+                    "url": "/api/v2/move/256/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/16/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "Does not raise Defense or Special Defense.",
+                    "language": {
+                        "name": "en",
+                        "url": "/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Raises the user's Defense and Special Defense by one stage each.  Stores energy for use with spit up and swallow.  Up to three levels of energy can be stored, and all are lost if the user leaves the field.  Energy is still stored even if the stat boosts cannot be applied.\n\nIf the user uses baton pass, the stat boosts are passed as normal, but the stored energy is not.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Stores energy up to three times for use with Spit Up and Swallow."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u79ef\u84c4\u529b\u91cf\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u5fa1\u548c\u7279\u9632\u3002\n\u6700\u591a\u79ef\u84c4\uff13\u6b21\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u529b\u3092\u3000\u84c4\u3048\u3066\u3000\u81ea\u5206\u306e\n\u9632\u5fa1\u3068\u3000\u7279\u9632\u3092\u3000\u3042\u3052\u308b\u3002\n\u6700\u5927\u3000\uff13\u56de\u307e\u3067\u3000\u84c4\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user charges up power and raises both its\nDefense and Sp. Def stats. The move can be used\nthree times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa accumula energia aumentando\nla Difesa e la Difesa Speciale.\nSi pu\u00f2 utilizzare tre volte.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Acumula energ\u00eda y sube la Defensa y la Defensa \nEspecial. Puede utilizarse hasta tres veces.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "L\u00e4dt Kraft f\u00fcr sp\u00e4ter auf. Erh\u00f6ht Verteidigung und\nSpezial-Verteidigung. Kann bis zu dreimal eingesetzt\nwerden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur accumule de la puissance et augmente\nsa D\u00e9fense et sa D\u00e9fense Sp\u00e9ciale.\nPeut \u00eatre utilis\u00e9 trois fois.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u84c4\u7a4d\u529b\u91cf\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u79a6\u548c\u7279\u9632\u3002\n\u6700\u591a\u84c4\u7a4d\uff13\u6b21\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud798\uc744 \ube44\ucd95\ud574\uc11c \uc790\uc2e0\uc758\n\ubc29\uc5b4\uc640 \ud2b9\uc218\ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.\n\ucd5c\ub300 3\ud68c\uae4c\uc9c0 \ube44\ucd95\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u304b\u3089\u3092\u3000\u305f\u304f\u308f\u3048\u3066\u3000\u3058\u3076\u3093\u306e\n\u307c\u3046\u304e\u3087\u3068\u3000\u3068\u304f\u307c\u3046\u3092\u3000\u3042\u3052\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff13\u304b\u3044\u307e\u3067\u3000\u305f\u304f\u308f\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u79ef\u84c4\u529b\u91cf\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u5fa1\u548c\u7279\u9632\u3002\n\u6700\u591a\u79ef\u84c4\uff13\u6b21\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u529b\u3092\u3000\u84c4\u3048\u3066\u3000\u81ea\u5206\u306e\n\u9632\u5fa1\u3068\u3000\u7279\u9632\u3092\u3000\u3042\u3052\u308b\u3002\n\u6700\u5927\u3000\uff13\u56de\u307e\u3067\u3000\u84c4\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user charges up power and raises both its\nDefense and Sp. Def stats. The move can be used\nthree times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa accumula energia aumentando\nla Difesa e la Difesa Speciale.\nSi pu\u00f2 utilizzare tre volte.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Acumula energ\u00eda y sube la Defensa y la Defensa \nEspecial. Puede utilizarse hasta tres veces.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "L\u00e4dt Kraft f\u00fcr sp\u00e4ter auf. Erh\u00f6ht Verteidigung und\nSpezial-Verteidigung. Kann bis zu dreimal eingesetzt\nwerden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur accumule de la puissance et augmente\nsa D\u00e9fense et sa D\u00e9fense Sp\u00e9ciale.\nPeut \u00eatre utilis\u00e9 trois fois.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u84c4\u7a4d\u529b\u91cf\uff0c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u9632\u79a6\u548c\u7279\u9632\u3002\n\u6700\u591a\u84c4\u7a4d\uff13\u6b21\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud798\uc744 \ube44\ucd95\ud574\uc11c \uc790\uc2e0\uc758\n\ubc29\uc5b4\uc640 \ud2b9\uc218\ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.\n\ucd5c\ub300 3\ud68c\uae4c\uc9c0 \ube44\ucd95\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u304b\u3089\u3092\u3000\u305f\u304f\u308f\u3048\u3066\u3000\u3058\u3076\u3093\u306e\n\u307c\u3046\u304e\u3087\u3068\u3000\u3068\u304f\u307c\u3046\u3092\u3000\u3042\u3052\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff13\u304b\u3044\u307e\u3067\u3000\u305f\u304f\u308f\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u529b\u3092\u3000\u84c4\u3048\u3066\u3000\u81ea\u5206\u306e\n\u9632\u5fa1\u3068\u3000\u7279\u9632\u3092\u3000\u3042\u3052\u308b\u3002\n\u6700\u5927\u3000\uff13\u56de\u307e\u3067\u3000\u84c4\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user charges up power and raises\nboth its Defense and Sp. Def stats.\nThe move can be used three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa accumula energia aumentando\nla Difesa e la Difesa Speciale.\nSi pu\u00f2 utilizzare tre volte.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Acumula energ\u00eda y sube la Defensa y la Defensa \nEspecial. Puede utilizarse hasta tres veces.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "L\u00e4dt Kraft f\u00fcr sp\u00e4ter auf. Erh\u00f6ht Verteidigung\nund Spezial-Verteidigung. Kann bis zu dreimal\neingesetzt werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur accumule de la puissance et augmente\nsa D\u00e9fense et sa D\u00e9fense Sp\u00e9ciale.\nPeut \u00eatre utilis\u00e9 trois fois.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud798\uc744 \ube44\ucd95\ud574\uc11c \uc790\uc2e0\uc758\n\ubc29\uc5b4\uc640 \ud2b9\uc218\ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.\n\ucd5c\ub300 3\ud68c\uae4c\uc9c0 \ube44\ucd95\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u304b\u3089\u3092\u3000\u305f\u304f\u308f\u3048\u3066\u3000\u3058\u3076\u3093\u306e\n\u307c\u3046\u304e\u3087\u3068\u3000\u3068\u304f\u307c\u3046\u3092\u3000\u3042\u3052\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff13\u304b\u3044\u307e\u3067\u3000\u305f\u304f\u308f\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u529b\u3092\u3000\u84c4\u3048\u3066\u3000\u81ea\u5206\u306e\n\u9632\u5fa1\u3068\u3000\u7279\u9632\u3092\u3000\u3042\u3052\u308b\u3002\n\u6700\u5927\u3000\uff13\u56de\u307e\u3067\u3000\u84c4\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user charges up power and raises\nboth its Defense and Sp. Def stats.\nThe move can be used three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa accumula energia aumentando\nla Difesa e la Difesa Speciale.\nSi pu\u00f2 utilizzare tre volte.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Acumula energ\u00eda y sube la Defensa y la Defensa\nEspecial. Puede utilizarse hasta tres veces.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "L\u00e4dt Kraft f\u00fcr sp\u00e4ter auf. Erh\u00f6ht Verteidigung\nund Spezial-Verteidigung. Kann bis zu dreimal\neingesetzt werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur accumule de la puissance et augmente\nsa D\u00e9fense et sa D\u00e9fense Sp\u00e9ciale.\nPeut \u00eatre utilis\u00e9 trois fois.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud798\uc744 \ube44\ucd95\ud574\uc11c \uc790\uc2e0\uc758\n\ubc29\uc5b4\uc640 \ud2b9\uc218\ubc29\uc5b4\ub97c \uc62c\ub9b0\ub2e4.\n\ucd5c\ub300 3\ud68c\uae4c\uc9c0 \ube44\ucd95\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u304b\u3089\u3092\u3000\u305f\u304f\u308f\u3048\u3066\u3000\u3058\u3076\u3093\u306e\n\u307c\u3046\u304e\u3087\u3068\u3000\u3068\u304f\u307c\u3046\u3092\u3000\u3042\u3052\u308b\u3002\n\u3055\u3044\u3060\u3044\u3000\uff13\u304b\u3044\u307e\u3067\u3000\u305f\u304f\u308f\u3048\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user charges up power and raises\nboth its Defense and Sp. Def. The move\ncan be used three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user charges up power and raises\nboth its Defense and Sp. Def. The move\ncan be used three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur accumule de la puissance et\naugmente sa D\u00e9fense et sa D\u00e9fense\nSp\u00e9ciale. Peut \u00eatre utilis\u00e9 3 fois.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user charges\nup power, and raises\nboth its Defense and\nSp. Def. The move can\nbe used three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user charges\nup power, and raises\nboth its Defense and\nSp. Def. The move can\nbe used three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user charges\nup power, and raises\nboth its Defense and\nSp. Def. The move can\nbe used three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user charges\nup power for use\nlater. It can be\nused three times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Charges up power for up to\n3 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Charges up power for up to\n3 turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 254,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "stockpile",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u84c4\u529b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u305f\u304f\u308f\u3048\u308b"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Stockpile"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Accumulo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Reserva"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Horter"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Stockage"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u84c4\u529b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ube44\ucd95\ud558\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u305f\u304f\u308f\u3048\u308b"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": null,
+            "pp": 10,
+            "type": null,
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/11/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

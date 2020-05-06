@@ -1,0 +1,883 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 120,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/153/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u901a\u8fc7\u7a7a\u6c14\u4e0e\u4f53\u6bdb\u7684\u6469\u64e6\u4ea7\u751f\u9759\u7535\u3002\n\u843d\u96f7\u517d\u5982\u679c\u5954\u8dd1\uff0c\n\u4f1a\u53d1\u51fa\u567c\u91cc\u556a\u5566\u7684\u58f0\u97f3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u7a7a\u6c17\u3068\u3000\u4f53\u6bdb\u306e\u3000\u6469\u64e6\u3067\n\u9759\u96fb\u6c17\u304c\u3000\u767a\u751f\u3002\u3000\u30e9\u30af\u30e9\u30a4\u304c\n\u8d70\u308b\u3068\u3000\u30d0\u30c1\u30d0\u30c1\u3068\u3000\u97f3\u304c\u3000\u9cf4\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Friction between the air and its fur produces\nstatic electricity. When Electrike runs, it makes\na crackling sound.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019attrito fra l\u2019atmosfera e la sua pelliccia genera\nelettricit\u00e0 statica e quando corre si avverte\nun crepitio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La fricci\u00f3n con el aire carga su pelaje de\nelectricidad est\u00e1tica, por lo que pueden o\u00edrse\ncrepitantes chispazos cuando corre.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Durch die Reibung zwischen seinem Fell und\nder Luft entsteht Elektrizit\u00e4t. Wenn es rennt,\nverursacht es ein knisterndes Ger\u00e4usch.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La friction de ses poils avec l\u2019air g\u00e9n\u00e8re de\nl\u2019\u00e9lectricit\u00e9 statique quand il court et produit\nun son qui s\u2019apparente \u00e0 des cr\u00e9pitements.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u900f\u904e\u7a7a\u6c23\u548c\u9ad4\u6bdb\u7684\u6469\u64e6\n\u4f86\u7522\u751f\u975c\u96fb\u3002\u843d\u96f7\u7378\u5954\u8dd1\u6642\n\u6703\u767c\u51fa\u5288\u54e9\u556a\u5566\u7684\u8072\u97f3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uae30\uc640 \ud138\uc758 \ub9c8\ucc30\ub85c\n\uc815\uc804\uae30\uac00 \ubc1c\uc0dd\ud55c\ub2e4. \uc36c\ub354\ub77c\uc774\uac00\n\ub2ec\ub9ac\uba74 \ud0c1\ud0c1 \uc18c\ub9ac\uac00 \ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3046\u304d\u3068\u3000\u305f\u3044\u3082\u3046\u306e\u3000\u307e\u3055\u3064\u3067\n\u305b\u3044\u3067\u3093\u304d\u304c\u3000\u306f\u3063\u305b\u3044\u3002\u3000\u30e9\u30af\u30e9\u30a4\u304c\n\u306f\u3057\u308b\u3068\u3000\u30d0\u30c1\u30d0\u30c1\u3068\u3000\u304a\u3068\u304c\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u76ee\u306b\u3082\u3000\u6b62\u307e\u3089\u306c\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u8d70\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u7a7a\u6c17\u306e\u3000\u6469\u64e6\u3067\u3000\u96fb\u6c17\u3092\u3000\u767a\u751f\u3055\u305b\u3066\n\u5168\u8eab\u306e\u3000\u4f53\u6bdb\u306b\u3000\u84c4\u3048\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Electrike runs faster than the human eye can follow.\nThe friction from running is converted into electricity,\nwhich is then stored in this Pok\u00e9mon\u2019s fur.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Electrike corre pi\u00f9 velocemente di quanto l\u2019occhio umano\npossa percepire. L\u2019attrito dovuto alla corsa viene trasformato\nin elettricit\u00e0, accumulata poi nella pelliccia del Pok\u00e9mon.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Electrike corre tan r\u00e1pido que escapa hasta al ojo humano.\nLa fricci\u00f3n que se origina en la carrera se transforma en\nelectricidad que almacena en el pelaje.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Frizelbliz rennt so schnell, dass das menschliche Auge es nicht\nwahrnehmen kann. Die Reibung, die dabei entsteht, wandelt es\nin Elektrizit\u00e4t um, die es in seinem Fell speichert.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Dynavolt court tellement vite que l\u2019\u0153il humain ne peut pas\nle suivre. La friction g\u00e9n\u00e9r\u00e9e par sa course est convertie en\n\u00e9lectricit\u00e9, puis stock\u00e9e dans la fourrure de ce Pok\u00e9mon.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub208\uc5d0 \uc548 \ubcf4\uc774\ub294 \uc2a4\ud53c\ub4dc\ub85c \ub2ec\ub9ac\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uacf5\uae30\uc758 \ub9c8\ucc30\ub85c \uc804\uae30\ub97c \ubc1c\uc0dd\uc2dc\ucf1c\n\uc804\uc2e0\uc758 \ud138\uc5d0 \ube44\ucd95\ud558\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3081\u306b\u3082\u3000\u3068\u307e\u3089\u306c\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u306f\u3057\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u304f\u3046\u304d\u306e\u3000\u307e\u3055\u3064\u3067\u3000\u3067\u3093\u304d\u3092\u3000\u306f\u3063\u305b\u3044\u3055\u305b\u3066\n\u305c\u3093\u3057\u3093\u306e\u3000\u305f\u3044\u3082\u3046\u306b\u3000\u305f\u304f\u308f\u3048\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u9577\u3044\u3000\u4f53\u6bdb\u306b\u3000\u96fb\u6c17\u3092\u3000\u305f\u3081\u3066\u3044\u308b\u3002\n\u96fb\u6d41\u3067\u3000\u8db3\u306e\u3000\u7b4b\u8089\u3092\u3000\u523a\u6fc0\u3057\u3066\n\u7206\u767a\u7684\u3000\u77ac\u767a\u529b\u3092\u3000\u751f\u202f\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Electrike stores electricity in its long body hair. This Pok\u00e9mon\nstimulates its leg muscles with electric charges. These jolts of\npower give its legs explosive acceleration performance.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Electrike accumula l\u2019elettricit\u00e0 nella sua folta pelliccia.\nStimola i muscoli degli arti inferiori con cariche elettriche,\ngrazie alle quali ottiene prestazioni e accelerazioni esplosive.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Electrike acumula electricidad en el largo pelaje que tiene.\nEste Pok\u00e9mon estimula los m\u00fasculos de las patas mediante\ndescargas el\u00e9ctricas. Estas explosiones de energ\u00eda le permiten\nacelerar de forma incre\u00edble.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Frizelbliz speichert Elektrizit\u00e4t in seiner langen\nK\u00f6rperbehaarung. Dieses Pok\u00e9mon stimuliert seine\nBeinmuskulatur durch Stromst\u00f6\u00dfe. Dadurch ist es\nin der Lage, explosiv zu beschleunigen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dynavolt stocke de l\u2019\u00e9lectricit\u00e9 dans les poils de son corps\nallong\u00e9. Ce Pok\u00e9mon stimule les muscles de ses jambes\navec des charges \u00e9lectriques, ce qui le rend capable\nd\u2019acc\u00e9l\u00e9rations fulgurantes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uae34 \ud138\uc5d0 \uc804\uae30\ub97c \ubaa8\uc73c\uace0 \uc788\ub2e4.\n\uc804\ub958\ub85c \ub2e4\ub9ac \uadfc\uc721\uc744 \uc790\uadf9\ud558\uc5ec\n\ud3ed\ubc1c\uc801\uc778 \uc21c\ubc1c\ub825\uc744 \ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u304c\u3044\u3000\u305f\u3044\u3082\u3046\u306b\u3000\u3067\u3093\u304d\u3092\u3000\u305f\u3081\u3066\u3044\u308b\u3002\n\u3067\u3093\u308a\u3085\u3046\u3067\u3000\u3042\u3057\u306e\u3000\u304d\u3093\u306b\u304f\u3092\u3000\u3057\u3052\u304d\u3057\u3066\n\u3070\u304f\u306f\u3064\u3066\u304d\u306a\u3000\u3057\u3085\u3093\u3071\u3064\u308a\u3087\u304f\u3092\u3000\u3046\u202f\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u9759\u96fb\u6c17\u3092\u3000\u4f53\u6bdb\u306b\u3000\u305f\u304f\u308f\u3048\u3066\n\u653e\u96fb\u3059\u308b\u3002\u5d50\u304c\u3000\u8fd1\u3065\u304f\u3068\n\u5168\u8eab\u304b\u3089\u3000\u706b\u82b1\u3092\u3000\u6563\u3089\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It stores static electricity in its fur for discharging.\nIt gives off sparks if a storm approaches.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Accumula elettricit\u00e0 statica nella pelliccia, che poi\nscarica. Se si avvicina una tempesta, lo si vede\nscintillare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Acumula electricidad est\u00e1tica en el pelaje para lanzar\ndescargas. Cuando va a haber tormenta, suelta\nchispas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "In seinem Fell speichert es statische Elektrizit\u00e4t f\u00fcr\nsp\u00e4tere Entladungen. Braut sich ein Sturm zusammen,\nentl\u00e4dt es Funken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Dynavolt stocke de l\u2019\u00e9lectricit\u00e9 statique dans sa\nfourrure. Il produit des \u00e9tincelles lorsque le temps\ndevient orageux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc815\uc804\uae30\ub97c \ud138\uc5d0 \ube44\ucd95\ud558\uc5ec\n\ubc29\uc804\ud55c\ub2e4. \ud3ed\ud48d\uc774 \uac00\uae4c\uc774 \uc624\uba74\n\uc628\ubab8\uc5d0\uc11c \ubd88\uaf43\uc744 \ud280\uae34\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u3044\u3067\u3093\u304d\u3092\u3000\u305f\u3044\u3082\u3046\u306b\u3000\u305f\u304f\u308f\u3048\u3066\n\u307b\u3046\u3067\u3093\u3059\u308b\u3002\u3042\u3089\u3057\u304c\u3000\u3061\u304b\u3065\u304f\u3068\n\u305c\u3093\u3057\u3093\u304b\u3089\u3000\u3072\u3070\u306a\u3092\u3000\u3061\u3089\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u6bdb\u306b\u3000\u305f\u3081\u305f\u3000\u96fb\u6c17\u3092\u3000\u4f7f\u3044\n\u7b4b\u8089\u3092\u3000\u523a\u6fc0\u3059\u308b\u3053\u3068\u3067\n\u77ac\u767a\u529b\u3092\u3000\u9ad8\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur, it stimulates its\nmuscles to heighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "L\u2019elettricit\u00e0 immagazzinata nella pelliccia gli stimola\ni muscoli e aumenta la sua velocit\u00e0 di reazione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Estimula sus m\u00fasculos y aumenta sus reflejos con la\nelectricidad que almacena su pelaje.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Die Elektrizit\u00e4t, die es im Fell speichert, nutzt es,\num seine Muskeln zu stimulieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il am\u00e9liore ses r\u00e9flexes en stimulant ses muscles\ngr\u00e2ce \u00e0 l\u2019\u00e9lectricit\u00e9 dans sa fourrure.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud138\uc5d0 \ubaa8\uc740 \uc804\uae30\ub97c \uc368\uc11c\n\uadfc\uc721\uc744 \uc790\uadf9\ud568\uc73c\ub85c\uc368\n\uc21c\ubc1c\ub825\uc744 \ub192\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u3082\u3046\u306b\u3000\u305f\u3081\u305f\u3000\u3067\u3093\u304d\u3092\u3000\u3064\u304b\u3044\n\u304d\u3093\u306b\u304f\u3092\u3000\u3057\u3052\u304d\u3059\u308b\u3053\u3068\u3067\n\u3057\u3085\u3093\u3071\u3064\u308a\u3087\u304f\u3092\u3000\u305f\u304b\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il am\u00e9liore ses r\u00e9flexes en\nstimulant ses muscles gr\u00e2ce \u00e0 \nl\u2019\u00e9lectricit\u00e9 dans sa fourrure.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il am\u00e9liore ses r\u00e9flexes en\nstimulant ses muscles gr\u00e2ce \u00e0 \nl\u2019\u00e9lectricit\u00e9 dans sa fourrure.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It stores electricity in its fur. It\ngives off sparks from all over its\nbody in seasons when the air is dry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It stores electricity in its fur. It\ngives off sparks from all over its\nbody in seasons when the air is dry.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Using electricity stored in its fur,\nit stimulates its muscles to\nheighten its reaction speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It stores static electricity in its fur\nfor discharging. It gives off sparks if a\nstorm approaches.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It stores static electricity in its fur\nfor discharging. It gives off sparks if a\nstorm approaches.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It generates electricity using friction\nfrom the atmosphere. In seasons with\nespecially arid air, its entire body blazes\nwith violent showers of sparks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "ELECTRIKE runs faster than the human\neye can follow. The friction from\nrunning is converted into electricity,\fwhich is then stored in this POK\u00e9MON\u2019s\nfur.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "ELECTRIKE stores electricity in its\nlong body hair. This POK\u00e9MON stimulates\nits leg muscles with electric charges.\fThese jolts of power give its legs\nexplosive acceleration performance.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u95ea\u7535\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3044\u306a\u305a\u307e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Lightning Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Lampo",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Calambre",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Gewitter",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Orage",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u9583\u96fb\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ucc9c\ub465\ubc88\uac1c\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3044\u306a\u305a\u307e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 309,
+    "is_baby": false,
+    "name": "electrike",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u843d\u96f7\u517d"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e9\u30af\u30e9\u30a4"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Electrike"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Electrike"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Electrike"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Frizelbliz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Dynavolt"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u843d\u96f7\u7378"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc36c\ub354\ub77c\uc774"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Rakurai"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e9\u30af\u30e9\u30a4"
+        }
+    ],
+    "order": 335,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 80,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 73,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 78,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 309,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "electrike",
+                "url": "/api/v2/pokemon/309/"
+            }
+        }
+    ]
+}

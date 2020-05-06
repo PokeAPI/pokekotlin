@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User receives 1/3 the damage inflicted in recoil."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6536\u62e2\u7fc5\u8180\uff0c\n\u901a\u8fc7\u4f4e\u7a7a\u98de\u884c\u7a81\u51fb\u5bf9\u624b\u3002\n\u81ea\u5df1\u4e5f\u4f1a\u53d7\u5230\u4e0d\u5c0f\u7684\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u307f\n\u4f4e\u7a7a\u98db\u884c\u3067\u3000\u7a81\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in its wings and charges from a low\naltitude. This also damages the user quite a lot.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ripiega le ali e carica da bassa quota.\nTuttavia, subisce considerevoli danni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Pliega sus alas y ataca con un vuelo rasante. El \nPok\u00e9mon que lo usa tambi\u00e9n resulta seriamente \nda\u00f1ado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift aus niedriger H\u00f6he an. Er erleidet\nbei dieser Attacke selbst gro\u00dfen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur replie ses ailes et charge en rase-mottes.\nBlesse gravement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6536\u8d77\u7fc5\u8180\uff0c\n\u4f4e\u7a7a\u98db\u884c\u7a81\u64ca\u5c0d\u624b\u3002\n\u81ea\u5df1\u4e5f\u6703\u53d7\u5230\u4e0d\u5c0f\u7684\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uac1c\ub97c \uc811\uc5b4\n\uc800\uacf5\ube44\ud589\uc73c\ub85c \ub3cc\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc0c1\ub2f9\ud55c \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u307f\n\u3066\u3044\u304f\u3046\u3000\u3072\u3053\u3046\u3067\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6536\u62e2\u7fc5\u8180\uff0c\n\u901a\u8fc7\u4f4e\u7a7a\u98de\u884c\u7a81\u51fb\u5bf9\u624b\u3002\n\u81ea\u5df1\u4e5f\u4f1a\u53d7\u5230\u4e0d\u5c0f\u7684\u4f24\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u307f\n\u4f4e\u7a7a\u98db\u884c\u3067\u3000\u7a81\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in its wings and charges from a low\naltitude. This also damages the user quite a lot.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa ripiega le ali e carica da bassa quota.\nTuttavia, subisce considerevoli danni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Pliega sus alas y ataca con un vuelo rasante. El \nPok\u00e9mon que lo usa tambi\u00e9n resulta seriamente \nda\u00f1ado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift aus niedriger H\u00f6he an. Er erleidet\nbei dieser Attacke selbst gro\u00dfen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur replie ses ailes et charge en rase-mottes.\nBlesse gravement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6536\u8d77\u7fc5\u8180\uff0c\n\u4f4e\u7a7a\u98db\u884c\u7a81\u64ca\u5c0d\u624b\u3002\n\u81ea\u5df1\u4e5f\u6703\u53d7\u5230\u4e0d\u5c0f\u7684\u50b7\u5bb3\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uac1c\ub97c \uc811\uc5b4\n\uc800\uacf5\ube44\ud589\uc73c\ub85c \ub3cc\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc0c1\ub2f9\ud55c \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u307f\n\u3066\u3044\u304f\u3046\u3000\u3072\u3053\u3046\u3067\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u202f\n\u4f4e\u7a7a\u98db\u884c\u3067\u3000\u7a81\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in its wings and charges\nfrom a low altitude.\nThis also damages the user quite a lot.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si nasconde sotto le ali e carica da\nbassa quota. Tuttavia, subisce considerevoli danni. ",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Pliega sus alas y ataca con un vuelo rasante. El \nPok\u00e9mon que lo usa tambi\u00e9n resulta seriamente \nda\u00f1ado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift aus niedriger H\u00f6he an. Er erleidet\nbei dieser Attacke selbst gro\u00dfen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur replie ses ailes et charge en\nrase-mottes. Blesse gravement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uac1c\ub97c \uc811\uc5b4\n\uc800\uacf5\ube44\ud589\uc73c\ub85c \ub3cc\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc0c1\ub2f9\ud55c \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u202f\n\u3066\u3044\u304f\u3046\u3000\u3072\u3053\u3046\u3067\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u307f\n\u4f4e\u7a7a\u98db\u884c\u3067\u3000\u7a81\u6483\u3059\u308b\u3002\n\u81ea\u5206\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u53d7\u3051\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in its wings and charges\nfrom a low altitude.\nThis also damages the user quite a lot.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa si nasconde sotto le ali e carica da\nbassa quota. Tuttavia, subisce considerevoli danni.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Pliega sus alas y ataca con un vuelo rasante. El\nPok\u00e9mon que lo usa tambi\u00e9n resulta seriamente\nda\u00f1ado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift aus niedriger H\u00f6he an. Er erleidet\nbei dieser Attacke selbst gro\u00dfen Schaden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur replie ses ailes et charge en\nrase-mottes. Blesse gravement le lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub0a0\uac1c\ub97c \uc811\uc5b4\n\uc800\uacf5\ube44\ud589\uc73c\ub85c \ub3cc\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\ub3c4 \uc0c1\ub2f9\ud55c \ub370\ubbf8\uc9c0\ub97c \uc785\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u306f\u306d\u3092\u3000\u304a\u308a\u305f\u305f\u307f\n\u3066\u3044\u304f\u3046\u3000\u3072\u3053\u3046\u3067\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3058\u3076\u3093\u3082\u3000\u304b\u306a\u308a\u3000\u30c0\u30e1\u30fc\u30b8\u3092\u3000\u3046\u3051\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in its wings and charges\nfrom a low altitude.\nThe user also takes serious damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in its wings and charges\nfrom a low altitude.\nThe user also takes serious damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur replie ses ailes et charge\nen rase-mottes. Le lanceur subit aussi\nde graves d\u00e9g\u00e2ts.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 413,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": -33,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "brave-bird",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u52c7\u9e1f\u731b\u653b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d6\u30ec\u30a4\u30d6\u30d0\u30fc\u30c9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Brave Bird"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Baldeali"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "P\u00e1jaro Osado"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Sturzflug"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Rapace"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u52c7\u9ce5\u731b\u653b"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ube0c\ub808\uc774\ube0c\ubc84\ub4dc"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d6\u30ec\u30a4\u30d6\u30d0\u30fc\u30c9"
+        }
+    ],
+    "past_values": [],
+    "power": 120,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/18/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "flying",
+        "url": "/api/v2/type/3/"
+    }
+}

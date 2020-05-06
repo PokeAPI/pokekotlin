@@ -1,0 +1,946 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "dragon",
+            "url": "/api/v2/egg-group/14/"
+        },
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/230/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f1a\u5bf9\u52a8\u7684\u4e1c\u897f\u53d1\u751f\u53cd\u5e94\uff0c\n\u98de\u6251\u8fc7\u53bb\u54ac\u4f4f\u3002\u6709\u65f6\u5019\n\u4f1a\u4f24\u5230\u81ea\u5df1\uff0c\u4f46\u4e5f\u4e0d\u592a\u5728\u610f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u52d5\u304f\u3082\u306e\u306b\u3000\u53cd\u5fdc\u3057\u3000\u98db\u3073\u3064\u3044\u3066\n\u565b\u307f\u3064\u304f\u3002\u3000\u81ea\u5206\u304c\u3000\u50b7\u3064\u304f\u3053\u3068\u3082\n\u3042\u308b\u3051\u308c\u3069\u3000\u3042\u307e\u308a\u3000\u6c17\u306b\u3057\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It reacts to anything that moves\u2014flies right at it\nand bites it. Sometimes it injures itself, but it\ndoesn\u2019t care too much.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Appena sente qualcosa muoversi, salta fuori\ne lo addenta. Spesso si fa male da solo,\nma non se ne preoccupa particolarmente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "En cuanto percibe un objeto en movimiento, se\nlanza contra \u00e9l y le asesta dentelladas. A veces\nse hiere a s\u00ed mismo, pero no le importa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Wenn sich etwas in seiner N\u00e4he bewegt, st\u00fcrzt\nes sich darauf und bei\u00dft fest zu, auch wenn es\nsich dabei selbst verletzt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il saute sur tout ce qui bouge pour y planter\nses dents. Cette manie lui vaut quelques\nblessures, mais il n\u2019en a que faire.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u5c0d\u52d5\u7684\u6771\u897f\u7522\u751f\u53cd\u61c9\u4e26\u64b2\u904e\u53bb\u54ac\u4f4f\u3002\n\u6709\u6642\u6703\u56e0\u6b64\u50b7\u5230\u81ea\u5df1\uff0c\n\u4f46\u7260\u4e26\u4e0d\u600e\u9ebc\u5728\u610f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc6c0\uc9c1\uc774\ub294 \uac83\uc5d0 \ubc18\uc751\ud558\uc5ec\n\ub2ec\ub824\ub4e4\uc5b4 \ub365\uc11d \ubb38\ub2e4. \uc790\uc2e0\uc774 \uc0c1\ucc98\ub97c\n\uc785\uc5b4\ub3c4 \ubcc4\ub85c \uc2e0\uacbd \uc4f0\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3054\u304f\u3082\u306e\u306b\u3000\u306f\u3093\u306e\u3046\u3057\u3000\u3068\u3073\u3064\u3044\u3066\n\u304b\u307f\u3064\u304f\u3002\u3000\u3058\u3076\u3093\u304c\u3000\u304d\u305a\u3064\u304f\u3053\u3068\u3082\n\u3042\u308b\u3051\u308c\u3069\u3000\u3042\u307e\u308a\u3000\u304d\u306b\u3057\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6f5c\u4f0f\u5728\u5730\u6d1e\u5185\uff0c\u5982\u679c\u6709\u730e\u7269\n\u6216\u654c\u4eba\u7ecf\u8fc7\uff0c\u5c31\u4f1a\u6251\u51fa\u6765\u54ac\u4f4f\u3002\n\u6709\u65f6\u4f1a\u7528\u529b\u8fc7\u731b\u7259\u9f7f\u8c41\u6389\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u7a74\u5009\u306b\u3000\u6f5c\u307f\u3000\u7372\u7269\u3084\u3000\u6575\u304c\n\u6a2a\u5207\u308b\u3068\u3000\u98db\u3073\u3060\u3057\u3066\u3000\u565b\u307f\u3064\u304f\u3002\n\u52e2\u3044\u4f59\u308a\u3000\u6b6f\u304c\u3000\u6b20\u3051\u308b\u3053\u3068\u3082\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It skulks in caves, and when prey or an enemy\npasses by, it leaps out and chomps them. The\nforce of its attack sometimes chips its teeth.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Aspetta nemici e prede in agguato nella sua\ntana. Quando gli arrivano a tiro, li addenta con\ntale forza che a volte si spezza i denti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Permanece oculto en cuevas y cuando pasa una\npresa, se abalanza sobre ella y la muerde con\ntanta fuerza que hasta se le rompen los dientes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Es verbirgt sich in kleinen H\u00f6hlen, aus denen es\nherausspringt und vorbeilaufende Gegner bei\u00dft.\nManchmal bricht dabei ein Zahn ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il attend le passage d\u2019une proie pour bondir\nhors de son trou et la croquer. Dans son \u00e9lan,\nil se casse parfois les dents.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6f5b\u4f0f\u5728\u5730\u6d1e\u5167\uff0c\u5982\u679c\u6709\u7375\u7269\n\u6216\u6575\u4eba\u7d93\u904e\uff0c\u5c31\u6703\u64b2\u51fa\u4f86\u54ac\u4f4f\u3002\n\u6709\u6642\u6703\u7528\u529b\u904e\u731b\u800c\u54ac\u58de\u7259\u9f52\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uad6c\uba4d\uc5d0 \uc228\uc5b4\uc11c \uba39\uc774\ub098 \uc801\uc774\n\uc9c0\ub098\uac00\uba74 \ub6f0\uccd0\ub098\uac00 \ubb38\ub2e4.\n\uae30\uc138\uac00 \ub300\ub2e8\ud574 \uc774\uac00 \ube60\uc9c8 \ub54c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u306a\u3050\u3089\u306b\u3000\u3072\u305d\u307f\u3000\u3048\u3082\u306e\u3084\u3000\u3066\u304d\u304c\n\u3088\u3053\u304e\u308b\u3068\u3000\u3068\u3073\u3060\u3057\u3066\u3000\u304b\u307f\u3064\u304f\u3002\n\u3044\u304d\u304a\u3044\u3042\u307e\u308a\u3000\u306f\u304c\u3000\u304b\u3051\u308b\u3053\u3068\u3082\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6d1e\u7a9f\u306e\u3000\u5c0f\u3055\u306a\u3000\u6a2a\u7a74\u3092\n\u306d\u3050\u3089\u306b\u3059\u308b\u3002\u7372\u7269\u304c\u3000\u8fd1\u3065\u304f\u3068\n\u7d20\u65e9\u304f\u3000\u98db\u3073\u51fa\u3057\u3066\u3000\u6355\u307e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "It nests in small, horizontal holes in cave walls.\nIt pounces to catch prey that stray too close.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Nidifica in piccole cavit\u00e0 orizzontali nelle pareti delle grotte.\nSi avventa sulle prede che si avvicinano.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Anida en peque\u00f1os agujeros en las paredes de cuevas.\nCuando una presa pasa cerca, salta hacia ella.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es nistet in kleinen L\u00f6chern in H\u00f6hlenw\u00e4nden.\nEs springt Beute, die sich zu nah heranwagt, an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il niche dans les petits trous horizontaux des murs des grottes.\nIl bondit pour saisir sa proie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ub3d9\uad74\uc758 \uc870\uadf8\ub9cc \uad6c\uba4d\uc744\n\ubcf4\uae08\uc790\ub9ac\ub85c \uc4f4\ub2e4. \uba39\uc774\uac00 \ub2e4\uac00\uc624\uba74\n\uc7ac\ube60\ub974\uac8c \ub6f0\uccd0\ub098\uac00 \ubd99\uc7a1\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3046\u304f\u3064\u306e\u3000\u3061\u3044\u3055\u306a\u3000\u3088\u3053\u3042\u306a\u3092\n\u306d\u3050\u3089\u306b\u3059\u308b\u3002\u3048\u3082\u306e\u304c\u3000\u3061\u304b\u3065\u304f\u3068\n\u3059\u3070\u3084\u304f\u3000\u3068\u3073\u3060\u3057\u3066\u3000\u3064\u304b\u307e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u71b1\u3067\u3000\u6e29\u3081\u3089\u308c\u305f\u3000\u6a2a\u7a74\u3067\u3000\u66ae\u3089\u3059\u3002\n\u6575\u304c\u3000\u8fd1\u3065\u304f\u3068\u3000\u7a74\u304b\u3089\u3000\u98db\u3073\u51fa\u3057\u3066\n\u5927\u53e3\u3067\u3000\u304b\u202f\u3064\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "It nests in horizontal holes warmed by geothermal\nheat. Foes who get too close can expect to be\npounced on and bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Vive in gallerie scaldate dal calore geotermico. Se sente un\nnemico arrivare, salta fuori e lo addenta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Vive en agujeros en las cuevas, al amparo del calor\ngeot\u00e9rmico. Si se acerca un enemigo, le muerde.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt in H\u00f6hlen, die Erdw\u00e4rme ausgesetzt sind. Es springt\nheraus und bei\u00dft, wenn Feinde sich n\u00e4hern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il niche dans des cavit\u00e9s chauff\u00e9es par g\u00e9othermie,\ndont il bondit pour d\u00e9chiqueter tout intrus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\uc5f4\ub85c \ub370\uc6cc\uc9c4 \uad6c\uba4d\uc5d0\uc11c\n\uc9c0\ub0b8\ub2e4. \uc801\uc774 \uac00\uae4c\uc774 \uc624\uba74 \uad6c\uba4d\uc5d0\uc11c\n\ub6f0\uccd0\ub098\uc640 \ucee4\ub2e4\ub780 \uc785\uc73c\ub85c \ubb3c\uc5b4\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u306d\u3064\u3067\u3000\u3042\u305f\u305f\u3081\u3089\u308c\u305f\u3000\u3088\u3053\u3042\u306a\u3067\n\u304f\u3089\u3059\u3002\u3066\u304d\u304c\u3000\u3061\u304b\u3065\u304f\u3068\u3000\u3042\u306a\u304b\u3089\n\u3068\u3073\u3060\u3057\u3066\u3000\u304a\u304a\u3050\u3061\u3067\u3000\u304b\u202f\u3064\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6d1e\u7a9f\u306e\u3000\u5c0f\u3055\u306a\u3000\u6a2a\u7a74\u3092\n\u306d\u3050\u3089\u306b\u3059\u308b\u3002\u7372\u7269\u304c\u3000\u8fd1\u3065\u304f\u3068\n\u7d20\u65e9\u304f\u3000\u98db\u3073\u51fa\u3057\u3066\u3000\u6355\u307e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It nests in small, horizontal holes in cave walls.\nIt pounces to catch prey that stray too close.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Nidifica in piccole cavit\u00e0 orizzontali nelle pareti delle\ngrotte. Si avventa sulle prede che si avvicinano.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Anida en peque\u00f1os agujeros en las paredes de\ncuevas. Cuando una presa pasa cerca, salta hacia ella.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es nistet in kleinen L\u00f6chern in H\u00f6hlenw\u00e4nden.\nEs springt Beute, die sich zu nah heranwagt, an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il niche dans les petits trous horizontaux des murs\ndes grottes. Il bondit pour saisir sa proie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub3d9\uad74\uc758 \uc870\uadf8\ub9cc \uad6c\uba4d\uc744\n\ubcf4\uae08\uc790\ub9ac\ub85c \uc4f4\ub2e4. \uba39\uc774\uac00 \ub2e4\uac00\uc624\uba74\n\uc7ac\ube60\ub974\uac8c \ub6f0\uccd0\ub098\uac00 \ubd99\uc7a1\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3069\u3046\u304f\u3064\u306e\u3000\u3061\u3044\u3055\u306a\u3000\u3088\u3053\u3042\u306a\u3092\n\u306d\u3050\u3089\u306b\u3059\u308b\u3002\u3048\u3082\u306e\u304c\u3000\u3061\u304b\u3065\u304f\u3068\n\u3059\u3070\u3084\u304f\u3000\u3068\u3073\u3060\u3057\u3066\u3000\u3064\u304b\u307e\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u71b1\u3067\u3000\u6e29\u3081\u3089\u308c\u305f\u3000\u6a2a\u7a74\u3067\u3000\u66ae\u3089\u3059\u3002\n\u6575\u304c\u3000\u8fd1\u3065\u304f\u3068\u3000\u7a74\u304b\u3089\u3000\u98db\u3073\u51fa\u3057\u3066\n\u5927\u53e3\u3067\u3000\u304b\u307f\u3064\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It nests in horizontal holes warmed by geothermal\nheat. Foes who get too close can expect to be\npounced on and bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive in gallerie scaldate dal calore geotermico. Se\nsente un nemico arrivare, salta fuori e lo addenta.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Vive en agujeros en las cuevas, al amparo del calor\ngeot\u00e9rmico. Si se acerca un enemigo, le muerde.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es lebt in H\u00f6hlen, die Erdw\u00e4rme ausgesetzt sind.\nEs springt heraus und bei\u00dft, wenn Feinde sich n\u00e4hern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il niche dans des cavit\u00e9s chauff\u00e9es par g\u00e9othermie,\ndont il bondit pour d\u00e9chiqueter tout intrus.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\uc5f4\ub85c \ub370\uc6cc\uc9c4 \uad6c\uba4d\uc5d0\uc11c\n\uc9c0\ub0b8\ub2e4. \uc801\uc774 \uac00\uae4c\uc774 \uc624\uba74 \uad6c\uba4d\uc5d0\uc11c\n\ub6f0\uccd0\ub098\uc640 \ucee4\ub2e4\ub780 \uc785\uc73c\ub85c \ubb3c\uc5b4\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3061\u306d\u3064\u3067\u3000\u3042\u305f\u305f\u3081\u3089\u308c\u305f\u3000\u3088\u3053\u3042\u306a\u3067\n\u304f\u3089\u3059\u3002\u3066\u304d\u304c\u3000\u3061\u304b\u3065\u304f\u3068\u3000\u3042\u306a\u304b\u3089\n\u3068\u3073\u3060\u3057\u3066\u3000\u304a\u304a\u3050\u3061\u3067\u3000\u304b\u307f\u3064\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It attacks using its huge mouth.\nWhile its attacks are powerful, it\nhurts itself out of clumsiness, too.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It attacks using its huge mouth.\nWhile its attacks are powerful, it\nhurts itself out of clumsiness, too.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It attacks using its huge mouth.\nWhile its attacks are powerful, it\nhurts itself out of clumsiness, too.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Malgr\u00e9 sa maladresse, son \u00e9norme\ngueule lui permet de lancer des\nattaques puissantes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It attacks using its huge mouth.\nWhile its attacks are powerful, it\nhurts itself out of clumsiness, too.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Malgr\u00e9 sa maladresse, son \u00e9norme\ngueule lui permet de lancer des\nattaques puissantes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It nests in horizontal holes warmed by\ngeothermal heat. Foes who get too close\ncan expect to be pounced on and bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It nests in horizontal holes warmed by\ngeothermal heat. Foes who get too close\ncan expect to be pounced on and bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It attacks using its huge mouth.\nWhile its attacks are powerful, it\nhurts itself out of clumsiness, too.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It once lived in the tropics. To\navoid the cold, it lives in caves\nwarmed by geothermal heat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It nests in small, horizontal holes\nin cave walls. It pounces to catch\nprey that stray too close.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u9646\u9ca8\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u308a\u304f\u30b6\u30e1\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Land Shark Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Squaloterra",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Terrascualo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Landhai",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Terrequin",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u9678\u9bca\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc721\uc9c0\uc0c1\uc5b4\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u308a\u304f\u30b6\u30e1\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": true,
+    "hatch_counter": 40,
+    "id": 443,
+    "is_baby": false,
+    "name": "gible",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5706\u9646\u9ca8"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d5\u30ab\u30de\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Gible"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Gible"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Gible"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Kaumalat"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Griknot"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5713\u9678\u9bca"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub525\uc0c1\uc5b4\ub3d9"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Fukamaru"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d5\u30ab\u30de\u30eb"
+        }
+    ],
+    "order": 464,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 6,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 85,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 109,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 109,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 443,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "gible",
+                "url": "/api/v2/pokemon/443/"
+            }
+        }
+    ]
+}

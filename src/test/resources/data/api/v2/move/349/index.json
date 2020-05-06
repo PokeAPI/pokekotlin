@@ -1,0 +1,685 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "dragon-rage",
+                    "url": "/api/v2/move/82/"
+                },
+                {
+                    "name": "dragon-breath",
+                    "url": "/api/v2/move/225/"
+                }
+            ],
+            "use_before": [
+                {
+                    "name": "dragon-rage",
+                    "url": "/api/v2/move/82/"
+                },
+                {
+                    "name": "dragon-breath",
+                    "url": "/api/v2/move/225/"
+                },
+                {
+                    "name": "dragon-claw",
+                    "url": "/api/v2/move/337/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/32/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Raises the user's Attack and Speed by one stage each.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Raises the user's Attack and Speed by one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6fc0\u70c8\u5730\u8df3\u8d77\u795e\u79d8\n\u4e14\u5f3a\u6709\u529b\u7684\u821e\u8e48\u3002\n\u4ece\u800c\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u51fb\u548c\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u795e\u79d8\u7684\u3067\u3000\u529b\u5f37\u3044\u3000\u821e\u3092\n\u6fc0\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u3000\u81ea\u5206\u306e\n\u653b\u6483\u3068\u3000\u7d20\u65e9\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Danza mistica e vigorosa che aumenta l\u2019Attacco\ne la Velocit\u00e0 di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Danza m\u00edstica que sube el Ataque y la Velocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ein mystischer Tanz, der den Angriffs- und\nInitiative-Wert erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une danse mystique dont le rythme effr\u00e9n\u00e9\naugmente l\u2019Attaque et la Vitesse du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc0\u70c8\u5730\u8df3\u8d77\u795e\u79d8\u53c8\u5f37\u800c\u6709\u529b\u7684\u821e\u8e48\u3002\n\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u64ca\u548c\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc2e0\ube44\ub86d\uace0 \ud798\uc13c \ucda4\uc744\n\uaca9\ub82c\ud558\uac8c \ucd98\ub2e4. \uc790\uc2e0\uc758\n\uacf5\uaca9\uacfc \uc2a4\ud53c\ub4dc\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3093\u3074\u3066\u304d\u3067\u3000\u3061\u304b\u3089\u3065\u3088\u3044\u3000\u307e\u3044\u3092\n\u306f\u3052\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u3000\u3058\u3076\u3093\u306e\n\u3053\u3046\u3052\u304d\u3068\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc0\u70c8\u5730\u8df3\u8d77\u795e\u79d8\n\u4e14\u5f3a\u6709\u529b\u7684\u821e\u8e48\u3002\n\u4ece\u800c\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u51fb\u548c\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u795e\u79d8\u7684\u3067\u3000\u529b\u5f37\u3044\u3000\u821e\u3092\n\u6fc0\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u3000\u81ea\u5206\u306e\n\u653b\u6483\u3068\u3000\u7d20\u65e9\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Danza mistica e vigorosa che aumenta l\u2019Attacco\ne la Velocit\u00e0 di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Danza m\u00edstica que sube el Ataque y la Velocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ein mystischer Tanz, der den Angriffs- und\nInitiative-Wert erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une danse mystique dont le rythme effr\u00e9n\u00e9\naugmente l\u2019Attaque et la Vitesse du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6fc0\u70c8\u5730\u8df3\u8d77\u795e\u79d8\u53c8\u5f37\u800c\u6709\u529b\u7684\u821e\u8e48\u3002\n\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u64ca\u548c\u901f\u5ea6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc2e0\ube44\ub86d\uace0 \ud798\uc13c \ucda4\uc744\n\uaca9\ub82c\ud558\uac8c \ucd98\ub2e4. \uc790\uc2e0\uc758\n\uacf5\uaca9\uacfc \uc2a4\ud53c\ub4dc\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3093\u3074\u3066\u304d\u3067\u3000\u3061\u304b\u3089\u3065\u3088\u3044\u3000\u307e\u3044\u3092\n\u306f\u3052\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u3000\u3058\u3076\u3093\u306e\n\u3053\u3046\u3052\u304d\u3068\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u795e\u79d8\u7684\u3067\u3000\u529b\u5f37\u3044\u3000\u821e\u3092\n\u6fc0\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u81ea\u5206\u306e\n\u653b\u6483\u3068\u3000\u7d20\u65e9\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously performs a mystic,\npowerful dance that raises its Attack and\nSpeed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Danza mistica e vigorosa che aumenta l\u2019Attacco\ne la Velocit\u00e0 di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Danza m\u00edstica que sube el Ataque y la Velocidad. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ein mystischer Tanz, der den\nAngriffs- und Initiative-Wert erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une danse mystique dont le rythme effr\u00e9n\u00e9\naugmente l\u2019Attaque et la Vitesse du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc2e0\ube44\ub86d\uace0 \ud798\uc13c \ucda4\uc744\n\uaca9\ub82c\ud558\uac8c \ucd98\ub2e4. \uc790\uc2e0\uc758\n\uacf5\uaca9\uacfc \uc2a4\ud53c\ub4dc\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3093\u3074\u3066\u304d\u3067\u3000\u3061\u304b\u3089\u3065\u3088\u3044\u3000\u307e\u3044\u3092\n\u306f\u3052\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u3058\u3076\u3093\u306e\n\u3053\u3046\u3052\u304d\u3068\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u795e\u79d8\u7684\u3067\u3000\u529b\u5f37\u3044\u3000\u821e\u3092\n\u6fc0\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u81ea\u5206\u306e\n\u653b\u6483\u3068\u3000\u7d20\u65e9\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously performs a mystic,\npowerful dance that raises its Attack and\nSpeed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Danza mistica e vigorosa che aumenta l\u2019Attacco\ne la Velocit\u00e0 di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Danza m\u00edstica que sube el Ataque y la Velocidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ein mystischer Tanz, der den\nAngriffs- und Initiative-Wert erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une danse mystique dont le rythme effr\u00e9n\u00e9\naugmente l\u2019Attaque et la Vitesse du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc2e0\ube44\ub86d\uace0 \ud798\uc13c \ucda4\uc744\n\uaca9\ub82c\ud558\uac8c \ucd98\ub2e4. \uc790\uc2e0\uc758\n\uacf5\uaca9\uacfc \uc2a4\ud53c\ub4dc\ub97c \uc62c\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3093\u3074\u3066\u304d\u3067\u3000\u3061\u304b\u3089\u3065\u3088\u3044\u3000\u307e\u3044\u3092\n\u306f\u3052\u3057\u304f\u3000\u304a\u3069\u308b\u3002\u3058\u3076\u3093\u306e\n\u3053\u3046\u3052\u304d\u3068\u3000\u3059\u3070\u3084\u3055\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously performs a mystic,\npowerful dance that boosts its Attack and\nSpeed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously performs a mystic,\npowerful dance that boosts its Attack and\nSpeed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une danse mystique dont le rythme\neffr\u00e9n\u00e9 augmente l\u2019Attaque et la\nVitesse du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously\nperforms a mystic,\npowerful dance that\nboosts its Attack and\nSpeed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously\nperforms a mystic,\npowerful dance that\nboosts its Attack and\nSpeed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user vigorously\nperforms a mystic,\npowerful dance that\nboosts its Attack and\nSpeed stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A mystic, powerful\ndance that boosts\nthe user\u2019s ATTACK\nand SPEED stats.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A mystical dance that ups\nATTACK and SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A mystical dance that ups\nATTACK and SPEED.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 349,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "dragon-dance",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9f99\u4e4b\u821e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u308a\u3085\u3046\u306e\u307e\u3044"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Dragon Dance"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Dragodanza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Danza Drag\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Drachentanz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Danse Draco"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9f8d\u4e4b\u821e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc6a9\uc758\ucda4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u308a\u3085\u3046\u306e\u307e\u3044"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": 1,
+            "stat": {
+                "name": "attack",
+                "url": "/api/v2/stat/2/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/11/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "dragon",
+        "url": "/api/v2/type/16/"
+    }
+}

@@ -1,0 +1,686 @@
+{
+    "accuracy": 90,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "beauty",
+        "url": "/api/v2/contest-type/2/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "User foregoes its next turn to recharge."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f7f\u51fa\u81ea\u5df1\u6d51\u8eab\u529b\u91cf\u7a81\u51fb\u5bf9\u624b\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c06\u65e0\u6cd5\u52a8\u5f39\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6301\u3066\u308b\u3000\u529b\u3092\u3000\u3059\u3079\u3066\u3000\u4f7f\u3063\u3066\n\u76f8\u624b\u306b\u3000\u7a81\u6483\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at the target using every bit of its\npower. The user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio usando tutta la sua\nforza, ma al turno successivo deve riposarsi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Carga contra el objetivo usando toda la fuerza que \ntiene. El Pok\u00e9mon descansa el turno siguiente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rennt mit seiner ganzen Kraft gegen das\nZiel an und muss dann eine Runde ruhen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur charge l\u2019ennemi de toute sa puissance\net doit ensuite se reposer au tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u51fa\u5168\u8eab\u4e0a\u4e0b\u6240\u6709\u529b\u91cf\u7a81\u64ca\u5c0d\u624b\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c07\u7121\u6cd5\u52d5\u5f48\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uac00\uc9c4 \ud798\uc744 \ubaa8\ub450 \uc0ac\uc6a9\ud574\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uaca9\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u3066\u308b\u3000\u3061\u304b\u3089\u3092\u3000\u3059\u3079\u3066\u3000\u3064\u304b\u3063\u3066\n\u3042\u3044\u3066\u306b\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u51fa\u81ea\u5df1\u6d51\u8eab\u529b\u91cf\u7a81\u51fb\u5bf9\u624b\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c06\u65e0\u6cd5\u52a8\u5f39\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6301\u3066\u308b\u3000\u529b\u3092\u3000\u3059\u3079\u3066\u3000\u4f7f\u3063\u3066\n\u76f8\u624b\u306b\u3000\u7a81\u6483\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at the target using every bit of its\npower. The user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio usando tutta la sua\nforza, ma al turno successivo deve riposarsi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Carga contra el objetivo usando toda la fuerza que \ntiene. El Pok\u00e9mon descansa el turno siguiente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rennt mit seiner ganzen Kraft gegen das\nZiel an und muss dann eine Runde ruhen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur charge l\u2019ennemi de toute sa puissance\net doit ensuite se reposer au tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u51fa\u5168\u8eab\u4e0a\u4e0b\u6240\u6709\u529b\u91cf\u7a81\u64ca\u5c0d\u624b\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c07\u7121\u6cd5\u52d5\u5f48\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uac00\uc9c4 \ud798\uc744 \ubaa8\ub450 \uc0ac\uc6a9\ud574\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uaca9\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u3066\u308b\u3000\u3061\u304b\u3089\u3092\u3000\u3059\u3079\u3066\u3000\u3064\u304b\u3063\u3066\n\u3042\u3044\u3066\u306b\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6301\u3066\u308b\u3000\u529b\u3092\u3000\u3059\u3079\u3066\u3000\u4f7f\u3063\u3066\n\u76f8\u624b\u306b\u3000\u7a81\u6483\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at the target using\nevery bit of its power.\nThe user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio usando tutta la sua\nforza, ma al turno successivo deve riposarsi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Carga contra el objetivo usando toda la fuerza que \ntiene. El Pok\u00e9mon descansa el turno siguiente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rennt mit seiner ganzen Kraft gegen\ndas Ziel an und muss dann eine Runde ruhen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur charge l\u2019ennemi de toute sa puissance\net doit ensuite se reposer au tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uac00\uc9c4 \ud798\uc744 \ubaa8\ub450 \uc0ac\uc6a9\ud574\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uaca9\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u3066\u308b\u3000\u3061\u304b\u3089\u3092\u3000\u3059\u3079\u3066\u3000\u3064\u304b\u3063\u3066\n\u3042\u3044\u3066\u306b\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6301\u3066\u308b\u3000\u529b\u3092\u3000\u3059\u3079\u3066\u3000\u4f7f\u3063\u3066\n\u76f8\u624b\u306b\u3000\u7a81\u6483\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at the target using\nevery bit of its power.\nThe user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa carica il bersaglio usando tutta la sua\nforza, ma al turno successivo deve riposarsi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok\u00e9mon descansa el turno siguiente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender rennt mit seiner ganzen Kraft gegen\ndas Ziel an und muss dann eine Runde ruhen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur charge l\u2019ennemi de toute sa puissance\net doit ensuite se reposer au tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uac00\uc9c4 \ud798\uc744 \ubaa8\ub450 \uc0ac\uc6a9\ud574\uc11c\n\uc0c1\ub300\uc5d0\uac8c \ub3cc\uaca9\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u3066\u308b\u3000\u3061\u304b\u3089\u3092\u3000\u3059\u3079\u3066\u3000\u3064\u304b\u3063\u3066\n\u3042\u3044\u3066\u306b\u3000\u3068\u3064\u3052\u304d\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at the target using\nevery bit of its power.\nThe user must rest on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at the target using\nevery bit of its power.\nThe user must rest on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur charge l\u2019ennemi de toute sa\npuissance. Il doit ensuite se reposer\nau tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 416,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1054/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1055/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1056/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1057/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1058/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1059/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1060/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1061/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1062/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "giga-impact",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7ec8\u6781\u51b2\u51fb"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ae\u30ac\u30a4\u30f3\u30d1\u30af\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Giga Impact"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Gigaimpatto"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Giga Impacto"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Gigasto\u00df"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Giga Impact"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7d42\u6975\u885d\u64ca"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uae30\uac00\uc784\ud329\ud2b8"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ae\u30ac\u30a4\u30f3\u30d1\u30af\u30c8"
+        }
+    ],
+    "past_values": [],
+    "power": 150,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/22/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

@@ -1,0 +1,675 @@
+{
+    "accuracy": 90,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "focus-energy",
+                    "url": "/api/v2/move/116/"
+                }
+            ],
+            "use_before": null
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/1/"
+    },
+    "contest_type": {
+        "name": "cool",
+        "url": "/api/v2/contest-type/1/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Hits three times in the same turn.  The second hit has double power, and the third hit has triple power.  Each hit has a separate accuracy check, and this move stops if a hit misses.\n\nskill link does not apply.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Hits three times, increasing power by 100% with each successful hit."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u8fde\u7eed\uff13\u6b21\u8e22\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6bcf\u8e22\u4e2d\u4e00\u6b21\uff0c\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u56de\u9023\u7d9a\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u6280\u304c\u3000\u5f53\u305f\u308b\u305f\u3073\u306b\n\u5a01\u529b\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-kick attack that becomes more\npowerful with each successful hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sferra fino a tre calci consecutivi\nla cui potenza aumenta a ogni colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Patea hasta tres veces seguidas y cada vez m\u00e1s\nfuerte. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Tritt das Ziel ein- bis dreimal nacheinander.\nDie H\u00e4rte der Tritte nimmt von Treffer zu Treffer zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une salve de un \u00e0 trois coups de pied dont\nla puissance augmente \u00e0 chaque coup port\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u9023\u7e8c\u8e22\u5c0d\u624b\uff13\u6b21\u9032\u884c\u653b\u64ca\u3002\n\u6bcf\u8e22\u4e2d\u4e00\u6b21\uff0c\u5a01\u529b\u5c31\u6703\u63d0\u9ad8\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "3\ud68c \uc5f0\uc18d\uc73c\ub85c \ud0a5\uc744 \ub0a0\ub824\n\uacf5\uaca9\ud55c\ub2e4. \uae30\uc220\uc774 \ub9de\uc744 \ub54c\ub9c8\ub2e4\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u304b\u3044\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u308f\u3056\u304c\u3000\u3042\u305f\u308b\u3000\u305f\u3073\u306b\n\u3044\u308a\u3087\u304f\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u8fde\u7eed\uff13\u6b21\u8e22\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6bcf\u8e22\u4e2d\u4e00\u6b21\uff0c\u5a01\u529b\u5c31\u4f1a\u63d0\u9ad8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u56de\u9023\u7d9a\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u6280\u304c\u3000\u5f53\u305f\u308b\u305f\u3073\u306b\n\u5a01\u529b\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-kick attack that becomes more\npowerful with each successive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sferra fino a tre calci consecutivi\nla cui potenza aumenta a ogni colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Patea hasta tres veces seguidas y cada vez m\u00e1s\nfuerte. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Tritt das Ziel ein- bis dreimal nacheinander.\nDie H\u00e4rte der Tritte nimmt von Treffer zu Treffer zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une salve de un \u00e0 trois coups de pied dont\nla puissance augmente \u00e0 chaque coup port\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u9023\u7e8c\u8e22\u5c0d\u624b\uff13\u6b21\u9032\u884c\u653b\u64ca\u3002\n\u6bcf\u8e22\u4e2d\u4e00\u6b21\uff0c\u5a01\u529b\u5c31\u6703\u63d0\u9ad8\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "3\ud68c \uc5f0\uc18d\uc73c\ub85c \ud0a5\uc744 \ub0a0\ub824\n\uacf5\uaca9\ud55c\ub2e4. \uae30\uc220\uc774 \ub9de\uc744 \ub54c\ub9c8\ub2e4\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u304b\u3044\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u308f\u3056\u304c\u3000\u3042\u305f\u308b\u3000\u305f\u3073\u306b\n\u3044\u308a\u3087\u304f\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u56de\u9023\u7d9a\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u653b\u6483\u3059\u308b\u3002\u6280\u304c\u3000\u5f53\u305f\u308b\u305f\u3073\u306b\n\u5a01\u529b\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-kick attack that\nbecomes more powerful with each\nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sferra fino a tre calci consecutivi\nla cui potenza aumenta a ogni colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Patea hasta tres veces seguidas y cada vez m\u00e1s\nfuerte. ",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Tritt das Ziel ein- bis dreimal nacheinander.\nDie H\u00e4rte der Tritte nimmt von Treffer zu Treffer zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une salve de un \u00e0 trois coups de pied dont\nla puissance augmente \u00e0 chaque coup port\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "3\ud68c \uc5f0\uc18d\uc73c\ub85c \ud0a5\uc744 \ub0a0\ub824\n\uacf5\uaca9\ud55c\ub2e4. \uae30\uc220\uc774 \ub9de\uc744 \ub54c\ub9c8\ub2e4\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u304b\u3044\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u308f\u3056\u304c\u3000\u3042\u305f\u308b\u3000\u305f\u3073\u306b\n\u3044\u308a\u3087\u304f\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u56de\u9023\u7d9a\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u653b\u6483\u3059\u308b\u3002\u6280\u304c\u3000\u5f53\u305f\u308b\u305f\u3073\u306b\n\u5a01\u529b\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-kick attack that\nbecomes more powerful with each\nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sferra fino a tre calci consecutivi\nla cui potenza aumenta a ogni colpo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Patea hasta tres veces seguidas y cada vez m\u00e1s\nfuerte.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Tritt das Ziel ein- bis dreimal nacheinander.\nDie H\u00e4rte der Tritte nimmt von Treffer zu Treffer zu.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une salve de un \u00e0 trois coups de pied dont\nla puissance augmente \u00e0 chaque coup port\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "3\ud68c \uc5f0\uc18d\uc73c\ub85c \ud0a5\uc744 \ub0a0\ub824\n\uacf5\uaca9\ud55c\ub2e4. \uae30\uc220\uc774 \ub9de\uc744 \ub54c\ub9c8\ub2e4\n\uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff13\u304b\u3044\u3000\u308c\u3093\u305e\u304f\u3067\u3000\u30ad\u30c3\u30af\u3092\u3000\u304f\u308a\u3060\u3057\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u308f\u3056\u304c\u3000\u3042\u305f\u308b\u3000\u305f\u3073\u306b\n\u3044\u308a\u3087\u304f\u306f\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-kick attack that\nbecomes more powerful with each\nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-kick attack that\nbecomes more powerful with each \nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une salve de 1 \u00e0 3 coups de pied dont la\npuissance augmente \u00e0 chaque coup port\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A 3-kick attack\nthat becomes more\npowerful with each\nsuccessive hit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Kicks the foe 3 times in a\nrow with rising intensity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Kicks the foe 3 times in a\nrow with rising intensity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Hits three times\nwith rising power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Hits three times\nwith rising power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 167,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": 3,
+        "max_turns": null,
+        "min_hits": 3,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "triple-kick",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u4e09\u8fde\u8e22"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c8\u30ea\u30d7\u30eb\u30ad\u30c3\u30af"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Triple Kick"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Triplocalcio"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Triple Patada"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Dreifachkick"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Triple Pied"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u4e09\u9023\u8e22"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud2b8\ub9ac\ud50c\ud0a5"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c8\u30ea\u30d7\u30eb\u30ad\u30c3\u30af"
+        }
+    ],
+    "past_values": [],
+    "power": 10,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/7/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+    }
+}

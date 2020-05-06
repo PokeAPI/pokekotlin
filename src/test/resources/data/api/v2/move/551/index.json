@@ -1,0 +1,566 @@
+{
+    "accuracy": 85,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "special",
+        "url": "/api/v2/move-damage-class/3/"
+    },
+    "effect_chance": 20,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Has a $effect_chance% chance to burn the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u7f8e\u4e3d\u800c\u6fc0\u70c8\u7684\u9752\u7130\n\u5305\u88f9\u4f4f\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u707c\u4f24\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7f8e\u3057\u304f\u3082\u3000\u6fc0\u3057\u3044\u3000\u9752\u3044\u708e\u3067\n\u76f8\u624b\u3092\u3000\u5305\u307f\u3053\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by engulfing the target in an\nintense, yet beautiful, blue flame. This may also leave\nthe target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio avvolgendolo con\nmagnifiche e intense fiamme blu che possono\nanche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una bella pero potente llama azul que \nrodea al objetivo. Puede quemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift an, indem er das Ziel in\nwundersch\u00f6ne, intensivblaue Flammen h\u00fcllt,\ndurch die es eventuell Verbrennungen erleidet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "De magnifiques et redoutables flammes bleues\nfondent sur l\u2019ennemi. Peut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u7f8e\u9e97\u800c\u6fc0\u70c8\u7684\u9752\u7130\n\u71c3\u71d2\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ub984\ub2e4\uc6b0\uba74\uc11c\ub3c4 \uaca9\ub82c\ud55c \ud478\ub978\ubd88\uaf43\uc73c\ub85c\n\uc0c1\ub300\ub97c \ub458\ub7ec\uc2f8\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3064\u304f\u3057\u304f\u3082\u3000\u306f\u3052\u3057\u3044\u3000\u3042\u304a\u3044\u307b\u306e\u304a\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u307f\u3053\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u7f8e\u4e3d\u800c\u6fc0\u70c8\u7684\u9752\u7130\n\u5305\u88f9\u4f4f\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u8ba9\u5bf9\u624b\u9677\u5165\u707c\u4f24\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7f8e\u3057\u304f\u3082\u3000\u6fc0\u3057\u3044\u3000\u9752\u3044\u708e\u3067\n\u76f8\u624b\u3092\u3000\u5305\u307f\u3053\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by engulfing the target in an\nintense, yet beautiful, blue flame. This may also leave\nthe target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio avvolgendolo con\nmagnifiche e intense fiamme blu che possono\nanche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una bella pero potente llama azul que \nrodea al objetivo. Puede quemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift an, indem er das Ziel in\nwundersch\u00f6ne, intensivblaue Flammen h\u00fcllt,\ndurch die es eventuell Verbrennungen erleidet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "De magnifiques et redoutables flammes bleues\nfondent sur l\u2019ennemi. Peut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u7f8e\u9e97\u800c\u6fc0\u70c8\u7684\u9752\u7130\n\u71c3\u71d2\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u707c\u50b7\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ub984\ub2e4\uc6b0\uba74\uc11c\ub3c4 \uaca9\ub82c\ud55c \ud478\ub978\ubd88\uaf43\uc73c\ub85c\n\uc0c1\ub300\ub97c \ub458\ub7ec\uc2f8\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3064\u304f\u3057\u304f\u3082\u3000\u306f\u3052\u3057\u3044\u3000\u3042\u304a\u3044\u307b\u306e\u304a\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u307f\u3053\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7f8e\u3057\u304f\u3082\u3000\u6fc0\u3057\u3044\u3000\u9752\u3044\u708e\u3067\n\u76f8\u624b\u3092\u3000\u5305\u202f\u3053\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio avvolgendolo con\nmagnifiche e intense fiamme blu che possono\nanche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una bella pero potente llama azul que \nrodea al objetivo. Puede quemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift an, indem er das Ziel in\nwundersch\u00f6ne, intensivblaue Flammen h\u00fcllt,\ndie es eventuell verbrennen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "De magnifiques et redoutables flammes bleues\nfondent sur l\u2019ennemi. Peut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ub984\ub2e4\uc6b0\uba74\uc11c\ub3c4 \uaca9\ub82c\ud55c \ud478\ub978\ubd88\uaf43\uc73c\ub85c\n\uc0c1\ub300\ub97c \ub458\ub7ec\uc2f8\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3064\u304f\u3057\u304f\u3082\u3000\u306f\u3052\u3057\u3044\u3000\u3042\u304a\u3044\u307b\u306e\u304a\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u202f\u3053\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u7f8e\u3057\u304f\u3082\u3000\u6fc0\u3057\u3044\u3000\u9752\u3044\u708e\u3067\n\u76f8\u624b\u3092\u3000\u5305\u307f\u3053\u3093\u3067\u3000\u653b\u6483\u3059\u308b\u3002\n\u3084\u3051\u3069\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nThis may also leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca il bersaglio avvolgendolo con\nmagnifiche e intense fiamme blu che possono\nanche scottarlo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca con una bella pero potente llama azul que\nrodea al objetivo. Puede quemarlo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender greift an, indem er das Ziel in\nwundersch\u00f6ne, intensivblaue Flammen h\u00fcllt,\ndie es eventuell verbrennen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "De magnifiques et redoutables flammes bleues\nfondent sur l\u2019ennemi. Peut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ub984\ub2e4\uc6b0\uba74\uc11c\ub3c4 \uaca9\ub82c\ud55c \ud478\ub978\ubd88\uaf43\uc73c\ub85c\n\uc0c1\ub300\ub97c \ub458\ub7ec\uc2f8\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ud654\uc0c1 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3064\u304f\u3057\u304f\u3082\u3000\u306f\u3052\u3057\u3044\u3000\u3042\u304a\u3044\u307b\u306e\u304a\u3067\n\u3042\u3044\u3066\u3092\u3000\u3064\u3064\u307f\u3053\u3093\u3067\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3084\u3051\u3069\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nIt may leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by engulfing the target\nin an intense, yet beautiful, blue flame.\nIt may leave the target with a burn.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "De magnifiques et redoutables flammes\nbleues fondent sur l\u2019ennemi.\nPeut aussi le br\u00fbler.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 551,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "burn",
+            "url": "/api/v2/move-ailment/4/"
+        },
+        "ailment_chance": 20,
+        "category": {
+            "name": "damage+ailment",
+            "url": "/api/v2/move-category/4/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "blue-flare",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9752\u7130"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3042\u304a\u3044\u307b\u306e\u304a"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Blue Flare"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Fuocoblu"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Llama Azul"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Blauflammen"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Flamme Bleue"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9752\u7130"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud478\ub978\ubd88\uaf43"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3042\u304a\u3044\u307b\u306e\u304a"
+        }
+    ],
+    "past_values": [],
+    "power": 130,
+    "pp": 5,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+    }
+}

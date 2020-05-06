@@ -1,0 +1,683 @@
+{
+    "encounter_method_rates": [
+        {
+            "encounter_method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+            },
+            "version_details": [
+                {
+                    "rate": 21,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                },
+                {
+                    "rate": 21,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                }
+            ]
+        },
+        {
+            "encounter_method": {
+                "name": "rock-smash",
+                "url": "/api/v2/encounter-method/6/"
+            },
+            "version_details": [
+                {
+                    "rate": 25,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                },
+                {
+                    "rate": 25,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "game_index": 85,
+    "id": 527,
+    "location": {
+        "name": "sevault-canyon",
+        "url": "/api/v2/location/520/"
+    },
+    "name": "sevault-canyon-area",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": ""
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "fearow",
+                "url": "/api/v2/pokemon/22/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "meowth",
+                "url": "/api/v2/pokemon/52/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 43,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 43
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 43,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 43
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "persian",
+                "url": "/api/v2/pokemon/53/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 52
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 52
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "geodude",
+                "url": "/api/v2/pokemon/74/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 46
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 40,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 40,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 25
+                        }
+                    ],
+                    "max_chance": 85,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 46
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 40,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 40,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 25
+                        }
+                    ],
+                    "max_chance": 85,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "graveler",
+                "url": "/api/v2/pokemon/75/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 35
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 35,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 35
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 45,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 35,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "onix",
+                "url": "/api/v2/pokemon/95/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "cubone",
+                "url": "/api/v2/pokemon/104/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 46
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 46,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 46
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "marowak",
+                "url": "/api/v2/pokemon/105/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 52
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 52
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "skarmory",
+                "url": "/api/v2/pokemon/227/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "phanpy",
+                "url": "/api/v2/pokemon/231/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "larvitar",
+                "url": "/api/v2/pokemon/246/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 20
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 20
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "/api/v2/version/11/"
+                    }
+                }
+            ]
+        }
+    ]
+}

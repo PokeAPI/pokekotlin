@@ -1,0 +1,555 @@
+{
+    "attributes": [
+        {
+            "name": "holdable",
+            "url": "/api/v2/item-attribute/5/"
+        },
+        {
+            "name": "holdable-active",
+            "url": "/api/v2/item-attribute/7/"
+        }
+    ],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "effort-training",
+        "url": "/api/v2/item-category/14/"
+    },
+    "cost": 3000,
+    "effect_entries": [
+        {
+            "effect": "Held\n:   When the holder would gain effort due to battle, it gains double that effort instead.\n\nHeld in battle\n:   Holder has half its Speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Held: Holder gains double effort values from battles, but has halved Speed in battle."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u53c8\u786c\u53c8\u91cd\u7684\u953b\u70bc\u5668\u3002\n\u867d\u7136\u643a\u5e26\u540e\u901f\u5ea6\u4f1a\u964d\u4f4e\uff0c\n\u4f46\u4f1a\u6bd4\u5e73\u65f6\u66f4\u5bb9\u6613\u8301\u58ee\u6210\u957f\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u786c\u304f\u3066\u3000\u91cd\u3044\u3000\u30ae\u30d7\u30b9\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u7d20\u65e9\u3055\u306f\u3000\u3055\u304c\u308b\u304c\n\u3075\u3064\u3046\u3088\u308a\u3000\u5f37\u304f\u3000\u80b2\u3061\u3084\u3059\u3044\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This stiff, heavy\nbrace helps Pok\u00e9mon grow strong but cuts Speed\nin battle.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAttrezzo pesante che riduce la Velocit\u00e0 ma aiuta\nla crescita delle statistiche.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "S\u00f3lido y pesado brazal. Incrementa m\u00e1s las\ncaracter\u00edsticas al subir de nivel, pero baja la\nVelocidad de quien lo lleva.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das ein Pok\u00e9mon tragen kann.\nDer Initiative-Wert sinkt zwar, aber es wird\ndaf\u00fcr umso st\u00e4rker.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un bracelet dur et lourd qui rend\nle porteur plus fort, mais baisse sa Vitesse.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u53c8\u786c\u53c8\u91cd\u7684\u935b\u934a\u5668\u3002\n\u96d6\u7136\u651c\u5e36\u5f8c\u901f\u5ea6\u6703\u964d\u4f4e\uff0c\n\u4f46\u6703\u6bd4\u5e73\u6642\u66f4\u5bb9\u6613\u8301\u58ef\u6210\u9577\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub2e8\ub2e8\ud558\uace0 \ubb34\uac70\uc6b4 \uae41\uc2a4.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \uc2a4\ud53c\ub4dc\ub294 \ub5a8\uc5b4\uc9c0\uc9c0\ub9cc\n\uc5ec\ub290 \ub54c\ubcf4\ub2e4 \uac15\ud558\uac8c \ud0a4\uc6b0\uae30 \uc27d\ub2e4.",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u304b\u305f\u304f\u3066\u3000\u304a\u3082\u3044\u3000\u30ae\u30d7\u30b9\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3059\u3070\u3084\u3055\u306f\u3000\u3055\u304c\u308b\u304c\n\u3075\u3064\u3046\u3088\u308a\u3000\u3064\u3088\u304f\u3000\u305d\u3060\u3061\u3084\u3059\u3044\u3002",
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "text": "\u53c8\u786c\u53c8\u91cd\u7684\u953b\u70bc\u5668\u3002\n\u867d\u7136\u643a\u5e26\u540e\u901f\u5ea6\u4f1a\u964d\u4f4e\uff0c\n\u4f46\u4f1a\u6bd4\u5e73\u65f6\u66f4\u5bb9\u6613\u8301\u58ee\u6210\u957f\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u786c\u304f\u3066\u3000\u91cd\u3044\u3000\u30ae\u30d7\u30b9\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u7d20\u65e9\u3055\u306f\u3000\u3055\u304c\u308b\u304c\n\u3075\u3064\u3046\u3088\u308a\u3000\u5f37\u304f\u3000\u80b2\u3061\u3084\u3059\u3044\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. This stiff, heavy\nbrace helps Pok\u00e9mon grow strong but cuts Speed\nin battle.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAttrezzo pesante che riduce la Velocit\u00e0 ma aiuta\nla crescita delle statistiche.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "S\u00f3lido y pesado brazal. Incrementa m\u00e1s las\ncaracter\u00edsticas al subir de nivel, pero baja la\nVelocidad de quien lo lleva.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das ein Pok\u00e9mon tragen kann.\nDer Initiative-Wert sinkt zwar, aber es wird\ndaf\u00fcr umso st\u00e4rker.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un bracelet dur et lourd qui rend\nle porteur plus fort, mais baisse sa Vitesse.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "text": "\u53c8\u786c\u53c8\u91cd\u7684\u935b\u934a\u5668\u3002\n\u96d6\u7136\u651c\u5e36\u5f8c\u901f\u5ea6\u6703\u964d\u4f4e\uff0c\n\u4f46\u6703\u6bd4\u5e73\u6642\u66f4\u5bb9\u6613\u8301\u58ef\u6210\u9577\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub2e8\ub2e8\ud558\uace0 \ubb34\uac70\uc6b4 \uae41\uc2a4.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \uc2a4\ud53c\ub4dc\ub294 \ub5a8\uc5b4\uc9c0\uc9c0\ub9cc\n\uc5ec\ub290 \ub54c\ubcf4\ub2e4 \uac15\ud558\uac8c \ud0a4\uc6b0\uae30 \uc27d\ub2e4.",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u304b\u305f\u304f\u3066\u3000\u304a\u3082\u3044\u3000\u30ae\u30d7\u30b9\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3059\u3070\u3084\u3055\u306f\u3000\u3055\u304c\u308b\u304c\n\u3075\u3064\u3046\u3088\u308a\u3000\u3064\u3088\u304f\u3000\u305d\u3060\u3061\u3084\u3059\u3044\u3002",
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "text": "\u786c\u304f\u3066\u3000\u91cd\u3044\u3000\u30ae\u30d7\u30b9\u3002\n\u6301\u305f\u305b\u308b\u3068\u3000\u7d20\u65e9\u3055\u306f\u3000\u3055\u304c\u308b\u304c\n\u3075\u3064\u3046\u3088\u308a\u3000\u5f37\u304f\u3000\u80b2\u3061\u3084\u3059\u3044\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon.\nThis stiff, heavy brace helps Pok\u00e9mon\ngrow strong but cuts Speed in battle.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "text": "Strumento da dare a un Pok\u00e9mon.\nAttrezzo pesante che riduce la Velocit\u00e0 ma aiuta\nla crescita delle statistiche.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "text": "Su lente aumenta la probabilidad que tiene el\nPok\u00e9mon que lo lleva de conseguir un golpe\ncr\u00edtico.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "text": "Ein Item, das ein Pok\u00e9mon tragen kann.\nDer Initiative-Wert sinkt zwar, aber es wird\ndaf\u00fcr umso st\u00e4rker.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. Un bracelet dur et lourd qui rend\nle porteur plus fort, mais baisse sa Vitesse.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "text": "\ub2e8\ub2e8\ud558\uace0 \ubb34\uac70\uc6b4 \uae41\uc2a4.\n\uc9c0\ub2c8\uac8c \ud558\uba74 \uc2a4\ud53c\ub4dc\ub294 \ub5a8\uc5b4\uc9c0\uc9c0\ub9cc\n\uc5ec\ub290 \ub54c\ubcf4\ub2e4 \uac15\ud558\uac8c \ud0a4\uc6b0\uae30 \uc27d\ub2e4.",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "text": "\u304b\u305f\u304f\u3066\u3000\u304a\u3082\u3044\u3000\u30ae\u30d7\u30b9\u3002\n\u3082\u305f\u305b\u308b\u3068\u3000\u3059\u3070\u3084\u3055\u306f\u3000\u3055\u304c\u308b\u304c\n\u3075\u3064\u3046\u3088\u308a\u3000\u3064\u3088\u304f\u3000\u305d\u3060\u3061\u3084\u3059\u3044\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. It is\na stiff and heavy brace that promotes\nstrong growth but lowers Speed.",
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. It is\na stiff and heavy brace that promotes\nstrong growth but lowers Speed.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "text": "Objet \u00e0 tenir. C\u2019est un bracelet dur\net lourd qui rend le porteur plus fort,\nmais baisse sa Vitesse.",
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. It is\na stiff and heavy brace that promotes\nstrong growth but lowers Speed.",
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. It is\na stiff and heavy brace that promotes\nstrong growth but lowers Speed.",
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a Pok\u00e9mon. It is\na stiff and heavy brace that promotes\nstrong growth but lowers Speed.",
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "An item to be held by a POK\u00e9MON.\nIt promotes strong growth but\nlowers SPEED while it is held.",
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A hold item that\npromotes growth,\nbut reduces SPEED.",
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "text": "A hold item that\npromotes growth,\nbut reduces SPEED.",
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": 60,
+    "game_indices": [
+        {
+            "game_index": 215,
+            "generation": {
+                "name": "generation-vii",
+                "url": "/api/v2/generation/7/"
+            }
+        },
+        {
+            "game_index": 215,
+            "generation": {
+                "name": "generation-vi",
+                "url": "/api/v2/generation/6/"
+            }
+        },
+        {
+            "game_index": 215,
+            "generation": {
+                "name": "generation-v",
+                "url": "/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 215,
+            "generation": {
+                "name": "generation-iv",
+                "url": "/api/v2/generation/4/"
+            }
+        },
+        {
+            "game_index": 181,
+            "generation": {
+                "name": "generation-iii",
+                "url": "/api/v2/generation/3/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 192,
+    "machines": [],
+    "name": "macho-brace",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5f3a\u5236\u953b\u70bc\u5668"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304d\u3087\u3046\u305b\u3044\u30ae\u30d7\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Macho Brace"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Crescicappa"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Brazal Firme"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Machoband"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Bracelet Macho"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5f37\u5236\u935b\u934a\u5668"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uad50\uc815\uae41\uc2a4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304d\u3087\u3046\u305b\u3044\u30ae\u30d7\u30b9"
+        }
+    ],
+    "sprites": {
+        "default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/macho-brace.png"
+    }
+}

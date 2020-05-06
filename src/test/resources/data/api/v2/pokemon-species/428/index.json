@@ -1,0 +1,839 @@
+{
+    "base_happiness": 140,
+    "capture_rate": 60,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "humanshape",
+            "url": "/api/v2/egg-group/8/"
+        },
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/220/"
+    },
+    "evolves_from_species": {
+        "name": "buneary",
+        "url": "/api/v2/pokemon-species/427/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4e00\u5e74\u4f1a\u6362\uff12\u6b21\u6bdb\u3002\n\u7528\u8fd9\u4e2a\u6bdb\u5236\u4f5c\u7684\n\u56f4\u5dfe\u548c\u5e3d\u5b50\u975e\u5e38\u6e29\u6696\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5e74\u306b\u3000\uff12\u56de\u3000\u6bdb\u304c\u3000\u751f\u3048\u304b\u308f\u308b\u3002\n\u305d\u306e\u6bdb\u3092\u3000\u4f7f\u3063\u305f\u3000\u30de\u30d5\u30e9\u30fc\u3084\n\u5e3d\u5b50\u306f\u3000\u3068\u3063\u3066\u3082\u3000\u3042\u305f\u305f\u304b\u3044\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Lopunny regrows its coat twice a year. Mufflers\nand hats made from its fur are really warm.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Cambia il pelo due volte l\u2019anno. Le sciarpe e\ni berretti fatti con la lana che perde sono\nmolto caldi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Muda el pelo dos veces al a\u00f1o. Este se usa\nen la confecci\u00f3n de unos gorros y bufandas\nque abrigan mucho.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es wechselt zweimal im Jahr seine Wolle. Daraus\nlassen sich Schals oder M\u00fctzen herstellen, die\nihre Tr\u00e4ger mollig warmhalten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il mue deux fois par an. Les \u00e9charpes et\nles chapeaux fabriqu\u00e9s \u00e0 partir de ses poils\ntiennent bien chaud.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6bcf\u5e74\u6703\u63db\uff12\u6b21\u6bdb\u3002\n\u7528\u9019\u7a2e\u6bdb\u88fd\u6210\u7684\n\u570d\u5dfe\u548c\u5e3d\u5b50\u975e\u5e38\u4fdd\u6696\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc5f0 2\ud68c \ud138\uac08\uc774\ub97c \ud55c\ub2e4.\n\uadf8 \ud138\ub85c \ub9cc\ub4e0 \uba38\ud50c\ub7ec\ub098\n\ubaa8\uc790\ub294 \ub9e4\uc6b0 \ub530\ub4ef\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u306d\u3093\u306b\u3000\uff12\u304b\u3044\u3000\u3051\u304c\u3000\u306f\u3048\u304b\u308f\u308b\u3002\n\u305d\u306e\u3051\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30de\u30d5\u30e9\u30fc\u3084\n\u307c\u3046\u3057\u306f\u3000\u3068\u3063\u3066\u3082\u3000\u3042\u305f\u305f\u304b\u3044\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u8033\u306f\u3000\u3068\u3066\u3082\u3000\u30c7\u30ea\u30b1\u30fc\u30c8\u3089\u3057\u304f\n\u512a\u3057\u304f\u3000\u4e01\u5be7\u306b\u3000\u89e6\u3089\u306a\u3044\u3068\n\u3057\u306a\u3084\u304b\u306a\u3000\u811a\u3067\u3000\u3051\u3089\u308c\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "The ears appear to be delicate. If they are touched\nroughly, it kicks with its graceful legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ha delle orecchie molto delicate. Se le si tocca con forza,\nscalcia con le sue graziose gambe.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sus orejas son muy delicadas. Si alguien las toca con\nbrusquedad, recibir\u00e1 una espl\u00e9ndida patada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Es hat sehr empfindliche Ohren. Fasst man sie zu rau an,\nwird es mit seinen grazilen Beinen zutreten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il est capable de d\u00e9cocher de puissants coups de pied\nsi on touche \u00e0 ses d\u00e9licates oreilles.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uadc0\uac00 \uc544\uc8fc \ubbfc\uac10\ud55c \ubd80\uc704\uc774\ubbc0\ub85c\n\uc0c1\ub0e5\ud558\uace0 \uc815\uc911\ud558\uac8c \ub9cc\uc9c0\uc9c0 \uc54a\uc73c\uba74\n\uadf8 \ub9e4\ub048\ud55c \ub2e4\ub9ac\uc5d0 \ucc28\uc774\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u202f\u202f\u306f\u3000\u3068\u3066\u3082\u3000\u30c7\u30ea\u30b1\u30fc\u30c8\u3089\u3057\u304f\n\u3084\u3055\u3057\u304f\u3000\u3066\u3044\u306d\u3044\u306b\u3000\u3055\u308f\u3089\u306a\u3044\u3068\n\u3057\u306a\u3084\u304b\u306a\u3000\u3042\u3057\u3067\u3000\u3051\u3089\u308c\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u8b66\u6212\u5fc3\u304c\u3000\u3068\u3066\u3082\u3000\u5f37\u3044\u3002\n\u5371\u967a\u3092\u3000\u611f\u3058\u308b\u3068\u3000\u8efd\u3084\u304b\u306b\n\u98db\u3073\u8df3\u306d\u3066\u3000\u8d70\u308a\u53bb\u3063\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Extremely cautious, it quickly bounds off when it\nsenses danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 un Pok\u00e9mon estremamente cauto. Se avverte un pericolo,\nsi d\u00e0 subito alla fuga saltellando.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon resulta muy precavido. Si siente peligro,\nescapa corriendo a grandes saltos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Es ist extrem vorsichtig. Wenn es Gefahr wittert, macht es sich\nmit flinken Spr\u00fcngen aus dem Staub.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Il d\u00e9tecte le moindre danger. Il file discr\u00e8tement par petits\nbonds rapides quand il se sent menac\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uacbd\uacc4\uc2ec\uc774 \uc544\uc8fc \uac15\ud558\ub2e4.\n\uc704\ud5d8\uc744 \uac10\uc9c0\ud558\uba74 \uac00\ubfd0\ud558\uac8c\n\ub6f0\uc5b4\uc62c\ub77c \ub2ec\uc544\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3051\u3044\u304b\u3044\u3057\u3093\u304c\u3000\u3068\u3066\u3082\u3000\u3064\u3088\u3044\u3002\n\u304d\u3051\u3093\u3092\u3000\u304b\u3093\u3058\u308b\u3068\u3000\u304b\u308d\u3084\u304b\u306b\n\u3068\u3073\u306f\u306d\u3066\u3000\u306f\u3057\u308a\u3055\u3063\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u8033\u306f\u3000\u3068\u3066\u3082\u3000\u30c7\u30ea\u30b1\u30fc\u30c8\u3089\u3057\u304f\n\u512a\u3057\u304f\u3000\u4e01\u5be7\u306b\u3000\u89e6\u3089\u306a\u3044\u3068\n\u3057\u306a\u3084\u304b\u306a\u3000\u811a\u3067\u3000\u3051\u3089\u308c\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "The ears appear to be delicate. If they are touched\nroughly, it kicks with its graceful legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ha delle orecchie molto delicate. Se le si tocca con\nforza, scalcia con le sue graziose gambe.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sus orejas son muy delicadas. Si alguien las toca con\nbrusquedad, recibir\u00e1 una espl\u00e9ndida patada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es hat sehr empfindliche Ohren. Fasst man sie zu\nrau an, wird es mit seinen grazilen Beinen zutreten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il est capable de d\u00e9cocher de puissants coups de\npied si on touche \u00e0 ses d\u00e9licates oreilles.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uadc0\uac00 \uc544\uc8fc \ubbfc\uac10\ud55c \ubd80\uc704\uc774\ubbc0\ub85c\n\uc0c1\ub0e5\ud558\uace0 \uc815\uc911\ud558\uac8c \ub9cc\uc9c0\uc9c0 \uc54a\uc73c\uba74\n\uadf8 \ub9e4\ub048\ud55c \ub2e4\ub9ac\uc5d0 \ucc28\uc774\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u307f\u306f\u3000\u3068\u3066\u3082\u3000\u30c7\u30ea\u30b1\u30fc\u30c8\u3089\u3057\u304f\n\u3084\u3055\u3057\u304f\u3000\u3066\u3044\u306d\u3044\u306b\u3000\u3055\u308f\u3089\u306a\u3044\u3068\n\u3057\u306a\u3084\u304b\u306a\u3000\u3042\u3057\u3067\u3000\u3051\u3089\u308c\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u8b66\u6212\u5fc3\u304c\u3000\u3068\u3066\u3082\u3000\u5f37\u3044\u3002\n\u5371\u967a\u3092\u3000\u611f\u3058\u308b\u3068\u3000\u8efd\u3084\u304b\u306b\n\u98db\u3073\u8df3\u306d\u3066\u3000\u8d70\u308a\u53bb\u3063\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Extremely cautious, it quickly bounds off\nwhen it senses danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 un Pok\u00e9mon estremamente cauto. Se avverte\nun pericolo, si d\u00e0 subito alla fuga saltellando.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon resulta muy precavido. Si siente peligro,\nescapa corriendo a grandes saltos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es ist extrem vorsichtig. Wenn es Gefahr wittert,\nmacht es sich mit flinken Spr\u00fcngen aus dem Staub.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il d\u00e9tecte le moindre danger. Il file discr\u00e8tement\npar petits bonds rapides quand il se sent menac\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uacbd\uacc4\uc2ec\uc774 \uc544\uc8fc \uac15\ud558\ub2e4.\n\uc704\ud5d8\uc744 \uac10\uc9c0\ud558\uba74 \uac00\ubfd0\ud558\uac8c\n\ub6f0\uc5b4\uc62c\ub77c \ub2ec\uc544\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3051\u3044\u304b\u3044\u3057\u3093\u304c\u3000\u3068\u3066\u3082\u3000\u3064\u3088\u3044\u3002\n\u304d\u3051\u3093\u3092\u3000\u304b\u3093\u3058\u308b\u3068\u3000\u304b\u308d\u3084\u304b\u306b\n\u3068\u3073\u306f\u306d\u3066\u3000\u306f\u3057\u308a\u3055\u3063\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Extremely cautious,\nit quickly bounds off\nwhen it senses danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Extremely cautious,\nit quickly bounds off\nwhen it senses danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "The ears appear to be delicate. If\nthey are touched roughly, it kicks\nwith its graceful legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il est capable de d\u00e9cocher de\npuissants coups de pied si on\ntouche \u00e0 ses d\u00e9licates oreilles.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "The ears appear to be delicate. If\nthey are touched roughly, it kicks\nwith its graceful legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il est capable de d\u00e9cocher de\npuissants coups de pied si on\ntouche \u00e0 ses d\u00e9licates oreilles.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It sheds its fur twice a year.\nIts winter fur is soft and fluffy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It sheds its fur twice a year.\nIts winter fur is soft and fluffy.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "The ears appear to be delicate. If\nthey are touched roughly, it kicks\nwith its graceful legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It is very conscious of its looks\nand never fails to groom its ears.\nIt runs with sprightly jumps.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "An extremely cautious Pok\u00e9mon.\nIt cloaks its body with its fluffy\near fur when it senses danger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": true,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u5154\u5b50\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3046\u3055\u304e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Rabbit Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Coniglio",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Conejo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Hase",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Lapin",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u5154\u5b50\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ud1a0\ub07c\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3046\u3055\u304e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 428,
+    "is_baby": false,
+    "name": "lopunny",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u957f\u8033\u5154"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30df\u30df\u30ed\u30c3\u30d7"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Lopunny"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Lopunny"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Lopunny"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Schlapor"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Lockpin"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9577\u8033\u5154"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc774\uc5b4\ub86d"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Mimilop"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30df\u30df\u30ed\u30c3\u30d7"
+        }
+    ],
+    "order": 455,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 81,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 68,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 68,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 428,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "lopunny",
+                "url": "/api/v2/pokemon/428/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "lopunny-mega",
+                "url": "/api/v2/pokemon/10088/"
+            }
+        }
+    ]
+}

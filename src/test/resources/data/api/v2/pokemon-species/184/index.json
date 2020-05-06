@@ -1,0 +1,848 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 75,
+    "color": {
+        "name": "blue",
+        "url": "/api/v2/pokemon-color/2/"
+    },
+    "egg_groups": [
+        {
+            "name": "fairy",
+            "url": "/api/v2/egg-group/6/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/90/"
+    },
+    "evolves_from_species": {
+        "name": "marill",
+        "url": "/api/v2/pokemon-species/183/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7a7a\u6c17\u306e\u3000\u98a8\u8239\u3092\u3000\u3064\u304f\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002\n\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u308c\u3066\u3044\u308b\u3068\u3000\u7a7a\u6c17\u7389\u3092\u3000\u51fa\u3057\u3066\n\u547c\u5438\u304c\u3000\u3067\u304d\u308b\u3000\u3088\u3046\u306b\u3000\u3057\u3066\u3042\u3052\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Azumarill can make balloons out of air. It makes these air\nballoons if it spots a drowning Pok\u00e9mon. The air balloons\nenable the Pok\u00e9mon in trouble to breathe.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Azumarill riesce a creare bolle d\u2019aria in grado di aiutare\nun Pok\u00e9mon che sta per affogare. Quando ne vede uno,\nAzumarill gli manda una bolla per aiutarlo a respirare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Azumarill puede hacer burbujas de aire si ve a alg\u00fan Pok\u00e9mon\nque est\u00e9 a punto de ahogarse. Estas burbujas de aire son\nb\u00e1sicas para que los Pok\u00e9mon puedan seguir respirando.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Azumarill kann aus Luft Ballons machen. Diese Luft-Ballons\nerzeugt es, wenn es ein ertrinkendes Pok\u00e9mon ersp\u00e4ht.\nDurch die Ballons kann das Pok\u00e9mon, das in Schwierigkeiten\ngeraten ist, atmen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Azumarill peut faire des bulles d\u2019air. Il fabrique ces bulles\nlorsqu\u2019il voit un Pok\u00e9mon en train de se noyer. Les bulles\nd\u2019air permettent au Pok\u00e9mon en difficult\u00e9 de respirer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uae30\ub85c \ud48d\uc120\uc744 \ub9cc\ub4e4 \uc218 \uc788\ub2e4.\n\ud3ec\ucf13\ubaac\uc774 \ubb3c\uc5d0 \ube60\uc838 \uc788\uc73c\uba74 \uacf5\uae30 \ubc29\uc6b8\uc744\n\ub9cc\ub4e4\uc5b4\ub0b4 \ud638\ud761\uc744 \ud560 \uc218 \uc788\uac8c \ud574\uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3046\u304d\u306e\u3000\u3075\u3046\u305b\u3093\u3092\u3000\u3064\u304f\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002\n\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u308c\u3066\u3044\u308b\u3068\u3000\u304f\u3046\u304d\u3060\u307e\u3092\u3000\u3060\u3057\u3066\n\u3053\u304d\u3085\u3046\u304c\u3000\u3067\u304d\u308b\u3000\u3088\u3046\u306b\u3000\u3057\u3066\u3042\u3052\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u9577\u3044\u3000\u8033\u306f\u3000\u30de\u30ea\u30eb\u30ea\u306e\u3000\u5927\u4e8b\u306a\u3000\u30bb\u30f3\u30b5\u30fc\u3002\n\u8033\u3092\u3000\u6f84\u307e\u305b\u3070\u3000\u6d41\u308c\u306e\u3000\u6fc0\u3057\u3044\u3000\u5ddd\u3067\u3082\n\u305d\u3053\u306b\u3000\u3044\u308b\u3000\u7372\u7269\u306e\u3000\u7a2e\u985e\u304c\u3000\u308f\u304b\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Azumarill\u2019s long ears are indispensable sensors. By focusing its\nhearing, this Pok\u00e9mon can identify what kinds of prey are\naround, even in rough and fast-running rivers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Le lunghe orecchie di Azumarill sono sensori indispensabili.\nConcentrandosi sull\u2019udito, \u00e8 in grado di identificare che tipo\ndi prede ci siano nelle vicinanze, anche in torrenti rapidi\ne impetuosi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Azumarill puede hacer burbujas de aire si ve a alg\u00fan Pok\u00e9mon\nque est\u00e9 a punto de ahogarse. Estas burbujas de aire son\nb\u00e1sicas para que los Pok\u00e9mon puedan seguir respirando.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Azumarills lange Ohren dienen ihm als unentbehrliche\nSensoren. Wenn es sein Geh\u00f6r fokussiert, kann dieses\nPok\u00e9mon auch in rei\u00dfenden Fl\u00fcssen identifizieren,\nwelche Art von Beute sich in seiner N\u00e4he befindet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Les longues oreilles d\u2019Azumarill sont des capteurs\nindispensables. Lorsqu\u2019il se concentre pour \u00e9couter,\nce Pok\u00e9mon peut identifier les proies aux alentours,\nm\u00eame dans les cours d\u2019eau \u00e0 fort courant ou les rapides.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uae34 \uadc0\ub294 \ub9c8\ub9b4\ub9ac\uc758 \uc911\uc694\ud55c \uc13c\uc11c\ub2e4.\n\uadc0\ub97c \uae30\uc6b8\uc774\uba74 \ubb3c\uc0b4\uc774 \uaca9\ud55c \uac15\uc5d0\uc11c\ub3c4\n\uadf8\uacf3\uc5d0 \uc788\ub294 \uba39\uc774\uc758 \uc885\ub958\ub97c \uc548\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u304c\u3044\u3000\u202f\u202f\u306f\u3000\u30de\u30ea\u30eb\u30ea\u306e\u3000\u3060\u3044\u3058\u306a\u3000\u30bb\u30f3\u30b5\u30fc\u3002\n\u202f\u202f\u3092\u3000\u3059\u307e\u305b\u3070\u3000\u306a\u304c\u308c\u306e\u3000\u306f\u3052\u3057\u3044\u3000\u304b\u308f\u3067\u3082\n\u305d\u3053\u306b\u3000\u3044\u308b\u3000\u3048\u3082\u306e\u306e\u3000\u3057\u3085\u308b\u3044\u304c\u3000\u308f\u304b\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u8179\u306e\u3000\u6ce1\u306e\u3088\u3046\u306a\u3000\u6a21\u69d8\u306f\n\u6c34\u306e\u3000\u4e2d\u3067\u3000\u81ea\u5206\u306e\u3000\u59ff\u3092\n\u30ab\u30e2\u30d5\u30e9\u30fc\u30b8\u30e5\u3000\u3057\u3066\u304f\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "The bubble-like pattern on its stomach helps it\ncamouflage itself when it\u2019s in the water.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Le bolle disegnate sulla pancia gli permettono di\nmimetizzarsi quando si trova in acqua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Gracias al dibujo que tiene en el est\u00f3mago, le resulta\nbastante f\u00e1cil camuflarse en el agua.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Das blasen\u00e4hnliche Muster auf seinem Bauch hilft\nihm, sich perfekt zu tarnen, wenn es im Wasser ist.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Les motifs sur son ventre lui permettent de se\ncamoufler lorsqu\u2019il est dans l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ubc30\uc758 \uac70\ud488 \uac19\uc740 \ubb34\ub2ac\ub294\n\ubb3c\uc18d\uc5d0\uc11c \uc790\uc2e0\uc758 \ubaa8\uc2b5\uc744\n\uc704\uc7a5\ud558\uac8c \ud574\uc900\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u306a\u304b\u306e\u3000\u3042\u308f\u306e\u3088\u3046\u306a\u3000\u3082\u3088\u3046\u306f\n\u307f\u305a\u306e\u3000\u306a\u304b\u3067\u3000\u3058\u3076\u3093\u306e\u3000\u3059\u304c\u305f\u3092\n\u30ab\u30e2\u30d5\u30e9\u30fc\u30b8\u30e5\u3000\u3057\u3066\u304f\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u9577\u3044\u3000\u8033\u306f\u3000\u512a\u308c\u305f\u3000\u30bb\u30f3\u30b5\u30fc\u3002\n\u5ddd\u5e95\u3067\u3000\u52d5\u304f\u3000\u751f\u304d\u7269\u306e\u3000\u97f3\u3092\n\u805e\u304d\u5206\u3051\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its long ears are superb sensors. It can distinguish\nthe movements of living things on riverbeds.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Le lunghe orecchie sono ottimi sensori. Distingue\ni movimenti di esseri viventi sui fondali fluviali.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sus largas orejas son sensores que pueden percibir\nmovimientos de seres vivos en el lecho del r\u00edo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Seine langen Ohren sind hervorragende Sensoren.\nMit ihnen kann es Bewegungen im Fluss wahrnehmen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ses longues oreilles font un radar efficace.\nElles d\u00e9c\u00e8lent les mouvements dans le lit des rivi\u00e8res.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uae34 \uadc0\ub294 \uc6b0\uc218\ud55c \uc13c\uc11c\ub2e4.\n\uac15\ubc14\ub2e5\uc5d0\uc11c \uc6c0\uc9c1\uc774\ub294 \uc0dd\uba85\uccb4\uc758\n\uc18c\ub9ac\ub97c \ubd84\uac04\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u304c\u3044\u3000\u307f\u307f\u306f\u3000\u3059\u3050\u308c\u305f\u3000\u30bb\u30f3\u30b5\u30fc\u3002\n\u304b\u308f\u305e\u3053\u3067\u3000\u3046\u3054\u304f\u3000\u3044\u304d\u3082\u306e\u306e\n\u304a\u3068\u3092\u3000\u304d\u304d\u308f\u3051\u308b\u3000\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Its long ears are superb sensors.\nIt can distinguish the movements of\nthings in water and tell what they are.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "Its long ears are superb sensors.\nIt can distinguish the movements of\nthings in water and tell what they are.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It can spend all day in water,\nsince it can inhale and store\na large volume of air.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Ses poumons peuvent contenir\nassez d\u2019air pour lui permettre de\npasser une journ\u00e9e sous l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It can spend all day in water,\nsince it can inhale and store\na large volume of air.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ses poumons peuvent contenir\nassez d\u2019air pour lui permettre de\npasser une journ\u00e9e sous l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "When it plays in water, it rolls up\nits elongated ears to prevent their\ninsides from getting wet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "By keeping still and listening\nintently, it can tell what is in even\nwild, fast-moving rivers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It can spend all day in water,\nsince it can inhale and store\na large volume of air.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "Its long ears are superb sensors.\nIt can distinguish the movements\nof living things on riverbeds.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It lives in rivers and lakes. In\nwater, its coloring and patterns\ntrick the vision of foes.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "By keeping still and listening intently, it\ncan even tell what is in wild, fast-moving\nrivers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "When it plays in water, it rolls up its\nelongated ears to prevent their insides\nfrom getting wet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It lives in water virtually all day long.\nIts body color and pattern act as\ncamouflage that makes it tough for\nenemies to spot in water.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "AZUMARILL can make balloons out of\nair. It makes these air balloons if it\nspots a drowning POK\u00e9MON.\fThe air balloons enable the POK\u00e9MON in\ntrouble to breathe.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "AZUMARILL\u2019s long ears are indispensable\nsensors. By focusing its hearing, this\nPOK\u00e9MON can identify what kinds of\fprey are around, even in rough and\nfast-running rivers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "The bubble-like\npattern on its\nstomach helps it\fcamouflage itself\nwhen it's in the\nwater.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "When it plays in\nwater, it rolls up\nits elongated ears\fto prevent their\ninsides from get\u00ad\nting wet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "By keeping still\nand listening in\u00ad\ntently, it can\ftell what is in\neven wild, fast-\nmoving rivers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6c34\u5154\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u307f\u305a\u3046\u3055\u304e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Aqua Rabbit Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Acquniglio",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Conejo Agua",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Aquahase",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Aqualapin",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6c34\u5154\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubb3c\ud1a0\ub07c\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u307f\u305a\u3046\u3055\u304e\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "fast",
+        "url": "/api/v2/growth-rate/3/"
+    },
+    "habitat": {
+        "name": "waters-edge",
+        "url": "/api/v2/pokemon-habitat/9/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 10,
+    "id": 184,
+    "is_baby": false,
+    "name": "azumarill",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u739b\u529b\u9732\u4e3d"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30de\u30ea\u30eb\u30ea"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Azumarill"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Azumarill"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Azumarill"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Azumarill"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Azumarill"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u746a\u529b\u9732\u9e97"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub9c8\ub9b4\ub9ac"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Marilli"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30de\u30ea\u30eb\u30ea"
+        }
+    ],
+    "order": 213,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "pond",
+                "url": "/api/v2/pal-park-area/4/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 57,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 43,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 32,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 133,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 126,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 126,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 56,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 131,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 184,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "azumarill",
+                "url": "/api/v2/pokemon/184/"
+            }
+        }
+    ]
+}

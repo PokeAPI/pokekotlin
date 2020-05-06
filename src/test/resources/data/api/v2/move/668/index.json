@@ -1,0 +1,357 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": 100,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Lowers the target's Attack by one stage.  Heals the user by the target's current Attack, including modifiers, but not including this move's Attack-lowering effect.\n\nIf the target's Attack is already at -6, this move will fail.  In any other situation that would prevent a stat modification, the healing will still succeed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Heals the user by the target's current Attack stat and lowers the target's Attack by one stage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7ed9\u81ea\u5df1\u56de\u590d\u548c\u5bf9\u624b\u653b\u51fb\u529b\n\u76f8\u540c\u6570\u503c\u7684\uff28\uff30\uff0c\n\u7136\u540e\u964d\u4f4e\u5bf9\u624b\u7684\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u529b\u3068\u3000\u540c\u3058\u3060\u3051\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n\u305d\u3057\u3066\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its HP by the same amount as the\ntarget\u2019s Attack stat. It also lowers the target\u2019s\nAttack stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Fa recuperare una quantit\u00e0 di PS pari all\u2019Attacco\ndel bersaglio, che vedr\u00e0 diminuire questa statistica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Restaura una cantidad de PS equivalente al valor de\nAtaque del rival, que adem\u00e1s ver\u00e1 reducida esta\ncaracter\u00edstica.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ein Angriff, der die KP des Anwenders um die H\u00f6he\ndes Angriffs-Werts des Zieles heilt. Anschlie\u00dfend\nwird der Angriff des Zieles gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Rend au lanceur une quantit\u00e9 de PV \u00e9quivalente\n\u00e0 la stat d\u2019Attaque de la cible, puis baisse celle-ci.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u81ea\u5df1\u7684\uff28\uff30\u56de\u5fa9\u5230\u548c\n\u5c0d\u624b\u7684\u653b\u64ca\u529b\u76f8\u540c\u3002\n\u7136\u5f8c\u964d\u4f4e\u5c0d\u624b\u7684\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300 \uacf5\uaca9\ub825\uacfc \ub3d9\uc77c\ud558\uac8c\n\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\uadf8\ub9ac\uace0 \uc0c1\ub300\uc758 \uacf5\uaca9\uc744 \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u308a\u3087\u304f\u3068\u3000\u304a\u306a\u3058\u3060\u3051\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002\n\u305d\u3057\u3066\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7ed9\u81ea\u5df1\u56de\u590d\u548c\u5bf9\u624b\u653b\u51fb\u529b\n\u76f8\u540c\u6570\u503c\u7684\uff28\uff30\uff0c\n\u7136\u540e\u964d\u4f4e\u5bf9\u624b\u7684\u653b\u51fb\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u529b\u3068\u3000\u540c\u3058\u3060\u3051\n\u81ea\u5206\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002\n\u305d\u3057\u3066\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user restores its HP by the same amount as the\ntarget\u2019s Attack stat. It also lowers the target\u2019s\nAttack stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Fa recuperare una quantit\u00e0 di PS pari all\u2019Attacco\ndel bersaglio, che vedr\u00e0 diminuire questa statistica.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Restaura una cantidad de PS equivalente al valor de\nAtaque del rival, que adem\u00e1s ver\u00e1 reducida esta\ncaracter\u00edstica.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ein Angriff, der die KP des Anwenders um die H\u00f6he\ndes Angriffs-Werts des Zieles heilt. Anschlie\u00dfend\nwird der Angriff des Zieles gesenkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Rend au lanceur une quantit\u00e9 de PV \u00e9quivalente\n\u00e0 la stat d\u2019Attaque de la cible, puis baisse celle-ci.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u81ea\u5df1\u7684\uff28\uff30\u56de\u5fa9\u5230\u548c\n\u5c0d\u624b\u7684\u653b\u64ca\u529b\u76f8\u540c\u3002\n\u7136\u5f8c\u964d\u4f4e\u5c0d\u624b\u7684\u653b\u64ca\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300 \uacf5\uaca9\ub825\uacfc \ub3d9\uc77c\ud558\uac8c\n\uc790\uc2e0\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.\n\uadf8\ub9ac\uace0 \uc0c1\ub300\uc758 \uacf5\uaca9\uc744 \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u308a\u3087\u304f\u3068\u3000\u304a\u306a\u3058\u3060\u3051\n\u3058\u3076\u3093\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002\n\u305d\u3057\u3066\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vii",
+        "url": "/api/v2/generation/7/"
+    },
+    "id": 668,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "strength-sap",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5438\u53d6\u529b\u91cf"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3061\u304b\u3089\u3092\u3059\u3044\u3068\u308b"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Strength Sap"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Assorbiforza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Absorbefuerza"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Kraftabsorber"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Vol-Force"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5438\u53d6\u529b\u91cf"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud798\ud761\uc218"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3061\u304b\u3089\u3092\u3059\u3044\u3068\u308b"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+    }
+}

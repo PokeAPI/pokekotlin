@@ -1,0 +1,853 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        },
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/1/"
+    },
+    "evolves_from_species": {
+        "name": "bulbasaur",
+        "url": "/api/v2/pokemon-species/1/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u3064\u307c\u202f\u3092\u3000\u652f\u3048\u308b\u305f\u3081\u3000\u8db3\u8170\u304c\u3000\u5f37\u304f\u306a\u308b\u3002\n\u65e5\u306a\u305f\u3067\u3000\u3058\u3063\u3068\u3059\u308b\u3000\u6642\u9593\u304c\u3000\u9577\u304f\u306a\u308c\u3070\n\u3044\u3088\u3044\u3088\u3000\u5927\u8f2a\u306e\u3000\u82b1\u304c\u3000\u54b2\u304f\u3053\u308d\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "There is a bud on this Pok\u00e9mon\u2019s back. To support its weight,\nIvysaur\u2019s legs and trunk grow thick and strong.\nIf it starts spending more time lying in the sunlight,\nit\u2019s a sign that the bud will bloom into a large flower soon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019\u00e8 un germoglio piantato nella schiena di Ivysaur.\nPer sopportarne il peso, le zampe e il corpo crescono robusti.\nQuando inizia a passare pi\u00f9 tempo esposto al sole, significa\nche il germoglio sboccer\u00e0 presto in un grande fiore.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon lleva un bulbo en el lomo y, para poder con\nsu peso, tiene unas patas y un tronco gruesos y fuertes.\nSi empieza a pasar m\u00e1s tiempo al sol, ser\u00e1 porque el bulbo\nest\u00e1 a punto de hacerse una flor grande.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Bisaknosp hat eine Knospe auf seinem R\u00fccken. Seine Beine\nund sein Stamm sind kr\u00e4ftig genug, um sein Gewicht zu tragen.\nWenn es lange in der Sonne liegt, ist das ein Anzeichen daf\u00fcr,\ndass die Knospe bald bl\u00fcht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Un bourgeon a pouss\u00e9 sur le dos de ce Pok\u00e9mon. Pour en\nsupporter le poids, Herbizarre a d\u00fb se muscler les pattes.\nLorsqu\u2019il commence \u00e0 se pr\u00e9lasser au soleil, \u00e7a signifie que\nson bourgeon va \u00e9clore, donnant naissance \u00e0 une fleur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uaf43\ubd09\uc624\ub9ac\ub97c \uc9c0\ud0f1\ud558\uae30 \uc704\ud574 \ud558\ubc18\uc2e0\uc774 \uac15\ud574\uc9c4\ub2e4.\n\uc591\uc9c0\uc5d0\uc11c \uac00\ub9cc\ud788 \uc788\ub294 \uc2dc\uac04\uc774 \uae38\uc5b4\uc9c0\uba74\n\ub4dc\ub514\uc5b4 \ucee4\ub2e4\ub780 \uaf43\uc774 \ud544 \ub54c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u307c\u202f\u3092\u3000\u3055\u3055\u3048\u308b\u305f\u3081\u3000\u3042\u3057\u3053\u3057\u304c\u3000\u3064\u3088\u304f\u306a\u308b\u3002\n\u3072\u306a\u305f\u3067\u3000\u3058\u3063\u3068\u3059\u308b\u3000\u3058\u304b\u3093\u304c\u3000\u306a\u304c\u304f\u306a\u308c\u3070\n\u3044\u3088\u3044\u3088\u3000\u305f\u3044\u308a\u3093\u306e\u3000\u306f\u306a\u304c\u3000\u3055\u304f\u3053\u308d\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u307c\u202f\u3092\u3000\u652f\u3048\u308b\u305f\u3081\u3000\u8db3\u8170\u304c\u3000\u5f37\u304f\u306a\u308b\u3002\n\u65e5\u306a\u305f\u3067\u3000\u3058\u3063\u3068\u3059\u308b\u3000\u6642\u9593\u304c\u3000\u9577\u304f\u306a\u308c\u3070\n\u3044\u3088\u3044\u3088\u3000\u5927\u8f2a\u306e\u3000\u82b1\u304c\u3000\u54b2\u304f\u3053\u308d\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "There is a bud on this Pok\u00e9mon\u2019s back. To support its weight,\nIvysaur\u2019s legs and trunk grow thick and strong.\nIf it starts spending more time lying in the sunlight,\nit\u2019s a sign that the bud will bloom into a large flower soon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019\u00e8 un germoglio piantato nella schiena di Ivysaur.\nPer sopportarne il peso, le zampe e il corpo crescono robusti.\nQuando inizia a passare pi\u00f9 tempo esposto al sole, significa\nche il germoglio sboccer\u00e0 presto in un grande fiore.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon lleva un bulbo en el lomo y, para poder con\nsu peso, tiene unas patas y un tronco gruesos y fuertes.\nSi empieza a pasar m\u00e1s tiempo al sol, ser\u00e1 porque el bulbo\nest\u00e1 a punto de hacerse una flor grande.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Bisaknosp hat eine Knospe auf seinem R\u00fccken.\nBeine und Rumpf sind kr\u00e4ftig genug, um sein Gewicht\nzu tragen. Wenn es lange in der Sonne liegt, ist das\nein Anzeichen daf\u00fcr, dass die Knospe bald bl\u00fcht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Un bourgeon a pouss\u00e9 sur le dos de ce Pok\u00e9mon. Pour en\nsupporter le poids, Herbizarre a d\u00fb se muscler les pattes.\nLorsqu\u2019il commence \u00e0 se pr\u00e9lasser au soleil, \u00e7a signifie que\nson bourgeon va \u00e9clore, donnant naissance \u00e0 une fleur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uaf43\ubd09\uc624\ub9ac\ub97c \uc9c0\ud0f1\ud558\uae30 \uc704\ud574 \ud558\ubc18\uc2e0\uc774 \uac15\ud574\uc9c4\ub2e4.\n\uc591\uc9c0\uc5d0\uc11c \uac00\ub9cc\ud788 \uc788\ub294 \uc2dc\uac04\uc774 \uae38\uc5b4\uc9c0\uba74\n\ub4dc\ub514\uc5b4 \ucee4\ub2e4\ub780 \uaf43\uc774 \ud544 \ub54c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u307c\u202f\u3092\u3000\u3055\u3055\u3048\u308b\u305f\u3081\u3000\u3042\u3057\u3053\u3057\u304c\u3000\u3064\u3088\u304f\u306a\u308b\u3002\n\u3072\u306a\u305f\u3067\u3000\u3058\u3063\u3068\u3059\u308b\u3000\u3058\u304b\u3093\u304c\u3000\u306a\u304c\u304f\u306a\u308c\u3070\n\u3044\u3088\u3044\u3088\u3000\u305f\u3044\u308a\u3093\u306e\u3000\u306f\u306a\u304c\u3000\u3055\u304f\u3053\u308d\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u80cc\u4e2d\u306e\u3000\u3064\u307c\u307f\u304c\u3000\u3075\u304f\u3089\u307f\u51fa\u3059\u3068\n\u7518\u3044\u3000\u306b\u304a\u3044\u304c\u3000\u6f02\u3044\u306f\u3058\u3081\u308b\u3002\n\u5927\u8f2a\u306e\u3000\u82b1\u304c\u3000\u54b2\u304f\u3000\u524d\u89e6\u308c\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts swelling, a sweet\naroma wafts to indicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Quando il bocciolo che ha sul dorso si gonfia, emana\nun dolce profumo. \u00c8 indice dell\u2019imminente fioritura.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Cuando el bulbo de su lomo se hincha, desprende un\ndulce aroma para indicar el florecimiento.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sobald die Knospe auf seinem R\u00fccken ein s\u00fc\u00dfes\nAroma abgibt, steht die Bl\u00fcte kurz bevor.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque le bourgeon sur son dos \u00e9clot, il r\u00e9pand\nun doux parfum pour c\u00e9l\u00e9brer sa floraison.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ub4f1\uc758 \ubd09\uc624\ub9ac\uac00 \ubd80\ud480\uc5b4 \uc624\ub974\uba74\n\ub2ec\ucf64\ud55c \ub0c4\uc0c8\uac00 \uac10\ub3cc\uae30 \uc2dc\uc791\ud55c\ub2e4.\n\ud070 \uaf43\uc774 \ud544 \uc870\uc9d0\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u306a\u304b\u306e\u3000\u3064\u307c\u307f\u304c\u3000\u3075\u304f\u3089\u307f\u3060\u3059\u3068\n\u3042\u307e\u3044\u3000\u306b\u304a\u3044\u304c\u3000\u305f\u3060\u3088\u3044\u306f\u3058\u3081\u308b\u3002\n\u305f\u3044\u308a\u3093\u306e\u3000\u306f\u306a\u304c\u3000\u3055\u304f\u3000\u307e\u3048\u3076\u308c\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u307c\u307f\u304c\u3000\u80cc\u4e2d\u306b\u3000\u3064\u3044\u3066\u3044\u3066\n\u990a\u5206\u3092\u3000\u5438\u53ce\u3057\u3066\u3044\u304f\u3068\n\u5927\u304d\u306a\u3000\u82b1\u304c\u3000\u54b2\u304f\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "There is a plant bulb on its back.\nWhen it absorbs nutrients, the bulb is said to\nblossom into a large flower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dopo aver assorbito sufficienti sostanze nutrienti,\nil bulbo sulla schiena sboccia in un magnifico fiore.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon tiene un bulbo en el lomo. Dicen que,\nal absorber nutrientes, el bulbo se transforma en una\nflor grande.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es tr\u00e4gt eine Knospe auf seinem R\u00fccken. Nimmt es\nNahrung zu sich, soll aus der Knospe eine gro\u00dfe\nbl\u00fchende Blume werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il y a un bulbe sur son dos. On dit que s\u2019il absorbe\nassez de nutriments, ce bulbe se transforme en\nune jolie fleur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uaf43\ubd09\uc624\ub9ac\uac00 \ub4f1\uc5d0 \ubd99\uc5b4 \uc788\uc73c\uba70\n\uc591\ubd84\uc744 \ud761\uc218\ud574\uac00\uba74\n\ucee4\ub2e4\ub780 \uaf43\uc774 \ud540\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u307c\u307f\u304c\u3000\u305b\u306a\u304b\u306b\u3000\u3064\u3044\u3066\u3044\u3066\n\u3088\u3046\u3076\u3093\u3092\u3000\u304d\u3085\u3046\u3057\u3085\u3046\u3057\u3066\u3044\u304f\u3068\n\u304a\u304a\u304d\u306a\u3000\u306f\u306a\u304c\u3000\u3055\u304f\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque le bourgeon sur son dos\n\u00e9clot, il r\u00e9pand un doux parfum\npour c\u00e9l\u00e9brer sa floraison.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Lorsque le bourgeon sur son dos\n\u00e9clot, il r\u00e9pand un doux parfum\npour c\u00e9l\u00e9brer sa floraison.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "If the bud on its back starts to\nsmell sweet, it is evidence that\nthe large flower will soon bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Exposure to sunlight adds to its\nstrength. Sunlight also makes the\nbud on its back grow larger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "When the bud on its back starts\nswelling, a sweet aroma wafts to\nindicate the flower\u2019s coming bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "When the bulb on its back grows large, it\nappears to lose the ability to stand on\nits hind legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "There is a plant bulb on its back.\nWhen it absorbs nutrients, the bulb is said\nto blossom into a large flower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "To support its bulb, IVYSAUR\u2019s legs\ngrow sturdy. If it spends more time lying in\nthe sunlight, the bud will soon bloom into\na large flower.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "There is a bud on this POK\u00e9MON\u2019s back.\nTo support its weight, IVYSAUR\u2019s legs\nand trunk grow thick and strong.\fIf it starts spending more time lying\nin the sunlight, it\u2019s a sign that the\nbud will bloom into a large flower soon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "There is a bud on this POK\u00e9MON\u2019s back.\nTo support its weight, IVYSAUR\u2019s legs\nand trunk grow thick and strong.\fIf it starts spending more time lying\nin the sunlight, it\u2019s a sign that the\nbud will bloom into a large flower soon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "The bulb on its\nback grows as it\nabsorbs nutrients.\fThe bulb gives off\na pleasant aroma\nwhen it blooms.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "If the bud on its\nback starts to\nsmell sweet, it\fis evidence that\nthe large flower\nwill soon bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Exposure to sun\u00ad\nlight adds to its\nstrength. Sunlight\falso makes the bud\non its back grow\nlarger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "The bulb on its\nback grows by\ndrawing energy.\fIt gives off an\naroma when it is\nready to bloom.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "When the bulb on\nits back grows\nlarge, it appears\fto lose the\nability to stand\non its hind legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "When the bulb on\nits back grows\nlarge, it appears\fto lose the\nability to stand\non its hind legs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u79cd\u5b50\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u305f\u306d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Seed Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Seme",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Semilla",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Samen",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Graine",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u7a2e\u5b50\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc528\uc557\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u305f\u306d\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "grassland",
+        "url": "/api/v2/pokemon-habitat/3/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 2,
+    "is_baby": false,
+    "name": "ivysaur",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5999\u86d9\u8349"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d5\u30b7\u30ae\u30bd\u30a6"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Ivysaur"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Ivysaur"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Ivysaur"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Bisaknosp"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Herbizarre"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5999\u86d9\u8349"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc774\uc0c1\ud574\ud480"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Fushigisou"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d5\u30b7\u30ae\u30bd\u30a6"
+        }
+    ],
+    "order": 2,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 81,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 232,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 227,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 2,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 2,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "ivysaur",
+                "url": "/api/v2/pokemon/2/"
+            }
+        }
+    ]
+}

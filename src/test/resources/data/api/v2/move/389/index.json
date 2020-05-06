@@ -1,0 +1,617 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will fail.\n\nThis move is not affected by iron fist.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Only works if the target is about to use a damaging move."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u53ef\u4ee5\u6bd4\u5bf9\u624b\u5148\u653b\u51fb\u3002\n\u5bf9\u624b\u4f7f\u51fa\u7684\u62db\u5f0f\n\u5982\u679c\u4e0d\u662f\u653b\u51fb\u62db\u5f0f\u5219\u4f1a\u5931\u8d25\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3088\u308a\u3000\u5148\u306b\u3000\u653b\u6483\u3000\u3067\u304d\u308b\u3002\n\u76f8\u624b\u304c\u3000\u3060\u3059\u6280\u304c\n\u653b\u6483\u6280\u3067\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the user to attack first. This move\nfails if the target is not readying an attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con alta priorit\u00e0, ma fallisce\nse il bersaglio non sta preparando un attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Permite atacar con prioridad. Falla si el objetivo no\nest\u00e1 preparando ning\u00fan ataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attacke mit hoher Erstschlagquote. Gelingt aber nur,\nwenn das Ziel gerade eine Attacke vorbereitet, die\nKP-Schaden zuf\u00fcgen w\u00fcrde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Permet au lanceur de frapper en priorit\u00e9.\n\u00c9choue si l\u2019ennemi ne pr\u00e9pare pas une attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4ee5\u6436\u5148\u5c0d\u624b\u4e00\u6b65\u9032\u884c\u653b\u64ca\u3002\n\u82e5\u5c0d\u624b\u4f7f\u7528\u7684\u4e0d\u662f\u653b\u64ca\u62db\u5f0f\u5247\u6703\u5931\u6557\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ubcf4\ub2e4 \uba3c\uc800 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.\n\uc0c1\ub300\uac00 \uc4f4 \uae30\uc220\uc774\n\uacf5\uaca9\uae30\uc220\uc774 \uc544\ub2c8\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3088\u308a\u3000\u3055\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u3060\u3059\u308f\u3056\u304c\n\u3053\u3046\u3052\u304d\u308f\u3056\u3000\u3067\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4ee5\u6bd4\u5bf9\u624b\u5148\u653b\u51fb\u3002\n\u5bf9\u624b\u4f7f\u51fa\u7684\u62db\u5f0f\n\u5982\u679c\u4e0d\u662f\u653b\u51fb\u62db\u5f0f\u5219\u4f1a\u5931\u8d25\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3088\u308a\u3000\u5148\u306b\u3000\u653b\u6483\u3000\u3067\u304d\u308b\u3002\n\u76f8\u624b\u304c\u3000\u3060\u3059\u6280\u304c\n\u653b\u6483\u6280\u3067\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the user to attack first. This move\nfails if the target is not readying an attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa attacca con alta priorit\u00e0, ma fallisce\nse il bersaglio non sta preparando un attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Permite atacar con prioridad. Falla si el objetivo no\nest\u00e1 preparando ning\u00fan ataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attacke mit hoher Erstschlagquote. Gelingt aber nur,\nwenn das Ziel gerade eine Attacke vorbereitet, die\nKP-Schaden zuf\u00fcgen w\u00fcrde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Permet au lanceur de frapper en priorit\u00e9.\n\u00c9choue si l\u2019ennemi ne pr\u00e9pare pas une attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4ee5\u6436\u5148\u5c0d\u624b\u4e00\u6b65\u9032\u884c\u653b\u64ca\u3002\n\u82e5\u5c0d\u624b\u4f7f\u7528\u7684\u4e0d\u662f\u653b\u64ca\u62db\u5f0f\u5247\u6703\u5931\u6557\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ubcf4\ub2e4 \uba3c\uc800 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.\n\uc0c1\ub300\uac00 \uc4f4 \uae30\uc220\uc774\n\uacf5\uaca9\uae30\uc220\uc774 \uc544\ub2c8\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3088\u308a\u3000\u3055\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u3060\u3059\u308f\u3056\u304c\n\u3053\u3046\u3052\u304d\u308f\u3056\u3000\u3067\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3088\u308a\u3000\u5148\u306b\u3000\u653b\u6483\u3000\u3067\u304d\u308b\u3002\n\u76f8\u624b\u304c\u3000\u3060\u3059\u6280\u304c\n\u653b\u6483\u6280\u3067\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the user to attack\nfirst. This move fails if the target is not\nreadying an attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa pu\u00f2 attaccare per primo. Fallisce\nse il bersaglio non sta preparando un attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Permite atacar primero. Falla si el objetivo no est\u00e1 \npreparando ning\u00fan ataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht den Erstschlag. Gelingt aber nur,\nwenn das Ziel gerade eine Attacke vorbereitet,\ndie KP-Schaden zuf\u00fcgen w\u00fcrde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Permet au lanceur de frapper en premier.\n\u00c9choue si l\u2019ennemi ne pr\u00e9pare pas une attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ubcf4\ub2e4 \uba3c\uc800 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.\n\uc0c1\ub300\uac00 \uc4f4 \uae30\uc220\uc774\n\uacf5\uaca9\uae30\uc220\uc774 \uc544\ub2c8\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3088\u308a\u3000\u3055\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u3060\u3059\u308f\u3056\u304c\n\u3053\u3046\u3052\u304d\u308f\u3056\u3000\u3067\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3088\u308a\u3000\u5148\u306b\u3000\u653b\u6483\u3000\u3067\u304d\u308b\u3002\n\u76f8\u624b\u304c\u3000\u3060\u3059\u6280\u304c\n\u653b\u6483\u6280\u3067\u306a\u3044\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the user to attack\nfirst. This move fails if the target is not\nreadying an attack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa pu\u00f2 attaccare per primo. Fallisce\nse il bersaglio non sta preparando un attacco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Permite atacar primero. Falla si el objetivo no est\u00e1\npreparando ning\u00fan ataque.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Erm\u00f6glicht den Erstschlag. Gelingt aber nur,\nwenn das Ziel gerade eine Attacke vorbereitet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Permet au lanceur de frapper en premier.\n\u00c9choue si l\u2019ennemi ne pr\u00e9pare pas une attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ubcf4\ub2e4 \uba3c\uc800 \uacf5\uaca9\ud560 \uc218 \uc788\ub2e4.\n\uc0c1\ub300\uac00 \uc4f4 \uae30\uc220\uc774\n\uacf5\uaca9\uae30\uc220\uc774 \uc544\ub2c8\uba74 \uc2e4\ud328\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3088\u308a\u3000\u3055\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3000\u3067\u304d\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u3060\u3059\u308f\u3056\u304c\n\u3053\u3046\u3052\u304d\u308f\u3056\u3000\u3067\u306a\u3044\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the user to attack\nfirst. It fails if the target is not\nreadying an attack, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the user to attack\nfirst. It fails if the target is not\nreadying an attack, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Permet au lanceur de frapper en premier.\n\u00c9choue si l\u2019ennemi ne pr\u00e9pare pas\nune attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the\nuser to attack first.\nIt fails if the foe is\nnot readying an\nattack, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the\nuser to attack first.\nIt fails if the foe is\nnot readying an\nattack, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "This move enables the\nuser to attack first.\nIt fails if the foe is\nnot readying an\nattack, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 389,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "sucker-punch",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7a81\u88ad"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3075\u3044\u3046\u3061"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Sucker Punch"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Sbigoattacco"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Golpe Bajo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Tiefschlag"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Coup Bas"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7a81\u8972"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uae30\uc2b5"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3075\u3044\u3046\u3061"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 80,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        }
+    ],
+    "power": 70,
+    "pp": 5,
+    "priority": 1,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/1/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+    }
+}

@@ -1,0 +1,715 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 255,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/224/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u53e4\u3044\u3000\u304a\u5893\u304b\u3089\u3000\u30c9\u30fc\u30df\u30e9\u30fc\u306b\n\u305d\u3063\u304f\u308a\u306a\u3000\u9053\u5177\u304c\u3000\u6398\u308a\u51fa\u3055\u308c\u305f\u304c\n\u95a2\u4fc2\u306f\u3000\u308f\u304b\u3063\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Implements shaped like it were discovered in\nancient tombs. It is unknown if they are related.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il suo aspetto ricorda alcuni oggetti ritrovati in antiche tombe,\nma non si sa se ci sia una relazione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Se descubrieron herramientas con su forma en tumbas\nantiguas, pero se desconoce si tiene relaci\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Sein K\u00f6rper sieht aus, als seien Teile davon in alten Gr\u00e4bern\ngefunden worden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il rappelle des objets trouv\u00e9s dans des s\u00e9pultures anciennes.\nNul ne sait s\u2019ils sont li\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uace0\ub300 \ubb34\ub364\uc5d0\uc11c \ub3d9\ubbf8\ub7ec\uc640\n\ub611 \ub2ee\uc740 \ub3c4\uad6c\uac00 \ubc1c\uad74\ub418\uc5c8\uc9c0\ub9cc\n\uad00\uacc4\ub294 \uc54c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u308b\u3044\u3000\u304a\u306f\u304b\u304b\u3089\u3000\u30c9\u30fc\u30df\u30e9\u30fc\u306b\n\u305d\u3063\u304f\u308a\u306a\u3000\u3069\u3046\u3050\u304c\u3000\u307b\u308a\u3060\u3055\u308c\u305f\u304c\n\u304b\u3093\u3051\u3044\u306f\u3000\u308f\u304b\u3063\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30fc\u30df\u30e9\u30fc\u306e\u3000\u80cc\u4e2d\u306e\u3000\u6a21\u69d8\u306b\u306f\n\u795e\u79d8\u7684\u306a\u3000\u529b\u304c\u3000\u5bbf\u308b\u3068\n\u6614\u306e\u3000\u4eba\u305f\u3061\u306f\u3000\u4fe1\u3058\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ancient people believed that the pattern on\nBronzor\u2019s back contained a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Nell\u2019antichit\u00e0 si credeva che una forza misteriosa dimorasse\nnei disegni sul dorso di Bronzor.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Anta\u00f1o se cre\u00eda que en los dibujos de su parte posterior\nresid\u00eda una fuerza misteriosa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Fr\u00fcher glaubten die Menschen, dem Muster auf seinem R\u00fccken\nwohne eine mysteri\u00f6se Kraft inne.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Les gens croyaient autrefois que les motifs de son dos\nrenfermaient une puissance mystique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ub3d9\ubbf8\ub7ec\uc758 \ub4f1 \ubaa8\uc591\uc5d0\ub294\n\uc2e0\ube44\ud55c \ud798\uc774 \uae43\ub4e4\uc5b4 \uc788\ub2e4\uace0\n\uc61b\ub0a0 \uc0ac\ub78c\ub4e4\uc740 \ubbff\uace0 \uc788\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30fc\u30df\u30e9\u30fc\u306e\u3000\u305b\u306a\u304b\u306e\u3000\u3082\u3088\u3046\u306b\u306f\n\u3057\u3093\u3074\u3066\u304d\u306a\u3000\u3061\u304b\u3089\u304c\u3000\u3084\u3069\u308b\u3068\n\u3080\u304b\u3057\u306e\u3000\u3072\u3068\u305f\u3061\u306f\u3000\u3057\u3093\u3058\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u53e4\u3044\u3000\u304a\u5893\u304b\u3089\u3000\u30c9\u30fc\u30df\u30e9\u30fc\u306b\n\u305d\u3063\u304f\u308a\u306a\u3000\u9053\u5177\u304c\u3000\u6398\u308a\u51fa\u3055\u308c\u305f\u304c\n\u95a2\u4fc2\u306f\u3000\u308f\u304b\u3063\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Implements shaped like it were discovered in\nancient tombs. It is unknown if they are related.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il suo aspetto ricorda alcuni oggetti ritrovati in\nantiche tombe, ma non si sa se ci sia una relazione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se descubrieron herramientas con su forma en tumbas\nantiguas, pero se desconoce si tiene relaci\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sein K\u00f6rper sieht aus, als seien Teile davon\nin alten Gr\u00e4bern gefunden worden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il rappelle des objets trouv\u00e9s dans des s\u00e9pultures\nanciennes. Nul ne sait s\u2019ils sont li\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uace0\ub300 \ubb34\ub364\uc5d0\uc11c \ub3d9\ubbf8\ub7ec\uc640\n\ub611 \ub2ee\uc740 \ub3c4\uad6c\uac00 \ubc1c\uad74\ub418\uc5c8\uc9c0\ub9cc\n\uad00\uacc4\ub294 \uc54c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u308b\u3044\u3000\u304a\u306f\u304b\u304b\u3089\u3000\u30c9\u30fc\u30df\u30e9\u30fc\u306b\n\u305d\u3063\u304f\u308a\u306a\u3000\u3069\u3046\u3050\u304c\u3000\u307b\u308a\u3060\u3055\u308c\u305f\u304c\n\u304b\u3093\u3051\u3044\u306f\u3000\u308f\u304b\u3063\u3066\u3044\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30fc\u30df\u30e9\u30fc\u306e\u3000\u80cc\u4e2d\u306e\u3000\u6a21\u69d8\u306b\u306f\n\u795e\u79d8\u7684\u306a\u3000\u529b\u304c\u3000\u5bbf\u308b\u3068\n\u6614\u306e\u3000\u4eba\u305f\u3061\u306f\u3000\u4fe1\u3058\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ancient people believed that the pattern on\nBronzor\u2019s back contained a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Nell\u2019antichit\u00e0 si credeva che una forza misteriosa\ndimorasse nei disegni sul dorso di Bronzor.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Anta\u00f1o se cre\u00eda que en los dibujos de su parte\nposterior resid\u00eda una fuerza misteriosa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Fr\u00fcher glaubten die Menschen, dem Muster auf\nseinem R\u00fccken wohne eine mysteri\u00f6se Kraft inne.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Les gens croyaient autrefois que les motifs de\nson dos renfermaient une puissance mystique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ub3d9\ubbf8\ub7ec\uc758 \ub4f1 \ubaa8\uc591\uc5d0\ub294\n\uc2e0\ube44\ud55c \ud798\uc774 \uae43\ub4e4\uc5b4 \uc788\ub2e4\uace0\n\uc61b\ub0a0 \uc0ac\ub78c\ub4e4\uc740 \ubbff\uace0 \uc788\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u30c9\u30fc\u30df\u30e9\u30fc\u306e\u3000\u305b\u306a\u304b\u306e\u3000\u3082\u3088\u3046\u306b\u306f\n\u3057\u3093\u3074\u3066\u304d\u306a\u3000\u3061\u304b\u3089\u304c\u3000\u3084\u3069\u308b\u3068\n\u3080\u304b\u3057\u306e\u3000\u3072\u3068\u305f\u3061\u306f\u3000\u3057\u3093\u3058\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "They are found in ancient tombs.\nThe patterns on their backs are\nsaid to be imbued with mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "They are found in ancient tombs.\nThe patterns on their backs are\nsaid to be imbued with mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "There are researchers who believe\nthis Pok\u00e9mon reflected like a mirror\nin the distant past.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Certains scientifiques soutiennent\nque ce Pok\u00e9mon \u00e9tait jadis aussi\nr\u00e9fl\u00e9chissant qu\u2019un miroir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "There are researchers who believe\nthis Pok\u00e9mon reflected like a mirror\nin the distant past.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Certains scientifiques soutiennent\nque ce Pok\u00e9mon \u00e9tait jadis aussi\nr\u00e9fl\u00e9chissant qu\u2019un miroir.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ancient people believed that the\npattern on BRONZOR\u2019s back\ncontained a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Ancient people believed that the\npattern on BRONZOR\u2019s back\ncontained a mysterious power.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "There are researchers who believe\nthis Pok\u00e9mon reflected like a mirror\nin the distant past.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "X-ray photos were taken to check\nits body structure. Nothing\nappeared, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Implements shaped like it were\ndiscovered in ancient tombs. It is\nunknown if they are related.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u9752\u94dc\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u305b\u3044\u3069\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Bronze Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bronzo",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bronce",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Bronze",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bronze",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u9752\u9285\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uccad\ub3d9\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u305b\u3044\u3069\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 436,
+    "is_baby": false,
+    "name": "bronzor",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u94dc\u955c\u602a"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c9\u30fc\u30df\u30e9\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Bronzor"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Bronzor"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Bronzor"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Bronzel"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Arch\u00e9omire"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9285\u93e1\u602a"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub3d9\ubbf8\ub7ec"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Domirror"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c9\u30fc\u30df\u30e9\u30fc"
+        }
+    ],
+    "order": 460,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 250,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 88,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 88,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 436,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "ball",
+        "url": "/api/v2/pokemon-shape/1/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "bronzor",
+                "url": "/api/v2/pokemon/436/"
+            }
+        }
+    ]
+}

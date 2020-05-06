@@ -1,0 +1,621 @@
+{
+    "accuracy": 90,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage, then switches the target out for another of its trainer's Pok\u00e9mon, selected at random.\n\nIf the target is under the effect of ingrain or suction cups, or it has a substitute, or its Trainer has no more usable Pok\u00e9mon, it will not be switched out.  If the target is a wild Pok\u00e9mon, the battle ends instead.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Ends wild battles.  Forces trainers to switch Pok\u00e9mon."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5f39\u98de\u5bf9\u624b\uff0c\u5f3a\u5236\u62c9\u540e\u5907\u5b9d\u53ef\u68a6\u4e0a\u573a\u3002\n\u5982\u679c\u5bf9\u624b\u4e3a\u91ce\u751f\u5b9d\u53ef\u68a6\uff0c\n\u6218\u6597\u5c06\u76f4\u63a5\u7ed3\u675f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The target is knocked away, and a different Pok\u00e9mon\nis dragged out. In the wild, this ends a battle against\na single Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa volar via il bersaglio in modo che\nvenga sostituito. Se il bersaglio \u00e8 un singolo\nPok\u00e9mon selvatico, la lotta finisce.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo y lo obliga a cambiarse por otro \nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Putzt das Ziel vom Feld und wechselt es mit einem\nanderen Pok\u00e9mon aus. Beendet K\u00e4mpfe gegen wilde\nPok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un coup puissant qui blesse la cible et l\u2019envoie\nau loin. Lors d\u2019un combat contre un Pok\u00e9mon\nsauvage seul, met fin au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f48\u98db\u5c0d\u624b\uff0c\n\u5f37\u5236\u8b93\u5f8c\u5099\u5bf6\u53ef\u5922\u4e0a\u5834\u3002\n\u5c0d\u624b\u70ba\u91ce\u751f\u5bf6\u53ef\u5922\u6642\uff0c\u6230\u9b25\u5c07\u76f4\u63a5\u7d50\u675f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub97c \ud295\uaca8\ub0b4\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5f39\u98de\u5bf9\u624b\uff0c\u5f3a\u5236\u62c9\u540e\u5907\u5b9d\u53ef\u68a6\u4e0a\u573a\u3002\n\u5982\u679c\u5bf9\u624b\u4e3a\u91ce\u751f\u5b9d\u53ef\u68a6\uff0c\n\u6218\u6597\u5c06\u76f4\u63a5\u7ed3\u675f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The target is knocked away, and a different Pok\u00e9mon\nis dragged out. In the wild, this ends a battle against\na single Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa volar via il bersaglio in modo che\nvenga sostituito. Se il bersaglio \u00e8 un singolo\nPok\u00e9mon selvatico, la lotta finisce.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo y lo obliga a cambiarse por otro \nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Putzt das Ziel vom Feld und wechselt es mit einem\nanderen Pok\u00e9mon aus. Beendet K\u00e4mpfe gegen wilde\nPok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un coup puissant qui blesse la cible et l\u2019envoie\nau loin. Lors d\u2019un combat contre un Pok\u00e9mon\nsauvage seul, met fin au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5f48\u98db\u5c0d\u624b\uff0c\n\u5f37\u5236\u8b93\u5f8c\u5099\u5bf6\u53ef\u5922\u4e0a\u5834\u3002\n\u5c0d\u624b\u70ba\u91ce\u751f\u5bf6\u53ef\u5922\u6642\uff0c\u6230\u9b25\u5c07\u76f4\u63a5\u7d50\u675f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub97c \ud295\uaca8\ub0b4\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is knocked away, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa volar via il bersaglio in modo che\nvenga sostituito. Se il bersaglio \u00e8 un singolo\nPok\u00e9mon selvatico, la lotta finisce.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo y lo obliga a cambiarse por otro \nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Putzt das Ziel vom Feld und wechselt\nes mit einem anderen Pok\u00e9mon aus.\nBeendet K\u00e4mpfe gegen wilde Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un coup puissant qui blesse la cible et l\u2019envoie\nau loin. Dans la nature, met fin au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub97c \ud295\uaca8\ub0b4\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is knocked away, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa fa volar via il bersaglio in modo che\nvenga sostituito. Se il bersaglio \u00e8 un singolo\nPok\u00e9mon selvatico, la lotta finisce.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataca al objetivo y lo obliga a cambiarse por otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Putzt das Ziel vom Feld und wechselt\nes mit einem anderen Pok\u00e9mon aus.\nBeendet K\u00e4mpfe gegen wilde Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un coup puissant qui blesse la cible et l\u2019envoie\nau loin. Dans la nature, met fin au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300\ub97c \ud295\uaca8\ub0b4\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306f\u3058\u304d\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is knocked away and switched.\nIn the wild, a battle against a single\nPok\u00e9mon ends.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user knocks away the target and\ndrags out another Pok\u00e9mon in its party.\nIn the wild, the battle ends.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un coup puissant qui blesse la cible\net l\u2019envoie balader. Dans la nature,\nmet fin au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "id": 525,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1183/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1184/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1185/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1186/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1187/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1188/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "dragon-tail",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9f99\u5c3e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c9\u30e9\u30b4\u30f3\u30c6\u30fc\u30eb"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Dragon Tail"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Codadrago"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Cola Drag\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Drachenrute"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Draco-Queue"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9f8d\u5c3e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub4dc\ub798\uace4\ud14c\uc77c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c9\u30e9\u30b4\u30f3\u30c6\u30fc\u30eb"
+        }
+    ],
+    "past_values": [],
+    "power": 60,
+    "pp": 10,
+    "priority": -6,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "dragon",
+        "url": "/api/v2/type/16/"
+    }
+}

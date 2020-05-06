@@ -1,0 +1,864 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "green",
+        "url": "/api/v2/pokemon-color/5/"
+    },
+    "egg_groups": [
+        {
+            "name": "plant",
+            "url": "/api/v2/egg-group/7/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/279/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5982\u679c\u5229\u7528\u9633\u5149\u6652\u5e72\u5b83\u5934\u4e0a\u7684\u53f6\u5b50\uff0c\n\u518d\u714e\u716e\u540e\u996e\u7528\uff0c\u4f1a\u9a6c\u4e0a\u53d8\u5f97\u6709\u6d3b\u529b\uff0c\n\u5728\u8001\u5e74\u4eba\u4e2d\u5f88\u53d7\u6b22\u8fce\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u982d\u306e\u3000\u8449\u3092\u3000\u5929\u65e5\u3067\u3000\u4e7e\u304b\u3057\n\u714e\u3058\u3066\u3000\u98f2\u3080\u3068\u3000\u5f53\u6642\u306e\u3000\u5143\u6c17\u304c\n\u623b\u308b\u3068\u3000\u304a\u5e74\u5bc4\u308a\u306b\u3000\u5927\u4eba\u6c17\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Some say if you dry the leaves on its head, boil\nthem down, and drink the infusion, your vigor\nwill return, so Petilil is popular with the elderly.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Le foglie che ha sul capo sono molto amate\ndagli anziani perch\u00e9, essiccate al sole e bevute\ncome tisana, hanno un effetto rinvigorente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Los ancianos aprecian las hojas de su cabeza,\nya que, secadas al sol y tomadas en infusi\u00f3n,\ndevuelven la vitalidad perdida.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Sehr beliebt bei Senioren, da ein Tee aus den\nsonnengetrockneten Bl\u00e4ttern seines Kopfes\nwie ein Schluck aus dem Jungbrunnen wirkt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "En raison de leurs vertus revigorantes,\nles feuilles de sa t\u00eate sont s\u00e9ch\u00e9es au soleil\npuis bues en infusion par les personnes \u00e2g\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u628a\u7260\u982d\u4e0a\u7684\u8449\u5b50\u653e\u5728\u592a\u967d\u4e0b\u66ec\u4e7e\uff0c\n\u714e\u716e\u4e4b\u5f8c\u670d\u7528\u5c31\u80fd\u56de\u5fa9\u7cbe\u529b\uff0c\n\u56e0\u6b64\u5f88\u53d7\u8001\u5e74\u4eba\u7684\u559c\u611b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uba38\ub9ac\uc758 \uc78e\uc744 \ud587\ubcd5\uc5d0 \ub9d0\ub824\n\ub2ec\uc5ec \ub9c8\uc2dc\uba74 \uc80a\uc740 \uc2dc\uc808\uc758 \uae30\ub825\uc774\n\ub3cc\uc544\uc628\ub2e4\uba70 \ub178\uc778\uc5d0\uac8c \ud070 \uc778\uae30\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u307e\u306e\u3000\u306f\u3092\u3000\u3066\u3093\u3074\u3067\u3000\u304b\u308f\u304b\u3057\n\u305b\u3093\u3058\u3066\u3000\u306e\u3080\u3068\u3000\u3068\u3046\u3058\u306e\u3000\u3052\u3093\u304d\u304c\n\u3082\u3069\u308b\u3068\u3000\u304a\u3068\u3057\u3088\u308a\u306b\u3000\u3060\u3044\u306b\u3093\u304d\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u65f6\u4e0d\u65f6\u4fee\u526a\u53f6\u5b50\uff0c\n\u5c31\u4f1a\u957f\u6210\u5706\u9f13\u9f13\u5f88\u534e\u4e3d\u7684\u6837\u5b50\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u307e\u306b\u3000\u8449\u3063\u3071\u3092\u3000\u30c8\u30ea\u30df\u30f3\u30b0\u3059\u308b\u3068\n\u4e38\u3005\u3068\u3057\u305f\u3000\u7acb\u6d3e\u306a\u3000\u59ff\u306b\n\u80b2\u3063\u3066\u3000\u3044\u304f\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "By pruning the leaves on its head with\nregularity, this Pok\u00e9mon can be grown into a\nfine plump shape.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Le foglie che ha sul capo vanno spuntate di\ntanto in tanto per permettergli di crescere\nflorido e pieno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Adquiere un aspecto esplendoroso cuando se\nle recortan las hojas de la cabeza con cierta\nasiduidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Wenn man ab und zu seine Bl\u00e4tter schneidet,\nw\u00e4chst sein K\u00f6rper rund und pr\u00e4chtig heran.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il est recommand\u00e9 de tailler de temps \u00e0 autre\nles feuilles de Chlorobule afin qu\u2019il acqui\u00e8re\nune forme parfaitement ronde et harmonieuse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u5076\u723e\u4fee\u526a\u8449\u5b50\uff0c\n\u5c31\u6703\u9577\u6210\u5713\u9f13\u9f13\u5f88\u83ef\u9e97\u7684\u6a23\u5b50\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uac00\ub054 \uc78e\uc744 \uc190\uc9c8\ud574\uc8fc\uba74\n\ub465\uae00\ub465\uae00\ud55c \ud6cc\ub96d\ud55c \ubaa8\uc2b5\uc73c\ub85c\n\uc790\ub77c\ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u307e\u306b\u3000\u306f\u3063\u3071\u3092\u3000\u30c8\u30ea\u30df\u30f3\u30b0\u3059\u308b\u3068\n\u307e\u308b\u307e\u308b\u3068\u3057\u305f\u3000\u308a\u3063\u3071\u306a\u3000\u3059\u304c\u305f\u306b\n\u305d\u3060\u3063\u3066\u3000\u3044\u304f\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6c34\u5206\u3068\u3000\u6804\u990a\u306e\u3000\u8c4a\u5bcc\u306a\n\u571f\u3092\u3000\u597d\u3080\u306e\u3067\u3000\u30c1\u30e5\u30ea\u30cd\u306e\u3000\u4f4f\u3080\n\u571f\u5730\u306f\u3000\u4f5c\u7269\u306e\u3000\u80b2\u3061\u304c\u3000\u826f\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Since they prefer moist, nutrient-rich soil, the areas\nwhere Petilil live are known to be good for\ngrowing plants.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Dato che predilige i terreni ricchi di acqua e nutrimento, nelle\nzone in cui vive Petilil i raccolti sono rigogliosi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Habita tierras h\u00famedas ricas en nutrientes donde la cosecha\nes abundante.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Da es n\u00e4hrstoffreiche Erde bevorzugt, kann man in Gebieten,\nin denen es lebt, f\u00fcr gew\u00f6hnlich reiche Ernten erwarten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Il aime les zones bien irrigu\u00e9es et riches en nutriments.\nOn sait que l\u00e0 o\u00f9 il vit, les cultures sont florissantes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uce58\ub9b4\ub9ac\ub294 \uc218\ubd84\uacfc \uc601\uc591\uc774 \ud48d\ubd80\ud55c\n\ub545\uc744 \uc88b\uc544\ud558\uae30 \ub54c\ubb38\uc5d0 \uce58\ub9b4\ub9ac\uac00\n\uc0ac\ub294 \ud1a0\uc9c0\ub294 \uc791\ubb3c\uc774 \uc798 \uc790\ub780\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3044\u3076\u3093\u3068\u3000\u3048\u3044\u3088\u3046\u306e\u3000\u307b\u3046\u3075\u306a\n\u3064\u3061\u3092\u3000\u3053\u306e\u3080\u306e\u3067\u3000\u30c1\u30e5\u30ea\u30cd\u306e\u3000\u3059\u3080\n\u3068\u3061\u306f\u3000\u3055\u304f\u3082\u3064\u306e\u3000\u305d\u3060\u3061\u304c\u3000\u3088\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u982d\u306e\u3000\u8449\u3063\u3071\u3092\u3000\u304b\u3058\u308b\u3068\n\u3068\u3066\u3082\u3000\u82e6\u3044\u304c\u3000\u75b2\u308c\u305f\u3000\u4f53\u3092\n\u5143\u6c17\u306b\u3059\u308b\u3000\u52b9\u679c\u304c\u3000\u3042\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "The leaves on its head are very bitter. Eating one\nof these leaves is known to refresh a tired body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Le foglie che ha sul capo sono molto amare ma, se masticate,\nhanno l\u2019effetto di rinvigorire il corpo stanco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Mordisquear las hojas de su cabeza permite recuperar toda la\nvitalidad, a pesar de que est\u00e1n muy amargas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Die Bl\u00e4tter auf seinem Kopf schmecken furchtbar bitter,\ndoch sie helfen ausgezeichnet gegen Ersch\u00f6pfung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Les feuilles sur sa t\u00eate sont tr\u00e8s am\u00e8res, mais elles remettent\nd\u2019aplomb les corps les plus \u00e9reint\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uba38\ub9ac\uc758 \uc78e\uc0ac\uadc0\ub97c \uac09\uc544\uba39\uc73c\uba74\n\ub9e4\uc6b0 \uc4f0\uc9c0\ub9cc \uc9c0\uce5c \ubab8\uc744\n\ud68c\ubcf5\uc2dc\ucf1c\uc8fc\ub294 \ud6a8\uacfc\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u307e\u306e\u3000\u306f\u3063\u3071\u3092\u3000\u304b\u3058\u308b\u3068\n\u3068\u3066\u3082\u3000\u306b\u304c\u3044\u304c\u3000\u3064\u304b\u308c\u305f\u3000\u304b\u3089\u3060\u3092\n\u3052\u3093\u304d\u306b\u3059\u308b\u3000\u3053\u3046\u304b\u304c\u3000\u3042\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6c34\u5206\u3068\u3000\u6804\u990a\u306e\u3000\u8c4a\u5bcc\u306a\n\u571f\u3092\u3000\u597d\u3080\u306e\u3067\u3000\u30c1\u30e5\u30ea\u30cd\u306e\u3000\u4f4f\u3080\n\u571f\u5730\u306f\u3000\u4f5c\u7269\u306e\u3000\u80b2\u3061\u304c\u3000\u826f\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Since they prefer moist, nutrient-rich soil, the areas\nwhere Petilil live are known to be good for\ngrowing plants.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Dato che predilige i terreni ricchi di acqua e\nnutrimento, nelle zone in cui vive Petilil i raccolti\nsono rigogliosi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Habita tierras h\u00famedas ricas en nutrientes donde\nla cosecha es abundante.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Da es n\u00e4hrstoffreiche Erde bevorzugt, kann man in\nGebieten, in denen es lebt, f\u00fcr gew\u00f6hnlich reiche\nErnten erwarten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il aime les zones bien irrigu\u00e9es et riches en\nnutriments. On sait que l\u00e0 o\u00f9 il vit, les cultures sont\nflorissantes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uce58\ub9b4\ub9ac\ub294 \uc218\ubd84\uacfc \uc601\uc591\uc774 \ud48d\ubd80\ud55c\n\ub545\uc744 \uc88b\uc544\ud558\uae30 \ub54c\ubb38\uc5d0 \uce58\ub9b4\ub9ac\uac00\n\uc0ac\ub294 \ud1a0\uc9c0\ub294 \uc791\ubb3c\uc774 \uc798 \uc790\ub780\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3059\u3044\u3076\u3093\u3068\u3000\u3048\u3044\u3088\u3046\u306e\u3000\u307b\u3046\u3075\u306a\n\u3064\u3061\u3092\u3000\u3053\u306e\u3080\u306e\u3067\u3000\u30c1\u30e5\u30ea\u30cd\u306e\u3000\u3059\u3080\n\u3068\u3061\u306f\u3000\u3055\u304f\u3082\u3064\u306e\u3000\u305d\u3060\u3061\u304c\u3000\u3088\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u982d\u306e\u3000\u8449\u3063\u3071\u3092\u3000\u304b\u3058\u308b\u3068\n\u3068\u3066\u3082\u3000\u82e6\u3044\u304c\u3000\u75b2\u308c\u305f\u3000\u4f53\u3092\n\u5143\u6c17\u306b\u3059\u308b\u3000\u52b9\u679c\u304c\u3000\u3042\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The leaves on its head are very bitter. Eating one\nof these leaves is known to refresh a tired body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Le foglie che ha sul capo sono molto amare ma, se\nmasticate, hanno l\u2019effetto di rinvigorire il corpo stanco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Mordisquear las hojas de su cabeza permite recuperar\ntoda la vitalidad, a pesar de que est\u00e1n muy amargas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Die Bl\u00e4tter auf seinem Kopf schmecken furchtbar\nbitter, doch sie helfen ausgezeichnet gegen\nErsch\u00f6pfung.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Les feuilles sur sa t\u00eate sont tr\u00e8s am\u00e8res, mais elles\nremettent d\u2019aplomb les corps les plus \u00e9reint\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uba38\ub9ac\uc758 \uc78e\uc0ac\uadc0\ub97c \uac09\uc544\uba39\uc73c\uba74\n\ub9e4\uc6b0 \uc4f0\uc9c0\ub9cc \uc9c0\uce5c \ubab8\uc744\n\ud68c\ubcf5\uc2dc\ucf1c\uc8fc\ub294 \ud6a8\uacfc\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u307e\u306e\u3000\u306f\u3063\u3071\u3092\u3000\u304b\u3058\u308b\u3068\n\u3068\u3066\u3082\u3000\u306b\u304c\u3044\u304c\u3000\u3064\u304b\u308c\u305f\u3000\u304b\u3089\u3060\u3092\n\u3052\u3093\u304d\u306b\u3059\u308b\u3000\u3053\u3046\u304b\u304c\u3000\u3042\u308b\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The leaves on its head grow right back\neven if they fall out. These bitter\nleaves refresh those who eat them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The leaves on its head grow right back\neven if they fall out. These bitter\nleaves refresh those who eat them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Since they prefer moist, nutrient-rich\nsoil, the areas where Petilil live are\nknown to be good for growing plants.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il aime les zones bien irrigu\u00e9es et riches\nen nutriments. On sait que l\u00e0 o\u00f9 il vit,\nles cultures sont florissantes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "The leaves on its head are very bitter.\nEating one of these leaves is known\nto refresh a tired body.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Les feuilles sur sa t\u00eate sont tr\u00e8s\nam\u00e8res, mais elles remettent d\u2019aplomb\nles corps les plus \u00e9reint\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 8,
+    "genera": [
+        {
+            "genus": "\u6839\u830e\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u306d\u3063\u3053\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Bulb Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Radice",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Bulbo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Wurzel",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Racine",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6839\u8396\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubfcc\ub9ac\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u306d\u3063\u3053\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 548,
+    "is_baby": false,
+    "name": "petilil",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u767e\u5408\u6839\u5a03\u5a03"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c1\u30e5\u30ea\u30cd"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Petilil"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Petilil"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Petilil"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Lilminip"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Chlorobule"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u767e\u5408\u6839\u5a03\u5a03"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uce58\ub9b4\ub9ac"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c1\u30e5\u30ea\u30cd"
+        }
+    ],
+    "order": 549,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 43,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 84,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 54,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "/api/v2/pokedex/8/"
+            }
+        },
+        {
+            "entry_number": 548,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "blob",
+        "url": "/api/v2/pokemon-shape/5/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "petilil",
+                "url": "/api/v2/pokemon/548/"
+            }
+        }
+    ]
+}

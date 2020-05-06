@@ -1,0 +1,639 @@
+{
+    "accuracy": null,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/25/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Uses a move from another Pok\u00e9mon in the user's party, both selected at random.  Moves from fainted Pok\u00e9mon can be used.  If there are no eligible Pok\u00e9mon or moves, this move will fail.\n\nThis move will not select assist, chatter, circle throw, copycat, counter, covet, destiny bond, detect, dig, dive, dragon tail, endure, feint, fly focus punch, follow me, helping hand, me first, metronome, mimic, mirror coat, mirror move, phantom force protect, quick guard, roar shadow force, sketch, sleep talk, snatch, struggle, switcheroo, thief, trick, whirlwind, or wide guard.\n\nThis move cannot be copied by mirror move, nor selected by metronome or sleep talk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Randomly selects and uses one of the trainer's other Pok\u00e9mon's moves."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5411\u6211\u65b9\u7d27\u6025\u6c42\u52a9\uff0c\n\u4ece\u6211\u65b9\u5b9d\u53ef\u68a6\u5df2\u5b66\u4f1a\u7684\n\u62db\u5f0f\u4e2d\u968f\u673a\u4f7f\u7528\uff11\u4e2a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6025\u304e\u3067\u3000\u5473\u65b9\u306e\u3000\u52a9\u3051\u3092\u3000\u304b\u308a\u3066\n\u5473\u65b9\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u6280\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly and randomly uses a move among\nthose known by ally Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa utilizza in fretta e a caso una\ndelle mosse degli altri Pok\u00e9mon della squadra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Usa un movimiento de un miembro del equipo \nelegido al azar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Greift zuf\u00e4llig mit einer Attacke eines Mitstreiters an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se d\u00e9p\u00eache d\u2019utiliser une capacit\u00e9 au\nhasard parmi celles des Pok\u00e9mon de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7dca\u6025\u5411\u540c\u4f34\u6c42\u6551\uff0c\n\u5f9e\u6211\u65b9\u5bf6\u53ef\u5922\u5df2\u5b78\u6703\u7684\u62db\u5f0f\u4e2d\n\u96a8\u6a5f\u9078\u51fa\uff11\u500b\u4f7f\u7528\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc11c\ub458\ub7ec\uc11c \uac19\uc740 \ud3b8\uc758 \ub3c4\uc6c0\uc744 \ubc1b\uc544\n\uac19\uc740 \ud3b8 \ud3ec\ucf13\ubaac\uc774 \uae30\uc5b5\ud558\uace0 \uc788\ub294\n\uae30\uc220 \uc911 \ud558\ub098\ub97c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3044\u305d\u304e\u3067\u3000\u307f\u304b\u305f\u306e\u3000\u305f\u3059\u3051\u3092\u3000\u304b\u308a\u3066\n\u307f\u304b\u305f\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u308f\u3056\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5411\u6211\u65b9\u7d27\u6025\u6c42\u52a9\uff0c\n\u4ece\u6211\u65b9\u5b9d\u53ef\u68a6\u5df2\u5b66\u4f1a\u7684\n\u62db\u5f0f\u4e2d\u968f\u673a\u4f7f\u7528\uff11\u4e2a\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6025\u304e\u3067\u3000\u5473\u65b9\u306e\u3000\u52a9\u3051\u3092\u3000\u304b\u308a\u3066\n\u5473\u65b9\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u6280\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly and randomly uses a move among\nthose known by ally Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa utilizza in fretta e a caso una\ndelle mosse degli altri Pok\u00e9mon della squadra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Usa un movimiento de un miembro del equipo \nelegido al azar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Greift zuf\u00e4llig mit einer Attacke eines Mitstreiters an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se d\u00e9p\u00eache d\u2019utiliser une capacit\u00e9 au\nhasard parmi celles des Pok\u00e9mon de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7dca\u6025\u5411\u540c\u4f34\u6c42\u6551\uff0c\n\u5f9e\u6211\u65b9\u5bf6\u53ef\u5922\u5df2\u5b78\u6703\u7684\u62db\u5f0f\u4e2d\n\u96a8\u6a5f\u9078\u51fa\uff11\u500b\u4f7f\u7528\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc11c\ub458\ub7ec\uc11c \uac19\uc740 \ud3b8\uc758 \ub3c4\uc6c0\uc744 \ubc1b\uc544\n\uac19\uc740 \ud3b8 \ud3ec\ucf13\ubaac\uc774 \uae30\uc5b5\ud558\uace0 \uc788\ub294\n\uae30\uc220 \uc911 \ud558\ub098\ub97c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3044\u305d\u304e\u3067\u3000\u307f\u304b\u305f\u306e\u3000\u305f\u3059\u3051\u3092\u3000\u304b\u308a\u3066\n\u307f\u304b\u305f\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u308f\u3056\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6025\u304e\u3067\u3000\u5473\u65b9\u306e\u3000\u52a9\u3051\u3092\u3000\u304b\u308a\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u6280\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly and randomly\nuses a move among those known\nby other Pok\u00e9mon in the party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa utilizza in fretta e a caso una\ndelle mosse degli altri Pok\u00e9mon della squadra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa un movimiento de un miembro del equipo \nelegido al azar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Greift zuf\u00e4llig mit einer Attacke\neines Teampartners an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se d\u00e9p\u00eache d\u2019utiliser une capacit\u00e9 au\nhasard parmi celles des Pok\u00e9mon de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc11c\ub458\ub7ec\uc11c \uac19\uc740 \ud3b8\uc758 \ub3c4\uc6c0\uc744 \ubc1b\uc544\n\uad50\ub300 \ud3ec\ucf13\ubaac\uc774 \uae30\uc5b5\ud558\uace0 \uc788\ub294\n\uae30\uc220 \uc911 \ud558\ub098\ub97c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3044\u305d\u304e\u3067\u3000\u202f\u304b\u305f\u306e\u3000\u305f\u3059\u3051\u3092\u3000\u304b\u308a\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u308f\u3056\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u6025\u304e\u3067\u3000\u5473\u65b9\u306e\u3000\u52a9\u3051\u3092\u3000\u304b\u308a\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u6280\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u4f7f\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly and randomly\nuses a move among those known\nby other Pok\u00e9mon in the party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa utilizza in fretta e a caso una\ndelle mosse degli altri Pok\u00e9mon della squadra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa un movimiento de un miembro del equipo\nelegido al azar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Greift zuf\u00e4llig mit einer Attacke\neines Teampartners an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se d\u00e9p\u00eache d\u2019utiliser une capacit\u00e9 au\nhasard parmi celles des Pok\u00e9mon de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc11c\ub458\ub7ec\uc11c \uac19\uc740 \ud3b8\uc758 \ub3c4\uc6c0\uc744 \ubc1b\uc544\n\uad50\ub300 \ud3ec\ucf13\ubaac\uc774 \uae30\uc5b5\ud558\uace0 \uc788\ub294\n\uae30\uc220 \uc911 \ud558\ub098\ub97c \uc4f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u3044\u305d\u304e\u3067\u3000\u307f\u304b\u305f\u306e\u3000\u305f\u3059\u3051\u3092\u3000\u304b\u308a\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u304a\u307c\u3048\u3066\u3044\u308b\n\u308f\u3056\u3092\u3000\u3069\u308c\u304b\u3000\uff11\u3064\u3000\u3064\u304b\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly and randomly uses a\nmove among those known by other\nPok\u00e9mon in the party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly and randomly uses a\nmove among those known by other\nPok\u00e9mon in the party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur se d\u00e9p\u00eache d\u2019utiliser une\ncapacit\u00e9 au hasard parmi celles des\nPok\u00e9mon de l\u2019\u00e9quipe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPok\u00e9mon in the party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPok\u00e9mon in the party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPok\u00e9mon in the party.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user randomly\npicks and uses a\nmove of an allied\nPOK\u00e9MON.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Attacks randomly with one\nof the partner\u2019s moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Attacks randomly with one\nof the partner\u2019s moves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 274,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "assist",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u501f\u52a9"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u306d\u3053\u306e\u3066"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Assist"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Assistente"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Ayuda"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Zuschuss"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Assistance"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u501f\u52a9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc870\uc218"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u306d\u3053\u306e\u3066"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/14/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

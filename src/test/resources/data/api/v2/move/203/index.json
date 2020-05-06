@@ -1,0 +1,741 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "flail",
+                    "url": "/api/v2/move/175/"
+                },
+                {
+                    "name": "reversal",
+                    "url": "/api/v2/move/179/"
+                },
+                {
+                    "name": "destiny-bond",
+                    "url": "/api/v2/move/194/"
+                },
+                {
+                    "name": "pain-split",
+                    "url": "/api/v2/move/220/"
+                },
+                {
+                    "name": "endeavor",
+                    "url": "/api/v2/move/283/"
+                },
+                {
+                    "name": "eruption",
+                    "url": "/api/v2/move/284/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/16/"
+    },
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "The user's HP cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used detect, endure, protect, quick guard, or wide guard on the last turn, this move has a 50% chance to fail.\n\nThis move cannot be selected by assist or metronome.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Prevents the user's HP from lowering below 1 this turn."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5373\u4f7f\u53d7\u5230\u653b\u51fb\uff0c\n\u4e5f\u81f3\u5c11\u4f1a\u7559\u4e0b\uff11\uff28\uff30\u3002\n\u8fde\u7eed\u4f7f\u51fa\u5219\u5bb9\u6613\u5931\u8d25\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3092\u3000\u53d7\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u5fc5\u305a\u3000\uff11\u3060\u3051\u3000\u6b8b\u305b\u308b\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa resta con un PS anche se subisce un\ncolpo da KO in quel turno. Usata in successione\npu\u00f2 fallire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Resiste cualquier ataque y deja al menos 1 PS. \nPuede fallar si se usa repetidamente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Nach fatalen Attacken bleibt stets 1 KP \u00fcbrig.\nMisserfolg bei Wiederholung m\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9siste aux attaques avec 1 PV.\nPeut \u00e9chouer si utilis\u00e9e plusieurs fois de suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5373\u4f7f\u53d7\u5230\u518d\u5f37\u70c8\u7684\u653b\u64ca\uff0c\n\u4e5f\u4e00\u5b9a\u6703\u5269\u4e0b\uff11\uff28\uff30\u3002\n\u9023\u7e8c\u4f7f\u7528\u6642\u5bb9\u6613\u5931\u6557\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uc744 \ubc1b\uc544\ub3c4\nHP\ub97c \ubc18\ub4dc\uc2dc 1\ub9cc\ud07c\uc740 \ub0a8\uae34\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u304b\u306a\u3089\u305a\u3000\uff11\u3060\u3051\u3000\u306e\u3053\u305b\u308b\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5373\u4f7f\u53d7\u5230\u653b\u51fb\uff0c\n\u4e5f\u81f3\u5c11\u4f1a\u7559\u4e0b\uff11\uff28\uff30\u3002\n\u8fde\u7eed\u4f7f\u51fa\u5219\u5bb9\u6613\u5931\u8d25\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3092\u3000\u53d7\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u5fc5\u305a\u3000\uff11\u3060\u3051\u3000\u6b8b\u305b\u308b\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa resta con un PS anche se subisce un\ncolpo da KO in quel turno. Usata in successione\npu\u00f2 fallire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Resiste cualquier ataque y deja al menos 1 PS. \nPuede fallar si se usa repetidamente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Nach fatalen Attacken bleibt stets 1 KP \u00fcbrig.\nMisserfolg bei Wiederholung m\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9siste aux attaques avec 1 PV.\nPeut \u00e9chouer si utilis\u00e9e plusieurs fois de suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u5373\u4f7f\u53d7\u5230\u518d\u5f37\u70c8\u7684\u653b\u64ca\uff0c\n\u4e5f\u4e00\u5b9a\u6703\u5269\u4e0b\uff11\uff28\uff30\u3002\n\u9023\u7e8c\u4f7f\u7528\u6642\u5bb9\u6613\u5931\u6557\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uc744 \ubc1b\uc544\ub3c4\nHP\ub97c \ubc18\ub4dc\uc2dc 1\ub9cc\ud07c\uc740 \ub0a8\uae34\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u304b\u306a\u3089\u305a\u3000\uff11\u3060\u3051\u3000\u306e\u3053\u305b\u308b\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3092\u3000\u53d7\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u5fc5\u305a\u3000\uff11\u3060\u3051\u3000\u6b8b\u305b\u308b\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa resta con un PS anche se subisce un\ncolpo da KO in quel turno. Usata in successione\npu\u00f2 fallire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Resiste cualquier ataque y deja al menos 1 PS. \nPuede fallar si se usa repetidamente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Nach fatalen Attacken bleibt stets 1 KP \u00fcbrig.\nMisserfolg bei Wiederholung m\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9siste aux attaques avec 1 PV.\nPeut \u00e9chouer si utilis\u00e9e plusieurs fois de suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uc744 \ubc1b\uc544\ub3c4\nHP\ub97c \ubc18\ub4dc\uc2dc 1\ub9cc\ud07c\uc740 \ub0a8\uae34\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u304b\u306a\u3089\u305a\u3000\uff11\u3060\u3051\u3000\u306e\u3053\u305b\u308b\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u6483\u3092\u3000\u53d7\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u5fc5\u305a\u3000\uff11\u3060\u3051\u3000\u6b8b\u305b\u308b\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa resta con un PS anche se subisce\nun colpo da KO in quel turno. Usata in successione\npu\u00f2 fallire.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Nach fatalen Attacken bleibt stets 1 KP \u00fcbrig.\nMisserfolg bei Wiederholung m\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9siste aux attaques avec 1 PV.\nPeut \u00e9chouer si utilis\u00e9e plusieurs fois de suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uacf5\uaca9\uc744 \ubc1b\uc544\ub3c4\nHP\ub97c \ubc18\ub4dc\uc2dc 1\ub9cc\ud07c\uc740 \ub0a8\uae34\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u3066\u3082\n\uff28\uff30\u3092\u3000\u304b\u306a\u3089\u305a\u3000\uff11\u3060\u3051\u3000\u306e\u3053\u305b\u308b\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any attack with at least\n1 HP. Its chance of failing rises if it is\nused in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur r\u00e9siste aux attaques avec\n1 PV. Peut \u00e9chouer si utilis\u00e9e plusieurs\nfois de suite.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any\nattack with at least\n1 HP. Its chance of\nfailing rises if it is\nused in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any\nattack, leaving 1 HP.\nIts chance of failing\nrises if it is used in\nsuccession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user endures any\nattack, leaving 1 HP.\nIts chance of failing\nrises if it is used in\nsuccession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The user endures\nany hit with 1 HP\nleft. It may fail if\nused in succession.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Endures any attack for\n1 turn, leaving at least 1HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Endures any attack for\n1 turn, leaving at least 1HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Always leaves at\nleast 1HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Always leaves at\nleast 1HP.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "id": 203,
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/345/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/346/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/964/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/965/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/966/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "endure",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u633a\u4f4f"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3053\u3089\u3048\u308b"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Endure"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Resistenza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Aguante"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Ausdauer"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "T\u00e9nacit\u00e9"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u633a\u4f4f"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubc84\ud2f0\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3053\u3089\u3048\u308b"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 10,
+    "priority": 4,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "user",
+        "url": "/api/v2/move-target/7/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

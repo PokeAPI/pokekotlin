@@ -1,0 +1,604 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": {
+        "name": "tough",
+        "url": "/api/v2/contest-type/5/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.\n\nIf the target is holding a jaboca berry or rowap berry, the berry is still removed, but has no effect.\n\nIf this move is super effective and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "If target has a berry, inflicts double damage and uses the berry."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u54ac\u4f4f\u8fdb\u884c\u653b\u51fb\u3002\n\u5f53\u5bf9\u624b\u643a\u5e26\u6811\u679c\u65f6\uff0c\n\u53ef\u4ee5\u98df\u7528\u5e76\u83b7\u5f97\u5176\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u307f\u3064\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u307f\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u98df\u3079\u3066\u3000\u304d\u306e\u307f\u306e\u3000\u52b9\u679c\u3092\u3000\u53d7\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the target. If the target is holding a\nBerry, the user eats it and gains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa morde il bersaglio. Inoltre, se questi ha\nuna bacca, gliela ruba e ne sfrutta gli effetti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Pica al objetivo. Si el objetivo lleva una baya, el \nusuario se la come y se beneficia de su efecto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Anwender bei\u00dft das Ziel. Tr\u00e4gt dieses eine Beere,\nisst der Anwender sie und erh\u00e4lt ihren Effekt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pique l\u2019ennemi.\nSi ce dernier tient une Baie, le lanceur la d\u00e9vore\net obtient son effet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53ee\u54ac\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u53ef\u4ee5\u5403\u4e0b\u5c0d\u624b\u651c\u5e36\u7684\u6a39\u679c\uff0c\n\u4e26\u7372\u5f97\u6a39\u679c\u7684\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ubb3c\uc5b4\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\uba39\uc5b4\uc11c \ub098\ubb34\uc5f4\ub9e4\uc758 \ud6a8\uacfc\ub97c \ubc1b\uc744 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u307f\u3064\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u307f\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u305f\u3079\u3066\u3000\u304d\u306e\u307f\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3046\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u54ac\u4f4f\u8fdb\u884c\u653b\u51fb\u3002\n\u5f53\u5bf9\u624b\u643a\u5e26\u6811\u679c\u65f6\uff0c\n\u53ef\u4ee5\u98df\u7528\u5e76\u83b7\u5f97\u5176\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u307f\u3064\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u307f\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u98df\u3079\u3066\u3000\u304d\u306e\u307f\u306e\u3000\u52b9\u679c\u3092\u3000\u53d7\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the target. If the target is holding a\nBerry, the user eats it and gains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa morde il bersaglio. Inoltre, se questi ha\nuna bacca, gliela ruba e ne sfrutta gli effetti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Pica al objetivo. Si el objetivo lleva una baya, el \nusuario se la come y se beneficia de su efecto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Anwender bei\u00dft das Ziel. Tr\u00e4gt dieses eine Beere,\nisst der Anwender sie und erh\u00e4lt ihren Effekt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pique l\u2019ennemi.\nSi ce dernier tient une Baie, le lanceur la d\u00e9vore\net obtient son effet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u53ee\u54ac\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u53ef\u4ee5\u5403\u4e0b\u5c0d\u624b\u651c\u5e36\u7684\u6a39\u679c\uff0c\n\u4e26\u7372\u5f97\u6a39\u679c\u7684\u6548\u679c\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ubb3c\uc5b4\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\uba39\uc5b4\uc11c \ub098\ubb34\uc5f4\ub9e4\uc758 \ud6a8\uacfc\ub97c \ubc1b\uc744 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u307f\u3064\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u307f\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u305f\u3079\u3066\u3000\u304d\u306e\u307f\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3046\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u202f\u3064\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u202f\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u98df\u3079\u3066\u3000\u304d\u306e\u202f\u306e\u3000\u52b9\u679c\u3092\u3000\u53d7\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa morde il bersaglio. Inoltre, se questi ha\nuna bacca, gliela ruba e ne sfrutta gli effetti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Pica al objetivo. Si el objetivo lleva una baya, el \nusuario se la come y se beneficia de su efecto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender bei\u00dft das Ziel. Tr\u00e4gt dieses eine Beere,\nisst der Anwender sie und erh\u00e4lt ihren Effekt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pique l\u2019ennemi.\nSi ce dernier tient une Baie, le lanceur la d\u00e9vore\net obtient son effet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubb3c\uc5b4\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\uba39\uc5b4\uc11c \ub098\ubb34\uc5f4\ub9e4\uc758 \ud6a8\uacfc\ub97c \ubc1b\uc744 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u202f\u3064\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u202f\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u305f\u3079\u3066\u3000\u304d\u306e\u202f\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3046\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u307f\u3064\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u76f8\u624b\u304c\u3000\u304d\u306e\u307f\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3068\u304d\n\u98df\u3079\u3066\u3000\u304d\u306e\u307f\u306e\u3000\u52b9\u679c\u3092\u3000\u53d7\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa morde il bersaglio. Inoltre, se questi ha\nuna bacca, gliela ruba e ne sfrutta gli effetti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender bei\u00dft das Ziel. Tr\u00e4gt dieses eine Beere,\nisst der Anwender sie und erh\u00e4lt ihren Effekt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pique l\u2019ennemi.\nSi ce dernier tient une Baie, le lanceur la d\u00e9vore\net obtient son effet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubb3c\uc5b4\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uc0c1\ub300\uac00 \ub098\ubb34\uc5f4\ub9e4\ub97c \uc9c0\ub2c8\uace0 \uc788\uc744 \ub54c\n\uba39\uc5b4\uc11c \ub098\ubb34\uc5f4\ub9e4\uc758 \ud6a8\uacfc\ub97c \ubc1b\uc744 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u307f\u3064\u3044\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3042\u3044\u3066\u304c\u3000\u304d\u306e\u307f\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3000\u3068\u304d\n\u305f\u3079\u3066\u3000\u304d\u306e\u307f\u306e\u3000\u3053\u3046\u304b\u3092\u3000\u3046\u3051\u3089\u308c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the target. If the target\nis holding a Berry, the user eats it and\ngains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur pique l\u2019ennemi. Si ce dernier\ntient une Baie, le lanceur la d\u00e9vore et\nobtient son effet.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iv",
+        "url": "/api/v2/generation/4/"
+    },
+    "id": 450,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "bug-bite",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u866b\u54ac"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3080\u3057\u304f\u3044"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Bug Bite"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Coleomorso"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Picadura"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "K\u00e4ferbiss"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Piq\u00fbre"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u87f2\u54ac"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubc8c\ub808\uba39\uc74c"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3080\u3057\u304f\u3044"
+        }
+    ],
+    "past_values": [],
+    "power": 60,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/12/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "bug",
+        "url": "/api/v2/type/7/"
+    }
+}

@@ -1,0 +1,930 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 255,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "flying",
+            "url": "/api/v2/egg-group/4/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/83/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6bcf\u5929\u5fc5\u5b9a\u4f1a\u6309\u56fa\u5b9a\u7684\u8282\u594f\u503e\u659c\u8116\u5b50\u3002\n\u8fc7\u53bb\u4eba\u4eec\u4f1a\u517b\u5b83\u6765\u4ee3\u66ff\u65f6\u949f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6bce\u65e5\u3000\u5fc5\u305a\u3000\u6c7a\u307e\u3063\u305f\u30ea\u30ba\u30e0\u3067\n\u9996\u3092\u3000\u304b\u3057\u3052\u308b\u3002\u3000\u6614\u306e\u4eba\u306f\n\u6642\u8a08\u306e\u3000\u4ee3\u308f\u308a\u306b\u3000\u98fc\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Every day, it tilts its head in the same rhythm.\nA long time ago, people raised these Pok\u00e9mon\nto serve as clocks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Ogni giorno piega la testa a intervalli regolari.\nIn passato questi Pok\u00e9mon venivano usati\ncome veri e propri orologi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Mueve la cabeza a un ritmo preciso y constante,\npor lo que en la antig\u00fcedad la gente lo usaba\ncomo reloj.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es neigt seinen Kopf tagein, tagaus in einem\nfestgelegten Rhythmus. Fr\u00fcher verwendete man\nes als Uhr.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il hoche toujours la t\u00eate au m\u00eame rythme,\naussi faisait-il fr\u00e9quemment office d\u2019horloge\npar le pass\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6bcf\u5929\u5fc5\u5b9a\u6703\u6309\u7167\n\u56fa\u5b9a\u7684\u7bc0\u594f\u50be\u659c\u8116\u5b50\uff0c\n\u904e\u53bb\u4eba\u5011\u6703\u990a\u7260\u4f86\u4ee3\u66ff\u6642\u9418\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ub9e4\uc77c \uc815\ud574\uc9c4 \ub9ac\ub4ec\uc5d0 \ub9de\ucdb0\n\ubaa9\uc744 \uae30\uc6b8\uc778\ub2e4. \uc61b\ub0a0 \uc0ac\ub78c\ub4e4\uc740\n\uc2dc\uacc4 \ub300\uc6a9\uc73c\ub85c \uae38\ub800\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3044\u306b\u3061\u3000\u304b\u306a\u3089\u305a\u3000\u304d\u307e\u3063\u305f\u30ea\u30ba\u30e0\u3067\n\u304f\u3073\u3092\u3000\u304b\u3057\u3052\u308b\u3002\u3000\u3080\u304b\u3057\u306e\u3072\u3068\u306f\n\u3068\u3051\u3044\u306e\u3000\u304b\u308f\u308a\u306b\u3000\u304b\u3063\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u306e\u3000\u4e2d\u306b\u306f\u3000\u5730\u7403\u306e\u3000\u81ea\u8ee2\u3092\n\u611f\u3058\u53d6\u308b\u3000\u5668\u5b98\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u306e\u3067\u3000\u6bce\u65e5\n\u540c\u3058\u3000\u6642\u9593\u306b\u3000\u306a\u308b\u3068\u3000\u9cf4\u304d\u58f0\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot has an internal organ that senses and tracks the\nearth\u2019s rotation. Using this special organ, this Pok\u00e9mon\nbegins hooting at precisely the same time every day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot \u00e8 dotato di un organo interno che percepisce\ne segue la rotazione terrestre. Grazie a questo speciale\norgano inizia a urlare esattamente alla stessa ora ogni giorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot tiene un \u00f3rgano interno que identifica y percibe la\nrotaci\u00f3n de la tierra. Gracias a este \u00f3rgano, el Pok\u00e9mon ulula\ntodos los d\u00edas a la misma hora.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot besitzt ein inneres Organ, das die Erdumdrehung\nwahrnimmt. Dieses besondere Organ erm\u00f6glicht es diesem\nPok\u00e9mon, jeden Tag zur selben Zeit zu schreien.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot est dot\u00e9 d\u2019un organe interne qui ressent et suit\nla rotation de la plan\u00e8te. Gr\u00e2ce \u00e0 cet organe peu ordinaire,\nce Pok\u00e9mon commence \u00e0 hululer tous les jours exactement\n\u00e0 la m\u00eame heure.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8 \uc548\uc5d0 \uc9c0\uad6c\uc758 \uc790\uc804\uc744\n\uac10\uc9c0\ud574\ub0b4\ub294 \uae30\uad00\uc744 \uc9c0\ub2c8\uace0 \uc788\uc5b4\uc11c \ub9e4\uc77c\n\uac19\uc740 \uc2dc\uac04\uc774 \ub418\uba74 \uc6b8\uc74c\uc18c\ub9ac\ub97c \ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u306e\u3000\u306a\u304b\u306b\u306f\u3000\u3061\u304d\u3085\u3046\u306e\u3000\u3058\u3066\u3093\u3092\n\u304b\u3093\u3058\u3068\u308b\u3000\u304d\u304b\u3093\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u306e\u3067\u3000\u307e\u3044\u306b\u3061\n\u304a\u306a\u3058\u3000\u3058\u304b\u3093\u306b\u3000\u306a\u308b\u3068\u3000\u306a\u304d\u3054\u3048\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u306e\u3000\u4e2d\u306b\u306f\u3000\u5730\u7403\u306e\u3000\u81ea\u8ee2\u3092\n\u611f\u3058\u53d6\u308b\u3000\u5668\u5b98\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u306e\u3067\u3000\u6bce\u65e5\n\u540c\u3058\u3000\u6642\u9593\u306b\u3000\u306a\u308b\u3068\u3000\u9cf4\u304d\u58f0\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot has an internal organ that senses and tracks the\nearth\u2019s rotation. Using this special organ, this Pok\u00e9mon begins\nhooting at precisely the same time every day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot \u00e8 dotato di un organo interno che percepisce\ne segue la rotazione terrestre. Grazie a questo speciale\norgano inizia a urlare esattamente alla stessa ora ogni giorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot tiene un \u00f3rgano interno que identifica y percibe la\nrotaci\u00f3n de la tierra. Gracias a este \u00f3rgano, el Pok\u00e9mon ulula\ntodos los d\u00edas a la misma hora.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot besitzt ein inneres Organ, das die Erdumdrehung\nwahrnimmt. Dieses besondere Organ erm\u00f6glicht es diesem\nPok\u00e9mon, jeden Tag zur selben Zeit zu schreien.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Hoothoot est dot\u00e9 d\u2019un organe interne qui ressent et suit\nla rotation de la plan\u00e8te. Gr\u00e2ce \u00e0 cet organe peu ordinaire,\nce Pok\u00e9mon commence \u00e0 hululer tous les jours exactement\n\u00e0 la m\u00eame heure.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8 \uc548\uc5d0 \uc9c0\uad6c\uc758 \uc790\uc804\uc744\n\uac10\uc9c0\ud574\ub0b4\ub294 \uae30\uad00\uc744 \uc9c0\ub2c8\uace0 \uc788\uc5b4\uc11c \ub9e4\uc77c\n\uac19\uc740 \uc2dc\uac04\uc774 \ub418\uba74 \uc6b8\uc74c\uc18c\ub9ac\ub97c \ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u3089\u3060\u306e\u3000\u306a\u304b\u306b\u306f\u3000\u3061\u304d\u3085\u3046\u306e\u3000\u3058\u3066\u3093\u3092\n\u304b\u3093\u3058\u3068\u308b\u3000\u304d\u304b\u3093\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u306e\u3067\u3000\u307e\u3044\u306b\u3061\n\u304a\u306a\u3058\u3000\u3058\u304b\u3093\u306b\u3000\u306a\u308b\u3068\u3000\u306a\u304d\u3054\u3048\u3092\u3000\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u4e00\u672c\u8db3\u3067\u3000\u7acb\u3063\u3066\u3044\u308b\u3002\n\u811a\u3092\u3000\u5165\u308c\u66ff\u3048\u308b\u3000\u77ac\u9593\u306f\n\u7d20\u65e9\u304f\u3066\u3000\u306a\u304b\u306a\u304b\u3000\u898b\u3089\u308c\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It always stands on one foot. It changes feet so\nfast, the movement can rarely be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sta sempre su un piede solo. Cambia piede cos\u00ec\nrapidamente che \u00e8 raro vederlo mentre lo fa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Camina con una sola pata. Cambia tan r\u00e1pidamente\nde pata que apenas se le ve.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es steht immer auf einem Bein. Es wechselt sein\nStandbein so schnell, dass man es kaum sieht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il se tient toujours sur un pied. Il change de pied\nsi vite qu\u2019on peut \u00e0 peine distinguer ce mouvement.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud56d\uc0c1 \ud55c \ubc1c\ub85c \uc11c \uc788\ub2e4.\n\ubc1c\uc744 \uad50\uccb4\ud558\ub294 \uc21c\uac04\uc774\n\ube68\ub77c\uc11c \uc880\ucc98\ub7fc \ubcfc \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u3044\u3063\u307d\u3093\u3042\u3057\u3067\u3000\u305f\u3063\u3066\u3044\u308b\u3002\n\u3042\u3057\u3092\u3000\u3044\u308c\u304b\u3048\u308b\u3000\u3057\u3085\u3093\u304b\u3093\u306f\n\u3059\u3070\u3084\u304f\u3066\u3000\u306a\u304b\u306a\u304b\u3000\u307f\u3089\u308c\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u5185\u306e\u3000\u6642\u9593\u306e\u3000\u9593\u9694\u306f\n\u3069\u3093\u306a\u3068\u304d\u3067\u3082\u3000\u6b63\u78ba\u3067\n\u6c7a\u307e\u3063\u305f\u3000\u30ea\u30ba\u30e0\u3067\u3000\u9996\u3092\u304b\u3057\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It has a perfect sense of time. Whatever happens,\nit keeps rhythm by precisely tilting its head in time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ha un eccezionale senso del ritmo. Tiene il tempo\npiegando la testa a intervalli regolari.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Su percepci\u00f3n del tiempo es exacta. Ocurra lo que\nocurra, lleva el ritmo moviendo la cabeza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sein Zeitgef\u00fchl ist perfekt. Was auch immer passiert,\nes beh\u00e4lt den Rhythmus, da sein Kopf wackelt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il a un sens du timing parfait. Il reste toujours en\nrythme en balan\u00e7ant sa t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uccb4\ub0b4\uc758 \uc2dc\uac04 \uac10\uac01\uc740\n\uc5b4\ub290 \ub54c\ub4e0 \uc815\ud655\ud574\uc11c\n\uaddc\uce59\uc801\uc778 \ub9ac\ub4ec\uc73c\ub85c \ubaa9\uc744 \uae30\uc6b8\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3044\u306a\u3044\u306e\u3000\u3058\u304b\u3093\u306e\u3000\u304b\u3093\u304b\u304f\u306f\n\u3069\u3093\u306a\u3068\u304d\u3067\u3082\u3000\u305b\u3044\u304b\u304f\u3067\n\u304d\u307e\u3063\u305f\u3000\u30ea\u30ba\u30e0\u3067\u3000\u304f\u3073\u3092\u304b\u3057\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world\u2019s ways.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world\u2019s ways.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world\u2019s ways.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Il hulule chaque jour \u00e0 la m\u00eame\nheure. Dans certaines cultures,\nil incarne la sagesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world\u2019s ways.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il hulule chaque jour \u00e0 la m\u00eame\nheure. Dans certaines cultures,\nil incarne la sagesse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It has a perfect sense of time.\nWhatever happens, it keeps rhythm by\nprecisely tilting its head in time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It always stands on one foot.\nIt changes feet so fast,\nthe movement can rarely be seen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It marks time precisely. Some\ncountries consider it to be a wise\nfriend, versed in the world\u2019s ways.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It switches its standing foot so\nquickly, it can\u2019t be seen. It cries\nat the same time every day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It always stands on one foot.\nEven when attacked, it does not\nbrace itself using both feet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It always stands on one foot. It changes\nfeet so fast, the movement can rarely be\nseen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It has a perfect sense of time. Whatever\nhappens, it keeps rhythm by precisely\ntilting its head in time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "It has an internal organ that senses\nthe earth\u2019s rotation. Using this special\norgan, a HOOTHOOT begins hooting at\nprecisely the same time every day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "HOOTHOOT has an internal organ that\nsenses and tracks the earth\u2019s rotation.\nUsing this special organ, this POK\u00e9MON\fbegins hooting at precisely the same\ntime every day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "HOOTHOOT has an internal organ that\nsenses and tracks the earth\u2019s rotation.\nUsing this special organ, this POK\u00e9MON\fbegins hooting at precisely the same\ntime every day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "It begins to hoot\nat the same time\nevery day. Some\ftrainers use them\nin place of\nclocks.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "It has a perfect\nsense of time.\nWhatever happens,\fit keeps rhythm by\nprecisely tilting\nits head in time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It always stands\non one foot. It\nchanges feet so\ffast, the movement\ncan rarely be\nseen.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u732b\u5934\u9e70\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3075\u304f\u308d\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Owl Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gufo",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon B\u00faho",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Eule",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Hibou",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u8c93\u982d\u9df9\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\ubd80\uc5c9\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3075\u304f\u308d\u3046\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-ii",
+        "url": "/api/v2/generation/2/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 163,
+    "is_baby": false,
+    "name": "hoothoot",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5495\u5495"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30db\u30fc\u30db\u30fc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Hoothoot"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Hoothoot"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Hoothoot"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Hoothoot"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Hoothoot"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5495\u5495"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubd80\uc6b0\ubd80"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Hoho"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30db\u30fc\u30db\u30fc"
+        }
+    ],
+    "order": 195,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "/api/v2/pal-park-area/1/"
+            },
+            "base_score": 30,
+            "rate": 50
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 117,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 15,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 106,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 106,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 15,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 163,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "wings",
+        "url": "/api/v2/pokemon-shape/9/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "hoothoot",
+                "url": "/api/v2/pokemon/163/"
+            }
+        }
+    ]
+}

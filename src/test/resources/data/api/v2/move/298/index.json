@@ -1,0 +1,639 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/6/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Confuses all targets.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Confuses the target."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6447\u6447\u6643\u6643\u5730\u8df3\u8d77\u821e\u8e48\uff0c\n\u8ba9\u81ea\u5df1\u5468\u56f4\u7684\u5b9d\u53ef\u68a6\n\u9677\u5165\u6df7\u4e71\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u81ea\u5206\u306e\u3000\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u6df7\u4e71\u72b6\u614b\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a wobbly dance that confuses\nthe Pok\u00e9mon around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa esegue una danza goffa che confonde\ntutti i Pok\u00e9mon attorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Danza hist\u00e9rica que confunde a los Pok\u00e9mon que \nest\u00e1n alrededor del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Ein Wackeltanz, der andere Pok\u00e9mon in der\nUmgebung des Anwenders verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Danse qui rend confus tous les Pok\u00e9mon autour\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6416\u6416\u6643\u6643\u5730\u8df3\u8d77\u821e\uff0c\n\u8b93\u81ea\u5df1\u5468\u570d\u7684\u5bf6\u53ef\u5922\n\u9677\u5165\u6df7\u4e82\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ud754\ub4e4\ud754\ub4e4 \ub304\uc2a4\ub97c \ucdb0\uc11c\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744\n\ud63c\ub780 \uc0c1\ud0dc\ub85c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u3058\u3076\u3093\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u3053\u3093\u3089\u3093\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u6447\u6447\u6643\u6643\u5730\u8df3\u8d77\u821e\u8e48\uff0c\n\u8ba9\u81ea\u5df1\u5468\u56f4\u7684\u5b9d\u53ef\u68a6\n\u9677\u5165\u6df7\u4e71\u72b6\u6001\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u81ea\u5206\u306e\u3000\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u6df7\u4e71\u72b6\u614b\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a wobbly dance that confuses\nthe Pok\u00e9mon around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa esegue una danza goffa che confonde\ntutti i Pok\u00e9mon attorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Danza hist\u00e9rica que confunde a los Pok\u00e9mon que \nest\u00e1n alrededor del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Ein Wackeltanz, der andere Pok\u00e9mon in der\nUmgebung des Anwenders verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Danse qui rend confus tous les Pok\u00e9mon autour\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u6416\u6416\u6643\u6643\u5730\u8df3\u8d77\u821e\uff0c\n\u8b93\u81ea\u5df1\u5468\u570d\u7684\u5bf6\u53ef\u5922\n\u9677\u5165\u6df7\u4e82\u72c0\u614b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ud754\ub4e4\ud754\ub4e4 \ub304\uc2a4\ub97c \ucdb0\uc11c\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744\n\ud63c\ub780 \uc0c1\ud0dc\ub85c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u3058\u3076\u3093\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u3053\u3093\u3089\u3093\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u81ea\u5206\u306e\u3000\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u6df7\u4e71\u72b6\u614b\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a wobbly dance that\nconfuses the Pok\u00e9mon around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa esegue una danza goffa che confonde\ntutti i Pok\u00e9mon attorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Danza hist\u00e9rica que confunde a los Pok\u00e9mon que \nest\u00e1n alrededor del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ein Wackeltanz, der andere Pok\u00e9mon\nin der Umgebung des Anwenders verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Danse qui rend confus tous les Pok\u00e9mon autour\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud754\ub4e4\ud754\ub4e4 \ub304\uc2a4\ub97c \ucdb0\uc11c\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744\n\ud63c\ub780 \uc0c1\ud0dc\ub85c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u3058\u3076\u3093\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u3053\u3093\u3089\u3093\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u81ea\u5206\u306e\u3000\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u6df7\u4e71\u72b6\u614b\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a wobbly dance that\nconfuses the Pok\u00e9mon around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa esegue una danza goffa che confonde\ntutti i Pok\u00e9mon attorno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Danza hist\u00e9rica que confunde a los Pok\u00e9mon que\nest\u00e1n alrededor del usuario.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ein Wackeltanz, der andere Pok\u00e9mon\nin der Umgebung des Anwenders verwirrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Danse qui rend confus tous les Pok\u00e9mon autour\ndu lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud754\ub4e4\ud754\ub4e4 \ub304\uc2a4\ub97c \ucdb0\uc11c\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744\n\ud63c\ub780 \uc0c1\ud0dc\ub85c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u30d5\u30e9\u30d5\u30e9\u3068\u3000\u30c0\u30f3\u30b9\u3092\u3000\u304a\u3069\u3063\u3066\n\u3058\u3076\u3093\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\n\u3053\u3093\u3089\u3093\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3055\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a wobbly dance that\nconfuses the Pok\u00e9mon around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a wobbly dance that\nconfuses the Pok\u00e9mon around it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Danse qui rend confus tous les\nPok\u00e9mon autour du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a\nwobbly dance that\nconfuses all the\nPok\u00e9mon in battle.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a\nwobbly dance that\nconfuses all the\nPok\u00e9mon in battle.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user performs a\nwobbly dance that\nconfuses all the\nPok\u00e9mon in battle.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A wobbly dance\nthat confuses all\nthe POK\u00e9MON in\nbattle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Confuses all POK\u00e9MON on\nthe scene.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Confuses all POK\u00e9MON on\nthe scene.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 298,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "confusion",
+            "url": "/api/v2/move-ailment/6/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "ailment",
+            "url": "/api/v2/move-category/1/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": 5,
+        "min_hits": null,
+        "min_turns": 2,
+        "stat_chance": 0
+    },
+    "name": "teeter-dance",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6447\u6643\u821e"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d5\u30e9\u30d5\u30e9\u30c0\u30f3\u30b9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Teeter Dance"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Strampadanza"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Danza Caos"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Taumeltanz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Danse-Folle"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6416\u6643\u821e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud754\ub4e4\ud754\ub4e4\ub304\uc2a4"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d5\u30e9\u30d5\u30e9\u30c0\u30f3\u30b9"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/14/"
+    },
+    "target": {
+        "name": "all-other-pokemon",
+        "url": "/api/v2/move-target/9/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

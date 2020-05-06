@@ -1,0 +1,652 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/9/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  If the target is paralyzed, this move has double power, and the target is cured of its paralysis.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "If the target is paralyzed, inflicts double damage and cures the paralysis."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5bf9\u4e8e\u9ebb\u75f9\u72b6\u6001\u4e0b\u7684\u5bf9\u624b\uff0c\n\u5a01\u529b\u4f1a\u53d8\u6210\uff12\u500d\u3002\n\u4f46\u76f8\u53cd\u5bf9\u624b\u7684\u9ebb\u75f9\u4e5f\u4f1a\u88ab\u6cbb\u6108\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u72b6\u614b\u306e\u3000\u76f8\u624b\u306b\u306f\n\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u76f8\u624b\u306e\u3000\u307e\u3072\u304c\u3000\u6cbb\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "This attack\u2019s power is doubled when used on a\ntarget with paralysis. This also cures the target\u2019s\nparalysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Infligge un danno doppio a un bersaglio\nparalizzato, ma ne cura anche la paralisi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Hace el doble de da\u00f1o a objetivos paralizados, \npero tambi\u00e9n cura la par\u00e1lisis.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Doppelt wirksam gegen paralysierte Ziele, heilt sie\naber auch von der Paralyse.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est doublement efficace sur les\nPok\u00e9mon paralys\u00e9s, mais elle soigne leur paralysie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u64ca\u9677\u5165\u9ebb\u75fa\u72c0\u614b\u7684\u5c0d\u624b\u6642\uff0c\n\u5a01\u529b\u6703\u8b8a\u6210\uff12\u500d\u3002\n\u4f46\u4e5f\u6703\u6cbb\u7652\u5c0d\u624b\u7684\u9ebb\u75fa\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\ube44 \uc0c1\ud0dc\uc758 \uc0c1\ub300\uc5d0\uac8c\ub294\n\uc704\ub825\uc774 2\ubc30\uac00 \ub418\uc9c0\ub9cc\n\ub300\uc2e0 \uc0c1\ub300\uc758 \ub9c8\ube44\uac00 \ud480\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u3000\u3058\u3087\u3046\u305f\u3044\u306e\u3000\u3042\u3044\u3066\u306b\u306f\n\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u3042\u3044\u3066\u306e\u3000\u307e\u3072\u304c\u3000\u306a\u304a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u5bf9\u4e8e\u9ebb\u75f9\u72b6\u6001\u4e0b\u7684\u5bf9\u624b\uff0c\n\u5a01\u529b\u4f1a\u53d8\u6210\uff12\u500d\u3002\n\u4f46\u76f8\u53cd\u5bf9\u624b\u7684\u9ebb\u75f9\u4e5f\u4f1a\u88ab\u6cbb\u6108\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u72b6\u614b\u306e\u3000\u76f8\u624b\u306b\u306f\n\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u76f8\u624b\u306e\u3000\u307e\u3072\u304c\u3000\u6cbb\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "This attack\u2019s power is doubled when used on a\ntarget with paralysis. This also cures the target\u2019s\nparalysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Infligge un danno doppio a un bersaglio\nparalizzato, ma ne cura anche la paralisi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Hace el doble de da\u00f1o a objetivos paralizados, \npero tambi\u00e9n cura la par\u00e1lisis.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Doppelt wirksam gegen paralysierte Ziele, heilt sie\naber auch von der Paralyse.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est doublement efficace sur les\nPok\u00e9mon paralys\u00e9s, mais elle soigne leur paralysie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u653b\u64ca\u9677\u5165\u9ebb\u75fa\u72c0\u614b\u7684\u5c0d\u624b\u6642\uff0c\n\u5a01\u529b\u6703\u8b8a\u6210\uff12\u500d\u3002\n\u4f46\u4e5f\u6703\u6cbb\u7652\u5c0d\u624b\u7684\u9ebb\u75fa\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\ube44 \uc0c1\ud0dc\uc758 \uc0c1\ub300\uc5d0\uac8c\ub294\n\uc704\ub825\uc774 2\ubc30\uac00 \ub418\uc9c0\ub9cc\n\ub300\uc2e0 \uc0c1\ub300\uc758 \ub9c8\ube44\uac00 \ud480\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u3000\u3058\u3087\u3046\u305f\u3044\u306e\u3000\u3042\u3044\u3066\u306b\u306f\n\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u3042\u3044\u3066\u306e\u3000\u307e\u3072\u304c\u3000\u306a\u304a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u72b6\u614b\u306e\u3000\u76f8\u624b\u306b\u306f\n\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u76f8\u624b\u306e\u3000\u307e\u3072\u304c\u3000\u6cbb\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "This attack inflicts double damage on a\ntarget with paralysis. This also cures the\ntarget\u2019s paralysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Infligge un danno doppio a un bersaglio\nparalizzato, ma ne cura anche la paralisi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Hace el doble de da\u00f1o a objetivos paralizados, \npero tambi\u00e9n cura la par\u00e1lisis.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Doppelt wirksam gegen paralysierte Ziele,\nheilt sie aber auch von der Paralyse.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est doublement efficace sur les\nPok\u00e9mon paralys\u00e9s, mais elle soigne leur paralysie. ",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\ube44 \uc0c1\ud0dc\uc758 \uc0c1\ub300\uc5d0\uac8c\ub294\n\uc704\ub825\uc774 2\ubc30\uac00 \ub418\uc9c0\ub9cc\n\ub300\uc2e0 \uc0c1\ub300\uc758 \ub9c8\ube44\uac00 \ud480\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u3000\u3058\u3087\u3046\u305f\u3044\u306e\u3000\u3042\u3044\u3066\u306b\u306f\n\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u3042\u3044\u3066\u306e\u3000\u307e\u3072\u304c\u3000\u306a\u304a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u72b6\u614b\u306e\u3000\u76f8\u624b\u306b\u306f\n\u5a01\u529b\u304c\u3000\uff12\u500d\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u76f8\u624b\u306e\u3000\u307e\u3072\u304c\u3000\u6cbb\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This attack inflicts double damage on a\ntarget with paralysis. This also cures the\ntarget\u2019s paralysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Infligge un danno doppio a un bersaglio\nparalizzato, ma ne cura anche la paralisi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Hace el doble de da\u00f1o a objetivos paralizados,\npero tambi\u00e9n cura la par\u00e1lisis.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Doppelt wirksam gegen paralysierte Ziele,\nheilt sie aber auch von der Paralyse.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est doublement efficace sur les\nPok\u00e9mon paralys\u00e9s, mais elle soigne leur paralysie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub9c8\ube44 \uc0c1\ud0dc\uc758 \uc0c1\ub300\uc5d0\uac8c\ub294\n\uc704\ub825\uc774 2\ubc30\uac00 \ub418\uc9c0\ub9cc\n\ub300\uc2e0 \uc0c1\ub300\uc758 \ub9c8\ube44\uac00 \ud480\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3072\u3000\u3058\u3087\u3046\u305f\u3044\u306e\u3000\u3042\u3044\u3066\u306b\u306f\n\u3044\u308a\u3087\u304f\u304c\u3000\uff12\u3070\u3044\u306b\u3000\u306a\u308b\u304c\n\u304b\u308f\u308a\u306b\u3000\u3042\u3044\u3066\u306e\u3000\u307e\u3072\u304c\u3000\u306a\u304a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This attack inflicts double damage on a\ntarget with paralysis. It also cures the\ntarget\u2019s paralysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "This attack inflicts double damage on a\ntarget with paralysis. It also cures the\ntarget\u2019s paralysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Cette attaque est doublement efficace\nsur les Pok\u00e9mon paralys\u00e9s, mais elle\nsoigne leur paralysie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe\u2019s\nparalysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe\u2019s\nparalysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe\u2019s\nparalysis, however.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Doubly effective on\na paralyzed foe,\nbut it also cures\nthe foe\u2019s paralysis.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Powerful against paralyzed\nfoes, but also heals them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Powerful against paralyzed\nfoes, but also heals them.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 265,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "smelling-salts",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6e05\u9192"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u304d\u3064\u3051"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Smelling Salts"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Maniereforti"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Est\u00edmulo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Riechsalz"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Stimulant"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u6e05\u9192"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc815\uc2e0\ucc28\ub9ac\uae30"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u304d\u3064\u3051"
+        }
+    ],
+    "past_values": [
+        {
+            "accuracy": null,
+            "effect_chance": null,
+            "effect_entries": [],
+            "power": 60,
+            "pp": null,
+            "type": null,
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        }
+    ],
+    "power": 70,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/16/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}

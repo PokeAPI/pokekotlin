@@ -1,0 +1,670 @@
+{
+    "accuracy": null,
+    "contest_combos": {
+        "normal": {
+            "use_after": [
+                {
+                    "name": "rain-dance",
+                    "url": "/api/v2/move/240/"
+                },
+                {
+                    "name": "mud-sport",
+                    "url": "/api/v2/move/300/"
+                }
+            ],
+            "use_before": [
+                {
+                    "name": "water-gun",
+                    "url": "/api/v2/move/55/"
+                },
+                {
+                    "name": "refresh",
+                    "url": "/api/v2/move/287/"
+                },
+                {
+                    "name": "mud-sport",
+                    "url": "/api/v2/move/300/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/1/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "fire moves inflict half damage, regardless of target.  If the user leaves the field, this effect ends.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Halves all Fire-type damage."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7528\u6c34\u6e7f\u900f\u5468\u56f4\u3002\n\u5728\uff15\u56de\u5408\u5185\n\u51cf\u5f31\u706b\u5c5e\u6027\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u6c34\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u6280\u3092\u3000\u5f31\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks the battlefield with water. This\nweakens Fire-type moves for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sparge acqua sul campo di lotta\nindebolendo per cinque turni le mosse\ndi tipo Fuoco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se empapa en agua, lo que debilita \nlos movimientos de tipo Fuego durante cinco \nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender l\u00e4sst Wasser herabregnen und\nschw\u00e4cht damit f\u00fcnf Runden lang Feuer-Attacken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Asperge d\u2019eau les alentours.\nAffaiblit les capacit\u00e9s de type Feu\npendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6c34\u628a\u5468\u570d\u5f04\u5f97\u6fd5\u7b54\u7b54\u3002\n\u5728\uff15\u56de\u5408\u5167\u6e1b\u5f31\u706b\u5c6c\u6027\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc8fc\uc704\ub97c \ubb3c\ub85c \ud760\ubed1 \uc816\uac8c \ub9cc\ub4e0\ub2e4.\n5\ud134 \ub3d9\uc548\n\ubd88\uaf43\ud0c0\uc785\uc758 \uae30\uc220\uc744 \uc57d\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u307f\u305a\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u3092\u3000\u3088\u308f\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6c34\u6e7f\u900f\u5468\u56f4\u3002\n\u5728\uff15\u56de\u5408\u5185\n\u51cf\u5f31\u706b\u5c5e\u6027\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u6c34\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u9593\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u6280\u3092\u3000\u5f31\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks the battlefield with water. This\nweakens Fire-type moves for five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sparge acqua sul campo di lotta\nindebolendo per cinque turni le mosse\ndi tipo Fuoco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se empapa en agua, lo que debilita \nlos movimientos de tipo Fuego durante cinco \nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender l\u00e4sst Wasser herabregnen und\nschw\u00e4cht damit f\u00fcnf Runden lang Feuer-Attacken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Asperge d\u2019eau les alentours.\nAffaiblit les capacit\u00e9s de type Feu\npendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u6c34\u628a\u5468\u570d\u5f04\u5f97\u6fd5\u7b54\u7b54\u3002\n\u5728\uff15\u56de\u5408\u5167\u6e1b\u5f31\u706b\u5c6c\u6027\u7684\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc8fc\uc704\ub97c \ubb3c\ub85c \ud760\ubed1 \uc816\uac8c \ub9cc\ub4e0\ub2e4.\n5\ud134 \ub3d9\uc548\n\ubd88\uaf43\ud0c0\uc785\uc758 \uae30\uc220\uc744 \uc57d\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u307f\u305a\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u3092\u3000\u3088\u308f\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u6c34\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u6280\u3092\u3000\u5f31\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks itself with water.\nThis weakens Fire-type moves\nfor five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sparge acqua sul campo di lotta\nindebolendo per cinque turni le mosse\ndi tipo Fuoco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se empapa en agua, lo que debilita \nlos movimientos de tipo Fuego durante cinco \nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender l\u00e4sst Wasser herabregnen und\nschw\u00e4cht damit f\u00fcnf Runden lang Feuer-Attacken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Asperge d\u2019eau les alentours.\nAffaiblit les capacit\u00e9s Feu pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc8fc\uc704\ub97c \ubb3c\ub85c \ud760\ubed1 \uc816\uac8c \ub9cc\ub4e0\ub2e4.\n5\ud134 \ub3d9\uc548\n\ubd88\uaf43\ud0c0\uc785\uc758 \uae30\uc220\uc744 \uc57d\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u202f\u305a\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u3092\u3000\u3088\u308f\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u6c34\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u6280\u3092\u3000\u5f31\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks itself with water.\nThis weakens Fire-type moves\nfor five turns.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa sparge acqua sul campo di lotta\nindebolendo per cinque turni le mosse\ndi tipo Fuoco.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El usuario se empapa en agua, lo que debilita\nlos movimientos de tipo Fuego durante cinco\nturnos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender l\u00e4sst Wasser herabregnen und\nschw\u00e4cht damit f\u00fcnf Runden lang Feuer-Attacken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Asperge d\u2019eau les alentours.\nAffaiblit les capacit\u00e9s Feu pendant cinq tours.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc8fc\uc704\ub97c \ubb3c\ub85c \ud760\ubed1 \uc816\uac8c \ub9cc\ub4e0\ub2e4.\n5\ud134 \ub3d9\uc548\n\ubd88\uaf43\ud0c0\uc785\uc758 \uae30\uc220\uc744 \uc57d\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u305f\u308a\u3092\u3000\u307f\u305a\u3067\u3000\u3073\u3057\u3087\u3073\u3057\u3087\u306b\u3059\u308b\u3002\n\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u307b\u306e\u304a\u30bf\u30a4\u30d7\u306e\u3000\u308f\u3056\u3092\u3000\u3088\u308f\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks itself with water. The move\nweakens Fire-type moves while the user\nis in the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks itself with water. The move\nweakens Fire-type moves while the user\nis in the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur s\u2019asperge d\u2019eau. Affaiblit\nles capacit\u00e9s Feu quand le lanceur\nest au combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks itself\nwith water. The move\nweakens Fire-type\nmoves while the user\nis in the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks itself\nwith water. The move\nweakens Fire-type\nmoves while the user\nis in the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user soaks itself\nwith water. The move\nweakens Fire-type\nmoves while the user\nis in the battle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Weakens FIRE-type\nattacks while the\nuser is in the\nbattle.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "The user becomes soaked to\nraise resistance to fire.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "The user becomes soaked to\nraise resistance to fire.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "id": 346,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "whole-field-effect",
+            "url": "/api/v2/move-category/10/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "water-sport",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u73a9\u6c34"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u307f\u305a\u3042\u305d\u3073"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Water Sport"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Docciascudo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Hidrochorro"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Nassmacher"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Tourniquet"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u73a9\u6c34"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubb3c\ub180\uc774"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u307f\u305a\u3042\u305d\u3073"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/13/"
+    },
+    "target": {
+        "name": "entire-field",
+        "url": "/api/v2/move-target/12/"
+    },
+    "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+    }
+}

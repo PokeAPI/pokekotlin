@@ -1,0 +1,787 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 60,
+    "color": {
+        "name": "purple",
+        "url": "/api/v2/pokemon-color/7/"
+    },
+    "egg_groups": [
+        {
+            "name": "fairy",
+            "url": "/api/v2/egg-group/6/"
+        },
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/148/"
+    },
+    "evolves_from_species": {
+        "name": "skitty",
+        "url": "/api/v2/pokemon-species/300/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6c7a\u307e\u3063\u305f\u3000\u3059\u202f\u304b\u3092\u3000\u6301\u305f\u305a\u306b\u3000\u66ae\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u4ed6\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u5bdd\u5e8a\u306b\u3000\u8fd1\u5bc4\u3063\u3066\u3000\u304d\u3066\u3082\n\u6c7a\u3057\u3066\u3000\u4e89\u308f\u305a\u3000\u5bdd\u308b\u3000\u5834\u6240\u3092\u3000\u5909\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty sleeps anywhere it wants without keeping a permanent\nnest. If other Pok\u00e9mon approach it as it sleeps, this Pok\u00e9mon\nwill never fight\u2014it will just move away somewhere else.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty dorme dove pi\u00f9 gli aggrada senza mai una dimora\nfissa. Se gli si avvicinano altri Pok\u00e9mon, Delcatty non lotta\nmai, ma leva le tende e si sposta da un\u2019altra parte.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty duerme en cualquier lugar sin tener que mantener el\nnido en un mismo sitio. Si otro Pok\u00e9mon se le acerca mientras\nduerme, no se pondr\u00e1 a luchar con \u00e9l; simplemente se ir\u00e1 a\notro sitio.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Enekoro schl\u00e4ft dort, wo es ihm gef\u00e4llt und hat kein\ndauerhaftes Nest. N\u00e4hern sich ihm andere Pok\u00e9mon,\nwenn es schl\u00e4ft, k\u00e4mpft es nicht mit ihnen, sondern\nzieht weiter.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty peut dormir n\u2019importe o\u00f9. Il n\u2019a pas de nid\npermanent. Lorsque d\u2019autres Pok\u00e9mon lui cherchent\ndes noises pendant son sommeil, il ne r\u00e9pond pas et\nse contente de partir dormir ailleurs.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc77c\uc815\ud55c \uac70\ucc98 \uc5c6\uc774 \uc0dd\ud65c\ud558\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ub2e4\ub978 \ud3ec\ucf13\ubaac\uc774 \uc7a0\uc790\ub9ac\uc5d0 \uac00\uae4c\uc774 \ub2e4\uac00\uc640\ub3c4\n\uc808\ub300 \ub2e4\ud22c\uc9c0 \uc54a\uace0 \uc774\ub3d9\ud558\uc5ec \uc794\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u307e\u3063\u305f\u3000\u3059\u202f\u304b\u3092\u3000\u3082\u305f\u305a\u306b\u3000\u304f\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u307b\u304b\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u306d\u3069\u3053\u306b\u3000\u3061\u304b\u3088\u3063\u3066\u3000\u304d\u3066\u3082\n\u3051\u3063\u3057\u3066\u3000\u3042\u3089\u305d\u308f\u305a\u3000\u306d\u308b\u3000\u3070\u3057\u3087\u3092\u3000\u304b\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30da\u30fc\u30b9\u3067\u3000\u81ea\u7531\u6c17\u307e\u307e\u306a\u3000\u66ae\u3089\u3057\u3092\u3000\u597d\u3080\u3002\n\u6c17\u306e\u5411\u304f\u307e\u307e\u3000\u30a8\u30b5\u3092\u3000\u98df\u3079\u305f\u308a\u3000\u7720\u3063\u305f\u308a\n\u3057\u3066\u3044\u308b\u306e\u3067\u3000\uff11\u65e5\u306e\u3000\u30ea\u30ba\u30e0\u304c\u3000\u30d0\u30e9\u30d0\u30e9\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty prefers to live an unfettered existence in which it can\ndo as it pleases at its own pace. Because this Pok\u00e9mon eats\nand sleeps whenever it decides, its daily routines are\ncompletely random.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty preferisce vivere una vita in libert\u00e0, in cui poter\nfare ci\u00f2 che pi\u00f9 gli aggrada in base alle proprie esigenze.\nPoich\u00e9 anche gli orari dei pasti e del sonno sono\ncompletamente liberi, la sua vita quotidiana \u00e8 casuale.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty prefiere llevar una vida independiente y hacer lo que\nse le antoje. Como este Pok\u00e9mon come y duerme seg\u00fan vea\nen cada momento, no se puede decir que tenga unos h\u00e1bitos\nregulares en el d\u00eda a d\u00eda.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Enekoro liebt seine Eigenst\u00e4ndigkeit. So kann es das tun,\nwas es m\u00f6chte, und kann selbst das Tempo bestimmen.\nDa dieses Pok\u00e9mon schl\u00e4ft und isst, wenn es Lust dazu hat,\nist sein Tagesablauf eher zuf\u00e4lliger Natur.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Delcatty pr\u00e9f\u00e8re vivre une existence sans contraintes,\nau cours de laquelle chacun pourrait faire ce qu\u2019il veut.\nComme ce Pok\u00e9mon mange et dort quand il le d\u00e9cide,\nson rythme de vie est totalement al\u00e9atoire.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uae30 \ubc29\uc2dd\ub300\ub85c \uc790\uc720\ub85c\uc6b4 \uc0b6\uc744 \uc990\uae34\ub2e4.\n\ub9c8\uc74c \ub0b4\ud0a4\ub294 \ub300\ub85c \uba39\uc774\ub97c \uba39\uace0 \uc7a0\uc744 \uc790\uae30\n\ub54c\ubb38\uc5d0 \ud558\ub8e8\uc758 \ub9ac\ub4ec\uc774 \uc81c\uac01\uac01\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u30de\u30a4\u30da\u30fc\u30b9\u3067\u3000\u3058\u3086\u3046\u304d\u307e\u307e\u306a\u3000\u304f\u3089\u3057\u3092\u3000\u3053\u306e\u3080\u3002\n\u304d\u306e\u3080\u304f\u307e\u307e\u3000\u30a8\u30b5\u3092\u3000\u305f\u3079\u305f\u308a\u3000\u306d\u3080\u3063\u305f\u308a\n\u3057\u3066\u3044\u308b\u306e\u3067\u3000\uff11\u306b\u3061\u306e\u3000\u30ea\u30ba\u30e0\u304c\u3000\u30d0\u30e9\u30d0\u30e9\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u7f8e\u3057\u3044\u3000\u6bdb\u4e26\u307f\u3092\u3000\u6301\u3061\n\u5973\u6027\u30c8\u30ec\u30fc\u30ca\u30fc\u306b\u3000\u5927\u4eba\u6c17\u3002\n\u6c7a\u307e\u3063\u305f\u3000\u4f4f\u51e6\u3092\u3000\u6301\u305f\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It is highly popular among female Trainers for its\nsublime fur. It does not keep a nest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ha successo fra gli Allenatori di sesso femminile per\nla sua bellissima pelliccia. Non ha una tana fissa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Tiene mucho \u00e9xito entre las Entrenadoras por su suave\npelaje. No vive en un sitio fijo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon ist bei weiblichen Trainern\naufgrund seines Fells beliebt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Les femmes Dresseurs raffolent de sa sublime\nfourrure. Il ne poss\u00e8de pas de nid.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc544\ub984\ub2e4\uc6b4 \ud138\uc744 \uac00\uc9c0\uace0 \uc788\uc5b4\uc11c \uc5ec\uc131\n\ud2b8\ub808\uc774\ub108\ub4e4\uc5d0\uac8c \ub9e4\uc6b0 \uc778\uae30 \uc788\ub2e4.\n\uc815\ud574\uc9c4 \uac70\ucc98\ub97c \uac16\uace0 \uc788\uc9c0 \uc54a\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3046\u3064\u304f\u3057\u3044\u3000\u3051\u306a\u307f\u3092\u3000\u3082\u3061\n\u3058\u3087\u305b\u3044\u30c8\u30ec\u30fc\u30ca\u30fc\u306b\u3000\u3060\u3044\u306b\u3093\u304d\u3002\n\u304d\u307e\u3063\u305f\u3000\u3059\u307f\u304b\u3092\u3000\u3082\u305f\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u6c5a\u3044\u3000\u5834\u6240\u304c\u3000\u5927\u5acc\u3044\u3002\n\u5c45\u5fc3\u5730\u306e\u3000\u826f\u3044\u3000\u5834\u6240\u3067\n\u3044\u3064\u3082\u3000\u6bdb\u4e26\u307f\u3092\u3000\u624b\u5165\u308c\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It dislikes dirty places. It often searches for a\ncomfortable place in which to groom itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Detesta gli ambienti sporchi. Se ne sta sempre\nad allisciarsi la pelliccia in luoghi accoglienti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "No soporta los lugares sucios. Le encanta acicalarse\nel pelaje cuando est\u00e1 a gusto en un sitio.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Hasst schmutzige Orte. Behagt ihm ein Platz,\nf\u00e4ngt es sofort an, sein gl\u00e4nzendes Fell zu pflegen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il d\u00e9teste la salet\u00e9 et passe son temps \u00e0 entretenir\nsa fourrure, confortablement install\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ub354\ub7ec\uc6b4 \uacf3\uc744 \uc544\uc8fc \uc2eb\uc5b4\ud55c\ub2e4.\n\ud3b8\uc548\ud55c \uacf3\uc5d0\uc11c\n\ub298 \ud138\uc744 \ub2e4\ub4ec\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u305f\u306a\u3044\u3000\u3070\u3057\u3087\u304c\u3000\u3060\u3044\u304d\u3089\u3044\u3002\n\u3044\u3054\u3053\u3061\u306e\u3000\u3088\u3044\u3000\u3070\u3057\u3087\u3067\n\u3044\u3064\u3082\u3000\u3051\u306a\u307f\u3092\u3000\u3066\u3044\u308c\u3057\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The reason it does not have a nest\nis that it simply searches for a clean,\ncomfortable place then sleeps there.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The reason it does not have a nest\nis that it simply searches for a clean,\ncomfortable place then sleeps there.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It is highly popular among female\nTrainers for its sublime fur.\nIt does not keep a nest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Les femmes Dresseurs raffolent\nde sa sublime fourrure. Il ne\nposs\u00e8de pas de nid.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It is highly popular among female\nTrainers for its sublime fur.\nIt does not keep a nest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Les femmes Dresseurs raffolent\nde sa sublime fourrure. Il ne\nposs\u00e8de pas de nid.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It dislikes dirty places. It often\nsearches for a comfortable place\nin which to groom itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "It dislikes dirty places. It often\nsearches for a comfortable place\nin which to groom itself.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It is highly popular among female\nTrainers for its sublime fur.\nIt does not keep a nest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It is highly popular among female\nTrainers for its sublime fur.\nIt does not keep a nest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It is highly popular among female\nTrainers for its sublime fur.\nIt does not keep a nest.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The favorite of trend-conscious\nfemale TRAINERS, they are used in\ncompetition for their style and fur.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "The favorite of trend-conscious\nfemale TRAINERS, they are used in\ncompetition for their style and fur.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Rather than keeping a permanent lair,\nit habitually seeks comfortable spots and\nsleeps there. It is nocturnal and becomes\nactive at dusk.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "DELCATTY sleeps anywhere it wants\nwithout keeping a permanent nest.\nIf other POK\u00e9MON approach it as it\fsleeps, this POK\u00e9MON will never fight -\nit will just move away somewhere else.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "DELCATTY prefers to live an unfettered\nexistence in which it can do as it\npleases at its own pace.\fBecause this POK\u00e9MON eats and sleeps\nwhenever it decides, its daily routines\nare completely random.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 6,
+    "genera": [
+        {
+            "genus": "\u6e05\u9ad8\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u304a\u3059\u307e\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Prim Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Finezza",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Cursi",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Eingebildet",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Guind\u00e9",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6e05\u9ad8\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uc0c8\uce68\ub5bc\uae30\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u304a\u3059\u307e\u3057\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "/api/v2/generation/3/"
+    },
+    "growth_rate": {
+        "name": "fast",
+        "url": "/api/v2/growth-rate/3/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 301,
+    "is_baby": false,
+    "name": "delcatty",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u4f18\u96c5\u732b"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30a8\u30cd\u30b3\u30ed\u30ed"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Delcatty"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Delcatty"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Delcatty"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Enekoro"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Delcatty"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u512a\u96c5\u8c93"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub378\ucf00\ud2f0"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Enekororo"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30a8\u30cd\u30b3\u30ed\u30ed"
+        }
+    ],
+    "order": 327,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "/api/v2/pal-park-area/2/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 64,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 79,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 79,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 62,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 301,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "delcatty",
+                "url": "/api/v2/pokemon/301/"
+            }
+        }
+    ]
+}

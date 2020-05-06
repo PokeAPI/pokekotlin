@@ -1,0 +1,960 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "white",
+        "url": "/api/v2/pokemon-color/9/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/37/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4eba\u4eec\u4e00\u76f4\u4ee5\u4e3a\u5b83\u53ea\u751f\u6d3b\u5728\u5bd2\u51b7\u7684\u6d77\u57df\u3002\n\u5b83\u51fa\u73b0\u5728\u963f\u7f57\u62c9\u7684\u539f\u56e0\u662f\u4e2a\u8c1c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u51b7\u305f\u3044\u3000\u6d77\u306b\u3057\u304b\u3000\u68f2\u307e\u306a\u3044\u3068\n\u8003\u3048\u3089\u308c\u3066\u304d\u305f\u3002\u3000\u30a2\u30ed\u30fc\u30e9\u306b\n\u73fe\u308c\u308b\u3000\u7406\u7531\u306f\u3000\u30ca\u30be\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It has always been supposed that Seel live only\nin cold seas. Their having shown up in Alola is\na mystery.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Finora si pensava che i Seel potessero vivere\nsolo nei mari gelidi, pertanto la loro comparsa\nad Alola \u00e8 alquanto misteriosa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Siempre se ha cre\u00eddo que solo puede subsistir\nen aguas fr\u00edas. El motivo de su aparici\u00f3n en\nAlola es un misterio.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Bisher wurde vermutet, dass es ausschlie\u00dflich\nin kalten Gew\u00e4ssern lebe. Warum es auch in\nAlola auftaucht, ist noch ein R\u00e4tsel.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Tout le monde pensait qu\u2019il ne pouvait survivre\nque dans les mers froides.\nPersonne ne sait donc ce qu\u2019il fait \u00e0 Alola.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4eba\u5011\u4e00\u5411\u8a8d\u70ba\u7260\u53ea\u68f2\u606f\u5728\n\u5bd2\u51b7\u7684\u6d77\u57df\uff0c\u6c92\u4eba\u77e5\u9053\u7260\n\u51fa\u73fe\u5728\u963f\u7f85\u62c9\u7684\u539f\u56e0\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ucc28\uac00\uc6b4 \ubc14\ub2e4\uc5d0\uc11c\ub9cc \uc0b0\ub2e4\uace0\n\ucd94\uc815\ub418\uc5c8\ub2e4. \uc54c\ub85c\ub77c\uc5d0\n\ub098\ud0c0\ub098\ub294 \uc774\uc720\ub97c \uc54c \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u3081\u305f\u3044\u3000\u3046\u307f\u306b\u3057\u304b\u3000\u3059\u307e\u306a\u3044\u3068\n\u304b\u3093\u304c\u3048\u3089\u308c\u3066\u304d\u305f\u3002\u3000\u30a2\u30ed\u30fc\u30e9\u306b\n\u3042\u3089\u308f\u308c\u308b\u3000\u308a\u3086\u3046\u306f\u3000\u30ca\u30be\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6c37\u306b\u3000\u8986\u308f\u308c\u305f\u3000\u6d77\u3067\u3000\u30a8\u30b5\u3092\u3000\u63a1\u308b\u3002\n\u606f\u7d99\u304e\u3092\u3000\u3059\u308b\u3068\u304d\u306f\u3000\u982d\u306e\u3000\u51fa\u3063\u5f35\u308a\u3067\n\u6c37\u3092\u3000\u5272\u3063\u3066\u3000\u6d77\u304b\u3089\u3000\u9854\u3092\u3000\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Seel hunts for prey in the frigid sea underneath sheets of ice.\nWhen it needs to breathe, it punches a hole through the ice\nwith the sharply protruding section of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Seel caccia le prede nel mare gelido sotto le lastre\ndi ghiaccio. Per respirare apre un foro nel ghiaccio\nusando la protuberanza appuntita sulla sommit\u00e0 del capo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Seel busca a sus presas en aguas heladas, bajo las capas de\nhielo. Cuando necesita respirar, abre un agujerito en el hielo\ncon la afilada protuberancia que tiene encima de la cabeza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Jurob jagt unter der frostigen Oberfl\u00e4che des Eismeeres\nnach Beute. Zum Luftholen schl\u00e4gt es mit dem vorstehenden\nTeil seines Kopfes ein Loch ins Eis.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Otaria chasse ses proies dans l\u2019eau gel\u00e9e, sous la couche de\nglace. Lorsqu\u2019il cherche \u00e0 respirer, il perce un trou en frappant\nla glace avec la partie saillante de sa t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc5bc\uc74c\uc73c\ub85c \ub4a4\ub36e\uc778 \ubc14\ub2e4\uc5d0\uc11c \uba39\uc774\ub97c \uc7a1\ub294\ub2e4.\n\uc228\uc744 \uc274 \ub54c\ub294 \uba38\ub9ac\uc758 \ub3cc\ucd9c\ub41c \ubd80\ubd84\uc73c\ub85c\n\uc5bc\uc74c\uc744 \uae68\uace0 \ubc14\ub2e4 \ubc16\uc73c\ub85c \uc5bc\uad74\uc744 \ub0b4\ubbfc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u304a\u308a\u306b\u3000\u304a\u304a\u308f\u308c\u305f\u3000\u3046\u202f\u3067\u3000\u30a8\u30b5\u3092\u3000\u3068\u308b\u3002\n\u3044\u304d\u3064\u304e\u3092\u3000\u3059\u308b\u3068\u304d\u306f\u3000\u3042\u305f\u307e\u306e\u3000\u3067\u3063\u3071\u308a\u3067\n\u3053\u304a\u308a\u3092\u3000\u308f\u3063\u3066\u3000\u3046\u202f\u304b\u3089\u3000\u304b\u304a\u3092\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u6c37\u306b\u3000\u8986\u308f\u308c\u305f\u3000\u6d77\u3067\u3000\u30a8\u30b5\u3092\u3000\u63a1\u308b\u3002\n\u606f\u7d99\u304e\u3092\u3000\u3059\u308b\u3068\u304d\u306f\u3000\u982d\u306e\u3000\u51fa\u3063\u5f35\u308a\u3067\n\u6c37\u3092\u3000\u5272\u3063\u3066\u3000\u6d77\u304b\u3089\u3000\u9854\u3092\u3000\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Seel hunts for prey in the frigid sea underneath sheets of ice.\nWhen it needs to breathe, it punches a hole through the ice\nwith the sharply protruding section of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Seel caccia le prede nel mare gelido sotto le lastre\ndi ghiaccio. Per respirare apre un foro nel ghiaccio\nusando la protuberanza appuntita sulla sommit\u00e0 del capo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Seel busca a sus presas en aguas heladas, bajo las capas de\nhielo. Cuando necesita respirar, abre un agujerito en el hielo\ncon la afilada protuberancia que tiene encima de la cabeza.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Jurob jagt unter der eisigen Oberfl\u00e4che des Eismeeres nach\nBeute. Zum Luftholen schl\u00e4gt es mit dem vorstehenden Teil\nseines Kopfes ein Loch ins Eis.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Otaria chasse ses proies dans l\u2019eau gel\u00e9e, sous la couche de\nglace. Lorsqu\u2019il cherche \u00e0 respirer, il perce un trou en frappant\nla glace avec la partie saillante de sa t\u00eate.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uc5bc\uc74c\uc73c\ub85c \ub4a4\ub36e\uc778 \ubc14\ub2e4\uc5d0\uc11c \uba39\uc774\ub97c \uc7a1\ub294\ub2e4.\n\uc228\uc744 \uc274 \ub54c\ub294 \uba38\ub9ac\uc758 \ub3cc\ucd9c\ub41c \ubd80\ubd84\uc73c\ub85c\n\uc5bc\uc74c\uc744 \uae68\uace0 \ubc14\ub2e4 \ubc16\uc73c\ub85c \uc5bc\uad74\uc744 \ub0b4\ubbfc\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u304a\u308a\u306b\u3000\u304a\u304a\u308f\u308c\u305f\u3000\u3046\u202f\u3067\u3000\u30a8\u30b5\u3092\u3000\u3068\u308b\u3002\n\u3044\u304d\u3064\u304e\u3092\u3000\u3059\u308b\u3068\u304d\u306f\u3000\u3042\u305f\u307e\u306e\u3000\u3067\u3063\u3071\u308a\u3067\n\u3053\u304a\u308a\u3092\u3000\u308f\u3063\u3066\u3000\u3046\u202f\u304b\u3089\u3000\u304b\u304a\u3092\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u6c34\u8272\u306e\u3000\u4f53\u6bdb\u306b\u3000\u8986\u308f\u308c\u305f\u3000\u76ae\u819a\u306f\n\u5206\u539a\u304f\u3066\u3000\u4e08\u592b\u3002\n\u96f6\u4e0b\uff14\uff10\u5ea6\u3067\u3082\u3000\u6d3b\u52d5\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Covered with light blue fur, its hide is thick and\ntough. It is active in bitter cold of\n-40 degrees Fahrenheit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sotto la pelliccia azzurra ha una pelle spessa e dura.\nPu\u00f2 resistere a una temperatura di -40 \u00b0C.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Est\u00e1 recubierto de un pelaje de color azul, y tiene una\npiel gruesa y tosca. Se mantiene activo a -40 \u00b0C.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Unter seinem hellblauen Pelz liegt eine dicke und\nfeste Haut. Es ist bei frostigen -40 \u00b0C noch aktiv.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Sa peau \u00e9paisse et dure est recouverte d\u2019une\nfourrure bleu clair. Elle permet \u00e0 ce Pok\u00e9mon\nde r\u00e9sister aux temp\u00e9ratures les plus glaciales.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud558\ub298\uc0c9\uc758 \ud138\ub85c \ub4a4\ub36e\uc778\n\ud53c\ubd80\ub294 \ub450\uaecd\uace0 \ud2bc\ud2bc\ud558\ub2e4.\n\uc601\ud558 40\ub3c4\ub77c\ub3c4 \ud65c\ub3d9\ud560 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u305a\u3044\u308d\u306e\u3000\u305f\u3044\u3082\u3046\u306b\u3000\u304a\u304a\u308f\u308c\u305f\n\u3072\u3075\u306f\u3000\u3076\u3042\u3064\u304f\u3066\u3000\u3058\u3087\u3046\u3076\u3002\n\u308c\u3044\u304b\uff14\uff10\u3069\u3000\u3067\u3082\u3000\u304b\u3064\u3069\u3046\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u6c37\u5c71\u3067\u3000\u66ae\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u982d\u306e\u3000\u3068\u304c\u3063\u305f\u3000\u3067\u3063\u3071\u308a\u3067\n\u6c37\u3092\u3000\u5272\u3063\u3066\u3000\u6d77\u3092\u3000\u6cf3\u3050\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that lives on icebergs. It swims in the\nsea using the point on its head to break up ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon che vive sugli iceberg. Nuota spaccando\nil ghiaccio con la punta che ha sulla testa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon vive en icebergs. Nada en el mar y usa\nel cuerno de su cabeza para romper el hielo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon lebt auf Eisbergen. Es schwimmt\nim Eiswasser und bricht das Eis mithilfe seines Horns.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Un habitant des icebergs. En mer, il utilise la corne\nsur sa t\u00eate pour briser la banquise.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ube59\uc0b0\uc5d0 \uc0ac\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uba38\ub9ac\uc758 \ubfb0\uc871\ud558\uac8c \ub3cc\ucd9c\ub41c \ubd80\ubd84\uc73c\ub85c\n\uc5bc\uc74c\uc744 \uae68\uace0 \ubc14\ub2e4\ub97c \ud5e4\uc5c4\uce5c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3087\u3046\u3056\u3093\u3067\u3000\u304f\u3089\u3059\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3042\u305f\u307e\u306e\u3000\u3068\u304c\u3063\u305f\u3000\u3067\u3063\u3071\u308a\u3067\n\u3053\u304a\u308a\u3092\u3000\u308f\u3063\u3066\u3000\u3046\u307f\u3092\u3000\u304a\u3088\u3050\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "The colder it gets, the better it feels.\nIt joyfully swims around oceans so cold\nthat they are filled with floating ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "The colder it gets, the better it feels.\nIt joyfully swims around oceans so cold\nthat they are filled with floating ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that lives on icebergs.\nIt swims in the sea using the point\non its head to break up ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Un habitant des icebergs.\nEn mer, il utilise la corne sur\nsa t\u00eate pour briser la banquise.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that lives on icebergs.\nIt swims in the sea using the point\non its head to break up ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Un habitant des icebergs.\nEn mer, il utilise la corne sur\nsa t\u00eate pour briser la banquise.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "In daytime, it is often found asleep\non the seabed in shallow waters.\nIts nostrils close while it swims.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Although it can\u2019t walk well on land,\nit is a graceful swimmer. It especially\nloves being in frigid seas.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that lives on icebergs.\nIt swims in the sea using the point\non its head to break up ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that lives on icebergs.\nIt swims in the sea using the point\non its head to break up ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "A Pok\u00e9mon that lives on icebergs.\nIt swims in the sea using the point\non its head to break up ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "The protruding horn on its head is very\nhard. It is used for bashing through thick\nicebergs.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Covered with light blue fur, its hide is\nthick and tough. It is active in bitter\ncold of minus 40 degrees Fahrenheit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "SEEL hunt for prey in frigid, ice-covered\nseas. When it needs to breathe, it punches\na hole through the ice with the sharply\nprotruding section of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "SEEL hunts for prey in the frigid sea\nunderneath sheets of ice.\nWhen it needs to breathe, it punches\fa hole through the ice with the\nsharply protruding section of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "SEEL hunts for prey in the frigid sea\nunderneath sheets of ice.\nWhen it needs to breathe, it punches\fa hole through the ice with the\nsharply protruding section of its head.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "The light blue fur\nthat covers it\nkeeps it protected\fagainst the cold.\nIt loves iceberg-\nfilled oceans.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "In daytime, it is\noften found asleep\non the seabed in\fshallow waters.\nIts nostrils close\nwhile it swims.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Although it can't\nwalk well on land,\nit is a graceful\fswimmer. It espe\u00ad\ncially loves being\nin frigid seas.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "Loves freezing\ncold conditions.\nRelishes swimming\fin a frigid cli\u00ad\nmate of around 14F\ndegrees.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "The protruding\nhorn on its head\nis very hard.\fIt is used for\nbashing through\nthick ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "The protruding\nhorn on its head\nis very hard.\fIt is used for\nbashing through\nthick ice.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u6d77\u72ee\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "\u3042\u3057\u304b\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "Sea Lion Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Otaria",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Le\u00f3n Marino",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Seehund",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Otarie",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "\u6d77\u7345\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "\uac15\uce58\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u3042\u3057\u304b\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "sea",
+        "url": "/api/v2/pokemon-habitat/7/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 86,
+    "is_baby": false,
+    "name": "seel",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5c0f\u6d77\u72ee"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30d1\u30a6\u30ef\u30a6"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Seel"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Seel"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Seel"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Jurob"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Otaria"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5c0f\u6d77\u7345"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc96c\uc96c"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Pawou"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30d1\u30a6\u30ef\u30a6"
+        }
+    ],
+    "order": 94,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "sea",
+                "url": "/api/v2/pal-park-area/5/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 265,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "/api/v2/pokedex/9/"
+            }
+        },
+        {
+            "entry_number": 178,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 176,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 86,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 86,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "fish",
+        "url": "/api/v2/pokemon-shape/3/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "seel",
+                "url": "/api/v2/pokemon/86/"
+            }
+        }
+    ]
+}

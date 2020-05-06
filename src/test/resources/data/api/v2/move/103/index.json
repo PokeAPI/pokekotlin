@@ -1,0 +1,669 @@
+{
+    "accuracy": 85,
+    "contest_combos": null,
+    "contest_effect": {
+        "url": "/api/v2/contest-effect/5/"
+    },
+    "contest_type": {
+        "name": "smart",
+        "url": "/api/v2/contest-type/4/"
+    },
+    "damage_class": {
+        "name": "status",
+        "url": "/api/v2/move-damage-class/1/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Lowers the target's Defense by two stages.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Lowers the target's Defense by two stages."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u53d1\u51fa\u4e0d\u7531\u81ea\u4e3b\u60f3\u8981\n\u6342\u8d77\u8033\u6735\u7684\u523a\u8033\u58f0\uff0c\n\u4ece\u800c\u5927\u5e45\u964d\u4f4e\u5bf9\u624b\u7684\u9632\u5fa1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u8033\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting screech harshly lowers the target\u2019s\nDefense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Stridio assordante che riduce di molto la Difesa\ndel bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Alarido agudo que reduce mucho la Defensa del \nobjetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "St\u00f6\u00dft einen Schrei aus, um die Verteidigung des\nZieles stark zu senken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Cri strident qui baisse beaucoup la D\u00e9fense\nde l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u767c\u51fa\u4ee4\u4eba\u4e0d\u7531\u81ea\u4e3b\u60f3\u8981\n\u6440\u8d77\u8033\u6735\u7684\u523a\u8033\u8072\uff0c\n\u5927\u5e45\u964d\u4f4e\u5c0d\u624b\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9cc \uadc0\ub97c \ub9c9\uc544\ubc84\ub9ac\uace0 \uc2f6\uc740\n\uc2eb\uc740 \uc18c\ub9ac\ub97c \ub0b4\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u307f\u307f\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53d1\u51fa\u4e0d\u7531\u81ea\u4e3b\u60f3\u8981\n\u6342\u8d77\u8033\u6735\u7684\u523a\u8033\u58f0\uff0c\n\u4ece\u800c\u5927\u5e45\u964d\u4f4e\u5bf9\u624b\u7684\u9632\u5fa1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u8033\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting screech harshly lowers the target\u2019s\nDefense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Stridio assordante che riduce di molto la Difesa\ndel bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Alarido agudo que reduce mucho la Defensa del \nobjetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "St\u00f6\u00dft einen Schrei aus, um die Verteidigung des\nZieles stark zu senken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Cri strident qui baisse beaucoup la D\u00e9fense\nde l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u767c\u51fa\u4ee4\u4eba\u4e0d\u7531\u81ea\u4e3b\u60f3\u8981\n\u6440\u8d77\u8033\u6735\u7684\u523a\u8033\u8072\uff0c\n\u5927\u5e45\u964d\u4f4e\u5c0d\u624b\u7684\u9632\u79a6\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9cc \uadc0\ub97c \ub9c9\uc544\ubc84\ub9ac\uace0 \uc2f6\uc740\n\uc2eb\uc740 \uc18c\ub9ac\ub97c \ub0b4\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u307f\u307f\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u8033\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting screech harshly lowers\nthe target\u2019s Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Stridio assordante che riduce di molto la Difesa\ndel bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Alarido agudo que reduce mucho la Defensa del \nobjetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "St\u00f6\u00dft einen Schrei aus, um die Verteidigung\ndes Zieles stark zu senken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cri strident qui baisse beaucoup la D\u00e9fense\nde l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9cc \uadc0\ub97c \ub9c9\uc544\ubc84\ub9ac\uace0 \uc2f6\uc740\n\uc2eb\uc740 \uc18c\ub9ac\ub97c \ub0b4\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u202f\u202f\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u8033\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u76f8\u624b\u306e\u3000\u9632\u5fa1\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting screech harshly lowers\nthe target\u2019s Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Stridio assordante che riduce di molto la Difesa\ndel bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Alarido agudo que reduce mucho la Defensa del\nobjetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "St\u00f6\u00dft einen Schrei aus, um die Verteidigung\ndes Zieles stark zu senken.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cri strident qui baisse beaucoup la D\u00e9fense\nde l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uadf8\ub9cc \uadc0\ub97c \ub9c9\uc544\ubc84\ub9ac\uace0 \uc2f6\uc740\n\uc2eb\uc740 \uc18c\ub9ac\ub97c \ub0b4\uc5b4\n\uc0c1\ub300\uc758 \ubc29\uc5b4\ub97c \ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u3082\u308f\u305a\u3000\u307f\u307f\u3092\u3000\u3075\u3055\u304e\u305f\u304f\u306a\u308b\n\u3044\u3084\u306a\u304a\u3068\u3092\u3000\u3060\u3057\u3066\n\u3042\u3044\u3066\u306e\u3000\u307c\u3046\u304e\u3087\u3092\u3000\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting screech harshly reduces\nthe target\u2019s Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting screech harshly reduces\nthe target\u2019s Defense stat.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Cri strident qui baisse beaucoup\nla D\u00e9fense ennemie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting\nscreech is emitted to\nsharply reduce the\nfoe\u2019s Defense stat.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting\nscreech is emitted to\nsharply reduce the\nfoe\u2019s Defense stat.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "An earsplitting\nscreech is emitted to\nsharply reduce the\nfoe\u2019s Defense stat.\n",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "An ear-splitting\nscreech is emitted\nto sharply reduce\nthe foe\u2019s DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Emits a screech to sharply\nreduce the foe\u2019s DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Emits a screech to sharply\nreduce the foe\u2019s DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Sharply reduces\nthe foe's DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Sharply reduces\nthe foe's DEFENSE.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "/api/v2/version-group/3/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "id": 103,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "screech",
+    "names": [
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u523a\u8033\u58f0"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u3044\u3084\u306a\u304a\u3068"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Screech"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Stridio"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Chirrido"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Kreideschrei"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Grincement"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u523a\u8033\u8072"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc2eb\uc740\uc18c\ub9ac"
+        },
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u3044\u3084\u306a\u304a\u3068"
+        }
+    ],
+    "past_values": [],
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "stat_changes": [
+        {
+            "change": -2,
+            "stat": {
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
+            }
+        }
+    ],
+    "super_contest_effect": {
+        "url": "/api/v2/super-contest-effect/10/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+    }
+}
