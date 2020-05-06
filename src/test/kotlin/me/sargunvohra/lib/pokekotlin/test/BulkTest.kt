@@ -3,11 +3,13 @@ package me.sargunvohra.lib.pokekotlin.test
 import me.sargunvohra.lib.pokekotlin.model.ApiResourceList
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResourceList
 import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import org.junit.Ignore
 import org.junit.Test
 import java.util.*
 import kotlin.reflect.full.memberProperties
 import kotlin.test.fail
 
+@Ignore
 class BulkTest {
 
     private fun checkNulls(obj: Any) {
