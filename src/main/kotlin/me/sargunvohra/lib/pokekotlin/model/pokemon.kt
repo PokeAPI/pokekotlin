@@ -201,7 +201,8 @@ data class PokemonForm(
     val formName: String,
     val pokemon: NamedApiResource,
     val versionGroup: NamedApiResource,
-    val sprites: PokemonFormSprites
+    val sprites: PokemonFormSprites,
+    val formNames: List<Name>
 )
 
 data class PokemonFormSprites(

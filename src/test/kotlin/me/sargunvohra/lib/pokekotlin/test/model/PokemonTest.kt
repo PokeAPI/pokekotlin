@@ -350,6 +350,18 @@ class PokemonTest {
     }
 
     @Test
+    fun getPokemonForm2() {
+        MockServer.client.getPokemonForm(10266).apply {
+            assert(
+                Name(
+                    name = "Original Color",
+                    language = NamedApiResource("en", "language", 9)
+                ) in formNames
+            )
+        }
+    }
+
+    @Test
     fun getPokemonHabitat() {
         MockServer.client.getPokemonHabitat(1).apply {
             assertEquals(1, id)

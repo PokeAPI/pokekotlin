@@ -5,9 +5,10 @@ import kotlin.reflect.full.memberProperties
 import kotlin.test.fail
 import me.sargunvohra.lib.pokekotlin.model.ResourceSummary
 import me.sargunvohra.lib.pokekotlin.model.ResourceSummaryList
+import org.junit.Ignore
 import org.junit.Test
 
-// @Ignore
+@Ignore
 class BulkTest {
 
     private fun checkNulls(obj: Any) {
