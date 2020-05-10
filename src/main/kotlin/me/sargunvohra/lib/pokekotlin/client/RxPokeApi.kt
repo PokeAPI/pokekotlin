@@ -26,6 +26,7 @@ import me.sargunvohra.lib.pokekotlin.model.Language
 import me.sargunvohra.lib.pokekotlin.model.Location
 import me.sargunvohra.lib.pokekotlin.model.LocationArea
 import me.sargunvohra.lib.pokekotlin.model.LocationAreaEncounter
+import me.sargunvohra.lib.pokekotlin.model.Machine
 import me.sargunvohra.lib.pokekotlin.model.Move
 import me.sargunvohra.lib.pokekotlin.model.MoveAilment
 import me.sargunvohra.lib.pokekotlin.model.MoveBattleStyle
@@ -115,6 +116,8 @@ interface RxPokeApi {
     fun getPalParkAreaList(offset: Int, limit: Int): Observable<NamedApiResourceList>
 
     fun getRegionList(offset: Int, limit: Int): Observable<NamedApiResourceList>
+
+    fun getMachineList(offset: Int, limit: Int): Observable<ApiResourceList>
 
     fun getAbilityList(offset: Int, limit: Int): Observable<NamedApiResourceList>
 
@@ -209,6 +212,8 @@ interface RxPokeApi {
     fun getPalParkArea(id: Int): Observable<PalParkArea>
 
     fun getRegion(id: Int): Observable<Region>
+
+    fun getMachine(id: Int): Observable<Machine>
 
     fun getAbility(id: Int): Observable<Ability>
 

@@ -58,8 +58,7 @@ class BulkTest {
     }
 
     private fun runTest1(getList: (Int, Int) -> NamedApiResourceList, getObject: (Int) -> Any) {
-        val count = getList(0, 0).count
-        val list = getList(0, count).results
+        val list = getList(0, getList(0, 0).count).results
         runTest(list[0].category, list.map { it.id }, getObject)
     }
 
@@ -284,6 +283,13 @@ class BulkTest {
         runTest1(
             { o, l -> MockServer.client.getRegionList(o, l) },
             { i -> MockServer.client.getRegion(i) })
+    }
+
+    @Test
+    fun bulkMachine() {
+        runTest2(
+            { o, l -> MockServer.client.getMachineList(o, l) },
+            { i -> MockServer.client.getMachine(i) })
     }
 
     @Test

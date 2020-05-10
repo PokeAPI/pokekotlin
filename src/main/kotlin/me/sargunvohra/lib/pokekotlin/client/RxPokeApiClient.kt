@@ -1,7 +1,7 @@
 package me.sargunvohra.lib.pokekotlin.client
 
 class RxPokeApiClient(
-    private val clientConfig: ClientConfig = ClientConfig()
+    clientConfig: ClientConfig = ClientConfig()
 ) : RxPokeApi {
 
     private val service = RxPokeApiServiceImpl(clientConfig)
@@ -123,6 +123,12 @@ class RxPokeApiClient(
         service.getPalParkAreaList(offset, limit)
 
     override fun getRegionList(offset: Int, limit: Int) = service.getRegionList(offset, limit)
+
+    // endregion
+
+    // region Machines
+
+    override fun getMachineList(offset: Int, limit: Int) = service.getMachineList(offset, limit)
 
     // endregion
 
@@ -269,6 +275,12 @@ class RxPokeApiClient(
     override fun getRegion(id: Int) = service.getRegion(id)
 
     // endregion Locations
+
+    // region Machines
+
+    override fun getMachine(id: Int) = service.getMachine(id)
+
+    // endregion Machines
 
     // region Pokemon
 

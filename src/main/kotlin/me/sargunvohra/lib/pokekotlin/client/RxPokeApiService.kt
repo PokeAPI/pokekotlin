@@ -26,6 +26,7 @@ import me.sargunvohra.lib.pokekotlin.model.Language
 import me.sargunvohra.lib.pokekotlin.model.Location
 import me.sargunvohra.lib.pokekotlin.model.LocationArea
 import me.sargunvohra.lib.pokekotlin.model.LocationAreaEncounter
+import me.sargunvohra.lib.pokekotlin.model.Machine
 import me.sargunvohra.lib.pokekotlin.model.Move
 import me.sargunvohra.lib.pokekotlin.model.MoveAilment
 import me.sargunvohra.lib.pokekotlin.model.MoveBattleStyle
@@ -277,6 +278,16 @@ internal interface RxPokeApiService {
 
     // endregion
 
+    // region Machines
+
+    @GET("machine/")
+    fun getMachineList(
+        @Query("offset") offset: Int,
+        @Query("limit") limit: Int
+    ): Observable<ApiResourceList>
+
+    // endregion
+
     // region Pokemon
 
     @GET("ability/")
@@ -507,6 +518,13 @@ internal interface RxPokeApiService {
     fun getRegion(@Path("id") id: Int): Observable<Region>
 
     // endregion Locations
+
+    // region Machines
+
+    @GET("machine/{id}/")
+    fun getMachine(@Path("id") id: Int): Observable<Machine>
+
+    // endregion
 
     // region Pokemon
 

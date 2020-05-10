@@ -35,7 +35,6 @@ class EndpointTest {
                     endpointName.split('-')
                             .joinToString(separator = "") { it.capitalize() }
                 }
-                .filter { it != "Machine" } // TODO add support for Machine endpoint
                 .toSet()
 
         val expectedListResources = expectedSingleResources

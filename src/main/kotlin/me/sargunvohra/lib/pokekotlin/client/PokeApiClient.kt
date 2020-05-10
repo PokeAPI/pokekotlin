@@ -139,6 +139,13 @@ class PokeApiClient(
 
     // endregion
 
+    // region Machines
+
+    override fun getMachineList(offset: Int, limit: Int) =
+        service.getMachineList(offset, limit).result()
+
+    // endregion Machines
+
     // region Pokemon
 
     override fun getAbilityList(offset: Int, limit: Int) =
@@ -289,6 +296,12 @@ class PokeApiClient(
     override fun getRegion(id: Int) = service.getRegion(id).result()
 
     // endregion Locations
+
+    // region Machines
+
+    override fun getMachine(id: Int) = service.getMachine(id).result()
+
+    // endregion Machines
 
     // region Pokemon
 
