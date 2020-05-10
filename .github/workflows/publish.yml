@@ -20,8 +20,12 @@ jobs:
           java-version: 1.8
       - name: Build with Gradle
         run: ./gradlew assemble
-      - name: Publish to GitHub Packages
+      - name: Publish to Maven repositories
         run: ./gradlew publish
         env:
-          GH_USERNAME: ${{ github.actor }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.actor }}
+          GITHUB_KEY: ${{ secrets.GITHUB_TOKEN }}
+          BINTRAY_USER: ${{ secrets.bintrayUser }}
+          BINTRAY_KEY: ${{ secrets.bintrayKey }}
+          SIGNING_KEY: ${{ secrets.signingKey }}
+          SIGNING_PASSWORD: ${{ secrets.signingPassword }}
