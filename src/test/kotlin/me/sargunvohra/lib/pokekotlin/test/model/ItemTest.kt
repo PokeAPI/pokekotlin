@@ -2,6 +2,7 @@ package me.sargunvohra.lib.pokekotlin.test.model
 
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
+import kotlin.test.assertNotNull
 import me.sargunvohra.lib.pokekotlin.model.ApiResource
 import me.sargunvohra.lib.pokekotlin.model.Description
 import me.sargunvohra.lib.pokekotlin.model.Effect
@@ -91,6 +92,22 @@ class ItemTest {
     @Test
     fun getItem5() {
         MockServer.client.getItem(967)
+    }
+
+    @Test
+    fun getItem6() {
+        MockServer.client.getItem(305).apply {
+            assertNotNull(machines.find { machineVersionDetail ->
+                machineVersionDetail.machine == ApiResource(
+                    "machine",
+                    1
+                ) && machineVersionDetail.versionGroup == NamedApiResource(
+                    "red-blue",
+                    "version-group",
+                    1
+                )
+            })
+        }
     }
 
     @Test

@@ -23,7 +23,8 @@ data class Move(
     val pastValues: List<PastMoveStatValues>,
     val statChanges: List<MoveStatChange>,
     val target: NamedApiResource,
-    val type: NamedApiResource
+    val type: NamedApiResource,
+    val machines: List<MachineVersionDetail>
 )
 
 data class ContestComboSets(

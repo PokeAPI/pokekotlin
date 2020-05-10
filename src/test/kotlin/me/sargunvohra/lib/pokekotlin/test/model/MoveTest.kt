@@ -7,6 +7,7 @@ import me.sargunvohra.lib.pokekotlin.model.ContestComboDetail
 import me.sargunvohra.lib.pokekotlin.model.ContestComboSets
 import me.sargunvohra.lib.pokekotlin.model.Description
 import me.sargunvohra.lib.pokekotlin.model.Effect
+import me.sargunvohra.lib.pokekotlin.model.MachineVersionDetail
 import me.sargunvohra.lib.pokekotlin.model.MoveMetaData
 import me.sargunvohra.lib.pokekotlin.model.MoveStatChange
 import me.sargunvohra.lib.pokekotlin.model.Name
@@ -69,6 +70,12 @@ class MoveTest {
             assertEquals(emptyList(), statChanges)
             assertEquals(NamedApiResource("selected-pokemon", "move-target", 10), target)
             assertEquals(NamedApiResource("normal", "type", 1), type)
+            assert(
+                MachineVersionDetail(
+                    machine = ApiResource("machine", 127),
+                    versionGroup = NamedApiResource("red-blue", "version-group", 1)
+                ) in machines
+            )
         }
     }
 

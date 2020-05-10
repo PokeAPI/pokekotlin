@@ -14,7 +14,8 @@ data class Item(
     val names: List<Name>,
     val heldByPokemon: List<ItemHolderPokemon>,
     val babyTriggerFor: ApiResource?,
-    val sprites: ItemSprites
+    val sprites: ItemSprites,
+    val machines: List<MachineVersionDetail>
 )
 
 data class ItemSprites(
