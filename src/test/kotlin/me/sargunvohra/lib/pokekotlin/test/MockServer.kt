@@ -1,4 +1,4 @@
-package me.sargunvohra.lib.pokekotlin.test.util
+package me.sargunvohra.lib.pokekotlin.test
 
 import com.google.gson.Gson
 import com.google.gson.JsonArray
@@ -17,13 +17,12 @@ import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import okio.Buffer
 
-val mockClient = PokeApiClient(ClientConfig(MockServer.url))
-
 object MockServer {
 
     private val server = MockWebServer()
 
     val url = server.url("/api/v2/")!!
+    val client = PokeApiClient(ClientConfig(url))
 
     init {
         // disable MockWebServer logging

@@ -29,14 +29,14 @@ import me.sargunvohra.lib.pokekotlin.model.PokemonType
 import me.sargunvohra.lib.pokekotlin.model.TypePokemon
 import me.sargunvohra.lib.pokekotlin.model.VerboseEffect
 import me.sargunvohra.lib.pokekotlin.model.VersionGameIndex
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import me.sargunvohra.lib.pokekotlin.test.MockServer
 import org.junit.Test
 
 class PokemonTest {
 
     @Test
     fun getAbility() {
-        mockClient.getAbility(1).apply {
+        MockServer.client.getAbility(1).apply {
             assertEquals(1, id)
             assertEquals("stench", name)
             assertEquals(true, isMainSeries)
@@ -81,7 +81,7 @@ class PokemonTest {
 
     @Test
     fun getCharacteristic() {
-        mockClient.getCharacteristic(1).apply {
+        MockServer.client.getCharacteristic(1).apply {
             assertEquals(1, id)
             assertEquals(0, geneModulo)
             assertEquals((0..6).map { it * 5 }.toList(), possibleValues)
@@ -96,7 +96,7 @@ class PokemonTest {
 
     @Test
     fun getEggGroup() {
-        mockClient.getEggGroup(1).apply {
+        MockServer.client.getEggGroup(1).apply {
             assertEquals(1, id)
             assertEquals("monster", name)
             assert(
@@ -111,7 +111,7 @@ class PokemonTest {
 
     @Test
     fun getGender() {
-        mockClient.getGender(1).apply {
+        MockServer.client.getGender(1).apply {
             assertEquals(1, id)
             assertEquals("female", name)
             assert(
@@ -126,7 +126,7 @@ class PokemonTest {
 
     @Test
     fun getGrowthRate() {
-        mockClient.getGrowthRate(1).apply {
+        MockServer.client.getGrowthRate(1).apply {
             assertEquals(1, id)
             assertEquals("slow", name)
             assertEquals("\\frac{5x^3}{4}", formula)
@@ -148,7 +148,7 @@ class PokemonTest {
 
     @Test
     fun getNature() {
-        mockClient.getNature(10).apply {
+        MockServer.client.getNature(10).apply {
             assertEquals(10, id)
             assertEquals("hasty", name)
             assertEquals(NamedApiResource("speed", "stat", 6), increasedStat)
@@ -179,7 +179,7 @@ class PokemonTest {
 
     @Test
     fun getPokeathlonStat() {
-        mockClient.getPokeathlonStat(1).apply {
+        MockServer.client.getPokeathlonStat(1).apply {
             assertEquals(1, id)
             assertEquals("speed", name)
             assert(
@@ -205,7 +205,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon1() {
-        mockClient.getPokemon(1).apply {
+        MockServer.client.getPokemon(1).apply {
             assertEquals(1, id)
             assertEquals("bulbasaur", name)
             assertEquals(64, baseExperience)
@@ -255,7 +255,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon2() {
-        mockClient.getPokemon(12).apply {
+        MockServer.client.getPokemon(12).apply {
             assert(heldItems.find {
                 it.item == NamedApiResource("silver-powder", "item", 199) &&
                     PokemonHeldItemVersion(
@@ -268,7 +268,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon3() {
-        mockClient.getPokemonEncounterList(12).apply {
+        MockServer.client.getPokemonEncounterList(12).apply {
             assert(
                 find { locAreaEncounter ->
                     locAreaEncounter.locationArea == NamedApiResource(
@@ -298,7 +298,7 @@ class PokemonTest {
 
     @Test
     fun getPokemon4() {
-        mockClient.getPokemon(399).apply {
+        MockServer.client.getPokemon(399).apply {
             sprites.apply {
                 assert(backFemale!!.endsWith("/sprites/pokemon/back/female/399.png"))
                 assert(backShinyFemale!!.endsWith("/sprites/pokemon/back/shiny/female/399.png"))
@@ -314,7 +314,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonColor() {
-        mockClient.getPokemonColor(1).apply {
+        MockServer.client.getPokemonColor(1).apply {
             assertEquals(1, id)
             assertEquals("black", name)
             assert(
@@ -329,7 +329,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonForm() {
-        mockClient.getPokemonForm(1).apply {
+        MockServer.client.getPokemonForm(1).apply {
             assertEquals(1, id)
             assertEquals("bulbasaur", name)
             assertEquals(1, order)
@@ -351,7 +351,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonHabitat() {
-        mockClient.getPokemonHabitat(1).apply {
+        MockServer.client.getPokemonHabitat(1).apply {
             assertEquals(1, id)
             assertEquals("cave", name)
             assert(
@@ -366,7 +366,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonShape() {
-        mockClient.getPokemonShape(1).apply {
+        MockServer.client.getPokemonShape(1).apply {
             assertEquals(1, id)
             assertEquals("ball", name)
             assert(
@@ -387,7 +387,7 @@ class PokemonTest {
 
     @Test
     fun getPokemonSpecies1() {
-        mockClient.getPokemonSpecies(1).apply {
+        MockServer.client.getPokemonSpecies(1).apply {
             assertEquals(1, id)
             assertEquals("bulbasaur", name)
             assertEquals(1, order)
@@ -452,14 +452,14 @@ class PokemonTest {
 
     @Test
     fun getPokemonSpecies2() {
-        mockClient.getPokemonSpecies(2).apply {
+        MockServer.client.getPokemonSpecies(2).apply {
             assertEquals(NamedApiResource("bulbasaur", "pokemon-species", 1), evolvesFromSpecies)
         }
     }
 
     @Test
     fun getPokemonSpecies3() {
-        mockClient.getPokemonSpecies(351).apply {
+        MockServer.client.getPokemonSpecies(351).apply {
             assert(
                 Description(
                     description = "Form changes along with type to match the weather in battle, " +
@@ -473,7 +473,7 @@ class PokemonTest {
 
     @Test
     fun getStat() {
-        mockClient.getStat(2).apply {
+        MockServer.client.getStat(2).apply {
             assertEquals(2, id)
             assertEquals("attack", name)
             assertEquals(2, gameIndex)
@@ -504,7 +504,7 @@ class PokemonTest {
 
     @Test
     fun getType() {
-        mockClient.getType(8).apply {
+        MockServer.client.getType(8).apply {
             assertEquals(8, id)
             assertEquals("ghost", name)
             damageRelations.apply {
