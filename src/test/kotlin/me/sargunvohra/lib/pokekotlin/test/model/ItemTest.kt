@@ -2,6 +2,7 @@ package me.sargunvohra.lib.pokekotlin.test.model
 
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
+import kotlin.test.assertNotNull
 import me.sargunvohra.lib.pokekotlin.model.ApiResource
 import me.sargunvohra.lib.pokekotlin.model.Description
 import me.sargunvohra.lib.pokekotlin.model.Effect
@@ -11,14 +12,14 @@ import me.sargunvohra.lib.pokekotlin.model.Name
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import me.sargunvohra.lib.pokekotlin.model.VerboseEffect
 import me.sargunvohra.lib.pokekotlin.model.VersionGroupFlavorText
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import me.sargunvohra.lib.pokekotlin.test.MockServer
 import org.junit.Test
 
 class ItemTest {
 
     @Test
     fun getItem1() {
-        mockClient.getItem(20).apply {
+        MockServer.client.getItem(20).apply {
             assertEquals(20, id)
             assertEquals("ice-heal", name)
             assertEquals(100, cost)
@@ -61,7 +62,7 @@ class ItemTest {
 
     @Test
     fun getItem2() {
-        mockClient.getItem(33).apply {
+        MockServer.client.getItem(33).apply {
             assertNotEquals(null, heldByPokemon.find {
                 it.pokemon == NamedApiResource("miltank", "pokemon", 241) &&
                     it.versionDetails.contains(
@@ -76,26 +77,42 @@ class ItemTest {
 
     @Test
     fun getItem3() {
-        mockClient.getItem(249).apply {
+        MockServer.client.getItem(249).apply {
             assertEquals(NamedApiResource("badly-poison", "item-fling-effect", 1), flingEffect)
         }
     }
 
     @Test
     fun getItem4() {
-        mockClient.getItem(231).apply {
+        MockServer.client.getItem(231).apply {
             assertEquals(ApiResource("evolution-chain", 90), babyTriggerFor)
         }
     }
 
     @Test
     fun getItem5() {
-        mockClient.getItem(967)
+        MockServer.client.getItem(967)
+    }
+
+    @Test
+    fun getItem6() {
+        MockServer.client.getItem(305).apply {
+            assertNotNull(machines.find { machineVersionDetail ->
+                machineVersionDetail.machine == ApiResource(
+                    "machine",
+                    1
+                ) && machineVersionDetail.versionGroup == NamedApiResource(
+                    "red-blue",
+                    "version-group",
+                    1
+                )
+            })
+        }
     }
 
     @Test
     fun getItemAttribute() {
-        mockClient.getItemAttribute(3).apply {
+        MockServer.client.getItemAttribute(3).apply {
             assertEquals(3, id)
             assertEquals("usable-overworld", name)
             assert(
@@ -116,7 +133,7 @@ class ItemTest {
 
     @Test
     fun getItemCategory() {
-        mockClient.getItemCategory(34).apply {
+        MockServer.client.getItemCategory(34).apply {
             assertEquals(34, id)
             assertEquals("standard-balls", name)
             assertEquals(NamedApiResource("pokeballs", "item-pocket", 3), pocket)
@@ -132,7 +149,7 @@ class ItemTest {
 
     @Test
     fun getItemFlingEffect() {
-        mockClient.getItemFlingEffect(1).apply {
+        MockServer.client.getItemFlingEffect(1).apply {
             assertEquals(1, id)
             assertEquals("badly-poison", name)
             assert(
@@ -147,7 +164,7 @@ class ItemTest {
 
     @Test
     fun getItemPocket() {
-        mockClient.getItemPocket(4).apply {
+        MockServer.client.getItemPocket(4).apply {
             assertEquals(4, id)
             assertEquals("machines", name)
             assert(NamedApiResource("all-machines", "item-category", 37) in categories)

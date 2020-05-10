@@ -2,7 +2,6 @@ package me.sargunvohra.lib.pokekotlin.test
 
 import kotlin.test.assertEquals
 import me.sargunvohra.lib.pokekotlin.client.PokeApiClient
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
 import org.junit.Ignore
 import org.junit.Test
 
@@ -13,7 +12,7 @@ class LiveTest {
 
     @Test
     fun liveObject() {
-        assertEquals(mockClient.getBerry(10), liveClient.getBerry(10))
+        assertEquals(MockServer.client.getBerry(10), liveClient.getBerry(10))
     }
 
     @Test

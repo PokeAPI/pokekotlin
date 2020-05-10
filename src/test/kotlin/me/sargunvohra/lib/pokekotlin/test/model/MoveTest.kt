@@ -7,20 +7,21 @@ import me.sargunvohra.lib.pokekotlin.model.ContestComboDetail
 import me.sargunvohra.lib.pokekotlin.model.ContestComboSets
 import me.sargunvohra.lib.pokekotlin.model.Description
 import me.sargunvohra.lib.pokekotlin.model.Effect
+import me.sargunvohra.lib.pokekotlin.model.MachineVersionDetail
 import me.sargunvohra.lib.pokekotlin.model.MoveMetaData
 import me.sargunvohra.lib.pokekotlin.model.MoveStatChange
 import me.sargunvohra.lib.pokekotlin.model.Name
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 import me.sargunvohra.lib.pokekotlin.model.PastMoveStatValues
 import me.sargunvohra.lib.pokekotlin.model.VerboseEffect
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import me.sargunvohra.lib.pokekotlin.test.MockServer
 import org.junit.Test
 
 class MoveTest {
 
     @Test
     fun getMove1() {
-        mockClient.getMove(34).apply {
+        MockServer.client.getMove(34).apply {
             assertEquals(34, id)
             assertEquals("body-slam", name)
             assertEquals(100, accuracy)
@@ -69,12 +70,18 @@ class MoveTest {
             assertEquals(emptyList(), statChanges)
             assertEquals(NamedApiResource("selected-pokemon", "move-target", 10), target)
             assertEquals(NamedApiResource("normal", "type", 1), type)
+            assert(
+                MachineVersionDetail(
+                    machine = ApiResource("machine", 127),
+                    versionGroup = NamedApiResource("red-blue", "version-group", 1)
+                ) in machines
+            )
         }
     }
 
     @Test
     fun getMove2() {
-        mockClient.getMove(400).apply {
+        MockServer.client.getMove(400).apply {
             assertEquals(
                 ContestComboSets(
                     normalSet = ContestComboDetail(null, null),
@@ -89,7 +96,7 @@ class MoveTest {
 
     @Test
     fun getMove3() {
-        mockClient.getMove(16).apply {
+        MockServer.client.getMove(16).apply {
             assertNotNull(effectChanges.find {
                 it.versionGroup == NamedApiResource("gold-silver", "version-group", 3) &&
                     Effect(
@@ -102,7 +109,7 @@ class MoveTest {
 
     @Test
     fun getMove4() {
-        mockClient.getMove(14).apply {
+        MockServer.client.getMove(14).apply {
             assert(
                 MoveStatChange(
                     change = 2,
@@ -114,7 +121,7 @@ class MoveTest {
 
     @Test
     fun getMove5() {
-        mockClient.getMove(2).apply {
+        MockServer.client.getMove(2).apply {
             assert(
                 PastMoveStatValues(
                     accuracy = null,
@@ -131,7 +138,7 @@ class MoveTest {
 
     @Test
     fun getMoveAilment() {
-        mockClient.getMoveAilment(1).apply {
+        MockServer.client.getMoveAilment(1).apply {
             assertEquals(1, id)
             assertEquals("paralysis", name)
             assert(
@@ -146,7 +153,7 @@ class MoveTest {
 
     @Test
     fun getMoveBattleStyle() {
-        mockClient.getMoveBattleStyle(1).apply {
+        MockServer.client.getMoveBattleStyle(1).apply {
             assertEquals(1, id)
             assertEquals("attack", name)
             assert(
@@ -160,7 +167,7 @@ class MoveTest {
 
     @Test
     fun getMoveCategory() {
-        mockClient.getMoveCategory(1).apply {
+        MockServer.client.getMoveCategory(1).apply {
             assertEquals(1, id)
             assertEquals("ailment", name)
             assert(
@@ -175,7 +182,7 @@ class MoveTest {
 
     @Test
     fun getMoveDamageClass() {
-        mockClient.getMoveDamageClass(1).apply {
+        MockServer.client.getMoveDamageClass(1).apply {
             assertEquals(1, id)
             assertEquals("status", name)
             assert(
@@ -196,7 +203,7 @@ class MoveTest {
 
     @Test
     fun getMoveLearnMethod() {
-        mockClient.getMoveLearnMethod(10).apply {
+        MockServer.client.getMoveLearnMethod(10).apply {
             assertEquals(10, id)
             assertEquals("form-change", name)
             assert(
@@ -219,7 +226,7 @@ class MoveTest {
 
     @Test
     fun getMoveTarget() {
-        mockClient.getMoveTarget(8).apply {
+        MockServer.client.getMoveTarget(8).apply {
             assertEquals(8, id)
             assertEquals("random-opponent", name)
             assert(

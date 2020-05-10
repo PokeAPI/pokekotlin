@@ -1,5 +1,14 @@
 package me.sargunvohra.lib.pokekotlin.model
 
+data class Language(
+    val id: Int,
+    val name: String,
+    val official: Boolean,
+    val iso639: String,
+    val iso3166: String,
+    val names: List<Name>
+)
+
 data class Description(
     val description: String,
     val language: NamedApiResource
@@ -26,6 +35,11 @@ data class FlavorText(
 data class GenerationGameIndex(
     val gameIndex: Int,
     val generation: NamedApiResource
+)
+
+data class MachineVersionDetail(
+    val machine: ApiResource,
+    val versionGroup: NamedApiResource
 )
 
 data class Name(

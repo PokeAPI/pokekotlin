@@ -3,9 +3,8 @@ package me.sargunvohra.lib.pokekotlin.test
 import java.util.LinkedList
 import kotlin.reflect.full.memberProperties
 import kotlin.test.fail
-import me.sargunvohra.lib.pokekotlin.model.ApiResourceList
-import me.sargunvohra.lib.pokekotlin.model.NamedApiResourceList
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import me.sargunvohra.lib.pokekotlin.model.ResourceSummary
+import me.sargunvohra.lib.pokekotlin.model.ResourceSummaryList
 import org.junit.Ignore
 import org.junit.Test
 
@@ -58,321 +57,355 @@ class BulkTest {
         if (!pass) fail()
     }
 
-    private fun runTest1(getList: (Int, Int) -> NamedApiResourceList, getObject: (Int) -> Any) {
-        val count = getList(0, 0).count
-        val list = getList(0, count).results
-        runTest(list[0].category, list.map { it.id }, getObject)
-    }
-
-    private fun runTest2(getList: (Int, Int) -> ApiResourceList, getObject: (Int) -> Any) {
+    private fun <T : ResourceSummary> runTestOnList(
+        getList: (Int, Int) -> ResourceSummaryList<T>,
+        getObject: (Int) -> Any
+    ) {
         val list = getList(0, getList(0, 0).count).results
         runTest(list[0].category, list.map { it.id }, getObject)
     }
 
     @Test
     fun bulkBerry() {
-        runTest1({ o, l -> mockClient.getBerryList(o, l) }, { i -> mockClient.getBerry(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getBerryList(o, l) },
+            { i -> MockServer.client.getBerry(i) })
     }
 
     @Test
     fun bulkBerryFirmness() {
-        runTest1(
-            { o, l -> mockClient.getBerryFirmnessList(o, l) },
-            { i -> mockClient.getBerryFirmness(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getBerryFirmnessList(o, l) },
+            { i -> MockServer.client.getBerryFirmness(i) })
     }
 
     @Test
     fun bulkBerryFlavor() {
-        runTest1(
-            { o, l -> mockClient.getBerryFlavorList(o, l) },
-            { i -> mockClient.getBerryFlavor(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getBerryFlavorList(o, l) },
+            { i -> MockServer.client.getBerryFlavor(i) })
     }
 
     @Test
     fun bulkContestType() {
-        runTest1(
-            { o, l -> mockClient.getContestTypeList(o, l) },
-            { i -> mockClient.getContestType(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getContestTypeList(o, l) },
+            { i -> MockServer.client.getContestType(i) })
     }
 
     @Test
     fun bulkContestEffect() {
-        runTest2(
-            { o, l -> mockClient.getContestEffectList(o, l) },
-            { i -> mockClient.getContestEffect(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getContestEffectList(o, l) },
+            { i -> MockServer.client.getContestEffect(i) })
     }
 
     @Test
     fun bulkSuperContestEffect() {
-        runTest2(
-            { o, l -> mockClient.getSuperContestEffectList(o, l) },
-            { i -> mockClient.getSuperContestEffect(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getSuperContestEffectList(o, l) },
+            { i -> MockServer.client.getSuperContestEffect(i) })
     }
 
     @Test
     fun bulkEncounterMethod() {
-        runTest1(
-            { o, l -> mockClient.getEncounterMethodList(o, l) },
-            { i -> mockClient.getEncounterMethod(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getEncounterMethodList(o, l) },
+            { i -> MockServer.client.getEncounterMethod(i) })
     }
 
     @Test
     fun bulkEncounterCondition() {
-        runTest1(
-            { o, l -> mockClient.getEncounterConditionList(o, l) },
-            { i -> mockClient.getEncounterCondition(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getEncounterConditionList(o, l) },
+            { i -> MockServer.client.getEncounterCondition(i) })
     }
 
     @Test
     fun bulkEncounterConditionValue() {
-        runTest1(
-            { o, l -> mockClient.getEncounterConditionValueList(o, l) },
-            { i -> mockClient.getEncounterConditionValue(i) }
+        runTestOnList(
+            { o, l -> MockServer.client.getEncounterConditionValueList(o, l) },
+            { i -> MockServer.client.getEncounterConditionValue(i) }
         )
     }
 
     @Test
     fun bulkEvolutionChain() {
-        runTest2(
-            { o, l -> mockClient.getEvolutionChainList(o, l) },
-            { i -> mockClient.getEvolutionChain(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getEvolutionChainList(o, l) },
+            { i -> MockServer.client.getEvolutionChain(i) })
     }
 
     @Test
     fun bulkEvolutionTrigger() {
-        runTest1(
-            { o, l -> mockClient.getEvolutionTriggerList(o, l) },
-            { i -> mockClient.getEvolutionTrigger(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getEvolutionTriggerList(o, l) },
+            { i -> MockServer.client.getEvolutionTrigger(i) })
     }
 
     @Test
     fun bulkGeneration() {
-        runTest1(
-            { o, l -> mockClient.getGenerationList(o, l) },
-            { i -> mockClient.getGeneration(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getGenerationList(o, l) },
+            { i -> MockServer.client.getGeneration(i) })
     }
 
     @Test
     fun bulkPokedex() {
-        runTest1({ o, l -> mockClient.getPokedexList(o, l) }, { i -> mockClient.getPokedex(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokedexList(o, l) },
+            { i -> MockServer.client.getPokedex(i) })
     }
 
     @Test
     fun bulkVersion() {
-        runTest1({ o, l -> mockClient.getVersionList(o, l) }, { i -> mockClient.getVersion(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getVersionList(o, l) },
+            { i -> MockServer.client.getVersion(i) })
     }
 
     @Test
     fun bulkVersionGroup() {
-        runTest1(
-            { o, l -> mockClient.getVersionGroupList(o, l) },
-            { i -> mockClient.getVersionGroup(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getVersionGroupList(o, l) },
+            { i -> MockServer.client.getVersionGroup(i) })
     }
 
     @Test
     fun bulkItem() {
-        runTest1({ o, l -> mockClient.getItemList(o, l) }, { i -> mockClient.getItem(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getItemList(o, l) },
+            { i -> MockServer.client.getItem(i) })
     }
 
     @Test
     fun bulkItemAttribute() {
-        runTest1(
-            { o, l -> mockClient.getItemAttributeList(o, l) },
-            { i -> mockClient.getItemAttribute(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getItemAttributeList(o, l) },
+            { i -> MockServer.client.getItemAttribute(i) })
     }
 
     @Test
     fun bulkItemCategory() {
-        runTest1(
-            { o, l -> mockClient.getItemCategoryList(o, l) },
-            { i -> mockClient.getItemCategory(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getItemCategoryList(o, l) },
+            { i -> MockServer.client.getItemCategory(i) })
     }
 
     @Test
     fun bulkItemFlingEffect() {
-        runTest1(
-            { o, l -> mockClient.getItemFlingEffectList(o, l) },
-            { i -> mockClient.getItemFlingEffect(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getItemFlingEffectList(o, l) },
+            { i -> MockServer.client.getItemFlingEffect(i) })
     }
 
     @Test
     fun bulkItemPocket() {
-        runTest1(
-            { o, l -> mockClient.getItemPocketList(o, l) },
-            { i -> mockClient.getItemPocket(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getItemPocketList(o, l) },
+            { i -> MockServer.client.getItemPocket(i) })
     }
 
     @Test
     fun bulkMove() {
-        runTest1({ o, l -> mockClient.getMoveList(o, l) }, { i -> mockClient.getMove(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getMoveList(o, l) },
+            { i -> MockServer.client.getMove(i) })
     }
 
     @Test
     fun bulkMoveAilment() {
-        runTest1(
-            { o, l -> mockClient.getMoveAilmentList(o, l) },
-            { i -> mockClient.getMoveAilment(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getMoveAilmentList(o, l) },
+            { i -> MockServer.client.getMoveAilment(i) })
     }
 
     @Test
     fun bulkMoveBattleStyle() {
-        runTest1(
-            { o, l -> mockClient.getMoveBattleStyleList(o, l) },
-            { i -> mockClient.getMoveBattleStyle(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getMoveBattleStyleList(o, l) },
+            { i -> MockServer.client.getMoveBattleStyle(i) })
     }
 
     @Test
     fun bulkMoveCategory() {
-        runTest1(
-            { o, l -> mockClient.getMoveCategoryList(o, l) },
-            { i -> mockClient.getMoveCategory(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getMoveCategoryList(o, l) },
+            { i -> MockServer.client.getMoveCategory(i) })
     }
 
     @Test
     fun bulkMoveDamageClass() {
-        runTest1(
-            { o, l -> mockClient.getMoveDamageClassList(o, l) },
-            { i -> mockClient.getMoveDamageClass(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getMoveDamageClassList(o, l) },
+            { i -> MockServer.client.getMoveDamageClass(i) })
     }
 
     @Test
     fun bulkMoveLearnMethod() {
-        runTest1(
-            { o, l -> mockClient.getMoveLearnMethodList(o, l) },
-            { i -> mockClient.getMoveLearnMethod(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getMoveLearnMethodList(o, l) },
+            { i -> MockServer.client.getMoveLearnMethod(i) })
     }
 
     @Test
     fun bulkMoveTarget() {
-        runTest1(
-            { o, l -> mockClient.getMoveTargetList(o, l) },
-            { i -> mockClient.getMoveTarget(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getMoveTargetList(o, l) },
+            { i -> MockServer.client.getMoveTarget(i) })
     }
 
     @Test
     fun bulkLocation() {
-        runTest1({ o, l -> mockClient.getLocationList(o, l) }, { i -> mockClient.getLocation(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getLocationList(o, l) },
+            { i -> MockServer.client.getLocation(i) })
     }
 
     @Test
     fun bulkLocationArea() {
-        runTest1(
-            { o, l -> mockClient.getLocationAreaList(o, l) },
-            { i -> mockClient.getLocationArea(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getLocationAreaList(o, l) },
+            { i -> MockServer.client.getLocationArea(i) })
     }
 
     @Test
     fun bulkPalParkArea() {
-        runTest1(
-            { o, l -> mockClient.getPalParkAreaList(o, l) },
-            { i -> mockClient.getPalParkArea(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPalParkAreaList(o, l) },
+            { i -> MockServer.client.getPalParkArea(i) })
     }
 
     @Test
     fun bulkRegion() {
-        runTest1({ o, l -> mockClient.getRegionList(o, l) }, { i -> mockClient.getRegion(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getRegionList(o, l) },
+            { i -> MockServer.client.getRegion(i) })
+    }
+
+    @Test
+    fun bulkMachine() {
+        runTestOnList(
+            { o, l -> MockServer.client.getMachineList(o, l) },
+            { i -> MockServer.client.getMachine(i) })
     }
 
     @Test
     fun bulkAbility() {
-        runTest1({ o, l -> mockClient.getAbilityList(o, l) }, { i -> mockClient.getAbility(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getAbilityList(o, l) },
+            { i -> MockServer.client.getAbility(i) })
     }
 
     @Test
     fun bulkCharacteristic() {
-        runTest2(
-            { o, l -> mockClient.getCharacteristicList(o, l) },
-            { i -> mockClient.getCharacteristic(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getCharacteristicList(o, l) },
+            { i -> MockServer.client.getCharacteristic(i) })
     }
 
     @Test
     fun bulkEggGroup() {
-        runTest1({ o, l -> mockClient.getEggGroupList(o, l) }, { i -> mockClient.getEggGroup(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getEggGroupList(o, l) },
+            { i -> MockServer.client.getEggGroup(i) })
     }
 
     @Test
     fun bulkGender() {
-        runTest1({ o, l -> mockClient.getGenderList(o, l) }, { i -> mockClient.getGender(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getGenderList(o, l) },
+            { i -> MockServer.client.getGender(i) })
     }
 
     @Test
     fun bulkGrowthRate() {
-        runTest1(
-            { o, l -> mockClient.getGrowthRateList(o, l) },
-            { i -> mockClient.getGrowthRate(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getGrowthRateList(o, l) },
+            { i -> MockServer.client.getGrowthRate(i) })
     }
 
     @Test
     fun bulkNature() {
-        runTest1({ o, l -> mockClient.getNatureList(o, l) }, { i -> mockClient.getNature(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getNatureList(o, l) },
+            { i -> MockServer.client.getNature(i) })
     }
 
     @Test
     fun bulkPokeathlonStat() {
-        runTest1(
-            { o, l -> mockClient.getPokeathlonStatList(o, l) },
-            { i -> mockClient.getPokeathlonStat(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokeathlonStatList(o, l) },
+            { i -> MockServer.client.getPokeathlonStat(i) })
     }
 
     @Test
     fun bulkPokemon() {
-        runTest1({ o, l -> mockClient.getPokemonList(o, l) }, { i -> mockClient.getPokemon(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokemonList(o, l) },
+            { i -> MockServer.client.getPokemon(i) })
     }
 
     @Test
     fun bulkPokemonEncounters() {
-        runTest1(
-            { o, l -> mockClient.getPokemonList(o, l) },
-            { i -> mockClient.getPokemonEncounterList(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokemonList(o, l) },
+            { i -> MockServer.client.getPokemonEncounterList(i) })
     }
 
     @Test
     fun bulkPokemonColor() {
-        runTest1(
-            { o, l -> mockClient.getPokemonColorList(o, l) },
-            { i -> mockClient.getPokemonColor(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokemonColorList(o, l) },
+            { i -> MockServer.client.getPokemonColor(i) })
     }
 
     @Test
     fun bulkPokemonForm() {
-        runTest1(
-            { o, l -> mockClient.getPokemonFormList(o, l) },
-            { i -> mockClient.getPokemonForm(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokemonFormList(o, l) },
+            { i -> MockServer.client.getPokemonForm(i) })
     }
 
     @Test
     fun bulkPokemonHabitat() {
-        runTest1(
-            { o, l -> mockClient.getPokemonHabitatList(o, l) },
-            { i -> mockClient.getPokemonHabitat(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokemonHabitatList(o, l) },
+            { i -> MockServer.client.getPokemonHabitat(i) })
     }
 
     @Test
     fun bulkPokemonShape() {
-        runTest1(
-            { o, l -> mockClient.getPokemonShapeList(o, l) },
-            { i -> mockClient.getPokemonShape(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokemonShapeList(o, l) },
+            { i -> MockServer.client.getPokemonShape(i) })
     }
 
     @Test
     fun bulkPokemonSpecies() {
-        runTest1(
-            { o, l -> mockClient.getPokemonSpeciesList(o, l) },
-            { i -> mockClient.getPokemonSpecies(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getPokemonSpeciesList(o, l) },
+            { i -> MockServer.client.getPokemonSpecies(i) })
     }
 
     @Test
     fun bulkStat() {
-        runTest1({ o, l -> mockClient.getStatList(o, l) }, { i -> mockClient.getStat(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getStatList(o, l) },
+            { i -> MockServer.client.getStat(i) })
     }
 
     @Test
     fun bulkType() {
-        runTest1({ o, l -> mockClient.getTypeList(o, l) }, { i -> mockClient.getType(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getTypeList(o, l) },
+            { i -> MockServer.client.getType(i) })
     }
 
     @Test
     fun bulkLanguage() {
-        runTest1({ o, l -> mockClient.getLanguageList(o, l) }, { i -> mockClient.getLanguage(i) })
+        runTestOnList(
+            { o, l -> MockServer.client.getLanguageList(o, l) },
+            { i -> MockServer.client.getLanguage(i) })
     }
 }

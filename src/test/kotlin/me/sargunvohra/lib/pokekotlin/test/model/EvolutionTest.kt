@@ -6,14 +6,14 @@ import me.sargunvohra.lib.pokekotlin.model.ChainLink
 import me.sargunvohra.lib.pokekotlin.model.EvolutionDetail
 import me.sargunvohra.lib.pokekotlin.model.Name
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import me.sargunvohra.lib.pokekotlin.test.MockServer
 import org.junit.Test
 
 class EvolutionTest {
 
     @Test
     fun getEvolutionChain1() {
-        mockClient.getEvolutionChain(1).apply {
+        MockServer.client.getEvolutionChain(1).apply {
             assertEquals(1, id)
             assertEquals(null, babyTriggerItem)
             assertEquals(
@@ -57,7 +57,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain2() {
-        mockClient.getEvolutionChain(109).apply {
+        MockServer.client.getEvolutionChain(109).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -72,7 +72,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain3() {
-        mockClient.getEvolutionChain(67).apply {
+        MockServer.client.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -86,7 +86,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain4() {
-        mockClient.getEvolutionChain(67).apply {
+        MockServer.client.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -100,7 +100,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain5() {
-        mockClient.getEvolutionChain(67).apply {
+        MockServer.client.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -115,7 +115,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain6() {
-        mockClient.getEvolutionChain(67).apply {
+        MockServer.client.getEvolutionChain(67).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -130,7 +130,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain7() {
-        mockClient.getEvolutionChain(112).apply {
+        MockServer.client.getEvolutionChain(112).apply {
             assert(
                 chain.evolvesTo[0].evolvesTo[0].evolutionDetails.contains(
                     EvolutionDetail(
@@ -144,7 +144,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain8() {
-        mockClient.getEvolutionChain(213).apply {
+        MockServer.client.getEvolutionChain(213).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -159,7 +159,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain9() {
-        mockClient.getEvolutionChain(178).apply {
+        MockServer.client.getEvolutionChain(178).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -173,7 +173,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain10() {
-        mockClient.getEvolutionChain(346).apply {
+        MockServer.client.getEvolutionChain(346).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -188,7 +188,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain11() {
-        mockClient.getEvolutionChain(47).apply {
+        MockServer.client.getEvolutionChain(47).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -203,7 +203,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain12() {
-        mockClient.getEvolutionChain(362).apply {
+        MockServer.client.getEvolutionChain(362).apply {
             assertNotNull(chain.evolvesTo[0].evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -218,7 +218,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain13() {
-        mockClient.getEvolutionChain(352).apply {
+        MockServer.client.getEvolutionChain(352).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -233,7 +233,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain14() {
-        mockClient.getEvolutionChain(116).apply {
+        MockServer.client.getEvolutionChain(116).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -247,7 +247,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain15() {
-        mockClient.getEvolutionChain(312).apply {
+        MockServer.client.getEvolutionChain(312).apply {
             assertNotNull(chain.evolvesTo.find {
                 it.evolutionDetails.contains(
                     EvolutionDetail(
@@ -261,7 +261,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionChain16() {
-        mockClient.getEvolutionChain(72).apply {
+        MockServer.client.getEvolutionChain(72).apply {
             assertEquals(NamedApiResource("full-incense", "item", 293), babyTriggerItem)
             assertEquals(true, chain.isBaby)
         }
@@ -269,7 +269,7 @@ class EvolutionTest {
 
     @Test
     fun getEvolutionTrigger() {
-        mockClient.getEvolutionTrigger(1).apply {
+        MockServer.client.getEvolutionTrigger(1).apply {
             assertEquals(1, id)
             assertEquals("level-up", name)
             assert(

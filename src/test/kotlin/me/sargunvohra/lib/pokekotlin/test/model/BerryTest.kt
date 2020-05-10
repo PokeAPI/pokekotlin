@@ -4,14 +4,14 @@ import kotlin.test.assertEquals
 import me.sargunvohra.lib.pokekotlin.model.FlavorBerryMap
 import me.sargunvohra.lib.pokekotlin.model.Name
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
-import me.sargunvohra.lib.pokekotlin.test.util.mockClient
+import me.sargunvohra.lib.pokekotlin.test.MockServer
 import org.junit.Test
 
 class BerryTest {
 
     @Test
     fun getBerry() {
-        mockClient.getBerry(34).apply {
+        MockServer.client.getBerry(34).apply {
             assertEquals(34, id)
             assertEquals("durin", name)
             assertEquals(15, growthTime)
@@ -29,31 +29,37 @@ class BerryTest {
 
     @Test
     fun getBerryFirmness() {
-        mockClient.getBerryFirmness(3).apply {
+        MockServer.client.getBerryFirmness(3).apply {
             assertEquals(3, id)
             assertEquals("hard", name)
             assert(NamedApiResource("rawst", "berry", 4) in berries)
-            assert(Name(
+            assert(
+                Name(
                     name = "Hard",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
         }
     }
 
     @Test
     fun getBerryFlavor() {
-        mockClient.getBerryFlavor(3).apply {
+        MockServer.client.getBerryFlavor(3).apply {
             assertEquals(3, id)
             assertEquals("sweet", name)
             assertEquals(NamedApiResource("cute", "contest-type", 3), contestType)
-            assert(FlavorBerryMap(
+            assert(
+                FlavorBerryMap(
                     potency = 10,
                     berry = NamedApiResource("leppa", "berry", 6)
-            ) in berries)
-            assert(Name(
+                ) in berries
+            )
+            assert(
+                Name(
                     name = "Sweet",
                     language = NamedApiResource("en", "language", 9)
-            ) in names)
+                ) in names
+            )
         }
     }
 }
