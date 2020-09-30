@@ -8,7 +8,8 @@
 
 Maintainer: [sargunv](https://github.com/sargunv)
 
-This is a Kotlin (and Java, Scala, etc) client for [PokeApi](https://github.com/PokeAPI/pokeapi). It's written in Kotlin.
+This is a Kotlin (and Java, Scala, etc) client for [PokeApi](https://github.com/PokeAPI/pokeapi). It's written in Kotlin
+(Kotlin is basically like Java, C and C++ also is a “statically typed programming language”. Statically typed programming languages are those languages in which variables need not be defined before they are used.)
 
 ## Example
 
