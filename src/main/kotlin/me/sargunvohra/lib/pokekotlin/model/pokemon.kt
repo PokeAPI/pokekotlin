@@ -240,6 +240,8 @@ data class PokemonSpecies(
     val captureRate: Int,
     val baseHappiness: Int,
     val isBaby: Boolean,
+    val isLegendary: Boolean,
+    val isMythical: Boolean,
     val hatchCounter: Int,
     val hasGenderDifferences: Boolean,
     val formsSwitchable: Boolean,
