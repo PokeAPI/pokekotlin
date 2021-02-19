@@ -8,14 +8,6 @@ import java.lang.reflect.Type
 import me.sargunvohra.lib.pokekotlin.model.ApiResource
 import me.sargunvohra.lib.pokekotlin.model.NamedApiResource
 
-private fun urlToId(url: String): Int {
-    return "/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
-}
-
-private fun urlToCat(url: String): String {
-    return "/[a-z\\-]+/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isLetter() || it == '-' }
-}
-
 internal class ApiResourceAdapter : JsonDeserializer<ApiResource> {
 
     data class Json(val url: String)
@@ -26,7 +18,7 @@ internal class ApiResourceAdapter : JsonDeserializer<ApiResource> {
         context: JsonDeserializationContext
     ): ApiResource {
         val temp = context.deserialize<Json>(element, TypeToken.get(Json::class.java).type)
-        return ApiResource(category = urlToCat(temp.url), id = urlToId(temp.url))
+        return ApiResource(temp.url)
     }
 }
 
@@ -40,10 +32,6 @@ internal class NamedApiResourceAdapter : JsonDeserializer<NamedApiResource> {
         context: JsonDeserializationContext
     ): NamedApiResource {
         val temp = context.deserialize<Json>(element, TypeToken.get(Json::class.java).type)
-        return NamedApiResource(
-            name = temp.name,
-            category = urlToCat(temp.url),
-            id = urlToId(temp.url)
-        )
+        return NamedApiResource(temp.name, temp.url)
     }
 }

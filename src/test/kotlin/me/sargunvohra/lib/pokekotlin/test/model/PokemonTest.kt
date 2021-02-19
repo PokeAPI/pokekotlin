@@ -407,6 +407,8 @@ class PokemonTest {
             assertEquals(45, captureRate)
             assertEquals(70, baseHappiness)
             assertEquals(false, isBaby)
+            assertEquals(false, isMythical)
+            assertEquals(false, isLegendary)
             assertEquals(20, hatchCounter)
             assertEquals(false, hasGenderDifferences)
             assertEquals(false, formsSwitchable)
