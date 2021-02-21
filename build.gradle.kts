@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "me.sargunvohra.lib"
-version = "2.4.0-SNAPSHOT"
+version = "2.4.0"
 
 repositories {
     jcenter()
