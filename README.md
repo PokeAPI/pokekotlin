@@ -1,5 +1,4 @@
 [![Bintray](https://img.shields.io/bintray/v/sargunv/maven/pokekotlin)](https://bintray.com/sargunv/maven/pokekotlin)
-[![JitPack](https://img.shields.io/jitpack/v/github/PokeAPI/pokekotlin)](https://jitpack.io/#PokeAPI/pokekotlin/)
 [![License](https://img.shields.io/github/license/PokeAPI/pokekotlin)](https://github.com/PokeAPI/pokekotlin/blob/master/LICENSE)
 [![Build](https://img.shields.io/github/workflow/status/pokeapi/pokekotlin/Java%20CI%20with%20Gradle)](https://github.com/PokeAPI/pokekotlin/actions?query=workflow%3A%22Java+CI+with+Gradle%22)
 [![Codecov](https://img.shields.io/codecov/c/github/PokeAPI/pokekotlin)](https://codecov.io/gh/PokeAPI/pokekotlin)
@@ -38,7 +37,7 @@ fun main(args: Array<String>) {
 
 ## Download
 
-PokeKotlin is available from Bintray or Jitpack. The latest version number is: ![Bintray](https://img.shields.io/bintray/v/sargunv/maven/pokekotlin?label)
+PokeKotlin is available from Bintray. The latest version number is: ![Bintray](https://img.shields.io/bintray/v/sargunv/maven/pokekotlin?label)
 
 ```groovy
 repositories {
