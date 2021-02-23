@@ -11,7 +11,7 @@ This is a [Kotlin](https://kotlinlang.org/) (and Java, Scala, etc) client for [P
 
 ## Example
 
-Full documentation coming soon. Meanwhile, look at these usage examples:
+Full documentation coming ~~soon~~. Meanwhile, look at these usage examples:
 
 ### Java
 
