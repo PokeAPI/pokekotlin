@@ -42,9 +42,9 @@ PokeKotlin is available from Bintray. The latest version number is: ![Bintray](h
 ```groovy
 repositories {
     mavenCentral()
-    maven { url 'https://dl.bintray.com/sargunv/maven' }
+    maven { url 'https://jitpack.io' }
 }
 dependencies {
-    implementation 'me.sargunvohra.lib:pokekotlin:<VERSION>'
+    implementation 'com.github.PokeAPI:pokekotlin:<VERSION>'
 }
 ```
