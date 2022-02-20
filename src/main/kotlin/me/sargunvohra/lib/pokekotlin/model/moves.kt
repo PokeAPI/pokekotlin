@@ -24,7 +24,8 @@ data class Move(
     val statChanges: List<MoveStatChange>,
     val target: NamedApiResource,
     val type: NamedApiResource,
-    val machines: List<MachineVersionDetail>
+    val machines: List<MachineVersionDetail>,
+    val flavorTextEntries: List<MoveFlavorText>
 )
 
 data class ContestComboSets(
@@ -111,4 +112,10 @@ data class MoveTarget(
     val descriptions: List<Description>,
     val moves: List<NamedApiResource>,
     val names: List<Name>
+)
+
+data class MoveFlavorText(
+    val flavorText: String,
+    val language: NamedApiResource,
+    val versionGroup: NamedApiResource
 )
