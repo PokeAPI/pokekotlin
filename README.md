@@ -1,13 +1,18 @@
-[![Bintray](https://img.shields.io/bintray/v/sargunv/maven/pokekotlin)](https://bintray.com/sargunv/maven/pokekotlin)
 [![License](https://img.shields.io/github/license/PokeAPI/pokekotlin)](https://github.com/PokeAPI/pokekotlin/blob/master/LICENSE)
-[![Build](https://img.shields.io/github/workflow/status/pokeapi/pokekotlin/Java%20CI%20with%20Gradle)](https://github.com/PokeAPI/pokekotlin/actions?query=workflow%3A%22Java+CI+with+Gradle%22)
-[![Codecov](https://img.shields.io/codecov/c/github/PokeAPI/pokekotlin)](https://codecov.io/gh/PokeAPI/pokekotlin)
 
 # PokeKotlin
 
-Maintainer: [sargunv](https://github.com/sargunv)
+Maintainer: [@sargunv](https://github.com/sargunv)
 
-This is a [Kotlin](https://kotlinlang.org/) (and Java, Scala, etc) client for [PokeApi](https://github.com/PokeAPI/pokeapi). It's written in Kotlin.
+This is a [Kotlin](https://kotlinlang.org/) client for
+[PokeApi](https://github.com/PokeAPI/pokeapi).
+
+| Platform | Status             |
+| -------- | ------------------ |
+| JVM      | :white_check_mark: |
+| Native   | :x:                |
+| JS       | :x:                |
+| WASM     | :x:                |
 
 ## Example
 
@@ -37,14 +42,4 @@ fun main(args: Array<String>) {
 
 ## Download
 
-PokeKotlin is available from Bintray. The latest version number is: ![Bintray](https://img.shields.io/bintray/v/sargunv/maven/pokekotlin?label)
-
-```groovy
-repositories {
-    mavenCentral()
-    maven { url 'https://jitpack.io' }
-}
-dependencies {
-    implementation 'com.github.PokeAPI:pokekotlin:<VERSION>'
-}
-```
+TODO

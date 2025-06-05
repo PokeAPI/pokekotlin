@@ -1,0 +1,30 @@
+[versions]
+# Regular libraries: keep as up to date as possible.
+retrofit = "2.8.1"
+junit = "4.13"
+okhttp = "3.14.8"
+
+# Regular tools: keep as up to date as possible
+gradle-kotlin = "2.1.21"
+gradle-dokka = "2.0.0"
+gradle-jgitver = "0.10.0-rc03"
+gradle-mavenPublish = "0.32.0"
+gradle-mkdocs = "4.0.1"
+gradle-spotless = "7.0.4"
+tool-prettier = "3.5.3"
+
+[libraries]
+retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit"}
+retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit"}
+retrofit-adapter-rxjava = { module = "com.squareup.retrofit2:adapter-rxjava", version.ref = "retrofit"}
+okhttp-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp" }
+junit = { module = "junit:junit", version.ref = "junit" }
+
+[plugins]
+dokka = { id = "org.jetbrains.dokka", version.ref = "gradle-dokka" }
+jgitver = { id = "fr.brouillard.oss.gradle.jgitver", version.ref = "gradle-jgitver" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "gradle-kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "gradle-kotlin" }
+mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "gradle-mavenPublish" }
+mkdocs = { id = "ru.vyarus.mkdocs-build", version.ref = "gradle-mkdocs" }
+spotless = { id = "com.diffplug.spotless", version.ref = "gradle-spotless" }

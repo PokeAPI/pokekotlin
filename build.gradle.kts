@@ -1,121 +1,134 @@
-import com.jfrog.bintray.gradle.BintrayExtension.PackageConfig
+import fr.brouillard.oss.jgitver.Strategies
 
 plugins {
-    kotlin("jvm") version "1.3.70"
-    id("org.jlleitschuh.gradle.ktlint") version "9.2.1"
-    jacoco
-    `maven-publish`
-    signing
-    id("com.jfrog.bintray") version "1.8.5"
+  alias(libs.plugins.kotlin.multiplatform)
+  alias(libs.plugins.kotlin.serialization)
+  alias(libs.plugins.jgitver)
+  alias(libs.plugins.mavenPublish)
+  alias(libs.plugins.spotless)
+  alias(libs.plugins.dokka)
+  alias(libs.plugins.mkdocs)
 }
 
-group = "me.sargunvohra.lib"
-version = "2.4.0"
+group = "dev.sargunv.pokekotlin"
 
-repositories {
-    jcenter()
+jgitver {
+  strategy(Strategies.MAVEN)
+  nonQualifierBranches("main")
 }
 
-dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    api("com.squareup.retrofit2:retrofit:2.8.1")
-    api("com.squareup.retrofit2:converter-gson:2.8.1")
-    api("com.squareup.retrofit2:adapter-rxjava:2.8.1")
+kotlin {
+  jvmToolchain(21)
 
-    testImplementation(kotlin("test"))
-    testImplementation(kotlin("test-junit"))
-    testImplementation(kotlin("reflect"))
-    testImplementation("junit:junit:4.13")
-    testImplementation("com.squareup.okhttp3:mockwebserver:3.14.8")
-}
+  compilerOptions { allWarningsAsErrors = true }
 
-java {
-    withSourcesJar()
-    withJavadocJar()
-}
+  jvm()
 
-jacoco {
-    toolVersion = "0.8.5"
-}
+  applyDefaultHierarchyTemplate()
 
-tasks.test {
-    finalizedBy(tasks.jacocoTestReport)
-}
-
-tasks.jacocoTestReport {
-    reports {
-        xml.isEnabled = true
-        csv.isEnabled = true
-        html.isEnabled = true
+  sourceSets {
+    jvmMain.dependencies {
+      implementation(kotlin("stdlib"))
+      implementation(libs.retrofit.core)
+      implementation(libs.retrofit.converter.gson)
+      implementation(libs.retrofit.adapter.rxjava)
     }
+
+    jvmTest.dependencies {
+      implementation(kotlin("test"))
+      implementation(kotlin("test-junit"))
+      implementation(kotlin("reflect"))
+      implementation(libs.junit)
+      implementation(libs.okhttp.mockwebserver)
+    }
+  }
 }
 
 publishing {
-    repositories {
-        mavenLocal()
-        maven {
-            name = "GithubPackages"
-            url = uri("https://maven.pkg.github.com/pokeapi/pokekotlin")
-            credentials {
-                username = project.findProperty("gpr.user") as String?
-                    ?: System.getenv("GITHUB_USER")
-                password = project.findProperty("gpr.key") as String?
-                    ?: System.getenv("GITHUB_KEY")
-            }
-        }
+  repositories {
+    maven {
+      name = "GitHubPackages"
+      setUrl("https://maven.pkg.github.com/PokeAPI/pokekotlin")
+      credentials {
+        username = project.properties["githubUser"]?.toString()
+        password = project.properties["githubToken"]?.toString()
+      }
     }
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["java"])
-            pom {
-                name.set("PokeKotlin")
-                description.set("A Kotlin (or Java, Scala, etc) client for PokeAPI.")
-                url.set("https://github.com/PokeAPI/pokekotlin/wiki")
-                licenses {
-                    license {
-                        name.set("The Apache License, Version 2.0")
-                        url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
-                    }
-                }
-                developers {
-                    developer {
-                        id.set("sargunv")
-                        name.set("Sargun Vohra")
-                        email.set("sargun.vohra@gmail.com")
-                    }
-                }
-                scm {
-                    connection.set("scm:git:git://github.com/PokeAPI/pokekotlin.git")
-                    developerConnection.set("scm:git:git://github.com/PokeAPI/pokekotlin.git")
-                    url.set("https://github.com/PokeAPI/pokekotlin")
-                }
-            }
-        }
+  }
+}
+
+mavenPublishing {
+  pom {
+    name = "PokeKotlin"
+    description = "Kotlin client for The Pokémon API"
+    url = "https://github.com/PokeAPI/pokekotlin"
+  }
+}
+
+dokka {
+  moduleName = "PokeKotlin API Reference"
+  dokkaSourceSets {
+    configureEach {
+      includes.from("MODULE.md")
+      sourceLink {
+        remoteUrl("https://github.com/PokeAPI/pokekotlin/tree/${project.ext["base_tag"]}/")
+        localDirectory.set(rootDir)
+      }
+      externalDocumentationLinks {
+        // TODO
+      }
     }
+  }
 }
 
-signing {
-    val signingKey: String? = project.findProperty("signing.key") as String?
-        ?: System.getenv("SIGNING_KEY")
-    val signingPassword: String? = project.findProperty("signing.password") as String?
-        ?: System.getenv("SIGNING_PASSWORD")
-    useInMemoryPgpKeys(signingKey, signingPassword)
-    sign(publishing.publications["maven"])
+mkdocs {
+  sourcesDir = "docs"
+  strict = true
+  publish {
+    docPath = null // single version site
+  }
 }
 
-bintray {
-    user = project.findProperty("bintray.user") as String?
-        ?: System.getenv("BINTRAY_USER")
-    key = project.findProperty("bintray.key") as String?
-        ?: System.getenv("BINTRAY_KEY")
-    setPublications("maven")
-    publish = true
-    pkg(delegateClosureOf<PackageConfig> {
-        repo = "maven"
-        name = "pokekotlin"
-    })
+tasks.register("generateDocs") {
+  dependsOn("dokkaGenerate", "mkdocsBuild")
+  doLast {
+    copy {
+      from(layout.buildDirectory.dir("mkdocs"))
+      into(layout.buildDirectory.dir("docs"))
+    }
+    copy {
+      from(layout.buildDirectory.dir("dokka/html"))
+      into(layout.buildDirectory.dir("docs/api"))
+    }
+  }
 }
 
-tasks.publish {
-    dependsOn(tasks.bintrayUpload)
+spotless {
+  kotlinGradle {
+    target("*.gradle.kts")
+    ktfmt().googleStyle()
+  }
+  kotlin {
+    target("src/**/*.kt")
+    ktfmt().googleStyle()
+  }
+  format("markdown") {
+    target("*.md", "docs/**/*.md")
+    prettier(libs.versions.tool.prettier.get()).config(mapOf("proseWrap" to "always"))
+  }
+  yaml {
+    target(".github/**/*.yml")
+    prettier(libs.versions.tool.prettier.get())
+  }
 }
+
+tasks.register("installGitHooks") {
+  doLast {
+    copy {
+      from("${rootProject.projectDir}/scripts/pre-commit")
+      into("${rootProject.projectDir}/.git/hooks")
+    }
+  }
+}
+
+tasks.named("clean") { doLast { delete("${rootProject.projectDir}/.git/hooks/pre-commit") } }

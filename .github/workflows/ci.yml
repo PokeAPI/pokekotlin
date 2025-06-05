@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "actions/checkout@v4"
+        with:
+          fetch-depth: 0
+      - uses: "./.github/actions/setup"
+      - run: "./gradlew build"
+
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "actions/checkout@v4"
+        with:
+          fetch-depth: 0
+      - uses: "./.github/actions/setup"
+      - run: "./gradlew generateDocs"
+      - uses: "actions/upload-pages-artifact@v3"
+        with:
+          path: "build/docs"
+
+  check-format:
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: "actions/checkout@v4"
+        with:
+          fetch-depth: 0
+      - uses: "./.github/actions/setup"
+      - run: "./gradlew spotlessApply"
+      - if: "${{ github.event_name == 'pull_request' }}"
+        uses: reviewdog/action-suggester@v1
+        with:
+          tool_name: spotless
+          cleanup: false
+      - run: "git diff --exit-code"
+
+  all-good:
+    needs:
+      - "build"
+      - "check-format"
+      - "build-docs"
+    runs-on: "ubuntu-latest"
+    steps:
+      - run: "echo 'All checks passed!'"
