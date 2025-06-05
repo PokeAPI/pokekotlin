@@ -5,8 +5,8 @@ import dev.sargunv.pokekotlin.model.Effect
 import dev.sargunv.pokekotlin.model.FlavorText
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
+import kotlin.test.Test
 import kotlin.test.assertEquals
-import org.junit.Test
 
 class ContestTest {
 

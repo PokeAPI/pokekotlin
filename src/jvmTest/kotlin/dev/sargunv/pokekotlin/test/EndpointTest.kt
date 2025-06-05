@@ -4,10 +4,10 @@ import com.google.gson.Gson
 import dev.sargunv.pokekotlin.client.PokeApi
 import kotlin.collections.HashMap
 import kotlin.reflect.full.declaredMemberFunctions
+import kotlin.test.Test
 import kotlin.test.assertEquals
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.junit.Test
 
 class EndpointTest {
 

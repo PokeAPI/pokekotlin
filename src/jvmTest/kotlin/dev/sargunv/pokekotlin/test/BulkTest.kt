@@ -4,11 +4,9 @@ import dev.sargunv.pokekotlin.model.ResourceSummary
 import dev.sargunv.pokekotlin.model.ResourceSummaryList
 import java.util.LinkedList
 import kotlin.reflect.full.memberProperties
+import kotlin.test.Test
 import kotlin.test.fail
-import org.junit.Ignore
-import org.junit.Test
 
-@Ignore
 class BulkTest {
 
   private fun checkNulls(obj: Any) {

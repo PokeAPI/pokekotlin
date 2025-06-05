@@ -10,10 +10,10 @@ import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.VerboseEffect
 import dev.sargunv.pokekotlin.model.VersionGroupFlavorText
 import dev.sargunv.pokekotlin.test.MockServer
+import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 import kotlin.test.assertNotNull
-import org.junit.Test
 
 class ItemTest {
 

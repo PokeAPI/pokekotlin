@@ -29,8 +29,8 @@ import dev.sargunv.pokekotlin.model.TypePokemon
 import dev.sargunv.pokekotlin.model.VerboseEffect
 import dev.sargunv.pokekotlin.model.VersionGameIndex
 import dev.sargunv.pokekotlin.test.MockServer
+import kotlin.test.Test
 import kotlin.test.assertEquals
-import org.junit.Test
 
 class PokemonTest {
 

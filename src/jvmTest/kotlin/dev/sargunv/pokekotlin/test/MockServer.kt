@@ -28,10 +28,10 @@ object MockServer {
     // disable MockWebServer logging
     LogManager.getLogManager().getLogger(MockWebServer::class.qualifiedName).level = Level.OFF
 
-    // get path to sample API responses archive
-    val sampleArchivePath = Paths.get(MockServer::class.java.getResource("/data").toURI())
+    // get the path to the sample API responses archive
+    val sampleArchivePath = Paths.get(MockServer::class.java.getResource("/data")!!.toURI())
 
-    // setup the dispatcher to use files in the archive as the mock responses
+    // set up the dispatcher to use files in the archive as the mock responses
     server.dispatcher =
       object : Dispatcher() {
         private val gson = Gson()

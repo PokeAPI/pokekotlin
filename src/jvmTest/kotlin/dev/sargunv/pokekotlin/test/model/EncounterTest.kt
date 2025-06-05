@@ -3,8 +3,8 @@ package dev.sargunv.pokekotlin.test.model
 import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
+import kotlin.test.Test
 import kotlin.test.assertEquals
-import org.junit.Test
 
 class EncounterTest {
 
