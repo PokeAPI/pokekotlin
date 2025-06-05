@@ -1,3 +1,4 @@
+import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
 
 plugins {
@@ -8,6 +9,7 @@ plugins {
   alias(libs.plugins.dokka)
   alias(libs.plugins.mkdocs)
   alias(libs.plugins.jgitver)
+  id("maven-publish")
 }
 
 group = "dev.sargunv.pokekotlin"
@@ -55,6 +57,8 @@ publishing {
 }
 
 mavenPublishing {
+  publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
+  signAllPublications()
   pom {
     name = "PokeKotlin"
     description = "Kotlin client for The Pokémon API"
