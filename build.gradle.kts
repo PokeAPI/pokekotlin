@@ -1,5 +1,7 @@
 import com.vanniktech.maven.publish.SonatypeHost
+import de.undercouch.gradle.tasks.download.Download
 import fr.brouillard.oss.jgitver.Strategies
+import org.yaml.snakeyaml.Yaml
 
 plugins {
   alias(libs.plugins.kotlin.multiplatform)
@@ -9,7 +11,129 @@ plugins {
   alias(libs.plugins.dokka)
   alias(libs.plugins.mkdocs)
   alias(libs.plugins.jgitver)
+  alias(libs.plugins.openapiGenerator)
+  alias(libs.plugins.download)
   id("maven-publish")
+}
+
+buildscript { dependencies { classpath(libs.snakeyaml) } }
+
+val downloadOpenapiSpec by
+  tasks.registering(Download::class) {
+    src(
+      libs.versions.pokeapi.map { version ->
+        "https://raw.githubusercontent.com/PokeAPI/pokeapi/refs/tags/$version/openapi.yml"
+      }
+    )
+    dest(layout.buildDirectory.file("openapi/original.yml"))
+  }
+
+abstract class PatchOpenapiSpec : DefaultTask() {
+  @get:InputFile abstract val inputFile: RegularFileProperty
+  @get:OutputFile abstract val outputFile: RegularFileProperty
+
+  @Suppress("UNCHECKED_CAST")
+  private fun MutableMap<*, *>.obj(key: String) = this[key] as MutableMap<Any?, Any?>
+
+  private fun fixEvolutionChainLinkDetails(data: MutableMap<Any?, Any?>) {
+    val schemas = data.obj("components").obj("schemas")
+    val chainProps =
+      schemas.obj("EvolutionChainDetail").obj("properties").obj("chain").obj("properties")
+
+    // create a new schema
+    schemas.put(
+      "EvolutionChainLinkDetails",
+      chainProps
+        .obj("evolves_to")
+        .obj("items")
+        .obj("properties")
+        .obj("evolution_details")
+        .obj("items"),
+    )
+
+    // use it by reference
+    chainProps
+      .obj("evolution_details")
+      .put("items", mapOf("\$ref" to "#/components/schemas/EvolutionChainLinkDetails"))
+
+    // use it by reference
+    chainProps
+      .obj("evolves_to")
+      .obj("items")
+      .obj("properties")
+      .obj("evolution_details")
+      .put("items", mapOf("\$ref" to "#/components/schemas/EvolutionChainLinkDetails"))
+  }
+
+  @TaskAction
+  fun action() {
+    val yaml = Yaml()
+    val data = yaml.load(this.inputFile.get().asFile.inputStream()) as MutableMap<Any?, Any?>
+    fixEvolutionChainLinkDetails(data)
+    this.outputFile.get().asFile.writer().use { yaml.dump(data, it) }
+  }
+}
+
+val patchOpenapiSpec by
+  tasks.registering(PatchOpenapiSpec::class) {
+    inputFile = downloadOpenapiSpec.map { it.outputFiles.first() }
+    outputFile = layout.buildDirectory.file("openapi/patched.yml")
+  }
+
+openApiGenerate {
+  generatorName = "kotlin"
+
+  inputSpec = patchOpenapiSpec.get().outputFile.map { it.asFile.absolutePath }
+  outputDir = layout.projectDirectory.dir("generatedSrc/commonMain/kotlin").asFile.absolutePath
+  packageName = "dev.sargunv.pokekotlin"
+  cleanupOutput = true
+
+  ignoreFileOverride = layout.projectDirectory.file(".openapi-generator-ignore").asFile.absolutePath
+  generateApiDocumentation = false
+  generateApiTests = false
+  generateModelDocumentation = false
+  generateModelTests = false
+
+  configOptions =
+    mapOf(
+      "library" to "multiplatform",
+      "dateLibrary" to "kotlinx-datetime",
+      "sourceFolder" to "",
+      "enumPropertyNaming" to "PascalCase",
+      "explicitApi" to "true",
+    )
+}
+
+kotlin {
+  jvmToolchain(21)
+  explicitApi()
+
+  jvm()
+
+  applyDefaultHierarchyTemplate()
+
+  sourceSets {
+    commonMain {
+      kotlin { srcDir(tasks.openApiGenerate) }
+      dependencies {
+        implementation(kotlin("stdlib"))
+        implementation(libs.kotlinx.serialization.json)
+        implementation(libs.ktor.client.core)
+        implementation(libs.ktor.client.content.negotiation)
+        implementation(libs.ktor.serialization.kotlinx.json)
+
+        // only non-browser platforms
+        implementation(libs.ktor.client.cio)
+      }
+    }
+
+    commonTest { dependencies { implementation(kotlin("test")) } }
+
+    jvmTest.dependencies {
+      implementation(kotlin("reflect"))
+      implementation(libs.okhttp.mockwebserver)
+    }
+  }
 }
 
 group = "dev.sargunv.pokekotlin"
@@ -17,31 +141,6 @@ group = "dev.sargunv.pokekotlin"
 jgitver {
   strategy(Strategies.MAVEN)
   nonQualifierBranches("main")
-}
-
-kotlin {
-  jvmToolchain(21)
-
-  compilerOptions { allWarningsAsErrors = true }
-
-  jvm()
-
-  applyDefaultHierarchyTemplate()
-
-  sourceSets {
-    jvmMain.dependencies {
-      implementation(kotlin("stdlib"))
-      implementation(libs.retrofit.core)
-      implementation(libs.retrofit.converter.gson)
-      implementation(libs.retrofit.adapter.rxjava)
-    }
-
-    jvmTest.dependencies {
-      implementation(kotlin("test"))
-      implementation(kotlin("reflect"))
-      implementation(libs.okhttp.mockwebserver)
-    }
-  }
 }
 
 publishing {

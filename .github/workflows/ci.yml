@@ -15,6 +15,7 @@ jobs:
           fetch-depth: 0
       - uses: "./.github/actions/setup"
       - run: "./gradlew build"
+      - run: "git diff --exit-code"
 
   build-docs:
     runs-on: ubuntu-latest
