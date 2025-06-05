@@ -20,7 +20,7 @@ jobs:
       last_sha: "${{ fromJson(steps.check-last-run.outputs.data).workflow_runs[0].head_sha }}"
 
   publish-snapshot:
-    needs: [ "check-last-run" ]
+    needs: ["check-last-run"]
     if: "${{ needs.check-last-run.outputs.last_sha != github.sha }}"
     runs-on: "ubuntu-latest"
     permissions:
@@ -36,7 +36,7 @@ jobs:
           ORG_GRADLE_PROJECT_GitHubPackagesUsername: "${{ github.actor }}"
 
   dependency-submission:
-    needs: [ "check-last-run" ]
+    needs: ["check-last-run"]
     if: "${{ needs.check-last-run.outputs.last_sha != github.sha }}"
     runs-on: "ubuntu-latest"
     permissions:
