@@ -12,7 +12,7 @@ This is a [Kotlin](https://kotlinlang.org/) client for
 [PokeApi](https://github.com/PokeAPI/pokeapi).
 
 | Platform | Status             |
-|----------|--------------------|
+| -------- | ------------------ |
 | JVM      | :white_check_mark: |
 | Native   | :x:                |
 | JS       | :x:                |
@@ -22,7 +22,8 @@ This is a [Kotlin](https://kotlinlang.org/) client for
 
 Since v2.5.0, the library is published to Maven Central.
 
-Current version: ![Maven Central Version](https://img.shields.io/maven-central/v/dev.sargunv.pokekotlin/pokekotlin)
+Current version:
+![Maven Central Version](https://img.shields.io/maven-central/v/dev.sargunv.pokekotlin/pokekotlin)
 
 ### Gradle
 
@@ -44,7 +45,8 @@ dependencies {
 
 ## Usage
 
-See the usage examples below. For more info, see the [API Reference](https://pokeapi.github.io/pokekotlin/api/).
+See the usage examples below. For more info, see the
+[API Reference](https://pokeapi.github.io/pokekotlin/api/).
 
 ### Java
 
