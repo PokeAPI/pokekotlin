@@ -3,11 +3,11 @@ import fr.brouillard.oss.jgitver.Strategies
 plugins {
   alias(libs.plugins.kotlin.multiplatform)
   alias(libs.plugins.kotlin.serialization)
-  alias(libs.plugins.jgitver)
   alias(libs.plugins.mavenPublish)
   alias(libs.plugins.spotless)
   alias(libs.plugins.dokka)
   alias(libs.plugins.mkdocs)
+  alias(libs.plugins.jgitver)
 }
 
 group = "dev.sargunv.pokekotlin"
@@ -49,10 +49,7 @@ publishing {
     maven {
       name = "GitHubPackages"
       setUrl("https://maven.pkg.github.com/PokeAPI/pokekotlin")
-      credentials {
-        username = project.properties["githubUser"]?.toString()
-        password = project.properties["githubToken"]?.toString()
-      }
+      credentials(PasswordCredentials::class)
     }
   }
 }
@@ -62,6 +59,25 @@ mavenPublishing {
     name = "PokeKotlin"
     description = "Kotlin client for The Pokémon API"
     url = "https://github.com/PokeAPI/pokekotlin"
+    licenses {
+      license {
+        name.set("The Apache License, Version 2.0")
+        url.set("https://opensource.org/license/apache-2-0")
+        distribution.set("repo")
+      }
+    }
+    developers {
+      developer {
+        id.set("sargunv")
+        name.set("Sargun Vohra")
+        url.set("https://github.com/sargunv")
+      }
+    }
+    scm {
+      url.set("https://github.com/PokeAPI/pokekotlin")
+      connection.set("scm:git:git://github.com/PokeAPI/pokekotlin.git")
+      developerConnection.set("scm:git:ssh://git@github.com/PokeAPI/pokekotlin.git")
+    }
   }
 }
 
