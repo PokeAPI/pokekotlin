@@ -14,11 +14,10 @@ gradle-spotless = "7.0.4"
 tool-prettier = "3.5.3"
 
 [libraries]
-retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit"}
-retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit"}
-retrofit-adapter-rxjava = { module = "com.squareup.retrofit2:adapter-rxjava", version.ref = "retrofit"}
+retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+retrofit-adapter-rxjava = { module = "com.squareup.retrofit2:adapter-rxjava", version.ref = "retrofit" }
 okhttp-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp" }
-junit = { module = "junit:junit", version.ref = "junit" }
 
 [plugins]
 dokka = { id = "org.jetbrains.dokka", version.ref = "gradle-dokka" }

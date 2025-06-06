@@ -2,9 +2,9 @@ package dev.sargunv.pokekotlin.test.model
 
 import dev.sargunv.pokekotlin.model.*
 import dev.sargunv.pokekotlin.test.MockServer
+import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
-import org.junit.Test
 
 class MoveTest {
 

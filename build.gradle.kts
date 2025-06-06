@@ -38,9 +38,7 @@ kotlin {
 
     jvmTest.dependencies {
       implementation(kotlin("test"))
-      implementation(kotlin("test-junit"))
       implementation(kotlin("reflect"))
-      implementation(libs.junit)
       implementation(libs.okhttp.mockwebserver)
     }
   }

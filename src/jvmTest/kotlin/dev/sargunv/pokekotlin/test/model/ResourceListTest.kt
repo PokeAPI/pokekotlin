@@ -5,9 +5,9 @@ import dev.sargunv.pokekotlin.model.ApiResourceList
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.NamedApiResourceList
 import dev.sargunv.pokekotlin.test.MockServer
+import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
-import org.junit.Test
 
 class ResourceListTest {
 
