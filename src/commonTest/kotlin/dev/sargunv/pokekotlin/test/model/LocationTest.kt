@@ -5,7 +5,7 @@ import dev.sargunv.pokekotlin.model.GenerationGameIndex
 import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.PalParkEncounterSpecies
-import dev.sargunv.pokekotlin.test.MockServer
+import dev.sargunv.pokekotlin.test.StaticPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
@@ -16,7 +16,7 @@ class LocationTest {
 
   @Test
   fun getLocation() = runTest {
-    MockServer.client.getLocation(20).apply {
+    StaticPokeApi.getLocation(20).apply {
       assertEquals(20, id)
       assertEquals("wayward-cave", name)
       assertEquals(NamedApiResource("sinnoh", "region", 4), region)
@@ -37,7 +37,7 @@ class LocationTest {
 
   @Test
   fun getLocationArea() = runTest {
-    MockServer.client.getLocationArea(20).apply {
+    StaticPokeApi.getLocationArea(20).apply {
       assertEquals(20, id)
       assertEquals("mt-coronet-cave", name)
       assertEquals(20, gameIndex)
@@ -72,7 +72,7 @@ class LocationTest {
 
   @Test
   fun getPalParkArea() = runTest {
-    MockServer.client.getPalParkArea(2).apply {
+    StaticPokeApi.getPalParkArea(2).apply {
       assertEquals(2, id)
       assertEquals("field", name)
       assertContains(names, Name(name = "Field", language = NamedApiResource("en", "language", 9)))
@@ -89,7 +89,7 @@ class LocationTest {
 
   @Test
   fun getRegion() = runTest {
-    MockServer.client.getRegion(1).apply {
+    StaticPokeApi.getRegion(1).apply {
       assertEquals(1, id)
       assertEquals("kanto", name)
       assertEquals(NamedApiResource("generation-i", "generation", 1), mainGeneration)

@@ -2,7 +2,7 @@ package dev.sargunv.pokekotlin.test.model
 
 import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
-import dev.sargunv.pokekotlin.test.MockServer
+import dev.sargunv.pokekotlin.test.StaticPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
@@ -12,7 +12,7 @@ class EncounterTest {
 
   @Test
   fun getEncounterMethod() = runTest {
-    MockServer.client.getEncounterMethod(5).apply {
+    StaticPokeApi.getEncounterMethod(5).apply {
       assertEquals(5, id)
       assertEquals("surf", name)
       assertEquals(14, order)
@@ -25,7 +25,7 @@ class EncounterTest {
 
   @Test
   fun getEncounterCondition() = runTest {
-    MockServer.client.getEncounterCondition(5).apply {
+    StaticPokeApi.getEncounterCondition(5).apply {
       assertEquals(5, id)
       assertEquals("radio", name)
       assertContains(values, NamedApiResource("radio-hoenn", "encounter-condition-value", 15))
@@ -35,7 +35,7 @@ class EncounterTest {
 
   @Test
   fun getEncounterConditionValue() = runTest {
-    MockServer.client.getEncounterConditionValue(5).apply {
+    StaticPokeApi.getEncounterConditionValue(5).apply {
       assertEquals(5, id)
       assertEquals("time-night", name)
       assertEquals(NamedApiResource("time", "encounter-condition", 2), condition)

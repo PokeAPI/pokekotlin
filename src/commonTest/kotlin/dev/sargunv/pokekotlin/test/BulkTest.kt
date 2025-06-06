@@ -34,381 +34,345 @@ class BulkTest {
 
   @Test
   fun bulkBerry() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getBerryList(o, l) },
-      { i -> MockServer.client.getBerry(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getBerryList(o, l) }, { i -> StaticPokeApi.getBerry(i) })
   }
 
   @Test
   fun bulkBerryFirmness() = runTest {
     testEach(
-      { o, l -> MockServer.client.getBerryFirmnessList(o, l) },
-      { i -> MockServer.client.getBerryFirmness(i) },
+      { o, l -> StaticPokeApi.getBerryFirmnessList(o, l) },
+      { i -> StaticPokeApi.getBerryFirmness(i) },
     )
   }
 
   @Test
   fun bulkBerryFlavor() = runTest {
     testEach(
-      { o, l -> MockServer.client.getBerryFlavorList(o, l) },
-      { i -> MockServer.client.getBerryFlavor(i) },
+      { o, l -> StaticPokeApi.getBerryFlavorList(o, l) },
+      { i -> StaticPokeApi.getBerryFlavor(i) },
     )
   }
 
   @Test
   fun bulkContestType() = runTest {
     testEach(
-      { o, l -> MockServer.client.getContestTypeList(o, l) },
-      { i -> MockServer.client.getContestType(i) },
+      { o, l -> StaticPokeApi.getContestTypeList(o, l) },
+      { i -> StaticPokeApi.getContestType(i) },
     )
   }
 
   @Test
   fun bulkContestEffect() = runTest {
     testEach(
-      { o, l -> MockServer.client.getContestEffectList(o, l) },
-      { i -> MockServer.client.getContestEffect(i) },
+      { o, l -> StaticPokeApi.getContestEffectList(o, l) },
+      { i -> StaticPokeApi.getContestEffect(i) },
     )
   }
 
   @Test
   fun bulkSuperContestEffect() = runTest {
     testEach(
-      { o, l -> MockServer.client.getSuperContestEffectList(o, l) },
-      { i -> MockServer.client.getSuperContestEffect(i) },
+      { o, l -> StaticPokeApi.getSuperContestEffectList(o, l) },
+      { i -> StaticPokeApi.getSuperContestEffect(i) },
     )
   }
 
   @Test
   fun bulkEncounterMethod() = runTest {
     testEach(
-      { o, l -> MockServer.client.getEncounterMethodList(o, l) },
-      { i -> MockServer.client.getEncounterMethod(i) },
+      { o, l -> StaticPokeApi.getEncounterMethodList(o, l) },
+      { i -> StaticPokeApi.getEncounterMethod(i) },
     )
   }
 
   @Test
   fun bulkEncounterCondition() = runTest {
     testEach(
-      { o, l -> MockServer.client.getEncounterConditionList(o, l) },
-      { i -> MockServer.client.getEncounterCondition(i) },
+      { o, l -> StaticPokeApi.getEncounterConditionList(o, l) },
+      { i -> StaticPokeApi.getEncounterCondition(i) },
     )
   }
 
   @Test
   fun bulkEncounterConditionValue() = runTest {
     testEach(
-      { o, l -> MockServer.client.getEncounterConditionValueList(o, l) },
-      { i -> MockServer.client.getEncounterConditionValue(i) },
+      { o, l -> StaticPokeApi.getEncounterConditionValueList(o, l) },
+      { i -> StaticPokeApi.getEncounterConditionValue(i) },
     )
   }
 
   @Test
   fun bulkEvolutionChain() = runTest {
     testEach(
-      { o, l -> MockServer.client.getEvolutionChainList(o, l) },
-      { i -> MockServer.client.getEvolutionChain(i) },
+      { o, l -> StaticPokeApi.getEvolutionChainList(o, l) },
+      { i -> StaticPokeApi.getEvolutionChain(i) },
     )
   }
 
   @Test
   fun bulkEvolutionTrigger() = runTest {
     testEach(
-      { o, l -> MockServer.client.getEvolutionTriggerList(o, l) },
-      { i -> MockServer.client.getEvolutionTrigger(i) },
+      { o, l -> StaticPokeApi.getEvolutionTriggerList(o, l) },
+      { i -> StaticPokeApi.getEvolutionTrigger(i) },
     )
   }
 
   @Test
   fun bulkGeneration() = runTest {
     testEach(
-      { o, l -> MockServer.client.getGenerationList(o, l) },
-      { i -> MockServer.client.getGeneration(i) },
+      { o, l -> StaticPokeApi.getGenerationList(o, l) },
+      { i -> StaticPokeApi.getGeneration(i) },
     )
   }
 
   @Test
   fun bulkPokedex() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getPokedexList(o, l) },
-      { i -> MockServer.client.getPokedex(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getPokedexList(o, l) }, { i -> StaticPokeApi.getPokedex(i) })
   }
 
   @Test
   fun bulkVersion() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getVersionList(o, l) },
-      { i -> MockServer.client.getVersion(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getVersionList(o, l) }, { i -> StaticPokeApi.getVersion(i) })
   }
 
   @Test
   fun bulkVersionGroup() = runTest {
     testEach(
-      { o, l -> MockServer.client.getVersionGroupList(o, l) },
-      { i -> MockServer.client.getVersionGroup(i) },
+      { o, l -> StaticPokeApi.getVersionGroupList(o, l) },
+      { i -> StaticPokeApi.getVersionGroup(i) },
     )
   }
 
   @Test
   fun bulkItem() = runTest {
-    testEach({ o, l -> MockServer.client.getItemList(o, l) }, { i -> MockServer.client.getItem(i) })
+    testEach({ o, l -> StaticPokeApi.getItemList(o, l) }, { i -> StaticPokeApi.getItem(i) })
   }
 
   @Test
   fun bulkItemAttribute() = runTest {
     testEach(
-      { o, l -> MockServer.client.getItemAttributeList(o, l) },
-      { i -> MockServer.client.getItemAttribute(i) },
+      { o, l -> StaticPokeApi.getItemAttributeList(o, l) },
+      { i -> StaticPokeApi.getItemAttribute(i) },
     )
   }
 
   @Test
   fun bulkItemCategory() = runTest {
     testEach(
-      { o, l -> MockServer.client.getItemCategoryList(o, l) },
-      { i -> MockServer.client.getItemCategory(i) },
+      { o, l -> StaticPokeApi.getItemCategoryList(o, l) },
+      { i -> StaticPokeApi.getItemCategory(i) },
     )
   }
 
   @Test
   fun bulkItemFlingEffect() = runTest {
     testEach(
-      { o, l -> MockServer.client.getItemFlingEffectList(o, l) },
-      { i -> MockServer.client.getItemFlingEffect(i) },
+      { o, l -> StaticPokeApi.getItemFlingEffectList(o, l) },
+      { i -> StaticPokeApi.getItemFlingEffect(i) },
     )
   }
 
   @Test
   fun bulkItemPocket() = runTest {
     testEach(
-      { o, l -> MockServer.client.getItemPocketList(o, l) },
-      { i -> MockServer.client.getItemPocket(i) },
+      { o, l -> StaticPokeApi.getItemPocketList(o, l) },
+      { i -> StaticPokeApi.getItemPocket(i) },
     )
   }
 
   @Test
   fun bulkMove() = runTest {
-    testEach({ o, l -> MockServer.client.getMoveList(o, l) }, { i -> MockServer.client.getMove(i) })
+    testEach({ o, l -> StaticPokeApi.getMoveList(o, l) }, { i -> StaticPokeApi.getMove(i) })
   }
 
   @Test
   fun bulkMoveAilment() = runTest {
     testEach(
-      { o, l -> MockServer.client.getMoveAilmentList(o, l) },
-      { i -> MockServer.client.getMoveAilment(i) },
+      { o, l -> StaticPokeApi.getMoveAilmentList(o, l) },
+      { i -> StaticPokeApi.getMoveAilment(i) },
     )
   }
 
   @Test
   fun bulkMoveBattleStyle() = runTest {
     testEach(
-      { o, l -> MockServer.client.getMoveBattleStyleList(o, l) },
-      { i -> MockServer.client.getMoveBattleStyle(i) },
+      { o, l -> StaticPokeApi.getMoveBattleStyleList(o, l) },
+      { i -> StaticPokeApi.getMoveBattleStyle(i) },
     )
   }
 
   @Test
   fun bulkMoveCategory() = runTest {
     testEach(
-      { o, l -> MockServer.client.getMoveCategoryList(o, l) },
-      { i -> MockServer.client.getMoveCategory(i) },
+      { o, l -> StaticPokeApi.getMoveCategoryList(o, l) },
+      { i -> StaticPokeApi.getMoveCategory(i) },
     )
   }
 
   @Test
   fun bulkMoveDamageClass() = runTest {
     testEach(
-      { o, l -> MockServer.client.getMoveDamageClassList(o, l) },
-      { i -> MockServer.client.getMoveDamageClass(i) },
+      { o, l -> StaticPokeApi.getMoveDamageClassList(o, l) },
+      { i -> StaticPokeApi.getMoveDamageClass(i) },
     )
   }
 
   @Test
   fun bulkMoveLearnMethod() = runTest {
     testEach(
-      { o, l -> MockServer.client.getMoveLearnMethodList(o, l) },
-      { i -> MockServer.client.getMoveLearnMethod(i) },
+      { o, l -> StaticPokeApi.getMoveLearnMethodList(o, l) },
+      { i -> StaticPokeApi.getMoveLearnMethod(i) },
     )
   }
 
   @Test
   fun bulkMoveTarget() = runTest {
     testEach(
-      { o, l -> MockServer.client.getMoveTargetList(o, l) },
-      { i -> MockServer.client.getMoveTarget(i) },
+      { o, l -> StaticPokeApi.getMoveTargetList(o, l) },
+      { i -> StaticPokeApi.getMoveTarget(i) },
     )
   }
 
   @Test
   fun bulkLocation() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getLocationList(o, l) },
-      { i -> MockServer.client.getLocation(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getLocationList(o, l) }, { i -> StaticPokeApi.getLocation(i) })
   }
 
   @Test
   fun bulkLocationArea() = runTest {
     testEach(
-      { o, l -> MockServer.client.getLocationAreaList(o, l) },
-      { i -> MockServer.client.getLocationArea(i) },
+      { o, l -> StaticPokeApi.getLocationAreaList(o, l) },
+      { i -> StaticPokeApi.getLocationArea(i) },
     )
   }
 
   @Test
   fun bulkPalParkArea() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPalParkAreaList(o, l) },
-      { i -> MockServer.client.getPalParkArea(i) },
+      { o, l -> StaticPokeApi.getPalParkAreaList(o, l) },
+      { i -> StaticPokeApi.getPalParkArea(i) },
     )
   }
 
   @Test
   fun bulkRegion() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getRegionList(o, l) },
-      { i -> MockServer.client.getRegion(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getRegionList(o, l) }, { i -> StaticPokeApi.getRegion(i) })
   }
 
   @Test
   fun bulkMachine() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getMachineList(o, l) },
-      { i -> MockServer.client.getMachine(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getMachineList(o, l) }, { i -> StaticPokeApi.getMachine(i) })
   }
 
   @Test
   fun bulkAbility() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getAbilityList(o, l) },
-      { i -> MockServer.client.getAbility(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getAbilityList(o, l) }, { i -> StaticPokeApi.getAbility(i) })
   }
 
   @Test
   fun bulkCharacteristic() = runTest {
     testEach(
-      { o, l -> MockServer.client.getCharacteristicList(o, l) },
-      { i -> MockServer.client.getCharacteristic(i) },
+      { o, l -> StaticPokeApi.getCharacteristicList(o, l) },
+      { i -> StaticPokeApi.getCharacteristic(i) },
     )
   }
 
   @Test
   fun bulkEggGroup() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getEggGroupList(o, l) },
-      { i -> MockServer.client.getEggGroup(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getEggGroupList(o, l) }, { i -> StaticPokeApi.getEggGroup(i) })
   }
 
   @Test
   fun bulkGender() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getGenderList(o, l) },
-      { i -> MockServer.client.getGender(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getGenderList(o, l) }, { i -> StaticPokeApi.getGender(i) })
   }
 
   @Test
   fun bulkGrowthRate() = runTest {
     testEach(
-      { o, l -> MockServer.client.getGrowthRateList(o, l) },
-      { i -> MockServer.client.getGrowthRate(i) },
+      { o, l -> StaticPokeApi.getGrowthRateList(o, l) },
+      { i -> StaticPokeApi.getGrowthRate(i) },
     )
   }
 
   @Test
   fun bulkNature() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getNatureList(o, l) },
-      { i -> MockServer.client.getNature(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getNatureList(o, l) }, { i -> StaticPokeApi.getNature(i) })
   }
 
   @Test
   fun bulkPokeathlonStat() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPokeathlonStatList(o, l) },
-      { i -> MockServer.client.getPokeathlonStat(i) },
+      { o, l -> StaticPokeApi.getPokeathlonStatList(o, l) },
+      { i -> StaticPokeApi.getPokeathlonStat(i) },
     )
   }
 
   @Test
   fun bulkPokemon() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getPokemonList(o, l) },
-      { i -> MockServer.client.getPokemon(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getPokemonList(o, l) }, { i -> StaticPokeApi.getPokemon(i) })
   }
 
   @Test
   fun bulkPokemonEncounters() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPokemonList(o, l) },
-      { i -> MockServer.client.getPokemonEncounterList(i) },
+      { o, l -> StaticPokeApi.getPokemonList(o, l) },
+      { i -> StaticPokeApi.getPokemonEncounterList(i) },
     )
   }
 
   @Test
   fun bulkPokemonColor() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPokemonColorList(o, l) },
-      { i -> MockServer.client.getPokemonColor(i) },
+      { o, l -> StaticPokeApi.getPokemonColorList(o, l) },
+      { i -> StaticPokeApi.getPokemonColor(i) },
     )
   }
 
   @Test
   fun bulkPokemonForm() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPokemonFormList(o, l) },
-      { i -> MockServer.client.getPokemonForm(i) },
+      { o, l -> StaticPokeApi.getPokemonFormList(o, l) },
+      { i -> StaticPokeApi.getPokemonForm(i) },
     )
   }
 
   @Test
   fun bulkPokemonHabitat() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPokemonHabitatList(o, l) },
-      { i -> MockServer.client.getPokemonHabitat(i) },
+      { o, l -> StaticPokeApi.getPokemonHabitatList(o, l) },
+      { i -> StaticPokeApi.getPokemonHabitat(i) },
     )
   }
 
   @Test
   fun bulkPokemonShape() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPokemonShapeList(o, l) },
-      { i -> MockServer.client.getPokemonShape(i) },
+      { o, l -> StaticPokeApi.getPokemonShapeList(o, l) },
+      { i -> StaticPokeApi.getPokemonShape(i) },
     )
   }
 
   @Test
   fun bulkPokemonSpecies() = runTest {
     testEach(
-      { o, l -> MockServer.client.getPokemonSpeciesList(o, l) },
-      { i -> MockServer.client.getPokemonSpecies(i) },
+      { o, l -> StaticPokeApi.getPokemonSpeciesList(o, l) },
+      { i -> StaticPokeApi.getPokemonSpecies(i) },
     )
   }
 
   @Test
   fun bulkStat() = runTest {
-    testEach({ o, l -> MockServer.client.getStatList(o, l) }, { i -> MockServer.client.getStat(i) })
+    testEach({ o, l -> StaticPokeApi.getStatList(o, l) }, { i -> StaticPokeApi.getStat(i) })
   }
 
   @Test
   fun bulkType() = runTest {
-    testEach({ o, l -> MockServer.client.getTypeList(o, l) }, { i -> MockServer.client.getType(i) })
+    testEach({ o, l -> StaticPokeApi.getTypeList(o, l) }, { i -> StaticPokeApi.getType(i) })
   }
 
   @Test
   fun bulkLanguage() = runTest {
-    testEach(
-      { o, l -> MockServer.client.getLanguageList(o, l) },
-      { i -> MockServer.client.getLanguage(i) },
-    )
+    testEach({ o, l -> StaticPokeApi.getLanguageList(o, l) }, { i -> StaticPokeApi.getLanguage(i) })
   }
 }

@@ -2,7 +2,7 @@ package dev.sargunv.pokekotlin.test.model
 
 import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
-import dev.sargunv.pokekotlin.test.MockServer
+import dev.sargunv.pokekotlin.test.StaticPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
@@ -12,7 +12,7 @@ class UtilityTest {
 
   @Test
   fun getLanguage() = runTest {
-    MockServer.client.getLanguage(9).apply {
+    StaticPokeApi.getLanguage(9).apply {
       assertEquals(9, id)
       assertEquals("us", iso3166)
       assertEquals("en", iso639)

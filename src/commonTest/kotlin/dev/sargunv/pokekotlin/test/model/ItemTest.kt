@@ -9,7 +9,7 @@ import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.VerboseEffect
 import dev.sargunv.pokekotlin.model.VersionGroupFlavorText
-import dev.sargunv.pokekotlin.test.MockServer
+import dev.sargunv.pokekotlin.test.StaticPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
@@ -22,7 +22,7 @@ class ItemTest {
 
   @Test
   fun getItem1() = runTest {
-    MockServer.client.getItem(20).apply {
+    StaticPokeApi.getItem(20).apply {
       assertEquals(20, id)
       assertEquals("ice-heal", name)
       assertEquals(100, cost)
@@ -66,7 +66,7 @@ class ItemTest {
 
   @Test
   fun getItem2() = runTest {
-    MockServer.client.getItem(33).apply {
+    StaticPokeApi.getItem(33).apply {
       assertNotEquals(
         null,
         heldByPokemon.find {
@@ -84,23 +84,23 @@ class ItemTest {
 
   @Test
   fun getItem3() = runTest {
-    MockServer.client.getItem(249).apply {
+    StaticPokeApi.getItem(249).apply {
       assertEquals(NamedApiResource("badly-poison", "item-fling-effect", 1), flingEffect)
     }
   }
 
   @Test
   fun getItem4() = runTest {
-    MockServer.client.getItem(231).apply {
+    StaticPokeApi.getItem(231).apply {
       assertEquals(ApiResource("evolution-chain", 90), babyTriggerFor)
     }
   }
 
-  @Test fun getItem5() = runTest { MockServer.client.getItem(967) }
+  @Test fun getItem5() = runTest { StaticPokeApi.getItem(967) }
 
   @Test
   fun getItem6() = runTest {
-    MockServer.client.getItem(305).apply {
+    StaticPokeApi.getItem(305).apply {
       assertNotNull(
         machines.find { machineVersionDetail ->
           machineVersionDetail.machine == ApiResource("machine", 1) &&
@@ -112,7 +112,7 @@ class ItemTest {
 
   @Test
   fun getItemAttribute() = runTest {
-    MockServer.client.getItemAttribute(3).apply {
+    StaticPokeApi.getItemAttribute(3).apply {
       assertEquals(3, id)
       assertEquals("usable-overworld", name)
       assertContains(
@@ -132,7 +132,7 @@ class ItemTest {
 
   @Test
   fun getItemCategory() = runTest {
-    MockServer.client.getItemCategory(34).apply {
+    StaticPokeApi.getItemCategory(34).apply {
       assertEquals(34, id)
       assertEquals("standard-balls", name)
       assertEquals(NamedApiResource("pokeballs", "item-pocket", 3), pocket)
@@ -146,7 +146,7 @@ class ItemTest {
 
   @Test
   fun getItemFlingEffect() = runTest {
-    MockServer.client.getItemFlingEffect(1).apply {
+    StaticPokeApi.getItemFlingEffect(1).apply {
       assertEquals(1, id)
       assertEquals("badly-poison", name)
       assertContains(
@@ -162,7 +162,7 @@ class ItemTest {
 
   @Test
   fun getItemPocket() = runTest {
-    MockServer.client.getItemPocket(4).apply {
+    StaticPokeApi.getItemPocket(4).apply {
       assertEquals(4, id)
       assertEquals("machines", name)
       assertContains(categories, NamedApiResource("all-machines", "item-category", 37))
