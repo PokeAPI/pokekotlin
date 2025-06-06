@@ -33,39 +33,6 @@ dependencies {
 }
 ```
 
-### Maven
-
-```
-<dependency>
-  <groupId>dev.sargunv.pokekotlin</groupId>
-  <artifactId>pokekotlin</artifactId>
-  <version>VERSION</version>
-</dependency>
-```
-
 ## Usage
 
-See the usage examples below. For more info, see the
-[API Reference](https://pokeapi.github.io/pokekotlin/api/).
-
-### Java
-
-```java
-public class Example {
-  public static void main(String[] args) {
-    PokeApi pokeApi = new PokeApiClient();
-    PokemonSpecies bulbasaur = pokeApi.getPokemonSpecies(1);
-    System.out.println(bulbasaur);
-  }
-}
-```
-
-### Kotlin
-
-```kotlin
-fun main(args: Array<String>) {
-  val pokeApi = PokeApiClient()
-  val bulbasaur = pokeApi.getPokemonSpecies(1)
-  println(bulbasaur)
-}
-```
+See the [API Reference](https://pokeapi.github.io/pokekotlin/api/).
