@@ -11,9 +11,11 @@ import dev.sargunv.pokekotlin.model.VerboseEffect
 import dev.sargunv.pokekotlin.model.VersionGroupFlavorText
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 import kotlin.test.assertNotNull
+import kotlin.test.assertTrue
 import kotlinx.coroutines.test.runTest
 
 class ItemTest {
@@ -25,34 +27,40 @@ class ItemTest {
       assertEquals("ice-heal", name)
       assertEquals(100, cost)
       assertEquals(30, flingPower)
-      assert(NamedApiResource("holdable", "item-attribute", 5) in attributes)
+      assertContains(attributes, NamedApiResource("holdable", "item-attribute", 5))
       assertEquals(NamedApiResource("status-cures", "item-category", 30), category)
-      assert(
+      assertContains(
+        effectEntries,
         VerboseEffect(
           effect = "Used on a party Pokémon\n:   Cures freezing.",
           shortEffect = "Cures freezing.",
           language = NamedApiResource("en", "language", 9),
-        ) in effectEntries
+        ),
       )
-      assert(
+      assertContains(
+        flavorTextEntries,
         VersionGroupFlavorText(
           text = "Defrosts a frozen\nPOKéMON.",
           versionGroup = NamedApiResource("ruby-sapphire", "version-group", 5),
           language = NamedApiResource("en", "language", 9),
-        ) in flavorTextEntries
+        ),
       )
-      assert(
+      assertContains(
+        gameIndices,
         GenerationGameIndex(
           gameIndex = 20,
           generation = NamedApiResource("generation-vi", "generation", 6),
-        ) in gameIndices
+        ),
       )
-      assert(Name(name = "Ice Heal", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(
+        names,
+        Name(name = "Ice Heal", language = NamedApiResource("en", "language", 9)),
+      )
 
       assertEquals(emptyList(), heldByPokemon)
       assertEquals(null, flingEffect)
       assertEquals(null, babyTriggerFor)
-      assert(sprites.default!!.endsWith("/sprites/items/ice-heal.png"))
+      assertTrue(sprites.default!!.endsWith("/sprites/items/ice-heal.png"))
     }
   }
 
@@ -107,15 +115,17 @@ class ItemTest {
     MockServer.client.getItemAttribute(3).apply {
       assertEquals(3, id)
       assertEquals("usable-overworld", name)
-      assert(
+      assertContains(
+        descriptions,
         Description(
           description = "Usable outside battle",
           language = NamedApiResource("en", "language", 9),
-        ) in descriptions
+        ),
       )
-      assert(NamedApiResource("potion", "item", 17) in items)
-      assert(
-        Name(name = "Usable_overworld", language = NamedApiResource("en", "language", 9)) in names
+      assertContains(items, NamedApiResource("potion", "item", 17))
+      assertContains(
+        names,
+        Name(name = "Usable_overworld", language = NamedApiResource("en", "language", 9)),
       )
     }
   }
@@ -126,9 +136,10 @@ class ItemTest {
       assertEquals(34, id)
       assertEquals("standard-balls", name)
       assertEquals(NamedApiResource("pokeballs", "item-pocket", 3), pocket)
-      assert(NamedApiResource("poke-ball", "item", 4) in items)
-      assert(
-        Name(name = "Standard balls", language = NamedApiResource("en", "language", 9)) in names
+      assertContains(items, NamedApiResource("poke-ball", "item", 4))
+      assertContains(
+        names,
+        Name(name = "Standard balls", language = NamedApiResource("en", "language", 9)),
       )
     }
   }
@@ -138,13 +149,14 @@ class ItemTest {
     MockServer.client.getItemFlingEffect(1).apply {
       assertEquals(1, id)
       assertEquals("badly-poison", name)
-      assert(
+      assertContains(
+        effectEntries,
         Effect(
           effect = "Badly poisons the target.",
           language = NamedApiResource("en", "language", 9),
-        ) in effectEntries
+        ),
       )
-      assert(NamedApiResource("toxic-orb", "item", 249) in items)
+      assertContains(items, NamedApiResource("toxic-orb", "item", 249))
     }
   }
 
@@ -153,8 +165,11 @@ class ItemTest {
     MockServer.client.getItemPocket(4).apply {
       assertEquals(4, id)
       assertEquals("machines", name)
-      assert(NamedApiResource("all-machines", "item-category", 37) in categories)
-      assert(Name(name = "TMs and HMs", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(categories, NamedApiResource("all-machines", "item-category", 37))
+      assertContains(
+        names,
+        Name(name = "TMs and HMs", language = NamedApiResource("en", "language", 9)),
+      )
     }
   }
 }

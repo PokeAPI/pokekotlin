@@ -5,7 +5,9 @@ import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
+import kotlin.test.assertNotEquals
 import kotlinx.coroutines.test.runTest
 
 class BerryTest {
@@ -22,7 +24,7 @@ class BerryTest {
       assertEquals(35, smoothness)
       assertEquals(8, soilDryness)
       assertEquals(NamedApiResource("hard", "berry-firmness", 3), firmness)
-      assert(flavors.isNotEmpty())
+      assertNotEquals(0, flavors.size)
       assertEquals(NamedApiResource("durin-berry", "item", 159), item)
       assertEquals(NamedApiResource("water", "type", 11), naturalGiftType)
     }
@@ -33,8 +35,8 @@ class BerryTest {
     MockServer.client.getBerryFirmness(3).apply {
       assertEquals(3, id)
       assertEquals("hard", name)
-      assert(NamedApiResource("rawst", "berry", 4) in berries)
-      assert(Name(name = "Hard", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(berries, NamedApiResource("rawst", "berry", 4))
+      assertContains(names, Name(name = "Hard", language = NamedApiResource("en", "language", 9)))
     }
   }
 
@@ -44,8 +46,11 @@ class BerryTest {
       assertEquals(3, id)
       assertEquals("sweet", name)
       assertEquals(NamedApiResource("cute", "contest-type", 3), contestType)
-      assert(FlavorBerryMap(potency = 10, berry = NamedApiResource("leppa", "berry", 6)) in berries)
-      assert(Name(name = "Sweet", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(
+        berries,
+        FlavorBerryMap(potency = 10, berry = NamedApiResource("leppa", "berry", 6)),
+      )
+      assertContains(names, Name(name = "Sweet", language = NamedApiResource("en", "language", 9)))
     }
   }
 }

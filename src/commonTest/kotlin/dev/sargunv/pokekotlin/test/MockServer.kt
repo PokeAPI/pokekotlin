@@ -10,9 +10,11 @@ import io.ktor.client.request.HttpRequestData
 import io.ktor.client.request.HttpResponseData
 import io.ktor.http.HttpStatusCode
 import io.ktor.http.headersOf
-import kotlin.io.path.Path
-import kotlin.io.path.exists
-import kotlin.io.path.readText
+import io.ktor.utils.io.readText
+import kotlinx.io.IOException
+import kotlinx.io.buffered
+import kotlinx.io.files.Path
+import kotlinx.io.files.SystemFileSystem
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
@@ -35,14 +37,23 @@ object MockServer {
     return PokeApiJson.encodeToString(newObj)
   }
 
+  fun readFile(path: Path) =
+    try {
+      SystemFileSystem.source(path).buffered().use { it.readText() }
+    } catch (e: IOException) {
+      println("Error reading file: ${e.message}")
+      null
+    }
+
   private fun MockRequestHandleScope.dispatch(request: HttpRequestData): HttpResponseData {
     val basePath = request.url.encodedPath
     val limit = request.url.parameters["limit"]?.toInt()
-    val file = Path("src/jvmTest/resources/data" + basePath + "index.json")
-    return if (file.exists()) {
-      val text = file.readText()
-      val content = if (limit != null) limit(text, limit) else text
-      respond(content = content, headers = headersOf("content-type", "application/json"))
-    } else respondError(HttpStatusCode.NotFound)
+    val file = Path("src/commonTest/resources/data" + basePath + "index.json")
+    val text = readFile(file) ?: return respondError(HttpStatusCode.NotFound)
+    val responseContent = if (limit != null) limit(text, limit) else text
+    return respond(
+      content = responseContent,
+      headers = headersOf("content-type", "application/json"),
+    )
   }
 }

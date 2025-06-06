@@ -15,10 +15,10 @@ class BulkTest {
     ids.forEachIndexed { i, id ->
       print("$cat ${i + 1}/$count (id=$id) ... ")
       try {
-        val o = getObject(id)
+        getObject(id)
         println("deserialized!")
       } catch (e: Throwable) {
-        println("ERROR: ${e.javaClass.simpleName}: ${e.message}")
+        println("ERROR: ${e::class.simpleName}: ${e.message}")
         pass = false
       }
     }

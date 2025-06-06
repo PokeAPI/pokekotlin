@@ -3,6 +3,7 @@ package dev.sargunv.pokekotlin.test.model
 import dev.sargunv.pokekotlin.model.*
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 import kotlinx.coroutines.test.runTest
@@ -24,13 +25,14 @@ class MoveTest {
       assertEquals(ApiResource("contest-effect", 4), contestEffect)
       assertEquals(ApiResource("super-contest-effect", 5), superContestEffect)
       assertEquals(NamedApiResource("physical", "move-damage-class", 2), damageClass)
-      assert(
+      assertContains(
+        effectEntries,
         VerboseEffect(
           effect =
             "Inflicts regular damage.  Has a \$effect_chance% chance to paralyze" + " the target.",
           shortEffect = "Has a \$effect_chance% chance to paralyze the target.",
           language = NamedApiResource("en", "language", 9),
-        ) in effectEntries
+        ),
       )
       assertEquals(emptyList(), effectChanges)
       assertEquals(NamedApiResource("generation-i", "generation", 1), generation)
@@ -51,23 +53,28 @@ class MoveTest {
         ),
         meta,
       )
-      assert(Name(name = "Body Slam", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(
+        names,
+        Name(name = "Body Slam", language = NamedApiResource("en", "language", 9)),
+      )
       assertEquals(emptyList(), pastValues)
       assertEquals(emptyList(), statChanges)
       assertEquals(NamedApiResource("selected-pokemon", "move-target", 10), target)
       assertEquals(NamedApiResource("normal", "type", 1), type)
-      assert(
+      assertContains(
+        machines,
         MachineVersionDetail(
           machine = ApiResource("machine", 127),
           versionGroup = NamedApiResource("red-blue", "version-group", 1),
-        ) in machines
+        ),
       )
-      assert(
+      assertContains(
+        flavorTextEntries,
         MoveFlavorText(
           flavorText = "An attack that may\ncause paralysis.",
           language = NamedApiResource("en", "language", 9),
           versionGroup = NamedApiResource("gold-silver", "version-group", 3),
-        ) in flavorTextEntries
+        ),
       )
     }
   }
@@ -103,8 +110,9 @@ class MoveTest {
   @Test
   fun getMove4() = runTest {
     MockServer.client.getMove(14).apply {
-      assert(
-        MoveStatChange(change = 2, stat = NamedApiResource("attack", "stat", 2)) in statChanges
+      assertContains(
+        statChanges,
+        MoveStatChange(change = 2, stat = NamedApiResource("attack", "stat", 2)),
       )
     }
   }
@@ -112,7 +120,8 @@ class MoveTest {
   @Test
   fun getMove5() = runTest {
     MockServer.client.getMove(2).apply {
-      assert(
+      assertContains(
+        pastValues,
         PastMoveStatValues(
           accuracy = null,
           power = null,
@@ -121,7 +130,7 @@ class MoveTest {
           effectEntries = emptyList(),
           type = NamedApiResource("normal", "type", 1),
           versionGroup = NamedApiResource("gold-silver", "version-group", 3),
-        ) in pastValues
+        ),
       )
     }
   }
@@ -131,8 +140,11 @@ class MoveTest {
     MockServer.client.getMoveAilment(1).apply {
       assertEquals(1, id)
       assertEquals("paralysis", name)
-      assert(Name(name = "Paralysis", language = NamedApiResource("en", "language", 9)) in names)
-      assert(NamedApiResource("stun-spore", "move", 78) in moves)
+      assertContains(
+        names,
+        Name(name = "Paralysis", language = NamedApiResource("en", "language", 9)),
+      )
+      assertContains(moves, NamedApiResource("stun-spore", "move", 78))
     }
   }
 
@@ -141,7 +153,7 @@ class MoveTest {
     MockServer.client.getMoveBattleStyle(1).apply {
       assertEquals(1, id)
       assertEquals("attack", name)
-      assert(Name(name = "Attack", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(names, Name(name = "Attack", language = NamedApiResource("en", "language", 9)))
     }
   }
 
@@ -150,13 +162,14 @@ class MoveTest {
     MockServer.client.getMoveCategory(1).apply {
       assertEquals(1, id)
       assertEquals("ailment", name)
-      assert(
+      assertContains(
+        descriptions,
         Description(
           description = "No damage; inflicts status ailment",
           language = NamedApiResource("en", "language", 9),
-        ) in descriptions
+        ),
       )
-      assert(NamedApiResource("sing", "move", 47) in moves)
+      assertContains(moves, NamedApiResource("sing", "move", 47))
     }
   }
 
@@ -165,12 +178,12 @@ class MoveTest {
     MockServer.client.getMoveDamageClass(1).apply {
       assertEquals(1, id)
       assertEquals("status", name)
-      assert(Name(name = "status", language = NamedApiResource("en", "language", 9)) in names)
-      assert(
-        Description(description = "No damage", language = NamedApiResource("en", "language", 9)) in
-          descriptions
+      assertContains(names, Name(name = "status", language = NamedApiResource("en", "language", 9)))
+      assertContains(
+        descriptions,
+        Description(description = "No damage", language = NamedApiResource("en", "language", 9)),
       )
-      assert(NamedApiResource("snatch", "move", 289) in moves)
+      assertContains(moves, NamedApiResource("snatch", "move", 289))
     }
   }
 
@@ -179,17 +192,21 @@ class MoveTest {
     MockServer.client.getMoveLearnMethod(10).apply {
       assertEquals(10, id)
       assertEquals("form-change", name)
-      assert(Name(name = "Form Change", language = NamedApiResource("en", "language", 9)) in names)
-      assert(
+      assertContains(
+        names,
+        Name(name = "Form Change", language = NamedApiResource("en", "language", 9)),
+      )
+      assertContains(
+        descriptions,
         Description(
           description =
             "Appears when Rotom or Cosplay Pikachu changes form.  " +
               "Disappears if the Pokémon becomes another form and this move can only " +
               "be learned by form change.",
           language = NamedApiResource("en", "language", 9),
-        ) in descriptions
+        ),
       )
-      assert(NamedApiResource("x-y", "version-group", 15) in versionGroups)
+      assertContains(versionGroups, NamedApiResource("x-y", "version-group", 15))
     }
   }
 
@@ -198,16 +215,18 @@ class MoveTest {
     MockServer.client.getMoveTarget(8).apply {
       assertEquals(8, id)
       assertEquals("random-opponent", name)
-      assert(
-        Name(name = "Random opponent", language = NamedApiResource("en", "language", 9)) in names
+      assertContains(
+        names,
+        Name(name = "Random opponent", language = NamedApiResource("en", "language", 9)),
       )
-      assert(
+      assertContains(
+        descriptions,
         Description(
           description = "One opposing Pokémon, selected at random.",
           language = NamedApiResource("en", "language", 9),
-        ) in descriptions
+        ),
       )
-      assert(NamedApiResource("uproar", "move", 253) in moves)
+      assertContains(moves, NamedApiResource("uproar", "move", 253))
     }
   }
 }

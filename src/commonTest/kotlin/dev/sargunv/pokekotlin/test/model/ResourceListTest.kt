@@ -6,8 +6,10 @@ import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.NamedApiResourceList
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
+import kotlin.test.assertTrue
 import kotlinx.coroutines.test.runTest
 
 class ResourceListTest {
@@ -21,7 +23,7 @@ class ResourceListTest {
     call: suspend () -> NamedApiResourceList,
   ) {
     call().apply {
-      assert(results.count() <= pageSize)
+      assertTrue(results.count() <= pageSize)
       if (pageSize >= count) {
         assertEquals(count, results.count())
         assertEquals(null, next)
@@ -31,18 +33,18 @@ class ResourceListTest {
       }
 
       results.forEach {
-        assert(it.name.isNotEmpty())
-        assert(it.category.isNotEmpty())
+        assertNotEquals("", it.name)
+        assertNotEquals("", it.category)
         it.id
       }
 
-      assert(NamedApiResource(name, category, id) in results)
+      assertContains(results, NamedApiResource(name, category, id))
     }
   }
 
   private suspend fun testCase(category: String, id: Int, call: suspend () -> ApiResourceList) {
     call().apply {
-      assert(results.count() <= pageSize)
+      assertTrue(results.count() <= pageSize)
       if (pageSize >= count) {
         assertEquals(count, results.count())
         assertEquals(null, next)
@@ -52,11 +54,11 @@ class ResourceListTest {
       }
 
       results.forEach {
-        assert(it.category.isNotEmpty())
+        assertNotEquals("", it.category)
         it.id
       }
 
-      assert(ApiResource(category, id) in results)
+      assertContains(results, ApiResource(category, id))
     }
   }
 

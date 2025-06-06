@@ -6,6 +6,7 @@ import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 import kotlinx.coroutines.test.runTest
@@ -143,16 +144,12 @@ class EvolutionTest {
   @Test
   fun getEvolutionChain7() = runTest {
     MockServer.client.getEvolutionChain(112).apply {
-      assert(
-        chain.evolvesTo[0]
-          .evolvesTo[0]
-          .evolutionDetails
-          .contains(
-            EvolutionDetail(
-              trigger = NamedApiResource("level-up", "evolution-trigger", 1),
-              knownMove = NamedApiResource("ancient-power", "move", 246),
-            )
-          )
+      assertContains(
+        chain.evolvesTo[0].evolvesTo[0].evolutionDetails,
+        EvolutionDetail(
+          trigger = NamedApiResource("level-up", "evolution-trigger", 1),
+          knownMove = NamedApiResource("ancient-power", "move", 246),
+        ),
       )
     }
   }
@@ -303,8 +300,11 @@ class EvolutionTest {
     MockServer.client.getEvolutionTrigger(1).apply {
       assertEquals(1, id)
       assertEquals("level-up", name)
-      assert(Name(name = "Level up", language = NamedApiResource("en", "language", 9)) in names)
-      assert(NamedApiResource("fletchinder", "pokemon-species", 662) in pokemonSpecies)
+      assertContains(
+        names,
+        Name(name = "Level up", language = NamedApiResource("en", "language", 9)),
+      )
+      assertContains(pokemonSpecies, NamedApiResource("fletchinder", "pokemon-species", 662))
     }
   }
 }

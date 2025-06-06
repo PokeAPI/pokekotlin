@@ -7,14 +7,26 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  test:
+    strategy:
+      matrix:
+        include:
+          - runner: ubuntu-latest
+            target: jvm
+          - runner: macos-latest
+            target: macosArm64
+          - runner: ubuntu-latest
+            target: linuxX64
+          - runner: windows-latest
+            target: mingwX64
+    runs-on: "${{ matrix.runner }}"
+    name: "test (${{ matrix.target }})"
     steps:
       - uses: "actions/checkout@v4"
         with:
           fetch-depth: 0
       - uses: "./.github/actions/setup"
-      - run: "./gradlew build"
+      - run: "./gradlew ${{ matrix.target }}Test"
 
   build-docs:
     runs-on: ubuntu-latest
@@ -49,7 +61,7 @@ jobs:
 
   all-good:
     needs:
-      - "build"
+      - "test"
       - "check-format"
       - "build-docs"
     runs-on: "ubuntu-latest"

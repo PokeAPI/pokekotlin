@@ -1,6 +1,7 @@
 package dev.sargunv.pokekotlin.client
 
 import de.jensklingenberg.ktorfit.Ktorfit.Builder
+import dev.sargunv.pokekotlin.util.getDefaultEngine
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.engine.HttpClientEngine
@@ -9,7 +10,7 @@ import io.ktor.serialization.kotlinx.json.json
 
 class PokeApiClient(
   baseUrl: String = "https://pokeapi.co/api/v2/",
-  engine: HttpClientEngine? = null,
+  engine: HttpClientEngine = getDefaultEngine(),
   configure: HttpClientConfig<*>.() -> Unit = {},
 ) : PokeApi by getInstance(baseUrl, engine, configure) {
   private companion object {
@@ -20,16 +21,12 @@ class PokeApiClient(
 
     private fun getInstance(
       baseUrl: String,
-      engine: HttpClientEngine?,
+      engine: HttpClientEngine,
       configure: HttpClientConfig<*>.() -> Unit,
     ) =
       Builder()
         .baseUrl(baseUrl)
-        .httpClient(
-          client =
-            if (engine == null) HttpClient { configureWithJson(configure) }
-            else HttpClient(engine) { configureWithJson(configure) }
-        )
+        .httpClient(HttpClient(engine) { configureWithJson(configure) })
         .build()
         .createPokeApi()
   }
