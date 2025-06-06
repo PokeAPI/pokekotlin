@@ -2,7 +2,10 @@
 
 import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
+import kotlin.time.Duration.Companion.seconds
+import kotlin.time.toJavaDuration
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
+import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinJsSubTargetDsl
 
 plugins {
   alias(libs.plugins.kotlin.multiplatform)
@@ -31,15 +34,28 @@ kotlin {
 
   jvm()
 
+  fun KotlinJsSubTargetDsl.configureWithKarma() {
+    testTask {
+      useKarma {
+        useChromeHeadless()
+        timeout = 60.seconds.toJavaDuration()
+      }
+    }
+  }
+
+  fun KotlinJsSubTargetDsl.configureWithMocha() {
+    testTask { useMocha { timeout = "60s" } }
+  }
+
   js(IR) {
-    browser { testTask { useMocha { timeout = "60s" } } }
-    nodejs { testTask { useMocha { timeout = "60s" } } }
+    browser { configureWithMocha() }
+    nodejs { configureWithMocha() }
   }
 
   wasmJs {
-    browser { testTask { useMocha { timeout = "60s" } } }
-    nodejs { testTask { useMocha { timeout = "60s" } } }
-    d8 { testTask { useMocha { timeout = "60s" } } }
+    browser { configureWithMocha() }
+    nodejs { configureWithMocha() }
+    d8 {}
   }
 
   // native tier 1
