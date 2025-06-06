@@ -1,7 +1,7 @@
 package dev.sargunv.pokekotlin.test.model
 
 import dev.sargunv.pokekotlin.model.NamedApiResource
-import dev.sargunv.pokekotlin.test.MockServer
+import dev.sargunv.pokekotlin.test.StaticPokeApi
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlinx.coroutines.test.runTest
@@ -10,7 +10,7 @@ class MachineTest {
 
   @Test
   fun getMachine() = runTest {
-    MockServer.client.getMachine(18).apply {
+    StaticPokeApi.getMachine(18).apply {
       assertEquals(18, id)
       assertEquals(NamedApiResource("tm01", "item", 305), item)
       assertEquals(NamedApiResource("work-up", "move", 526), move)

@@ -9,23 +9,40 @@ on:
 jobs:
   test:
     strategy:
+      fail-fast: false
       matrix:
         include:
-          - runner: ubuntu-latest
-            target: jvm
-          - runner: macos-latest
-            target: macosArm64
-          - runner: ubuntu-latest
-            target: linuxX64
-          - runner: windows-latest
-            target: mingwX64
-    runs-on: "${{ matrix.runner }}"
+          - target: jvm
+            os: ubuntu
+          - target: jsBrowser
+            os: ubuntu
+          - target: jsNode
+            os: ubuntu
+          # TODO: wasmJs times out on bulk tests
+          # - target: wasmJsBrowser
+          #   os: ubuntu
+          - target: wasmJsNode
+            os: ubuntu
+          - target: linuxX64
+            os: ubuntu
+          - target: macosArm64
+            os: macos
+          - target: mingwX64
+            os: windows
+          - target: iosSimulatorArm64
+            os: macos
+          - target: tvosSimulatorArm64
+            os: macos
+          - target: watchosSimulatorArm64
+            os: macos
+    runs-on: "${{ matrix.os }}-latest"
     name: "test (${{ matrix.target }})"
     steps:
       - uses: "actions/checkout@v4"
         with:
           fetch-depth: 0
       - uses: "./.github/actions/setup"
+      - run: "just test-server-background"
       - run: "./gradlew ${{ matrix.target }}Test"
 
   build-docs:

@@ -15,8 +15,8 @@ class PokeApiClient(
 ) : PokeApi by getInstance(baseUrl, engine, configure) {
   private companion object {
     private fun HttpClientConfig<*>.configureWithJson(configure: HttpClientConfig<*>.() -> Unit) {
-      install(ContentNegotiation) { json(PokeApiJson) }
       configure()
+      install(ContentNegotiation) { json(PokeApiJson) }
     }
 
     private fun getInstance(

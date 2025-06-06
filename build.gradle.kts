@@ -1,5 +1,11 @@
+@file:OptIn(ExperimentalWasmDsl::class)
+
 import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
+import kotlin.time.Duration.Companion.seconds
+import kotlin.time.toJavaDuration
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
+import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinJsSubTargetDsl
 
 plugins {
   alias(libs.plugins.kotlin.multiplatform)
@@ -28,6 +34,30 @@ kotlin {
 
   jvm()
 
+  fun KotlinJsSubTargetDsl.configureWithKarma() {
+    testTask {
+      useKarma {
+        useChromeHeadless()
+        timeout = 60.seconds.toJavaDuration()
+      }
+    }
+  }
+
+  fun KotlinJsSubTargetDsl.configureWithMocha() {
+    testTask { useMocha { timeout = "60s" } }
+  }
+
+  js(IR) {
+    browser { configureWithMocha() }
+    nodejs { configureWithMocha() }
+  }
+
+  wasmJs {
+    browser { configureWithMocha() }
+    nodejs { configureWithMocha() }
+    d8 {}
+  }
+
   // native tier 1
   macosX64()
   macosArm64()
@@ -50,12 +80,6 @@ kotlin {
   mingwX64()
   watchosDeviceArm64()
 
-  // native tier 3 - but no suitable Ktor engine available
-  //  androidNativeArm32()
-  //  androidNativeArm64()
-  //  androidNativeX86()
-  //  androidNativeX64()
-
   applyDefaultHierarchyTemplate()
 
   sourceSets {
@@ -71,6 +95,8 @@ kotlin {
     appleMain.dependencies { implementation(libs.ktor.client.darwin) }
     linuxMain.dependencies { implementation(libs.ktor.client.curl) }
     mingwMain.dependencies { implementation(libs.ktor.client.winhttp) }
+    jsMain.dependencies { implementation(libs.ktor.client.js) }
+    wasmJsMain.dependencies { implementation(libs.ktor.client.js) }
 
     commonTest.dependencies {
       implementation(kotlin("test"))
