@@ -109,6 +109,8 @@ kotlin {
   }
 }
 
+tasks.getByName("sourcesJar").dependsOn("kspCommonMainKotlinMetadata")
+
 publishing {
   repositories {
     maven {
