@@ -1,9 +1,9 @@
 package dev.sargunv.pokekotlin.test
 
 import dev.sargunv.pokekotlin.client.PokeApiClient
+import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlinx.coroutines.test.runTest
-import org.junit.Test
 
 class LiveTest {
 

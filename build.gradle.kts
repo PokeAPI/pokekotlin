@@ -43,6 +43,7 @@ kotlin {
       implementation(kotlin("test"))
       implementation(kotlin("reflect"))
       implementation(libs.kotlinx.coroutines.test)
+      implementation(libs.kotlinx.io)
       implementation(libs.ktor.client.mock)
     }
   }
