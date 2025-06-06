@@ -32,8 +32,8 @@ kotlin {
   jvm()
 
   js(IR) {
-    browser()
-    nodejs()
+    browser { testTask { useMocha { timeout = "60s" } } }
+    nodejs { testTask { useMocha { timeout = "60s" } } }
   }
 
   wasmJs {
