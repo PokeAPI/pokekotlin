@@ -2,58 +2,46 @@ package dev.sargunv.pokekotlin.test
 
 import dev.sargunv.pokekotlin.client.PokeApiClient
 import dev.sargunv.pokekotlin.client.PokeApiJson
-import io.ktor.client.engine.mock.MockEngine
-import io.ktor.client.engine.mock.MockRequestHandleScope
-import io.ktor.client.engine.mock.respond
-import io.ktor.client.engine.mock.respondError
-import io.ktor.client.request.HttpRequestData
-import io.ktor.client.request.HttpResponseData
-import io.ktor.http.HttpStatusCode
-import io.ktor.http.headersOf
-import io.ktor.utils.io.readText
-import kotlinx.io.IOException
-import kotlinx.io.buffered
-import kotlinx.io.files.Path
-import kotlinx.io.files.SystemFileSystem
-import kotlinx.serialization.json.JsonObject
-import kotlinx.serialization.json.JsonPrimitive
-import kotlinx.serialization.json.buildJsonArray
-import kotlinx.serialization.json.buildJsonObject
-import kotlinx.serialization.json.jsonArray
+import dev.sargunv.pokekotlin.model.ApiResourceList
+import dev.sargunv.pokekotlin.model.NamedApiResourceList
+import io.ktor.client.plugins.api.createClientPlugin
+import io.ktor.client.statement.request
+import io.ktor.utils.io.readBuffer
+import kotlin.math.min
+import kotlinx.serialization.ExperimentalSerializationApi
+import kotlinx.serialization.json.io.decodeFromSource
 
 object MockServer {
-  val mockEngine = MockEngine { request -> dispatch(request) }
-  val client = PokeApiClient(engine = mockEngine)
+  @OptIn(ExperimentalSerializationApi::class)
+  val OffsetLimitPlugin =
+    createClientPlugin("OffsetLimitPlugin") {
+      transformResponseBody { response, content, requestedType ->
+        val offset = response.request.url.parameters["offset"]?.toIntOrNull() ?: 0
+        val limit = response.request.url.parameters["limit"]?.toIntOrNull() ?: 20
+        val endIndex = offset + limit
 
-  private fun limit(text: String, limit: Int): String {
-    val fullObj = PokeApiJson.decodeFromString<JsonObject>(text)
-    val fullResults = fullObj["results"]!!.jsonArray
-    val newResults = buildJsonArray { fullResults.take(limit).forEach { add(it) } }
-    val newObj = buildJsonObject {
-      fullObj.entries.forEach { (key, value) -> put(key = key, element = value) }
-      put(key = "results", element = newResults)
-      if (fullResults.size > limit) put(key = "next", element = JsonPrimitive("DUMMY"))
+        when (requestedType.type) {
+          ApiResourceList::class -> {
+            val fullList = PokeApiJson.decodeFromSource<ApiResourceList>(content.readBuffer())
+            fullList.copy(
+              results = fullList.results.subList(offset, min(endIndex, fullList.count)),
+              previous = if (offset == 0) null else "TODO",
+              next = if (endIndex < fullList.count) "TODO" else null,
+            )
+          }
+          NamedApiResourceList::class -> {
+            val fullList = PokeApiJson.decodeFromSource<NamedApiResourceList>(content.readBuffer())
+            fullList.copy(
+              results = fullList.results.subList(offset, min(endIndex, fullList.count)),
+              previous = if (offset == 0) null else "TODO",
+              next = if (endIndex < fullList.count) "TODO" else null,
+            )
+          }
+          else -> null
+        }
+      }
     }
-    return PokeApiJson.encodeToString(newObj)
-  }
 
-  fun readFile(path: Path) =
-    try {
-      SystemFileSystem.source(path).buffered().use { it.readText() }
-    } catch (e: IOException) {
-      println("Error reading file: ${e.message}")
-      null
-    }
-
-  private fun MockRequestHandleScope.dispatch(request: HttpRequestData): HttpResponseData {
-    val basePath = request.url.encodedPath
-    val limit = request.url.parameters["limit"]?.toInt()
-    val file = Path("src/commonTest/resources/data" + basePath + "index.json")
-    val text = readFile(file) ?: return respondError(HttpStatusCode.NotFound)
-    val responseContent = if (limit != null) limit(text, limit) else text
-    return respond(
-      content = responseContent,
-      headers = headersOf("content-type", "application/json"),
-    )
-  }
+  val client =
+    PokeApiClient(baseUrl = "http://localhost:8080/api/v2/") { install(OffsetLimitPlugin) }
 }

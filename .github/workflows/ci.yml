@@ -11,27 +11,36 @@ jobs:
     strategy:
       matrix:
         include:
-          - runner: ubuntu-latest
-            target: jvm
-          - runner: ubuntu-latest
-            target: jsNode
-          - runner: ubuntu-latest
-            target: wasmJsNode
-          - runner: ubuntu-latest
-            target: wasmJs
-          - runner: macos-latest
-            target: macosArm64
-          - runner: ubuntu-latest
-            target: linuxX64
-          - runner: windows-latest
-            target: mingwX64
-    runs-on: "${{ matrix.runner }}"
+          - target: jvm
+            os: ubuntu
+          - target: jsNode
+            os: ubuntu
+          - target: wasmJsNode
+            os: ubuntu
+          - target: jsBrowser
+            os: ubuntu
+          - target: wasmJsBrowser
+            os: ubuntu
+          - target: linuxX64
+            os: ubuntu
+          - target: macosArm64
+            os: macos
+          - target: mingwX64
+            os: windows
+          - target: iosSimulatorArm64
+            os: macos
+          - target: tvosSimulatorArm64
+            os: macos
+          - target: watchosSimulatorArm64
+            os: macos
+    runs-on: "${{ matrix.os }}"
     name: "test (${{ matrix.target }})"
     steps:
       - uses: "actions/checkout@v4"
         with:
           fetch-depth: 0
       - uses: "./.github/actions/setup"
+      - run: "just test-server &"
       - run: "./gradlew ${{ matrix.target }}Test"
 
   build-docs:

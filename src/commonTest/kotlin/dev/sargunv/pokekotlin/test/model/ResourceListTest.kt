@@ -23,12 +23,12 @@ class ResourceListTest {
     call: suspend () -> NamedApiResourceList,
   ) {
     call().apply {
-      assertTrue(results.count() <= pageSize)
+      assertTrue(results.size <= pageSize, "Actual count: ${results.size}, pageSize: $pageSize")
       if (pageSize >= count) {
-        assertEquals(count, results.count())
+        assertEquals(count, results.size)
         assertEquals(null, next)
       } else {
-        assertEquals(pageSize, results.count())
+        assertEquals(pageSize, results.size)
         assertNotEquals(null, next)
       }
 
@@ -44,12 +44,12 @@ class ResourceListTest {
 
   private suspend fun testCase(category: String, id: Int, call: suspend () -> ApiResourceList) {
     call().apply {
-      assertTrue(results.count() <= pageSize)
+      assertTrue(results.size <= pageSize)
       if (pageSize >= count) {
-        assertEquals(count, results.count())
+        assertEquals(count, results.size)
         assertEquals(null, next)
       } else {
-        assertEquals(pageSize, results.count())
+        assertEquals(pageSize, results.size)
         assertNotEquals(null, next)
       }
 
