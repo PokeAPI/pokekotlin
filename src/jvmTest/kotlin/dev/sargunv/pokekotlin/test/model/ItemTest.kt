@@ -14,11 +14,12 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 import kotlin.test.assertNotNull
+import kotlinx.coroutines.test.runTest
 
 class ItemTest {
 
   @Test
-  fun getItem1() {
+  fun getItem1() = runTest {
     MockServer.client.getItem(20).apply {
       assertEquals(20, id)
       assertEquals("ice-heal", name)
@@ -56,7 +57,7 @@ class ItemTest {
   }
 
   @Test
-  fun getItem2() {
+  fun getItem2() = runTest {
     MockServer.client.getItem(33).apply {
       assertNotEquals(
         null,
@@ -74,26 +75,23 @@ class ItemTest {
   }
 
   @Test
-  fun getItem3() {
+  fun getItem3() = runTest {
     MockServer.client.getItem(249).apply {
       assertEquals(NamedApiResource("badly-poison", "item-fling-effect", 1), flingEffect)
     }
   }
 
   @Test
-  fun getItem4() {
+  fun getItem4() = runTest {
     MockServer.client.getItem(231).apply {
       assertEquals(ApiResource("evolution-chain", 90), babyTriggerFor)
     }
   }
 
-  @Test
-  fun getItem5() {
-    MockServer.client.getItem(967)
-  }
+  @Test fun getItem5() = runTest { MockServer.client.getItem(967) }
 
   @Test
-  fun getItem6() {
+  fun getItem6() = runTest {
     MockServer.client.getItem(305).apply {
       assertNotNull(
         machines.find { machineVersionDetail ->
@@ -105,7 +103,7 @@ class ItemTest {
   }
 
   @Test
-  fun getItemAttribute() {
+  fun getItemAttribute() = runTest {
     MockServer.client.getItemAttribute(3).apply {
       assertEquals(3, id)
       assertEquals("usable-overworld", name)
@@ -123,7 +121,7 @@ class ItemTest {
   }
 
   @Test
-  fun getItemCategory() {
+  fun getItemCategory() = runTest {
     MockServer.client.getItemCategory(34).apply {
       assertEquals(34, id)
       assertEquals("standard-balls", name)
@@ -136,7 +134,7 @@ class ItemTest {
   }
 
   @Test
-  fun getItemFlingEffect() {
+  fun getItemFlingEffect() = runTest {
     MockServer.client.getItemFlingEffect(1).apply {
       assertEquals(1, id)
       assertEquals("badly-poison", name)
@@ -151,7 +149,7 @@ class ItemTest {
   }
 
   @Test
-  fun getItemPocket() {
+  fun getItemPocket() = runTest {
     MockServer.client.getItemPocket(4).apply {
       assertEquals(4, id)
       assertEquals("machines", name)

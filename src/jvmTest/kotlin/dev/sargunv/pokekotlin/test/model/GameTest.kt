@@ -7,11 +7,12 @@ import dev.sargunv.pokekotlin.model.PokemonEntry
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlinx.coroutines.test.runTest
 
 class GameTest {
 
   @Test
-  fun getGeneration() {
+  fun getGeneration() = runTest {
     MockServer.client.getGeneration(6).apply {
       assertEquals(6, id)
       assertEquals("generation-vi", name)
@@ -28,7 +29,7 @@ class GameTest {
   }
 
   @Test
-  fun getPokedex() {
+  fun getPokedex() = runTest {
     MockServer.client.getPokedex(12).apply {
       assertEquals(12, id)
       assertEquals("kalos-central", name)
@@ -52,7 +53,7 @@ class GameTest {
   }
 
   @Test
-  fun getVersion() {
+  fun getVersion() = runTest {
     MockServer.client.getVersion(9).apply {
       assertEquals(9, id)
       assertEquals("emerald", name)
@@ -62,7 +63,7 @@ class GameTest {
   }
 
   @Test
-  fun getVersionGroup() {
+  fun getVersionGroup() = runTest {
     MockServer.client.getVersionGroup(1).apply {
       assertEquals(1, id)
       assertEquals("red-blue", name)

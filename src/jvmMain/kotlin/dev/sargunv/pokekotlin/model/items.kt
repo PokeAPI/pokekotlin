@@ -1,5 +1,8 @@
 package dev.sargunv.pokekotlin.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Item(
   val id: Int,
   val name: String,
@@ -18,15 +21,18 @@ data class Item(
   val machines: List<MachineVersionDetail>,
 )
 
-data class ItemSprites(val default: String?)
+@Serializable data class ItemSprites(val default: String?)
 
+@Serializable
 data class ItemHolderPokemon(
   val pokemon: NamedApiResource,
   val versionDetails: List<ItemHolderPokemonVersionDetail>,
 )
 
+@Serializable
 data class ItemHolderPokemonVersionDetail(val rarity: Int, val version: NamedApiResource)
 
+@Serializable
 data class ItemAttribute(
   val id: Int,
   val name: String,
@@ -35,6 +41,7 @@ data class ItemAttribute(
   val descriptions: List<Description>,
 )
 
+@Serializable
 data class ItemCategory(
   val id: Int,
   val name: String,
@@ -43,6 +50,7 @@ data class ItemCategory(
   val pocket: NamedApiResource,
 )
 
+@Serializable
 data class ItemFlingEffect(
   val id: Int,
   val name: String,
@@ -50,6 +58,7 @@ data class ItemFlingEffect(
   val items: List<NamedApiResource>,
 )
 
+@Serializable
 data class ItemPocket(
   val id: Int,
   val name: String,

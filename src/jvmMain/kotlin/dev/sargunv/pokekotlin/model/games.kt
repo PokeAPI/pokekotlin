@@ -1,5 +1,8 @@
 package dev.sargunv.pokekotlin.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Generation(
   val id: Int,
   val name: String,
@@ -12,6 +15,7 @@ data class Generation(
   val versionGroups: List<NamedApiResource>,
 )
 
+@Serializable
 data class Pokedex(
   val id: Int,
   val name: String,
@@ -23,8 +27,9 @@ data class Pokedex(
   val versionGroups: List<NamedApiResource>,
 )
 
-data class PokemonEntry(val entryNumber: Int, val pokemonSpecies: NamedApiResource)
+@Serializable data class PokemonEntry(val entryNumber: Int, val pokemonSpecies: NamedApiResource)
 
+@Serializable
 data class Version(
   val id: Int,
   val name: String,
@@ -32,6 +37,7 @@ data class Version(
   val versionGroup: NamedApiResource,
 )
 
+@Serializable
 data class VersionGroup(
   val id: Int,
   val name: String,

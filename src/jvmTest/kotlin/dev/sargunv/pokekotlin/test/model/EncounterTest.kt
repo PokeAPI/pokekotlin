@@ -5,11 +5,12 @@ import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlinx.coroutines.test.runTest
 
 class EncounterTest {
 
   @Test
-  fun getEncounterMethod() {
+  fun getEncounterMethod() = runTest {
     MockServer.client.getEncounterMethod(5).apply {
       assertEquals(5, id)
       assertEquals("surf", name)
@@ -19,7 +20,7 @@ class EncounterTest {
   }
 
   @Test
-  fun getEncounterCondition() {
+  fun getEncounterCondition() = runTest {
     MockServer.client.getEncounterCondition(5).apply {
       assertEquals(5, id)
       assertEquals("radio", name)
@@ -29,7 +30,7 @@ class EncounterTest {
   }
 
   @Test
-  fun getEncounterConditionValue() {
+  fun getEncounterConditionValue() = runTest {
     MockServer.client.getEncounterConditionValue(5).apply {
       assertEquals(5, id)
       assertEquals("time-night", name)

@@ -7,11 +7,12 @@ import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlinx.coroutines.test.runTest
 
 class ContestTest {
 
   @Test
-  fun getContestType() {
+  fun getContestType() = runTest {
     MockServer.client.getContestType(4).apply {
       assertEquals(4, id)
       assertEquals("smart", name)
@@ -27,7 +28,7 @@ class ContestTest {
   }
 
   @Test
-  fun getContestEffect() {
+  fun getContestEffect() = runTest {
     MockServer.client.getContestEffect(27).apply {
       assertEquals(27, id)
       assertEquals(2, appeal)
@@ -48,7 +49,7 @@ class ContestTest {
   }
 
   @Test
-  fun getSuperContestEffect() {
+  fun getSuperContestEffect() = runTest {
     MockServer.client.getSuperContestEffect(14).apply {
       assertEquals(14, id)
       assertEquals(2, appeal)

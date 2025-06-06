@@ -1,11 +1,15 @@
 package dev.sargunv.pokekotlin.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class EvolutionChain(
   val id: Int,
   val babyTriggerItem: NamedApiResource?,
   val chain: ChainLink,
 )
 
+@Serializable
 data class ChainLink(
   val isBaby: Boolean,
   val species: NamedApiResource,
@@ -13,6 +17,7 @@ data class ChainLink(
   val evolvesTo: List<ChainLink>,
 )
 
+@Serializable
 data class EvolutionDetail(
   val trigger: NamedApiResource,
   val item: NamedApiResource? = null,
@@ -34,6 +39,7 @@ data class EvolutionDetail(
   val turnUpsideDown: Boolean = false,
 )
 
+@Serializable
 data class EvolutionTrigger(
   val id: Int,
   val name: String,
