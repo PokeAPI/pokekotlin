@@ -10,9 +10,9 @@ import io.ktor.client.request.HttpRequestData
 import io.ktor.client.request.HttpResponseData
 import io.ktor.http.HttpStatusCode
 import io.ktor.http.headersOf
-import java.io.File
-import java.io.FileReader
-import java.nio.file.Paths
+import kotlin.io.path.Path
+import kotlin.io.path.exists
+import kotlin.io.path.readText
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
@@ -22,8 +22,6 @@ import kotlinx.serialization.json.jsonArray
 object MockServer {
   val mockEngine = MockEngine { request -> dispatch(request) }
   val client = PokeApiClient(engine = mockEngine)
-
-  private val sampleArchivePath = Paths.get(MockServer::class.java.getResource("/data")!!.toURI())
 
   private fun limit(text: String, limit: Int): String {
     val fullObj = PokeApiJson.decodeFromString<JsonObject>(text)
@@ -38,11 +36,11 @@ object MockServer {
   }
 
   private fun MockRequestHandleScope.dispatch(request: HttpRequestData): HttpResponseData {
-    val basePath = request.url.encodedPath.dropLastWhile { it != '/' }
+    val basePath = request.url.encodedPath
     val limit = request.url.parameters["limit"]?.toInt()
-    val file = File(sampleArchivePath.toString() + basePath + "index.json")
+    val file = Path("src/jvmTest/resources/data" + basePath + "index.json")
     return if (file.exists()) {
-      val text = FileReader(file).use { it.readText() }
+      val text = file.readText()
       val content = if (limit != null) limit(text, limit) else text
       respond(content = content, headers = headersOf("content-type", "application/json"))
     } else respondError(HttpStatusCode.NotFound)
