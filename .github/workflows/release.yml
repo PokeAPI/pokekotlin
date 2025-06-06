@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish-maven:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     environment:
       name: "maven-central"
       url: "https://central.sonatype.com/namespace/dev.sargunv.pokekotlin"
@@ -27,7 +27,7 @@ jobs:
   publish-pages:
     needs:
       - "publish-maven"
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     permissions:
       pages: "write"
       id-token: "write"

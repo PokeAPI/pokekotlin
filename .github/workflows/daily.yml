@@ -22,7 +22,7 @@ jobs:
   publish-snapshot:
     needs: ["check-last-run"]
     if: "${{ needs.check-last-run.outputs.last_sha != github.sha }}"
-    runs-on: "ubuntu-latest"
+    runs-on: "macos-latest"
     permissions:
       packages: "write"
     steps:
