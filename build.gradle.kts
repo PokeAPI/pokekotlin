@@ -1,5 +1,8 @@
+@file:OptIn(ExperimentalWasmDsl::class)
+
 import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 
 plugins {
   alias(libs.plugins.kotlin.multiplatform)
@@ -28,6 +31,17 @@ kotlin {
 
   jvm()
 
+  js(IR) {
+    browser()
+    nodejs()
+  }
+
+  wasmJs {
+    browser()
+    nodejs()
+    d8()
+  }
+
   // native tier 1
   macosX64()
   macosArm64()
@@ -50,12 +64,6 @@ kotlin {
   mingwX64()
   watchosDeviceArm64()
 
-  // native tier 3 - but no suitable Ktor engine available
-  //  androidNativeArm32()
-  //  androidNativeArm64()
-  //  androidNativeX86()
-  //  androidNativeX64()
-
   applyDefaultHierarchyTemplate()
 
   sourceSets {
@@ -71,6 +79,8 @@ kotlin {
     appleMain.dependencies { implementation(libs.ktor.client.darwin) }
     linuxMain.dependencies { implementation(libs.ktor.client.curl) }
     mingwMain.dependencies { implementation(libs.ktor.client.winhttp) }
+    jsMain.dependencies { implementation(libs.ktor.client.js) }
+    wasmJsMain.dependencies { implementation(libs.ktor.client.js) }
 
     commonTest.dependencies {
       implementation(kotlin("test"))

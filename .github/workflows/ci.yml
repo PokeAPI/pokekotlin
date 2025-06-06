@@ -13,6 +13,12 @@ jobs:
         include:
           - runner: ubuntu-latest
             target: jvm
+          - runner: ubuntu-latest
+            target: jsNode
+          - runner: ubuntu-latest
+            target: wasmJsNode
+          - runner: ubuntu-latest
+            target: wasmJs
           - runner: macos-latest
             target: macosArm64
           - runner: ubuntu-latest

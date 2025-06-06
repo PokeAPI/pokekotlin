@@ -30,7 +30,7 @@ data class ApiResource(val url: String) : ResourceSummary {
 
   internal class Serializer :
     KSerializer<ApiResource> by DelegatingSerializer(
-      clazz = ApiResource::class,
+      serialName = "dev.sargunv.pokekotlin.model.ApiResource",
       delegate = Delegate.serializer(),
       fromDelegate = { ApiResource(url = it.url) },
       toDelegate = { Delegate(url = it.url) },
@@ -48,7 +48,7 @@ data class NamedApiResource(val name: String, val url: String) : ResourceSummary
 
   internal class Serializer :
     KSerializer<NamedApiResource> by DelegatingSerializer(
-      clazz = NamedApiResource::class,
+      serialName = "dev.sargunv.pokekotlin.model.NamedApiResource",
       delegate = Delegate.serializer(),
       fromDelegate = { NamedApiResource(name = it.name, url = it.url) },
       toDelegate = { Delegate(name = it.name, url = it.url) },

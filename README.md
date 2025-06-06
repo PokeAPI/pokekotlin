@@ -11,13 +11,6 @@ Maintainer: [@sargunv](https://github.com/sargunv)
 This is a [Kotlin](https://kotlinlang.org/) client for
 [PokeApi](https://github.com/PokeAPI/pokeapi).
 
-| Platform | Status             |
-| -------- | ------------------ |
-| JVM      | :white_check_mark: |
-| Native   | :x:                |
-| JS       | :x:                |
-| WASM     | :x:                |
-
 ## Installation
 
 Since v2.5.0, the library is published to Maven Central.
