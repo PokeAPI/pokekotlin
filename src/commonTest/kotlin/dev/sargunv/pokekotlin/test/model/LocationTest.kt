@@ -7,6 +7,7 @@ import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.PalParkEncounterSpecies
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 import kotlinx.coroutines.test.runTest
@@ -19,14 +20,18 @@ class LocationTest {
       assertEquals(20, id)
       assertEquals("wayward-cave", name)
       assertEquals(NamedApiResource("sinnoh", "region", 4), region)
-      assert(Name(name = "Wayward Cave", language = NamedApiResource("en", "language", 9)) in names)
-      assert(
+      assertContains(
+        names,
+        Name(name = "Wayward Cave", language = NamedApiResource("en", "language", 9)),
+      )
+      assertContains(
+        gameIndices,
         GenerationGameIndex(
           gameIndex = 65,
           generation = NamedApiResource("generation-iv", "generation", 4),
-        ) in gameIndices
+        ),
       )
-      assert(NamedApiResource("wayward-cave-1f", "location-area", 113) in areas)
+      assertContains(areas, NamedApiResource("wayward-cave-1f", "location-area", 113))
     }
   }
 
@@ -37,7 +42,7 @@ class LocationTest {
       assertEquals("mt-coronet-cave", name)
       assertEquals(20, gameIndex)
       assertEquals(NamedApiResource("mt-coronet", "location", 10), location)
-      assert(Name(name = "cave", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(names, Name(name = "cave", language = NamedApiResource("en", "language", 9)))
       assertNotNull(
         encounterMethodRates.find {
           it.encounterMethod == NamedApiResource("walk", "encounter-method", 1) &&
@@ -70,13 +75,14 @@ class LocationTest {
     MockServer.client.getPalParkArea(2).apply {
       assertEquals(2, id)
       assertEquals("field", name)
-      assert(Name(name = "Field", language = NamedApiResource("en", "language", 9)) in names)
-      assert(
+      assertContains(names, Name(name = "Field", language = NamedApiResource("en", "language", 9)))
+      assertContains(
+        pokemonEncounters,
         PalParkEncounterSpecies(
           baseScore = 100,
           rate = 1,
           pokemonSpecies = NamedApiResource("shaymin", "pokemon-species", 492),
-        ) in pokemonEncounters
+        ),
       )
     }
   }
@@ -87,10 +93,10 @@ class LocationTest {
       assertEquals(1, id)
       assertEquals("kanto", name)
       assertEquals(NamedApiResource("generation-i", "generation", 1), mainGeneration)
-      assert(NamedApiResource("celadon-city", "location", 67) in locations)
-      assert(Name(name = "Kanto", language = NamedApiResource("en", "language", 9)) in names)
-      assert(NamedApiResource("kanto", "pokedex", 2) in pokedexes)
-      assert(NamedApiResource("red-blue", "version-group", 1) in versionGroups)
+      assertContains(locations, NamedApiResource("celadon-city", "location", 67))
+      assertContains(names, Name(name = "Kanto", language = NamedApiResource("en", "language", 9)))
+      assertContains(pokedexes, NamedApiResource("kanto", "pokedex", 2))
+      assertContains(versionGroups, NamedApiResource("red-blue", "version-group", 1))
     }
   }
 }

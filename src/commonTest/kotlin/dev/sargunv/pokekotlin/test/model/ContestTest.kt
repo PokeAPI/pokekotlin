@@ -6,6 +6,7 @@ import dev.sargunv.pokekotlin.model.FlavorText
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlinx.coroutines.test.runTest
 
@@ -17,12 +18,13 @@ class ContestTest {
       assertEquals(4, id)
       assertEquals("smart", name)
       assertEquals(NamedApiResource("bitter", "berry-flavor", 4), berryFlavor)
-      assert(
+      assertContains(
+        names,
         ContestName(
           name = "Smart",
           color = "Green",
           language = NamedApiResource("en", "language", 9),
-        ) in names
+        ),
       )
     }
   }
@@ -33,17 +35,19 @@ class ContestTest {
       assertEquals(27, id)
       assertEquals(2, appeal)
       assertEquals(0, jam)
-      assert(
+      assertContains(
+        effectEntries,
         Effect(
           effect = "If user appeals first this turn, earns six points instead of two.",
           language = NamedApiResource("en", "language", 9),
-        ) in effectEntries
+        ),
       )
-      assert(
+      assertContains(
+        flavorTextEntries,
         FlavorText(
           flavorText = "The appeal works great if performed first.",
           language = NamedApiResource("en", "language", 9),
-        ) in flavorTextEntries
+        ),
       )
     }
   }
@@ -53,13 +57,14 @@ class ContestTest {
     MockServer.client.getSuperContestEffect(14).apply {
       assertEquals(14, id)
       assertEquals(2, appeal)
-      assert(
+      assertContains(
+        flavorTextEntries,
         FlavorText(
           flavorText = "Makes the order of contestants random in the next turn.",
           language = NamedApiResource("en", "language", 9),
-        ) in flavorTextEntries
+        ),
       )
-      assert(NamedApiResource("assist", "move", 274) in moves)
+      assertContains(moves, NamedApiResource("assist", "move", 274))
     }
   }
 }

@@ -4,6 +4,7 @@ import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlinx.coroutines.test.runTest
 
@@ -15,7 +16,10 @@ class EncounterTest {
       assertEquals(5, id)
       assertEquals("surf", name)
       assertEquals(14, order)
-      assert(Name(name = "Surfing", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(
+        names,
+        Name(name = "Surfing", language = NamedApiResource("en", "language", 9)),
+      )
     }
   }
 
@@ -24,8 +28,8 @@ class EncounterTest {
     MockServer.client.getEncounterCondition(5).apply {
       assertEquals(5, id)
       assertEquals("radio", name)
-      assert(NamedApiResource("radio-hoenn", "encounter-condition-value", 15) in values)
-      assert(Name(name = "Radio", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(values, NamedApiResource("radio-hoenn", "encounter-condition-value", 15))
+      assertContains(names, Name(name = "Radio", language = NamedApiResource("en", "language", 9)))
     }
   }
 
@@ -35,7 +39,10 @@ class EncounterTest {
       assertEquals(5, id)
       assertEquals("time-night", name)
       assertEquals(NamedApiResource("time", "encounter-condition", 2), condition)
-      assert(Name(name = "At night", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(
+        names,
+        Name(name = "At night", language = NamedApiResource("en", "language", 9)),
+      )
     }
   }
 }

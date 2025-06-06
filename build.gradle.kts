@@ -28,10 +28,38 @@ kotlin {
 
   jvm()
 
+  // native tier 1
+  macosX64()
+  macosArm64()
+  iosSimulatorArm64()
+  iosX64()
+  iosArm64()
+
+  // native tier 2
+  linuxX64()
+  linuxArm64()
+  watchosSimulatorArm64()
+  watchosX64()
+  watchosArm32()
+  watchosArm64()
+  tvosSimulatorArm64()
+  tvosX64()
+  tvosArm64()
+
+  // native tier 3
+  mingwX64()
+  watchosDeviceArm64()
+
+  // native tier 3 - but no suitable Ktor engine available
+  //  androidNativeArm32()
+  //  androidNativeArm64()
+  //  androidNativeX86()
+  //  androidNativeX64()
+
   applyDefaultHierarchyTemplate()
 
   sourceSets {
-    jvmMain.dependencies {
+    commonMain.dependencies {
       implementation(kotlin("stdlib"))
       implementation(libs.kotlinx.serialization.json)
       implementation(libs.ktor.client.content.negotiation)
@@ -39,13 +67,19 @@ kotlin {
       implementation(libs.ktorfit)
     }
 
-    jvmTest.dependencies {
+    jvmMain.dependencies { implementation(libs.ktor.client.okhttp) }
+    appleMain.dependencies { implementation(libs.ktor.client.darwin) }
+    linuxMain.dependencies { implementation(libs.ktor.client.curl) }
+    mingwMain.dependencies { implementation(libs.ktor.client.winhttp) }
+
+    commonTest.dependencies {
       implementation(kotlin("test"))
-      implementation(kotlin("reflect"))
       implementation(libs.kotlinx.coroutines.test)
       implementation(libs.kotlinx.io)
       implementation(libs.ktor.client.mock)
     }
+
+    jvmTest.dependencies { implementation(kotlin("reflect")) }
   }
 }
 

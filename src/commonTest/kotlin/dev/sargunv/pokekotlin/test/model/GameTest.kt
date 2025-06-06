@@ -6,6 +6,7 @@ import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.PokemonEntry
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
+import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlinx.coroutines.test.runTest
 
@@ -16,15 +17,16 @@ class GameTest {
     MockServer.client.getGeneration(6).apply {
       assertEquals(6, id)
       assertEquals("generation-vi", name)
-      assert(NamedApiResource("primordial-sea", "ability", 189) in abilities)
-      assert(
-        Name(name = "Generation VI", language = NamedApiResource("en", "language", 9)) in names
+      assertContains(abilities, NamedApiResource("primordial-sea", "ability", 189))
+      assertContains(
+        names,
+        Name(name = "Generation VI", language = NamedApiResource("en", "language", 9)),
       )
       assertEquals(NamedApiResource("kalos", "region", 6), mainRegion)
-      assert(NamedApiResource("belch", "move", 562) in moves)
-      assert(NamedApiResource("froakie", "pokemon-species", 656) in pokemonSpecies)
-      assert(NamedApiResource("fairy", "type", 18) in types)
-      assert(NamedApiResource("x-y", "version-group", 15) in versionGroups)
+      assertContains(moves, NamedApiResource("belch", "move", 562))
+      assertContains(pokemonSpecies, NamedApiResource("froakie", "pokemon-species", 656))
+      assertContains(types, NamedApiResource("fairy", "type", 18))
+      assertContains(versionGroups, NamedApiResource("x-y", "version-group", 15))
     }
   }
 
@@ -34,21 +36,23 @@ class GameTest {
       assertEquals(12, id)
       assertEquals("kalos-central", name)
       assertEquals(true, isMainSeries)
-      assert(
-        Description(description = "", language = NamedApiResource("en", "language", 9)) in
-          descriptions
+      assertContains(
+        descriptions,
+        Description(description = "", language = NamedApiResource("en", "language", 9)),
       )
-      assert(
-        Name(name = "Central Kalos", language = NamedApiResource("en", "language", 9)) in names
+      assertContains(
+        names,
+        Name(name = "Central Kalos", language = NamedApiResource("en", "language", 9)),
       )
-      assert(
+      assertContains(
+        pokemonEntries,
         PokemonEntry(
           entryNumber = 150,
           pokemonSpecies = NamedApiResource("haxorus", "pokemon-species", 612),
-        ) in pokemonEntries
+        ),
       )
       assertEquals(NamedApiResource("kalos", "region", 6), region)
-      assert(NamedApiResource("x-y", "version-group", 15) in versionGroups)
+      assertContains(versionGroups, NamedApiResource("x-y", "version-group", 15))
     }
   }
 
@@ -57,7 +61,10 @@ class GameTest {
     MockServer.client.getVersion(9).apply {
       assertEquals(9, id)
       assertEquals("emerald", name)
-      assert(Name(name = "Emerald", language = NamedApiResource("en", "language", 9)) in names)
+      assertContains(
+        names,
+        Name(name = "Emerald", language = NamedApiResource("en", "language", 9)),
+      )
       assertEquals(NamedApiResource("emerald", "version-group", 6), versionGroup)
     }
   }
@@ -69,10 +76,10 @@ class GameTest {
       assertEquals("red-blue", name)
       assertEquals(1, order)
       assertEquals(NamedApiResource("generation-i", "generation", 1), generation)
-      assert(NamedApiResource("machine", "move-learn-method", 4) in moveLearnMethods)
-      assert(NamedApiResource("kanto", "pokedex", 2) in pokedexes)
-      assert(NamedApiResource("kanto", "region", 1) in regions)
-      assert(NamedApiResource("red", "version", 1) in versions)
+      assertContains(moveLearnMethods, NamedApiResource("machine", "move-learn-method", 4))
+      assertContains(pokedexes, NamedApiResource("kanto", "pokedex", 2))
+      assertContains(regions, NamedApiResource("kanto", "region", 1))
+      assertContains(versions, NamedApiResource("red", "version", 1))
     }
   }
 }
