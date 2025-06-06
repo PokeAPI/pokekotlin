@@ -31,11 +31,12 @@ import dev.sargunv.pokekotlin.model.VersionGameIndex
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlinx.coroutines.test.runTest
 
 class PokemonTest {
 
   @Test
-  fun getAbility() {
+  fun getAbility() = runTest {
     MockServer.client.getAbility(1).apply {
       assertEquals(1, id)
       assertEquals("stench", name)
@@ -77,7 +78,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getCharacteristic() {
+  fun getCharacteristic() = runTest {
     MockServer.client.getCharacteristic(1).apply {
       assertEquals(1, id)
       assertEquals(0, geneModulo)
@@ -92,7 +93,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getEggGroup() {
+  fun getEggGroup() = runTest {
     MockServer.client.getEggGroup(1).apply {
       assertEquals(1, id)
       assertEquals("monster", name)
@@ -102,7 +103,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getGender() {
+  fun getGender() = runTest {
     MockServer.client.getGender(1).apply {
       assertEquals(1, id)
       assertEquals("female", name)
@@ -117,7 +118,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getGrowthRate() {
+  fun getGrowthRate() = runTest {
     MockServer.client.getGrowthRate(1).apply {
       assertEquals(1, id)
       assertEquals("slow", name)
@@ -132,7 +133,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getNature() {
+  fun getNature() = runTest {
     MockServer.client.getNature(10).apply {
       assertEquals(10, id)
       assertEquals("hasty", name)
@@ -158,7 +159,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokeathlonStat() {
+  fun getPokeathlonStat() = runTest {
     MockServer.client.getPokeathlonStat(1).apply {
       assertEquals(1, id)
       assertEquals("speed", name)
@@ -179,7 +180,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemon1() {
+  fun getPokemon1() = runTest {
     MockServer.client.getPokemon(1).apply {
       assertEquals(1, id)
       assertEquals("bulbasaur", name)
@@ -220,7 +221,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemon2() {
+  fun getPokemon2() = runTest {
     MockServer.client.getPokemon(12).apply {
       assert(
         heldItems.find {
@@ -233,7 +234,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemon3() {
+  fun getPokemon3() = runTest {
     MockServer.client.getPokemonEncounterList(12).apply {
       assert(
         find { locAreaEncounter ->
@@ -257,7 +258,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemon4() {
+  fun getPokemon4() = runTest {
     MockServer.client.getPokemon(399).apply {
       sprites.apply {
         assert(backFemale!!.endsWith("/sprites/pokemon/back/female/399.png"))
@@ -273,7 +274,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemonColor() {
+  fun getPokemonColor() = runTest {
     MockServer.client.getPokemonColor(1).apply {
       assertEquals(1, id)
       assertEquals("black", name)
@@ -283,7 +284,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemonForm() {
+  fun getPokemonForm() = runTest {
     MockServer.client.getPokemonForm(1).apply {
       assertEquals(1, id)
       assertEquals("bulbasaur", name)
@@ -305,7 +306,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemonForm2() {
+  fun getPokemonForm2() = runTest {
     MockServer.client.getPokemonForm(10266).apply {
       assert(
         Name(name = "Original Color", language = NamedApiResource("en", "language", 9)) in formNames
@@ -314,7 +315,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemonHabitat() {
+  fun getPokemonHabitat() = runTest {
     MockServer.client.getPokemonHabitat(1).apply {
       assertEquals(1, id)
       assertEquals("cave", name)
@@ -324,7 +325,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemonShape() {
+  fun getPokemonShape() = runTest {
     MockServer.client.getPokemonShape(1).apply {
       assertEquals(1, id)
       assertEquals("ball", name)
@@ -338,7 +339,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemonSpecies1() {
+  fun getPokemonSpecies1() = runTest {
     MockServer.client.getPokemonSpecies(1).apply {
       assertEquals(1, id)
       assertEquals("bulbasaur", name)
@@ -398,14 +399,14 @@ class PokemonTest {
   }
 
   @Test
-  fun getPokemonSpecies2() {
+  fun getPokemonSpecies2() = runTest {
     MockServer.client.getPokemonSpecies(2).apply {
       assertEquals(NamedApiResource("bulbasaur", "pokemon-species", 1), evolvesFromSpecies)
     }
   }
 
   @Test
-  fun getPokemonSpecies3() {
+  fun getPokemonSpecies3() = runTest {
     MockServer.client.getPokemonSpecies(351).apply {
       assert(
         Description(
@@ -420,7 +421,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getStat() {
+  fun getStat() = runTest {
     MockServer.client.getStat(2).apply {
       assertEquals(2, id)
       assertEquals("attack", name)
@@ -442,7 +443,7 @@ class PokemonTest {
   }
 
   @Test
-  fun getType() {
+  fun getType() = runTest {
     MockServer.client.getType(8).apply {
       assertEquals(8, id)
       assertEquals("ghost", name)

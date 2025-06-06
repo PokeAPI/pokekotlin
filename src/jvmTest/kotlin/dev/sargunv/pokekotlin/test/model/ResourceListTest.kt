@@ -8,12 +8,18 @@ import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
+import kotlinx.coroutines.test.runTest
 
 class ResourceListTest {
 
   val pageSize = 50
 
-  fun test(category: String, id: Int, name: String, call: () -> NamedApiResourceList) {
+  private suspend fun testCase(
+    category: String,
+    id: Int,
+    name: String,
+    call: suspend () -> NamedApiResourceList,
+  ) {
     call().apply {
       assert(results.count() <= pageSize)
       if (pageSize >= count) {
@@ -34,7 +40,7 @@ class ResourceListTest {
     }
   }
 
-  fun test(category: String, id: Int, call: () -> ApiResourceList) {
+  private suspend fun testCase(category: String, id: Int, call: suspend () -> ApiResourceList) {
     call().apply {
       assert(results.count() <= pageSize)
       if (pageSize >= count) {
@@ -55,251 +61,269 @@ class ResourceListTest {
   }
 
   @Test
-  fun getBerryList() {
-    test("berry", 4, "rawst") { MockServer.client.getBerryList(0, pageSize) }
+  fun getBerryList() = runTest {
+    testCase("berry", 4, "rawst") { MockServer.client.getBerryList(0, pageSize) }
   }
 
   @Test
-  fun getBerryFirmnessList() {
-    test("berry-firmness", 4, "very-hard") { MockServer.client.getBerryFirmnessList(0, pageSize) }
+  fun getBerryFirmnessList() = runTest {
+    testCase("berry-firmness", 4, "very-hard") {
+      MockServer.client.getBerryFirmnessList(0, pageSize)
+    }
   }
 
   @Test
-  fun getBerryFlavorList() {
-    test("berry-flavor", 4, "bitter") { MockServer.client.getBerryFlavorList(0, pageSize) }
+  fun getBerryFlavorList() = runTest {
+    testCase("berry-flavor", 4, "bitter") { MockServer.client.getBerryFlavorList(0, pageSize) }
   }
 
   @Test
-  fun getContestTypeList() {
-    test("contest-type", 4, "smart") { MockServer.client.getContestTypeList(0, pageSize) }
+  fun getContestTypeList() = runTest {
+    testCase("contest-type", 4, "smart") { MockServer.client.getContestTypeList(0, pageSize) }
   }
 
   @Test
-  fun getContestEffectList() {
-    test("contest-effect", 4) { MockServer.client.getContestEffectList(0, pageSize) }
+  fun getContestEffectList() = runTest {
+    testCase("contest-effect", 4) { MockServer.client.getContestEffectList(0, pageSize) }
   }
 
   @Test
-  fun getSuperContestEffectList() {
-    test("super-contest-effect", 2) { MockServer.client.getSuperContestEffectList(0, pageSize) }
+  fun getSuperContestEffectList() = runTest {
+    testCase("super-contest-effect", 2) { MockServer.client.getSuperContestEffectList(0, pageSize) }
   }
 
   @Test
-  fun getEncounterMethodList() {
-    test("encounter-method", 5, "surf") { MockServer.client.getEncounterMethodList(0, pageSize) }
+  fun getEncounterMethodList() = runTest {
+    testCase("encounter-method", 5, "surf") {
+      MockServer.client.getEncounterMethodList(0, pageSize)
+    }
   }
 
   @Test
-  fun getEncounterConditionList() {
-    test("encounter-condition", 3, "radar") {
+  fun getEncounterConditionList() = runTest {
+    testCase("encounter-condition", 3, "radar") {
       MockServer.client.getEncounterConditionList(0, pageSize)
     }
   }
 
   @Test
-  fun getEncounterConditionValueList() {
-    test("encounter-condition-value", 4, "time-day") {
+  fun getEncounterConditionValueList() = runTest {
+    testCase("encounter-condition-value", 4, "time-day") {
       MockServer.client.getEncounterConditionValueList(0, pageSize)
     }
   }
 
   @Test
-  fun getEvolutionChainList() {
-    test("evolution-chain", 5) { MockServer.client.getEvolutionChainList(0, pageSize) }
+  fun getEvolutionChainList() = runTest {
+    testCase("evolution-chain", 5) { MockServer.client.getEvolutionChainList(0, pageSize) }
   }
 
   @Test
-  fun getEvolutionTriggerList() {
-    test("evolution-trigger", 2, "trade") { MockServer.client.getEvolutionTriggerList(0, pageSize) }
+  fun getEvolutionTriggerList() = runTest {
+    testCase("evolution-trigger", 2, "trade") {
+      MockServer.client.getEvolutionTriggerList(0, pageSize)
+    }
   }
 
   @Test
-  fun getGenerationList() {
-    test("generation", 3, "generation-iii") { MockServer.client.getGenerationList(0, pageSize) }
+  fun getGenerationList() = runTest {
+    testCase("generation", 3, "generation-iii") { MockServer.client.getGenerationList(0, pageSize) }
   }
 
   @Test
-  fun getPokedexList() {
-    test("pokedex", 2, "kanto") { MockServer.client.getPokedexList(0, pageSize) }
+  fun getPokedexList() = runTest {
+    testCase("pokedex", 2, "kanto") { MockServer.client.getPokedexList(0, pageSize) }
   }
 
   @Test
-  fun getVersionList() {
-    test("version", 4, "gold") { MockServer.client.getVersionList(0, pageSize) }
+  fun getVersionList() = runTest {
+    testCase("version", 4, "gold") { MockServer.client.getVersionList(0, pageSize) }
   }
 
   @Test
-  fun getVersionGroupList() {
-    test("version-group", 3, "gold-silver") { MockServer.client.getVersionGroupList(0, pageSize) }
+  fun getVersionGroupList() = runTest {
+    testCase("version-group", 3, "gold-silver") {
+      MockServer.client.getVersionGroupList(0, pageSize)
+    }
   }
 
   @Test
-  fun getItemList() {
-    test("item", 16, "cherish-ball") { MockServer.client.getItemList(0, pageSize) }
+  fun getItemList() = runTest {
+    testCase("item", 16, "cherish-ball") { MockServer.client.getItemList(0, pageSize) }
   }
 
   @Test
-  fun getItemAttributeList() {
-    test("item-attribute", 2, "consumable") { MockServer.client.getItemAttributeList(0, pageSize) }
+  fun getItemAttributeList() = runTest {
+    testCase("item-attribute", 2, "consumable") {
+      MockServer.client.getItemAttributeList(0, pageSize)
+    }
   }
 
   @Test
-  fun getItemCategoryList() {
-    test("item-category", 2, "effort-drop") { MockServer.client.getItemCategoryList(0, pageSize) }
+  fun getItemCategoryList() = runTest {
+    testCase("item-category", 2, "effort-drop") {
+      MockServer.client.getItemCategoryList(0, pageSize)
+    }
   }
 
   @Test
-  fun getItemFlingEffectList() {
-    test("item-fling-effect", 4, "herb-effect") {
+  fun getItemFlingEffectList() = runTest {
+    testCase("item-fling-effect", 4, "herb-effect") {
       MockServer.client.getItemFlingEffectList(0, pageSize)
     }
   }
 
   @Test
-  fun getItemPocketList() {
-    test("item-pocket", 3, "pokeballs") { MockServer.client.getItemPocketList(0, pageSize) }
+  fun getItemPocketList() = runTest {
+    testCase("item-pocket", 3, "pokeballs") { MockServer.client.getItemPocketList(0, pageSize) }
   }
 
   @Test
-  fun getMoveList() {
-    test("move", 17, "wing-attack") { MockServer.client.getMoveList(0, pageSize) }
+  fun getMoveList() = runTest {
+    testCase("move", 17, "wing-attack") { MockServer.client.getMoveList(0, pageSize) }
   }
 
   @Test
-  fun getMoveAilmentList() {
-    test("move-ailment", 5, "poison") { MockServer.client.getMoveAilmentList(0, pageSize) }
+  fun getMoveAilmentList() = runTest {
+    testCase("move-ailment", 5, "poison") { MockServer.client.getMoveAilmentList(0, pageSize) }
   }
 
   @Test
-  fun getMoveBattleStyleList() {
-    test("move-battle-style", 2, "defense") {
+  fun getMoveBattleStyleList() = runTest {
+    testCase("move-battle-style", 2, "defense") {
       MockServer.client.getMoveBattleStyleList(0, pageSize)
     }
   }
 
   @Test
-  fun getMoveCategoryList() {
-    test("move-category", 11, "field-effect") { MockServer.client.getMoveCategoryList(0, pageSize) }
+  fun getMoveCategoryList() = runTest {
+    testCase("move-category", 11, "field-effect") {
+      MockServer.client.getMoveCategoryList(0, pageSize)
+    }
   }
 
   @Test
-  fun getMoveDamageClassList() {
-    test("move-damage-class", 2, "physical") {
+  fun getMoveDamageClassList() = runTest {
+    testCase("move-damage-class", 2, "physical") {
       MockServer.client.getMoveDamageClassList(0, pageSize)
     }
   }
 
   @Test
-  fun getMoveLearnMethodList() {
-    test("move-learn-method", 4, "machine") {
+  fun getMoveLearnMethodList() = runTest {
+    testCase("move-learn-method", 4, "machine") {
       MockServer.client.getMoveLearnMethodList(0, pageSize)
     }
   }
 
   @Test
-  fun getMoveTargetList() {
-    test("move-target", 14, "all-pokemon") { MockServer.client.getMoveTargetList(0, pageSize) }
+  fun getMoveTargetList() = runTest {
+    testCase("move-target", 14, "all-pokemon") { MockServer.client.getMoveTargetList(0, pageSize) }
   }
 
   @Test
-  fun getLocationList() {
-    test("location", 31, "sinnoh-route-201") { MockServer.client.getLocationList(0, pageSize) }
+  fun getLocationList() = runTest {
+    testCase("location", 31, "sinnoh-route-201") { MockServer.client.getLocationList(0, pageSize) }
   }
 
   @Test
-  fun getLocationAreaList() {
-    test("location-area", 34, "solaceon-ruins-b1f-c") {
+  fun getLocationAreaList() = runTest {
+    testCase("location-area", 34, "solaceon-ruins-b1f-c") {
       MockServer.client.getLocationAreaList(0, pageSize)
     }
   }
 
   @Test
-  fun getPalParkAreaList() {
-    test("pal-park-area", 3, "mountain") { MockServer.client.getPalParkAreaList(0, pageSize) }
+  fun getPalParkAreaList() = runTest {
+    testCase("pal-park-area", 3, "mountain") { MockServer.client.getPalParkAreaList(0, pageSize) }
   }
 
   @Test
-  fun getRegionList() {
-    test("region", 1, "kanto") { MockServer.client.getRegionList(0, pageSize) }
+  fun getRegionList() = runTest {
+    testCase("region", 1, "kanto") { MockServer.client.getRegionList(0, pageSize) }
   }
 
   @Test
-  fun getAbilityList() {
-    test("ability", 5, "sturdy") { MockServer.client.getAbilityList(0, pageSize) }
+  fun getAbilityList() = runTest {
+    testCase("ability", 5, "sturdy") { MockServer.client.getAbilityList(0, pageSize) }
   }
 
   @Test
-  fun getCharacteristicList() {
-    test("characteristic", 4) { MockServer.client.getCharacteristicList(0, pageSize) }
+  fun getCharacteristicList() = runTest {
+    testCase("characteristic", 4) { MockServer.client.getCharacteristicList(0, pageSize) }
   }
 
   @Test
-  fun getEggGroupList() {
-    test("egg-group", 1, "monster") { MockServer.client.getEggGroupList(0, pageSize) }
+  fun getEggGroupList() = runTest {
+    testCase("egg-group", 1, "monster") { MockServer.client.getEggGroupList(0, pageSize) }
   }
 
   @Test
-  fun getGenderList() {
-    test("gender", 2, "male") { MockServer.client.getGenderList(0, pageSize) }
+  fun getGenderList() = runTest {
+    testCase("gender", 2, "male") { MockServer.client.getGenderList(0, pageSize) }
   }
 
   @Test
-  fun getGrowthRateList() {
-    test("growth-rate", 3, "fast") { MockServer.client.getGrowthRateList(0, pageSize) }
+  fun getGrowthRateList() = runTest {
+    testCase("growth-rate", 3, "fast") { MockServer.client.getGrowthRateList(0, pageSize) }
   }
 
   @Test
-  fun getNatureList() {
-    test("nature", 5, "timid") { MockServer.client.getNatureList(0, pageSize) }
+  fun getNatureList() = runTest {
+    testCase("nature", 5, "timid") { MockServer.client.getNatureList(0, pageSize) }
   }
 
   @Test
-  fun getPokeathlonStatList() {
-    test("pokeathlon-stat", 5, "jump") { MockServer.client.getPokeathlonStatList(0, pageSize) }
+  fun getPokeathlonStatList() = runTest {
+    testCase("pokeathlon-stat", 5, "jump") { MockServer.client.getPokeathlonStatList(0, pageSize) }
   }
 
   @Test
-  fun getPokemonList() {
-    test("pokemon", 3, "venusaur") { MockServer.client.getPokemonList(0, pageSize) }
+  fun getPokemonList() = runTest {
+    testCase("pokemon", 3, "venusaur") { MockServer.client.getPokemonList(0, pageSize) }
   }
 
   @Test
-  fun getPokemonColorList() {
-    test("pokemon-color", 8, "red") { MockServer.client.getPokemonColorList(0, pageSize) }
+  fun getPokemonColorList() = runTest {
+    testCase("pokemon-color", 8, "red") { MockServer.client.getPokemonColorList(0, pageSize) }
   }
 
   @Test
-  fun getPokemonFormList() {
-    test("pokemon-form", 18, "pidgeot") { MockServer.client.getPokemonFormList(0, pageSize) }
+  fun getPokemonFormList() = runTest {
+    testCase("pokemon-form", 18, "pidgeot") { MockServer.client.getPokemonFormList(0, pageSize) }
   }
 
   @Test
-  fun getPokemonHabitatList() {
-    test("pokemon-habitat", 8, "urban") { MockServer.client.getPokemonHabitatList(0, pageSize) }
+  fun getPokemonHabitatList() = runTest {
+    testCase("pokemon-habitat", 8, "urban") { MockServer.client.getPokemonHabitatList(0, pageSize) }
   }
 
   @Test
-  fun getPokemonShapeList() {
-    test("pokemon-shape", 13, "bug-wings") { MockServer.client.getPokemonShapeList(0, pageSize) }
+  fun getPokemonShapeList() = runTest {
+    testCase("pokemon-shape", 13, "bug-wings") {
+      MockServer.client.getPokemonShapeList(0, pageSize)
+    }
   }
 
   @Test
-  fun getPokemonSpeciesList() {
-    test("pokemon-species", 20, "raticate") { MockServer.client.getPokemonSpeciesList(0, pageSize) }
+  fun getPokemonSpeciesList() = runTest {
+    testCase("pokemon-species", 20, "raticate") {
+      MockServer.client.getPokemonSpeciesList(0, pageSize)
+    }
   }
 
   @Test
-  fun getPokemonStatList() {
-    test("stat", 6, "speed") { MockServer.client.getStatList(0, pageSize) }
+  fun getPokemonStatList() = runTest {
+    testCase("stat", 6, "speed") { MockServer.client.getStatList(0, pageSize) }
   }
 
   @Test
-  fun getPokemonTypeList() {
-    test("type", 18, "fairy") { MockServer.client.getTypeList(0, pageSize) }
+  fun getPokemonTypeList() = runTest {
+    testCase("type", 18, "fairy") { MockServer.client.getTypeList(0, pageSize) }
   }
 
   @Test
-  fun getLanguageList() {
-    test("language", 9, "en") { MockServer.client.getLanguageList(0, pageSize) }
+  fun getLanguageList() = runTest {
+    testCase("language", 9, "en") { MockServer.client.getLanguageList(0, pageSize) }
   }
 }

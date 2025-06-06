@@ -6,11 +6,12 @@ import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlinx.coroutines.test.runTest
 
 class BerryTest {
 
   @Test
-  fun getBerry() {
+  fun getBerry() = runTest {
     MockServer.client.getBerry(34).apply {
       assertEquals(34, id)
       assertEquals("durin", name)
@@ -28,7 +29,7 @@ class BerryTest {
   }
 
   @Test
-  fun getBerryFirmness() {
+  fun getBerryFirmness() = runTest {
     MockServer.client.getBerryFirmness(3).apply {
       assertEquals(3, id)
       assertEquals("hard", name)
@@ -38,7 +39,7 @@ class BerryTest {
   }
 
   @Test
-  fun getBerryFlavor() {
+  fun getBerryFlavor() = runTest {
     MockServer.client.getBerryFlavor(3).apply {
       assertEquals(3, id)
       assertEquals("sweet", name)

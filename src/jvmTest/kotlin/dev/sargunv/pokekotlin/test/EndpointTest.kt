@@ -1,7 +1,7 @@
 package dev.sargunv.pokekotlin.test
 
-import com.google.gson.Gson
 import dev.sargunv.pokekotlin.client.PokeApi
+import dev.sargunv.pokekotlin.client.PokeApiJson
 import kotlin.collections.HashMap
 import kotlin.reflect.full.declaredMemberFunctions
 import kotlin.test.Test
@@ -12,8 +12,6 @@ import okhttp3.Request
 class EndpointTest {
 
   private val httpClient = OkHttpClient()
-
-  private val gson = Gson()
 
   @Test
   fun checkAllEndpoints() {
@@ -28,8 +26,7 @@ class EndpointTest {
 
     // parse the expected resources using the list
     val expectedSingleResources =
-      gson
-        .fromJson<HashMap<String, String>>(json, HashMap::class.java)
+      PokeApiJson.decodeFromString<HashMap<String, String>>(json)
         .keys
         .map { endpointName ->
           endpointName.split('-').joinToString(separator = "") {

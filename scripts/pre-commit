@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Run Spotless
+./gradlew -q spotlessApply
+
+# Add any modified files back to the staging area
+git add .

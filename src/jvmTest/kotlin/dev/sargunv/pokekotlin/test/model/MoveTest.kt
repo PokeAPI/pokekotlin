@@ -5,11 +5,12 @@ import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
+import kotlinx.coroutines.test.runTest
 
 class MoveTest {
 
   @Test
-  fun getMove1() {
+  fun getMove1() = runTest {
     MockServer.client.getMove(34).apply {
       assertEquals(34, id)
       assertEquals("body-slam", name)
@@ -72,7 +73,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMove2() {
+  fun getMove2() = runTest {
     MockServer.client.getMove(400).apply {
       assertEquals(
         ContestComboSets(
@@ -85,7 +86,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMove3() {
+  fun getMove3() = runTest {
     MockServer.client.getMove(16).apply {
       assertNotNull(
         effectChanges.find {
@@ -100,7 +101,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMove4() {
+  fun getMove4() = runTest {
     MockServer.client.getMove(14).apply {
       assert(
         MoveStatChange(change = 2, stat = NamedApiResource("attack", "stat", 2)) in statChanges
@@ -109,7 +110,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMove5() {
+  fun getMove5() = runTest {
     MockServer.client.getMove(2).apply {
       assert(
         PastMoveStatValues(
@@ -126,7 +127,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMoveAilment() {
+  fun getMoveAilment() = runTest {
     MockServer.client.getMoveAilment(1).apply {
       assertEquals(1, id)
       assertEquals("paralysis", name)
@@ -136,7 +137,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMoveBattleStyle() {
+  fun getMoveBattleStyle() = runTest {
     MockServer.client.getMoveBattleStyle(1).apply {
       assertEquals(1, id)
       assertEquals("attack", name)
@@ -145,7 +146,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMoveCategory() {
+  fun getMoveCategory() = runTest {
     MockServer.client.getMoveCategory(1).apply {
       assertEquals(1, id)
       assertEquals("ailment", name)
@@ -160,7 +161,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMoveDamageClass() {
+  fun getMoveDamageClass() = runTest {
     MockServer.client.getMoveDamageClass(1).apply {
       assertEquals(1, id)
       assertEquals("status", name)
@@ -174,7 +175,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMoveLearnMethod() {
+  fun getMoveLearnMethod() = runTest {
     MockServer.client.getMoveLearnMethod(10).apply {
       assertEquals(10, id)
       assertEquals("form-change", name)
@@ -193,7 +194,7 @@ class MoveTest {
   }
 
   @Test
-  fun getMoveTarget() {
+  fun getMoveTarget() = runTest {
     MockServer.client.getMoveTarget(8).apply {
       assertEquals(8, id)
       assertEquals("random-opponent", name)

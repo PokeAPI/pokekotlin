@@ -8,11 +8,12 @@ import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
+import kotlinx.coroutines.test.runTest
 
 class EvolutionTest {
 
   @Test
-  fun getEvolutionChain1() {
+  fun getEvolutionChain1() = runTest {
     MockServer.client.getEvolutionChain(1).apply {
       assertEquals(1, id)
       assertEquals(null, babyTriggerItem)
@@ -57,7 +58,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain2() {
+  fun getEvolutionChain2() = runTest {
     MockServer.client.getEvolutionChain(109).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -74,7 +75,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain3() {
+  fun getEvolutionChain3() = runTest {
     MockServer.client.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -90,7 +91,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain4() {
+  fun getEvolutionChain4() = runTest {
     MockServer.client.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -106,7 +107,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain5() {
+  fun getEvolutionChain5() = runTest {
     MockServer.client.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -123,7 +124,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain6() {
+  fun getEvolutionChain6() = runTest {
     MockServer.client.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -140,7 +141,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain7() {
+  fun getEvolutionChain7() = runTest {
     MockServer.client.getEvolutionChain(112).apply {
       assert(
         chain.evolvesTo[0]
@@ -157,7 +158,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain8() {
+  fun getEvolutionChain8() = runTest {
     MockServer.client.getEvolutionChain(213).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -174,7 +175,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain9() {
+  fun getEvolutionChain9() = runTest {
     MockServer.client.getEvolutionChain(178).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -190,7 +191,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain10() {
+  fun getEvolutionChain10() = runTest {
     MockServer.client.getEvolutionChain(346).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -207,7 +208,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain11() {
+  fun getEvolutionChain11() = runTest {
     MockServer.client.getEvolutionChain(47).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -224,7 +225,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain12() {
+  fun getEvolutionChain12() = runTest {
     MockServer.client.getEvolutionChain(362).apply {
       assertNotNull(
         chain.evolvesTo[0].evolvesTo.find {
@@ -241,7 +242,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain13() {
+  fun getEvolutionChain13() = runTest {
     MockServer.client.getEvolutionChain(352).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -258,7 +259,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain14() {
+  fun getEvolutionChain14() = runTest {
     MockServer.client.getEvolutionChain(116).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -274,7 +275,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain15() {
+  fun getEvolutionChain15() = runTest {
     MockServer.client.getEvolutionChain(312).apply {
       assertNotNull(
         chain.evolvesTo.find {
@@ -290,7 +291,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionChain16() {
+  fun getEvolutionChain16() = runTest {
     MockServer.client.getEvolutionChain(72).apply {
       assertEquals(NamedApiResource("full-incense", "item", 293), babyTriggerItem)
       assertEquals(true, chain.isBaby)
@@ -298,7 +299,7 @@ class EvolutionTest {
   }
 
   @Test
-  fun getEvolutionTrigger() {
+  fun getEvolutionTrigger() = runTest {
     MockServer.client.getEvolutionTrigger(1).apply {
       assertEquals(1, id)
       assertEquals("level-up", name)

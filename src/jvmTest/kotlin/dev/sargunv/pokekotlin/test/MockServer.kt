@@ -1,16 +1,18 @@
 package dev.sargunv.pokekotlin.test
 
-import com.google.gson.Gson
-import com.google.gson.JsonArray
-import com.google.gson.JsonObject
-import dev.sargunv.pokekotlin.client.ClientConfig
 import dev.sargunv.pokekotlin.client.PokeApiClient
+import dev.sargunv.pokekotlin.client.PokeApiJson
 import java.io.File
 import java.io.FileReader
 import java.nio.charset.Charset
 import java.nio.file.Paths
 import java.util.logging.Level
 import java.util.logging.LogManager
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.buildJsonArray
+import kotlinx.serialization.json.buildJsonObject
+import kotlinx.serialization.json.jsonArray
 import okhttp3.mockwebserver.Dispatcher
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
@@ -22,7 +24,7 @@ object MockServer {
   private val server = MockWebServer()
 
   val url = server.url("/api/v2/")!!
-  val client = PokeApiClient(ClientConfig(url))
+  val client = PokeApiClient(url.url().toString())
 
   init {
     // disable MockWebServer logging
@@ -34,16 +36,16 @@ object MockServer {
     // set up the dispatcher to use files in the archive as the mock responses
     server.dispatcher =
       object : Dispatcher() {
-        private val gson = Gson()
-
         private fun limit(text: String, limit: Int): String {
-          val obj = gson.fromJson(text, JsonObject::class.java)
-          val fullResults = obj["results"].asJsonArray
-          val limitedResults = JsonArray(limit)
-          fullResults.take(limit).forEach { limitedResults.add(it) }
-          obj.add("results", limitedResults)
-          if (fullResults.size() > limit) obj.addProperty("next", "DUMMY")
-          return gson.toJson(obj)
+          val fullObj = PokeApiJson.decodeFromString<JsonObject>(text)
+          val fullResults = fullObj["results"]!!.jsonArray
+          val newResults = buildJsonArray { fullResults.take(limit).forEach { add(it) } }
+          val newObj = buildJsonObject {
+            fullObj.entries.forEach { (key, value) -> put(key, value) }
+            put("results", newResults)
+            if (fullResults.size > limit) put("next", JsonPrimitive("DUMMY"))
+          }
+          return PokeApiJson.encodeToString(newObj)
         }
 
         override fun dispatch(request: RecordedRequest): MockResponse {
@@ -53,7 +55,9 @@ object MockServer {
           return if (file.exists()) {
             var text = FileReader(file).use { it.readText() }
             if (limit != null) text = limit(text, limit)
-            MockResponse().setBody(Buffer().writeString(text, Charset.defaultCharset()))
+            MockResponse()
+              .setHeader("content-type", "application/json")
+              .setBody(Buffer().writeString(text, Charset.defaultCharset()))
           } else MockResponse().setResponseCode(404)
         }
       }

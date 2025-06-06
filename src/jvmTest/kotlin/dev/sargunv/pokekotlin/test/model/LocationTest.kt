@@ -9,11 +9,12 @@ import dev.sargunv.pokekotlin.test.MockServer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
+import kotlinx.coroutines.test.runTest
 
 class LocationTest {
 
   @Test
-  fun getLocation() {
+  fun getLocation() = runTest {
     MockServer.client.getLocation(20).apply {
       assertEquals(20, id)
       assertEquals("wayward-cave", name)
@@ -30,7 +31,7 @@ class LocationTest {
   }
 
   @Test
-  fun getLocationArea() {
+  fun getLocationArea() = runTest {
     MockServer.client.getLocationArea(20).apply {
       assertEquals(20, id)
       assertEquals("mt-coronet-cave", name)
@@ -65,7 +66,7 @@ class LocationTest {
   }
 
   @Test
-  fun getPalParkArea() {
+  fun getPalParkArea() = runTest {
     MockServer.client.getPalParkArea(2).apply {
       assertEquals(2, id)
       assertEquals("field", name)
@@ -81,7 +82,7 @@ class LocationTest {
   }
 
   @Test
-  fun getRegion() {
+  fun getRegion() = runTest {
     MockServer.client.getRegion(1).apply {
       assertEquals(1, id)
       assertEquals("kanto", name)

@@ -1,5 +1,9 @@
 package dev.sargunv.pokekotlin.model
 
+import dev.sargunv.pokekotlin.util.DelegatingSerializer
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.Serializable
+
 private fun urlToId(url: String): Int {
   return "/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
 }
@@ -17,18 +21,40 @@ interface ResourceSummary {
   val category: String
 }
 
+@Serializable(with = ApiResource.Serializer::class)
 data class ApiResource(val url: String) : ResourceSummary {
   constructor(category: String, id: Int) : this(resourceUrl(id, category))
 
   override val category by lazy { urlToCat(url) }
   override val id by lazy { urlToId(url) }
+
+  internal class Serializer :
+    KSerializer<ApiResource> by DelegatingSerializer(
+      clazz = ApiResource::class,
+      delegate = Delegate.serializer(),
+      fromDelegate = { ApiResource(url = it.url) },
+      toDelegate = { Delegate(url = it.url) },
+    ) {
+    @Serializable internal data class Delegate(val url: String)
+  }
 }
 
+@Serializable(with = NamedApiResource.Serializer::class)
 data class NamedApiResource(val name: String, val url: String) : ResourceSummary {
   constructor(name: String, category: String, id: Int) : this(name, resourceUrl(id, category))
 
   override val category by lazy { urlToCat(url) }
   override val id by lazy { urlToId(url) }
+
+  internal class Serializer :
+    KSerializer<NamedApiResource> by DelegatingSerializer(
+      clazz = NamedApiResource::class,
+      delegate = Delegate.serializer(),
+      fromDelegate = { NamedApiResource(name = it.name, url = it.url) },
+      toDelegate = { Delegate(name = it.name, url = it.url) },
+    ) {
+    @Serializable internal data class Delegate(val name: String, val url: String)
+  }
 }
 
 interface ResourceSummaryList<out T : ResourceSummary> {
@@ -38,6 +64,7 @@ interface ResourceSummaryList<out T : ResourceSummary> {
   val results: List<T>
 }
 
+@Serializable
 data class ApiResourceList(
   override val count: Int,
   override val next: String?,
@@ -45,6 +72,7 @@ data class ApiResourceList(
   override val results: List<ApiResource>,
 ) : ResourceSummaryList<ApiResource>
 
+@Serializable
 data class NamedApiResourceList(
   override val count: Int,
   override val next: String?,

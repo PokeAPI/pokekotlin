@@ -1,5 +1,8 @@
 package dev.sargunv.pokekotlin.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Berry(
   val id: Int,
   val name: String,
@@ -15,8 +18,9 @@ data class Berry(
   val naturalGiftType: NamedApiResource,
 )
 
-data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
+@Serializable data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
 
+@Serializable
 data class BerryFirmness(
   val id: Int,
   val name: String,
@@ -24,6 +28,7 @@ data class BerryFirmness(
   val names: List<Name>,
 )
 
+@Serializable
 data class BerryFlavor(
   val id: Int,
   val name: String,
@@ -32,4 +37,4 @@ data class BerryFlavor(
   val names: List<Name>,
 )
 
-data class FlavorBerryMap(val potency: Int, val berry: NamedApiResource)
+@Serializable data class FlavorBerryMap(val potency: Int, val berry: NamedApiResource)

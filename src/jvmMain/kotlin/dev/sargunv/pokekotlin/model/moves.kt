@@ -1,7 +1,9 @@
 package dev.sargunv.pokekotlin.model
 
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class Move(
   val id: Int,
   val name: String,
@@ -28,16 +30,19 @@ data class Move(
   val flavorTextEntries: List<MoveFlavorText>,
 )
 
+@Serializable
 data class ContestComboSets(
-  @SerializedName("normal") val normalSet: ContestComboDetail,
-  @SerializedName("super") val superSet: ContestComboDetail,
+  @SerialName("normal") val normalSet: ContestComboDetail,
+  @SerialName("super") val superSet: ContestComboDetail,
 )
 
+@Serializable
 data class ContestComboDetail(
   val useBefore: List<NamedApiResource>?,
   val useAfter: List<NamedApiResource>?,
 )
 
+@Serializable
 data class MoveMetaData(
   val ailment: NamedApiResource,
   val category: NamedApiResource,
@@ -53,8 +58,9 @@ data class MoveMetaData(
   val statChance: Int,
 )
 
-data class MoveStatChange(val change: Int, val stat: NamedApiResource)
+@Serializable data class MoveStatChange(val change: Int, val stat: NamedApiResource)
 
+@Serializable
 data class PastMoveStatValues(
   val accuracy: Int?,
   val effectChance: Int?,
@@ -65,6 +71,7 @@ data class PastMoveStatValues(
   val versionGroup: NamedApiResource,
 )
 
+@Serializable
 data class MoveAilment(
   val id: Int,
   val name: String,
@@ -72,8 +79,9 @@ data class MoveAilment(
   val names: List<Name>,
 )
 
-data class MoveBattleStyle(val id: Int, val name: String, val names: List<Name>)
+@Serializable data class MoveBattleStyle(val id: Int, val name: String, val names: List<Name>)
 
+@Serializable
 data class MoveCategory(
   val id: Int,
   val name: String,
@@ -81,6 +89,7 @@ data class MoveCategory(
   val descriptions: List<Description>,
 )
 
+@Serializable
 data class MoveDamageClass(
   val id: Int,
   val name: String,
@@ -89,6 +98,7 @@ data class MoveDamageClass(
   val names: List<Name>,
 )
 
+@Serializable
 data class MoveLearnMethod(
   val id: Int,
   val name: String,
@@ -97,6 +107,7 @@ data class MoveLearnMethod(
   val versionGroups: List<NamedApiResource>,
 )
 
+@Serializable
 data class MoveTarget(
   val id: Int,
   val name: String,
@@ -105,6 +116,7 @@ data class MoveTarget(
   val names: List<Name>,
 )
 
+@Serializable
 data class MoveFlavorText(
   val flavorText: String,
   val language: NamedApiResource,

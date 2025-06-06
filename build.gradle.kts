@@ -9,6 +9,8 @@ plugins {
   alias(libs.plugins.dokka)
   alias(libs.plugins.mkdocs)
   alias(libs.plugins.jgitver)
+  alias(libs.plugins.ksp)
+  alias(libs.plugins.ktorfit)
   id("maven-publish")
 }
 
@@ -31,14 +33,16 @@ kotlin {
   sourceSets {
     jvmMain.dependencies {
       implementation(kotlin("stdlib"))
-      implementation(libs.retrofit.core)
-      implementation(libs.retrofit.converter.gson)
-      implementation(libs.retrofit.adapter.rxjava)
+      implementation(libs.kotlinx.serialization.json)
+      implementation(libs.ktor.client.content.negotiation)
+      implementation(libs.ktor.serialization.kotlinx.json)
+      implementation(libs.ktorfit)
     }
 
     jvmTest.dependencies {
       implementation(kotlin("test"))
       implementation(kotlin("reflect"))
+      implementation(libs.kotlinx.coroutines.test)
       implementation(libs.okhttp.mockwebserver)
     }
   }
