@@ -14,13 +14,15 @@ jobs:
         include:
           - target: jvm
             os: ubuntu
-          #          - target: jsNode
-          #            os: ubuntu
-          - target: wasmJsNode
-            os: ubuntu
           - target: jsBrowser
             os: ubuntu
+          - target: jsNode
+            os: ubuntu
           - target: wasmJsBrowser
+            os: ubuntu
+          - target: wasmJsNode
+            os: ubuntu
+          - target: wasmJsD8
             os: ubuntu
           - target: linuxX64
             os: ubuntu
@@ -28,12 +30,12 @@ jobs:
             os: macos
           - target: mingwX64
             os: windows
-    #          - target: iosSimulatorArm64
-    #            os: macos
-    #          - target: tvosSimulatorArm64
-    #            os: macos
-    #          - target: watchosSimulatorArm64
-    #            os: macos
+          - target: iosSimulatorArm64
+            os: macos
+          - target: tvosSimulatorArm64
+            os: macos
+          - target: watchosSimulatorArm64
+            os: macos
     runs-on: "${{ matrix.os }}-latest"
     name: "test (${{ matrix.target }})"
     steps:

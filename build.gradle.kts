@@ -37,9 +37,9 @@ kotlin {
   }
 
   wasmJs {
-    browser()
-    nodejs()
-    d8()
+    browser { testTask { useMocha { timeout = "60s" } } }
+    nodejs { testTask { useMocha { timeout = "60s" } } }
+    d8 { testTask { useMocha { timeout = "60s" } } }
   }
 
   // native tier 1
