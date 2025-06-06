@@ -42,7 +42,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: "./.github/actions/setup"
-      - run: just test-server
+      - run: "just test-server-background"
       - run: "./gradlew ${{ matrix.target }}Test"
 
   build-docs:
