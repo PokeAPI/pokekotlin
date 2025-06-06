@@ -11,20 +11,26 @@ class PokeApiClient(
   baseUrl: String = "https://pokeapi.co/api/v2/",
   engine: HttpClientEngine? = null,
   configure: HttpClientConfig<*>.() -> Unit = {},
-) :
-  PokeApi by (run {
-    fun HttpClientConfig<*>.fullyConfigure() {
+) : PokeApi by getInstance(baseUrl, engine, configure) {
+  private companion object {
+    private fun HttpClientConfig<*>.configureWithJson(configure: HttpClientConfig<*>.() -> Unit) {
       install(ContentNegotiation) { json(PokeApiJson) }
       configure()
     }
-    Builder()
-      .apply {
-        baseUrl(baseUrl)
-        httpClient(
-          if (engine != null) HttpClient(engine) { fullyConfigure() }
-          else HttpClient { fullyConfigure() }
+
+    private fun getInstance(
+      baseUrl: String,
+      engine: HttpClientEngine?,
+      configure: HttpClientConfig<*>.() -> Unit,
+    ) =
+      Builder()
+        .baseUrl(baseUrl)
+        .httpClient(
+          client =
+            if (engine == null) HttpClient { configureWithJson(configure) }
+            else HttpClient(engine) { configureWithJson(configure) }
         )
-      }
-      .build()
-      .createPokeApi()
-  })
+        .build()
+        .createPokeApi()
+  }
+}
