@@ -2,27 +2,23 @@ package dev.sargunv.pokekotlin.test
 
 import dev.sargunv.pokekotlin.client.PokeApi
 import dev.sargunv.pokekotlin.client.PokeApiJson
+import io.ktor.client.HttpClient
+import io.ktor.client.request.get
+import io.ktor.client.statement.bodyAsText
 import kotlin.collections.HashMap
 import kotlin.reflect.full.declaredMemberFunctions
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import okhttp3.OkHttpClient
-import okhttp3.Request
+import kotlinx.coroutines.test.runTest
 
 class EndpointTest {
 
-  private val httpClient = OkHttpClient()
+  private val httpClient = HttpClient()
 
   @Test
-  fun checkAllEndpoints() {
+  fun checkAllEndpoints() = runTest {
     // call the mock API to get a list of resource endpoints
-
-    val json =
-      httpClient
-        .newCall(Request.Builder().get().url(MockServer.url).build())
-        .execute()
-        .body()!!
-        .string()
+    val json = httpClient.get("https://pokeapi.co/api/v2/").bodyAsText()
 
     // parse the expected resources using the list
     val expectedSingleResources =
@@ -39,7 +35,6 @@ class EndpointTest {
       expectedSingleResources.map { it + "List" }.toSet() + "PokemonEncounterList"
 
     // use reflection to determine the actual resources in the client
-
     val actualResources =
       PokeApi::class
         .declaredMemberFunctions
@@ -47,11 +42,9 @@ class EndpointTest {
         .groupBy { it.endsWith("List") }
 
     val actualSingleResources = actualResources.getValue(false).toSet()
-
     val actualListResources = actualResources.getValue(true).toSet()
 
     // make sure the resources in the client match the ones in the API
-
     assertEquals(expectedSingleResources.sorted(), actualSingleResources.sorted())
     assertEquals(expectedListResources.sorted(), actualListResources.sorted())
   }

@@ -43,7 +43,7 @@ kotlin {
       implementation(kotlin("test"))
       implementation(kotlin("reflect"))
       implementation(libs.kotlinx.coroutines.test)
-      implementation(libs.okhttp.mockwebserver)
+      implementation(libs.ktor.client.mock)
     }
   }
 }
