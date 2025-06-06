@@ -33,7 +33,7 @@ jobs:
             os: macos
           - target: watchosSimulatorArm64
             os: macos
-    runs-on: "${{ matrix.os }}"
+    runs-on: "${{ matrix.os }}-latest"
     name: "test (${{ matrix.target }})"
     steps:
       - uses: "actions/checkout@v4"
