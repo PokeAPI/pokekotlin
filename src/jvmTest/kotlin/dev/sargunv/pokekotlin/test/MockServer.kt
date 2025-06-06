@@ -2,64 +2,49 @@ package dev.sargunv.pokekotlin.test
 
 import dev.sargunv.pokekotlin.client.PokeApiClient
 import dev.sargunv.pokekotlin.client.PokeApiJson
+import io.ktor.client.engine.mock.MockEngine
+import io.ktor.client.engine.mock.MockRequestHandleScope
+import io.ktor.client.engine.mock.respond
+import io.ktor.client.engine.mock.respondError
+import io.ktor.client.request.HttpRequestData
+import io.ktor.client.request.HttpResponseData
+import io.ktor.http.HttpStatusCode
+import io.ktor.http.headersOf
 import java.io.File
 import java.io.FileReader
-import java.nio.charset.Charset
 import java.nio.file.Paths
-import java.util.logging.Level
-import java.util.logging.LogManager
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.jsonArray
-import okhttp3.mockwebserver.Dispatcher
-import okhttp3.mockwebserver.MockResponse
-import okhttp3.mockwebserver.MockWebServer
-import okhttp3.mockwebserver.RecordedRequest
-import okio.Buffer
 
 object MockServer {
+  val mockEngine = MockEngine { request -> dispatch(request) }
+  val client = PokeApiClient(engine = mockEngine)
 
-  private val server = MockWebServer()
+  private val sampleArchivePath = Paths.get(MockServer::class.java.getResource("/data")!!.toURI())
 
-  val url = server.url("/api/v2/")!!
-  val client = PokeApiClient(url.url().toString())
+  private fun limit(text: String, limit: Int): String {
+    val fullObj = PokeApiJson.decodeFromString<JsonObject>(text)
+    val fullResults = fullObj["results"]!!.jsonArray
+    val newResults = buildJsonArray { fullResults.take(limit).forEach { add(it) } }
+    val newObj = buildJsonObject {
+      fullObj.entries.forEach { (key, value) -> put(key = key, element = value) }
+      put(key = "results", element = newResults)
+      if (fullResults.size > limit) put(key = "next", element = JsonPrimitive("DUMMY"))
+    }
+    return PokeApiJson.encodeToString(newObj)
+  }
 
-  init {
-    // disable MockWebServer logging
-    LogManager.getLogManager().getLogger(MockWebServer::class.qualifiedName).level = Level.OFF
-
-    // get the path to the sample API responses archive
-    val sampleArchivePath = Paths.get(MockServer::class.java.getResource("/data")!!.toURI())
-
-    // set up the dispatcher to use files in the archive as the mock responses
-    server.dispatcher =
-      object : Dispatcher() {
-        private fun limit(text: String, limit: Int): String {
-          val fullObj = PokeApiJson.decodeFromString<JsonObject>(text)
-          val fullResults = fullObj["results"]!!.jsonArray
-          val newResults = buildJsonArray { fullResults.take(limit).forEach { add(it) } }
-          val newObj = buildJsonObject {
-            fullObj.entries.forEach { (key, value) -> put(key, value) }
-            put("results", newResults)
-            if (fullResults.size > limit) put("next", JsonPrimitive("DUMMY"))
-          }
-          return PokeApiJson.encodeToString(newObj)
-        }
-
-        override fun dispatch(request: RecordedRequest): MockResponse {
-          val basePath = request.path.dropLastWhile { it != '/' }
-          val limit = server.url(request.path).queryParameter("limit")?.toInt()
-          val file = File(sampleArchivePath.toString() + basePath + "index.json")
-          return if (file.exists()) {
-            var text = FileReader(file).use { it.readText() }
-            if (limit != null) text = limit(text, limit)
-            MockResponse()
-              .setHeader("content-type", "application/json")
-              .setBody(Buffer().writeString(text, Charset.defaultCharset()))
-          } else MockResponse().setResponseCode(404)
-        }
-      }
+  private fun MockRequestHandleScope.dispatch(request: HttpRequestData): HttpResponseData {
+    val basePath = request.url.encodedPath.dropLastWhile { it != '/' }
+    val limit = request.url.parameters["limit"]?.toInt()
+    val file = File(sampleArchivePath.toString() + basePath + "index.json")
+    return if (file.exists()) {
+      val text = FileReader(file).use { it.readText() }
+      val content = if (limit != null) limit(text, limit) else text
+      respond(content = content, headers = headersOf("content-type", "application/json"))
+    } else respondError(HttpStatusCode.NotFound)
   }
 }
