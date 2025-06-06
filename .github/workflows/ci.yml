@@ -42,7 +42,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: "./.github/actions/setup"
-      - run: "npx -y http-server src/commonTest/resources/data -e json -p 8080 --cors &"
+      - run: just test-server
       - run: "./gradlew ${{ matrix.target }}Test"
 
   build-docs:
