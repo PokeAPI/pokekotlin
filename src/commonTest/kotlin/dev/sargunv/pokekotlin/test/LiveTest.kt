@@ -1,6 +1,6 @@
 package dev.sargunv.pokekotlin.test
 
-import dev.sargunv.pokekotlin.client.PokeApiClient
+import dev.sargunv.pokekotlin.client.PokeApi
 import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -9,7 +9,7 @@ import kotlinx.coroutines.test.runTest
 @Ignore
 class LiveTest {
 
-  private val liveClient = PokeApiClient()
+  private val liveClient = PokeApi
 
   @Test fun liveObject() = runTest { assertEquals("sitrus", liveClient.getBerry(10).name) }
 

@@ -1,7 +1,6 @@
 package dev.sargunv.pokekotlin.test
 
 import dev.sargunv.pokekotlin.client.PokeApi
-import dev.sargunv.pokekotlin.client.PokeApiClient
 import dev.sargunv.pokekotlin.client.PokeApiJson
 import dev.sargunv.pokekotlin.model.ApiResourceList
 import dev.sargunv.pokekotlin.model.NamedApiResourceList
@@ -43,6 +42,4 @@ private val OffsetLimitPlugin =
   }
 
 object StaticPokeApi :
-  PokeApi by (PokeApiClient(baseUrl = "http://localhost:8080/api/v2/") {
-    install(OffsetLimitPlugin)
-  })
+  PokeApi by (PokeApi(baseUrl = "http://localhost:8080/api/v2/") { install(OffsetLimitPlugin) })
