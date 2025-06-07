@@ -17,7 +17,5 @@ Serialization], and coroutines.
 - [Documentation]
 - [API Reference]
 
-## Usage
-
 [Documentation]: https://pokeapi.github.io/pokekotlin/
 [API Reference]: https://pokeapi.github.io/pokekotlin/api/
