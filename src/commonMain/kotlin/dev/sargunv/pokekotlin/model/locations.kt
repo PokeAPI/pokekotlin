@@ -58,7 +58,7 @@ data class Region(
   val id: Int,
   val name: String,
   val locations: List<NamedApiResource>,
-  val mainGeneration: NamedApiResource,
+  val mainGeneration: NamedApiResource?,
   val names: List<Name>,
   val pokedexes: List<NamedApiResource>,
   val versionGroups: List<NamedApiResource>,
