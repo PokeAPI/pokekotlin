@@ -1,4 +1,4 @@
-package dev.sargunv.pokekotlin.util
+package dev.sargunv.pokekotlin.internal
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.SerialDescriptor

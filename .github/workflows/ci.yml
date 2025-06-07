@@ -18,9 +18,8 @@ jobs:
             os: ubuntu
           - target: jsNode
             os: ubuntu
-          # TODO: wasmJs times out on bulk tests
-          # - target: wasmJsBrowser
-          #   os: ubuntu
+          - target: wasmJsBrowser
+            os: ubuntu
           - target: wasmJsNode
             os: ubuntu
           - target: linuxX64
