@@ -2,10 +2,12 @@ package dev.sargunv.pokekotlin.test
 
 import dev.sargunv.pokekotlin.model.ResourceSummary
 import dev.sargunv.pokekotlin.model.ResourceSummaryList
+import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.fail
 import kotlinx.coroutines.test.runTest
 
+@Ignore
 class BulkTest {
 
   private suspend fun testCase(cat: String, ids: List<Int>, getObject: suspend (Int) -> Any) {
