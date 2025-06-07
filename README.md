@@ -17,5 +17,10 @@ Serialization], and coroutines.
 - [Documentation]
 - [API Reference]
 
+[Kotlin Multiplatform]: https://kotlinlang.org/docs/multiplatform.html
+[PokéAPI]: https://pokeapi.co/
+[Ktor]: https://ktor.io/
+[Kotlin Serialization]: https://github.com/Kotlin/kotlinx.serialization
+[coroutines]: https://kotlinlang.org/docs/coroutines-guide.html
 [Documentation]: https://pokeapi.github.io/pokekotlin/
 [API Reference]: https://pokeapi.github.io/pokekotlin/api/
