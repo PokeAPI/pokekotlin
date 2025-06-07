@@ -10,20 +10,14 @@ import kotlinx.coroutines.test.runTest
 @Ignore
 class BulkTest {
 
-  private suspend fun testCase(cat: String, ids: List<Int>, getObject: suspend (Int) -> Any) {
-    var pass = true
-    val count = ids.size
-    println("$cat: $count total")
-    ids.forEachIndexed { i, id ->
-      println("$cat ${i + 1}/$count (id=$id)")
-      try {
-        getObject(id)
-      } catch (e: Throwable) {
-        println("ERROR: ${e::class.simpleName}: ${e.message}")
-        pass = false
-      }
+  private suspend fun testCase(cat: String, id: Int, getObject: suspend (Int) -> Any) {
+    println("$cat (id=$id)")
+    try {
+      getObject(id)
+    } catch (e: Throwable) {
+      println("ERROR: ${e::class.simpleName}: ${e.message}")
+      fail()
     }
-    if (!pass) fail()
   }
 
   private suspend fun <T : ResourceSummary> testEach(
@@ -31,7 +25,7 @@ class BulkTest {
     getObject: suspend (Int) -> Any,
   ) {
     val list = getList(0, getList(0, 0).count).results
-    testCase(list[0].category, list.map { it.id }, getObject)
+    list.forEach { testCase(list[0].category, it.id, getObject) }
   }
 
   @Test
