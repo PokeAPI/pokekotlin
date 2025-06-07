@@ -8,24 +8,16 @@
 
 Maintainer: [@sargunv](https://github.com/sargunv)
 
-This is a [Kotlin](https://kotlinlang.org/) client for
-[PokeApi](https://github.com/PokeAPI/pokeapi).
-
-## Installation
-
-Since v2.5.0, the library is published to Maven Central.
-
-Current version:
-![Maven Central Version](https://img.shields.io/maven-central/v/dev.sargunv.pokekotlin/pokekotlin)
-
-### Gradle
-
-```kts
-dependencies {
-  implementation("dev.sargunv.pokekotlin:pokekotlin:VERSION")
-}
-```
+PokeKotlin is a modern [Kotlin Multiplatform] client for [PokéAPI]. It supports
+Kotlin JVM, JS, WASM, and Native. Under the hood, it's built on [Ktor], [Kotlin
+Serialization], and coroutines.
 
 ## Usage
 
-See the [API Reference](https://pokeapi.github.io/pokekotlin/api/).
+- [Documentation]
+- [API Reference]
+
+## Usage
+
+[Documentation]: https://pokeapi.github.io/pokekotlin/
+[API Reference]: https://pokeapi.github.io/pokekotlin/api/
