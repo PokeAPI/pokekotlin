@@ -4,7 +4,7 @@ import dev.sargunv.pokekotlin.model.Description
 import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
 import dev.sargunv.pokekotlin.model.PokemonEntry
-import dev.sargunv.pokekotlin.test.StaticPokeApi
+import dev.sargunv.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
@@ -14,7 +14,7 @@ class GameTest {
 
   @Test
   fun getGeneration() = runTest {
-    StaticPokeApi.getGeneration(6).apply {
+    LocalPokeApi.getGeneration(6).apply {
       assertEquals(6, id)
       assertEquals("generation-vi", name)
       assertContains(abilities, NamedApiResource("primordial-sea", "ability", 189))
@@ -32,7 +32,7 @@ class GameTest {
 
   @Test
   fun getPokedex() = runTest {
-    StaticPokeApi.getPokedex(12).apply {
+    LocalPokeApi.getPokedex(12).apply {
       assertEquals(12, id)
       assertEquals("kalos-central", name)
       assertEquals(true, isMainSeries)
@@ -58,7 +58,7 @@ class GameTest {
 
   @Test
   fun getVersion() = runTest {
-    StaticPokeApi.getVersion(9).apply {
+    LocalPokeApi.getVersion(9).apply {
       assertEquals(9, id)
       assertEquals("emerald", name)
       assertContains(
@@ -71,7 +71,7 @@ class GameTest {
 
   @Test
   fun getVersionGroup() = runTest {
-    StaticPokeApi.getVersionGroup(1).apply {
+    LocalPokeApi.getVersionGroup(1).apply {
       assertEquals(1, id)
       assertEquals("red-blue", name)
       assertEquals(1, order)

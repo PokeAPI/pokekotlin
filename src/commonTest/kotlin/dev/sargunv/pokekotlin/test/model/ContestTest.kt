@@ -4,7 +4,7 @@ import dev.sargunv.pokekotlin.model.ContestName
 import dev.sargunv.pokekotlin.model.Effect
 import dev.sargunv.pokekotlin.model.FlavorText
 import dev.sargunv.pokekotlin.model.NamedApiResource
-import dev.sargunv.pokekotlin.test.StaticPokeApi
+import dev.sargunv.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
@@ -14,7 +14,7 @@ class ContestTest {
 
   @Test
   fun getContestType() = runTest {
-    StaticPokeApi.getContestType(4).apply {
+    LocalPokeApi.getContestType(4).apply {
       assertEquals(4, id)
       assertEquals("smart", name)
       assertEquals(NamedApiResource("bitter", "berry-flavor", 4), berryFlavor)
@@ -31,7 +31,7 @@ class ContestTest {
 
   @Test
   fun getContestEffect() = runTest {
-    StaticPokeApi.getContestEffect(27).apply {
+    LocalPokeApi.getContestEffect(27).apply {
       assertEquals(27, id)
       assertEquals(2, appeal)
       assertEquals(0, jam)
@@ -54,7 +54,7 @@ class ContestTest {
 
   @Test
   fun getSuperContestEffect() = runTest {
-    StaticPokeApi.getSuperContestEffect(14).apply {
+    LocalPokeApi.getSuperContestEffect(14).apply {
       assertEquals(14, id)
       assertEquals(2, appeal)
       assertContains(

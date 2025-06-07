@@ -3,7 +3,7 @@ package dev.sargunv.pokekotlin.test.model
 import dev.sargunv.pokekotlin.model.FlavorBerryMap
 import dev.sargunv.pokekotlin.model.Name
 import dev.sargunv.pokekotlin.model.NamedApiResource
-import dev.sargunv.pokekotlin.test.StaticPokeApi
+import dev.sargunv.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
@@ -14,7 +14,7 @@ class BerryTest {
 
   @Test
   fun getBerry() = runTest {
-    StaticPokeApi.getBerry(34).apply {
+    LocalPokeApi.getBerry(34).apply {
       assertEquals(34, id)
       assertEquals("durin", name)
       assertEquals(15, growthTime)
@@ -32,7 +32,7 @@ class BerryTest {
 
   @Test
   fun getBerryFirmness() = runTest {
-    StaticPokeApi.getBerryFirmness(3).apply {
+    LocalPokeApi.getBerryFirmness(3).apply {
       assertEquals(3, id)
       assertEquals("hard", name)
       assertContains(berries, NamedApiResource("rawst", "berry", 4))
@@ -42,7 +42,7 @@ class BerryTest {
 
   @Test
   fun getBerryFlavor() = runTest {
-    StaticPokeApi.getBerryFlavor(3).apply {
+    LocalPokeApi.getBerryFlavor(3).apply {
       assertEquals(3, id)
       assertEquals("sweet", name)
       assertEquals(NamedApiResource("cute", "contest-type", 3), contestType)

@@ -41,5 +41,5 @@ private val OffsetLimitPlugin =
     }
   }
 
-object StaticPokeApi :
+object LocalPokeApi :
   PokeApi by (PokeApi(baseUrl = "http://localhost:8080/api/v2/") { install(OffsetLimitPlugin) })
