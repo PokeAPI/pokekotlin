@@ -1,7 +1,7 @@
 package dev.sargunv.pokekotlin.test
 
-import dev.sargunv.pokekotlin.client.PokeApi
-import dev.sargunv.pokekotlin.client.PokeApiJson
+import dev.sargunv.pokekotlin.PokeApi
+import dev.sargunv.pokekotlin.internal.PokeApiJson
 import dev.sargunv.pokekotlin.model.ApiResourceList
 import dev.sargunv.pokekotlin.model.NamedApiResourceList
 import io.ktor.client.plugins.api.createClientPlugin
@@ -13,7 +13,7 @@ import kotlinx.serialization.json.io.decodeFromSource
 
 @OptIn(ExperimentalSerializationApi::class)
 private val OffsetLimitPlugin =
-  createClientPlugin("OffsetLimitPlugin") {
+  createClientPlugin("OffsetLimit") {
     transformResponseBody { response, content, requestedType ->
       val offset = response.request.url.parameters["offset"]?.toIntOrNull() ?: 0
       val limit = response.request.url.parameters["limit"]?.toIntOrNull() ?: 20
