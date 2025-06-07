@@ -74,7 +74,7 @@ class GameTest {
     LocalPokeApi.getVersionGroup(1).apply {
       assertEquals(1, id)
       assertEquals("red-blue", name)
-      assertEquals(1, order)
+      assertEquals(3, order)
       assertEquals(NamedApiResource("generation-i", "generation", 1), generation)
       assertContains(moveLearnMethods, NamedApiResource("machine", "move-learn-method", 4))
       assertContains(pokedexes, NamedApiResource("kanto", "pokedex", 2))

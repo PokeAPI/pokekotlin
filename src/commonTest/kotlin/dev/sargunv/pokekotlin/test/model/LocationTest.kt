@@ -39,10 +39,16 @@ class LocationTest {
   fun getLocationArea() = runTest {
     LocalPokeApi.getLocationArea(20).apply {
       assertEquals(20, id)
-      assertEquals("mt-coronet-cave", name)
+      assertEquals("mt-coronet-1f-from-exterior", name)
       assertEquals(20, gameIndex)
       assertEquals(NamedApiResource("mt-coronet", "location", 10), location)
-      assertContains(names, Name(name = "cave", language = NamedApiResource("en", "language", 9)))
+      assertContains(
+        names,
+        Name(
+          name = "Mount Coronet (1F from exterior)",
+          language = NamedApiResource("en", "language", 9),
+        ),
+      )
       assertNotNull(
         encounterMethodRates.find {
           it.encounterMethod == NamedApiResource("walk", "encounter-method", 1) &&

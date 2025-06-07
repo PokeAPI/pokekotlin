@@ -17,7 +17,7 @@ class EndpointTest {
   @Test
   fun checkAllEndpoints() = runTest {
     // call the mock API to get a list of resource endpoints
-    val json = httpClient.get("https://pokeapi.co/api/v2/").bodyAsText()
+    val json = httpClient.get("http://localhost:8080/api/v2/").bodyAsText()
 
     // parse the expected resources using the list
     val expectedSingleResources =

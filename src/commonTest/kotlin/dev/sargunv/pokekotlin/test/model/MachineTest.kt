@@ -14,7 +14,7 @@ class MachineTest {
       assertEquals(18, id)
       assertEquals(NamedApiResource("tm01", "item", 305), item)
       assertEquals(NamedApiResource("work-up", "move", 526), move)
-      assertEquals(NamedApiResource("ultra-sun-ultra-moon", "version-group", 18), versionGroup)
+      assertEquals(NamedApiResource("sun-moon", "version-group", 17), versionGroup)
     }
   }
 }

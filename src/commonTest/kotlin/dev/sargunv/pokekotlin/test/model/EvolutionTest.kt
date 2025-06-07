@@ -115,7 +115,7 @@ class EvolutionTest {
           it.evolutionDetails.contains(
             EvolutionDetail(
               trigger = NamedApiResource("level-up", "evolution-trigger", 1),
-              minHappiness = 220,
+              minHappiness = 160,
               timeOfDay = "day",
             )
           )
