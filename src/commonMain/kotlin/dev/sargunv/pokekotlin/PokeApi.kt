@@ -6,6 +6,7 @@ import de.jensklingenberg.ktorfit.Ktorfit.Builder
 import de.jensklingenberg.ktorfit.http.GET
 import de.jensklingenberg.ktorfit.http.Path
 import de.jensklingenberg.ktorfit.http.Query
+import dev.sargunv.pokekotlin.internal.PokeApiConverter
 import dev.sargunv.pokekotlin.internal.PokeApiJson
 import dev.sargunv.pokekotlin.internal.getDefaultEngine
 import dev.sargunv.pokekotlin.model.Ability
@@ -65,6 +66,7 @@ import io.ktor.client.engine.HttpClientEngine
 import io.ktor.client.plugins.cache.HttpCache
 import io.ktor.client.plugins.cache.storage.CacheStorage
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.http.ContentType
 import io.ktor.serialization.kotlinx.json.json
 import kotlin.jvm.JvmName
 
@@ -574,8 +576,9 @@ fun PokeApi(
       HttpClient(engine) {
         configure()
         install(HttpCache) { cacheStorage?.let { privateStorage(it) } }
-        install(ContentNegotiation) { json(PokeApiJson) }
+        install(ContentNegotiation) { json(PokeApiJson, ContentType.Any) }
       }
     )
+    .converterFactories(PokeApiConverter.Factory)
     .build()
     .createPokeApi()
