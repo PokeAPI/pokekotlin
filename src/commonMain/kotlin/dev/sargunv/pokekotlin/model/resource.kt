@@ -1,6 +1,6 @@
 package dev.sargunv.pokekotlin.model
 
-import dev.sargunv.pokekotlin.util.DelegatingSerializer
+import dev.sargunv.pokekotlin.internal.DelegatingSerializer
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
 

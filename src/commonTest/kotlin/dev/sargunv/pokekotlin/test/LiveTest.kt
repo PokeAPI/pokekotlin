@@ -1,6 +1,6 @@
 package dev.sargunv.pokekotlin.test
 
-import dev.sargunv.pokekotlin.client.PokeApi
+import dev.sargunv.pokekotlin.PokeApi
 import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.assertEquals

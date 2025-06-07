@@ -1,4 +1,4 @@
-package dev.sargunv.pokekotlin.util
+package dev.sargunv.pokekotlin.internal
 
 import io.ktor.client.engine.js.Js
 

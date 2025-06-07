@@ -1,9 +1,13 @@
-package dev.sargunv.pokekotlin.client
+@file:JvmName("PokeApiClient")
+
+package dev.sargunv.pokekotlin
 
 import de.jensklingenberg.ktorfit.Ktorfit.Builder
 import de.jensklingenberg.ktorfit.http.GET
 import de.jensklingenberg.ktorfit.http.Path
 import de.jensklingenberg.ktorfit.http.Query
+import dev.sargunv.pokekotlin.internal.PokeApiJson
+import dev.sargunv.pokekotlin.internal.getDefaultEngine
 import dev.sargunv.pokekotlin.model.Ability
 import dev.sargunv.pokekotlin.model.ApiResourceList
 import dev.sargunv.pokekotlin.model.Berry
@@ -55,7 +59,6 @@ import dev.sargunv.pokekotlin.model.SuperContestEffect
 import dev.sargunv.pokekotlin.model.Type
 import dev.sargunv.pokekotlin.model.Version
 import dev.sargunv.pokekotlin.model.VersionGroup
-import dev.sargunv.pokekotlin.util.getDefaultEngine
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.engine.HttpClientEngine
@@ -63,6 +66,7 @@ import io.ktor.client.plugins.cache.HttpCache
 import io.ktor.client.plugins.cache.storage.CacheStorage
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json
+import kotlin.jvm.JvmName
 
 interface PokeApi {
 
@@ -557,6 +561,7 @@ interface PokeApi {
   companion object : PokeApi by PokeApi()
 }
 
+@JvmName("create")
 fun PokeApi(
   baseUrl: String = "https://pokeapi.co/api/v2/",
   engine: HttpClientEngine = getDefaultEngine(),
@@ -567,9 +572,9 @@ fun PokeApi(
     .baseUrl(baseUrl)
     .httpClient(
       HttpClient(engine) {
-        this.configure()
-        this.install(HttpCache) { cacheStorage?.let { privateStorage(it) } }
-        this.install(ContentNegotiation) { json(PokeApiJson) }
+        configure()
+        install(HttpCache) { cacheStorage?.let { privateStorage(it) } }
+        install(ContentNegotiation) { json(PokeApiJson) }
       }
     )
     .build()
