@@ -2,10 +2,8 @@
 
 import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
-import kotlin.time.Duration.Companion.seconds
-import kotlin.time.toJavaDuration
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
-import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinJsSubTargetDsl
+import ru.vyarus.gradle.plugin.mkdocs.task.MkdocsTask
 
 plugins {
   alias(libs.plugins.kotlin.multiplatform)
@@ -34,27 +32,14 @@ kotlin {
 
   jvm()
 
-  fun KotlinJsSubTargetDsl.configureWithKarma() {
-    testTask {
-      useKarma {
-        useChromeHeadless()
-        timeout = 60.seconds.toJavaDuration()
-      }
-    }
-  }
-
-  fun KotlinJsSubTargetDsl.configureWithMocha() {
-    testTask { useMocha { timeout = "60s" } }
-  }
-
   js(IR) {
-    browser { configureWithMocha() }
-    nodejs { configureWithMocha() }
+    browser()
+    nodejs()
   }
 
   wasmJs {
-    browser { configureWithMocha() }
-    nodejs { configureWithMocha() }
+    browser()
+    nodejs()
     d8 {}
   }
 
@@ -77,6 +62,7 @@ kotlin {
   tvosArm64()
 
   // native tier 3
+  // android native platforms aren't supported due to lack of Ktor support
   mingwX64()
   watchosDeviceArm64()
 
@@ -159,9 +145,10 @@ dokka {
         remoteUrl("https://github.com/PokeAPI/pokekotlin/tree/${project.ext["base_tag"]}/")
         localDirectory.set(rootDir)
       }
-      externalDocumentationLinks {
-        // TODO
-      }
+      externalDocumentationLinks { create("ktor") { url("https://api.ktor.io/") } }
+      suppressedFiles.from(
+        "build/generated/ksp/metadata/commonMain/kotlin/dev/sargunv/pokekotlin/_PokeApiImpl.kt"
+      )
     }
   }
 }
@@ -172,6 +159,12 @@ mkdocs {
   publish {
     docPath = null // single version site
   }
+}
+
+tasks.withType<MkdocsTask>().configureEach {
+  val releaseVersion = ext["base_tag"].toString().replace("v", "")
+  val snapshotVersion = "${ext["next_patch_version"]}-SNAPSHOT"
+  extras.set(mapOf("release_version" to releaseVersion, "snapshot_version" to snapshotVersion))
 }
 
 tasks.register("generateDocs") {

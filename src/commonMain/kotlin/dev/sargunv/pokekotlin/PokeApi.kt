@@ -1,5 +1,3 @@
-@file:JvmName("PokeApiClient")
-
 package dev.sargunv.pokekotlin
 
 import de.jensklingenberg.ktorfit.Ktorfit.Builder
@@ -68,7 +66,6 @@ import io.ktor.client.plugins.cache.storage.CacheStorage
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.http.ContentType
 import io.ktor.serialization.kotlinx.json.json
-import kotlin.jvm.JvmName
 
 interface PokeApi {
 
@@ -563,7 +560,6 @@ interface PokeApi {
   companion object : PokeApi by PokeApi()
 }
 
-@JvmName("create")
 fun PokeApi(
   baseUrl: String = "https://pokeapi.co/api/v2/",
   engine: HttpClientEngine = getDefaultEngine(),
