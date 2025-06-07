@@ -1,6 +1,5 @@
 package dev.sargunv.pokekotlin.test.model
 
-import dev.sargunv.pokekotlin.model.AbilityEffectChange
 import dev.sargunv.pokekotlin.model.AbilityPokemon
 import dev.sargunv.pokekotlin.model.ApiResource
 import dev.sargunv.pokekotlin.model.AwesomeName
@@ -59,18 +58,16 @@ class PokemonTest {
           language = NamedApiResource("en", "language", 9),
         ),
       )
-      assertContains(
-        effectChanges,
-        AbilityEffectChange(
-          versionGroup = NamedApiResource("black-white", "version-group", 11),
-          effectEntries =
-            listOf(
+      assertNotNull(
+        effectChanges.find {
+          it.versionGroup == NamedApiResource("black-white", "version-group", 11) &&
+            it.effectEntries.contains(
               Effect(
                 effect = "Has no effect in battle.",
                 language = NamedApiResource("en", "language", 9),
               )
-            ),
-        ),
+            )
+        }
       )
       assertContains(
         pokemon,

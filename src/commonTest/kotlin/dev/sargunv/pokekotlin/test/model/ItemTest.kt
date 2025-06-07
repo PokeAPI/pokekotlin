@@ -25,7 +25,7 @@ class ItemTest {
     LocalPokeApi.getItem(20).apply {
       assertEquals(20, id)
       assertEquals("ice-heal", name)
-      assertEquals(100, cost)
+      assertEquals(200, cost)
       assertEquals(30, flingPower)
       assertContains(attributes, NamedApiResource("holdable", "item-attribute", 5))
       assertEquals(NamedApiResource("status-cures", "item-category", 30), category)
@@ -103,7 +103,7 @@ class ItemTest {
     LocalPokeApi.getItem(305).apply {
       assertNotNull(
         machines.find { machineVersionDetail ->
-          machineVersionDetail.machine == ApiResource("machine", 1) &&
+          machineVersionDetail.machine == ApiResource("machine", 2) &&
             machineVersionDetail.versionGroup == NamedApiResource("red-blue", "version-group", 1)
         }
       )

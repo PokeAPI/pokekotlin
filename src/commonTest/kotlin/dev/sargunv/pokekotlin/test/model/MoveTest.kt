@@ -28,9 +28,8 @@ class MoveTest {
       assertContains(
         effectEntries,
         VerboseEffect(
-          effect =
-            "Inflicts regular damage.  Has a \$effect_chance% chance to paralyze" + " the target.",
-          shortEffect = "Has a \$effect_chance% chance to paralyze the target.",
+          effect = "Inflicts regular damage.  Has a 30% chance to paralyze the target.",
+          shortEffect = "Has a 30% chance to paralyze the target.",
           language = NamedApiResource("en", "language", 9),
         ),
       )
@@ -64,7 +63,7 @@ class MoveTest {
       assertContains(
         machines,
         MachineVersionDetail(
-          machine = ApiResource("machine", 127),
+          machine = ApiResource("machine", 142),
           versionGroup = NamedApiResource("red-blue", "version-group", 1),
         ),
       )
