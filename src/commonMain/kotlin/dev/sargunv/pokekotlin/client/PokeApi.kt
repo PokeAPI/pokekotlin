@@ -1,5 +1,6 @@
 package dev.sargunv.pokekotlin.client
 
+import de.jensklingenberg.ktorfit.Ktorfit.Builder
 import de.jensklingenberg.ktorfit.http.GET
 import de.jensklingenberg.ktorfit.http.Path
 import de.jensklingenberg.ktorfit.http.Query
@@ -54,6 +55,14 @@ import dev.sargunv.pokekotlin.model.SuperContestEffect
 import dev.sargunv.pokekotlin.model.Type
 import dev.sargunv.pokekotlin.model.Version
 import dev.sargunv.pokekotlin.model.VersionGroup
+import dev.sargunv.pokekotlin.util.getDefaultEngine
+import io.ktor.client.HttpClient
+import io.ktor.client.HttpClientConfig
+import io.ktor.client.engine.HttpClientEngine
+import io.ktor.client.plugins.cache.HttpCache
+import io.ktor.client.plugins.cache.storage.CacheStorage
+import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.serialization.kotlinx.json.json
 
 interface PokeApi {
 
@@ -544,4 +553,24 @@ interface PokeApi {
   @GET("language/{id}/") suspend fun getLanguage(@Path("id") id: Int): Language
 
   // endregion Utility
+
+  companion object : PokeApi by PokeApi()
 }
+
+fun PokeApi(
+  baseUrl: String = "https://pokeapi.co/api/v2/",
+  engine: HttpClientEngine = getDefaultEngine(),
+  cacheStorage: CacheStorage? = null,
+  configure: HttpClientConfig<*>.() -> Unit = {},
+) =
+  Builder()
+    .baseUrl(baseUrl)
+    .httpClient(
+      HttpClient(engine) {
+        this.configure()
+        this.install(HttpCache) { cacheStorage?.let { privateStorage(it) } }
+        this.install(ContentNegotiation) { json(PokeApiJson) }
+      }
+    )
+    .build()
+    .createPokeApi()
