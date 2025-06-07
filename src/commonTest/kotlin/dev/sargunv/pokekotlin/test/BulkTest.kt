@@ -34,345 +34,345 @@ class BulkTest {
 
   @Test
   fun bulkBerry() = runTest {
-    testEach({ o, l -> StaticPokeApi.getBerryList(o, l) }, { i -> StaticPokeApi.getBerry(i) })
+    testEach({ o, l -> LocalPokeApi.getBerryList(o, l) }, { i -> LocalPokeApi.getBerry(i) })
   }
 
   @Test
   fun bulkBerryFirmness() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getBerryFirmnessList(o, l) },
-      { i -> StaticPokeApi.getBerryFirmness(i) },
+      { o, l -> LocalPokeApi.getBerryFirmnessList(o, l) },
+      { i -> LocalPokeApi.getBerryFirmness(i) },
     )
   }
 
   @Test
   fun bulkBerryFlavor() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getBerryFlavorList(o, l) },
-      { i -> StaticPokeApi.getBerryFlavor(i) },
+      { o, l -> LocalPokeApi.getBerryFlavorList(o, l) },
+      { i -> LocalPokeApi.getBerryFlavor(i) },
     )
   }
 
   @Test
   fun bulkContestType() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getContestTypeList(o, l) },
-      { i -> StaticPokeApi.getContestType(i) },
+      { o, l -> LocalPokeApi.getContestTypeList(o, l) },
+      { i -> LocalPokeApi.getContestType(i) },
     )
   }
 
   @Test
   fun bulkContestEffect() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getContestEffectList(o, l) },
-      { i -> StaticPokeApi.getContestEffect(i) },
+      { o, l -> LocalPokeApi.getContestEffectList(o, l) },
+      { i -> LocalPokeApi.getContestEffect(i) },
     )
   }
 
   @Test
   fun bulkSuperContestEffect() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getSuperContestEffectList(o, l) },
-      { i -> StaticPokeApi.getSuperContestEffect(i) },
+      { o, l -> LocalPokeApi.getSuperContestEffectList(o, l) },
+      { i -> LocalPokeApi.getSuperContestEffect(i) },
     )
   }
 
   @Test
   fun bulkEncounterMethod() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getEncounterMethodList(o, l) },
-      { i -> StaticPokeApi.getEncounterMethod(i) },
+      { o, l -> LocalPokeApi.getEncounterMethodList(o, l) },
+      { i -> LocalPokeApi.getEncounterMethod(i) },
     )
   }
 
   @Test
   fun bulkEncounterCondition() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getEncounterConditionList(o, l) },
-      { i -> StaticPokeApi.getEncounterCondition(i) },
+      { o, l -> LocalPokeApi.getEncounterConditionList(o, l) },
+      { i -> LocalPokeApi.getEncounterCondition(i) },
     )
   }
 
   @Test
   fun bulkEncounterConditionValue() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getEncounterConditionValueList(o, l) },
-      { i -> StaticPokeApi.getEncounterConditionValue(i) },
+      { o, l -> LocalPokeApi.getEncounterConditionValueList(o, l) },
+      { i -> LocalPokeApi.getEncounterConditionValue(i) },
     )
   }
 
   @Test
   fun bulkEvolutionChain() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getEvolutionChainList(o, l) },
-      { i -> StaticPokeApi.getEvolutionChain(i) },
+      { o, l -> LocalPokeApi.getEvolutionChainList(o, l) },
+      { i -> LocalPokeApi.getEvolutionChain(i) },
     )
   }
 
   @Test
   fun bulkEvolutionTrigger() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getEvolutionTriggerList(o, l) },
-      { i -> StaticPokeApi.getEvolutionTrigger(i) },
+      { o, l -> LocalPokeApi.getEvolutionTriggerList(o, l) },
+      { i -> LocalPokeApi.getEvolutionTrigger(i) },
     )
   }
 
   @Test
   fun bulkGeneration() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getGenerationList(o, l) },
-      { i -> StaticPokeApi.getGeneration(i) },
+      { o, l -> LocalPokeApi.getGenerationList(o, l) },
+      { i -> LocalPokeApi.getGeneration(i) },
     )
   }
 
   @Test
   fun bulkPokedex() = runTest {
-    testEach({ o, l -> StaticPokeApi.getPokedexList(o, l) }, { i -> StaticPokeApi.getPokedex(i) })
+    testEach({ o, l -> LocalPokeApi.getPokedexList(o, l) }, { i -> LocalPokeApi.getPokedex(i) })
   }
 
   @Test
   fun bulkVersion() = runTest {
-    testEach({ o, l -> StaticPokeApi.getVersionList(o, l) }, { i -> StaticPokeApi.getVersion(i) })
+    testEach({ o, l -> LocalPokeApi.getVersionList(o, l) }, { i -> LocalPokeApi.getVersion(i) })
   }
 
   @Test
   fun bulkVersionGroup() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getVersionGroupList(o, l) },
-      { i -> StaticPokeApi.getVersionGroup(i) },
+      { o, l -> LocalPokeApi.getVersionGroupList(o, l) },
+      { i -> LocalPokeApi.getVersionGroup(i) },
     )
   }
 
   @Test
   fun bulkItem() = runTest {
-    testEach({ o, l -> StaticPokeApi.getItemList(o, l) }, { i -> StaticPokeApi.getItem(i) })
+    testEach({ o, l -> LocalPokeApi.getItemList(o, l) }, { i -> LocalPokeApi.getItem(i) })
   }
 
   @Test
   fun bulkItemAttribute() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getItemAttributeList(o, l) },
-      { i -> StaticPokeApi.getItemAttribute(i) },
+      { o, l -> LocalPokeApi.getItemAttributeList(o, l) },
+      { i -> LocalPokeApi.getItemAttribute(i) },
     )
   }
 
   @Test
   fun bulkItemCategory() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getItemCategoryList(o, l) },
-      { i -> StaticPokeApi.getItemCategory(i) },
+      { o, l -> LocalPokeApi.getItemCategoryList(o, l) },
+      { i -> LocalPokeApi.getItemCategory(i) },
     )
   }
 
   @Test
   fun bulkItemFlingEffect() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getItemFlingEffectList(o, l) },
-      { i -> StaticPokeApi.getItemFlingEffect(i) },
+      { o, l -> LocalPokeApi.getItemFlingEffectList(o, l) },
+      { i -> LocalPokeApi.getItemFlingEffect(i) },
     )
   }
 
   @Test
   fun bulkItemPocket() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getItemPocketList(o, l) },
-      { i -> StaticPokeApi.getItemPocket(i) },
+      { o, l -> LocalPokeApi.getItemPocketList(o, l) },
+      { i -> LocalPokeApi.getItemPocket(i) },
     )
   }
 
   @Test
   fun bulkMove() = runTest {
-    testEach({ o, l -> StaticPokeApi.getMoveList(o, l) }, { i -> StaticPokeApi.getMove(i) })
+    testEach({ o, l -> LocalPokeApi.getMoveList(o, l) }, { i -> LocalPokeApi.getMove(i) })
   }
 
   @Test
   fun bulkMoveAilment() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getMoveAilmentList(o, l) },
-      { i -> StaticPokeApi.getMoveAilment(i) },
+      { o, l -> LocalPokeApi.getMoveAilmentList(o, l) },
+      { i -> LocalPokeApi.getMoveAilment(i) },
     )
   }
 
   @Test
   fun bulkMoveBattleStyle() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getMoveBattleStyleList(o, l) },
-      { i -> StaticPokeApi.getMoveBattleStyle(i) },
+      { o, l -> LocalPokeApi.getMoveBattleStyleList(o, l) },
+      { i -> LocalPokeApi.getMoveBattleStyle(i) },
     )
   }
 
   @Test
   fun bulkMoveCategory() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getMoveCategoryList(o, l) },
-      { i -> StaticPokeApi.getMoveCategory(i) },
+      { o, l -> LocalPokeApi.getMoveCategoryList(o, l) },
+      { i -> LocalPokeApi.getMoveCategory(i) },
     )
   }
 
   @Test
   fun bulkMoveDamageClass() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getMoveDamageClassList(o, l) },
-      { i -> StaticPokeApi.getMoveDamageClass(i) },
+      { o, l -> LocalPokeApi.getMoveDamageClassList(o, l) },
+      { i -> LocalPokeApi.getMoveDamageClass(i) },
     )
   }
 
   @Test
   fun bulkMoveLearnMethod() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getMoveLearnMethodList(o, l) },
-      { i -> StaticPokeApi.getMoveLearnMethod(i) },
+      { o, l -> LocalPokeApi.getMoveLearnMethodList(o, l) },
+      { i -> LocalPokeApi.getMoveLearnMethod(i) },
     )
   }
 
   @Test
   fun bulkMoveTarget() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getMoveTargetList(o, l) },
-      { i -> StaticPokeApi.getMoveTarget(i) },
+      { o, l -> LocalPokeApi.getMoveTargetList(o, l) },
+      { i -> LocalPokeApi.getMoveTarget(i) },
     )
   }
 
   @Test
   fun bulkLocation() = runTest {
-    testEach({ o, l -> StaticPokeApi.getLocationList(o, l) }, { i -> StaticPokeApi.getLocation(i) })
+    testEach({ o, l -> LocalPokeApi.getLocationList(o, l) }, { i -> LocalPokeApi.getLocation(i) })
   }
 
   @Test
   fun bulkLocationArea() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getLocationAreaList(o, l) },
-      { i -> StaticPokeApi.getLocationArea(i) },
+      { o, l -> LocalPokeApi.getLocationAreaList(o, l) },
+      { i -> LocalPokeApi.getLocationArea(i) },
     )
   }
 
   @Test
   fun bulkPalParkArea() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPalParkAreaList(o, l) },
-      { i -> StaticPokeApi.getPalParkArea(i) },
+      { o, l -> LocalPokeApi.getPalParkAreaList(o, l) },
+      { i -> LocalPokeApi.getPalParkArea(i) },
     )
   }
 
   @Test
   fun bulkRegion() = runTest {
-    testEach({ o, l -> StaticPokeApi.getRegionList(o, l) }, { i -> StaticPokeApi.getRegion(i) })
+    testEach({ o, l -> LocalPokeApi.getRegionList(o, l) }, { i -> LocalPokeApi.getRegion(i) })
   }
 
   @Test
   fun bulkMachine() = runTest {
-    testEach({ o, l -> StaticPokeApi.getMachineList(o, l) }, { i -> StaticPokeApi.getMachine(i) })
+    testEach({ o, l -> LocalPokeApi.getMachineList(o, l) }, { i -> LocalPokeApi.getMachine(i) })
   }
 
   @Test
   fun bulkAbility() = runTest {
-    testEach({ o, l -> StaticPokeApi.getAbilityList(o, l) }, { i -> StaticPokeApi.getAbility(i) })
+    testEach({ o, l -> LocalPokeApi.getAbilityList(o, l) }, { i -> LocalPokeApi.getAbility(i) })
   }
 
   @Test
   fun bulkCharacteristic() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getCharacteristicList(o, l) },
-      { i -> StaticPokeApi.getCharacteristic(i) },
+      { o, l -> LocalPokeApi.getCharacteristicList(o, l) },
+      { i -> LocalPokeApi.getCharacteristic(i) },
     )
   }
 
   @Test
   fun bulkEggGroup() = runTest {
-    testEach({ o, l -> StaticPokeApi.getEggGroupList(o, l) }, { i -> StaticPokeApi.getEggGroup(i) })
+    testEach({ o, l -> LocalPokeApi.getEggGroupList(o, l) }, { i -> LocalPokeApi.getEggGroup(i) })
   }
 
   @Test
   fun bulkGender() = runTest {
-    testEach({ o, l -> StaticPokeApi.getGenderList(o, l) }, { i -> StaticPokeApi.getGender(i) })
+    testEach({ o, l -> LocalPokeApi.getGenderList(o, l) }, { i -> LocalPokeApi.getGender(i) })
   }
 
   @Test
   fun bulkGrowthRate() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getGrowthRateList(o, l) },
-      { i -> StaticPokeApi.getGrowthRate(i) },
+      { o, l -> LocalPokeApi.getGrowthRateList(o, l) },
+      { i -> LocalPokeApi.getGrowthRate(i) },
     )
   }
 
   @Test
   fun bulkNature() = runTest {
-    testEach({ o, l -> StaticPokeApi.getNatureList(o, l) }, { i -> StaticPokeApi.getNature(i) })
+    testEach({ o, l -> LocalPokeApi.getNatureList(o, l) }, { i -> LocalPokeApi.getNature(i) })
   }
 
   @Test
   fun bulkPokeathlonStat() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPokeathlonStatList(o, l) },
-      { i -> StaticPokeApi.getPokeathlonStat(i) },
+      { o, l -> LocalPokeApi.getPokeathlonStatList(o, l) },
+      { i -> LocalPokeApi.getPokeathlonStat(i) },
     )
   }
 
   @Test
   fun bulkPokemon() = runTest {
-    testEach({ o, l -> StaticPokeApi.getPokemonList(o, l) }, { i -> StaticPokeApi.getPokemon(i) })
+    testEach({ o, l -> LocalPokeApi.getPokemonList(o, l) }, { i -> LocalPokeApi.getPokemon(i) })
   }
 
   @Test
   fun bulkPokemonEncounters() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPokemonList(o, l) },
-      { i -> StaticPokeApi.getPokemonEncounterList(i) },
+      { o, l -> LocalPokeApi.getPokemonList(o, l) },
+      { i -> LocalPokeApi.getPokemonEncounterList(i) },
     )
   }
 
   @Test
   fun bulkPokemonColor() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPokemonColorList(o, l) },
-      { i -> StaticPokeApi.getPokemonColor(i) },
+      { o, l -> LocalPokeApi.getPokemonColorList(o, l) },
+      { i -> LocalPokeApi.getPokemonColor(i) },
     )
   }
 
   @Test
   fun bulkPokemonForm() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPokemonFormList(o, l) },
-      { i -> StaticPokeApi.getPokemonForm(i) },
+      { o, l -> LocalPokeApi.getPokemonFormList(o, l) },
+      { i -> LocalPokeApi.getPokemonForm(i) },
     )
   }
 
   @Test
   fun bulkPokemonHabitat() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPokemonHabitatList(o, l) },
-      { i -> StaticPokeApi.getPokemonHabitat(i) },
+      { o, l -> LocalPokeApi.getPokemonHabitatList(o, l) },
+      { i -> LocalPokeApi.getPokemonHabitat(i) },
     )
   }
 
   @Test
   fun bulkPokemonShape() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPokemonShapeList(o, l) },
-      { i -> StaticPokeApi.getPokemonShape(i) },
+      { o, l -> LocalPokeApi.getPokemonShapeList(o, l) },
+      { i -> LocalPokeApi.getPokemonShape(i) },
     )
   }
 
   @Test
   fun bulkPokemonSpecies() = runTest {
     testEach(
-      { o, l -> StaticPokeApi.getPokemonSpeciesList(o, l) },
-      { i -> StaticPokeApi.getPokemonSpecies(i) },
+      { o, l -> LocalPokeApi.getPokemonSpeciesList(o, l) },
+      { i -> LocalPokeApi.getPokemonSpecies(i) },
     )
   }
 
   @Test
   fun bulkStat() = runTest {
-    testEach({ o, l -> StaticPokeApi.getStatList(o, l) }, { i -> StaticPokeApi.getStat(i) })
+    testEach({ o, l -> LocalPokeApi.getStatList(o, l) }, { i -> LocalPokeApi.getStat(i) })
   }
 
   @Test
   fun bulkType() = runTest {
-    testEach({ o, l -> StaticPokeApi.getTypeList(o, l) }, { i -> StaticPokeApi.getType(i) })
+    testEach({ o, l -> LocalPokeApi.getTypeList(o, l) }, { i -> LocalPokeApi.getType(i) })
   }
 
   @Test
   fun bulkLanguage() = runTest {
-    testEach({ o, l -> StaticPokeApi.getLanguageList(o, l) }, { i -> StaticPokeApi.getLanguage(i) })
+    testEach({ o, l -> LocalPokeApi.getLanguageList(o, l) }, { i -> LocalPokeApi.getLanguage(i) })
   }
 }
