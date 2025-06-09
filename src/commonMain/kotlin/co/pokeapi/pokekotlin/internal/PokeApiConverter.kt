@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.internal
 
-import co.pokeapi.PokeApiException
+import co.pokeapi.pokekotlin.PokeApiException
 import de.jensklingenberg.ktorfit.Ktorfit
 import de.jensklingenberg.ktorfit.converter.Converter
 import de.jensklingenberg.ktorfit.converter.KtorfitResult

@@ -1,15 +1,15 @@
 package co.pokeapi.pokekotlin.test.model
 
-import co.pokeapi.model.ApiResource
-import co.pokeapi.model.Description
-import co.pokeapi.model.Effect
-import co.pokeapi.model.GenerationGameIndex
-import co.pokeapi.model.ItemHolderPokemonVersionDetail
-import co.pokeapi.model.Name
-import co.pokeapi.model.NamedApiResource
-import co.pokeapi.model.VerboseEffect
-import co.pokeapi.model.VersionGroupFlavorText
-import co.pokeapi.test.LocalPokeApi
+import co.pokeapi.pokekotlin.model.ApiResource
+import co.pokeapi.pokekotlin.model.Description
+import co.pokeapi.pokekotlin.model.Effect
+import co.pokeapi.pokekotlin.model.GenerationGameIndex
+import co.pokeapi.pokekotlin.model.ItemHolderPokemonVersionDetail
+import co.pokeapi.pokekotlin.model.Name
+import co.pokeapi.pokekotlin.model.NamedApiResource
+import co.pokeapi.pokekotlin.model.VerboseEffect
+import co.pokeapi.pokekotlin.model.VersionGroupFlavorText
+import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

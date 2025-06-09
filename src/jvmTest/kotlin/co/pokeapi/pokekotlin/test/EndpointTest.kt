@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin.test
 
-import co.pokeapi.PokeApi
-import co.pokeapi.internal.PokeApiJson
+import co.pokeapi.pokekotlin.PokeApi
+import co.pokeapi.pokekotlin.internal.PokeApiJson
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText

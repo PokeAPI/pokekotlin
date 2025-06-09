@@ -1,10 +1,10 @@
 package co.pokeapi.pokekotlin.test.model
 
-import co.pokeapi.model.Description
-import co.pokeapi.model.Name
-import co.pokeapi.model.NamedApiResource
-import co.pokeapi.model.PokemonEntry
-import co.pokeapi.test.LocalPokeApi
+import co.pokeapi.pokekotlin.model.Description
+import co.pokeapi.pokekotlin.model.Name
+import co.pokeapi.pokekotlin.model.NamedApiResource
+import co.pokeapi.pokekotlin.model.PokemonEntry
+import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

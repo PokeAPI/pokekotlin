@@ -1,10 +1,10 @@
 package co.pokeapi.pokekotlin.test.model
 
-import co.pokeapi.model.ContestName
-import co.pokeapi.model.Effect
-import co.pokeapi.model.FlavorText
-import co.pokeapi.model.NamedApiResource
-import co.pokeapi.test.LocalPokeApi
+import co.pokeapi.pokekotlin.model.ContestName
+import co.pokeapi.pokekotlin.model.Effect
+import co.pokeapi.pokekotlin.model.FlavorText
+import co.pokeapi.pokekotlin.model.NamedApiResource
+import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

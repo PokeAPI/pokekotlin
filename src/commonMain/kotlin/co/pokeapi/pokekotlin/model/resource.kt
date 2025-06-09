@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.internal.DelegatingSerializer
+import co.pokeapi.pokekotlin.internal.DelegatingSerializer
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
 
