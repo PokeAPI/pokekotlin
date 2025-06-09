@@ -95,7 +95,7 @@ kotlin {
   }
 }
 
-// tasks.getByName("sourcesJar").dependsOn("kspCommonMainKotlinMetadata")
+tasks.getByName("sourcesJar").dependsOn("kspCommonMainKotlinMetadata")
 
 publishing {
   repositories {
