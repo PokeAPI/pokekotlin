@@ -14,11 +14,6 @@ Serialization], and coroutines.
 
 ## Usage
 
-> [!IMPORTANT]
->
-> The currently published version is the old JVM-only version based on OkHttp.
-> See the snapshot builds on GitHub packages for the KMP build.
-
 - [Documentation]
 - [API Reference]
 
