@@ -1,10 +1,10 @@
 package co.pokeapi.pokekotlin.test.model
 
-import co.pokeapi.model.ChainLink
-import co.pokeapi.model.EvolutionDetail
-import co.pokeapi.model.Name
-import co.pokeapi.model.NamedApiResource
-import co.pokeapi.test.LocalPokeApi
+import co.pokeapi.pokekotlin.model.ChainLink
+import co.pokeapi.pokekotlin.model.EvolutionDetail
+import co.pokeapi.pokekotlin.model.Name
+import co.pokeapi.pokekotlin.model.NamedApiResource
+import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

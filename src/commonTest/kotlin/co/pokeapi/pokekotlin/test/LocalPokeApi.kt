@@ -1,9 +1,9 @@
 package co.pokeapi.pokekotlin.test
 
-import co.pokeapi.PokeApi
-import co.pokeapi.internal.PokeApiJson
-import co.pokeapi.model.ApiResourceList
-import co.pokeapi.model.NamedApiResourceList
+import co.pokeapi.pokekotlin.PokeApi
+import co.pokeapi.pokekotlin.internal.PokeApiJson
+import co.pokeapi.pokekotlin.model.ApiResourceList
+import co.pokeapi.pokekotlin.model.NamedApiResourceList
 import io.ktor.client.plugins.api.createClientPlugin
 import io.ktor.client.statement.request
 import io.ktor.utils.io.readBuffer

@@ -1,11 +1,11 @@
 package co.pokeapi.pokekotlin.test.model
 
-import co.pokeapi.model.EncounterMethodRateVersionDetail
-import co.pokeapi.model.GenerationGameIndex
-import co.pokeapi.model.Name
-import co.pokeapi.model.NamedApiResource
-import co.pokeapi.model.PalParkEncounterSpecies
-import co.pokeapi.test.LocalPokeApi
+import co.pokeapi.pokekotlin.model.EncounterMethodRateVersionDetail
+import co.pokeapi.pokekotlin.model.GenerationGameIndex
+import co.pokeapi.pokekotlin.model.Name
+import co.pokeapi.pokekotlin.model.NamedApiResource
+import co.pokeapi.pokekotlin.model.PalParkEncounterSpecies
+import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

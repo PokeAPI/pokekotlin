@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin.test.model
 
-import co.pokeapi.model.*
-import co.pokeapi.test.LocalPokeApi
+import co.pokeapi.pokekotlin.model.*
+import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

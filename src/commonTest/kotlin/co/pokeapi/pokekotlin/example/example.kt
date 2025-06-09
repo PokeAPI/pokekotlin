@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.example
 
-import co.pokeapi.PokeApi
+import co.pokeapi.pokekotlin.PokeApi
 
 suspend fun simple() {
   // -8<- [start:simple]

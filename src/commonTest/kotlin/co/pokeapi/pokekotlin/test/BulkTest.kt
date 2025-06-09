@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin.test
 
-import co.pokeapi.model.ResourceSummary
-import co.pokeapi.model.ResourceSummaryList
+import co.pokeapi.pokekotlin.model.ResourceSummary
+import co.pokeapi.pokekotlin.model.ResourceSummaryList
 import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.fail

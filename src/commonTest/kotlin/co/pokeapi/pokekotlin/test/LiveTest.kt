@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin.test
 
-import co.pokeapi.PokeApi
-import co.pokeapi.PokeApiException
+import co.pokeapi.pokekotlin.PokeApi
+import co.pokeapi.pokekotlin.PokeApiException
 import io.ktor.http.HttpStatusCode.Companion.NotFound
 import kotlin.test.Ignore
 import kotlin.test.Test
