@@ -71,7 +71,7 @@ commonMain.dependencies {
 For basic usage, use the global `PokeApi` instance:
 
 ```kotlin
--8<- "src/commonTest/kotlin/dev/sargunv/pokekotlin/example/example.kt:simple"
+-8<- "src/commonTest/kotlin/co/pokeapi/pokekotlin/example/example.kt:simple"
 ```
 
 By default, the client will connect to the official `https://pokeapi.co/`
@@ -80,19 +80,27 @@ instance and cache results in memory.
 If you want to customize the client, create a custom instance of the client:
 
 ```kotlin
--8<- "src/commonTest/kotlin/dev/sargunv/pokekotlin/example/example.kt:custom"
+-8<- "src/commonTest/kotlin/co/pokeapi/pokekotlin/example/example.kt:custom"
 ```
 
 For further details, see the Dokka [API Reference](./api).
 
 [Kotlin Multiplatform]: https://kotlinlang.org/docs/multiplatform.html
+
 [PokéAPI]: https://pokeapi.co/
+
 [Maven Central]: https://central.sonatype.com/namespace/co.pokeapi.pokekotlin
+
 [GitHub Packages]:
-  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry
+https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry
+
 [gh-packages-guide]:
-  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package
+https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package
+
 [repo]: https://github.com/pokeapi/pokekotlin
+
 [Ktor]: https://ktor.io/
+
 [Kotlin Serialization]: https://github.com/Kotlin/kotlinx.serialization
+
 [coroutines]: https://kotlinlang.org/docs/coroutines-guide.html
