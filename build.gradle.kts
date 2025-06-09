@@ -147,7 +147,7 @@ dokka {
       }
       externalDocumentationLinks { create("ktor") { url("https://api.ktor.io/") } }
       suppressedFiles.from(
-        "build/generated/ksp/metadata/commonMain/kotlin/co.pokeapi/pokekotlin/_PokeApiImpl.kt"
+        "build/generated/ksp/metadata/commonMain/kotlin/co/pokeapi/pokekotlin/_PokeApiImpl.kt"
       )
     }
   }
