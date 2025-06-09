@@ -18,7 +18,7 @@ plugins {
   id("maven-publish")
 }
 
-group = "dev.sargunv.pokekotlin"
+group = "co.pokeapi.pokekotlin"
 
 jgitver {
   strategy(Strategies.MAVEN)
@@ -147,7 +147,7 @@ dokka {
       }
       externalDocumentationLinks { create("ktor") { url("https://api.ktor.io/") } }
       suppressedFiles.from(
-        "build/generated/ksp/metadata/commonMain/kotlin/dev/sargunv/pokekotlin/_PokeApiImpl.kt"
+        "build/generated/ksp/metadata/commonMain/kotlin/co.pokeapi/pokekotlin/_PokeApiImpl.kt"
       )
     }
   }

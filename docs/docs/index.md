@@ -25,7 +25,7 @@ additionally available on [GitHub Packages].
 
     ```toml title="libs.versions.toml"
     [libraries]
-    pokekotlin = { module = "dev.sargunv.pokekotlin:pokekotlin", version = "{{ gradle.release_version }}" }
+    pokekotlin = { module = "co.pokeapi.pokekotlin:pokekotlin", version = "{{ gradle.release_version }}" }
     ```
 
 === "Snapshots (GitHub Packages)"
@@ -55,7 +55,7 @@ additionally available on [GitHub Packages].
 
     ```toml title="libs.versions.toml"
     [libraries]
-    pokekotlin = { module = "dev.sargunv.pokekotlin:pokekotlin", version = "{{ gradle.snapshot_version }}" }
+    pokekotlin = { module = "co.pokeapi.pokekotlin:pokekotlin", version = "{{ gradle.snapshot_version }}" }
     ```
 
 In your Gradle build script, add:
@@ -87,7 +87,7 @@ For further details, see the Dokka [API Reference](./api).
 
 [Kotlin Multiplatform]: https://kotlinlang.org/docs/multiplatform.html
 [PokéAPI]: https://pokeapi.co/
-[Maven Central]: https://central.sonatype.com/namespace/dev.sargunv.pokekotlin
+[Maven Central]: https://central.sonatype.com/namespace/co.pokeapi.pokekotlin
 [GitHub Packages]:
   https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry
 [gh-packages-guide]:
