@@ -10,7 +10,7 @@ jobs:
     runs-on: macos-latest
     environment:
       name: "maven-central"
-      url: "https://central.sonatype.com/namespace/dev.sargunv.pokekotlin"
+      url: "https://central.sonatype.com/namespace/co.pokeapi.pokekotlin"
     steps:
       - uses: "actions/checkout@v4"
         with:
