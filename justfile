@@ -49,11 +49,14 @@ test-native-watchos:
     ./gradlew watchosSimulatorArm64Test
 
 run-demo-desktop:
-    ./gradlew run
+    ./gradlew :demo-app:run
 
 run-demo-android:
-    ./gradlew installDebug
+    ./gradlew :demo-app:installDebug
     adb shell am start -n co.pokeapi.pokekotlin.demoapp/co.pokeapi.pokekotlin.demoapp.MainActivity
 
 run-demo-js:
-    ./gradlew jsBrowserDevelopmentRun
+    ./gradlew :demo-app:jsBrowserDevelopmentRun
+
+run-demo-wasm:
+    ./gradlew :demo-app:wasmBrowserDevelopmentRun

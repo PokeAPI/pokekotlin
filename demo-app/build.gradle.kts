@@ -1,8 +1,9 @@
-@file:OptIn(ExperimentalKotlinGradlePluginApi::class)
+@file:OptIn(ExperimentalKotlinGradlePluginApi::class, ExperimentalWasmDsl::class)
 
 import fr.brouillard.oss.jgitver.Strategies
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 
 plugins {
   alias(libs.plugins.android.application)
@@ -42,6 +43,10 @@ kotlin {
   androidTarget()
   jvm("desktop")
   js(IR) {
+    browser { commonWebpackConfig { outputFileName = "app.js" } }
+    binaries.executable()
+  }
+  wasmJs {
     browser { commonWebpackConfig { outputFileName = "app.js" } }
     binaries.executable()
   }
