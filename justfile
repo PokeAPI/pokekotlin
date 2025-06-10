@@ -60,3 +60,9 @@ run-demo-js:
 
 run-demo-wasm:
     ./gradlew :demo-app:wasmBrowserDevelopmentRun
+
+run-demo-macos:
+    ./gradlew :demo-app:runDebugExecutableMacosArm64
+
+run-demo-ios:
+    exit 1

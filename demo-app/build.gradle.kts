@@ -42,13 +42,20 @@ android {
 kotlin {
   androidTarget()
   jvm("desktop")
-  js(IR) {
-    browser { commonWebpackConfig { outputFileName = "app.js" } }
-    binaries.executable()
+
+  listOf(iosArm64(), iosSimulatorArm64(), iosX64()).forEach {
+    it.binaries.framework { baseName = "PokeKotlinDemoApp" }
   }
-  wasmJs {
-    browser { commonWebpackConfig { outputFileName = "app.js" } }
-    binaries.executable()
+
+  listOf(macosX64(), macosArm64()).forEach {
+    it.binaries.executable { entryPoint = "co.pokeapi.pokekotlin.demoapp.main" }
+  }
+
+  listOf(js(), wasmJs()).forEach {
+    it.apply {
+      browser { commonWebpackConfig { outputFileName = "app.js" } }
+      binaries.executable()
+    }
   }
 
   applyDefaultHierarchyTemplate()
@@ -70,17 +77,26 @@ kotlin {
       implementation(projects.pokekotlin)
     }
 
-    desktopMain.dependencies {
-      implementation(compose.desktop.currentOs)
-      implementation(libs.kotlinx.coroutines.swing)
-    }
-
     androidMain {
       dependencies {
         implementation(libs.androidx.activity.compose)
         implementation(libs.kotlinx.coroutines.android)
       }
     }
+
+    val nonAndroidMain by creating { dependsOn(commonMain.get()) }
+
+    desktopMain.apply {
+      dependsOn(nonAndroidMain)
+      dependencies {
+        implementation(compose.desktop.currentOs)
+        implementation(libs.kotlinx.coroutines.swing)
+      }
+    }
+
+    appleMain { dependsOn(nonAndroidMain) }
+    jsMain { dependsOn(nonAndroidMain) }
+    wasmJsMain { dependsOn(nonAndroidMain) }
   }
 }
 
