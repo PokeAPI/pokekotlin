@@ -47,3 +47,23 @@ test-native-tvos:
 
 test-native-watchos:
     ./gradlew watchosSimulatorArm64Test
+
+run-demo-desktop:
+    ./gradlew :demo-app:run
+
+run-demo-android:
+    ./gradlew :demo-app:installDebug
+    adb shell am start -n co.pokeapi.pokekotlin.demoapp/co.pokeapi.pokekotlin.demoapp.MainActivity
+
+run-demo-js:
+    ./gradlew :demo-app:jsBrowserDevelopmentRun
+
+run-demo-wasm:
+    ./gradlew :demo-app:wasmBrowserDevelopmentRun
+
+run-demo-macos:
+    ./gradlew :demo-app:runDebugExecutableMacosArm64
+
+run-demo-ios:
+    echo Not Implemented - Use XCode to run
+    exit 1
