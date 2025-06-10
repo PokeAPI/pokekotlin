@@ -41,6 +41,10 @@ android {
 kotlin {
   androidTarget()
   jvm("desktop")
+  js(IR) {
+    browser { commonWebpackConfig { outputFileName = "app.js" } }
+    binaries.executable()
+  }
 
   applyDefaultHierarchyTemplate()
 
@@ -58,6 +62,7 @@ kotlin {
       implementation(compose.runtime)
       implementation(compose.ui)
       implementation(libs.androidx.navigation.compose)
+      implementation(projects.pokekotlin)
     }
 
     desktopMain.dependencies {

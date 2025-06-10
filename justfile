@@ -54,3 +54,6 @@ run-demo-desktop:
 run-demo-android:
     ./gradlew installDebug
     adb shell am start -n co.pokeapi.pokekotlin.demoapp/co.pokeapi.pokekotlin.demoapp.MainActivity
+
+run-demo-js:
+    ./gradlew jsBrowserDevelopmentRun
