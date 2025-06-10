@@ -47,3 +47,6 @@ test-native-tvos:
 
 test-native-watchos:
     ./gradlew watchosSimulatorArm64Test
+
+run-demo-desktop:
+    ./gradlew run
