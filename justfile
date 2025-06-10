@@ -65,4 +65,5 @@ run-demo-macos:
     ./gradlew :demo-app:runDebugExecutableMacosArm64
 
 run-demo-ios:
+    echo Not Implemented - Use XCode to run
     exit 1
