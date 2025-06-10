@@ -6,6 +6,9 @@ import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import ru.vyarus.gradle.plugin.mkdocs.task.MkdocsTask
 
 plugins {
+  alias(libs.plugins.android.application) apply false
+  alias(libs.plugins.kotlin.composeCompiler) apply false
+  alias(libs.plugins.compose) apply false
   alias(libs.plugins.kotlin.multiplatform)
   alias(libs.plugins.kotlin.serialization)
   alias(libs.plugins.mavenPublish)

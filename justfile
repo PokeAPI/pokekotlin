@@ -50,3 +50,7 @@ test-native-watchos:
 
 run-demo-desktop:
     ./gradlew run
+
+run-demo-android:
+    ./gradlew installDebug
+    adb shell am start -n co.pokeapi.pokekotlin.demoapp/co.pokeapi.pokekotlin.demoapp.MainActivity
