@@ -68,15 +68,10 @@ fun PokemonList(padding: PaddingValues, pokemon: NamedApiResourceList) {
       items(pokemon.results) { summary ->
         var result by remember { mutableStateOf<Result<PokemonSpecies>?>(null) }
         LaunchedEffect(Unit) { result = PokeApi.getPokemonSpecies(summary.id) }
-        when {
-          result == null -> PokemonListItemPlaceholder(summary)
-          result!!.isSuccess -> PokemonListItem(result!!.getOrThrow())
-          result!!.isFailure ->
-            PokemonListItemError(
-              summary = summary,
-              message = result!!.exceptionOrNull()!!.message ?: "Unknown error",
-            )
-        }
+        result
+          ?.onSuccess { PokemonListItem(it) }
+          ?.onFailure { PokemonListItemError(summary, it.message ?: "Unknown error") }
+          ?: PokemonListItemPlaceholder(summary)
       }
     }
   }
