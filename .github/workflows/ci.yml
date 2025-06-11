@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
   workflow_dispatch:
 
@@ -48,6 +48,7 @@ jobs:
       - uses: "futureware-tech/simulator-action@v4"
         if: "${{ matrix.simulator }}"
         with:
+          wait_for_boot: true
           os: "${{ matrix.simulator }}"
       - run: "just test-server-background"
       - run: "./gradlew ${{ matrix.target }}Test"
