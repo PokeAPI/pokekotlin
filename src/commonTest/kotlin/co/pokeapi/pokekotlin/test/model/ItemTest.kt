@@ -22,7 +22,7 @@ class ItemTest {
 
   @Test
   fun getItem1() = runTest {
-    LocalPokeApi.getItem(20).apply {
+    LocalPokeApi.getItem(20).getOrThrow().apply {
       assertEquals(20, id)
       assertEquals("ice-heal", name)
       assertEquals(200, cost)
@@ -66,7 +66,7 @@ class ItemTest {
 
   @Test
   fun getItem2() = runTest {
-    LocalPokeApi.getItem(33).apply {
+    LocalPokeApi.getItem(33).getOrThrow().apply {
       assertNotEquals(
         null,
         heldByPokemon.find {
@@ -84,14 +84,14 @@ class ItemTest {
 
   @Test
   fun getItem3() = runTest {
-    LocalPokeApi.getItem(249).apply {
+    LocalPokeApi.getItem(249).getOrThrow().apply {
       assertEquals(NamedApiResource("badly-poison", "item-fling-effect", 1), flingEffect)
     }
   }
 
   @Test
   fun getItem4() = runTest {
-    LocalPokeApi.getItem(231).apply {
+    LocalPokeApi.getItem(231).getOrThrow().apply {
       assertEquals(ApiResource("evolution-chain", 90), babyTriggerFor)
     }
   }
@@ -100,7 +100,7 @@ class ItemTest {
 
   @Test
   fun getItem6() = runTest {
-    LocalPokeApi.getItem(305).apply {
+    LocalPokeApi.getItem(305).getOrThrow().apply {
       assertNotNull(
         machines.find { machineVersionDetail ->
           machineVersionDetail.machine == ApiResource("machine", 2) &&
@@ -112,7 +112,7 @@ class ItemTest {
 
   @Test
   fun getItemAttribute() = runTest {
-    LocalPokeApi.getItemAttribute(3).apply {
+    LocalPokeApi.getItemAttribute(3).getOrThrow().apply {
       assertEquals(3, id)
       assertEquals("usable-overworld", name)
       assertContains(
@@ -132,7 +132,7 @@ class ItemTest {
 
   @Test
   fun getItemCategory() = runTest {
-    LocalPokeApi.getItemCategory(34).apply {
+    LocalPokeApi.getItemCategory(34).getOrThrow().apply {
       assertEquals(34, id)
       assertEquals("standard-balls", name)
       assertEquals(NamedApiResource("pokeballs", "item-pocket", 3), pocket)
@@ -146,7 +146,7 @@ class ItemTest {
 
   @Test
   fun getItemFlingEffect() = runTest {
-    LocalPokeApi.getItemFlingEffect(1).apply {
+    LocalPokeApi.getItemFlingEffect(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("badly-poison", name)
       assertContains(
@@ -162,7 +162,7 @@ class ItemTest {
 
   @Test
   fun getItemPocket() = runTest {
-    LocalPokeApi.getItemPocket(4).apply {
+    LocalPokeApi.getItemPocket(4).getOrThrow().apply {
       assertEquals(4, id)
       assertEquals("machines", name)
       assertContains(categories, NamedApiResource("all-machines", "item-category", 37))

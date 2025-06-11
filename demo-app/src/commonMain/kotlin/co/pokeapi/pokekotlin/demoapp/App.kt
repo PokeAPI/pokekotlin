@@ -29,7 +29,7 @@ fun DemoApp() {
     LaunchedEffect(Unit) {
       val list = PokeApi.getPokemonSpeciesList(0, 10000)
       species.clear()
-      species.addAll(list.results)
+      species.addAll(list.getOrNull()?.results ?: emptyList())
       isLoading = false
     }
 

@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin
 
-import co.pokeapi.pokekotlin.internal.PokeApiConverter
 import co.pokeapi.pokekotlin.internal.PokeApiJson
+import co.pokeapi.pokekotlin.internal.ResultConverter
 import co.pokeapi.pokekotlin.internal.getDefaultEngine
 import co.pokeapi.pokekotlin.model.Ability
 import co.pokeapi.pokekotlin.model.ApiResourceList
@@ -77,19 +77,19 @@ interface PokeApi {
   suspend fun getBerryList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("berry-firmness/")
   suspend fun getBerryFirmnessList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("berry-flavor/")
   suspend fun getBerryFlavorList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion Berries
 
@@ -99,19 +99,19 @@ interface PokeApi {
   suspend fun getContestTypeList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("contest-effect/")
   suspend fun getContestEffectList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): ApiResourceList
+  ): Result<ApiResourceList>
 
   @GET("super-contest-effect/")
   suspend fun getSuperContestEffectList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): ApiResourceList
+  ): Result<ApiResourceList>
 
   // endregion Contests
 
@@ -121,19 +121,19 @@ interface PokeApi {
   suspend fun getEncounterMethodList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("encounter-condition/")
   suspend fun getEncounterConditionList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("encounter-condition-value/")
   suspend fun getEncounterConditionValueList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -143,13 +143,13 @@ interface PokeApi {
   suspend fun getEvolutionChainList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): ApiResourceList
+  ): Result<ApiResourceList>
 
   @GET("evolution-trigger/")
   suspend fun getEvolutionTriggerList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -159,25 +159,25 @@ interface PokeApi {
   suspend fun getGenerationList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokedex/")
   suspend fun getPokedexList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("version/")
   suspend fun getVersionList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("version-group/")
   suspend fun getVersionGroupList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -187,31 +187,31 @@ interface PokeApi {
   suspend fun getItemList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("item-attribute/")
   suspend fun getItemAttributeList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("item-category/")
   suspend fun getItemCategoryList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("item-fling-effect/")
   suspend fun getItemFlingEffectList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("item-pocket/")
   suspend fun getItemPocketList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -221,43 +221,43 @@ interface PokeApi {
   suspend fun getMoveList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("move-ailment/")
   suspend fun getMoveAilmentList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("move-battle-style/")
   suspend fun getMoveBattleStyleList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("move-category/")
   suspend fun getMoveCategoryList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("move-damage-class/")
   suspend fun getMoveDamageClassList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("move-learn-method/")
   suspend fun getMoveLearnMethodList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("move-target/")
   suspend fun getMoveTargetList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -267,25 +267,25 @@ interface PokeApi {
   suspend fun getLocationList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("location-area/")
   suspend fun getLocationAreaList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pal-park-area/")
   suspend fun getPalParkAreaList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("region/")
   suspend fun getRegionList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -295,7 +295,7 @@ interface PokeApi {
   suspend fun getMachineList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): ApiResourceList
+  ): Result<ApiResourceList>
 
   // endregion
 
@@ -305,91 +305,91 @@ interface PokeApi {
   suspend fun getAbilityList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("characteristic/")
   suspend fun getCharacteristicList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): ApiResourceList
+  ): Result<ApiResourceList>
 
   @GET("egg-group/")
   suspend fun getEggGroupList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("gender/")
   suspend fun getGenderList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("growth-rate/")
   suspend fun getGrowthRateList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("nature/")
   suspend fun getNatureList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokeathlon-stat/")
   suspend fun getPokeathlonStatList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokemon/")
   suspend fun getPokemonList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokemon-color/")
   suspend fun getPokemonColorList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokemon-form/")
   suspend fun getPokemonFormList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokemon-habitat/")
   suspend fun getPokemonHabitatList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokemon-shape/")
   suspend fun getPokemonShapeList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("pokemon-species/")
   suspend fun getPokemonSpeciesList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("stat/")
   suspend fun getStatList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   @GET("type/")
   suspend fun getTypeList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -399,7 +399,7 @@ interface PokeApi {
   suspend fun getLanguageList(
     @Query("offset") offset: Int,
     @Query("limit") limit: Int,
-  ): NamedApiResourceList
+  ): Result<NamedApiResourceList>
 
   // endregion
 
@@ -407,153 +407,161 @@ interface PokeApi {
 
   // region Berries
 
-  @GET("berry/{id}/") suspend fun getBerry(@Path("id") id: Int): Berry
+  @GET("berry/{id}/") suspend fun getBerry(@Path("id") id: Int): Result<Berry>
 
-  @GET("berry-firmness/{id}/") suspend fun getBerryFirmness(@Path("id") id: Int): BerryFirmness
+  @GET("berry-firmness/{id}/")
+  suspend fun getBerryFirmness(@Path("id") id: Int): Result<BerryFirmness>
 
-  @GET("berry-flavor/{id}/") suspend fun getBerryFlavor(@Path("id") id: Int): BerryFlavor
+  @GET("berry-flavor/{id}/") suspend fun getBerryFlavor(@Path("id") id: Int): Result<BerryFlavor>
 
   // endregion Berries
 
   // region Contests
 
-  @GET("contest-type/{id}/") suspend fun getContestType(@Path("id") id: Int): ContestType
+  @GET("contest-type/{id}/") suspend fun getContestType(@Path("id") id: Int): Result<ContestType>
 
-  @GET("contest-effect/{id}/") suspend fun getContestEffect(@Path("id") id: Int): ContestEffect
+  @GET("contest-effect/{id}/")
+  suspend fun getContestEffect(@Path("id") id: Int): Result<ContestEffect>
 
   @GET("super-contest-effect/{id}/")
-  suspend fun getSuperContestEffect(@Path("id") id: Int): SuperContestEffect
+  suspend fun getSuperContestEffect(@Path("id") id: Int): Result<SuperContestEffect>
 
   // endregion Contests
 
   // region Encounters
 
   @GET("encounter-method/{id}/")
-  suspend fun getEncounterMethod(@Path("id") id: Int): EncounterMethod
+  suspend fun getEncounterMethod(@Path("id") id: Int): Result<EncounterMethod>
 
   @GET("encounter-condition/{id}/")
-  suspend fun getEncounterCondition(@Path("id") id: Int): EncounterCondition
+  suspend fun getEncounterCondition(@Path("id") id: Int): Result<EncounterCondition>
 
   @GET("encounter-condition-value/{id}/")
-  suspend fun getEncounterConditionValue(@Path("id") id: Int): EncounterConditionValue
+  suspend fun getEncounterConditionValue(@Path("id") id: Int): Result<EncounterConditionValue>
 
   // endregion Contests
 
   // region Evolution
 
-  @GET("evolution-chain/{id}/") suspend fun getEvolutionChain(@Path("id") id: Int): EvolutionChain
+  @GET("evolution-chain/{id}/")
+  suspend fun getEvolutionChain(@Path("id") id: Int): Result<EvolutionChain>
 
   @GET("evolution-trigger/{id}/")
-  suspend fun getEvolutionTrigger(@Path("id") id: Int): EvolutionTrigger
+  suspend fun getEvolutionTrigger(@Path("id") id: Int): Result<EvolutionTrigger>
 
   // endregion Evolution
 
   // region Games
 
-  @GET("generation/{id}/") suspend fun getGeneration(@Path("id") id: Int): Generation
+  @GET("generation/{id}/") suspend fun getGeneration(@Path("id") id: Int): Result<Generation>
 
-  @GET("pokedex/{id}/") suspend fun getPokedex(@Path("id") id: Int): Pokedex
+  @GET("pokedex/{id}/") suspend fun getPokedex(@Path("id") id: Int): Result<Pokedex>
 
-  @GET("version/{id}/") suspend fun getVersion(@Path("id") id: Int): Version
+  @GET("version/{id}/") suspend fun getVersion(@Path("id") id: Int): Result<Version>
 
-  @GET("version-group/{id}/") suspend fun getVersionGroup(@Path("id") id: Int): VersionGroup
+  @GET("version-group/{id}/") suspend fun getVersionGroup(@Path("id") id: Int): Result<VersionGroup>
 
   // endregion Games
 
   // region Items
 
-  @GET("item/{id}/") suspend fun getItem(@Path("id") id: Int): Item
+  @GET("item/{id}/") suspend fun getItem(@Path("id") id: Int): Result<Item>
 
-  @GET("item-attribute/{id}/") suspend fun getItemAttribute(@Path("id") id: Int): ItemAttribute
+  @GET("item-attribute/{id}/")
+  suspend fun getItemAttribute(@Path("id") id: Int): Result<ItemAttribute>
 
-  @GET("item-category/{id}/") suspend fun getItemCategory(@Path("id") id: Int): ItemCategory
+  @GET("item-category/{id}/") suspend fun getItemCategory(@Path("id") id: Int): Result<ItemCategory>
 
   @GET("item-fling-effect/{id}/")
-  suspend fun getItemFlingEffect(@Path("id") id: Int): ItemFlingEffect
+  suspend fun getItemFlingEffect(@Path("id") id: Int): Result<ItemFlingEffect>
 
-  @GET("item-pocket/{id}/") suspend fun getItemPocket(@Path("id") id: Int): ItemPocket
+  @GET("item-pocket/{id}/") suspend fun getItemPocket(@Path("id") id: Int): Result<ItemPocket>
 
   // endregion Items
 
   // region Moves
 
-  @GET("move/{id}/") suspend fun getMove(@Path("id") id: Int): Move
+  @GET("move/{id}/") suspend fun getMove(@Path("id") id: Int): Result<Move>
 
-  @GET("move-ailment/{id}/") suspend fun getMoveAilment(@Path("id") id: Int): MoveAilment
+  @GET("move-ailment/{id}/") suspend fun getMoveAilment(@Path("id") id: Int): Result<MoveAilment>
 
   @GET("move-battle-style/{id}/")
-  suspend fun getMoveBattleStyle(@Path("id") id: Int): MoveBattleStyle
+  suspend fun getMoveBattleStyle(@Path("id") id: Int): Result<MoveBattleStyle>
 
-  @GET("move-category/{id}/") suspend fun getMoveCategory(@Path("id") id: Int): MoveCategory
+  @GET("move-category/{id}/") suspend fun getMoveCategory(@Path("id") id: Int): Result<MoveCategory>
 
   @GET("move-damage-class/{id}/")
-  suspend fun getMoveDamageClass(@Path("id") id: Int): MoveDamageClass
+  suspend fun getMoveDamageClass(@Path("id") id: Int): Result<MoveDamageClass>
 
   @GET("move-learn-method/{id}/")
-  suspend fun getMoveLearnMethod(@Path("id") id: Int): MoveLearnMethod
+  suspend fun getMoveLearnMethod(@Path("id") id: Int): Result<MoveLearnMethod>
 
-  @GET("move-target/{id}/") suspend fun getMoveTarget(@Path("id") id: Int): MoveTarget
+  @GET("move-target/{id}/") suspend fun getMoveTarget(@Path("id") id: Int): Result<MoveTarget>
 
   // endregion Moves
 
   // region Locations
 
-  @GET("location/{id}/") suspend fun getLocation(@Path("id") id: Int): Location
+  @GET("location/{id}/") suspend fun getLocation(@Path("id") id: Int): Result<Location>
 
-  @GET("location-area/{id}/") suspend fun getLocationArea(@Path("id") id: Int): LocationArea
+  @GET("location-area/{id}/") suspend fun getLocationArea(@Path("id") id: Int): Result<LocationArea>
 
-  @GET("pal-park-area/{id}/") suspend fun getPalParkArea(@Path("id") id: Int): PalParkArea
+  @GET("pal-park-area/{id}/") suspend fun getPalParkArea(@Path("id") id: Int): Result<PalParkArea>
 
-  @GET("region/{id}/") suspend fun getRegion(@Path("id") id: Int): Region
+  @GET("region/{id}/") suspend fun getRegion(@Path("id") id: Int): Result<Region>
 
   // endregion Locations
 
   // region Machines
 
-  @GET("machine/{id}/") suspend fun getMachine(@Path("id") id: Int): Machine
+  @GET("machine/{id}/") suspend fun getMachine(@Path("id") id: Int): Result<Machine>
 
   // endregion
 
   // region Pokemon
 
-  @GET("ability/{id}/") suspend fun getAbility(@Path("id") id: Int): Ability
+  @GET("ability/{id}/") suspend fun getAbility(@Path("id") id: Int): Result<Ability>
 
-  @GET("characteristic/{id}/") suspend fun getCharacteristic(@Path("id") id: Int): Characteristic
+  @GET("characteristic/{id}/")
+  suspend fun getCharacteristic(@Path("id") id: Int): Result<Characteristic>
 
-  @GET("egg-group/{id}/") suspend fun getEggGroup(@Path("id") id: Int): EggGroup
+  @GET("egg-group/{id}/") suspend fun getEggGroup(@Path("id") id: Int): Result<EggGroup>
 
-  @GET("gender/{id}/") suspend fun getGender(@Path("id") id: Int): Gender
+  @GET("gender/{id}/") suspend fun getGender(@Path("id") id: Int): Result<Gender>
 
-  @GET("growth-rate/{id}/") suspend fun getGrowthRate(@Path("id") id: Int): GrowthRate
+  @GET("growth-rate/{id}/") suspend fun getGrowthRate(@Path("id") id: Int): Result<GrowthRate>
 
-  @GET("nature/{id}/") suspend fun getNature(@Path("id") id: Int): Nature
+  @GET("nature/{id}/") suspend fun getNature(@Path("id") id: Int): Result<Nature>
 
-  @GET("pokeathlon-stat/{id}/") suspend fun getPokeathlonStat(@Path("id") id: Int): PokeathlonStat
+  @GET("pokeathlon-stat/{id}/")
+  suspend fun getPokeathlonStat(@Path("id") id: Int): Result<PokeathlonStat>
 
-  @GET("pokemon/{id}/") suspend fun getPokemon(@Path("id") id: Int): Pokemon
+  @GET("pokemon/{id}/") suspend fun getPokemon(@Path("id") id: Int): Result<Pokemon>
 
   @GET("pokemon/{id}/encounters/")
-  suspend fun getPokemonEncounterList(@Path("id") id: Int): List<LocationAreaEncounter>
+  suspend fun getPokemonEncounterList(@Path("id") id: Int): Result<List<LocationAreaEncounter>>
 
-  @GET("pokemon-color/{id}/") suspend fun getPokemonColor(@Path("id") id: Int): PokemonColor
+  @GET("pokemon-color/{id}/") suspend fun getPokemonColor(@Path("id") id: Int): Result<PokemonColor>
 
-  @GET("pokemon-form/{id}/") suspend fun getPokemonForm(@Path("id") id: Int): PokemonForm
+  @GET("pokemon-form/{id}/") suspend fun getPokemonForm(@Path("id") id: Int): Result<PokemonForm>
 
-  @GET("pokemon-habitat/{id}/") suspend fun getPokemonHabitat(@Path("id") id: Int): PokemonHabitat
+  @GET("pokemon-habitat/{id}/")
+  suspend fun getPokemonHabitat(@Path("id") id: Int): Result<PokemonHabitat>
 
-  @GET("pokemon-shape/{id}/") suspend fun getPokemonShape(@Path("id") id: Int): PokemonShape
+  @GET("pokemon-shape/{id}/") suspend fun getPokemonShape(@Path("id") id: Int): Result<PokemonShape>
 
-  @GET("pokemon-species/{id}/") suspend fun getPokemonSpecies(@Path("id") id: Int): PokemonSpecies
+  @GET("pokemon-species/{id}/")
+  suspend fun getPokemonSpecies(@Path("id") id: Int): Result<PokemonSpecies>
 
-  @GET("stat/{id}/") suspend fun getStat(@Path("id") id: Int): Stat
+  @GET("stat/{id}/") suspend fun getStat(@Path("id") id: Int): Result<Stat>
 
-  @GET("type/{id}/") suspend fun getType(@Path("id") id: Int): Type
+  @GET("type/{id}/") suspend fun getType(@Path("id") id: Int): Result<Type>
 
   // endregion Pokemon
 
   // region Utility
 
-  @GET("language/{id}/") suspend fun getLanguage(@Path("id") id: Int): Language
+  @GET("language/{id}/") suspend fun getLanguage(@Path("id") id: Int): Result<Language>
 
   // endregion Utility
 
@@ -575,6 +583,6 @@ fun PokeApi(
         install(ContentNegotiation) { json(PokeApiJson, ContentType.Any) }
       }
     )
-    .converterFactories(PokeApiConverter.Factory)
+    .converterFactories(ResultConverter.Factory)
     .build()
     .createPokeApi()

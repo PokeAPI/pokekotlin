@@ -16,7 +16,7 @@ class LocationTest {
 
   @Test
   fun getLocation() = runTest {
-    LocalPokeApi.getLocation(20).apply {
+    LocalPokeApi.getLocation(20).getOrThrow().apply {
       assertEquals(20, id)
       assertEquals("wayward-cave", name)
       assertEquals(NamedApiResource("sinnoh", "region", 4), region)
@@ -37,7 +37,7 @@ class LocationTest {
 
   @Test
   fun getLocationArea() = runTest {
-    LocalPokeApi.getLocationArea(20).apply {
+    LocalPokeApi.getLocationArea(20).getOrThrow().apply {
       assertEquals(20, id)
       assertEquals("mt-coronet-1f-from-exterior", name)
       assertEquals(20, gameIndex)
@@ -78,7 +78,7 @@ class LocationTest {
 
   @Test
   fun getPalParkArea() = runTest {
-    LocalPokeApi.getPalParkArea(2).apply {
+    LocalPokeApi.getPalParkArea(2).getOrThrow().apply {
       assertEquals(2, id)
       assertEquals("field", name)
       assertContains(names, Name(name = "Field", language = NamedApiResource("en", "language", 9)))
@@ -95,7 +95,7 @@ class LocationTest {
 
   @Test
   fun getRegion() = runTest {
-    LocalPokeApi.getRegion(1).apply {
+    LocalPokeApi.getRegion(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("kanto", name)
       assertEquals(NamedApiResource("generation-i", "generation", 1), mainGeneration)

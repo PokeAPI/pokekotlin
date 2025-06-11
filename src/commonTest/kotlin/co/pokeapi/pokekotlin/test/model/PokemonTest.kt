@@ -39,7 +39,7 @@ class PokemonTest {
 
   @Test
   fun getAbility() = runTest {
-    LocalPokeApi.getAbility(1).apply {
+    LocalPokeApi.getAbility(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("stench", name)
       assertEquals(true, isMainSeries)
@@ -82,7 +82,7 @@ class PokemonTest {
 
   @Test
   fun getCharacteristic() = runTest {
-    LocalPokeApi.getCharacteristic(1).apply {
+    LocalPokeApi.getCharacteristic(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals(0, geneModulo)
       assertEquals((0..6).map { it * 5 }.toList(), possibleValues)
@@ -95,7 +95,7 @@ class PokemonTest {
 
   @Test
   fun getEggGroup() = runTest {
-    LocalPokeApi.getEggGroup(1).apply {
+    LocalPokeApi.getEggGroup(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("monster", name)
       assertContains(
@@ -108,7 +108,7 @@ class PokemonTest {
 
   @Test
   fun getGender() = runTest {
-    LocalPokeApi.getGender(1).apply {
+    LocalPokeApi.getGender(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("female", name)
       assertContains(
@@ -124,7 +124,7 @@ class PokemonTest {
 
   @Test
   fun getGrowthRate() = runTest {
-    LocalPokeApi.getGrowthRate(1).apply {
+    LocalPokeApi.getGrowthRate(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("slow", name)
       assertEquals("\\frac{5x^3}{4}", formula)
@@ -139,7 +139,7 @@ class PokemonTest {
 
   @Test
   fun getNature() = runTest {
-    LocalPokeApi.getNature(10).apply {
+    LocalPokeApi.getNature(10).getOrThrow().apply {
       assertEquals(10, id)
       assertEquals("hasty", name)
       assertEquals(NamedApiResource("speed", "stat", 6), increasedStat)
@@ -167,7 +167,7 @@ class PokemonTest {
 
   @Test
   fun getPokeathlonStat() = runTest {
-    LocalPokeApi.getPokeathlonStat(1).apply {
+    LocalPokeApi.getPokeathlonStat(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("speed", name)
       assertContains(names, Name(name = "Speed", language = NamedApiResource("en", "language", 9)))
@@ -187,7 +187,7 @@ class PokemonTest {
 
   @Test
   fun getPokemon1() = runTest {
-    LocalPokeApi.getPokemon(1).apply {
+    LocalPokeApi.getPokemon(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("bulbasaur", name)
       assertEquals(64, baseExperience)
@@ -230,7 +230,7 @@ class PokemonTest {
 
   @Test
   fun getPokemon2() = runTest {
-    LocalPokeApi.getPokemon(12).apply {
+    LocalPokeApi.getPokemon(12).getOrThrow().apply {
       assertNotNull(
         heldItems.find {
           it.item == NamedApiResource("silver-powder", "item", 199) &&
@@ -243,7 +243,7 @@ class PokemonTest {
 
   @Test
   fun getPokemon3() = runTest {
-    LocalPokeApi.getPokemonEncounterList(12).apply {
+    LocalPokeApi.getPokemonEncounterList(12).getOrThrow().apply {
       assertNotNull(
         find { locAreaEncounter ->
           locAreaEncounter.locationArea ==
@@ -267,7 +267,7 @@ class PokemonTest {
 
   @Test
   fun getPokemon4() = runTest {
-    LocalPokeApi.getPokemon(399).apply {
+    LocalPokeApi.getPokemon(399).getOrThrow().apply {
       sprites.apply {
         assertTrue(backFemale!!.endsWith("/sprites/pokemon/back/female/399.png"))
         assertTrue(backShinyFemale!!.endsWith("/sprites/pokemon/back/shiny/female/399.png"))
@@ -283,7 +283,7 @@ class PokemonTest {
 
   @Test
   fun getPokemonColor() = runTest {
-    LocalPokeApi.getPokemonColor(1).apply {
+    LocalPokeApi.getPokemonColor(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("black", name)
       assertContains(names, Name(name = "Black", language = NamedApiResource("en", "language", 9)))
@@ -293,7 +293,7 @@ class PokemonTest {
 
   @Test
   fun getPokemonForm() = runTest {
-    LocalPokeApi.getPokemonForm(1).apply {
+    LocalPokeApi.getPokemonForm(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("bulbasaur", name)
       assertEquals(1, order)
@@ -315,7 +315,7 @@ class PokemonTest {
 
   @Test
   fun getPokemonForm2() = runTest {
-    LocalPokeApi.getPokemonForm(10266).apply {
+    LocalPokeApi.getPokemonForm(10266).getOrThrow().apply {
       assertContains(
         formNames,
         Name(name = "Original Color", language = NamedApiResource("en", "language", 9)),
@@ -325,7 +325,7 @@ class PokemonTest {
 
   @Test
   fun getPokemonHabitat() = runTest {
-    LocalPokeApi.getPokemonHabitat(1).apply {
+    LocalPokeApi.getPokemonHabitat(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("cave", name)
       assertContains(names, Name(name = "cave", language = NamedApiResource("en", "language", 9)))
@@ -335,7 +335,7 @@ class PokemonTest {
 
   @Test
   fun getPokemonShape() = runTest {
-    LocalPokeApi.getPokemonShape(1).apply {
+    LocalPokeApi.getPokemonShape(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("ball", name)
       assertContains(names, Name(name = "Ball", language = NamedApiResource("en", "language", 9)))
@@ -349,7 +349,7 @@ class PokemonTest {
 
   @Test
   fun getPokemonSpecies1() = runTest {
-    LocalPokeApi.getPokemonSpecies(1).apply {
+    LocalPokeApi.getPokemonSpecies(1).getOrThrow().apply {
       assertEquals(1, id)
       assertEquals("bulbasaur", name)
       assertEquals(1, order)
@@ -417,14 +417,14 @@ class PokemonTest {
 
   @Test
   fun getPokemonSpecies2() = runTest {
-    LocalPokeApi.getPokemonSpecies(2).apply {
+    LocalPokeApi.getPokemonSpecies(2).getOrThrow().apply {
       assertEquals(NamedApiResource("bulbasaur", "pokemon-species", 1), evolvesFromSpecies)
     }
   }
 
   @Test
   fun getPokemonSpecies3() = runTest {
-    LocalPokeApi.getPokemonSpecies(351).apply {
+    LocalPokeApi.getPokemonSpecies(351).getOrThrow().apply {
       assertContains(
         formDescriptions,
         Description(
@@ -440,7 +440,7 @@ class PokemonTest {
 
   @Test
   fun getStat() = runTest {
-    LocalPokeApi.getStat(2).apply {
+    LocalPokeApi.getStat(2).getOrThrow().apply {
       assertEquals(2, id)
       assertEquals("attack", name)
       assertEquals(2, gameIndex)
@@ -462,7 +462,7 @@ class PokemonTest {
 
   @Test
   fun getType() = runTest {
-    LocalPokeApi.getType(8).apply {
+    LocalPokeApi.getType(8).getOrThrow().apply {
       assertEquals(8, id)
       assertEquals("ghost", name)
       damageRelations.apply {

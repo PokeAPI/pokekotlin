@@ -21,10 +21,10 @@ class BulkTest {
   }
 
   private suspend fun <T : ResourceSummary> testEach(
-    getList: suspend (Int, Int) -> ResourceSummaryList<T>,
-    getObject: suspend (Int) -> Any,
+    getList: suspend (Int, Int) -> Result<ResourceSummaryList<T>>,
+    getObject: suspend (Int) -> Result<Any>,
   ) {
-    val list = getList(0, getList(0, 0).count).results
+    val list = getList(0, getList(0, 0).getOrThrow().count).getOrThrow().results
     list.forEach { testCase(list[0].category, it.id, getObject) }
   }
 
