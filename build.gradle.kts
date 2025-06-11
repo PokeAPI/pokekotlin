@@ -30,7 +30,7 @@ jgitver {
 
 kotlin {
   jvmToolchain(21)
-
+  explicitApiWarning()
   compilerOptions { allWarningsAsErrors = true }
 
   jvm()

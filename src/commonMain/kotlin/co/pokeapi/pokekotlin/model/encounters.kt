@@ -3,10 +3,15 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class EncounterMethod(val id: Int, val name: String, val order: Int, val names: List<Name>)
+public data class EncounterMethod(
+  val id: Int,
+  val name: String,
+  val order: Int,
+  val names: List<Name>,
+)
 
 @Serializable
-data class EncounterCondition(
+public data class EncounterCondition(
   val id: Int,
   val name: String,
   val names: List<Name>,
@@ -14,7 +19,7 @@ data class EncounterCondition(
 )
 
 @Serializable
-data class EncounterConditionValue(
+public data class EncounterConditionValue(
   val id: Int,
   val name: String,
   val condition: NamedApiResource,

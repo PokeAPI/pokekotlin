@@ -3,7 +3,7 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Location(
+public data class Location(
   val id: Int,
   val name: String,
   val region: NamedApiResource?,
@@ -13,7 +13,7 @@ data class Location(
 )
 
 @Serializable
-data class LocationArea(
+public data class LocationArea(
   val id: Int,
   val name: String,
   val gameIndex: Int,
@@ -24,22 +24,22 @@ data class LocationArea(
 )
 
 @Serializable
-data class EncounterMethodRate(
+public data class EncounterMethodRate(
   val encounterMethod: NamedApiResource,
   val versionDetails: List<EncounterMethodRateVersionDetail>,
 )
 
 @Serializable
-data class EncounterMethodRateVersionDetail(val rate: Int, val version: NamedApiResource)
+public data class EncounterMethodRateVersionDetail(val rate: Int, val version: NamedApiResource)
 
 @Serializable
-data class PokemonEncounter(
+public data class PokemonEncounter(
   val pokemon: NamedApiResource,
   val versionDetails: List<VersionEncounterDetail>,
 )
 
 @Serializable
-data class PalParkArea(
+public data class PalParkArea(
   val id: Int,
   val name: String,
   val names: List<Name>,
@@ -47,14 +47,14 @@ data class PalParkArea(
 )
 
 @Serializable
-data class PalParkEncounterSpecies(
+public data class PalParkEncounterSpecies(
   val baseScore: Int,
   val rate: Int,
   val pokemonSpecies: NamedApiResource,
 )
 
 @Serializable
-data class Region(
+public data class Region(
   val id: Int,
   val name: String,
   val locations: List<NamedApiResource>,

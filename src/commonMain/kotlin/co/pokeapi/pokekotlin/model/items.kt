@@ -3,7 +3,7 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Item(
+public data class Item(
   val id: Int,
   val name: String,
   val cost: Int,
@@ -21,19 +21,19 @@ data class Item(
   val machines: List<MachineVersionDetail>,
 )
 
-@Serializable data class ItemSprites(val default: String?)
+@Serializable public data class ItemSprites(val default: String?)
 
 @Serializable
-data class ItemHolderPokemon(
+public data class ItemHolderPokemon(
   val pokemon: NamedApiResource,
   val versionDetails: List<ItemHolderPokemonVersionDetail>,
 )
 
 @Serializable
-data class ItemHolderPokemonVersionDetail(val rarity: Int, val version: NamedApiResource)
+public data class ItemHolderPokemonVersionDetail(val rarity: Int, val version: NamedApiResource)
 
 @Serializable
-data class ItemAttribute(
+public data class ItemAttribute(
   val id: Int,
   val name: String,
   val items: List<NamedApiResource>,
@@ -42,7 +42,7 @@ data class ItemAttribute(
 )
 
 @Serializable
-data class ItemCategory(
+public data class ItemCategory(
   val id: Int,
   val name: String,
   val items: List<NamedApiResource>,
@@ -51,7 +51,7 @@ data class ItemCategory(
 )
 
 @Serializable
-data class ItemFlingEffect(
+public data class ItemFlingEffect(
   val id: Int,
   val name: String,
   val effectEntries: List<Effect>,
@@ -59,7 +59,7 @@ data class ItemFlingEffect(
 )
 
 @Serializable
-data class ItemPocket(
+public data class ItemPocket(
   val id: Int,
   val name: String,
   val categories: List<NamedApiResource>,

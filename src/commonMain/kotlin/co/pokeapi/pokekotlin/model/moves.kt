@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Move(
+public data class Move(
   val id: Int,
   val name: String,
   val accuracy: Int?,
@@ -31,19 +31,19 @@ data class Move(
 )
 
 @Serializable
-data class ContestComboSets(
+public data class ContestComboSets(
   @SerialName("normal") val normalSet: ContestComboDetail,
   @SerialName("super") val superSet: ContestComboDetail,
 )
 
 @Serializable
-data class ContestComboDetail(
+public data class ContestComboDetail(
   val useBefore: List<NamedApiResource>?,
   val useAfter: List<NamedApiResource>?,
 )
 
 @Serializable
-data class MoveMetaData(
+public data class MoveMetaData(
   val ailment: NamedApiResource,
   val category: NamedApiResource,
   val minHits: Int?,
@@ -58,10 +58,10 @@ data class MoveMetaData(
   val statChance: Int,
 )
 
-@Serializable data class MoveStatChange(val change: Int, val stat: NamedApiResource)
+@Serializable public data class MoveStatChange(val change: Int, val stat: NamedApiResource)
 
 @Serializable
-data class PastMoveStatValues(
+public data class PastMoveStatValues(
   val accuracy: Int?,
   val effectChance: Int?,
   val power: Int?,
@@ -72,17 +72,18 @@ data class PastMoveStatValues(
 )
 
 @Serializable
-data class MoveAilment(
+public data class MoveAilment(
   val id: Int,
   val name: String,
   val moves: List<NamedApiResource>,
   val names: List<Name>,
 )
 
-@Serializable data class MoveBattleStyle(val id: Int, val name: String, val names: List<Name>)
+@Serializable
+public data class MoveBattleStyle(val id: Int, val name: String, val names: List<Name>)
 
 @Serializable
-data class MoveCategory(
+public data class MoveCategory(
   val id: Int,
   val name: String,
   val moves: List<NamedApiResource>,
@@ -90,7 +91,7 @@ data class MoveCategory(
 )
 
 @Serializable
-data class MoveDamageClass(
+public data class MoveDamageClass(
   val id: Int,
   val name: String,
   val descriptions: List<Description>,
@@ -99,7 +100,7 @@ data class MoveDamageClass(
 )
 
 @Serializable
-data class MoveLearnMethod(
+public data class MoveLearnMethod(
   val id: Int,
   val name: String,
   val descriptions: List<Description>,
@@ -108,7 +109,7 @@ data class MoveLearnMethod(
 )
 
 @Serializable
-data class MoveTarget(
+public data class MoveTarget(
   val id: Int,
   val name: String,
   val descriptions: List<Description>,
@@ -117,7 +118,7 @@ data class MoveTarget(
 )
 
 @Serializable
-data class MoveFlavorText(
+public data class MoveFlavorText(
   val flavorText: String,
   val language: NamedApiResource,
   val versionGroup: NamedApiResource,

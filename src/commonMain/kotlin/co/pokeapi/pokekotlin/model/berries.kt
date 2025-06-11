@@ -3,7 +3,7 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Berry(
+public data class Berry(
   val id: Int,
   val name: String,
   val growthTime: Int,
@@ -18,10 +18,10 @@ data class Berry(
   val naturalGiftType: NamedApiResource,
 )
 
-@Serializable data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
+@Serializable public data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
 
 @Serializable
-data class BerryFirmness(
+public data class BerryFirmness(
   val id: Int,
   val name: String,
   val berries: List<NamedApiResource>,
@@ -29,7 +29,7 @@ data class BerryFirmness(
 )
 
 @Serializable
-data class BerryFlavor(
+public data class BerryFlavor(
   val id: Int,
   val name: String,
   val berries: List<FlavorBerryMap>,
@@ -37,4 +37,4 @@ data class BerryFlavor(
   val names: List<Name>,
 )
 
-@Serializable data class FlavorBerryMap(val potency: Int, val berry: NamedApiResource)
+@Serializable public data class FlavorBerryMap(val potency: Int, val berry: NamedApiResource)
