@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
   workflow_dispatch:
 
@@ -30,10 +30,13 @@ jobs:
             os: windows
           - target: iosSimulatorArm64
             os: macos
+            simulator: iOS
           - target: tvosSimulatorArm64
             os: macos
+            simulator: tvOS
           - target: watchosSimulatorArm64
             os: macos
+            simulator: watchOS
     runs-on: "${{ matrix.os }}-latest"
     name: "test (${{ matrix.target }})"
     steps:
@@ -42,6 +45,10 @@ jobs:
           fetch-depth: 0
           submodules: recursive
       - uses: "./.github/actions/setup"
+      - uses: "futureware-tech/simulator-action@v4"
+        if: "${{ matrix.simulator }}"
+        with:
+          os: "${{ matrix.simulator }}"
       - run: "just test-server-background"
       - run: "./gradlew ${{ matrix.target }}Test"
 
