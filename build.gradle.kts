@@ -3,6 +3,7 @@
 import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
+import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
 import ru.vyarus.gradle.plugin.mkdocs.task.MkdocsTask
 
 plugins {
@@ -98,7 +99,16 @@ kotlin {
   }
 }
 
+// Gradle complains if we don't have this; unclear why.
 tasks.getByName("sourcesJar").dependsOn("kspCommonMainKotlinMetadata")
+
+// Standalone mode is missing certificates, which causes our LiveTest to fail.
+// This should resolve it but requires us to start the simulator(s) beforehand.
+// https://youtrack.jetbrains.com/issue/KT-38317
+tasks.withType<KotlinNativeSimulatorTest> {
+  standalone.set(false)
+  (project.findProperty("appleNativeSimulatorDevice") as? String)?.let { device.set(it) }
+}
 
 publishing {
   repositories {
