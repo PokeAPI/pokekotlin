@@ -600,6 +600,7 @@ public fun PokeApi(
         configure()
         install(HttpCache) { cacheStorage?.let { privateStorage(it) } }
         install(ContentNegotiation) { json(PokeApiJson, ContentType.Any) }
+        expectSuccess = true
       }
     )
     .converterFactories(ResultConverter.Factory)
