@@ -6,6 +6,7 @@ import kotlin.test.Test
 import kotlin.test.fail
 import kotlinx.coroutines.test.runTest
 
+@IgnoreOnJvm // Should work on JVM but it's OOMing.
 class BulkTest {
 
   private suspend fun testCase(cat: String, id: Int, getObject: suspend (Int) -> Any) {

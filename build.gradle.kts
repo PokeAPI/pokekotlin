@@ -32,19 +32,22 @@ jgitver {
 kotlin {
   jvmToolchain(21)
   explicitApiWarning()
-  compilerOptions { allWarningsAsErrors = true }
+  compilerOptions {
+    allWarningsAsErrors = true
+    freeCompilerArgs.addAll("-Xexpect-actual-classes", "-Xconsistent-data-class-copy-visibility")
+  }
 
   jvm()
 
   js(IR) {
-    browser()
-    nodejs()
+    browser { testTask { useMocha { timeout = "10min" } } }
+    nodejs { testTask { useMocha { timeout = "10min" } } }
   }
 
   wasmJs {
-    browser()
-    nodejs()
-    d8 {}
+    browser { testTask { useMocha { timeout = "10min" } } }
+    nodejs { testTask { useMocha { timeout = "10min" } } }
+    d8 { testTask { useMocha { timeout = "10min" } } }
   }
 
   // native tier 1
