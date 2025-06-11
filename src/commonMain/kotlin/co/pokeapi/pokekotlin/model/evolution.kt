@@ -3,14 +3,14 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class EvolutionChain(
+public data class EvolutionChain(
   val id: Int,
   val babyTriggerItem: NamedApiResource?,
   val chain: ChainLink,
 )
 
 @Serializable
-data class ChainLink(
+public data class ChainLink(
   val isBaby: Boolean,
   val species: NamedApiResource,
   val evolutionDetails: List<EvolutionDetail>,
@@ -18,7 +18,7 @@ data class ChainLink(
 )
 
 @Serializable
-data class EvolutionDetail(
+public data class EvolutionDetail(
   val trigger: NamedApiResource,
   val item: NamedApiResource? = null,
   val gender: Int? = null,
@@ -40,7 +40,7 @@ data class EvolutionDetail(
 )
 
 @Serializable
-data class EvolutionTrigger(
+public data class EvolutionTrigger(
   val id: Int,
   val name: String,
   val names: List<Name>,

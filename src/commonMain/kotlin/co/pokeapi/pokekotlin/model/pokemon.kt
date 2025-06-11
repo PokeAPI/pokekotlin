@@ -3,7 +3,7 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Ability(
+public data class Ability(
   val id: Int,
   val name: String,
   val isMainSeries: Boolean,
@@ -16,20 +16,27 @@ data class Ability(
 )
 
 @Serializable
-data class AbilityEffectChange(val effectEntries: List<Effect>, val versionGroup: NamedApiResource)
+public data class AbilityEffectChange(
+  val effectEntries: List<Effect>,
+  val versionGroup: NamedApiResource,
+)
 
 @Serializable
-data class AbilityFlavorText(
+public data class AbilityFlavorText(
   val flavorText: String,
   val language: NamedApiResource,
   val versionGroup: NamedApiResource,
 )
 
 @Serializable
-data class AbilityPokemon(val isHidden: Boolean, val slot: Int, val pokemon: NamedApiResource)
+public data class AbilityPokemon(
+  val isHidden: Boolean,
+  val slot: Int,
+  val pokemon: NamedApiResource,
+)
 
 @Serializable
-data class Characteristic(
+public data class Characteristic(
   val id: Int,
   val geneModulo: Int,
   val possibleValues: List<Int>,
@@ -37,7 +44,7 @@ data class Characteristic(
 )
 
 @Serializable
-data class EggGroup(
+public data class EggGroup(
   val id: Int,
   val name: String,
   val names: List<Name>,
@@ -45,17 +52,18 @@ data class EggGroup(
 )
 
 @Serializable
-data class Gender(
+public data class Gender(
   val id: Int,
   val name: String,
   val pokemonSpeciesDetails: List<PokemonSpeciesGender>,
   val requiredForEvolution: List<NamedApiResource>,
 )
 
-@Serializable data class PokemonSpeciesGender(val rate: Int, val pokemonSpecies: NamedApiResource)
+@Serializable
+public data class PokemonSpeciesGender(val rate: Int, val pokemonSpecies: NamedApiResource)
 
 @Serializable
-data class GrowthRate(
+public data class GrowthRate(
   val id: Int,
   val name: String,
   val formula: String,
@@ -64,10 +72,10 @@ data class GrowthRate(
   val pokemonSpecies: List<NamedApiResource>,
 )
 
-@Serializable data class GrowthRateExperienceLevel(val level: Int, val experience: Int)
+@Serializable public data class GrowthRateExperienceLevel(val level: Int, val experience: Int)
 
 @Serializable
-data class Nature(
+public data class Nature(
   val id: Int,
   val name: String,
   val decreasedStat: NamedApiResource?,
@@ -79,17 +87,18 @@ data class Nature(
   val names: List<Name>,
 )
 
-@Serializable data class NatureStatChange(val maxChange: Int, val pokeathlonStat: NamedApiResource)
+@Serializable
+public data class NatureStatChange(val maxChange: Int, val pokeathlonStat: NamedApiResource)
 
 @Serializable
-data class MoveBattleStylePreference(
+public data class MoveBattleStylePreference(
   val lowHpPreference: Int,
   val highHpPreference: Int,
   val moveBattleStyle: NamedApiResource,
 )
 
 @Serializable
-data class PokeathlonStat(
+public data class PokeathlonStat(
   val id: Int,
   val name: String,
   val names: List<Name>,
@@ -97,16 +106,16 @@ data class PokeathlonStat(
 )
 
 @Serializable
-data class NaturePokeathlonStatAffectSets(
+public data class NaturePokeathlonStatAffectSets(
   val increase: List<NaturePokeathlonStatAffect>,
   val decrease: List<NaturePokeathlonStatAffect>,
 )
 
 @Serializable
-data class NaturePokeathlonStatAffect(val maxChange: Int, val nature: NamedApiResource)
+public data class NaturePokeathlonStatAffect(val maxChange: Int, val nature: NamedApiResource)
 
 @Serializable
-data class Pokemon(
+public data class Pokemon(
   val id: Int,
   val name: String,
   val baseExperience: Int,
@@ -126,7 +135,7 @@ data class Pokemon(
 )
 
 @Serializable
-data class PokemonSprites(
+public data class PokemonSprites(
   val backDefault: String?,
   val backShiny: String?,
   val frontDefault: String?,
@@ -138,42 +147,47 @@ data class PokemonSprites(
 )
 
 @Serializable
-data class PokemonAbility(val isHidden: Boolean, val slot: Int, val ability: NamedApiResource)
+public data class PokemonAbility(
+  val isHidden: Boolean,
+  val slot: Int,
+  val ability: NamedApiResource,
+)
 
 @Serializable
-data class PokemonHeldItem(
+public data class PokemonHeldItem(
   val item: NamedApiResource,
   val versionDetails: List<PokemonHeldItemVersion>,
 )
 
-@Serializable data class PokemonHeldItemVersion(val version: NamedApiResource, val rarity: Int)
+@Serializable
+public data class PokemonHeldItemVersion(val version: NamedApiResource, val rarity: Int)
 
 @Serializable
-data class PokemonMove(
+public data class PokemonMove(
   val move: NamedApiResource,
   val versionGroupDetails: List<PokemonMoveVersion>,
 )
 
 @Serializable
-data class PokemonMoveVersion(
+public data class PokemonMoveVersion(
   val moveLearnMethod: NamedApiResource,
   val versionGroup: NamedApiResource,
   val levelLearnedAt: Int,
 )
 
 @Serializable
-data class PokemonStat(val stat: NamedApiResource, val effort: Int, val baseStat: Int)
+public data class PokemonStat(val stat: NamedApiResource, val effort: Int, val baseStat: Int)
 
-@Serializable data class PokemonType(val slot: Int, val type: NamedApiResource)
+@Serializable public data class PokemonType(val slot: Int, val type: NamedApiResource)
 
 @Serializable
-data class LocationAreaEncounter(
+public data class LocationAreaEncounter(
   val locationArea: NamedApiResource,
   val versionDetails: List<VersionEncounterDetail>,
 )
 
 @Serializable
-data class PokemonColor(
+public data class PokemonColor(
   val id: Int,
   val name: String,
   val names: List<Name>,
@@ -181,7 +195,7 @@ data class PokemonColor(
 )
 
 @Serializable
-data class PokemonForm(
+public data class PokemonForm(
   val id: Int,
   val name: String,
   val order: Int,
@@ -197,7 +211,7 @@ data class PokemonForm(
 )
 
 @Serializable
-data class PokemonFormSprites(
+public data class PokemonFormSprites(
   val backDefault: String?,
   val backShiny: String?,
   val frontDefault: String?,
@@ -205,7 +219,7 @@ data class PokemonFormSprites(
 )
 
 @Serializable
-data class PokemonHabitat(
+public data class PokemonHabitat(
   val id: Int,
   val name: String,
   val names: List<Name>,
@@ -213,7 +227,7 @@ data class PokemonHabitat(
 )
 
 @Serializable
-data class PokemonShape(
+public data class PokemonShape(
   val id: Int,
   val name: String,
   val awesomeNames: List<AwesomeName>,
@@ -221,10 +235,11 @@ data class PokemonShape(
   val pokemonSpecies: List<NamedApiResource>,
 )
 
-@Serializable data class AwesomeName(val awesomeName: String, val language: NamedApiResource)
+@Serializable
+public data class AwesomeName(val awesomeName: String, val language: NamedApiResource)
 
 @Serializable
-data class PokemonSpecies(
+public data class PokemonSpecies(
   val id: Int,
   val name: String,
   val order: Int,
@@ -255,25 +270,29 @@ data class PokemonSpecies(
 )
 
 @Serializable
-data class PokemonSpeciesFlavorText(
+public data class PokemonSpeciesFlavorText(
   val flavorText: String,
   val language: NamedApiResource,
   val version: NamedApiResource,
 )
 
-@Serializable data class Genus(val genus: String, val language: NamedApiResource)
+@Serializable public data class Genus(val genus: String, val language: NamedApiResource)
 
 @Serializable
-data class PokemonSpeciesDexEntry(val entryNumber: Int, val pokedex: NamedApiResource)
+public data class PokemonSpeciesDexEntry(val entryNumber: Int, val pokedex: NamedApiResource)
 
 @Serializable
-data class PalParkEncounterArea(val baseScore: Int, val rate: Int, val area: NamedApiResource)
+public data class PalParkEncounterArea(
+  val baseScore: Int,
+  val rate: Int,
+  val area: NamedApiResource,
+)
 
 @Serializable
-data class PokemonSpeciesVariety(val isDefault: Boolean, val pokemon: NamedApiResource)
+public data class PokemonSpeciesVariety(val isDefault: Boolean, val pokemon: NamedApiResource)
 
 @Serializable
-data class Stat(
+public data class Stat(
   val id: Int,
   val name: String,
   val gameIndex: Int,
@@ -286,21 +305,21 @@ data class Stat(
 )
 
 @Serializable
-data class MoveStatAffectSets(
+public data class MoveStatAffectSets(
   val increase: List<MoveStatAffect>,
   val decrease: List<MoveStatAffect>,
 )
 
-@Serializable data class MoveStatAffect(val change: Int, val move: NamedApiResource)
+@Serializable public data class MoveStatAffect(val change: Int, val move: NamedApiResource)
 
 @Serializable
-data class NatureStatAffectSets(
+public data class NatureStatAffectSets(
   val increase: List<NamedApiResource>,
   val decrease: List<NamedApiResource>,
 )
 
 @Serializable
-data class Type(
+public data class Type(
   val id: Int,
   val name: String,
   val damageRelations: TypeRelations,
@@ -312,10 +331,10 @@ data class Type(
   val moves: List<NamedApiResource>,
 )
 
-@Serializable data class TypePokemon(val slot: Int, val pokemon: NamedApiResource)
+@Serializable public data class TypePokemon(val slot: Int, val pokemon: NamedApiResource)
 
 @Serializable
-data class TypeRelations(
+public data class TypeRelations(
   val noDamageTo: List<NamedApiResource>,
   val halfDamageTo: List<NamedApiResource>,
   val doubleDamageTo: List<NamedApiResource>,

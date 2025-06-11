@@ -3,7 +3,7 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class ContestType(
+public data class ContestType(
   val id: Int,
   val name: String,
   val berryFlavor: NamedApiResource,
@@ -11,10 +11,10 @@ data class ContestType(
 )
 
 @Serializable
-data class ContestName(val name: String, val color: String, val language: NamedApiResource)
+public data class ContestName(val name: String, val color: String, val language: NamedApiResource)
 
 @Serializable
-data class ContestEffect(
+public data class ContestEffect(
   val id: Int,
   val appeal: Int,
   val jam: Int,
@@ -23,7 +23,7 @@ data class ContestEffect(
 )
 
 @Serializable
-data class SuperContestEffect(
+public data class SuperContestEffect(
   val id: Int,
   val appeal: Int,
   val flavorTextEntries: List<FlavorText>,

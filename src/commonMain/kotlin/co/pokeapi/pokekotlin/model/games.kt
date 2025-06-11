@@ -3,7 +3,7 @@ package co.pokeapi.pokekotlin.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Generation(
+public data class Generation(
   val id: Int,
   val name: String,
   val abilities: List<NamedApiResource>,
@@ -16,7 +16,7 @@ data class Generation(
 )
 
 @Serializable
-data class Pokedex(
+public data class Pokedex(
   val id: Int,
   val name: String,
   val isMainSeries: Boolean,
@@ -27,10 +27,11 @@ data class Pokedex(
   val versionGroups: List<NamedApiResource>,
 )
 
-@Serializable data class PokemonEntry(val entryNumber: Int, val pokemonSpecies: NamedApiResource)
+@Serializable
+public data class PokemonEntry(val entryNumber: Int, val pokemonSpecies: NamedApiResource)
 
 @Serializable
-data class Version(
+public data class Version(
   val id: Int,
   val name: String,
   val names: List<Name>,
@@ -38,7 +39,7 @@ data class Version(
 )
 
 @Serializable
-data class VersionGroup(
+public data class VersionGroup(
   val id: Int,
   val name: String,
   val order: Int,
