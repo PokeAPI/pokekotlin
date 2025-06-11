@@ -47,11 +47,14 @@ jobs:
       - uses: "./.github/actions/setup"
       - uses: "futureware-tech/simulator-action@v4"
         if: "${{ matrix.simulator }}"
+        id: simulator_setup
         with:
           wait_for_boot: true
           os: "${{ matrix.simulator }}"
       - run: "just test-server-background"
       - run: "./gradlew ${{ matrix.target }}Test"
+        env:
+          ORG_GRADLE_PROJECT_appleNativeSimulatorDevice: "${{ steps.simulator_setup.outputs.udid }}"
 
   build-docs:
     runs-on: ubuntu-latest
