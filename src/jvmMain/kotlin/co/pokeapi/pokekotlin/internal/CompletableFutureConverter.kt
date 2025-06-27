@@ -5,10 +5,10 @@ import de.jensklingenberg.ktorfit.converter.Converter
 import de.jensklingenberg.ktorfit.converter.KtorfitResult
 import de.jensklingenberg.ktorfit.converter.TypeData
 import io.ktor.client.statement.*
+import java.util.concurrent.CompletableFuture
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.future.future
-import java.util.concurrent.CompletableFuture
 
 internal class CompletableFutureConverter(typeData: TypeData, private val scope: CoroutineScope) :
   Converter.ResponseConverter<HttpResponse, CompletableFuture<*>> {

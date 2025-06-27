@@ -10,10 +10,10 @@ import de.jensklingenberg.ktorfit.http.Query
 import io.ktor.client.*
 import io.ktor.client.engine.*
 import io.ktor.client.plugins.cache.storage.*
+import java.util.concurrent.CompletableFuture
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
-import java.util.concurrent.CompletableFuture
 
 public interface PokeApi {
 
