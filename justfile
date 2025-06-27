@@ -29,15 +29,15 @@ test-wasm-browser:
 test-wasm-node:
     ./gradlew wasmNodeTest
 
-native-desktop-task := (
+native-host-test-task := (
     if os() == "macos" { "macosArm64Test" }
     else if os() == "linux" { "linuxX64Test" }
     else if os() == "windows" { "mingwX64Test" }
     else { error("Unrecognized OS: " + os()) }
 )
 
-test-native-desktop:
-    ./gradlew {{ native-desktop-task }}
+test-native-host:
+    ./gradlew {{ native-host-test-task }}
 
 test-native-ios:
     ./gradlew iosSimulatorArm64Test
