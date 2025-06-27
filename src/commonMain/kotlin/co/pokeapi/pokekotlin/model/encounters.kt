@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class EncounterMethod(
   val id: Int,
   val name: String,
@@ -11,6 +13,7 @@ public data class EncounterMethod(
 )
 
 @Serializable
+@JsOnlyExport
 public data class EncounterCondition(
   val id: Int,
   val name: String,
@@ -19,6 +22,7 @@ public data class EncounterCondition(
 )
 
 @Serializable
+@JsOnlyExport
 public data class EncounterConditionValue(
   val id: Int,
   val name: String,

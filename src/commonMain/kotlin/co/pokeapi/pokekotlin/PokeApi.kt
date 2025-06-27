@@ -10,10 +10,8 @@ import de.jensklingenberg.ktorfit.http.Query
 import io.ktor.client.*
 import io.ktor.client.engine.*
 import io.ktor.client.plugins.cache.storage.*
-import kotlin.jvm.JvmName
 
-@JvmName("create")
-public fun PokeApi(
+public fun createPokeApi(
   baseUrl: String = "https://pokeapi.co/api/v2/",
   cacheStorage: CacheStorage? = null,
   engine: HttpClientEngine = getDefaultEngine(),
@@ -31,7 +29,7 @@ public fun PokeApi(
 }
 
 public interface PokeApi {
-  public companion object : PokeApi by PokeApi()
+  public companion object : PokeApi by createPokeApi()
 
   // region Resource Lists
 

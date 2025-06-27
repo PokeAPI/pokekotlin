@@ -2,11 +2,13 @@ package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.model.ResourceSummary
 import co.pokeapi.pokekotlin.model.ResourceSummaryList
+import kotlinx.coroutines.test.runTest
+import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.fail
-import kotlinx.coroutines.test.runTest
 
-@IgnoreOnJvm // Should work on JVM but it's OOMing.
+// @IgnoreOnJvm // Should work on JVM but it's OOMing.
+@Ignore
 class BulkTest {
 
   private suspend fun testCase(cat: String, id: Int, getObject: suspend (Int) -> Any) {

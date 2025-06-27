@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class Ability(
   val id: Int,
   val name: String,
@@ -16,12 +18,14 @@ public data class Ability(
 )
 
 @Serializable
+@JsOnlyExport
 public data class AbilityEffectChange(
   val effectEntries: List<Effect>,
   val versionGroup: NamedApiResource,
 )
 
 @Serializable
+@JsOnlyExport
 public data class AbilityFlavorText(
   val flavorText: String,
   val language: NamedApiResource,
@@ -29,6 +33,7 @@ public data class AbilityFlavorText(
 )
 
 @Serializable
+@JsOnlyExport
 public data class AbilityPokemon(
   val isHidden: Boolean,
   val slot: Int,
@@ -36,6 +41,7 @@ public data class AbilityPokemon(
 )
 
 @Serializable
+@JsOnlyExport
 public data class Characteristic(
   val id: Int,
   val geneModulo: Int,
@@ -44,6 +50,7 @@ public data class Characteristic(
 )
 
 @Serializable
+@JsOnlyExport
 public data class EggGroup(
   val id: Int,
   val name: String,
@@ -52,6 +59,7 @@ public data class EggGroup(
 )
 
 @Serializable
+@JsOnlyExport
 public data class Gender(
   val id: Int,
   val name: String,
@@ -60,9 +68,11 @@ public data class Gender(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonSpeciesGender(val rate: Int, val pokemonSpecies: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class GrowthRate(
   val id: Int,
   val name: String,
@@ -72,9 +82,12 @@ public data class GrowthRate(
   val pokemonSpecies: List<NamedApiResource>,
 )
 
-@Serializable public data class GrowthRateExperienceLevel(val level: Int, val experience: Int)
+@Serializable
+@JsOnlyExport
+public data class GrowthRateExperienceLevel(val level: Int, val experience: Int)
 
 @Serializable
+@JsOnlyExport
 public data class Nature(
   val id: Int,
   val name: String,
@@ -88,9 +101,11 @@ public data class Nature(
 )
 
 @Serializable
+@JsOnlyExport
 public data class NatureStatChange(val maxChange: Int, val pokeathlonStat: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class MoveBattleStylePreference(
   val lowHpPreference: Int,
   val highHpPreference: Int,
@@ -98,6 +113,7 @@ public data class MoveBattleStylePreference(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokeathlonStat(
   val id: Int,
   val name: String,
@@ -106,15 +122,18 @@ public data class PokeathlonStat(
 )
 
 @Serializable
+@JsOnlyExport
 public data class NaturePokeathlonStatAffectSets(
   val increase: List<NaturePokeathlonStatAffect>,
   val decrease: List<NaturePokeathlonStatAffect>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class NaturePokeathlonStatAffect(val maxChange: Int, val nature: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class Pokemon(
   val id: Int,
   val name: String,
@@ -135,6 +154,7 @@ public data class Pokemon(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonSprites(
   val backDefault: String?,
   val backShiny: String?,
@@ -147,6 +167,7 @@ public data class PokemonSprites(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonAbility(
   val isHidden: Boolean,
   val slot: Int,
@@ -154,21 +175,25 @@ public data class PokemonAbility(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonHeldItem(
   val item: NamedApiResource,
   val versionDetails: List<PokemonHeldItemVersion>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonHeldItemVersion(val version: NamedApiResource, val rarity: Int)
 
 @Serializable
+@JsOnlyExport
 public data class PokemonMove(
   val move: NamedApiResource,
   val versionGroupDetails: List<PokemonMoveVersion>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonMoveVersion(
   val moveLearnMethod: NamedApiResource,
   val versionGroup: NamedApiResource,
@@ -176,17 +201,22 @@ public data class PokemonMoveVersion(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonStat(val stat: NamedApiResource, val effort: Int, val baseStat: Int)
 
-@Serializable public data class PokemonType(val slot: Int, val type: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class PokemonType(val slot: Int, val type: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class LocationAreaEncounter(
   val locationArea: NamedApiResource,
   val versionDetails: List<VersionEncounterDetail>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonColor(
   val id: Int,
   val name: String,
@@ -195,6 +225,7 @@ public data class PokemonColor(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonForm(
   val id: Int,
   val name: String,
@@ -211,6 +242,7 @@ public data class PokemonForm(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonFormSprites(
   val backDefault: String?,
   val backShiny: String?,
@@ -219,6 +251,7 @@ public data class PokemonFormSprites(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonHabitat(
   val id: Int,
   val name: String,
@@ -227,6 +260,7 @@ public data class PokemonHabitat(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonShape(
   val id: Int,
   val name: String,
@@ -236,9 +270,11 @@ public data class PokemonShape(
 )
 
 @Serializable
+@JsOnlyExport
 public data class AwesomeName(val awesomeName: String, val language: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class PokemonSpecies(
   val id: Int,
   val name: String,
@@ -270,18 +306,23 @@ public data class PokemonSpecies(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonSpeciesFlavorText(
   val flavorText: String,
   val language: NamedApiResource,
   val version: NamedApiResource,
 )
 
-@Serializable public data class Genus(val genus: String, val language: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class Genus(val genus: String, val language: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class PokemonSpeciesDexEntry(val entryNumber: Int, val pokedex: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class PalParkEncounterArea(
   val baseScore: Int,
   val rate: Int,
@@ -289,9 +330,11 @@ public data class PalParkEncounterArea(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonSpeciesVariety(val isDefault: Boolean, val pokemon: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class Stat(
   val id: Int,
   val name: String,
@@ -305,20 +348,25 @@ public data class Stat(
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveStatAffectSets(
   val increase: List<MoveStatAffect>,
   val decrease: List<MoveStatAffect>,
 )
 
-@Serializable public data class MoveStatAffect(val change: Int, val move: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class MoveStatAffect(val change: Int, val move: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class NatureStatAffectSets(
   val increase: List<NamedApiResource>,
   val decrease: List<NamedApiResource>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class Type(
   val id: Int,
   val name: String,
@@ -331,9 +379,12 @@ public data class Type(
   val moves: List<NamedApiResource>,
 )
 
-@Serializable public data class TypePokemon(val slot: Int, val pokemon: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class TypePokemon(val slot: Int, val pokemon: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class TypeRelations(
   val noDamageTo: List<NamedApiResource>,
   val halfDamageTo: List<NamedApiResource>,

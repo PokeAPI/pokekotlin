@@ -1,9 +1,11 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class Move(
   val id: Int,
   val name: String,
@@ -31,18 +33,21 @@ public data class Move(
 )
 
 @Serializable
+@JsOnlyExport
 public data class ContestComboSets(
   @SerialName("normal") val normalSet: ContestComboDetail,
   @SerialName("super") val superSet: ContestComboDetail,
 )
 
 @Serializable
+@JsOnlyExport
 public data class ContestComboDetail(
   val useBefore: List<NamedApiResource>?,
   val useAfter: List<NamedApiResource>?,
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveMetaData(
   val ailment: NamedApiResource,
   val category: NamedApiResource,
@@ -58,9 +63,12 @@ public data class MoveMetaData(
   val statChance: Int,
 )
 
-@Serializable public data class MoveStatChange(val change: Int, val stat: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class MoveStatChange(val change: Int, val stat: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class PastMoveStatValues(
   val accuracy: Int?,
   val effectChance: Int?,
@@ -72,6 +80,7 @@ public data class PastMoveStatValues(
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveAilment(
   val id: Int,
   val name: String,
@@ -80,9 +89,11 @@ public data class MoveAilment(
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveBattleStyle(val id: Int, val name: String, val names: List<Name>)
 
 @Serializable
+@JsOnlyExport
 public data class MoveCategory(
   val id: Int,
   val name: String,
@@ -91,6 +102,7 @@ public data class MoveCategory(
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveDamageClass(
   val id: Int,
   val name: String,
@@ -100,6 +112,7 @@ public data class MoveDamageClass(
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveLearnMethod(
   val id: Int,
   val name: String,
@@ -109,6 +122,7 @@ public data class MoveLearnMethod(
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveTarget(
   val id: Int,
   val name: String,
@@ -118,6 +132,7 @@ public data class MoveTarget(
 )
 
 @Serializable
+@JsOnlyExport
 public data class MoveFlavorText(
   val flavorText: String,
   val language: NamedApiResource,

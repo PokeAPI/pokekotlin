@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class ContestType(
   val id: Int,
   val name: String,
@@ -11,9 +13,11 @@ public data class ContestType(
 )
 
 @Serializable
+@JsOnlyExport
 public data class ContestName(val name: String, val color: String, val language: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class ContestEffect(
   val id: Int,
   val appeal: Int,
@@ -23,6 +27,7 @@ public data class ContestEffect(
 )
 
 @Serializable
+@JsOnlyExport
 public data class SuperContestEffect(
   val id: Int,
   val appeal: Int,

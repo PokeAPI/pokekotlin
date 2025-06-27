@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class Location(
   val id: Int,
   val name: String,
@@ -13,6 +15,7 @@ public data class Location(
 )
 
 @Serializable
+@JsOnlyExport
 public data class LocationArea(
   val id: Int,
   val name: String,
@@ -24,21 +27,25 @@ public data class LocationArea(
 )
 
 @Serializable
+@JsOnlyExport
 public data class EncounterMethodRate(
   val encounterMethod: NamedApiResource,
   val versionDetails: List<EncounterMethodRateVersionDetail>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class EncounterMethodRateVersionDetail(val rate: Int, val version: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class PokemonEncounter(
   val pokemon: NamedApiResource,
   val versionDetails: List<VersionEncounterDetail>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class PalParkArea(
   val id: Int,
   val name: String,
@@ -47,6 +54,7 @@ public data class PalParkArea(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PalParkEncounterSpecies(
   val baseScore: Int,
   val rate: Int,
@@ -54,6 +62,7 @@ public data class PalParkEncounterSpecies(
 )
 
 @Serializable
+@JsOnlyExport
 public data class Region(
   val id: Int,
   val name: String,

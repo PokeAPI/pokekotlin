@@ -33,6 +33,7 @@ kotlin {
   jvmToolchain(21)
   explicitApiWarning()
   compilerOptions {
+    optIn = listOf("kotlin.js.ExperimentalJsExport")
     allWarningsAsErrors = true
     freeCompilerArgs.addAll("-Xexpect-actual-classes", "-Xconsistent-data-class-copy-visibility")
   }
@@ -42,6 +43,9 @@ kotlin {
   js(IR) {
     browser { testTask { useMocha { timeout = "10min" } } }
     nodejs { testTask { useMocha { timeout = "10min" } } }
+
+    binaries.library()
+    generateTypeScriptDefinitions()
   }
 
   wasmJs {
@@ -84,12 +88,29 @@ kotlin {
       implementation(libs.ktorfit)
     }
 
-    jvmMain.dependencies { implementation(libs.ktor.client.okhttp) }
-    appleMain.dependencies { implementation(libs.ktor.client.darwin) }
-    linuxMain.dependencies { implementation(libs.ktor.client.curl) }
-    mingwMain.dependencies { implementation(libs.ktor.client.winhttp) }
-    jsMain.dependencies { implementation(libs.ktor.client.js) }
-    wasmJsMain.dependencies { implementation(libs.ktor.client.js) }
+    val nonJsMain by creating { dependsOn(commonMain.get()) }
+
+    jvmMain {
+      dependsOn(nonJsMain)
+      dependencies { implementation(libs.ktor.client.okhttp) }
+    }
+    appleMain {
+      dependsOn(nonJsMain)
+      dependencies { implementation(libs.ktor.client.darwin) }
+    }
+    linuxMain {
+      dependsOn(nonJsMain)
+      dependencies { implementation(libs.ktor.client.curl) }
+    }
+    mingwMain {
+      dependsOn(nonJsMain)
+      dependencies { implementation(libs.ktor.client.winhttp) }
+    }
+    jsMain { dependencies { implementation(libs.ktor.client.js) } }
+    wasmJsMain {
+      dependsOn(nonJsMain)
+      dependencies { implementation(libs.ktor.client.js) }
+    }
 
     commonTest.dependencies {
       implementation(kotlin("test"))

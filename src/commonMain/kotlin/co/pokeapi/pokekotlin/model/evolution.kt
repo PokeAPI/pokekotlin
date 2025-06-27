@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class EvolutionChain(
   val id: Int,
   val babyTriggerItem: NamedApiResource?,
@@ -10,6 +12,7 @@ public data class EvolutionChain(
 )
 
 @Serializable
+@JsOnlyExport
 public data class ChainLink(
   val isBaby: Boolean,
   val species: NamedApiResource,
@@ -18,6 +21,7 @@ public data class ChainLink(
 )
 
 @Serializable
+@JsOnlyExport
 public data class EvolutionDetail(
   val trigger: NamedApiResource,
   val item: NamedApiResource? = null,
@@ -40,6 +44,7 @@ public data class EvolutionDetail(
 )
 
 @Serializable
+@JsOnlyExport
 public data class EvolutionTrigger(
   val id: Int,
   val name: String,

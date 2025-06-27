@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class Generation(
   val id: Int,
   val name: String,
@@ -16,6 +18,7 @@ public data class Generation(
 )
 
 @Serializable
+@JsOnlyExport
 public data class Pokedex(
   val id: Int,
   val name: String,
@@ -28,9 +31,11 @@ public data class Pokedex(
 )
 
 @Serializable
+@JsOnlyExport
 public data class PokemonEntry(val entryNumber: Int, val pokemonSpecies: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class Version(
   val id: Int,
   val name: String,
@@ -39,6 +44,7 @@ public data class Version(
 )
 
 @Serializable
+@JsOnlyExport
 public data class VersionGroup(
   val id: Int,
   val name: String,

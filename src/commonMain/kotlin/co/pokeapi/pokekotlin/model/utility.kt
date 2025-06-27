@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class Language(
   val id: Int,
   val name: String,
@@ -13,11 +15,15 @@ public data class Language(
 )
 
 @Serializable
+@JsOnlyExport
 public data class Description(val description: String, val language: NamedApiResource)
 
-@Serializable public data class Effect(val effect: String, val language: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class Effect(val effect: String, val language: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class Encounter(
   val minLevel: Int,
   val maxLevel: Int,
@@ -26,20 +32,27 @@ public data class Encounter(
   val method: NamedApiResource,
 )
 
-@Serializable public data class FlavorText(val flavorText: String, val language: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class FlavorText(val flavorText: String, val language: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class GenerationGameIndex(val gameIndex: Int, val generation: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class MachineVersionDetail(
   val machine: ApiResource,
   val versionGroup: NamedApiResource,
 )
 
-@Serializable public data class Name(val name: String, val language: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class Name(val name: String, val language: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class VerboseEffect(
   val effect: String,
   val shortEffect: String,
@@ -47,15 +60,19 @@ public data class VerboseEffect(
 )
 
 @Serializable
+@JsOnlyExport
 public data class VersionEncounterDetail(
   val version: NamedApiResource,
   val maxChance: Int,
   val encounterDetails: List<Encounter>,
 )
 
-@Serializable public data class VersionGameIndex(val gameIndex: Int, val version: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class VersionGameIndex(val gameIndex: Int, val version: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class VersionGroupFlavorText(
   val text: String,
   val language: NamedApiResource,

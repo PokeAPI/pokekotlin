@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class Berry(
   val id: Int,
   val name: String,
@@ -18,9 +20,12 @@ public data class Berry(
   val naturalGiftType: NamedApiResource,
 )
 
-@Serializable public data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class BerryFirmness(
   val id: Int,
   val name: String,
@@ -29,6 +34,7 @@ public data class BerryFirmness(
 )
 
 @Serializable
+@JsOnlyExport
 public data class BerryFlavor(
   val id: Int,
   val name: String,
@@ -37,4 +43,6 @@ public data class BerryFlavor(
   val names: List<Name>,
 )
 
-@Serializable public data class FlavorBerryMap(val potency: Int, val berry: NamedApiResource)
+@Serializable
+@JsOnlyExport
+public data class FlavorBerryMap(val potency: Int, val berry: NamedApiResource)

@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import kotlinx.serialization.Serializable
 
 @Serializable
+@JsOnlyExport
 public data class Item(
   val id: Int,
   val name: String,
@@ -21,18 +23,22 @@ public data class Item(
   val machines: List<MachineVersionDetail>,
 )
 
-@Serializable public data class ItemSprites(val default: String?)
+@Serializable @JsOnlyExport
+public data class ItemSprites(val default: String?)
 
 @Serializable
+@JsOnlyExport
 public data class ItemHolderPokemon(
   val pokemon: NamedApiResource,
   val versionDetails: List<ItemHolderPokemonVersionDetail>,
 )
 
 @Serializable
+@JsOnlyExport
 public data class ItemHolderPokemonVersionDetail(val rarity: Int, val version: NamedApiResource)
 
 @Serializable
+@JsOnlyExport
 public data class ItemAttribute(
   val id: Int,
   val name: String,
@@ -42,6 +48,7 @@ public data class ItemAttribute(
 )
 
 @Serializable
+@JsOnlyExport
 public data class ItemCategory(
   val id: Int,
   val name: String,
@@ -51,6 +58,7 @@ public data class ItemCategory(
 )
 
 @Serializable
+@JsOnlyExport
 public data class ItemFlingEffect(
   val id: Int,
   val name: String,
@@ -59,6 +67,7 @@ public data class ItemFlingEffect(
 )
 
 @Serializable
+@JsOnlyExport
 public data class ItemPocket(
   val id: Int,
   val name: String,

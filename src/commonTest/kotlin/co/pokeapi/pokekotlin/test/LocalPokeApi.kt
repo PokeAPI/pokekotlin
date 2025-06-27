@@ -1,15 +1,16 @@
 package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.PokeApi
+import co.pokeapi.pokekotlin.createPokeApi
 import co.pokeapi.pokekotlin.internal.PokeApiJson
 import co.pokeapi.pokekotlin.model.ApiResourceList
 import co.pokeapi.pokekotlin.model.NamedApiResourceList
-import io.ktor.client.plugins.api.createClientPlugin
-import io.ktor.client.statement.request
-import io.ktor.utils.io.readBuffer
-import kotlin.math.min
+import io.ktor.client.plugins.api.*
+import io.ktor.client.statement.*
+import io.ktor.utils.io.*
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.io.decodeFromSource
+import kotlin.math.min
 
 @OptIn(ExperimentalSerializationApi::class)
 private val OffsetLimitPlugin =
@@ -42,4 +43,6 @@ private val OffsetLimitPlugin =
   }
 
 object LocalPokeApi :
-  PokeApi by (PokeApi(baseUrl = "http://localhost:8080/api/v2/") { install(OffsetLimitPlugin) })
+  PokeApi by (createPokeApi(baseUrl = "http://localhost:8080/api/v2/") {
+    install(OffsetLimitPlugin)
+  })

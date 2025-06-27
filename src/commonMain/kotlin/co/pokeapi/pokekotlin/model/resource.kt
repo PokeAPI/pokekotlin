@@ -1,8 +1,10 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.DelegatingSerializer
-import kotlinx.serialization.KSerializer
+import co.pokeapi.pokekotlin.internal.ApiResourceSerializer
+import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.NamedApiResourceSerializer
 import kotlinx.serialization.Serializable
+import kotlin.js.JsName
 
 private fun urlToId(url: String): Int {
   return "/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
@@ -16,31 +18,26 @@ private fun resourceUrl(id: Int, category: String): String {
   return "/api/v2/$category/$id/"
 }
 
+@JsOnlyExport
 public interface ResourceSummary {
   public val id: Int
   public val category: String
 }
 
-@Serializable(with = ApiResource.Serializer::class)
+@Serializable(with = ApiResourceSerializer::class)
+@JsOnlyExport
 public data class ApiResource(val url: String) : ResourceSummary {
-  public constructor(category: String, id: Int) : this(resourceUrl(id, category))
+  @JsName("create") public constructor(category: String, id: Int) : this(resourceUrl(id, category))
 
   override val category: String by lazy { urlToCat(url) }
   override val id: Int by lazy { urlToId(url) }
-
-  internal class Serializer :
-    KSerializer<ApiResource> by DelegatingSerializer(
-      serialName = "co.pokeapi.pokekotlin.model.ApiResource",
-      delegate = Delegate.serializer(),
-      fromDelegate = { ApiResource(url = it.url) },
-      toDelegate = { Delegate(url = it.url) },
-    ) {
-    @Serializable internal data class Delegate(val url: String)
-  }
 }
 
-@Serializable(with = NamedApiResource.Serializer::class)
+@Serializable(with = NamedApiResourceSerializer::class)
+@JsOnlyExport
 public data class NamedApiResource(val name: String, val url: String) : ResourceSummary {
+
+  @JsName("create")
   public constructor(
     name: String,
     category: String,
@@ -49,18 +46,9 @@ public data class NamedApiResource(val name: String, val url: String) : Resource
 
   override val category: String by lazy { urlToCat(url) }
   override val id: Int by lazy { urlToId(url) }
-
-  internal class Serializer :
-    KSerializer<NamedApiResource> by DelegatingSerializer(
-      serialName = "co.pokeapi.pokekotlin.model.NamedApiResource",
-      delegate = Delegate.serializer(),
-      fromDelegate = { NamedApiResource(name = it.name, url = it.url) },
-      toDelegate = { Delegate(name = it.name, url = it.url) },
-    ) {
-    @Serializable internal data class Delegate(val name: String, val url: String)
-  }
 }
 
+@JsOnlyExport
 public interface ResourceSummaryList<out T : ResourceSummary> {
   public val count: Int
   public val next: String?
@@ -69,6 +57,7 @@ public interface ResourceSummaryList<out T : ResourceSummary> {
 }
 
 @Serializable
+@JsOnlyExport
 public data class ApiResourceList(
   override val count: Int,
   override val next: String?,
@@ -77,6 +66,7 @@ public data class ApiResourceList(
 ) : ResourceSummaryList<ApiResource>
 
 @Serializable
+@JsOnlyExport
 public data class NamedApiResourceList(
   override val count: Int,
   override val next: String?,
