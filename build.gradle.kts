@@ -162,9 +162,7 @@ dokka {
         localDirectory.set(rootDir)
       }
       externalDocumentationLinks { create("ktor") { url("https://api.ktor.io/") } }
-      suppressedFiles.from(
-        "build/generated/ksp/metadata/commonMain/kotlin/co/pokeapi/pokekotlin/_PokeApiImpl.kt"
-      )
+      suppressedFiles.from("build/generated/ksp/")
     }
   }
 }
@@ -199,12 +197,16 @@ tasks.register("generateDocs") {
 
 spotless {
   kotlinGradle {
-    target("*.gradle.kts")
+    target("*.gradle.kts", "demo-app/*.gradle.kts")
     ktfmt().googleStyle()
   }
   kotlin {
-    target("src/**/*.kt")
+    target("src/**/*.kt", "demo-app/src/**/*.kt")
     ktfmt().googleStyle()
+  }
+  java {
+    target("src/**/*.java", "demo-app/src/**/*.java")
+    googleJavaFormat()
   }
   format("markdown") {
     target("*.md", "docs/**/*.md")
