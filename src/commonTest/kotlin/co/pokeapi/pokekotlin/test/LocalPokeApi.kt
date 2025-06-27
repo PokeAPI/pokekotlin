@@ -8,9 +8,9 @@ import co.pokeapi.pokekotlin.model.NamedApiResourceList
 import io.ktor.client.plugins.api.*
 import io.ktor.client.statement.*
 import io.ktor.utils.io.*
+import kotlin.math.min
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.io.decodeFromSource
-import kotlin.math.min
 
 @OptIn(ExperimentalSerializationApi::class)
 private val OffsetLimitPlugin =

@@ -3,12 +3,12 @@ package co.pokeapi.pokekotlin.test
 import co.pokeapi.pokekotlin.js.PokeApiJs
 import io.ktor.client.plugins.*
 import io.ktor.http.*
-import kotlinx.coroutines.await
-import kotlinx.coroutines.test.runTest
 import kotlin.js.Promise
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
+import kotlinx.coroutines.await
+import kotlinx.coroutines.test.runTest
 
 @Suppress("UnusedVariable", "unused")
 class LiveJsTest {

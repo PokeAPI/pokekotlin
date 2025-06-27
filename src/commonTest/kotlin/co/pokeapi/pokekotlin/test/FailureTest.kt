@@ -3,11 +3,11 @@ package co.pokeapi.pokekotlin.test
 import co.pokeapi.pokekotlin.createPokeApi
 import io.ktor.client.plugins.*
 import io.ktor.http.HttpStatusCode.Companion.NotFound
-import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertIs
 import kotlin.test.assertNotNull
+import kotlinx.coroutines.test.runTest
 
 class FailureTest {
   @Test

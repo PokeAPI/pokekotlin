@@ -8,8 +8,8 @@ import co.pokeapi.pokekotlin.model.*
 import de.jensklingenberg.ktorfit.http.GET
 import de.jensklingenberg.ktorfit.http.Path
 import de.jensklingenberg.ktorfit.http.Query
-import kotlinx.coroutines.GlobalScope
 import kotlin.js.Promise
+import kotlinx.coroutines.GlobalScope
 
 @JsOnlyExport
 @JsName("createPokeApi")

@@ -3,8 +3,8 @@ package co.pokeapi.pokekotlin.model
 import co.pokeapi.pokekotlin.internal.ApiResourceSerializer
 import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import co.pokeapi.pokekotlin.internal.NamedApiResourceSerializer
-import kotlinx.serialization.Serializable
 import kotlin.js.JsName
+import kotlinx.serialization.Serializable
 
 private fun urlToId(url: String): Int {
   return "/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()

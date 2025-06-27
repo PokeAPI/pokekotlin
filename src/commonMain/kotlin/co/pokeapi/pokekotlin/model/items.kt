@@ -23,8 +23,7 @@ public data class Item(
   val machines: List<MachineVersionDetail>,
 )
 
-@Serializable @JsOnlyExport
-public data class ItemSprites(val default: String?)
+@Serializable @JsOnlyExport public data class ItemSprites(val default: String?)
 
 @Serializable
 @JsOnlyExport

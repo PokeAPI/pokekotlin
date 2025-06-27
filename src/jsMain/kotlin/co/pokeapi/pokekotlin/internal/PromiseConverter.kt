@@ -5,10 +5,10 @@ import de.jensklingenberg.ktorfit.converter.Converter
 import de.jensklingenberg.ktorfit.converter.KtorfitResult
 import de.jensklingenberg.ktorfit.converter.TypeData
 import io.ktor.client.statement.*
+import kotlin.js.Promise
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.promise
-import kotlin.js.Promise
 
 internal class PromiseConverter(typeData: TypeData, private val scope: CoroutineScope) :
   Converter.ResponseConverter<HttpResponse, Promise<*>> {
