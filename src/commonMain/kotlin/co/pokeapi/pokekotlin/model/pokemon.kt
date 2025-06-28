@@ -1,6 +1,7 @@
 package co.pokeapi.pokekotlin.model
 
 import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -167,11 +168,101 @@ public data class PokemonSprites(
   val backShinyFemale: String?,
   val frontFemale: String?,
   val frontShinyFemale: String?,
-  val other: Map<String, GameSprites>,
-  val versions: Map<String, Map<String, GameSprites>>,
+  val other: OtherGameSprites,
+  val versions: VersionGameSprites,
 )
 
 @Serializable
+@JsOnlyExport
+public data class OtherGameSprites(
+  val dreamWorld: GameSprites,
+  val home: GameSprites,
+  @SerialName("official-artwork") val officialArtwork: GameSprites,
+  val showdown: GameSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class VersionGameSprites(
+  @SerialName("generation-i") val generationI: GenerationIGameSprites,
+  @SerialName("generation-ii") val generationIi: GenerationIiGameSprites,
+  @SerialName("generation-iii") val generationIii: GenerationIiiGameSprites,
+  @SerialName("generation-iv") val generationIv: GenerationIvGameSprites,
+  @SerialName("generation-v") val generationV: GenerationVGameSprites,
+  @SerialName("generation-vi") val generationVi: GenerationViGameSprites,
+  @SerialName("generation-vii") val generationVii: GenerationViiGameSprites,
+  @SerialName("generation-viii") val generationViii: GenerationViiiGameSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationIGameSprites(
+  @SerialName("red-blue") val redBlue: GameSprites,
+  val yellow: GameSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationIiGameSprites(
+  val crystal: GameSprites,
+  val gold: GameSprites,
+  val silver: GameSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationIiiGameSprites(
+  val emerald: GameSprites,
+  @SerialName("firered-leafgreen") val fireredLeafgreen: GameSprites,
+  @SerialName("ruby-sapphire") val rubySapphire: GameSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationIvGameSprites(
+  @SerialName("diamond-pearl") val diamondPearl: GameSprites,
+  @SerialName("heartgold-soulsilver") val heartgoldSoulsilver: GameSprites,
+  val platinum: GameSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationVGameSprites(
+  @SerialName("black-white") val blackWhite: BlackWhiteSprites
+)
+
+@Serializable
+@JsOnlyExport
+public data class BlackWhiteSprites(
+  val animated: GameSprites,
+  val backDefault: String? = null,
+  val backFemale: String? = null,
+  val backShiny: String? = null,
+  val backShinyFemale: String? = null,
+  val frontDefault: String? = null,
+  val frontFemale: String? = null,
+  val frontShiny: String? = null,
+  val frontShinyFemale: String? = null,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationViGameSprites(
+  @SerialName("omegaruby-alphasapphire") val omegaRubyAlphaSapphire: GameSprites,
+  @SerialName("x-y") val xY: GameSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationViiGameSprites(
+  val icons: GameSprites,
+  @SerialName("ultra-sun-ultra-moon") val ultraSunUltraMoon: GameSprites,
+)
+
+@Serializable @JsOnlyExport public data class GenerationViiiGameSprites(val icons: GameSprites)
+
+@Serializable
+@JsOnlyExport
 public data class GameSprites(
   val animated: GameSprites? = null,
   val backDefault: String? = null,
@@ -421,10 +512,77 @@ public data class Type(
   val names: List<Name>,
   val pokemon: List<TypePokemon>,
   val moves: List<NamedApiResource>,
-  val sprites: Map<String, Map<String, TypeSprites>>,
+  val sprites: VersionTypeSprites,
 )
 
-@Serializable public data class TypeSprites(val nameIcon: String?)
+@Serializable
+@JsOnlyExport
+public data class VersionTypeSprites(
+  @SerialName("generation-iii") val generationIii: GenerationIiiTypeSprites,
+  @SerialName("generation-iv") val generationIv: GenerationIvTypeSprites,
+  @SerialName("generation-v") val generationV: GenerationVTypeSprites,
+  @SerialName("generation-vi") val generationVi: GenerationViTypeSprites,
+  @SerialName("generation-vii") val generationVii: GenerationViiTypeSprites,
+  @SerialName("generation-viii") val generationViii: GenerationViiiTypeSprites,
+  @SerialName("generation-ix") val generationIx: GenerationIxTypeSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationIiiTypeSprites(
+  val colosseum: TypeSprites,
+  val emerald: TypeSprites,
+  @SerialName("firered-leafgreen") val fireredLeafgreen: TypeSprites,
+  @SerialName("ruby-saphire") val rubySaphire: TypeSprites,
+  val xd: TypeSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationIvTypeSprites(
+  @SerialName("diamond-pearl") val diamondPearl: TypeSprites,
+  @SerialName("heartgold-soulsilver") val heartgoldSoulsilver: TypeSprites,
+  val platinum: TypeSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationVTypeSprites(
+  @SerialName("black-2-white-2") val black2White2: TypeSprites,
+  @SerialName("black-white") val blackWhite: TypeSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationViTypeSprites(
+  @SerialName("omega-ruby-alpha-sapphire") val omegaRubyAlphaSapphire: TypeSprites,
+  @SerialName("x-y") val xY: TypeSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationViiTypeSprites(
+  @SerialName("lets-go-pikachu-lets-go-eevee") val letsGoPikachuLetsGoEevee: TypeSprites,
+  @SerialName("sun-moon") val sunMoon: TypeSprites,
+  @SerialName("ultra-sun-ultra-moon") val ultraSunUltraMoon: TypeSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationViiiTypeSprites(
+  @SerialName("brilliant-diamond-and-shining-pearl")
+  val brilliantDiamondAndShiningPearl: TypeSprites,
+  @SerialName("legends-arceus") val legendsArceus: TypeSprites,
+  @SerialName("sword-shield") val swordShield: TypeSprites,
+)
+
+@Serializable
+@JsOnlyExport
+public data class GenerationIxTypeSprites(
+  @SerialName("scarlet-violet") val scarletViolet: TypeSprites
+)
+
+@Serializable @JsOnlyExport public data class TypeSprites(val nameIcon: String?)
 
 @Serializable
 @JsOnlyExport
