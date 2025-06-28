@@ -187,6 +187,7 @@ class PokemonTest {
               levelLearnedAt = 0,
               versionGroup = NamedApiResource("gold-silver", "version-group", 3),
               moveLearnMethod = NamedApiResource("egg", "move-learn-method", 2),
+              order = null,
             ) in it.versionGroupDetails
         }
       )
