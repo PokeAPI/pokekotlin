@@ -2,11 +2,15 @@ package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.model.ResourceSummary
 import co.pokeapi.pokekotlin.model.ResourceSummaryList
+import kotlin.math.min
 import kotlin.test.Test
 import kotlin.test.fail
 import kotlinx.coroutines.test.runTest
 
-@IgnoreOnJvm // Should work on JVM but it's OOMing.
+private const val FIRST_N = 100
+private const val LAST_N = 100
+private const val MIDDLE_N = 100
+
 class BulkTest {
 
   private suspend fun testCase(cat: String, id: Int, getObject: suspend (Int) -> Any) {
@@ -24,7 +28,21 @@ class BulkTest {
     getObject: suspend (Int) -> O,
   ) {
     val list = getList(0, getList(0, 0).count).results
-    list.forEach { testCase(list[0].category, it.id, getObject) }
+    val category = list[0].category
+
+    list.take(FIRST_N).forEach { testCase(category, it.id, getObject) }
+
+    if (list.size > FIRST_N + LAST_N) {
+      val n = min(MIDDLE_N, list.size - FIRST_N - LAST_N)
+      list.drop(FIRST_N).dropLast(LAST_N).shuffled().take(n).forEach {
+        testCase(category, it.id, getObject)
+      }
+    }
+
+    if (list.size > FIRST_N) {
+      val n = min(LAST_N, list.size - FIRST_N)
+      list.takeLast(n).forEach { testCase(category, it.id, getObject) }
+    }
   }
 
   @Test
