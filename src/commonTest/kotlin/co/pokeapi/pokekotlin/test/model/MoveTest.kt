@@ -12,7 +12,7 @@ class MoveTest {
 
   @Test
   fun getMove1() = runTest {
-    LocalPokeApi.getMove(34).getOrThrow().apply {
+    LocalPokeApi.getMove(34).apply {
       assertEquals(34, id)
       assertEquals("body-slam", name)
       assertEquals(100, accuracy)
@@ -80,7 +80,7 @@ class MoveTest {
 
   @Test
   fun getMove2() = runTest {
-    LocalPokeApi.getMove(400).getOrThrow().apply {
+    LocalPokeApi.getMove(400).apply {
       assertEquals(
         ContestComboSets(
           normalSet = ContestComboDetail(null, null),
@@ -93,7 +93,7 @@ class MoveTest {
 
   @Test
   fun getMove3() = runTest {
-    LocalPokeApi.getMove(16).getOrThrow().apply {
+    LocalPokeApi.getMove(16).apply {
       assertNotNull(
         effectChanges.find {
           it.versionGroup == NamedApiResource("gold-silver", "version-group", 3) &&
@@ -108,7 +108,7 @@ class MoveTest {
 
   @Test
   fun getMove4() = runTest {
-    LocalPokeApi.getMove(14).getOrThrow().apply {
+    LocalPokeApi.getMove(14).apply {
       assertContains(
         statChanges,
         MoveStatChange(change = 2, stat = NamedApiResource("attack", "stat", 2)),
@@ -118,7 +118,7 @@ class MoveTest {
 
   @Test
   fun getMove5() = runTest {
-    LocalPokeApi.getMove(2).getOrThrow().apply {
+    LocalPokeApi.getMove(2).apply {
       assertContains(
         pastValues,
         PastMoveStatValues(
@@ -136,7 +136,7 @@ class MoveTest {
 
   @Test
   fun getMoveAilment() = runTest {
-    LocalPokeApi.getMoveAilment(1).getOrThrow().apply {
+    LocalPokeApi.getMoveAilment(1).apply {
       assertEquals(1, id)
       assertEquals("paralysis", name)
       assertContains(
@@ -149,7 +149,7 @@ class MoveTest {
 
   @Test
   fun getMoveBattleStyle() = runTest {
-    LocalPokeApi.getMoveBattleStyle(1).getOrThrow().apply {
+    LocalPokeApi.getMoveBattleStyle(1).apply {
       assertEquals(1, id)
       assertEquals("attack", name)
       assertContains(names, Name(name = "Attack", language = NamedApiResource("en", "language", 9)))
@@ -158,7 +158,7 @@ class MoveTest {
 
   @Test
   fun getMoveCategory() = runTest {
-    LocalPokeApi.getMoveCategory(1).getOrThrow().apply {
+    LocalPokeApi.getMoveCategory(1).apply {
       assertEquals(1, id)
       assertEquals("ailment", name)
       assertContains(
@@ -174,7 +174,7 @@ class MoveTest {
 
   @Test
   fun getMoveDamageClass() = runTest {
-    LocalPokeApi.getMoveDamageClass(1).getOrThrow().apply {
+    LocalPokeApi.getMoveDamageClass(1).apply {
       assertEquals(1, id)
       assertEquals("status", name)
       assertContains(names, Name(name = "status", language = NamedApiResource("en", "language", 9)))
@@ -188,7 +188,7 @@ class MoveTest {
 
   @Test
   fun getMoveLearnMethod() = runTest {
-    LocalPokeApi.getMoveLearnMethod(10).getOrThrow().apply {
+    LocalPokeApi.getMoveLearnMethod(10).apply {
       assertEquals(10, id)
       assertEquals("form-change", name)
       assertContains(
@@ -211,7 +211,7 @@ class MoveTest {
 
   @Test
   fun getMoveTarget() = runTest {
-    LocalPokeApi.getMoveTarget(8).getOrThrow().apply {
+    LocalPokeApi.getMoveTarget(8).apply {
       assertEquals(8, id)
       assertEquals("random-opponent", name)
       assertContains(

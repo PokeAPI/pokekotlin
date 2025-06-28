@@ -12,7 +12,7 @@ class EncounterTest {
 
   @Test
   fun getEncounterMethod() = runTest {
-    LocalPokeApi.getEncounterMethod(5).getOrThrow().apply {
+    LocalPokeApi.getEncounterMethod(5).apply {
       assertEquals(5, id)
       assertEquals("surf", name)
       assertEquals(14, order)
@@ -25,7 +25,7 @@ class EncounterTest {
 
   @Test
   fun getEncounterCondition() = runTest {
-    LocalPokeApi.getEncounterCondition(5).getOrThrow().apply {
+    LocalPokeApi.getEncounterCondition(5).apply {
       assertEquals(5, id)
       assertEquals("radio", name)
       assertContains(values, NamedApiResource("radio-hoenn", "encounter-condition-value", 15))
@@ -35,7 +35,7 @@ class EncounterTest {
 
   @Test
   fun getEncounterConditionValue() = runTest {
-    LocalPokeApi.getEncounterConditionValue(5).getOrThrow().apply {
+    LocalPokeApi.getEncounterConditionValue(5).apply {
       assertEquals(5, id)
       assertEquals("time-night", name)
       assertEquals(NamedApiResource("time", "encounter-condition", 2), condition)

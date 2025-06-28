@@ -12,7 +12,7 @@ class UtilityTest {
 
   @Test
   fun getLanguage() = runTest {
-    LocalPokeApi.getLanguage(9).getOrThrow().apply {
+    LocalPokeApi.getLanguage(9).apply {
       assertEquals(9, id)
       assertEquals("us", iso3166)
       assertEquals("en", iso639)

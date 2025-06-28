@@ -9,13 +9,12 @@ ktor = "3.1.3"
 gradle-android = "8.7.2"
 gradle-compose = "1.8.1"
 gradle-kotlin = "2.1.21"
-gradle-ksp = "2.1.21-2.0.1" # first part is Kotlin version
-gradle-ktorfit = "2.5.2"
 gradle-dokka = "2.0.0"
 gradle-jgitver = "0.10.0-rc03"
 gradle-mavenPublish = "0.32.0"
 gradle-mkdocs = "4.0.1"
 gradle-spotless = "7.0.4"
+gradle-suspendTransformCompiler = "2.1.20-0.12.0"
 tool-prettier = "3.5.3"
 
 [libraries]
@@ -26,7 +25,6 @@ kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
 kotlinx-io = { module = "org.jetbrains.kotlinx:kotlinx-io-core", version.ref = "kotlinx-io" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
-ktorfit = { module = "de.jensklingenberg.ktorfit:ktorfit-lib", version.ref = "gradle-ktorfit" }
 ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
 ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
 ktor-client-winhttp = { module = "io.ktor:ktor-client-winhttp", version.ref = "ktor" }
@@ -44,8 +42,7 @@ jgitver = { id = "fr.brouillard.oss.gradle.jgitver", version.ref = "gradle-jgitv
 kotlin-composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "gradle-kotlin" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "gradle-kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "gradle-kotlin" }
-ksp = { id = "com.google.devtools.ksp", version.ref = "gradle-ksp" }
-ktorfit = { id = "de.jensklingenberg.ktorfit", version.ref = "gradle-ktorfit" }
 mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "gradle-mavenPublish" }
 mkdocs = { id = "ru.vyarus.mkdocs-build", version.ref = "gradle-mkdocs" }
 spotless = { id = "com.diffplug.spotless", version.ref = "gradle-spotless" }
+suspendTransformCompiler = { id = "love.forte.plugin.suspend-transform", version.ref = "gradle-suspendTransformCompiler" }

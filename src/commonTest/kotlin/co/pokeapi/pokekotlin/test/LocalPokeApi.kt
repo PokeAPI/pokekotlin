@@ -1,7 +1,6 @@
 package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.PokeApi
-import co.pokeapi.pokekotlin.createPokeApi
 import co.pokeapi.pokekotlin.internal.PokeApiJson
 import co.pokeapi.pokekotlin.model.ApiResourceList
 import co.pokeapi.pokekotlin.model.NamedApiResourceList
@@ -42,7 +41,5 @@ private val OffsetLimitPlugin =
     }
   }
 
-object LocalPokeApi :
-  PokeApi by (createPokeApi(baseUrl = "http://localhost:8080/api/v2/") {
-    install(OffsetLimitPlugin)
-  })
+val LocalPokeApi =
+  PokeApi.Custom(baseUrl = "http://localhost:8080/api/v2/") { install(OffsetLimitPlugin) }

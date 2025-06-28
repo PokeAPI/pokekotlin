@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.test
 
-import co.pokeapi.pokekotlin.js.PokeApiJs
+import co.pokeapi.pokekotlin.PokeApi
 import io.ktor.client.plugins.*
 import io.ktor.http.*
 import kotlin.js.Promise
@@ -12,15 +12,15 @@ import kotlinx.coroutines.test.runTest
 
 @Suppress("UnusedVariable", "unused")
 class LiveJsTest {
-  private val client: PokeApiJs =
-    js("require('./pokekotlin.js').co.pokeapi.pokekotlin.js.createPokeApi()")
+  private val client: PokeApi =
+    js("require('./pokekotlin.js').co.pokeapi.pokekotlin.PokeApi.Default")
 
   @Test
   fun resource() = runTest {
     val client = client
     assertEquals(
       "sitrus",
-      js("client.getBerry(10).then(function (it) { return it.name; })")
+      js("client.getBerryAsync(10).then(function (it) { return it.name; })")
         .unsafeCast<Promise<String>>()
         .await(),
     )
@@ -30,17 +30,17 @@ class LiveJsTest {
   fun list() = runTest {
     val client = client
 
-    val move1 =
-      js("client.getMoveList(0, 50).then(function (it) { return it.results[25]; })")
+    val berry1 =
+      js("client.getBerryListAsync(0, 10).then(function (it) { return it.results[5]; })")
         .unsafeCast<Promise<*>>()
         .await()
 
-    val move2 =
-      js("client.getMoveList(25, 50).then(function (it) { return it.results[0]; })")
+    val berry2 =
+      js("client.getBerryListAsync(5, 15).then(function (it) { return it.results[0]; })")
         .unsafeCast<Promise<*>>()
         .await()
 
-    assertEquals(move1, move2)
+    assertEquals(berry1, berry2)
   }
 
   @Test
@@ -49,7 +49,7 @@ class LiveJsTest {
 
     val exception =
       assertFailsWith<ClientRequestException> {
-        js("client.getMove(-1)").unsafeCast<Promise<*>>().await()
+        js("client.getMoveAsync(-1)").unsafeCast<Promise<*>>().await()
       }
 
     assertEquals(HttpStatusCode.NotFound, exception.response.status)

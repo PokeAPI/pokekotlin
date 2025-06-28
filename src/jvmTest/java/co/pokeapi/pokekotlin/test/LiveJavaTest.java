@@ -1,36 +1,34 @@
 package co.pokeapi.pokekotlin.test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
-
-import co.pokeapi.pokekotlin.java.PokeApi;
+import co.pokeapi.pokekotlin.PokeApi;
 import io.ktor.client.plugins.ClientRequestException;
 import io.ktor.http.HttpStatusCode;
 import java.util.concurrent.ExecutionException;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class LiveJavaTest {
 
   @Test
   public void resource() throws ExecutionException, InterruptedException {
-    assertEquals("sitrus", PokeApi.getDefault().getBerryAsync(10).get().getName());
+    Assert.assertEquals("sitrus", PokeApi.Default.getBerryAsync(10).get().getName());
   }
 
   @Test
   public void list() throws ExecutionException, InterruptedException {
-    assertEquals(
-        PokeApi.getDefault().getMoveListAsync(0, 50).get().getResults().get(25),
-        PokeApi.getDefault().getMoveListAsync(25, 50).get().getResults().get(0));
+    Assert.assertEquals(
+        PokeApi.Default.getBerryListAsync(0, 10).get().getResults().get(5),
+        PokeApi.Default.getBerryListAsync(5, 15).get().getResults().get(0));
   }
 
   @Test
   public void notFound() {
     var exception =
-        assertThrows(ExecutionException.class, () -> PokeApi.getDefault().getMoveAsync(-1).get());
+        Assert.assertThrows(ExecutionException.class, () -> PokeApi.Default.getMoveAsync(-1).get());
 
-    assertEquals(ClientRequestException.class, exception.getCause().getClass());
+    Assert.assertEquals(ClientRequestException.class, exception.getCause().getClass());
 
     var cause = (ClientRequestException) exception.getCause();
-    assertEquals(HttpStatusCode.Companion.getNotFound(), cause.getResponse().getStatus());
+    Assert.assertEquals(HttpStatusCode.Companion.getNotFound(), cause.getResponse().getStatus());
   }
 }

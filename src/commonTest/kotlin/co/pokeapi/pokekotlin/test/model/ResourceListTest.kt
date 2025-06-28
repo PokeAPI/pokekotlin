@@ -5,11 +5,7 @@ import co.pokeapi.pokekotlin.model.ApiResourceList
 import co.pokeapi.pokekotlin.model.NamedApiResource
 import co.pokeapi.pokekotlin.model.NamedApiResourceList
 import co.pokeapi.pokekotlin.test.LocalPokeApi
-import kotlin.test.Test
-import kotlin.test.assertContains
-import kotlin.test.assertEquals
-import kotlin.test.assertNotEquals
-import kotlin.test.assertTrue
+import kotlin.test.*
 import kotlinx.coroutines.test.runTest
 
 class ResourceListTest {
@@ -20,9 +16,9 @@ class ResourceListTest {
     category: String,
     id: Int,
     name: String,
-    call: suspend () -> Result<NamedApiResourceList>,
+    call: suspend () -> NamedApiResourceList,
   ) {
-    call().getOrThrow().apply {
+    call().apply {
       assertTrue(results.size <= pageSize, "Actual count: ${results.size}, pageSize: $pageSize")
       if (pageSize >= count) {
         assertEquals(count, results.size)
@@ -42,12 +38,8 @@ class ResourceListTest {
     }
   }
 
-  private suspend fun testCase(
-    category: String,
-    id: Int,
-    call: suspend () -> Result<ApiResourceList>,
-  ) {
-    call().getOrThrow().apply {
+  private suspend fun testCase(category: String, id: Int, call: suspend () -> ApiResourceList) {
+    call().apply {
       assertTrue(results.size <= pageSize)
       if (pageSize >= count) {
         assertEquals(count, results.size)

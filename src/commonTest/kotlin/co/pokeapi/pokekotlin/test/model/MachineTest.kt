@@ -10,7 +10,7 @@ class MachineTest {
 
   @Test
   fun getMachine() = runTest {
-    LocalPokeApi.getMachine(18).getOrThrow().apply {
+    LocalPokeApi.getMachine(18).apply {
       assertEquals(18, id)
       assertEquals(NamedApiResource("tm01", "item", 305), item)
       assertEquals(NamedApiResource("work-up", "move", 526), move)

@@ -14,7 +14,7 @@ class ContestTest {
 
   @Test
   fun getContestType() = runTest {
-    LocalPokeApi.getContestType(4).getOrThrow().apply {
+    LocalPokeApi.getContestType(4).apply {
       assertEquals(4, id)
       assertEquals("smart", name)
       assertEquals(NamedApiResource("bitter", "berry-flavor", 4), berryFlavor)
@@ -31,7 +31,7 @@ class ContestTest {
 
   @Test
   fun getContestEffect() = runTest {
-    LocalPokeApi.getContestEffect(27).getOrThrow().apply {
+    LocalPokeApi.getContestEffect(27).apply {
       assertEquals(27, id)
       assertEquals(2, appeal)
       assertEquals(0, jam)
@@ -54,7 +54,7 @@ class ContestTest {
 
   @Test
   fun getSuperContestEffect() = runTest {
-    LocalPokeApi.getSuperContestEffect(14).getOrThrow().apply {
+    LocalPokeApi.getSuperContestEffect(14).apply {
       assertEquals(14, id)
       assertEquals(2, appeal)
       assertContains(

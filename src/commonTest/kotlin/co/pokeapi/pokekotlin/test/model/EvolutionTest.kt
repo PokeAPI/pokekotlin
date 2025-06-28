@@ -15,7 +15,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain1() = runTest {
-    LocalPokeApi.getEvolutionChain(1).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(1).apply {
       assertEquals(1, id)
       assertEquals(null, babyTriggerItem)
       assertEquals(
@@ -60,7 +60,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain2() = runTest {
-    LocalPokeApi.getEvolutionChain(109).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(109).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -77,7 +77,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain3() = runTest {
-    LocalPokeApi.getEvolutionChain(67).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -93,7 +93,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain4() = runTest {
-    LocalPokeApi.getEvolutionChain(67).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -109,7 +109,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain5() = runTest {
-    LocalPokeApi.getEvolutionChain(67).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -126,7 +126,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain6() = runTest {
-    LocalPokeApi.getEvolutionChain(67).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(67).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -143,7 +143,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain7() = runTest {
-    LocalPokeApi.getEvolutionChain(112).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(112).apply {
       assertContains(
         chain.evolvesTo[0].evolvesTo[0].evolutionDetails,
         EvolutionDetail(
@@ -156,7 +156,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain8() = runTest {
-    LocalPokeApi.getEvolutionChain(213).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(213).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -173,7 +173,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain9() = runTest {
-    LocalPokeApi.getEvolutionChain(178).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(178).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -189,7 +189,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain10() = runTest {
-    LocalPokeApi.getEvolutionChain(346).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(346).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -206,7 +206,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain11() = runTest {
-    LocalPokeApi.getEvolutionChain(47).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(47).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -223,7 +223,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain12() = runTest {
-    LocalPokeApi.getEvolutionChain(362).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(362).apply {
       assertNotNull(
         chain.evolvesTo[0].evolvesTo.find {
           it.evolutionDetails.contains(
@@ -240,7 +240,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain13() = runTest {
-    LocalPokeApi.getEvolutionChain(352).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(352).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -257,7 +257,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain14() = runTest {
-    LocalPokeApi.getEvolutionChain(116).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(116).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -273,7 +273,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain15() = runTest {
-    LocalPokeApi.getEvolutionChain(312).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(312).apply {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
@@ -289,7 +289,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionChain16() = runTest {
-    LocalPokeApi.getEvolutionChain(72).getOrThrow().apply {
+    LocalPokeApi.getEvolutionChain(72).apply {
       assertEquals(NamedApiResource("full-incense", "item", 293), babyTriggerItem)
       assertEquals(true, chain.isBaby)
     }
@@ -297,7 +297,7 @@ class EvolutionTest {
 
   @Test
   fun getEvolutionTrigger() = runTest {
-    LocalPokeApi.getEvolutionTrigger(1).getOrThrow().apply {
+    LocalPokeApi.getEvolutionTrigger(1).apply {
       assertEquals(1, id)
       assertEquals("level-up", name)
       assertContains(

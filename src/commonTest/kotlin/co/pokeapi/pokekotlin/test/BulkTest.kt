@@ -2,13 +2,11 @@ package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.model.ResourceSummary
 import co.pokeapi.pokekotlin.model.ResourceSummaryList
-import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.fail
 import kotlinx.coroutines.test.runTest
 
-// @IgnoreOnJvm // Should work on JVM but it's OOMing.
-@Ignore
+@IgnoreOnJvm // Should work on JVM but it's OOMing.
 class BulkTest {
 
   private suspend fun testCase(cat: String, id: Int, getObject: suspend (Int) -> Any) {
@@ -21,11 +19,11 @@ class BulkTest {
     }
   }
 
-  private suspend fun <T : ResourceSummary> testEach(
-    getList: suspend (Int, Int) -> Result<ResourceSummaryList<T>>,
-    getObject: suspend (Int) -> Result<Any>,
+  private suspend fun <S : ResourceSummary, O : Any> testEach(
+    getList: suspend (Int, Int) -> ResourceSummaryList<S>,
+    getObject: suspend (Int) -> O,
   ) {
-    val list = getList(0, getList(0, 0).getOrThrow().count).getOrThrow().results
+    val list = getList(0, getList(0, 0).count).results
     list.forEach { testCase(list[0].category, it.id, getObject) }
   }
 

@@ -14,7 +14,7 @@ class GameTest {
 
   @Test
   fun getGeneration() = runTest {
-    LocalPokeApi.getGeneration(6).getOrThrow().apply {
+    LocalPokeApi.getGeneration(6).apply {
       assertEquals(6, id)
       assertEquals("generation-vi", name)
       assertContains(abilities, NamedApiResource("primordial-sea", "ability", 189))
@@ -32,7 +32,7 @@ class GameTest {
 
   @Test
   fun getPokedex() = runTest {
-    LocalPokeApi.getPokedex(12).getOrThrow().apply {
+    LocalPokeApi.getPokedex(12).apply {
       assertEquals(12, id)
       assertEquals("kalos-central", name)
       assertEquals(true, isMainSeries)
@@ -58,7 +58,7 @@ class GameTest {
 
   @Test
   fun getVersion() = runTest {
-    LocalPokeApi.getVersion(9).getOrThrow().apply {
+    LocalPokeApi.getVersion(9).apply {
       assertEquals(9, id)
       assertEquals("emerald", name)
       assertContains(
@@ -71,7 +71,7 @@ class GameTest {
 
   @Test
   fun getVersionGroup() = runTest {
-    LocalPokeApi.getVersionGroup(1).getOrThrow().apply {
+    LocalPokeApi.getVersionGroup(1).apply {
       assertEquals(1, id)
       assertEquals("red-blue", name)
       assertEquals(3, order)

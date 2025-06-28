@@ -2,6 +2,7 @@
 
 import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
+import love.forte.plugin.suspendtrans.configuration.SuspendTransformConfigurations.kotlinJsExportIgnoreClassInfo
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
 import ru.vyarus.gradle.plugin.mkdocs.task.MkdocsTask
@@ -17,8 +18,7 @@ plugins {
   alias(libs.plugins.dokka)
   alias(libs.plugins.mkdocs)
   alias(libs.plugins.jgitver)
-  alias(libs.plugins.ksp)
-  alias(libs.plugins.ktorfit)
+  alias(libs.plugins.suspendTransformCompiler)
   id("maven-publish")
 }
 
@@ -85,7 +85,6 @@ kotlin {
       implementation(libs.kotlinx.serialization.json)
       implementation(libs.ktor.client.content.negotiation)
       implementation(libs.ktor.serialization.kotlinx.json)
-      implementation(libs.ktorfit)
     }
 
     val nonJsMain by creating { dependsOn(commonMain.get()) }
@@ -123,8 +122,13 @@ kotlin {
   }
 }
 
-// Gradle complains if we don't have this; unclear why.
-tasks.getByName("sourcesJar").dependsOn("kspCommonMainKotlinMetadata")
+suspendTransformPlugin {
+  transformers {
+    addJvmAsync()
+    addJvmBlocking()
+    addJsPromise { addCopyAnnotationExclude { from(kotlinJsExportIgnoreClassInfo) } }
+  }
+}
 
 // Standalone mode is missing certificates, which causes our LiveTest to fail.
 // This should resolve it but requires us to start the simulator(s) beforehand.

@@ -14,7 +14,7 @@ class BerryTest {
 
   @Test
   fun getBerry() = runTest {
-    LocalPokeApi.getBerry(34).getOrThrow().apply {
+    LocalPokeApi.getBerry(34).apply {
       assertEquals(34, id)
       assertEquals("durin", name)
       assertEquals(15, growthTime)
@@ -32,7 +32,7 @@ class BerryTest {
 
   @Test
   fun getBerryFirmness() = runTest {
-    LocalPokeApi.getBerryFirmness(3).getOrThrow().apply {
+    LocalPokeApi.getBerryFirmness(3).apply {
       assertEquals(3, id)
       assertEquals("hard", name)
       assertContains(berries, NamedApiResource("rawst", "berry", 4))
@@ -42,7 +42,7 @@ class BerryTest {
 
   @Test
   fun getBerryFlavor() = runTest {
-    LocalPokeApi.getBerryFlavor(3).getOrThrow().apply {
+    LocalPokeApi.getBerryFlavor(3).apply {
       assertEquals(3, id)
       assertEquals("sweet", name)
       assertEquals(NamedApiResource("cute", "contest-type", 3), contestType)
