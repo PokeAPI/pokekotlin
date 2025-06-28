@@ -150,6 +150,9 @@ public data class Pokemon(
   val moves: List<PokemonMove>,
   val stats: List<PokemonStat>,
   val types: List<PokemonType>,
+  val pastTypes: List<PokemonPastType>,
+  val pastAbilities: List<PokemonPastAbility>,
+  val cries: PokemonCries,
   val sprites: PokemonSprites,
 )
 
@@ -164,6 +167,27 @@ public data class PokemonSprites(
   val backShinyFemale: String?,
   val frontFemale: String?,
   val frontShinyFemale: String?,
+  val other: Map<String, GameSprites>,
+  val versions: Map<String, Map<String, GameSprites>>,
+)
+
+@Serializable
+public data class GameSprites(
+  val animated: GameSprites? = null,
+  val backDefault: String? = null,
+  val backGray: String? = null,
+  val backTransparent: String? = null,
+  val backFemale: String? = null,
+  val backShiny: String? = null,
+  val backShinyTransparent: String? = null,
+  val backShinyFemale: String? = null,
+  val frontDefault: String? = null,
+  val frontGray: String? = null,
+  val frontTransparent: String? = null,
+  val frontFemale: String? = null,
+  val frontShiny: String? = null,
+  val frontShinyTransparent: String? = null,
+  val frontShinyFemale: String? = null,
 )
 
 @Serializable
@@ -171,7 +195,7 @@ public data class PokemonSprites(
 public data class PokemonAbility(
   val isHidden: Boolean,
   val slot: Int,
-  val ability: NamedApiResource,
+  val ability: NamedApiResource?,
 )
 
 @Serializable
@@ -198,6 +222,7 @@ public data class PokemonMoveVersion(
   val moveLearnMethod: NamedApiResource,
   val versionGroup: NamedApiResource,
   val levelLearnedAt: Int,
+  val order: Int?,
 )
 
 @Serializable
@@ -207,6 +232,19 @@ public data class PokemonStat(val stat: NamedApiResource, val effort: Int, val b
 @Serializable
 @JsOnlyExport
 public data class PokemonType(val slot: Int, val type: NamedApiResource)
+
+@Serializable
+@JsOnlyExport
+public data class PokemonPastType(val generation: NamedApiResource, val types: List<PokemonType>)
+
+@Serializable
+@JsOnlyExport
+public data class PokemonPastAbility(
+  val generation: NamedApiResource,
+  val abilities: List<PokemonAbility>,
+)
+
+@Serializable @JsOnlyExport public data class PokemonCries(val latest: String, val legacy: String?)
 
 @Serializable
 @JsOnlyExport
@@ -238,6 +276,7 @@ public data class PokemonForm(
   val pokemon: NamedApiResource,
   val versionGroup: NamedApiResource,
   val sprites: PokemonFormSprites,
+  val types: List<PokemonType>,
   val formNames: List<Name>,
 )
 
@@ -245,9 +284,13 @@ public data class PokemonForm(
 @JsOnlyExport
 public data class PokemonFormSprites(
   val backDefault: String?,
+  val backFemale: String?,
   val backShiny: String?,
+  val backShinyFemale: String?,
   val frontDefault: String?,
+  val frontFemale: String?,
   val frontShiny: String?,
+  val frontShinyFemale: String?,
 )
 
 @Serializable
@@ -371,13 +414,17 @@ public data class Type(
   val id: Int,
   val name: String,
   val damageRelations: TypeRelations,
+  val pastDamageRelations: List<TypePastDamageRelation>,
   val gameIndices: List<GenerationGameIndex>,
   val generation: NamedApiResource,
   val moveDamageClass: NamedApiResource?,
   val names: List<Name>,
   val pokemon: List<TypePokemon>,
   val moves: List<NamedApiResource>,
+  val sprites: Map<String, Map<String, TypeSprites>>,
 )
+
+@Serializable public data class TypeSprites(val nameIcon: String?)
 
 @Serializable
 @JsOnlyExport
@@ -392,4 +439,11 @@ public data class TypeRelations(
   val noDamageFrom: List<NamedApiResource>,
   val halfDamageFrom: List<NamedApiResource>,
   val doubleDamageFrom: List<NamedApiResource>,
+)
+
+@Serializable
+@JsOnlyExport
+public data class TypePastDamageRelation(
+  val generation: NamedApiResource,
+  val damageRelations: TypeRelations,
 )

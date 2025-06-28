@@ -22,6 +22,7 @@ public data class Move(
   val effectEntries: List<VerboseEffect>,
   val effectChanges: List<AbilityEffectChange>,
   val generation: NamedApiResource,
+  val learnedByPokemon: List<NamedApiResource>,
   val meta: MoveMetaData?,
   val names: List<Name>,
   val pastValues: List<PastMoveStatValues>,
