@@ -81,6 +81,14 @@ kotlin {
       implementation(compose.runtime)
       implementation(compose.ui)
       implementation(libs.androidx.navigation.compose)
+      implementation(libs.androidx.lifecycle.viewmodel.compose)
+      implementation(project.dependencies.platform(libs.koin.bom))
+      implementation(libs.koin.core)
+      implementation(libs.koin.compose)
+      implementation(libs.koin.composeViewmodel)
+      implementation(libs.koin.composeViewmodelNavigation)
+      implementation(libs.koin.ktor)
+      implementation(libs.koin.logger.slf4j)
       implementation(projects.pokekotlin)
     }
 
@@ -88,6 +96,7 @@ kotlin {
       dependencies {
         implementation(libs.androidx.activity.compose)
         implementation(libs.kotlinx.coroutines.android)
+        implementation(libs.koin.android)
       }
     }
 
