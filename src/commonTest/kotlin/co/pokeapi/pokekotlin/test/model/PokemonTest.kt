@@ -369,7 +369,7 @@ class PokemonTest {
         varieties,
         PokemonSpeciesVariety(
           isDefault = true,
-          pokemon = NamedApiResource("bulbasaur", "pokemon", 1),
+          variety = NamedApiResource("bulbasaur", "pokemon", 1),
         ),
       )
       assertContains(

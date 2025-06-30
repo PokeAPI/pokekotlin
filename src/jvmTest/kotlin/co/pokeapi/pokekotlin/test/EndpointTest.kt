@@ -24,9 +24,11 @@ class EndpointTest {
       PokeApiJson.decodeFromString<HashMap<String, String>>(json)
         .keys
         .map { endpointName ->
-          endpointName.split('-').joinToString(separator = "") {
-            it.replaceFirstChar(Char::uppercase)
-          }
+          val name =
+            endpointName.split('-').joinToString(separator = "") {
+              it.replaceFirstChar(Char::uppercase)
+            }
+          if (name == "Pokemon") "PokemonVariety" else name
         }
         .toSet()
 
