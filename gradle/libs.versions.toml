@@ -20,6 +20,7 @@ gradle-jgitver = "0.10.0-rc03"
 gradle-mavenPublish = "0.33.0"
 gradle-mkdocs = "4.0.1"
 gradle-spotless = "7.0.4"
+gradle-kover = "0.9.1"
 tool-prettier = "3.6.2"
 
 # Don't forget to check settings.gradle for more versions
@@ -62,3 +63,4 @@ mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "gradle-mave
 mkdocs = { id = "ru.vyarus.mkdocs-build", version.ref = "gradle-mkdocs" }
 spotless = { id = "com.diffplug.spotless", version.ref = "gradle-spotless" }
 suspendTransformCompiler = { id = "love.forte.plugin.suspend-transform", version.ref = "gradle-suspendTransformCompiler" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "gradle-kover" }

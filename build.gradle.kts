@@ -1,6 +1,5 @@
 @file:OptIn(ExperimentalWasmDsl::class)
 
-import com.vanniktech.maven.publish.SonatypeHost
 import fr.brouillard.oss.jgitver.Strategies
 import love.forte.plugin.suspendtrans.configuration.SuspendTransformConfigurations.kotlinJsExportIgnoreClassInfo
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
@@ -19,6 +18,7 @@ plugins {
   alias(libs.plugins.mkdocs)
   alias(libs.plugins.jgitver)
   alias(libs.plugins.suspendTransformCompiler)
+  alias(libs.plugins.kover)
   id("maven-publish")
 }
 
@@ -149,7 +149,7 @@ publishing {
 }
 
 mavenPublishing {
-  publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
+  publishToMavenCentral(automaticRelease = true)
   signAllPublications()
   pom {
     name = "PokeKotlin"
