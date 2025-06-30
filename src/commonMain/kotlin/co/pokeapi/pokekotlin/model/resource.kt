@@ -18,12 +18,25 @@ private fun resourceUrl(id: Int, category: String): String {
   return "/api/v2/$category/$id/"
 }
 
+/**
+ * Represents a summary of a resource, providing its id and category.
+ *
+ * @property id The identifier for the resource.
+ * @property category The resource category (endpoint name).
+ */
 @JsOnlyExport
 public interface ResourceSummary {
   public val id: Int
   public val category: String
 }
 
+/**
+ * Represents a reference to another resource in the API by URL. This matches the "resource" object
+ * pattern in the PokeAPI documentation. See:
+ * https://pokeapi.co/docs/v2#resource-listspagination-section
+ *
+ * @param url The URL of the referenced resource.
+ */
 @Serializable(with = ApiResourceSerializer::class)
 @JsOnlyExport
 public data class ApiResource(val url: String) : ResourceSummary {
@@ -33,6 +46,14 @@ public data class ApiResource(val url: String) : ResourceSummary {
   override val id: Int by lazy { urlToId(url) }
 }
 
+/**
+ * Represents a reference to another resource in the API by name and URL. This matches the "named
+ * resource" object pattern in the PokeAPI documentation. See:
+ * https://pokeapi.co/docs/v2#resource-listspagination-section
+ *
+ * @param name The name of the referenced resource.
+ * @param url The URL of the referenced resource.
+ */
 @Serializable(with = NamedApiResourceSerializer::class)
 @JsOnlyExport
 public data class NamedApiResource(val name: String, val url: String) : ResourceSummary {
@@ -48,6 +69,15 @@ public data class NamedApiResource(val name: String, val url: String) : Resource
   override val id: Int by lazy { urlToId(url) }
 }
 
+/**
+ * Represents a paginated list of resource summaries, similar to the paginated resource list objects
+ * in the PokeAPI. See: https://pokeapi.co/docs/v2#resource-lists-section
+ *
+ * @property count The total number of resources available from this API.
+ * @property next The URL for the next page in the list.
+ * @property previous The URL for the previous page in the list.
+ * @property results The list of returned resources in this page.
+ */
 @JsOnlyExport
 public interface ResourceSummaryList<out T : ResourceSummary> {
   public val count: Int
