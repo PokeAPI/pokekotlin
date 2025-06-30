@@ -323,13 +323,16 @@ class BulkTest {
 
   @Test
   fun bulkPokemon() = runTest {
-    testEach({ o, l -> LocalPokeApi.getPokemonList(o, l) }, { i -> LocalPokeApi.getPokemon(i) })
+    testEach(
+      { o, l -> LocalPokeApi.getPokemonVarietyList(o, l) },
+      { i -> LocalPokeApi.getPokemonVariety(i) },
+    )
   }
 
   @Test
   fun bulkPokemonEncounters() = runTest {
     testEach(
-      { o, l -> LocalPokeApi.getPokemonList(o, l) },
+      { o, l -> LocalPokeApi.getPokemonVarietyList(o, l) },
       { i -> LocalPokeApi.getPokemonEncounterList(i) },
     )
   }

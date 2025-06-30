@@ -135,7 +135,7 @@ public data class NaturePokeathlonStatAffect(val maxChange: Int, val nature: Nam
 
 @Serializable
 @JsOnlyExport
-public data class Pokemon(
+public data class PokemonVariety(
   val id: Int,
   val name: String,
   val baseExperience: Int,
@@ -465,7 +465,10 @@ public data class PalParkEncounterArea(
 
 @Serializable
 @JsOnlyExport
-public data class PokemonSpeciesVariety(val isDefault: Boolean, val pokemon: NamedApiResource)
+public data class PokemonSpeciesVariety(
+  val isDefault: Boolean,
+  @SerialName("pokemon") val variety: NamedApiResource,
+)
 
 @Serializable
 @JsOnlyExport

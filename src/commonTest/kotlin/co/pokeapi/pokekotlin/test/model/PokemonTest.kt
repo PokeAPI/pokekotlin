@@ -157,7 +157,7 @@ class PokemonTest {
 
   @Test
   fun getPokemon1() = runTest {
-    LocalPokeApi.getPokemon(1).apply {
+    LocalPokeApi.getPokemonVariety(1).apply {
       assertEquals(1, id)
       assertEquals("bulbasaur", name)
       assertEquals(64, baseExperience)
@@ -201,7 +201,7 @@ class PokemonTest {
 
   @Test
   fun getPokemon2() = runTest {
-    LocalPokeApi.getPokemon(12).apply {
+    LocalPokeApi.getPokemonVariety(12).apply {
       assertNotNull(
         heldItems.find {
           it.item == NamedApiResource("silver-powder", "item", 199) &&
@@ -238,7 +238,7 @@ class PokemonTest {
 
   @Test
   fun getPokemon4() = runTest {
-    LocalPokeApi.getPokemon(399).apply {
+    LocalPokeApi.getPokemonVariety(399).apply {
       sprites.apply {
         assertTrue(backFemale!!.endsWith("/sprites/pokemon/back/female/399.png"))
         assertTrue(backShinyFemale!!.endsWith("/sprites/pokemon/back/shiny/female/399.png"))

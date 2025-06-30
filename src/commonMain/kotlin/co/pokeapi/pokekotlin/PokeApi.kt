@@ -390,7 +390,7 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonList(offset: Int, limit: Int): NamedApiResourceList =
+  public suspend fun getPokemonVarietyList(offset: Int, limit: Int): NamedApiResourceList =
     client.getBodyWithOffsetAndLimit("/api/v2/pokemon", offset, limit)
 
   @JvmBlocking
@@ -760,7 +760,8 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemon(id: Int): Pokemon = client.getBody("${"/api/v2/pokemon"}/$id")
+  public suspend fun getPokemonVariety(id: Int): PokemonVariety =
+    client.getBody("${"/api/v2/pokemon"}/$id")
 
   @JvmBlocking
   @JvmAsync

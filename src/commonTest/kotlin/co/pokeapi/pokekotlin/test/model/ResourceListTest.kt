@@ -260,7 +260,7 @@ class ResourceListTest {
 
   @Test
   fun getPokemonList() = runTest {
-    testCase("pokemon", 3, "venusaur") { LocalPokeApi.getPokemonList(0, pageSize) }
+    testCase("pokemon", 3, "venusaur") { LocalPokeApi.getPokemonVarietyList(0, pageSize) }
   }
 
   @Test

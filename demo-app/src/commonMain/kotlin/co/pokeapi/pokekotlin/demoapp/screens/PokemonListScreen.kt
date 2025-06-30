@@ -22,7 +22,7 @@ import androidx.lifecycle.viewModelScope
 import co.pokeapi.pokekotlin.PokeApi
 import co.pokeapi.pokekotlin.demoapp.util.ioDispatcher
 import co.pokeapi.pokekotlin.model.NamedApiResource
-import co.pokeapi.pokekotlin.model.Pokemon
+import co.pokeapi.pokekotlin.model.PokemonVariety
 import coil3.compose.AsyncImage
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -38,7 +38,7 @@ sealed interface LoadingStatus<out T> {
 
 typealias PokemonListStatus = LoadingStatus<List<NamedApiResource>>
 
-typealias PokemonListItemStatus = LoadingStatus<Pokemon>
+typealias PokemonListItemStatus = LoadingStatus<PokemonVariety>
 
 class PokemonListScreenViewModel(private val api: PokeApi) : ViewModel() {
   val summaries = mutableStateOf<PokemonListStatus>(LoadingStatus.Loading)
@@ -52,8 +52,8 @@ class PokemonListScreenViewModel(private val api: PokeApi) : ViewModel() {
     viewModelScope.launch {
       withContext(ioDispatcher) {
         try {
-          val emptyList = api.getPokemonList(0, 0)
-          val pokemonList = api.getPokemonList(0, emptyList.count)
+          val emptyList = api.getPokemonVarietyList(0, 0)
+          val pokemonList = api.getPokemonVarietyList(0, emptyList.count)
           summaries.value = LoadingStatus.Success(pokemonList.results)
 
           // Start loading details for the first few Pokemon
@@ -73,7 +73,7 @@ class PokemonListScreenViewModel(private val api: PokeApi) : ViewModel() {
     viewModelScope.launch {
       withContext(ioDispatcher) {
         try {
-          val pokemonDetails = api.getPokemon(pokemon.id)
+          val pokemonDetails = api.getPokemonVariety(pokemon.id)
           details[pokemon] = LoadingStatus.Success(pokemonDetails)
         } catch (e: Exception) {
           details[pokemon] = LoadingStatus.Error(e)
