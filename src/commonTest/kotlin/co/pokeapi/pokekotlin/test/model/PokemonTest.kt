@@ -143,11 +143,11 @@ class PokemonTest {
       assertContains(names, Name(name = "Speed", language = NamedApiResource("en", "language", 9)))
       assertContains(
         affectingNatures.decrease,
-        NaturePokeathlonStatAffect(nature = NamedApiResource("sassy", "nature", 24), maxChange = -2),
+        NaturePokeathlonStatEffect(nature = NamedApiResource("sassy", "nature", 24), maxChange = -2),
       )
       assertContains(
         affectingNatures.increase,
-        NaturePokeathlonStatAffect(
+        NaturePokeathlonStatEffect(
           nature = NamedApiResource("serious", "nature", 25),
           maxChange = 1,
         ),
