@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
@@ -20,10 +20,10 @@ import kotlinx.serialization.Serializable
  * @param pokemon A list of Pokémon that could potentially have this ability.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Ability(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val isMainSeries: Boolean,
   val generation: Handle.Named<Generation>,
   val names: List<Name>,
@@ -31,7 +31,7 @@ public data class Ability(
   val effectChanges: List<AbilityEffectChange>,
   val flavorTextEntries: List<AbilityFlavorText>,
   val pokemon: List<AbilityPokemon>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * The effect of an ability listed in different version groups and languages. See:
@@ -41,7 +41,7 @@ public data class Ability(
  * @param versionGroup The version group for which the effect applies.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class AbilityEffectChange(
   val effectEntries: List<Effect>,
   val versionGroup: Handle.Named<VersionGroup>,
@@ -56,7 +56,7 @@ public data class AbilityEffectChange(
  * @param versionGroup The version group for which the flavor text applies.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class AbilityFlavorText(
   val flavorText: String,
   val language: Handle.Named<Language>,
@@ -71,7 +71,7 @@ public data class AbilityFlavorText(
  * @param pokemon The Pokémon that has the referenced ability.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class AbilityPokemon(
   val isHidden: Boolean,
   val slot: Int,
@@ -88,13 +88,13 @@ public data class AbilityPokemon(
  * @param descriptions The descriptions for this characteristic listed in different languages.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Characteristic(
-  val id: Int,
+  override val id: Int,
   val geneModulo: Int,
   val possibleValues: List<Int>,
   val descriptions: List<Description>,
-) : EndpointModel
+) : Model
 
 /**
  * Egg Groups are categories which determine which Pokémon are able to interbreed. See:
@@ -106,13 +106,13 @@ public data class Characteristic(
  * @param pokemonSpecies A list of all Pokémon species that are members of this egg group.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class EggGroup(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val names: List<Name>,
   val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Genders affect whether a Pokémon can breed and what moves it can learn. See:
@@ -126,13 +126,13 @@ public data class EggGroup(
  *   Pokémon to evolve into them.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Gender(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val pokemonSpeciesDetails: List<PokemonSpeciesGender>,
   val requiredForEvolution: List<Handle.Named<PokemonSpecies>>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Pokémon species gender details. See: https://pokeapi.co/docs/v2#pokemonspeciesgender
@@ -141,7 +141,7 @@ public data class Gender(
  * @param pokemonSpecies The Pokémon species this gender detail applies to.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonSpeciesGender(
   val rate: Int,
   val pokemonSpecies: Handle.Named<PokemonSpecies>,
@@ -159,15 +159,15 @@ public data class PokemonSpeciesGender(
  * @param pokemonSpecies A list of Pokémon species that have this growth rate.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GrowthRate(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val formula: String,
   val descriptions: List<Description>,
   val levels: List<GrowthRateExperienceLevel>,
   val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Experience required for a Pokémon to reach a certain level for a given growth rate. See:
@@ -177,7 +177,7 @@ public data class GrowthRate(
  * @param experience The amount of experience required to reach the referenced level.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GrowthRateExperienceLevel(val level: Int, val experience: Int)
 
 /**
@@ -195,10 +195,10 @@ public data class GrowthRateExperienceLevel(val level: Int, val experience: Int)
  * @param names The name of this nature listed in different languages.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Nature(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val decreasedStat: Handle.Named<Stat>?,
   val increasedStat: Handle.Named<Stat>?,
   val hatesFlavor: Handle.Named<BerryFlavor>?,
@@ -206,7 +206,7 @@ public data class Nature(
   val pokeathlonStatChanges: List<NatureStatChange>,
   val moveBattleStylePreferences: List<MoveBattleStylePreference>,
   val names: List<Name>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Change to a Pokeathlon stat for a given nature. See: https://pokeapi.co/docs/v2#naturestatchange
@@ -215,7 +215,7 @@ public data class Nature(
  * @param pokeathlonStat The Pokeathlon stat being affected.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class NatureStatChange(
   val maxChange: Int,
   val pokeathlonStat: Handle.Named<PokeathlonStat>,
@@ -230,7 +230,7 @@ public data class NatureStatChange(
  * @param moveBattleStyle The move battle style.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class MoveBattleStylePreference(
   val lowHpPreference: Int,
   val highHpPreference: Int,
@@ -247,13 +247,13 @@ public data class MoveBattleStylePreference(
  * @param affectingNatures A set of natures and how they affect this Pokeathlon stat.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokeathlonStat(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val names: List<Name>,
   val affectingNatures: NaturePokeathlonStatEffectSets,
-) : EndpointModel
+) : NamedModel
 
 /**
  * A set of natures and how they affect a Pokeathlon stat. See:
@@ -263,7 +263,7 @@ public data class PokeathlonStat(
  * @param decrease Natures that decrease the referenced Pokeathlon stat and by how much.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class NaturePokeathlonStatEffectSets(
   val increase: List<NaturePokeathlonStatEffect>,
   val decrease: List<NaturePokeathlonStatEffect>,
@@ -277,7 +277,7 @@ public data class NaturePokeathlonStatEffectSets(
  * @param nature The nature that affects the referenced Pokeathlon stat.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class NaturePokeathlonStatEffect(val maxChange: Int, val nature: Handle.Named<Nature>)
 
 /**
@@ -305,10 +305,10 @@ public data class NaturePokeathlonStatEffect(val maxChange: Int, val nature: Han
  * @param sprites A set of sprites used to depict this Pokémon in the game.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonVariety(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val baseExperience: Int,
   val height: Int,
   val isDefault: Boolean,
@@ -326,7 +326,7 @@ public data class PokemonVariety(
   val pastAbilities: List<PokemonPastAbility>,
   val cries: PokemonCries,
   val sprites: PokemonSprites,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Sprites are images used to depict Pokémon in the game. See:
@@ -344,7 +344,7 @@ public data class PokemonVariety(
  * @param versions Sprites for this Pokémon in different versions.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonSprites(
   val backDefault: String?,
   val backShiny: String?,
@@ -368,7 +368,7 @@ public data class PokemonSprites(
  * @param showdown Showdown sprites.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class OtherGameSprites(
   val dreamWorld: GameSprites,
   val home: GameSprites,
@@ -389,7 +389,7 @@ public data class OtherGameSprites(
  * @param generationViii Sprites for Generation VIII games.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class VersionGameSprites(
   @SerialName("generation-i") val generationI: GenerationIGameSprites,
   @SerialName("generation-ii") val generationIi: GenerationIiGameSprites,
@@ -402,14 +402,14 @@ public data class VersionGameSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationIGameSprites(
   @SerialName("red-blue") val redBlue: GameSprites,
   val yellow: GameSprites,
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationIiGameSprites(
   val crystal: GameSprites,
   val gold: GameSprites,
@@ -417,7 +417,7 @@ public data class GenerationIiGameSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationIiiGameSprites(
   val emerald: GameSprites,
   @SerialName("firered-leafgreen") val fireredLeafgreen: GameSprites,
@@ -425,7 +425,7 @@ public data class GenerationIiiGameSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationIvGameSprites(
   @SerialName("diamond-pearl") val diamondPearl: GameSprites,
   @SerialName("heartgold-soulsilver") val heartgoldSoulsilver: GameSprites,
@@ -433,13 +433,13 @@ public data class GenerationIvGameSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationVGameSprites(
   @SerialName("black-white") val blackWhite: BlackWhiteSprites
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class BlackWhiteSprites(
   val animated: GameSprites,
   val backDefault: String? = null,
@@ -453,27 +453,27 @@ public data class BlackWhiteSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationViGameSprites(
   @SerialName("omegaruby-alphasapphire") val omegaRubyAlphaSapphire: GameSprites,
   @SerialName("x-y") val xY: GameSprites,
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationViiGameSprites(
   val icons: GameSprites,
   @SerialName("ultra-sun-ultra-moon") val ultraSunUltraMoon: GameSprites,
 )
 
-@Serializable @JsOnlyExport public data class GenerationViiiGameSprites(val icons: GameSprites)
+@Serializable @JsNonWasmExport public data class GenerationViiiGameSprites(val icons: GameSprites)
 
 /**
  * All available sprites for a Pokémon in a specific game or context. Each game will only have a
  * subset of these sprites present. See: https://pokeapi.co/docs/v2#pokemonsprites
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GameSprites(
   val animated: GameSprites? = null,
   val backDefault: String? = null,
@@ -501,7 +501,7 @@ public data class GameSprites(
  * @param ability The ability the Pokémon may have.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonAbility(
   val isHidden: Boolean,
   val slot: Int,
@@ -516,7 +516,7 @@ public data class PokemonAbility(
  * @param versionDetails The details of the version in which the item is held.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonHeldItem(
   val item: Handle.Named<Item>,
   val versionDetails: List<PokemonHeldItemVersion>,
@@ -530,7 +530,7 @@ public data class PokemonHeldItem(
  * @param rarity The rarity of the held item in the version.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonHeldItemVersion(val version: Handle.Named<Version>, val rarity: Int)
 
 /**
@@ -540,7 +540,7 @@ public data class PokemonHeldItemVersion(val version: Handle.Named<Version>, val
  * @param versionGroupDetails The details of the version group in which the move can be learned.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonMove(
   val move: Handle.Named<Move>,
   val versionGroupDetails: List<PokemonMoveVersion>,
@@ -556,7 +556,7 @@ public data class PokemonMove(
  * @param order The order in which the move is learned, if applicable.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonMoveVersion(
   val moveLearnMethod: Handle.Named<MoveLearnMethod>,
   val versionGroup: Handle.Named<VersionGroup>,
@@ -572,7 +572,7 @@ public data class PokemonMoveVersion(
  * @param baseStat The base value of the stat.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonStat(val stat: Handle.Named<Stat>, val effort: Int, val baseStat: Int)
 
 /**
@@ -582,7 +582,7 @@ public data class PokemonStat(val stat: Handle.Named<Stat>, val effort: Int, val
  * @param type The type the Pokémon has.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonType(val slot: Int, val type: Handle.Named<Type>)
 
 /**
@@ -592,7 +592,7 @@ public data class PokemonType(val slot: Int, val type: Handle.Named<Type>)
  * @param types The types the Pokémon had in that generation.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonPastType(
   val generation: Handle.Named<Generation>,
   val types: List<PokemonType>,
@@ -606,7 +606,7 @@ public data class PokemonPastType(
  * @param abilities The abilities the Pokémon had in that generation.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonPastAbility(
   val generation: Handle.Named<Generation>,
   val abilities: List<PokemonAbility>,
@@ -618,7 +618,9 @@ public data class PokemonPastAbility(
  * @param latest The latest cry for this Pokémon.
  * @param legacy The legacy cry for this Pokémon, if any.
  */
-@Serializable @JsOnlyExport public data class PokemonCries(val latest: String, val legacy: String?)
+@Serializable
+@JsNonWasmExport
+public data class PokemonCries(val latest: String, val legacy: String?)
 
 /**
  * Details about a Pokémon's encounters in a location area. See:
@@ -628,7 +630,7 @@ public data class PokemonPastAbility(
  * @param versionDetails The details of the encounter in each version.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class LocationAreaEncounter(
   val locationArea: Handle.Named<LocationArea>,
   val versionDetails: List<VersionEncounterDetail>,
@@ -644,13 +646,13 @@ public data class LocationAreaEncounter(
  * @param pokemonSpecies A list of the Pokémon species that have this color.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonColor(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val names: List<Name>,
   val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Some Pokémon may appear in one of multiple, visually different forms. These differences are
@@ -676,10 +678,10 @@ public data class PokemonColor(
  *   have a specific name.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonForm(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val order: Int,
   val formOrder: Int,
   val isDefault: Boolean,
@@ -692,7 +694,7 @@ public data class PokemonForm(
   val versionGroup: Handle.Named<VersionGroup>,
   val names: List<Name>,
   val formNames: List<Name>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Sprites used to depict a Pokémon form. See: https://pokeapi.co/docs/v2#pokemonformsprites
@@ -707,7 +709,7 @@ public data class PokemonForm(
  * @param frontShinyFemale The female shiny front sprite for this Pokémon form.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonFormSprites(
   val backDefault: String?,
   val backFemale: String?,
@@ -729,13 +731,13 @@ public data class PokemonFormSprites(
  * @param pokemonSpecies A list of the Pokémon species that can be found in this habitat.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonHabitat(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val names: List<Name>,
   val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Shapes are used to determine a Pokémon's appearance and for search purposes. See:
@@ -748,14 +750,14 @@ public data class PokemonHabitat(
  * @param pokemonSpecies A list of the Pokémon species that have this shape.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonShape(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val awesomeNames: List<AwesomeName>,
   val names: List<Name>,
   val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * The "scientific" name of a Pokémon shape. See: https://pokeapi.co/docs/v2#awesomename
@@ -764,7 +766,7 @@ public data class PokemonShape(
  * @param language The language this "scientific" name is in.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class AwesomeName(val awesomeName: String, val language: Handle.Named<Language>)
 
 /**
@@ -806,10 +808,10 @@ public data class AwesomeName(val awesomeName: String, val language: Handle.Name
  * @param flavorTextEntries A list of flavor text entries for this Pokémon species.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonSpecies(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val order: Int,
   val genderRate: Int,
   val captureRate: Int,
@@ -835,7 +837,7 @@ public data class PokemonSpecies(
   val genera: List<Genus>,
   val varieties: List<PokemonSpeciesVariety>,
   val flavorTextEntries: List<PokemonSpeciesFlavorText>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Flavor text entries for a Pokémon species. See: https://pokeapi.co/docs/v2#flavortext
@@ -845,7 +847,7 @@ public data class PokemonSpecies(
  * @param version The version this flavor text is extracted from.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonSpeciesFlavorText(
   val flavorText: String,
   val language: Handle.Named<Language>,
@@ -860,7 +862,7 @@ public data class PokemonSpeciesFlavorText(
  * @param language The language this genus is in.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Genus(val genus: String, val language: Handle.Named<Language>)
 
 /**
@@ -871,7 +873,7 @@ public data class Genus(val genus: String, val language: Handle.Named<Language>)
  * @param pokedex The Pokédex the referenced Pokémon species can be found in.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonSpeciesDexEntry(val entryNumber: Int, val pokedex: Handle.Named<Pokedex>)
 
 /**
@@ -884,7 +886,7 @@ public data class PokemonSpeciesDexEntry(val entryNumber: Int, val pokedex: Hand
  * @param area The pal park area where this encounter happens.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PalParkEncounterArea(
   val baseScore: Int,
   val rate: Int,
@@ -898,7 +900,7 @@ public data class PalParkEncounterArea(
  * @param variety The Pokémon variety.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class PokemonSpeciesVariety(
   val isDefault: Boolean,
   @SerialName("pokemon") val variety: Handle.Named<PokemonVariety>,
@@ -921,10 +923,10 @@ public data class PokemonSpeciesVariety(
  * @param names The name of this stat listed in different languages.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Stat(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val gameIndex: Int,
   val isBattleOnly: Boolean,
   val affectingMoves: MoveStatAffectSets,
@@ -932,7 +934,7 @@ public data class Stat(
   val characteristics: List<Handle.Unnamed<Characteristic>>,
   val moveDamageClass: Handle.Named<MoveDamageClass>?,
   val names: List<Name>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * A set of moves that affect a stat and how they affect it. See:
@@ -942,7 +944,7 @@ public data class Stat(
  * @param decrease Moves that decrease the stat and by how much.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class MoveStatAffectSets(
   val increase: List<MoveStatAffect>,
   val decrease: List<MoveStatAffect>,
@@ -955,7 +957,7 @@ public data class MoveStatAffectSets(
  * @param move The move that affects this stat.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class MoveStatAffect(val change: Int, val move: Handle.Named<Move>)
 
 /**
@@ -966,7 +968,7 @@ public data class MoveStatAffect(val change: Int, val move: Handle.Named<Move>)
  * @param decrease Natures that decrease the stat.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class NatureStatAffectSets(
   val increase: List<Handle.Named<Nature>>,
   val decrease: List<Handle.Named<Nature>>,
@@ -992,10 +994,10 @@ public data class NatureStatAffectSets(
  * @param sprites Sprites for this type.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Type(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val damageRelations: TypeRelations,
   val pastDamageRelations: List<TypePastDamageRelation>,
   val gameIndices: List<GenerationGameIndex>,
@@ -1005,10 +1007,10 @@ public data class Type(
   val pokemon: List<TypePokemon>,
   val moves: List<Handle.Named<Move>>,
   val sprites: VersionTypeSprites,
-) : EndpointModel
+) : NamedModel
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class VersionTypeSprites(
   @SerialName("generation-iii") val generationIii: GenerationIiiTypeSprites,
   @SerialName("generation-iv") val generationIv: GenerationIvTypeSprites,
@@ -1020,7 +1022,7 @@ public data class VersionTypeSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationIiiTypeSprites(
   val colosseum: TypeSprites,
   val emerald: TypeSprites,
@@ -1030,7 +1032,7 @@ public data class GenerationIiiTypeSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationIvTypeSprites(
   @SerialName("diamond-pearl") val diamondPearl: TypeSprites,
   @SerialName("heartgold-soulsilver") val heartgoldSoulsilver: TypeSprites,
@@ -1038,21 +1040,21 @@ public data class GenerationIvTypeSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationVTypeSprites(
   @SerialName("black-2-white-2") val black2White2: TypeSprites,
   @SerialName("black-white") val blackWhite: TypeSprites,
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationViTypeSprites(
   @SerialName("omega-ruby-alpha-sapphire") val omegaRubyAlphaSapphire: TypeSprites,
   @SerialName("x-y") val xY: TypeSprites,
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationViiTypeSprites(
   @SerialName("lets-go-pikachu-lets-go-eevee") val letsGoPikachuLetsGoEevee: TypeSprites,
   @SerialName("sun-moon") val sunMoon: TypeSprites,
@@ -1060,7 +1062,7 @@ public data class GenerationViiTypeSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationViiiTypeSprites(
   @SerialName("brilliant-diamond-and-shining-pearl")
   val brilliantDiamondAndShiningPearl: TypeSprites,
@@ -1069,12 +1071,12 @@ public data class GenerationViiiTypeSprites(
 )
 
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class GenerationIxTypeSprites(
   @SerialName("scarlet-violet") val scarletViolet: TypeSprites
 )
 
-@Serializable @JsOnlyExport public data class TypeSprites(val nameIcon: String?)
+@Serializable @JsNonWasmExport public data class TypeSprites(val nameIcon: String?)
 
 /**
  * Details of Pokémon that have a specific type. See: https://pokeapi.co/docs/v2#typepokemon
@@ -1083,7 +1085,7 @@ public data class GenerationIxTypeSprites(
  * @param pokemon The Pokémon that has this type.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class TypePokemon(val slot: Int, val pokemon: Handle.Named<PokemonVariety>)
 
 /**
@@ -1098,7 +1100,7 @@ public data class TypePokemon(val slot: Int, val pokemon: Handle.Named<PokemonVa
  * @param doubleDamageFrom A list of types that are very effective against this type.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class TypeRelations(
   val noDamageTo: List<Handle.Named<Type>>,
   val halfDamageTo: List<Handle.Named<Type>>,
@@ -1116,7 +1118,7 @@ public data class TypeRelations(
  * @param damageRelations The damage relations that applied in the referenced generation.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class TypePastDamageRelation(
   val generation: Handle.Named<Generation>,
   val damageRelations: TypeRelations,

@@ -1,12 +1,12 @@
 package co.pokeapi.pokekotlin.model
 
 import co.pokeapi.pokekotlin.internal.HandleSerializers
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import kotlin.reflect.KClass
 import kotlinx.serialization.Serializable
 
 @Suppress("EnumEntryName")
-internal enum class ResourceEndpoint(val model: KClass<out EndpointModel>) {
+internal enum class ResourceEndpoint(val model: KClass<out Model>) {
   ability(Ability::class),
   berry(Berry::class),
   `berry-firmness`(BerryFirmness::class),
@@ -59,10 +59,10 @@ internal enum class ResourceEndpoint(val model: KClass<out EndpointModel>) {
   companion object {
     private val modelToEntry = entries.associateBy { it.model }
 
-    operator fun get(model: KClass<out EndpointModel>) =
+    operator fun get(model: KClass<out Model>) =
       modelToEntry[model] ?: throw NoSuchElementException(model.simpleName)
 
-    inline fun <reified T : EndpointModel> forModel() = get(T::class)
+    inline fun <reified T : Model> forModel() = get(T::class)
   }
 
   override fun toString() = name
@@ -73,8 +73,8 @@ internal enum class ResourceEndpoint(val model: KClass<out EndpointModel>) {
  *
  * @property id The identifier for the resource.
  */
-@JsOnlyExport
-public sealed class Handle<out T : EndpointModel> {
+@JsNonWasmExport
+public sealed class Handle<out T : Model> {
   internal abstract val url: String
 
   internal val model: KClass<out T> by lazy {
@@ -90,10 +90,10 @@ public sealed class Handle<out T : EndpointModel> {
   internal companion object Companion {
     private val urlRegex = "/([a-z\\-]+)/(-?[0-9]+)/$".toRegex()
 
-    internal inline fun <reified T : EndpointModel> of(id: Int): Unnamed<T> =
+    internal inline fun <reified T : Model> of(id: Int): Unnamed<T> =
       Unnamed("/api/v2/${ResourceEndpoint.forModel<T>()}/$id/")
 
-    internal inline fun <reified T : EndpointModel> of(id: Int, slug: String): Named<T> =
+    internal inline fun <reified T : NamedModel> of(id: Int, slug: String): Named<T> =
       Named("/api/v2/${ResourceEndpoint.forModel<T>()}/$id/", slug)
   }
 
@@ -102,7 +102,7 @@ public sealed class Handle<out T : EndpointModel> {
    * object pattern in the PokeAPI documentation. See: https://pokeapi.co/docs/v2#apiresource
    */
   @Serializable(with = HandleSerializers.Unnamed::class)
-  public data class Unnamed<out T : EndpointModel> internal constructor(override val url: String) :
+  public data class Unnamed<out T : Model> internal constructor(override val url: String) :
     Handle<T>()
 
   /**
@@ -113,7 +113,7 @@ public sealed class Handle<out T : EndpointModel> {
    * @param slug The unique (name) of the referenced resource.
    */
   @Serializable(with = HandleSerializers.Named::class)
-  public data class Named<out T : EndpointModel>
+  public data class Named<out T : NamedModel>
   internal constructor(override val url: String, val slug: String) : Handle<T>()
 }
 
@@ -126,15 +126,15 @@ public sealed class Handle<out T : EndpointModel> {
  * @property previous The URL for the previous page in the list.
  * @property results The list of returned resources in this page.
  */
-@JsOnlyExport
-public sealed class PaginatedList<out T : EndpointModel> {
+@JsNonWasmExport
+public sealed class PaginatedList<out T : Model> {
   public abstract val count: Int
   public abstract val next: String?
   public abstract val previous: String?
   public abstract val results: List<Handle<T>>
 
   @Serializable
-  public data class Unnamed<out T : EndpointModel>
+  public data class Unnamed<out T : Model>
   internal constructor(
     override val count: Int,
     override val next: String?,
@@ -143,7 +143,7 @@ public sealed class PaginatedList<out T : EndpointModel> {
   ) : PaginatedList<T>()
 
   @Serializable
-  public data class Named<out T : EndpointModel>
+  public data class Named<out T : NamedModel>
   internal constructor(
     override val count: Int,
     override val next: String?,

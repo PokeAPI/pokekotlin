@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin
 
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import co.pokeapi.pokekotlin.internal.PokeApiJson
 import co.pokeapi.pokekotlin.internal.getDefaultEngine
 import co.pokeapi.pokekotlin.model.*
@@ -23,7 +23,7 @@ import love.forte.plugin.suspendtrans.annotation.JsPromise
 import love.forte.plugin.suspendtrans.annotation.JvmAsync
 import love.forte.plugin.suspendtrans.annotation.JvmBlocking
 
-@JsOnlyExport
+@JsNonWasmExport
 public sealed class PokeApi
 @JsExport.Ignore
 constructor(
@@ -62,7 +62,7 @@ constructor(
       configure = {},
     )
 
-  private suspend inline fun <reified T : EndpointModel> HttpClient.getNamedResourceList(
+  private suspend inline fun <reified T : NamedModel> HttpClient.getNamedResourceList(
     offset: Int,
     limit: Int,
   ): PaginatedList.Named<T> {
@@ -73,7 +73,7 @@ constructor(
       .body()
   }
 
-  private suspend inline fun <reified T : EndpointModel> HttpClient.getResourceList(
+  private suspend inline fun <reified T : Model> HttpClient.getResourceList(
     offset: Int,
     limit: Int,
   ): PaginatedList.Unnamed<T> {
@@ -90,7 +90,7 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun <T : EndpointModel> Handle<T>.get(): T = client.get(url).body(TypeInfo(model))
+  public suspend fun <T : Model> Handle<T>.get(): T = client.get(url).body(TypeInfo(model))
 
   // region Resource Lists
 

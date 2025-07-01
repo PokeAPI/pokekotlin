@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import kotlinx.serialization.Serializable
 
 /**
@@ -25,10 +25,10 @@ import kotlinx.serialization.Serializable
  * @param naturalGiftType The type inherited by "Natural Gift" when used with this Berry.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Berry(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val growthTime: Int,
   val maxHarvest: Int,
   val naturalGiftPower: Int,
@@ -39,7 +39,7 @@ public data class Berry(
   val flavors: List<BerryFlavorMap>,
   val item: Handle.Named<Item>,
   val naturalGiftType: Handle.Named<Type>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * A flavor-to-potency mapping for a berry. See: https://pokeapi.co/docs/v2#berryflavormap
@@ -48,7 +48,7 @@ public data class Berry(
  * @param flavor The referenced berry flavor.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class BerryFlavorMap(val potency: Int, val flavor: Handle.Named<BerryFlavor>)
 
 /**
@@ -61,13 +61,13 @@ public data class BerryFlavorMap(val potency: Int, val flavor: Handle.Named<Berr
  * @param names The name of this resource listed in different languages.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class BerryFirmness(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val berries: List<Handle.Named<Berry>>,
   val names: List<Name>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Flavors determine whether a Pokémon will benefit or suffer from eating a berry based on their
@@ -80,14 +80,14 @@ public data class BerryFirmness(
  * @param names The name of this resource listed in different languages.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class BerryFlavor(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val berries: List<FlavorBerryMap>,
   val contestType: Handle.Named<ContestType>,
   val names: List<Name>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * A berry-to-potency mapping for a flavor. See: https://pokeapi.co/docs/v2#flavorberrymap
@@ -96,5 +96,5 @@ public data class BerryFlavor(
  * @param berry The referenced berry.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class FlavorBerryMap(val potency: Int, val berry: Handle.Named<Berry>)

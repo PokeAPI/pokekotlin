@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.test
 
-import co.pokeapi.pokekotlin.model.EndpointModel
+import co.pokeapi.pokekotlin.model.Model
 import co.pokeapi.pokekotlin.model.PaginatedList
 import co.pokeapi.pokekotlin.model.ResourceEndpoint
 import kotlin.math.min
@@ -13,7 +13,7 @@ private const val LAST_N = 100
 private const val MIDDLE_N = 100
 
 class BulkTest {
-  private suspend inline fun <reified T : EndpointModel> testCase(
+  private suspend inline fun <reified T : Model> testCase(
     id: Int,
     getObject: suspend (Int) -> Any,
   ) {
@@ -26,7 +26,7 @@ class BulkTest {
     }
   }
 
-  private suspend inline fun <reified E : EndpointModel> testEach(
+  private suspend inline fun <reified E : Model> testEach(
     getList: suspend (Int, Int) -> PaginatedList<E>,
     getObject: suspend (Int) -> Any,
   ) {

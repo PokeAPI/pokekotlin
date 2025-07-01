@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import kotlinx.serialization.Serializable
 
 /**
@@ -15,12 +15,12 @@ import kotlinx.serialization.Serializable
  *   the chain.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class EvolutionChain(
-  val id: Int,
+  override val id: Int,
   val babyTriggerItem: Handle.Named<Item>?,
   val chain: ChainLink,
-) : EndpointModel
+) : Model
 
 /**
  * A single link within an evolution chain. Each link represents a Pokémon species and the
@@ -33,7 +33,7 @@ public data class EvolutionChain(
  * @param evolvesTo A list of chain objects describing further evolutions from this species.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class ChainLink(
   val isBaby: Boolean,
   val species: Handle.Named<PokemonSpecies>,
@@ -69,7 +69,7 @@ public data class ChainLink(
  *   levels up.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class EvolutionDetail(
   val trigger: Handle.Named<EvolutionTrigger>,
   val item: Handle.Named<Item>? = null,
@@ -101,10 +101,10 @@ public data class EvolutionDetail(
  * @param pokemonSpecies A list of pokemon species that result from this evolution trigger.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class EvolutionTrigger(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val names: List<Name>,
   val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
-) : EndpointModel
+) : NamedModel

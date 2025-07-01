@@ -1,6 +1,16 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import kotlinx.serialization.Serializable
 
-@JsOnlyExport @Serializable public sealed interface EndpointModel
+@JsNonWasmExport
+@Serializable
+public sealed interface Model {
+  public val id: Int
+}
+
+@JsNonWasmExport
+@Serializable
+public sealed interface NamedModel : Model {
+  public val name: String
+}

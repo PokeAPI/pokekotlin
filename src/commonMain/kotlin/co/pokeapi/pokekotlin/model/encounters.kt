@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import kotlinx.serialization.Serializable
 
 /**
@@ -13,13 +13,13 @@ import kotlinx.serialization.Serializable
  * @param names The name of this resource listed in different languages.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class EncounterMethod(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val order: Int,
   val names: List<Name>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Conditions which affect what pokemon might appear in the wild, e.g., day or night. See:
@@ -31,13 +31,13 @@ public data class EncounterMethod(
  * @param values A list of possible values for this encounter condition.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class EncounterCondition(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val names: List<Name>,
   val values: List<Handle.Named<EncounterConditionValue>>,
-) : EndpointModel
+) : NamedModel
 
 /**
  * Encounter condition values are the various states that an encounter condition can have, i.e.,
@@ -50,10 +50,10 @@ public data class EncounterCondition(
  * @param names The name of this resource listed in different languages.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class EncounterConditionValue(
-  val id: Int,
-  val name: String,
+  override val id: Int,
+  override val name: String,
   val condition: Handle.Named<EncounterCondition>,
   val names: List<Name>,
-) : EndpointModel
+) : NamedModel

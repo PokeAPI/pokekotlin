@@ -2,7 +2,8 @@ package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.PokeApi
 import co.pokeapi.pokekotlin.internal.PokeApiJson
-import co.pokeapi.pokekotlin.model.EndpointModel
+import co.pokeapi.pokekotlin.model.Model
+import co.pokeapi.pokekotlin.model.NamedModel
 import co.pokeapi.pokekotlin.model.PaginatedList
 import io.ktor.client.plugins.api.*
 import io.ktor.client.statement.*
@@ -22,7 +23,7 @@ private val OffsetLimitPlugin =
       when (requestedType.type) {
         PaginatedList.Unnamed::class -> {
           val fullList =
-            PokeApiJson.decodeFromSource<PaginatedList.Unnamed<EndpointModel>>(content.readBuffer())
+            PokeApiJson.decodeFromSource<PaginatedList.Unnamed<Model>>(content.readBuffer())
           fullList.copy(
             results = fullList.results.subList(offset, min(endIndex, fullList.count)),
             previous = if (offset == 0) null else "TODO",
@@ -31,7 +32,7 @@ private val OffsetLimitPlugin =
         }
         PaginatedList.Named::class -> {
           val fullList =
-            PokeApiJson.decodeFromSource<PaginatedList.Named<EndpointModel>>(content.readBuffer())
+            PokeApiJson.decodeFromSource<PaginatedList.Named<NamedModel>>(content.readBuffer())
           fullList.copy(
             results = fullList.results.subList(offset, min(endIndex, fullList.count)),
             previous = if (offset == 0) null else "TODO",

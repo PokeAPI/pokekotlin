@@ -1,7 +1,8 @@
 package co.pokeapi.pokekotlin.test.model
 
-import co.pokeapi.pokekotlin.model.EndpointModel
 import co.pokeapi.pokekotlin.model.Handle
+import co.pokeapi.pokekotlin.model.Model
+import co.pokeapi.pokekotlin.model.NamedModel
 import co.pokeapi.pokekotlin.model.PaginatedList
 import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.*
@@ -11,7 +12,7 @@ class ResourceListTest {
 
   val pageSize = 50
 
-  private suspend inline fun <reified T : EndpointModel> testCase(
+  private suspend inline fun <reified T : NamedModel> testCase(
     id: Int,
     name: String,
     call: suspend () -> PaginatedList.Named<T>,
@@ -35,7 +36,7 @@ class ResourceListTest {
     }
   }
 
-  private suspend inline fun <reified T : EndpointModel> testCase(
+  private suspend inline fun <reified T : Model> testCase(
     id: Int,
     call: suspend () -> PaginatedList.Unnamed<T>,
   ) {

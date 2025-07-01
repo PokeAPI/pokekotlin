@@ -1,6 +1,6 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.JsOnlyExport
+import co.pokeapi.pokekotlin.internal.JsNonWasmExport
 import kotlinx.serialization.Serializable
 
 /**
@@ -14,10 +14,10 @@ import kotlinx.serialization.Serializable
  * @param versionGroup The version group that this machine applies to.
  */
 @Serializable
-@JsOnlyExport
+@JsNonWasmExport
 public data class Machine(
-  val id: Int,
+  override val id: Int,
   val item: Handle.Named<Item>,
   val move: Handle.Named<Move>,
   val versionGroup: Handle.Named<VersionGroup>,
-) : EndpointModel
+) : Model

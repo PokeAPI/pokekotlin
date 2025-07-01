@@ -6,7 +6,7 @@ import kotlin.js.ExperimentalJsExport
 @ExperimentalJsExport
 @Retention(AnnotationRetention.BINARY)
 @Target(CLASS, PROPERTY, FUNCTION, FILE)
-internal expect annotation class JsOnlyExport()
+internal expect annotation class JsNonWasmExport()
 
 @Retention(AnnotationRetention.BINARY)
 @Target(CLASS, PROPERTY, FUNCTION, FILE)
