@@ -17,7 +17,7 @@ import kotlinx.serialization.Serializable
 public data class ContestType(
   val id: Int,
   val name: String,
-  val berryFlavor: ResourceHandle.Named<BerryFlavor>,
+  val berryFlavor: Handle.Named<BerryFlavor>,
   val names: List<ContestName>,
 ) : EndpointModel
 
@@ -34,7 +34,7 @@ public data class ContestType(
 public data class ContestName(
   val name: String,
   val color: String,
-  val language: ResourceHandle.Named<Language>,
+  val language: Handle.Named<Language>,
 )
 
 /**
@@ -73,5 +73,5 @@ public data class SuperContestEffect(
   val id: Int,
   val appeal: Int,
   val flavorTextEntries: List<FlavorText>,
-  val moves: List<ResourceHandle.Named<Move>>,
+  val moves: List<Handle.Named<Move>>,
 ) : EndpointModel

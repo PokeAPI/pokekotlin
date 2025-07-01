@@ -1,16 +1,28 @@
 package co.pokeapi.pokekotlin.internal
 
 import co.pokeapi.pokekotlin.model.EndpointModel
-import co.pokeapi.pokekotlin.model.ResourceHandle
+import co.pokeapi.pokekotlin.model.Handle
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
 
-internal class ApiResourceSerializer<T : EndpointModel> :
-  KSerializer<ResourceHandle.Unnamed<T>> by DelegatingSerializer(
-    serialName = "co.pokeapi.pokekotlin.model.ResourceHandle.Unnamed",
-    delegate = Delegate.serializer(),
-    fromDelegate = { ResourceHandle.Unnamed(url = it.url) },
-    toDelegate = { Delegate(url = it.url) },
-  ) {
-  @Serializable internal data class Delegate(val url: String)
+internal object HandleSerializers {
+  class Unnamed<T : EndpointModel> :
+    KSerializer<Handle.Unnamed<T>> by DelegatingSerializer(
+      serialName = "co.pokeapi.pokekotlin.model.ResourceHandle.Unnamed",
+      delegate = Delegate.serializer(),
+      fromDelegate = { Handle.Unnamed(url = it.url) },
+      toDelegate = { Delegate(url = it.url) },
+    ) {
+    @Serializable internal data class Delegate(val url: String)
+  }
+
+  class Named<T : EndpointModel> :
+    KSerializer<Handle.Named<T>> by DelegatingSerializer(
+      serialName = "co.pokeapi.pokekotlin.model.ResourceHandle.Named",
+      delegate = Delegate.serializer(),
+      fromDelegate = { Handle.Named(slug = it.name, url = it.url) },
+      toDelegate = { Delegate(name = it.slug, url = it.url) },
+    ) {
+    @Serializable internal data class Delegate(val name: String, val url: String)
+  }
 }

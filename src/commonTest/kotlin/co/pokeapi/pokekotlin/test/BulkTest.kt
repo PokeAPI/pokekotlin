@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.model.EndpointModel
-import co.pokeapi.pokekotlin.model.PaginatedResourceList
+import co.pokeapi.pokekotlin.model.PaginatedList
 import co.pokeapi.pokekotlin.model.ResourceEndpoint
 import kotlin.math.min
 import kotlin.test.Test
@@ -27,7 +27,7 @@ class BulkTest {
   }
 
   private suspend inline fun <reified E : EndpointModel> testEach(
-    getList: suspend (Int, Int) -> PaginatedResourceList<E>,
+    getList: suspend (Int, Int) -> PaginatedList<E>,
     getObject: suspend (Int) -> Any,
   ) {
     val list = getList(0, getList(0, 0).count).results

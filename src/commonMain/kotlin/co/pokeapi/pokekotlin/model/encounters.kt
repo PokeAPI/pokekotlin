@@ -36,7 +36,7 @@ public data class EncounterCondition(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val values: List<ResourceHandle.Named<EncounterConditionValue>>,
+  val values: List<Handle.Named<EncounterConditionValue>>,
 ) : EndpointModel
 
 /**
@@ -54,6 +54,6 @@ public data class EncounterCondition(
 public data class EncounterConditionValue(
   val id: Int,
   val name: String,
-  val condition: ResourceHandle.Named<EncounterCondition>,
+  val condition: Handle.Named<EncounterCondition>,
   val names: List<Name>,
 ) : EndpointModel

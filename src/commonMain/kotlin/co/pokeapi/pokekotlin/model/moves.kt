@@ -48,20 +48,20 @@ public data class Move(
   val priority: Int,
   val power: Int?,
   val contestCombos: ContestComboSets?,
-  val contestType: ResourceHandle.Named<ContestType>?,
-  val contestEffect: ResourceHandle.Unnamed<ContestEffect>?,
-  val superContestEffect: ResourceHandle.Unnamed<SuperContestEffect>?,
-  val damageClass: ResourceHandle.Named<MoveDamageClass>,
+  val contestType: Handle.Named<ContestType>?,
+  val contestEffect: Handle.Unnamed<ContestEffect>?,
+  val superContestEffect: Handle.Unnamed<SuperContestEffect>?,
+  val damageClass: Handle.Named<MoveDamageClass>,
   val effectEntries: List<VerboseEffect>,
   val effectChanges: List<AbilityEffectChange>,
-  val generation: ResourceHandle.Named<Generation>,
-  val learnedByPokemon: List<ResourceHandle.Named<PokemonVariety>>,
+  val generation: Handle.Named<Generation>,
+  val learnedByPokemon: List<Handle.Named<PokemonVariety>>,
   val meta: MoveMetaData?,
   val names: List<Name>,
   val pastValues: List<PastMoveStatValues>,
   val statChanges: List<MoveStatChange>,
-  val target: ResourceHandle.Named<MoveTarget>,
-  val type: ResourceHandle.Named<Type>,
+  val target: Handle.Named<MoveTarget>,
+  val type: Handle.Named<Type>,
   val machines: List<MachineVersionDetail>,
   val flavorTextEntries: List<MoveFlavorText>,
 ) : EndpointModel
@@ -90,8 +90,8 @@ public data class ContestComboSets(
 @Serializable
 @JsOnlyExport
 public data class ContestComboDetail(
-  val useBefore: List<ResourceHandle.Named<Move>>?,
-  val useAfter: List<ResourceHandle.Named<Move>>?,
+  val useBefore: List<Handle.Named<Move>>?,
+  val useAfter: List<Handle.Named<Move>>?,
 )
 
 /**
@@ -115,8 +115,8 @@ public data class ContestComboDetail(
 @Serializable
 @JsOnlyExport
 public data class MoveMetaData(
-  val ailment: ResourceHandle.Named<MoveAilment>,
-  val category: ResourceHandle.Named<MoveCategory>,
+  val ailment: Handle.Named<MoveAilment>,
+  val category: Handle.Named<MoveCategory>,
   val minHits: Int?,
   val maxHits: Int?,
   val minTurns: Int?,
@@ -137,7 +137,7 @@ public data class MoveMetaData(
  */
 @Serializable
 @JsOnlyExport
-public data class MoveStatChange(val change: Int, val stat: ResourceHandle.Named<Stat>)
+public data class MoveStatChange(val change: Int, val stat: Handle.Named<Stat>)
 
 /**
  * The stat values of a move in previous versions of the games. See:
@@ -159,8 +159,8 @@ public data class PastMoveStatValues(
   val power: Int?,
   val pp: Int?,
   val effectEntries: List<VerboseEffect>,
-  val type: ResourceHandle.Named<Type>?,
-  val versionGroup: ResourceHandle.Named<VersionGroup>,
+  val type: Handle.Named<Type>?,
+  val versionGroup: Handle.Named<VersionGroup>,
 )
 
 /**
@@ -177,7 +177,7 @@ public data class PastMoveStatValues(
 public data class MoveAilment(
   val id: Int,
   val name: String,
-  val moves: List<ResourceHandle.Named<Move>>,
+  val moves: List<Handle.Named<Move>>,
   val names: List<Name>,
 ) : EndpointModel
 
@@ -208,7 +208,7 @@ public data class MoveBattleStyle(val id: Int, val name: String, val names: List
 public data class MoveCategory(
   val id: Int,
   val name: String,
-  val moves: List<ResourceHandle.Named<Move>>,
+  val moves: List<Handle.Named<Move>>,
   val descriptions: List<Description>,
 ) : EndpointModel
 
@@ -228,7 +228,7 @@ public data class MoveDamageClass(
   val id: Int,
   val name: String,
   val descriptions: List<Description>,
-  val moves: List<ResourceHandle.Named<Move>>,
+  val moves: List<Handle.Named<Move>>,
   val names: List<Name>,
 ) : EndpointModel
 
@@ -248,7 +248,7 @@ public data class MoveLearnMethod(
   val name: String,
   val descriptions: List<Description>,
   val names: List<Name>,
-  val versionGroups: List<ResourceHandle.Named<VersionGroup>>,
+  val versionGroups: List<Handle.Named<VersionGroup>>,
 ) : EndpointModel
 
 /**
@@ -267,7 +267,7 @@ public data class MoveTarget(
   val id: Int,
   val name: String,
   val descriptions: List<Description>,
-  val moves: List<ResourceHandle.Named<Move>>,
+  val moves: List<Handle.Named<Move>>,
   val names: List<Name>,
 ) : EndpointModel
 
@@ -283,6 +283,6 @@ public data class MoveTarget(
 @JsOnlyExport
 public data class MoveFlavorText(
   val flavorText: String,
-  val language: ResourceHandle.Named<Language>,
-  val versionGroup: ResourceHandle.Named<VersionGroup>,
+  val language: Handle.Named<Language>,
+  val versionGroup: Handle.Named<VersionGroup>,
 )

@@ -31,15 +31,15 @@ public data class Item(
   val name: String,
   val cost: Int,
   val flingPower: Int?,
-  val flingEffect: ResourceHandle.Named<ItemFlingEffect>?,
-  val attributes: List<ResourceHandle.Named<ItemAttribute>>,
-  val category: ResourceHandle.Named<ItemCategory>,
+  val flingEffect: Handle.Named<ItemFlingEffect>?,
+  val attributes: List<Handle.Named<ItemAttribute>>,
+  val category: Handle.Named<ItemCategory>,
   val effectEntries: List<VerboseEffect>,
   val flavorTextEntries: List<VersionGroupFlavorText>,
   val gameIndices: List<GenerationGameIndex>,
   val names: List<Name>,
   val heldByPokemon: List<ItemHolderPokemon>,
-  val babyTriggerFor: ResourceHandle.Unnamed<EvolutionChain>?,
+  val babyTriggerFor: Handle.Unnamed<EvolutionChain>?,
   val sprites: ItemSprites,
   val machines: List<MachineVersionDetail>,
 ) : EndpointModel
@@ -61,7 +61,7 @@ public data class Item(
 @Serializable
 @JsOnlyExport
 public data class ItemHolderPokemon(
-  val pokemon: ResourceHandle.Named<PokemonVariety>,
+  val pokemon: Handle.Named<PokemonVariety>,
   val versionDetails: List<ItemHolderPokemonVersionDetail>,
 )
 
@@ -76,7 +76,7 @@ public data class ItemHolderPokemon(
 @JsOnlyExport
 public data class ItemHolderPokemonVersionDetail(
   val rarity: Int,
-  val version: ResourceHandle.Named<Version>,
+  val version: Handle.Named<Version>,
 )
 
 /**
@@ -94,7 +94,7 @@ public data class ItemHolderPokemonVersionDetail(
 public data class ItemAttribute(
   val id: Int,
   val name: String,
-  val items: List<ResourceHandle.Named<Item>>,
+  val items: List<Handle.Named<Item>>,
   val names: List<Name>,
   val descriptions: List<Description>,
 ) : EndpointModel
@@ -114,9 +114,9 @@ public data class ItemAttribute(
 public data class ItemCategory(
   val id: Int,
   val name: String,
-  val items: List<ResourceHandle.Named<Item>>,
+  val items: List<Handle.Named<Item>>,
   val names: List<Name>,
-  val pocket: ResourceHandle.Named<ItemPocket>,
+  val pocket: Handle.Named<ItemPocket>,
 ) : EndpointModel
 
 /**
@@ -134,7 +134,7 @@ public data class ItemFlingEffect(
   val id: Int,
   val name: String,
   val effectEntries: List<Effect>,
-  val items: List<ResourceHandle.Named<Item>>,
+  val items: List<Handle.Named<Item>>,
 ) : EndpointModel
 
 /**
@@ -151,6 +151,6 @@ public data class ItemFlingEffect(
 public data class ItemPocket(
   val id: Int,
   val name: String,
-  val categories: List<ResourceHandle.Named<ItemCategory>>,
+  val categories: List<Handle.Named<ItemCategory>>,
   val names: List<Name>,
 ) : EndpointModel

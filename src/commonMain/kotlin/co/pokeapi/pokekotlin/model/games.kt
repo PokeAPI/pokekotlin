@@ -23,13 +23,13 @@ import kotlinx.serialization.Serializable
 public data class Generation(
   val id: Int,
   val name: String,
-  val abilities: List<ResourceHandle.Named<Ability>>,
+  val abilities: List<Handle.Named<Ability>>,
   val names: List<Name>,
-  val mainRegion: ResourceHandle.Named<Region>,
-  val moves: List<ResourceHandle.Named<Move>>,
-  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
-  val types: List<ResourceHandle.Named<Type>>,
-  val versionGroups: List<ResourceHandle.Named<VersionGroup>>,
+  val mainRegion: Handle.Named<Region>,
+  val moves: List<Handle.Named<Move>>,
+  val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
+  val types: List<Handle.Named<Type>>,
+  val versionGroups: List<Handle.Named<VersionGroup>>,
 ) : EndpointModel
 
 /**
@@ -56,8 +56,8 @@ public data class Pokedex(
   val descriptions: List<Description>,
   val names: List<Name>,
   val pokemonEntries: List<PokemonEntry>,
-  val region: ResourceHandle.Named<Region>?,
-  val versionGroups: List<ResourceHandle.Named<VersionGroup>>,
+  val region: Handle.Named<Region>?,
+  val versionGroups: List<Handle.Named<VersionGroup>>,
 ) : EndpointModel
 
 /**
@@ -70,7 +70,7 @@ public data class Pokedex(
 @JsOnlyExport
 public data class PokemonEntry(
   val entryNumber: Int,
-  val pokemonSpecies: ResourceHandle.Named<PokemonSpecies>,
+  val pokemonSpecies: Handle.Named<PokemonSpecies>,
 )
 
 /**
@@ -87,7 +87,7 @@ public data class Version(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val versionGroup: ResourceHandle.Named<VersionGroup>,
+  val versionGroup: Handle.Named<VersionGroup>,
 ) : EndpointModel
 
 /**
@@ -110,9 +110,9 @@ public data class VersionGroup(
   val id: Int,
   val name: String,
   val order: Int,
-  val generation: ResourceHandle.Named<Generation>,
-  val moveLearnMethods: List<ResourceHandle.Named<MoveLearnMethod>>,
-  val pokedexes: List<ResourceHandle.Named<Pokedex>>,
-  val regions: List<ResourceHandle.Named<Region>>,
-  val versions: List<ResourceHandle.Named<Version>>,
+  val generation: Handle.Named<Generation>,
+  val moveLearnMethods: List<Handle.Named<MoveLearnMethod>>,
+  val pokedexes: List<Handle.Named<Pokedex>>,
+  val regions: List<Handle.Named<Region>>,
+  val versions: List<Handle.Named<Version>>,
 ) : EndpointModel

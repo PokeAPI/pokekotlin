@@ -35,10 +35,10 @@ public data class Berry(
   val size: Int,
   val smoothness: Int,
   val soilDryness: Int,
-  val firmness: ResourceHandle.Named<BerryFirmness>,
+  val firmness: Handle.Named<BerryFirmness>,
   val flavors: List<BerryFlavorMap>,
-  val item: ResourceHandle.Named<Item>,
-  val naturalGiftType: ResourceHandle.Named<Type>,
+  val item: Handle.Named<Item>,
+  val naturalGiftType: Handle.Named<Type>,
 ) : EndpointModel
 
 /**
@@ -49,7 +49,7 @@ public data class Berry(
  */
 @Serializable
 @JsOnlyExport
-public data class BerryFlavorMap(val potency: Int, val flavor: ResourceHandle.Named<BerryFlavor>)
+public data class BerryFlavorMap(val potency: Int, val flavor: Handle.Named<BerryFlavor>)
 
 /**
  * The firmness of berries, used in making Pokéblocks or Poffins. See:
@@ -65,7 +65,7 @@ public data class BerryFlavorMap(val potency: Int, val flavor: ResourceHandle.Na
 public data class BerryFirmness(
   val id: Int,
   val name: String,
-  val berries: List<ResourceHandle.Named<Berry>>,
+  val berries: List<Handle.Named<Berry>>,
   val names: List<Name>,
 ) : EndpointModel
 
@@ -85,7 +85,7 @@ public data class BerryFlavor(
   val id: Int,
   val name: String,
   val berries: List<FlavorBerryMap>,
-  val contestType: ResourceHandle.Named<ContestType>,
+  val contestType: Handle.Named<ContestType>,
   val names: List<Name>,
 ) : EndpointModel
 
@@ -97,4 +97,4 @@ public data class BerryFlavor(
  */
 @Serializable
 @JsOnlyExport
-public data class FlavorBerryMap(val potency: Int, val berry: ResourceHandle.Named<Berry>)
+public data class FlavorBerryMap(val potency: Int, val berry: Handle.Named<Berry>)

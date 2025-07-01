@@ -3,7 +3,7 @@ package co.pokeapi.pokekotlin.test.model
 import co.pokeapi.pokekotlin.model.ContestName
 import co.pokeapi.pokekotlin.model.Effect
 import co.pokeapi.pokekotlin.model.FlavorText
-import co.pokeapi.pokekotlin.model.ResourceHandle
+import co.pokeapi.pokekotlin.model.Handle
 import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
@@ -17,10 +17,10 @@ class ContestTest {
     LocalPokeApi.getContestType(4).apply {
       assertEquals(4, id)
       assertEquals("smart", name)
-      assertEquals(ResourceHandle.of(4, "bitter"), berryFlavor)
+      assertEquals(Handle.of(4, "bitter"), berryFlavor)
       assertContains(
         names,
-        ContestName(name = "Smart", color = "Green", language = ResourceHandle.of(9, "en")),
+        ContestName(name = "Smart", color = "Green", language = Handle.of(9, "en")),
       )
     }
   }
@@ -35,14 +35,14 @@ class ContestTest {
         effectEntries,
         Effect(
           effect = "If user appeals first this turn, earns six points instead of two.",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
       assertContains(
         flavorTextEntries,
         FlavorText(
           flavorText = "The appeal works great if performed first.",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
     }
@@ -57,10 +57,10 @@ class ContestTest {
         flavorTextEntries,
         FlavorText(
           flavorText = "Makes the order of contestants random in the next turn.",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
-      assertContains(moves, ResourceHandle.of(274, "assist"))
+      assertContains(moves, Handle.of(274, "assist"))
     }
   }
 }

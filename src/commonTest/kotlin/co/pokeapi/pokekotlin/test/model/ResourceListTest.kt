@@ -1,8 +1,8 @@
 package co.pokeapi.pokekotlin.test.model
 
 import co.pokeapi.pokekotlin.model.EndpointModel
-import co.pokeapi.pokekotlin.model.PaginatedResourceList
-import co.pokeapi.pokekotlin.model.ResourceHandle
+import co.pokeapi.pokekotlin.model.Handle
+import co.pokeapi.pokekotlin.model.PaginatedList
 import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.*
 import kotlinx.coroutines.test.runTest
@@ -14,7 +14,7 @@ class ResourceListTest {
   private suspend inline fun <reified T : EndpointModel> testCase(
     id: Int,
     name: String,
-    call: suspend () -> PaginatedResourceList.Named<T>,
+    call: suspend () -> PaginatedList.Named<T>,
   ) {
     call().apply {
       assertTrue(results.size <= pageSize, "Actual count: ${results.size}, pageSize: $pageSize")
@@ -31,13 +31,13 @@ class ResourceListTest {
         assertNotNull(it.id)
       }
 
-      assertContains(results, ResourceHandle.of(id, name))
+      assertContains(results, Handle.of(id, name))
     }
   }
 
   private suspend inline fun <reified T : EndpointModel> testCase(
     id: Int,
-    call: suspend () -> PaginatedResourceList.Unnamed<T>,
+    call: suspend () -> PaginatedList.Unnamed<T>,
   ) {
     call().apply {
       assertTrue(results.size <= pageSize)
@@ -51,7 +51,7 @@ class ResourceListTest {
 
       results.forEach { assertNotNull(it.id) }
 
-      assertContains(results, ResourceHandle.of<T>(id))
+      assertContains(results, Handle.of<T>(id))
     }
   }
 

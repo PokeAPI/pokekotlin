@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin.test.model
 
+import co.pokeapi.pokekotlin.model.Handle
 import co.pokeapi.pokekotlin.model.Name
-import co.pokeapi.pokekotlin.model.ResourceHandle
 import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
@@ -16,7 +16,7 @@ class EncounterTest {
       assertEquals(5, id)
       assertEquals("surf", name)
       assertEquals(14, order)
-      assertContains(names, Name(name = "Surfing", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "Surfing", language = Handle.of(9, "en")))
     }
   }
 
@@ -25,8 +25,8 @@ class EncounterTest {
     LocalPokeApi.getEncounterCondition(5).apply {
       assertEquals(5, id)
       assertEquals("radio", name)
-      assertContains(values, ResourceHandle.of(15, "radio-hoenn"))
-      assertContains(names, Name(name = "Radio", language = ResourceHandle.of(9, "en")))
+      assertContains(values, Handle.of(15, "radio-hoenn"))
+      assertContains(names, Name(name = "Radio", language = Handle.of(9, "en")))
     }
   }
 
@@ -35,8 +35,8 @@ class EncounterTest {
     LocalPokeApi.getEncounterConditionValue(5).apply {
       assertEquals(5, id)
       assertEquals("time-night", name)
-      assertEquals(ResourceHandle.of(2, "time"), condition)
-      assertContains(names, Name(name = "At night", language = ResourceHandle.of(9, "en")))
+      assertEquals(Handle.of(2, "time"), condition)
+      assertContains(names, Name(name = "At night", language = Handle.of(9, "en")))
     }
   }
 }

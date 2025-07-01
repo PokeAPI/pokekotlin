@@ -21,24 +21,24 @@ class MoveTest {
       assertEquals(0, priority)
       assertEquals(85, power)
       assertEquals(null, contestCombos)
-      assertEquals(ResourceHandle.of(5, "tough"), contestType)
-      assertEquals(ResourceHandle.of(4), contestEffect)
-      assertEquals(ResourceHandle.of(5), superContestEffect)
-      assertEquals(ResourceHandle.of(2, "physical"), damageClass)
+      assertEquals(Handle.of(5, "tough"), contestType)
+      assertEquals(Handle.of(4), contestEffect)
+      assertEquals(Handle.of(5), superContestEffect)
+      assertEquals(Handle.of(2, "physical"), damageClass)
       assertContains(
         effectEntries,
         VerboseEffect(
           effect = "Inflicts regular damage.  Has a 30% chance to paralyze the target.",
           shortEffect = "Has a 30% chance to paralyze the target.",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
       assertEquals(emptyList(), effectChanges)
-      assertEquals(ResourceHandle.of(1, "generation-i"), generation)
+      assertEquals(Handle.of(1, "generation-i"), generation)
       assertEquals(
         MoveMetaData(
-          ailment = ResourceHandle.of(1, "paralysis"),
-          category = ResourceHandle.of(4, "damage+ailment"),
+          ailment = Handle.of(1, "paralysis"),
+          category = Handle.of(4, "damage+ailment"),
           minHits = null,
           maxHits = null,
           minTurns = null,
@@ -52,24 +52,21 @@ class MoveTest {
         ),
         meta,
       )
-      assertContains(names, Name(name = "Body Slam", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "Body Slam", language = Handle.of(9, "en")))
       assertEquals(emptyList(), pastValues)
       assertEquals(emptyList(), statChanges)
-      assertEquals(ResourceHandle.of(10, "selected-pokemon"), target)
-      assertEquals(ResourceHandle.of(1, "normal"), type)
+      assertEquals(Handle.of(10, "selected-pokemon"), target)
+      assertEquals(Handle.of(1, "normal"), type)
       assertContains(
         machines,
-        MachineVersionDetail(
-          machine = ResourceHandle.of(142),
-          versionGroup = ResourceHandle.of(1, "red-blue"),
-        ),
+        MachineVersionDetail(machine = Handle.of(142), versionGroup = Handle.of(1, "red-blue")),
       )
       assertContains(
         flavorTextEntries,
         MoveFlavorText(
           flavorText = "An attack that may\ncause paralysis.",
-          language = ResourceHandle.of(9, "en"),
-          versionGroup = ResourceHandle.of(3, "gold-silver"),
+          language = Handle.of(9, "en"),
+          versionGroup = Handle.of(3, "gold-silver"),
         ),
       )
     }
@@ -81,7 +78,7 @@ class MoveTest {
       assertEquals(
         ContestComboSets(
           normalSet = ContestComboDetail(null, null),
-          superSet = ContestComboDetail(null, listOf(ResourceHandle.of(116, "focus-energy"))),
+          superSet = ContestComboDetail(null, listOf(Handle.of(116, "focus-energy"))),
         ),
         contestCombos,
       )
@@ -93,10 +90,10 @@ class MoveTest {
     LocalPokeApi.getMove(16).apply {
       assertNotNull(
         effectChanges.find {
-          it.versionGroup == ResourceHandle.of<VersionGroup>(3, "gold-silver") &&
+          it.versionGroup == Handle.of<VersionGroup>(3, "gold-silver") &&
             Effect(
               effect = "Does not hit Pokémon under the effects of fly.",
-              language = ResourceHandle.of(9, "en"),
+              language = Handle.of(9, "en"),
             ) in it.effectEntries
         }
       )
@@ -106,7 +103,7 @@ class MoveTest {
   @Test
   fun getMove4() = runTest {
     LocalPokeApi.getMove(14).apply {
-      assertContains(statChanges, MoveStatChange(change = 2, stat = ResourceHandle.of(2, "attack")))
+      assertContains(statChanges, MoveStatChange(change = 2, stat = Handle.of(2, "attack")))
     }
   }
 
@@ -121,8 +118,8 @@ class MoveTest {
           pp = null,
           effectChance = null,
           effectEntries = emptyList(),
-          type = ResourceHandle.of(1, "normal"),
-          versionGroup = ResourceHandle.of(3, "gold-silver"),
+          type = Handle.of(1, "normal"),
+          versionGroup = Handle.of(3, "gold-silver"),
         ),
       )
     }
@@ -133,8 +130,8 @@ class MoveTest {
     LocalPokeApi.getMoveAilment(1).apply {
       assertEquals(1, id)
       assertEquals("paralysis", name)
-      assertContains(names, Name(name = "Paralysis", language = ResourceHandle.of(9, "en")))
-      assertContains(moves, ResourceHandle.of(78, "stun-spore"))
+      assertContains(names, Name(name = "Paralysis", language = Handle.of(9, "en")))
+      assertContains(moves, Handle.of(78, "stun-spore"))
     }
   }
 
@@ -143,7 +140,7 @@ class MoveTest {
     LocalPokeApi.getMoveBattleStyle(1).apply {
       assertEquals(1, id)
       assertEquals("attack", name)
-      assertContains(names, Name(name = "Attack", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "Attack", language = Handle.of(9, "en")))
     }
   }
 
@@ -156,10 +153,10 @@ class MoveTest {
         descriptions,
         Description(
           description = "No damage; inflicts status ailment",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
-      assertContains(moves, ResourceHandle.of(47, "sing"))
+      assertContains(moves, Handle.of(47, "sing"))
     }
   }
 
@@ -168,12 +165,12 @@ class MoveTest {
     LocalPokeApi.getMoveDamageClass(1).apply {
       assertEquals(1, id)
       assertEquals("status", name)
-      assertContains(names, Name(name = "status", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "status", language = Handle.of(9, "en")))
       assertContains(
         descriptions,
-        Description(description = "No damage", language = ResourceHandle.of(9, "en")),
+        Description(description = "No damage", language = Handle.of(9, "en")),
       )
-      assertContains(moves, ResourceHandle.of(289, "snatch"))
+      assertContains(moves, Handle.of(289, "snatch"))
     }
   }
 
@@ -182,7 +179,7 @@ class MoveTest {
     LocalPokeApi.getMoveLearnMethod(10).apply {
       assertEquals(10, id)
       assertEquals("form-change", name)
-      assertContains(names, Name(name = "Form Change", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "Form Change", language = Handle.of(9, "en")))
       assertContains(
         descriptions,
         Description(
@@ -190,10 +187,10 @@ class MoveTest {
             "Appears when Rotom or Cosplay Pikachu changes form.  " +
               "Disappears if the Pokémon becomes another form and this move can only " +
               "be learned by form change.",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
-      assertContains(versionGroups, ResourceHandle.of(15, "x-y"))
+      assertContains(versionGroups, Handle.of(15, "x-y"))
     }
   }
 
@@ -202,15 +199,15 @@ class MoveTest {
     LocalPokeApi.getMoveTarget(8).apply {
       assertEquals(8, id)
       assertEquals("random-opponent", name)
-      assertContains(names, Name(name = "Random opponent", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "Random opponent", language = Handle.of(9, "en")))
       assertContains(
         descriptions,
         Description(
           description = "One opposing Pokémon, selected at random.",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
-      assertContains(moves, ResourceHandle.of(253, "uproar"))
+      assertContains(moves, Handle.of(253, "uproar"))
     }
   }
 }

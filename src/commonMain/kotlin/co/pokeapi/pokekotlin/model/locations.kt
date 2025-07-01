@@ -19,10 +19,10 @@ import kotlinx.serialization.Serializable
 public data class Location(
   val id: Int,
   val name: String,
-  val region: ResourceHandle.Named<Region>?,
+  val region: Handle.Named<Region>?,
   val names: List<Name>,
   val gameIndices: List<GenerationGameIndex>,
-  val areas: List<ResourceHandle.Named<LocationArea>>,
+  val areas: List<Handle.Named<LocationArea>>,
 ) : EndpointModel
 
 /**
@@ -46,7 +46,7 @@ public data class LocationArea(
   val name: String,
   val gameIndex: Int,
   val encounterMethodRates: List<EncounterMethodRate>,
-  val location: ResourceHandle.Named<Location>,
+  val location: Handle.Named<Location>,
   val names: List<Name>,
   val pokemonEncounters: List<PokemonEncounter>,
 ) : EndpointModel
@@ -61,7 +61,7 @@ public data class LocationArea(
 @Serializable
 @JsOnlyExport
 public data class EncounterMethodRate(
-  val encounterMethod: ResourceHandle.Named<EncounterMethod>,
+  val encounterMethod: Handle.Named<EncounterMethod>,
   val versionDetails: List<EncounterMethodRateVersionDetail>,
 )
 
@@ -76,7 +76,7 @@ public data class EncounterMethodRate(
 @JsOnlyExport
 public data class EncounterMethodRateVersionDetail(
   val rate: Int,
-  val version: ResourceHandle.Named<Version>,
+  val version: Handle.Named<Version>,
 )
 
 /**
@@ -89,7 +89,7 @@ public data class EncounterMethodRateVersionDetail(
 @Serializable
 @JsOnlyExport
 public data class PokemonEncounter(
-  val pokemon: ResourceHandle.Named<PokemonVariety>,
+  val pokemon: Handle.Named<PokemonVariety>,
   val versionDetails: List<VersionEncounterDetail>,
 )
 
@@ -124,7 +124,7 @@ public data class PalParkArea(
 public data class PalParkEncounterSpecies(
   val baseScore: Int,
   val rate: Int,
-  val pokemonSpecies: ResourceHandle.Named<PokemonSpecies>,
+  val pokemonSpecies: Handle.Named<PokemonSpecies>,
 )
 
 /**
@@ -145,9 +145,9 @@ public data class PalParkEncounterSpecies(
 public data class Region(
   val id: Int,
   val name: String,
-  val locations: List<ResourceHandle.Named<Location>>,
-  val mainGeneration: ResourceHandle.Named<Generation>?,
+  val locations: List<Handle.Named<Location>>,
+  val mainGeneration: Handle.Named<Generation>?,
   val names: List<Name>,
-  val pokedexes: List<ResourceHandle.Named<Pokedex>>,
-  val versionGroups: List<ResourceHandle.Named<VersionGroup>>,
+  val pokedexes: List<Handle.Named<Pokedex>>,
+  val versionGroups: List<Handle.Named<VersionGroup>>,
 ) : EndpointModel

@@ -18,7 +18,7 @@ import kotlinx.serialization.Serializable
 @JsOnlyExport
 public data class EvolutionChain(
   val id: Int,
-  val babyTriggerItem: ResourceHandle.Named<Item>?,
+  val babyTriggerItem: Handle.Named<Item>?,
   val chain: ChainLink,
 ) : EndpointModel
 
@@ -36,7 +36,7 @@ public data class EvolutionChain(
 @JsOnlyExport
 public data class ChainLink(
   val isBaby: Boolean,
-  val species: ResourceHandle.Named<PokemonSpecies>,
+  val species: Handle.Named<PokemonSpecies>,
   val evolutionDetails: List<EvolutionDetail>,
   val evolvesTo: List<ChainLink>,
 )
@@ -71,22 +71,22 @@ public data class ChainLink(
 @Serializable
 @JsOnlyExport
 public data class EvolutionDetail(
-  val trigger: ResourceHandle.Named<EvolutionTrigger>,
-  val item: ResourceHandle.Named<Item>? = null,
+  val trigger: Handle.Named<EvolutionTrigger>,
+  val item: Handle.Named<Item>? = null,
   val gender: Int? = null,
-  val heldItem: ResourceHandle.Named<Item>? = null,
-  val knownMove: ResourceHandle.Named<Move>? = null,
-  val knownMoveType: ResourceHandle.Named<Type>? = null,
-  val location: ResourceHandle.Named<Location>? = null,
+  val heldItem: Handle.Named<Item>? = null,
+  val knownMove: Handle.Named<Move>? = null,
+  val knownMoveType: Handle.Named<Type>? = null,
+  val location: Handle.Named<Location>? = null,
   val minLevel: Int? = null,
   val minHappiness: Int? = null,
   val minBeauty: Int? = null,
   val minAffection: Int? = null,
-  val partySpecies: ResourceHandle.Named<PokemonSpecies>? = null,
-  val partyType: ResourceHandle.Named<Type>? = null,
+  val partySpecies: Handle.Named<PokemonSpecies>? = null,
+  val partyType: Handle.Named<Type>? = null,
   val relativePhysicalStats: Int? = null,
   val timeOfDay: String = "",
-  val tradeSpecies: ResourceHandle.Named<PokemonSpecies>? = null,
+  val tradeSpecies: Handle.Named<PokemonSpecies>? = null,
   val needsOverworldRain: Boolean = false,
   val turnUpsideDown: Boolean = false,
 )
@@ -106,5 +106,5 @@ public data class EvolutionTrigger(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+  val pokemonSpecies: List<Handle.Named<PokemonSpecies>>,
 ) : EndpointModel

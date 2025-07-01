@@ -1,8 +1,7 @@
 package co.pokeapi.pokekotlin.model
 
-import co.pokeapi.pokekotlin.internal.ApiResourceSerializer
+import co.pokeapi.pokekotlin.internal.HandleSerializers
 import co.pokeapi.pokekotlin.internal.JsOnlyExport
-import co.pokeapi.pokekotlin.internal.NamedApiResourceSerializer
 import kotlin.reflect.KClass
 import kotlinx.serialization.Serializable
 
@@ -69,15 +68,13 @@ internal enum class ResourceEndpoint(val model: KClass<out EndpointModel>) {
   override fun toString() = name
 }
 
-@JsOnlyExport @Serializable public sealed interface EndpointModel
-
 /**
  * Represents a reference to a resource in the API by URL.
  *
  * @property id The identifier for the resource.
  */
 @JsOnlyExport
-public sealed class ResourceHandle<out T : EndpointModel> {
+public sealed class Handle<out T : EndpointModel> {
   internal abstract val url: String
 
   internal val model: KClass<out T> by lazy {
@@ -90,7 +87,7 @@ public sealed class ResourceHandle<out T : EndpointModel> {
     urlRegex.find(url)?.groupValues[2]?.toInt() ?: throw IllegalArgumentException(url)
   }
 
-  internal companion object {
+  internal companion object Companion {
     private val urlRegex = "/([a-z\\-]+)/(-?[0-9]+)/$".toRegex()
 
     internal inline fun <reified T : EndpointModel> of(id: Int): Unnamed<T> =
@@ -104,10 +101,9 @@ public sealed class ResourceHandle<out T : EndpointModel> {
    * Represents a reference to another resource in the API by URL only. This matches the "resource"
    * object pattern in the PokeAPI documentation. See: https://pokeapi.co/docs/v2#apiresource
    */
-  @Serializable(with = ApiResourceSerializer::class)
-  @JsOnlyExport
+  @Serializable(with = HandleSerializers.Unnamed::class)
   public data class Unnamed<out T : EndpointModel> internal constructor(override val url: String) :
-    ResourceHandle<T>()
+    Handle<T>()
 
   /**
    * Represents a reference to another resource in the API by name and URL. This matches the "named
@@ -116,15 +112,14 @@ public sealed class ResourceHandle<out T : EndpointModel> {
    *
    * @param slug The unique (name) of the referenced resource.
    */
-  @Serializable(with = NamedApiResourceSerializer::class)
-  @JsOnlyExport
+  @Serializable(with = HandleSerializers.Named::class)
   public data class Named<out T : EndpointModel>
-  internal constructor(override val url: String, val slug: String) : ResourceHandle<T>()
+  internal constructor(override val url: String, val slug: String) : Handle<T>()
 }
 
 /**
- * Represents a paginated list of resource summaries, similar to the paginated resource list objects
- * in the PokeAPI. See: https://pokeapi.co/docs/v2#resource-listspagination-section
+ * Represents a paginated list of [Handle], similar to the paginated resource list objects in the
+ * PokeAPI. See: https://pokeapi.co/docs/v2#resource-listspagination-section
  *
  * @property count The total number of resources available from this API.
  * @property next The URL for the next page in the list.
@@ -132,29 +127,27 @@ public sealed class ResourceHandle<out T : EndpointModel> {
  * @property results The list of returned resources in this page.
  */
 @JsOnlyExport
-public sealed class PaginatedResourceList<out T : EndpointModel> {
+public sealed class PaginatedList<out T : EndpointModel> {
   public abstract val count: Int
   public abstract val next: String?
   public abstract val previous: String?
-  public abstract val results: List<ResourceHandle<T>>
+  public abstract val results: List<Handle<T>>
 
   @Serializable
-  @JsOnlyExport
   public data class Unnamed<out T : EndpointModel>
   internal constructor(
     override val count: Int,
     override val next: String?,
     override val previous: String?,
-    override val results: List<ResourceHandle.Unnamed<T>>,
-  ) : PaginatedResourceList<T>()
+    override val results: List<Handle.Unnamed<T>>,
+  ) : PaginatedList<T>()
 
   @Serializable
-  @JsOnlyExport
   public data class Named<out T : EndpointModel>
   internal constructor(
     override val count: Int,
     override val next: String?,
     override val previous: String?,
-    override val results: List<ResourceHandle.Named<T>>,
-  ) : PaginatedResourceList<T>()
+    override val results: List<Handle.Named<T>>,
+  ) : PaginatedList<T>()
 }

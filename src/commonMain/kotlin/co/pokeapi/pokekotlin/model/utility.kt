@@ -35,10 +35,7 @@ public data class Language(
  */
 @Serializable
 @JsOnlyExport
-public data class Description(
-  val description: String,
-  val language: ResourceHandle.Named<Language>,
-)
+public data class Description(val description: String, val language: Handle.Named<Language>)
 
 /**
  * The localized effect text for an API resource in a specific language. See:
@@ -49,7 +46,7 @@ public data class Description(
  */
 @Serializable
 @JsOnlyExport
-public data class Effect(val effect: String, val language: ResourceHandle.Named<Language>)
+public data class Effect(val effect: String, val language: Handle.Named<Language>)
 
 /**
  * Encounter details for a Pokémon in a specific location area. See:
@@ -66,9 +63,9 @@ public data class Effect(val effect: String, val language: ResourceHandle.Named<
 public data class Encounter(
   val minLevel: Int,
   val maxLevel: Int,
-  val conditionValues: List<ResourceHandle.Named<EncounterConditionValue>>,
+  val conditionValues: List<Handle.Named<EncounterConditionValue>>,
   val chance: Int,
-  val method: ResourceHandle.Named<EncounterMethod>,
+  val method: Handle.Named<EncounterMethod>,
 )
 
 /**
@@ -80,7 +77,7 @@ public data class Encounter(
  */
 @Serializable
 @JsOnlyExport
-public data class FlavorText(val flavorText: String, val language: ResourceHandle.Named<Language>)
+public data class FlavorText(val flavorText: String, val language: Handle.Named<Language>)
 
 /**
  * Generation game index for a resource. See: https://pokeapi.co/docs/v2#generationgameindex
@@ -90,10 +87,7 @@ public data class FlavorText(val flavorText: String, val language: ResourceHandl
  */
 @Serializable
 @JsOnlyExport
-public data class GenerationGameIndex(
-  val gameIndex: Int,
-  val generation: ResourceHandle.Named<Generation>,
-)
+public data class GenerationGameIndex(val gameIndex: Int, val generation: Handle.Named<Generation>)
 
 /**
  * Machine and version group details. See: https://pokeapi.co/docs/v2#machineversiondetail
@@ -104,8 +98,8 @@ public data class GenerationGameIndex(
 @Serializable
 @JsOnlyExport
 public data class MachineVersionDetail(
-  val machine: ResourceHandle.Unnamed<Machine>,
-  val versionGroup: ResourceHandle.Named<VersionGroup>,
+  val machine: Handle.Unnamed<Machine>,
+  val versionGroup: Handle.Named<VersionGroup>,
 )
 
 /**
@@ -117,7 +111,7 @@ public data class MachineVersionDetail(
  */
 @Serializable
 @JsOnlyExport
-public data class Name(val name: String, val language: ResourceHandle.Named<Language>)
+public data class Name(val name: String, val language: Handle.Named<Language>)
 
 /**
  * The verbose effect text for an API resource in a specific language. See:
@@ -132,7 +126,7 @@ public data class Name(val name: String, val language: ResourceHandle.Named<Lang
 public data class VerboseEffect(
   val effect: String,
   val shortEffect: String,
-  val language: ResourceHandle.Named<Language>,
+  val language: Handle.Named<Language>,
 )
 
 /**
@@ -146,7 +140,7 @@ public data class VerboseEffect(
 @Serializable
 @JsOnlyExport
 public data class VersionEncounterDetail(
-  val version: ResourceHandle.Named<Version>,
+  val version: Handle.Named<Version>,
   val maxChance: Int,
   val encounterDetails: List<Encounter>,
 )
@@ -159,7 +153,7 @@ public data class VersionEncounterDetail(
  */
 @Serializable
 @JsOnlyExport
-public data class VersionGameIndex(val gameIndex: Int, val version: ResourceHandle.Named<Version>)
+public data class VersionGameIndex(val gameIndex: Int, val version: Handle.Named<Version>)
 
 /**
  * The localized flavor text for a version group. See:
@@ -173,6 +167,6 @@ public data class VersionGameIndex(val gameIndex: Int, val version: ResourceHand
 @JsOnlyExport
 public data class VersionGroupFlavorText(
   val text: String,
-  val language: ResourceHandle.Named<Language>,
-  val versionGroup: ResourceHandle.Named<VersionGroup>,
+  val language: Handle.Named<Language>,
+  val versionGroup: Handle.Named<VersionGroup>,
 )

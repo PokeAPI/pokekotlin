@@ -1,7 +1,7 @@
 package co.pokeapi.pokekotlin.test.model
 
+import co.pokeapi.pokekotlin.model.Handle
 import co.pokeapi.pokekotlin.model.Name
-import co.pokeapi.pokekotlin.model.ResourceHandle
 import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
@@ -17,7 +17,7 @@ class UtilityTest {
       assertEquals("us", iso3166)
       assertEquals("en", iso639)
       assertEquals("en", name)
-      assertContains(names, Name(name = "English", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "English", language = Handle.of(9, "en")))
     }
   }
 }

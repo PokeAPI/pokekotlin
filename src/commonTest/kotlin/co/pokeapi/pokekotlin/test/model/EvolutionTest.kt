@@ -2,8 +2,8 @@ package co.pokeapi.pokekotlin.test.model
 
 import co.pokeapi.pokekotlin.model.ChainLink
 import co.pokeapi.pokekotlin.model.EvolutionDetail
+import co.pokeapi.pokekotlin.model.Handle
 import co.pokeapi.pokekotlin.model.Name
-import co.pokeapi.pokekotlin.model.ResourceHandle
 import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
@@ -21,26 +21,22 @@ class EvolutionTest {
       assertEquals(
         ChainLink(
           isBaby = false,
-          species = ResourceHandle.of(1, "bulbasaur"),
+          species = Handle.of(1, "bulbasaur"),
           evolutionDetails = emptyList(),
           evolvesTo =
             listOf(
               ChainLink(
                 isBaby = false,
-                species = ResourceHandle.of(2, "ivysaur"),
+                species = Handle.of(2, "ivysaur"),
                 evolutionDetails =
-                  listOf(
-                    EvolutionDetail(trigger = ResourceHandle.of(1, "level-up"), minLevel = 16)
-                  ),
+                  listOf(EvolutionDetail(trigger = Handle.of(1, "level-up"), minLevel = 16)),
                 evolvesTo =
                   listOf(
                     ChainLink(
                       isBaby = false,
-                      species = ResourceHandle.of(3, "venusaur"),
+                      species = Handle.of(3, "venusaur"),
                       evolutionDetails =
-                        listOf(
-                          EvolutionDetail(trigger = ResourceHandle.of(1, "level-up"), minLevel = 32)
-                        ),
+                        listOf(EvolutionDetail(trigger = Handle.of(1, "level-up"), minLevel = 32)),
                       evolvesTo = emptyList(),
                     )
                   ),
@@ -59,8 +55,8 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
-              heldItem = ResourceHandle.of(303, "razor-claw"),
+              trigger = Handle.of(1, "level-up"),
+              heldItem = Handle.of(303, "razor-claw"),
               timeOfDay = "night",
             )
           )
@@ -75,10 +71,7 @@ class EvolutionTest {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
-            EvolutionDetail(
-              trigger = ResourceHandle.of(3, "use-item"),
-              item = ResourceHandle.of(84, "water-stone"),
-            )
+            EvolutionDetail(trigger = Handle.of(3, "use-item"), item = Handle.of(84, "water-stone"))
           )
         }
       )
@@ -92,8 +85,8 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
-              location = ResourceHandle.of(8, "eterna-forest"),
+              trigger = Handle.of(1, "level-up"),
+              location = Handle.of(8, "eterna-forest"),
             )
           )
         }
@@ -108,7 +101,7 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
+              trigger = Handle.of(1, "level-up"),
               minHappiness = 160,
               timeOfDay = "day",
             )
@@ -125,8 +118,8 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
-              knownMoveType = ResourceHandle.of(18, "fairy"),
+              trigger = Handle.of(1, "level-up"),
+              knownMoveType = Handle.of(18, "fairy"),
               minAffection = 2,
             )
           )
@@ -141,8 +134,8 @@ class EvolutionTest {
       assertContains(
         chain.evolvesTo[0].evolvesTo[0].evolutionDetails,
         EvolutionDetail(
-          trigger = ResourceHandle.of(1, "level-up"),
-          knownMove = ResourceHandle.of(246, "ancient-power"),
+          trigger = Handle.of(1, "level-up"),
+          knownMove = Handle.of(246, "ancient-power"),
         ),
       )
     }
@@ -154,7 +147,7 @@ class EvolutionTest {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
-            EvolutionDetail(trigger = ResourceHandle.of(1, "level-up"), gender = 1, minLevel = 20)
+            EvolutionDetail(trigger = Handle.of(1, "level-up"), gender = 1, minLevel = 20)
           )
         }
       )
@@ -167,7 +160,7 @@ class EvolutionTest {
       assertNotNull(
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
-            EvolutionDetail(trigger = ResourceHandle.of(1, "level-up"), minBeauty = 171)
+            EvolutionDetail(trigger = Handle.of(1, "level-up"), minBeauty = 171)
           )
         }
       )
@@ -181,9 +174,9 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
+              trigger = Handle.of(1, "level-up"),
               minLevel = 32,
-              partyType = ResourceHandle.of(17, "dark"),
+              partyType = Handle.of(17, "dark"),
             )
           )
         }
@@ -198,7 +191,7 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
+              trigger = Handle.of(1, "level-up"),
               minLevel = 20,
               relativePhysicalStats = 1,
             )
@@ -215,7 +208,7 @@ class EvolutionTest {
         chain.evolvesTo[0].evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
+              trigger = Handle.of(1, "level-up"),
               minLevel = 50,
               needsOverworldRain = true,
             )
@@ -232,7 +225,7 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
+              trigger = Handle.of(1, "level-up"),
               minLevel = 30,
               turnUpsideDown = true,
             )
@@ -249,8 +242,8 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(1, "level-up"),
-              partySpecies = ResourceHandle.of(223, "remoraid"),
+              trigger = Handle.of(1, "level-up"),
+              partySpecies = Handle.of(223, "remoraid"),
             )
           )
         }
@@ -265,8 +258,8 @@ class EvolutionTest {
         chain.evolvesTo.find {
           it.evolutionDetails.contains(
             EvolutionDetail(
-              trigger = ResourceHandle.of(2, "trade"),
-              tradeSpecies = ResourceHandle.of(588, "karrablast"),
+              trigger = Handle.of(2, "trade"),
+              tradeSpecies = Handle.of(588, "karrablast"),
             )
           )
         }
@@ -277,7 +270,7 @@ class EvolutionTest {
   @Test
   fun getEvolutionChain16() = runTest {
     LocalPokeApi.getEvolutionChain(72).apply {
-      assertEquals(ResourceHandle.of(293, "full-incense"), babyTriggerItem)
+      assertEquals(Handle.of(293, "full-incense"), babyTriggerItem)
       assertEquals(true, chain.isBaby)
     }
   }
@@ -287,8 +280,8 @@ class EvolutionTest {
     LocalPokeApi.getEvolutionTrigger(1).apply {
       assertEquals(1, id)
       assertEquals("level-up", name)
-      assertContains(names, Name(name = "Level up", language = ResourceHandle.of(9, "en")))
-      assertContains(pokemonSpecies, ResourceHandle.of(662, "fletchinder"))
+      assertContains(names, Name(name = "Level up", language = Handle.of(9, "en")))
+      assertContains(pokemonSpecies, Handle.of(662, "fletchinder"))
     }
   }
 }

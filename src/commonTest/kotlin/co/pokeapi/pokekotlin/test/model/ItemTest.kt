@@ -14,29 +14,29 @@ class ItemTest {
       assertEquals("ice-heal", name)
       assertEquals(200, cost)
       assertEquals(30, flingPower)
-      assertContains(attributes, ResourceHandle.of(5, "holdable"))
-      assertEquals(ResourceHandle.of(30, "status-cures"), category)
+      assertContains(attributes, Handle.of(5, "holdable"))
+      assertEquals(Handle.of(30, "status-cures"), category)
       assertContains(
         effectEntries,
         VerboseEffect(
           effect = "Used on a party Pokémon\n:   Cures freezing.",
           shortEffect = "Cures freezing.",
-          language = ResourceHandle.of(9, "en"),
+          language = Handle.of(9, "en"),
         ),
       )
       assertContains(
         flavorTextEntries,
         VersionGroupFlavorText(
           text = "Defrosts a frozen\nPOKéMON.",
-          versionGroup = ResourceHandle.of(5, "ruby-sapphire"),
-          language = ResourceHandle.of(9, "en"),
+          versionGroup = Handle.of(5, "ruby-sapphire"),
+          language = Handle.of(9, "en"),
         ),
       )
       assertContains(
         gameIndices,
-        GenerationGameIndex(gameIndex = 20, generation = ResourceHandle.of(6, "generation-vi")),
+        GenerationGameIndex(gameIndex = 20, generation = Handle.of(6, "generation-vi")),
       )
-      assertContains(names, Name(name = "Ice Heal", language = ResourceHandle.of(9, "en")))
+      assertContains(names, Name(name = "Ice Heal", language = Handle.of(9, "en")))
 
       assertEquals(emptyList(), heldByPokemon)
       assertEquals(null, flingEffect)
@@ -51,9 +51,9 @@ class ItemTest {
       assertNotEquals(
         null,
         heldByPokemon.find {
-          it.pokemon == ResourceHandle.of<PokemonVariety>(241, "miltank") &&
+          it.pokemon == Handle.of<PokemonVariety>(241, "miltank") &&
             it.versionDetails.contains(
-              ItemHolderPokemonVersionDetail(rarity = 100, version = ResourceHandle.of(24, "y"))
+              ItemHolderPokemonVersionDetail(rarity = 100, version = Handle.of(24, "y"))
             )
         },
       )
@@ -62,14 +62,12 @@ class ItemTest {
 
   @Test
   fun getItem3() = runTest {
-    LocalPokeApi.getItem(249).apply {
-      assertEquals(ResourceHandle.of(1, "badly-poison"), flingEffect)
-    }
+    LocalPokeApi.getItem(249).apply { assertEquals(Handle.of(1, "badly-poison"), flingEffect) }
   }
 
   @Test
   fun getItem4() = runTest {
-    LocalPokeApi.getItem(231).apply { assertEquals(ResourceHandle.of(90), babyTriggerFor) }
+    LocalPokeApi.getItem(231).apply { assertEquals(Handle.of(90), babyTriggerFor) }
   }
 
   @Test fun getItem5() = runTest { LocalPokeApi.getItem(967) }
@@ -79,8 +77,8 @@ class ItemTest {
     LocalPokeApi.getItem(305).apply {
       assertNotNull(
         machines.find { machineVersionDetail ->
-          machineVersionDetail.machine == ResourceHandle.of<Machine>(2) &&
-            machineVersionDetail.versionGroup == ResourceHandle.of<VersionGroup>(1, "red-blue")
+          machineVersionDetail.machine == Handle.of<Machine>(2) &&
+            machineVersionDetail.versionGroup == Handle.of<VersionGroup>(1, "red-blue")
         }
       )
     }
@@ -93,10 +91,10 @@ class ItemTest {
       assertEquals("usable-overworld", name)
       assertContains(
         descriptions,
-        Description(description = "Usable outside battle", language = ResourceHandle.of(9, "en")),
+        Description(description = "Usable outside battle", language = Handle.of(9, "en")),
       )
-      assertContains(items, ResourceHandle.of(17, "potion"))
-      assertContains(names, Name(name = "Usable_overworld", language = ResourceHandle.of(9, "en")))
+      assertContains(items, Handle.of(17, "potion"))
+      assertContains(names, Name(name = "Usable_overworld", language = Handle.of(9, "en")))
     }
   }
 
@@ -105,9 +103,9 @@ class ItemTest {
     LocalPokeApi.getItemCategory(34).apply {
       assertEquals(34, id)
       assertEquals("standard-balls", name)
-      assertEquals(ResourceHandle.of(3, "pokeballs"), pocket)
-      assertContains(items, ResourceHandle.of(4, "poke-ball"))
-      assertContains(names, Name(name = "Standard balls", language = ResourceHandle.of(9, "en")))
+      assertEquals(Handle.of(3, "pokeballs"), pocket)
+      assertContains(items, Handle.of(4, "poke-ball"))
+      assertContains(names, Name(name = "Standard balls", language = Handle.of(9, "en")))
     }
   }
 
@@ -118,9 +116,9 @@ class ItemTest {
       assertEquals("badly-poison", name)
       assertContains(
         effectEntries,
-        Effect(effect = "Badly poisons the target.", language = ResourceHandle.of(9, "en")),
+        Effect(effect = "Badly poisons the target.", language = Handle.of(9, "en")),
       )
-      assertContains(items, ResourceHandle.of(249, "toxic-orb"))
+      assertContains(items, Handle.of(249, "toxic-orb"))
     }
   }
 
@@ -129,8 +127,8 @@ class ItemTest {
     LocalPokeApi.getItemPocket(4).apply {
       assertEquals(4, id)
       assertEquals("machines", name)
-      assertContains(categories, ResourceHandle.of(37, "all-machines"))
-      assertContains(names, Name(name = "TMs and HMs", language = ResourceHandle.of(9, "en")))
+      assertContains(categories, Handle.of(37, "all-machines"))
+      assertContains(names, Name(name = "TMs and HMs", language = Handle.of(9, "en")))
     }
   }
 }

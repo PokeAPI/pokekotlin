@@ -65,7 +65,7 @@ constructor(
   private suspend inline fun <reified T : EndpointModel> HttpClient.getNamedResourceList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<T> {
+  ): PaginatedList.Named<T> {
     return get("/api/v2/${ResourceEndpoint.forModel<T>()}") {
         parameter("offset", offset)
         parameter("limit", limit)
@@ -76,7 +76,7 @@ constructor(
   private suspend inline fun <reified T : EndpointModel> HttpClient.getResourceList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Unnamed<T> {
+  ): PaginatedList.Unnamed<T> {
     return get("/api/v2/${ResourceEndpoint.forModel<T>()}") {
         parameter("offset", offset)
         parameter("limit", limit)
@@ -90,8 +90,7 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun <T : EndpointModel> ResourceHandle<T>.get(): T =
-    client.get(url).body(TypeInfo(model))
+  public suspend fun <T : EndpointModel> Handle<T>.get(): T = client.get(url).body(TypeInfo(model))
 
   // region Resource Lists
 
@@ -101,7 +100,7 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getBerryList(offset: Int, limit: Int): PaginatedResourceList.Named<Berry> =
+  public suspend fun getBerryList(offset: Int, limit: Int): PaginatedList.Named<Berry> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
@@ -111,16 +110,14 @@ constructor(
   public suspend fun getBerryFirmnessList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<BerryFirmness> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<BerryFirmness> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getBerryFlavorList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<BerryFlavor> = client.getNamedResourceList(offset, limit)
+  public suspend fun getBerryFlavorList(offset: Int, limit: Int): PaginatedList.Named<BerryFlavor> =
+    client.getNamedResourceList(offset, limit)
 
   // endregion Berries
 
@@ -130,10 +127,8 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getContestTypeList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<ContestType> = client.getNamedResourceList(offset, limit)
+  public suspend fun getContestTypeList(offset: Int, limit: Int): PaginatedList.Named<ContestType> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -142,7 +137,7 @@ constructor(
   public suspend fun getContestEffectList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Unnamed<ContestEffect> = client.getResourceList(offset, limit)
+  ): PaginatedList.Unnamed<ContestEffect> = client.getResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -151,7 +146,7 @@ constructor(
   public suspend fun getSuperContestEffectList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Unnamed<SuperContestEffect> = client.getResourceList(offset, limit)
+  ): PaginatedList.Unnamed<SuperContestEffect> = client.getResourceList(offset, limit)
 
   // endregion Contests
 
@@ -164,7 +159,7 @@ constructor(
   public suspend fun getEncounterMethodList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<EncounterMethod> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<EncounterMethod> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -173,7 +168,7 @@ constructor(
   public suspend fun getEncounterConditionList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<EncounterCondition> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<EncounterCondition> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -182,8 +177,7 @@ constructor(
   public suspend fun getEncounterConditionValueList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<EncounterConditionValue> =
-    client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<EncounterConditionValue> = client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -196,7 +190,7 @@ constructor(
   public suspend fun getEvolutionChainList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Unnamed<EvolutionChain> = client.getResourceList(offset, limit)
+  ): PaginatedList.Unnamed<EvolutionChain> = client.getResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -205,7 +199,7 @@ constructor(
   public suspend fun getEvolutionTriggerList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<EvolutionTrigger> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<EvolutionTrigger> = client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -215,23 +209,21 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getGenerationList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<Generation> = client.getNamedResourceList(offset, limit)
-
-  @JvmBlocking
-  @JvmAsync
-  @JsPromise
-  @JsExport.Ignore
-  public suspend fun getPokedexList(offset: Int, limit: Int): PaginatedResourceList.Named<Pokedex> =
+  public suspend fun getGenerationList(offset: Int, limit: Int): PaginatedList.Named<Generation> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getVersionList(offset: Int, limit: Int): PaginatedResourceList.Named<Version> =
+  public suspend fun getPokedexList(offset: Int, limit: Int): PaginatedList.Named<Pokedex> =
+    client.getNamedResourceList(offset, limit)
+
+  @JvmBlocking
+  @JvmAsync
+  @JsPromise
+  @JsExport.Ignore
+  public suspend fun getVersionList(offset: Int, limit: Int): PaginatedList.Named<Version> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
@@ -241,7 +233,7 @@ constructor(
   public suspend fun getVersionGroupList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<VersionGroup> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<VersionGroup> = client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -251,7 +243,7 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getItemList(offset: Int, limit: Int): PaginatedResourceList.Named<Item> =
+  public suspend fun getItemList(offset: Int, limit: Int): PaginatedList.Named<Item> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
@@ -261,7 +253,7 @@ constructor(
   public suspend fun getItemAttributeList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<ItemAttribute> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<ItemAttribute> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -270,7 +262,7 @@ constructor(
   public suspend fun getItemCategoryList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<ItemCategory> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<ItemCategory> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -279,16 +271,14 @@ constructor(
   public suspend fun getItemFlingEffectList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<ItemFlingEffect> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<ItemFlingEffect> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getItemPocketList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<ItemPocket> = client.getNamedResourceList(offset, limit)
+  public suspend fun getItemPocketList(offset: Int, limit: Int): PaginatedList.Named<ItemPocket> =
+    client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -298,17 +288,15 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveList(offset: Int, limit: Int): PaginatedResourceList.Named<Move> =
+  public suspend fun getMoveList(offset: Int, limit: Int): PaginatedList.Named<Move> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveAilmentList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<MoveAilment> = client.getNamedResourceList(offset, limit)
+  public suspend fun getMoveAilmentList(offset: Int, limit: Int): PaginatedList.Named<MoveAilment> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -317,7 +305,7 @@ constructor(
   public suspend fun getMoveBattleStyleList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<MoveBattleStyle> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<MoveBattleStyle> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -326,7 +314,7 @@ constructor(
   public suspend fun getMoveCategoryList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<MoveCategory> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<MoveCategory> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -335,7 +323,7 @@ constructor(
   public suspend fun getMoveDamageClassList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<MoveDamageClass> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<MoveDamageClass> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -344,16 +332,14 @@ constructor(
   public suspend fun getMoveLearnMethodList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<MoveLearnMethod> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<MoveLearnMethod> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveTargetList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<MoveTarget> = client.getNamedResourceList(offset, limit)
+  public suspend fun getMoveTargetList(offset: Int, limit: Int): PaginatedList.Named<MoveTarget> =
+    client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -363,10 +349,8 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getLocationList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<Location> = client.getNamedResourceList(offset, limit)
+  public suspend fun getLocationList(offset: Int, limit: Int): PaginatedList.Named<Location> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -375,22 +359,20 @@ constructor(
   public suspend fun getLocationAreaList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<LocationArea> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<LocationArea> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPalParkAreaList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<PalParkArea> = client.getNamedResourceList(offset, limit)
+  public suspend fun getPalParkAreaList(offset: Int, limit: Int): PaginatedList.Named<PalParkArea> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getRegionList(offset: Int, limit: Int): PaginatedResourceList.Named<Region> =
+  public suspend fun getRegionList(offset: Int, limit: Int): PaginatedList.Named<Region> =
     client.getNamedResourceList(offset, limit)
 
   // endregion
@@ -401,10 +383,8 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMachineList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Unnamed<Machine> = client.getResourceList(offset, limit)
+  public suspend fun getMachineList(offset: Int, limit: Int): PaginatedList.Unnamed<Machine> =
+    client.getResourceList(offset, limit)
 
   // endregion
 
@@ -414,7 +394,7 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getAbilityList(offset: Int, limit: Int): PaginatedResourceList.Named<Ability> =
+  public suspend fun getAbilityList(offset: Int, limit: Int): PaginatedList.Named<Ability> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
@@ -424,38 +404,34 @@ constructor(
   public suspend fun getCharacteristicList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Unnamed<Characteristic> = client.getResourceList(offset, limit)
+  ): PaginatedList.Unnamed<Characteristic> = client.getResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getEggGroupList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<EggGroup> = client.getNamedResourceList(offset, limit)
-
-  @JvmBlocking
-  @JvmAsync
-  @JsPromise
-  @JsExport.Ignore
-  public suspend fun getGenderList(offset: Int, limit: Int): PaginatedResourceList.Named<Gender> =
+  public suspend fun getEggGroupList(offset: Int, limit: Int): PaginatedList.Named<EggGroup> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getGrowthRateList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<GrowthRate> = client.getNamedResourceList(offset, limit)
+  public suspend fun getGenderList(offset: Int, limit: Int): PaginatedList.Named<Gender> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getNatureList(offset: Int, limit: Int): PaginatedResourceList.Named<Nature> =
+  public suspend fun getGrowthRateList(offset: Int, limit: Int): PaginatedList.Named<GrowthRate> =
+    client.getNamedResourceList(offset, limit)
+
+  @JvmBlocking
+  @JvmAsync
+  @JsPromise
+  @JsExport.Ignore
+  public suspend fun getNatureList(offset: Int, limit: Int): PaginatedList.Named<Nature> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
@@ -465,7 +441,7 @@ constructor(
   public suspend fun getPokeathlonStatList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<PokeathlonStat> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<PokeathlonStat> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -474,7 +450,7 @@ constructor(
   public suspend fun getPokemonVarietyList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<PokemonVariety> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<PokemonVariety> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -483,16 +459,14 @@ constructor(
   public suspend fun getPokemonColorList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<PokemonColor> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<PokemonColor> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonFormList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<PokemonForm> = client.getNamedResourceList(offset, limit)
+  public suspend fun getPokemonFormList(offset: Int, limit: Int): PaginatedList.Named<PokemonForm> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -501,7 +475,7 @@ constructor(
   public suspend fun getPokemonHabitatList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<PokemonHabitat> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<PokemonHabitat> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -510,7 +484,7 @@ constructor(
   public suspend fun getPokemonShapeList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<PokemonShape> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<PokemonShape> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
@@ -519,20 +493,20 @@ constructor(
   public suspend fun getPokemonSpeciesList(
     offset: Int,
     limit: Int,
-  ): PaginatedResourceList.Named<PokemonSpecies> = client.getNamedResourceList(offset, limit)
+  ): PaginatedList.Named<PokemonSpecies> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getStatList(offset: Int, limit: Int): PaginatedResourceList.Named<Stat> =
+  public suspend fun getStatList(offset: Int, limit: Int): PaginatedList.Named<Stat> =
     client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getTypeList(offset: Int, limit: Int): PaginatedResourceList.Named<Type> =
+  public suspend fun getTypeList(offset: Int, limit: Int): PaginatedList.Named<Type> =
     client.getNamedResourceList(offset, limit)
 
   // endregion
@@ -543,10 +517,8 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getLanguageList(
-    offset: Int,
-    limit: Int,
-  ): PaginatedResourceList.Named<Language> = client.getNamedResourceList(offset, limit)
+  public suspend fun getLanguageList(offset: Int, limit: Int): PaginatedList.Named<Language> =
+    client.getNamedResourceList(offset, limit)
 
   // endregion
 
