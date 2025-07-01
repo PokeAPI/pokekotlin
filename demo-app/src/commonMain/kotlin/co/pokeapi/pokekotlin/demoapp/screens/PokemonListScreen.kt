@@ -143,7 +143,7 @@ private fun PokemonListItem(
 
           // Placeholder for name
           Text(
-            text = item.slug.replaceFirstChar { it.uppercase() },
+            text = item.name.replaceFirstChar { it.uppercase() },
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(top = 8.dp),
           )
@@ -161,7 +161,7 @@ private fun PokemonListItem(
       is LoadingStatus.Error -> {
         Column(modifier = Modifier.padding(16.dp)) {
           Text(
-            text = item.slug.replaceFirstChar { it.uppercase() },
+            text = item.name.replaceFirstChar { it.uppercase() },
             style = MaterialTheme.typography.titleMedium,
           )
           Text(
@@ -209,7 +209,7 @@ private fun PokemonListItem(
           ) {
             pokemon.types
               .sortedBy { it.slot }
-              .forEach { pokemonType -> PokemonTypeBadge(pokemonType.type.slug) }
+              .forEach { pokemonType -> PokemonTypeBadge(pokemonType.type.name) }
           }
         }
       }

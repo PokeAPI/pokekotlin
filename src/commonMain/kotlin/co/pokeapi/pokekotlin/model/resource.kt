@@ -93,8 +93,8 @@ public sealed class Handle<out T : Model> {
     internal inline fun <reified T : Model> of(id: Int): Unnamed<T> =
       Unnamed("/api/v2/${ResourceEndpoint.forModel<T>()}/$id/")
 
-    internal inline fun <reified T : NamedModel> of(id: Int, slug: String): Named<T> =
-      Named("/api/v2/${ResourceEndpoint.forModel<T>()}/$id/", slug)
+    internal inline fun <reified T : NamedModel> of(id: Int, name: String): Named<T> =
+      Named("/api/v2/${ResourceEndpoint.forModel<T>()}/$id/", name)
   }
 
   /**
@@ -110,11 +110,11 @@ public sealed class Handle<out T : Model> {
    * resource" object pattern in the PokeAPI documentation. See:
    * https://pokeapi.co/docs/v2#namedapiresource
    *
-   * @param slug The unique (name) of the referenced resource.
+   * @param name The (unique) name of the referenced resource.
    */
   @Serializable(with = HandleSerializers.Named::class)
   public data class Named<out T : NamedModel>
-  internal constructor(override val url: String, val slug: String) : Handle<T>()
+  internal constructor(override val url: String, val name: String) : Handle<T>()
 }
 
 /**

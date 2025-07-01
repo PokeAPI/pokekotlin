@@ -28,7 +28,7 @@ class ResourceListTest {
       }
 
       results.forEach {
-        assertNotEquals("", it.slug)
+        assertNotEquals("", it.name)
         assertNotNull(it.id)
       }
 

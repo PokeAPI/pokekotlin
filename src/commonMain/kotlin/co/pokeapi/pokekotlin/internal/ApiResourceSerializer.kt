@@ -21,8 +21,8 @@ internal object HandleSerializers {
     KSerializer<Handle.Named<T>> by DelegatingSerializer(
       serialName = "co.pokeapi.pokekotlin.model.ResourceHandle.Named",
       delegate = Delegate.serializer(),
-      fromDelegate = { Handle.Named(slug = it.name, url = it.url) },
-      toDelegate = { Delegate(name = it.slug, url = it.url) },
+      fromDelegate = { Handle.Named(name = it.name, url = it.url) },
+      toDelegate = { Delegate(name = it.name, url = it.url) },
     ) {
     @Serializable internal data class Delegate(val name: String, val url: String)
   }
