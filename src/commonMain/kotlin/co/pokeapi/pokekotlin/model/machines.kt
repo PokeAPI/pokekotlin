@@ -17,7 +17,7 @@ import kotlinx.serialization.Serializable
 @JsOnlyExport
 public data class Machine(
   val id: Int,
-  val item: NamedApiResource,
-  val move: NamedApiResource,
-  val versionGroup: NamedApiResource,
-)
+  val item: ResourceHandle.Named<Item>,
+  val move: ResourceHandle.Named<Move>,
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
+) : EndpointModel

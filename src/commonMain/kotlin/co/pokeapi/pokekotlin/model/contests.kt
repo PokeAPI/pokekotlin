@@ -17,9 +17,9 @@ import kotlinx.serialization.Serializable
 public data class ContestType(
   val id: Int,
   val name: String,
-  val berryFlavor: NamedApiResource,
+  val berryFlavor: ResourceHandle.Named<BerryFlavor>,
   val names: List<ContestName>,
-)
+) : EndpointModel
 
 /**
  * The name of a contest type listed in different languages and colors. See:
@@ -31,7 +31,11 @@ public data class ContestType(
  */
 @Serializable
 @JsOnlyExport
-public data class ContestName(val name: String, val color: String, val language: NamedApiResource)
+public data class ContestName(
+  val name: String,
+  val color: String,
+  val language: ResourceHandle.Named<Language>,
+)
 
 /**
  * Contest effects refer to the effects of moves when used in contests. See:
@@ -51,7 +55,7 @@ public data class ContestEffect(
   val jam: Int,
   val effectEntries: List<Effect>,
   val flavorTextEntries: List<FlavorText>,
-)
+) : EndpointModel
 
 /**
  * Super contest effects refer to the effects of moves when used in super contests. See:
@@ -69,5 +73,5 @@ public data class SuperContestEffect(
   val id: Int,
   val appeal: Int,
   val flavorTextEntries: List<FlavorText>,
-  val moves: List<NamedApiResource>,
-)
+  val moves: List<ResourceHandle.Named<Move>>,
+) : EndpointModel

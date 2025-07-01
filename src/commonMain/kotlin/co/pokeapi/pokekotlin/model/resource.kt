@@ -3,75 +3,128 @@ package co.pokeapi.pokekotlin.model
 import co.pokeapi.pokekotlin.internal.ApiResourceSerializer
 import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import co.pokeapi.pokekotlin.internal.NamedApiResourceSerializer
-import kotlin.js.JsName
+import kotlin.reflect.KClass
 import kotlinx.serialization.Serializable
 
-private fun urlToId(url: String): Int {
-  return "/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isDigit() || it == '-' }.toInt()
+@Suppress("EnumEntryName")
+internal enum class ResourceEndpoint(val model: KClass<out EndpointModel>) {
+  ability(Ability::class),
+  berry(Berry::class),
+  `berry-firmness`(BerryFirmness::class),
+  `berry-flavor`(BerryFlavor::class),
+  characteristic(Characteristic::class),
+  `contest-effect`(ContestEffect::class),
+  `contest-type`(ContestType::class),
+  `egg-group`(EggGroup::class),
+  `encounter-condition`(EncounterCondition::class),
+  `encounter-condition-value`(EncounterConditionValue::class),
+  `encounter-method`(EncounterMethod::class),
+  `evolution-chain`(EvolutionChain::class),
+  `evolution-trigger`(EvolutionTrigger::class),
+  gender(Gender::class),
+  generation(Generation::class),
+  `growth-rate`(GrowthRate::class),
+  item(Item::class),
+  `item-attribute`(ItemAttribute::class),
+  `item-category`(ItemCategory::class),
+  `item-fling-effect`(ItemFlingEffect::class),
+  `item-pocket`(ItemPocket::class),
+  language(Language::class),
+  location(Location::class),
+  `location-area`(LocationArea::class),
+  machine(Machine::class),
+  move(Move::class),
+  `move-ailment`(MoveAilment::class),
+  `move-battle-style`(MoveBattleStyle::class),
+  `move-category`(MoveCategory::class),
+  `move-damage-class`(MoveDamageClass::class),
+  `move-learn-method`(MoveLearnMethod::class),
+  `move-target`(MoveTarget::class),
+  nature(Nature::class),
+  `pal-park-area`(PalParkArea::class),
+  `pokeathlon-stat`(PokeathlonStat::class),
+  pokedex(Pokedex::class),
+  pokemon(PokemonVariety::class),
+  `pokemon-color`(PokemonColor::class),
+  `pokemon-form`(PokemonForm::class),
+  `pokemon-habitat`(PokemonHabitat::class),
+  `pokemon-shape`(PokemonShape::class),
+  `pokemon-species`(PokemonSpecies::class),
+  region(Region::class),
+  stat(Stat::class),
+  `super-contest-effect`(SuperContestEffect::class),
+  type(Type::class),
+  version(Version::class),
+  `version-group`(VersionGroup::class);
+
+  companion object {
+    private val modelToEntry = entries.associateBy { it.model }
+
+    operator fun get(model: KClass<out EndpointModel>) =
+      modelToEntry[model] ?: throw NoSuchElementException(model.simpleName)
+
+    inline fun <reified T : EndpointModel> forModel() = get(T::class)
+  }
+
+  override fun toString() = name
 }
 
-private fun urlToCat(url: String): String {
-  return "/[a-z\\-]+/-?[0-9]+/$".toRegex().find(url)!!.value.filter { it.isLetter() || it == '-' }
-}
-
-private fun resourceUrl(id: Int, category: String): String {
-  return "/api/v2/$category/$id/"
-}
+@JsOnlyExport @Serializable public sealed interface EndpointModel
 
 /**
- * Represents a summary of a resource, providing its id and category.
+ * Represents a reference to a resource in the API by URL.
  *
  * @property id The identifier for the resource.
- * @property category The resource category (endpoint name).
  */
 @JsOnlyExport
-public interface ResourceSummary {
-  public val id: Int
-  public val category: String
-}
+public sealed class ResourceHandle<out T : EndpointModel> {
+  internal abstract val url: String
 
-/**
- * Represents a reference to another resource in the API by URL. This matches the "resource" object
- * pattern in the PokeAPI documentation. See:
- * https://pokeapi.co/docs/v2#resource-listspagination-section
- *
- * @param url The URL of the referenced resource.
- */
-@Serializable(with = ApiResourceSerializer::class)
-@JsOnlyExport
-public data class ApiResource(val url: String) : ResourceSummary {
-  @JsName("create") public constructor(category: String, id: Int) : this(resourceUrl(id, category))
+  internal val model: KClass<out T> by lazy {
+    val match = urlRegex.find(url)?.groupValues[1] ?: throw IllegalArgumentException(url)
+    @Suppress("UNCHECKED_CAST")
+    ResourceEndpoint.valueOf(match).model as KClass<T>
+  }
 
-  override val category: String by lazy { urlToCat(url) }
-  override val id: Int by lazy { urlToId(url) }
-}
+  public val id: Int by lazy {
+    urlRegex.find(url)?.groupValues[2]?.toInt() ?: throw IllegalArgumentException(url)
+  }
 
-/**
- * Represents a reference to another resource in the API by name and URL. This matches the "named
- * resource" object pattern in the PokeAPI documentation. See:
- * https://pokeapi.co/docs/v2#resource-listspagination-section
- *
- * @param name The name of the referenced resource.
- * @param url The URL of the referenced resource.
- */
-@Serializable(with = NamedApiResourceSerializer::class)
-@JsOnlyExport
-public data class NamedApiResource(val name: String, val url: String) : ResourceSummary {
+  internal companion object {
+    private val urlRegex = "/([a-z\\-]+)/(-?[0-9]+)/$".toRegex()
 
-  @JsName("create")
-  public constructor(
-    name: String,
-    category: String,
-    id: Int,
-  ) : this(name, resourceUrl(id, category))
+    internal inline fun <reified T : EndpointModel> of(id: Int): Unnamed<T> =
+      Unnamed("/api/v2/${ResourceEndpoint.forModel<T>()}/$id/")
 
-  override val category: String by lazy { urlToCat(url) }
-  override val id: Int by lazy { urlToId(url) }
+    internal inline fun <reified T : EndpointModel> of(id: Int, slug: String): Named<T> =
+      Named("/api/v2/${ResourceEndpoint.forModel<T>()}/$id/", slug)
+  }
+
+  /**
+   * Represents a reference to another resource in the API by URL only. This matches the "resource"
+   * object pattern in the PokeAPI documentation. See: https://pokeapi.co/docs/v2#apiresource
+   */
+  @Serializable(with = ApiResourceSerializer::class)
+  @JsOnlyExport
+  public data class Unnamed<out T : EndpointModel> internal constructor(override val url: String) :
+    ResourceHandle<T>()
+
+  /**
+   * Represents a reference to another resource in the API by name and URL. This matches the "named
+   * resource" object pattern in the PokeAPI documentation. See:
+   * https://pokeapi.co/docs/v2#namedapiresource
+   *
+   * @param slug The unique (name) of the referenced resource.
+   */
+  @Serializable(with = NamedApiResourceSerializer::class)
+  @JsOnlyExport
+  public data class Named<out T : EndpointModel>
+  internal constructor(override val url: String, val slug: String) : ResourceHandle<T>()
 }
 
 /**
  * Represents a paginated list of resource summaries, similar to the paginated resource list objects
- * in the PokeAPI. See: https://pokeapi.co/docs/v2#resource-lists-section
+ * in the PokeAPI. See: https://pokeapi.co/docs/v2#resource-listspagination-section
  *
  * @property count The total number of resources available from this API.
  * @property next The URL for the next page in the list.
@@ -79,27 +132,29 @@ public data class NamedApiResource(val name: String, val url: String) : Resource
  * @property results The list of returned resources in this page.
  */
 @JsOnlyExport
-public interface ResourceSummaryList<out T : ResourceSummary> {
-  public val count: Int
-  public val next: String?
-  public val previous: String?
-  public val results: List<T>
+public sealed class PaginatedResourceList<out T : EndpointModel> {
+  public abstract val count: Int
+  public abstract val next: String?
+  public abstract val previous: String?
+  public abstract val results: List<ResourceHandle<T>>
+
+  @Serializable
+  @JsOnlyExport
+  public data class Unnamed<out T : EndpointModel>
+  internal constructor(
+    override val count: Int,
+    override val next: String?,
+    override val previous: String?,
+    override val results: List<ResourceHandle.Unnamed<T>>,
+  ) : PaginatedResourceList<T>()
+
+  @Serializable
+  @JsOnlyExport
+  public data class Named<out T : EndpointModel>
+  internal constructor(
+    override val count: Int,
+    override val next: String?,
+    override val previous: String?,
+    override val results: List<ResourceHandle.Named<T>>,
+  ) : PaginatedResourceList<T>()
 }
-
-@Serializable
-@JsOnlyExport
-public data class ApiResourceList(
-  override val count: Int,
-  override val next: String?,
-  override val previous: String?,
-  override val results: List<ApiResource>,
-) : ResourceSummaryList<ApiResource>
-
-@Serializable
-@JsOnlyExport
-public data class NamedApiResourceList(
-  override val count: Int,
-  override val next: String?,
-  override val previous: String?,
-  override val results: List<NamedApiResource>,
-) : ResourceSummaryList<NamedApiResource>

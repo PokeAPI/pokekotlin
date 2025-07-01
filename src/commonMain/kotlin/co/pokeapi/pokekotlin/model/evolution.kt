@@ -18,9 +18,9 @@ import kotlinx.serialization.Serializable
 @JsOnlyExport
 public data class EvolutionChain(
   val id: Int,
-  val babyTriggerItem: NamedApiResource?,
+  val babyTriggerItem: ResourceHandle.Named<Item>?,
   val chain: ChainLink,
-)
+) : EndpointModel
 
 /**
  * A single link within an evolution chain. Each link represents a Pokémon species and the
@@ -36,7 +36,7 @@ public data class EvolutionChain(
 @JsOnlyExport
 public data class ChainLink(
   val isBaby: Boolean,
-  val species: NamedApiResource,
+  val species: ResourceHandle.Named<PokemonSpecies>,
   val evolutionDetails: List<EvolutionDetail>,
   val evolvesTo: List<ChainLink>,
 )
@@ -71,22 +71,22 @@ public data class ChainLink(
 @Serializable
 @JsOnlyExport
 public data class EvolutionDetail(
-  val trigger: NamedApiResource,
-  val item: NamedApiResource? = null,
+  val trigger: ResourceHandle.Named<EvolutionTrigger>,
+  val item: ResourceHandle.Named<Item>? = null,
   val gender: Int? = null,
-  val heldItem: NamedApiResource? = null,
-  val knownMove: NamedApiResource? = null,
-  val knownMoveType: NamedApiResource? = null,
-  val location: NamedApiResource? = null,
+  val heldItem: ResourceHandle.Named<Item>? = null,
+  val knownMove: ResourceHandle.Named<Move>? = null,
+  val knownMoveType: ResourceHandle.Named<Type>? = null,
+  val location: ResourceHandle.Named<Location>? = null,
   val minLevel: Int? = null,
   val minHappiness: Int? = null,
   val minBeauty: Int? = null,
   val minAffection: Int? = null,
-  val partySpecies: NamedApiResource? = null,
-  val partyType: NamedApiResource? = null,
+  val partySpecies: ResourceHandle.Named<PokemonSpecies>? = null,
+  val partyType: ResourceHandle.Named<Type>? = null,
   val relativePhysicalStats: Int? = null,
   val timeOfDay: String = "",
-  val tradeSpecies: NamedApiResource? = null,
+  val tradeSpecies: ResourceHandle.Named<PokemonSpecies>? = null,
   val needsOverworldRain: Boolean = false,
   val turnUpsideDown: Boolean = false,
 )
@@ -106,5 +106,5 @@ public data class EvolutionTrigger(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val pokemonSpecies: List<NamedApiResource>,
-)
+  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+) : EndpointModel

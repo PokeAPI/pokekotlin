@@ -23,14 +23,14 @@ import kotlinx.serialization.Serializable
 public data class Generation(
   val id: Int,
   val name: String,
-  val abilities: List<NamedApiResource>,
+  val abilities: List<ResourceHandle.Named<Ability>>,
   val names: List<Name>,
-  val mainRegion: NamedApiResource,
-  val moves: List<NamedApiResource>,
-  val pokemonSpecies: List<NamedApiResource>,
-  val types: List<NamedApiResource>,
-  val versionGroups: List<NamedApiResource>,
-)
+  val mainRegion: ResourceHandle.Named<Region>,
+  val moves: List<ResourceHandle.Named<Move>>,
+  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+  val types: List<ResourceHandle.Named<Type>>,
+  val versionGroups: List<ResourceHandle.Named<VersionGroup>>,
+) : EndpointModel
 
 /**
  * A Pokédex is a handheld electronic encyclopedia device; one which is capable of recording and
@@ -56,9 +56,9 @@ public data class Pokedex(
   val descriptions: List<Description>,
   val names: List<Name>,
   val pokemonEntries: List<PokemonEntry>,
-  val region: NamedApiResource?,
-  val versionGroups: List<NamedApiResource>,
-)
+  val region: ResourceHandle.Named<Region>?,
+  val versionGroups: List<ResourceHandle.Named<VersionGroup>>,
+) : EndpointModel
 
 /**
  * A Pokémon species entry within a Pokédex. See: https://pokeapi.co/docs/v2#pokemonentry
@@ -68,7 +68,10 @@ public data class Pokedex(
  */
 @Serializable
 @JsOnlyExport
-public data class PokemonEntry(val entryNumber: Int, val pokemonSpecies: NamedApiResource)
+public data class PokemonEntry(
+  val entryNumber: Int,
+  val pokemonSpecies: ResourceHandle.Named<PokemonSpecies>,
+)
 
 /**
  * Versions of the games, e.g Red, Blue or Yellow. See: https://pokeapi.co/docs/v2#versions
@@ -84,8 +87,8 @@ public data class Version(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val versionGroup: NamedApiResource,
-)
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
+) : EndpointModel
 
 /**
  * Version groups categorize highly similar versions of the games. See:
@@ -107,9 +110,9 @@ public data class VersionGroup(
   val id: Int,
   val name: String,
   val order: Int,
-  val generation: NamedApiResource,
-  val moveLearnMethods: List<NamedApiResource>,
-  val pokedexes: List<NamedApiResource>,
-  val regions: List<NamedApiResource>,
-  val versions: List<NamedApiResource>,
-)
+  val generation: ResourceHandle.Named<Generation>,
+  val moveLearnMethods: List<ResourceHandle.Named<MoveLearnMethod>>,
+  val pokedexes: List<ResourceHandle.Named<Pokedex>>,
+  val regions: List<ResourceHandle.Named<Region>>,
+  val versions: List<ResourceHandle.Named<Version>>,
+) : EndpointModel

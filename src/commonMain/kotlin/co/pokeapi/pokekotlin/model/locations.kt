@@ -19,11 +19,11 @@ import kotlinx.serialization.Serializable
 public data class Location(
   val id: Int,
   val name: String,
-  val region: NamedApiResource?,
+  val region: ResourceHandle.Named<Region>?,
   val names: List<Name>,
   val gameIndices: List<GenerationGameIndex>,
-  val areas: List<NamedApiResource>,
-)
+  val areas: List<ResourceHandle.Named<LocationArea>>,
+) : EndpointModel
 
 /**
  * Location areas are sections of locations, such as floors in a building or cave. Each area has its
@@ -46,10 +46,10 @@ public data class LocationArea(
   val name: String,
   val gameIndex: Int,
   val encounterMethodRates: List<EncounterMethodRate>,
-  val location: NamedApiResource,
+  val location: ResourceHandle.Named<Location>,
   val names: List<Name>,
   val pokemonEncounters: List<PokemonEncounter>,
-)
+) : EndpointModel
 
 /**
  * The encounter rate for a specific encounter method in a location area. See:
@@ -61,7 +61,7 @@ public data class LocationArea(
 @Serializable
 @JsOnlyExport
 public data class EncounterMethodRate(
-  val encounterMethod: NamedApiResource,
+  val encounterMethod: ResourceHandle.Named<EncounterMethod>,
   val versionDetails: List<EncounterMethodRateVersionDetail>,
 )
 
@@ -74,7 +74,10 @@ public data class EncounterMethodRate(
  */
 @Serializable
 @JsOnlyExport
-public data class EncounterMethodRateVersionDetail(val rate: Int, val version: NamedApiResource)
+public data class EncounterMethodRateVersionDetail(
+  val rate: Int,
+  val version: ResourceHandle.Named<Version>,
+)
 
 /**
  * A Pokémon encounter in a specific location area. See: https://pokeapi.co/docs/v2#pokemonencounter
@@ -86,7 +89,7 @@ public data class EncounterMethodRateVersionDetail(val rate: Int, val version: N
 @Serializable
 @JsOnlyExport
 public data class PokemonEncounter(
-  val pokemon: NamedApiResource,
+  val pokemon: ResourceHandle.Named<PokemonVariety>,
   val versionDetails: List<VersionEncounterDetail>,
 )
 
@@ -106,7 +109,7 @@ public data class PalParkArea(
   val name: String,
   val names: List<Name>,
   val pokemonEncounters: List<PalParkEncounterSpecies>,
-)
+) : EndpointModel
 
 /**
  * A Pokémon species that can be encountered in a specific Pal Park area. See:
@@ -121,7 +124,7 @@ public data class PalParkArea(
 public data class PalParkEncounterSpecies(
   val baseScore: Int,
   val rate: Int,
-  val pokemonSpecies: NamedApiResource,
+  val pokemonSpecies: ResourceHandle.Named<PokemonSpecies>,
 )
 
 /**
@@ -142,9 +145,9 @@ public data class PalParkEncounterSpecies(
 public data class Region(
   val id: Int,
   val name: String,
-  val locations: List<NamedApiResource>,
-  val mainGeneration: NamedApiResource?,
+  val locations: List<ResourceHandle.Named<Location>>,
+  val mainGeneration: ResourceHandle.Named<Generation>?,
   val names: List<Name>,
-  val pokedexes: List<NamedApiResource>,
-  val versionGroups: List<NamedApiResource>,
-)
+  val pokedexes: List<ResourceHandle.Named<Pokedex>>,
+  val versionGroups: List<ResourceHandle.Named<VersionGroup>>,
+) : EndpointModel

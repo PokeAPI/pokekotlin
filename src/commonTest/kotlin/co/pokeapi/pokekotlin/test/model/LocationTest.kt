@@ -15,19 +15,13 @@ class LocationTest {
     LocalPokeApi.getLocation(20).apply {
       assertEquals(20, id)
       assertEquals("wayward-cave", name)
-      assertEquals(NamedApiResource("sinnoh", "region", 4), region)
-      assertContains(
-        names,
-        Name(name = "Wayward Cave", language = NamedApiResource("en", "language", 9)),
-      )
+      assertEquals(ResourceHandle.of(4, "sinnoh"), region)
+      assertContains(names, Name(name = "Wayward Cave", language = ResourceHandle.of(9, "en")))
       assertContains(
         gameIndices,
-        GenerationGameIndex(
-          gameIndex = 65,
-          generation = NamedApiResource("generation-iv", "generation", 4),
-        ),
+        GenerationGameIndex(gameIndex = 65, generation = ResourceHandle.of(4, "generation-iv")),
       )
-      assertContains(areas, NamedApiResource("wayward-cave-1f", "location-area", 113))
+      assertContains(areas, ResourceHandle.of(113, "wayward-cave-1f"))
     }
   }
 
@@ -37,34 +31,30 @@ class LocationTest {
       assertEquals(20, id)
       assertEquals("mt-coronet-1f-from-exterior", name)
       assertEquals(20, gameIndex)
-      assertEquals(NamedApiResource("mt-coronet", "location", 10), location)
+      assertEquals(ResourceHandle.of(10, "mt-coronet"), location)
       assertContains(
         names,
-        Name(
-          name = "Mount Coronet (1F from exterior)",
-          language = NamedApiResource("en", "language", 9),
-        ),
+        Name(name = "Mount Coronet (1F from exterior)", language = ResourceHandle.of(9, "en")),
       )
       assertNotNull(
         encounterMethodRates.find {
-          it.encounterMethod == NamedApiResource("walk", "encounter-method", 1) &&
-            EncounterMethodRateVersionDetail(10, NamedApiResource("platinum", "version", 14)) in
+          it.encounterMethod == ResourceHandle.of<EncounterMethod>(1, "walk") &&
+            EncounterMethodRateVersionDetail(10, ResourceHandle.of(14, "platinum")) in
               it.versionDetails
         }
       )
       assertNotNull(
         pokemonEncounters.find { pokemonEncounter ->
-          pokemonEncounter.pokemon == NamedApiResource("clefairy", "pokemon", 35) &&
+          pokemonEncounter.pokemon == ResourceHandle.of<PokemonVariety>(35, "clefairy") &&
             pokemonEncounter.versionDetails.find { encounterDetail ->
-              encounterDetail.version == NamedApiResource("diamond", "version", 12) &&
+              encounterDetail.version == ResourceHandle.of<Version>(12, "diamond") &&
                 encounterDetail.maxChance == 27 &&
                 encounterDetail.encounterDetails.find { encounter ->
                   encounter.minLevel == 39 &&
                     encounter.maxLevel == 39 &&
                     encounter.chance == 4 &&
-                    encounter.method == NamedApiResource("walk", "encounter-method", 1) &&
-                    NamedApiResource("slot2-none", "encounter-condition-value", 8) in
-                      encounter.conditionValues
+                    encounter.method == ResourceHandle.of<EncounterMethod>(1, "walk") &&
+                    ResourceHandle.of(8, "slot2-none") in encounter.conditionValues
                 } != null
             } != null
         }
@@ -77,13 +67,13 @@ class LocationTest {
     LocalPokeApi.getPalParkArea(2).apply {
       assertEquals(2, id)
       assertEquals("field", name)
-      assertContains(names, Name(name = "Field", language = NamedApiResource("en", "language", 9)))
+      assertContains(names, Name(name = "Field", language = ResourceHandle.of(9, "en")))
       assertContains(
         pokemonEncounters,
         PalParkEncounterSpecies(
           baseScore = 100,
           rate = 1,
-          pokemonSpecies = NamedApiResource("shaymin", "pokemon-species", 492),
+          pokemonSpecies = ResourceHandle.of(492, "shaymin"),
         ),
       )
     }
@@ -94,11 +84,11 @@ class LocationTest {
     LocalPokeApi.getRegion(1).apply {
       assertEquals(1, id)
       assertEquals("kanto", name)
-      assertEquals(NamedApiResource("generation-i", "generation", 1), mainGeneration)
-      assertContains(locations, NamedApiResource("celadon-city", "location", 67))
-      assertContains(names, Name(name = "Kanto", language = NamedApiResource("en", "language", 9)))
-      assertContains(pokedexes, NamedApiResource("kanto", "pokedex", 2))
-      assertContains(versionGroups, NamedApiResource("red-blue", "version-group", 1))
+      assertEquals(ResourceHandle.of(1, "generation-i"), mainGeneration)
+      assertContains(locations, ResourceHandle.of(67, "celadon-city"))
+      assertContains(names, Name(name = "Kanto", language = ResourceHandle.of(9, "en")))
+      assertContains(pokedexes, ResourceHandle.of(2, "kanto"))
+      assertContains(versionGroups, ResourceHandle.of(1, "red-blue"))
     }
   }
 }

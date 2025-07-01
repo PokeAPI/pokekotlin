@@ -4,6 +4,7 @@ import co.pokeapi.pokekotlin.internal.JsOnlyExport
 import co.pokeapi.pokekotlin.internal.PokeApiJson
 import co.pokeapi.pokekotlin.internal.getDefaultEngine
 import co.pokeapi.pokekotlin.model.*
+import co.pokeapi.pokekotlin.model.Type
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.engine.*
@@ -14,25 +15,13 @@ import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.client.request.*
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
+import io.ktor.util.reflect.*
 import kotlin.js.ExperimentalJsStatic
 import kotlin.js.JsExport
 import kotlin.js.JsName
 import love.forte.plugin.suspendtrans.annotation.JsPromise
 import love.forte.plugin.suspendtrans.annotation.JvmAsync
 import love.forte.plugin.suspendtrans.annotation.JvmBlocking
-
-private suspend inline fun <reified T> HttpClient.getBodyWithOffsetAndLimit(
-  path: String,
-  offset: Int,
-  limit: Int,
-): T =
-  get(path) {
-      parameter("offset", offset)
-      parameter("limit", limit)
-    }
-    .body()
-
-private suspend inline fun <reified T> HttpClient.getBody(path: String): T = get(path).body()
 
 @JsOnlyExport
 public sealed class PokeApi
@@ -73,6 +62,37 @@ constructor(
       configure = {},
     )
 
+  private suspend inline fun <reified T : EndpointModel> HttpClient.getNamedResourceList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<T> {
+    return get("/api/v2/${ResourceEndpoint.forModel<T>()}") {
+        parameter("offset", offset)
+        parameter("limit", limit)
+      }
+      .body()
+  }
+
+  private suspend inline fun <reified T : EndpointModel> HttpClient.getResourceList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Unnamed<T> {
+    return get("/api/v2/${ResourceEndpoint.forModel<T>()}") {
+        parameter("offset", offset)
+        parameter("limit", limit)
+      }
+      .body()
+  }
+
+  private suspend inline fun <reified T> HttpClient.getBody(path: String): T = get(path).body()
+
+  @JvmBlocking
+  @JvmAsync
+  @JsPromise
+  @JsExport.Ignore
+  public suspend fun <T : EndpointModel> ResourceHandle<T>.get(): T =
+    client.get(url).body(TypeInfo(model))
+
   // region Resource Lists
 
   // region Berries
@@ -81,22 +101,26 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getBerryList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/berry", offset, limit)
+  public suspend fun getBerryList(offset: Int, limit: Int): PaginatedResourceList.Named<Berry> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getBerryFirmnessList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/berry-firmness", offset, limit)
+  public suspend fun getBerryFirmnessList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<BerryFirmness> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getBerryFlavorList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/berry-flavor", offset, limit)
+  public suspend fun getBerryFlavorList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<BerryFlavor> = client.getNamedResourceList(offset, limit)
 
   // endregion Berries
 
@@ -106,22 +130,28 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getContestTypeList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/contest-type", offset, limit)
+  public suspend fun getContestTypeList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<ContestType> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getContestEffectList(offset: Int, limit: Int): ApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/contest-effect", offset, limit)
+  public suspend fun getContestEffectList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Unnamed<ContestEffect> = client.getResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getSuperContestEffectList(offset: Int, limit: Int): ApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/super-contest-effect", offset, limit)
+  public suspend fun getSuperContestEffectList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Unnamed<SuperContestEffect> = client.getResourceList(offset, limit)
 
   // endregion Contests
 
@@ -131,22 +161,29 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getEncounterMethodList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/encounter-method", offset, limit)
+  public suspend fun getEncounterMethodList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<EncounterMethod> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getEncounterConditionList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/encounter-condition", offset, limit)
+  public suspend fun getEncounterConditionList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<EncounterCondition> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getEncounterConditionValueList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/encounter-condition-value", offset, limit)
+  public suspend fun getEncounterConditionValueList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<EncounterConditionValue> =
+    client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -156,15 +193,19 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getEvolutionChainList(offset: Int, limit: Int): ApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/evolution-chain", offset, limit)
+  public suspend fun getEvolutionChainList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Unnamed<EvolutionChain> = client.getResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getEvolutionTriggerList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/evolution-trigger", offset, limit)
+  public suspend fun getEvolutionTriggerList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<EvolutionTrigger> = client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -174,29 +215,33 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getGenerationList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/generation", offset, limit)
+  public suspend fun getGenerationList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<Generation> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokedexList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokedex", offset, limit)
+  public suspend fun getPokedexList(offset: Int, limit: Int): PaginatedResourceList.Named<Pokedex> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getVersionList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/version", offset, limit)
+  public suspend fun getVersionList(offset: Int, limit: Int): PaginatedResourceList.Named<Version> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getVersionGroupList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/version-group", offset, limit)
+  public suspend fun getVersionGroupList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<VersionGroup> = client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -206,36 +251,44 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getItemList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/item", offset, limit)
+  public suspend fun getItemList(offset: Int, limit: Int): PaginatedResourceList.Named<Item> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getItemAttributeList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/item-attribute", offset, limit)
+  public suspend fun getItemAttributeList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<ItemAttribute> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getItemCategoryList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/item-category", offset, limit)
+  public suspend fun getItemCategoryList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<ItemCategory> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getItemFlingEffectList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/item-fling-effect", offset, limit)
+  public suspend fun getItemFlingEffectList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<ItemFlingEffect> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getItemPocketList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/item-pocket", offset, limit)
+  public suspend fun getItemPocketList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<ItemPocket> = client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -245,50 +298,62 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/move", offset, limit)
+  public suspend fun getMoveList(offset: Int, limit: Int): PaginatedResourceList.Named<Move> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveAilmentList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/move-ailment", offset, limit)
+  public suspend fun getMoveAilmentList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<MoveAilment> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveBattleStyleList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/move-battle-style", offset, limit)
+  public suspend fun getMoveBattleStyleList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<MoveBattleStyle> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveCategoryList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/move-category", offset, limit)
+  public suspend fun getMoveCategoryList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<MoveCategory> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveDamageClassList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/move-damage-class", offset, limit)
+  public suspend fun getMoveDamageClassList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<MoveDamageClass> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveLearnMethodList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/move-learn-method", offset, limit)
+  public suspend fun getMoveLearnMethodList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<MoveLearnMethod> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMoveTargetList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/move-target", offset, limit)
+  public suspend fun getMoveTargetList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<MoveTarget> = client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -298,29 +363,35 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getLocationList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/location", offset, limit)
+  public suspend fun getLocationList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<Location> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getLocationAreaList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/location-area", offset, limit)
+  public suspend fun getLocationAreaList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<LocationArea> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPalParkAreaList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pal-park-area", offset, limit)
+  public suspend fun getPalParkAreaList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PalParkArea> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getRegionList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/region", offset, limit)
+  public suspend fun getRegionList(offset: Int, limit: Int): PaginatedResourceList.Named<Region> =
+    client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -330,8 +401,10 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getMachineList(offset: Int, limit: Int): ApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/machine", offset, limit)
+  public suspend fun getMachineList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Unnamed<Machine> = client.getResourceList(offset, limit)
 
   // endregion
 
@@ -341,106 +414,126 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getAbilityList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/ability", offset, limit)
+  public suspend fun getAbilityList(offset: Int, limit: Int): PaginatedResourceList.Named<Ability> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getCharacteristicList(offset: Int, limit: Int): ApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/characteristic", offset, limit)
+  public suspend fun getCharacteristicList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Unnamed<Characteristic> = client.getResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getEggGroupList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/egg-group", offset, limit)
+  public suspend fun getEggGroupList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<EggGroup> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getGenderList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/gender", offset, limit)
+  public suspend fun getGenderList(offset: Int, limit: Int): PaginatedResourceList.Named<Gender> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getGrowthRateList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/growth-rate", offset, limit)
+  public suspend fun getGrowthRateList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<GrowthRate> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getNatureList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/nature", offset, limit)
+  public suspend fun getNatureList(offset: Int, limit: Int): PaginatedResourceList.Named<Nature> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokeathlonStatList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokeathlon-stat", offset, limit)
+  public suspend fun getPokeathlonStatList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PokeathlonStat> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonVarietyList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokemon", offset, limit)
+  public suspend fun getPokemonVarietyList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PokemonVariety> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonColorList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokemon-color", offset, limit)
+  public suspend fun getPokemonColorList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PokemonColor> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonFormList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokemon-form", offset, limit)
+  public suspend fun getPokemonFormList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PokemonForm> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonHabitatList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokemon-habitat", offset, limit)
+  public suspend fun getPokemonHabitatList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PokemonHabitat> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonShapeList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokemon-shape", offset, limit)
+  public suspend fun getPokemonShapeList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PokemonShape> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getPokemonSpeciesList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/pokemon-species", offset, limit)
+  public suspend fun getPokemonSpeciesList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<PokemonSpecies> = client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getStatList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/stat", offset, limit)
+  public suspend fun getStatList(offset: Int, limit: Int): PaginatedResourceList.Named<Stat> =
+    client.getNamedResourceList(offset, limit)
 
   @JvmBlocking
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getTypeList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/type", offset, limit)
+  public suspend fun getTypeList(offset: Int, limit: Int): PaginatedResourceList.Named<Type> =
+    client.getNamedResourceList(offset, limit)
 
   // endregion
 
@@ -450,8 +543,10 @@ constructor(
   @JvmAsync
   @JsPromise
   @JsExport.Ignore
-  public suspend fun getLanguageList(offset: Int, limit: Int): NamedApiResourceList =
-    client.getBodyWithOffsetAndLimit("/api/v2/language", offset, limit)
+  public suspend fun getLanguageList(
+    offset: Int,
+    limit: Int,
+  ): PaginatedResourceList.Named<Language> = client.getNamedResourceList(offset, limit)
 
   // endregion
 

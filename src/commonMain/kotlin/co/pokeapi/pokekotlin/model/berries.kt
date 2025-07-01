@@ -35,11 +35,11 @@ public data class Berry(
   val size: Int,
   val smoothness: Int,
   val soilDryness: Int,
-  val firmness: NamedApiResource,
+  val firmness: ResourceHandle.Named<BerryFirmness>,
   val flavors: List<BerryFlavorMap>,
-  val item: NamedApiResource,
-  val naturalGiftType: NamedApiResource,
-)
+  val item: ResourceHandle.Named<Item>,
+  val naturalGiftType: ResourceHandle.Named<Type>,
+) : EndpointModel
 
 /**
  * A flavor-to-potency mapping for a berry. See: https://pokeapi.co/docs/v2#berryflavormap
@@ -49,7 +49,7 @@ public data class Berry(
  */
 @Serializable
 @JsOnlyExport
-public data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
+public data class BerryFlavorMap(val potency: Int, val flavor: ResourceHandle.Named<BerryFlavor>)
 
 /**
  * The firmness of berries, used in making Pokéblocks or Poffins. See:
@@ -65,9 +65,9 @@ public data class BerryFlavorMap(val potency: Int, val flavor: NamedApiResource)
 public data class BerryFirmness(
   val id: Int,
   val name: String,
-  val berries: List<NamedApiResource>,
+  val berries: List<ResourceHandle.Named<Berry>>,
   val names: List<Name>,
-)
+) : EndpointModel
 
 /**
  * Flavors determine whether a Pokémon will benefit or suffer from eating a berry based on their
@@ -85,9 +85,9 @@ public data class BerryFlavor(
   val id: Int,
   val name: String,
   val berries: List<FlavorBerryMap>,
-  val contestType: NamedApiResource,
+  val contestType: ResourceHandle.Named<ContestType>,
   val names: List<Name>,
-)
+) : EndpointModel
 
 /**
  * A berry-to-potency mapping for a flavor. See: https://pokeapi.co/docs/v2#flavorberrymap
@@ -97,4 +97,4 @@ public data class BerryFlavor(
  */
 @Serializable
 @JsOnlyExport
-public data class FlavorBerryMap(val potency: Int, val berry: NamedApiResource)
+public data class FlavorBerryMap(val potency: Int, val berry: ResourceHandle.Named<Berry>)

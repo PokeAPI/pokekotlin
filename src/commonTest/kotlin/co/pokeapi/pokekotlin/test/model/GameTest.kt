@@ -2,8 +2,8 @@ package co.pokeapi.pokekotlin.test.model
 
 import co.pokeapi.pokekotlin.model.Description
 import co.pokeapi.pokekotlin.model.Name
-import co.pokeapi.pokekotlin.model.NamedApiResource
 import co.pokeapi.pokekotlin.model.PokemonEntry
+import co.pokeapi.pokekotlin.model.ResourceHandle
 import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
@@ -17,16 +17,13 @@ class GameTest {
     LocalPokeApi.getGeneration(6).apply {
       assertEquals(6, id)
       assertEquals("generation-vi", name)
-      assertContains(abilities, NamedApiResource("primordial-sea", "ability", 189))
-      assertContains(
-        names,
-        Name(name = "Generation VI", language = NamedApiResource("en", "language", 9)),
-      )
-      assertEquals(NamedApiResource("kalos", "region", 6), mainRegion)
-      assertContains(moves, NamedApiResource("belch", "move", 562))
-      assertContains(pokemonSpecies, NamedApiResource("froakie", "pokemon-species", 656))
-      assertContains(types, NamedApiResource("fairy", "type", 18))
-      assertContains(versionGroups, NamedApiResource("x-y", "version-group", 15))
+      assertContains(abilities, ResourceHandle.of(189, "primordial-sea"))
+      assertContains(names, Name(name = "Generation VI", language = ResourceHandle.of(9, "en")))
+      assertEquals(ResourceHandle.of(6, "kalos"), mainRegion)
+      assertContains(moves, ResourceHandle.of(562, "belch"))
+      assertContains(pokemonSpecies, ResourceHandle.of(656, "froakie"))
+      assertContains(types, ResourceHandle.of(18, "fairy"))
+      assertContains(versionGroups, ResourceHandle.of(15, "x-y"))
     }
   }
 
@@ -38,21 +35,15 @@ class GameTest {
       assertEquals(true, isMainSeries)
       assertContains(
         descriptions,
-        Description(description = "", language = NamedApiResource("en", "language", 9)),
+        Description(description = "", language = ResourceHandle.of(9, "en")),
       )
-      assertContains(
-        names,
-        Name(name = "Central Kalos", language = NamedApiResource("en", "language", 9)),
-      )
+      assertContains(names, Name(name = "Central Kalos", language = ResourceHandle.of(9, "en")))
       assertContains(
         pokemonEntries,
-        PokemonEntry(
-          entryNumber = 150,
-          pokemonSpecies = NamedApiResource("haxorus", "pokemon-species", 612),
-        ),
+        PokemonEntry(entryNumber = 150, pokemonSpecies = ResourceHandle.of(612, "haxorus")),
       )
-      assertEquals(NamedApiResource("kalos", "region", 6), region)
-      assertContains(versionGroups, NamedApiResource("x-y", "version-group", 15))
+      assertEquals(ResourceHandle.of(6, "kalos"), region)
+      assertContains(versionGroups, ResourceHandle.of(15, "x-y"))
     }
   }
 
@@ -61,11 +52,8 @@ class GameTest {
     LocalPokeApi.getVersion(9).apply {
       assertEquals(9, id)
       assertEquals("emerald", name)
-      assertContains(
-        names,
-        Name(name = "Emerald", language = NamedApiResource("en", "language", 9)),
-      )
-      assertEquals(NamedApiResource("emerald", "version-group", 6), versionGroup)
+      assertContains(names, Name(name = "Emerald", language = ResourceHandle.of(9, "en")))
+      assertEquals(ResourceHandle.of(6, "emerald"), versionGroup)
     }
   }
 
@@ -75,11 +63,11 @@ class GameTest {
       assertEquals(1, id)
       assertEquals("red-blue", name)
       assertEquals(3, order)
-      assertEquals(NamedApiResource("generation-i", "generation", 1), generation)
-      assertContains(moveLearnMethods, NamedApiResource("machine", "move-learn-method", 4))
-      assertContains(pokedexes, NamedApiResource("kanto", "pokedex", 2))
-      assertContains(regions, NamedApiResource("kanto", "region", 1))
-      assertContains(versions, NamedApiResource("red", "version", 1))
+      assertEquals(ResourceHandle.of(1, "generation-i"), generation)
+      assertContains(moveLearnMethods, ResourceHandle.of(4, "machine"))
+      assertContains(pokedexes, ResourceHandle.of(2, "kanto"))
+      assertContains(regions, ResourceHandle.of(1, "kanto"))
+      assertContains(versions, ResourceHandle.of(1, "red"))
     }
   }
 }

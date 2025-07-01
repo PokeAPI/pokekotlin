@@ -21,8 +21,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.pokeapi.pokekotlin.PokeApi
 import co.pokeapi.pokekotlin.demoapp.util.ioDispatcher
-import co.pokeapi.pokekotlin.model.NamedApiResource
 import co.pokeapi.pokekotlin.model.PokemonVariety
+import co.pokeapi.pokekotlin.model.ResourceHandle
 import coil3.compose.AsyncImage
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -36,13 +36,13 @@ sealed interface LoadingStatus<out T> {
   data object Loading : LoadingStatus<Nothing>
 }
 
-typealias PokemonListStatus = LoadingStatus<List<NamedApiResource>>
+typealias PokemonListStatus = LoadingStatus<List<ResourceHandle.Named<PokemonVariety>>>
 
 typealias PokemonListItemStatus = LoadingStatus<PokemonVariety>
 
 class PokemonListScreenViewModel(private val api: PokeApi) : ViewModel() {
   val summaries = mutableStateOf<PokemonListStatus>(LoadingStatus.Loading)
-  val details = mutableStateMapOf<NamedApiResource, PokemonListItemStatus>()
+  val details = mutableStateMapOf<ResourceHandle<PokemonVariety>, PokemonListItemStatus>()
 
   init {
     loadPokemonList()
@@ -65,7 +65,7 @@ class PokemonListScreenViewModel(private val api: PokeApi) : ViewModel() {
     }
   }
 
-  fun loadPokemonDetails(pokemon: NamedApiResource) {
+  fun loadPokemonDetails(pokemon: ResourceHandle<PokemonVariety>) {
     if (details[pokemon] == LoadingStatus.Loading || details[pokemon] is LoadingStatus.Success)
       return // Already loading or loaded
 
@@ -127,7 +127,10 @@ fun PokemonListScreen(viewModel: PokemonListScreenViewModel = koinViewModel()) {
 }
 
 @Composable
-private fun PokemonListItem(viewModel: PokemonListScreenViewModel, item: NamedApiResource) {
+private fun PokemonListItem(
+  viewModel: PokemonListScreenViewModel,
+  item: ResourceHandle.Named<PokemonVariety>,
+) {
   LaunchedEffect(item) { viewModel.loadPokemonDetails(item) }
 
   Card(modifier = Modifier.padding(8.dp).fillMaxWidth()) {
@@ -140,7 +143,7 @@ private fun PokemonListItem(viewModel: PokemonListScreenViewModel, item: NamedAp
 
           // Placeholder for name
           Text(
-            text = item.name.replaceFirstChar { it.uppercase() },
+            text = item.slug.replaceFirstChar { it.uppercase() },
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(top = 8.dp),
           )
@@ -158,7 +161,7 @@ private fun PokemonListItem(viewModel: PokemonListScreenViewModel, item: NamedAp
       is LoadingStatus.Error -> {
         Column(modifier = Modifier.padding(16.dp)) {
           Text(
-            text = item.name.replaceFirstChar { it.uppercase() },
+            text = item.slug.replaceFirstChar { it.uppercase() },
             style = MaterialTheme.typography.titleMedium,
           )
           Text(
@@ -206,7 +209,7 @@ private fun PokemonListItem(viewModel: PokemonListScreenViewModel, item: NamedAp
           ) {
             pokemon.types
               .sortedBy { it.slot }
-              .forEach { pokemonType -> PokemonTypeBadge(pokemonType.type.name) }
+              .forEach { pokemonType -> PokemonTypeBadge(pokemonType.type.slug) }
           }
         }
       }

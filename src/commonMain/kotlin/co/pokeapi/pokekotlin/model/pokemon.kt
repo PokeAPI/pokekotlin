@@ -25,13 +25,13 @@ public data class Ability(
   val id: Int,
   val name: String,
   val isMainSeries: Boolean,
-  val generation: NamedApiResource,
+  val generation: ResourceHandle.Named<Generation>,
   val names: List<Name>,
   val effectEntries: List<VerboseEffect>,
   val effectChanges: List<AbilityEffectChange>,
   val flavorTextEntries: List<AbilityFlavorText>,
   val pokemon: List<AbilityPokemon>,
-)
+) : EndpointModel
 
 /**
  * The effect of an ability listed in different version groups and languages. See:
@@ -44,7 +44,7 @@ public data class Ability(
 @JsOnlyExport
 public data class AbilityEffectChange(
   val effectEntries: List<Effect>,
-  val versionGroup: NamedApiResource,
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
 )
 
 /**
@@ -59,8 +59,8 @@ public data class AbilityEffectChange(
 @JsOnlyExport
 public data class AbilityFlavorText(
   val flavorText: String,
-  val language: NamedApiResource,
-  val versionGroup: NamedApiResource,
+  val language: ResourceHandle.Named<Language>,
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
 )
 
 /**
@@ -75,7 +75,7 @@ public data class AbilityFlavorText(
 public data class AbilityPokemon(
   val isHidden: Boolean,
   val slot: Int,
-  val pokemon: NamedApiResource,
+  val pokemon: ResourceHandle.Named<PokemonVariety>,
 )
 
 /**
@@ -94,7 +94,7 @@ public data class Characteristic(
   val geneModulo: Int,
   val possibleValues: List<Int>,
   val descriptions: List<Description>,
-)
+) : EndpointModel
 
 /**
  * Egg Groups are categories which determine which Pokémon are able to interbreed. See:
@@ -111,8 +111,8 @@ public data class EggGroup(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val pokemonSpecies: List<NamedApiResource>,
-)
+  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+) : EndpointModel
 
 /**
  * Genders affect whether a Pokémon can breed and what moves it can learn. See:
@@ -131,8 +131,8 @@ public data class Gender(
   val id: Int,
   val name: String,
   val pokemonSpeciesDetails: List<PokemonSpeciesGender>,
-  val requiredForEvolution: List<NamedApiResource>,
-)
+  val requiredForEvolution: List<ResourceHandle.Named<PokemonSpecies>>,
+) : EndpointModel
 
 /**
  * Pokémon species gender details. See: https://pokeapi.co/docs/v2#pokemonspeciesgender
@@ -142,7 +142,10 @@ public data class Gender(
  */
 @Serializable
 @JsOnlyExport
-public data class PokemonSpeciesGender(val rate: Int, val pokemonSpecies: NamedApiResource)
+public data class PokemonSpeciesGender(
+  val rate: Int,
+  val pokemonSpecies: ResourceHandle.Named<PokemonSpecies>,
+)
 
 /**
  * Growth rates determine how much experience Pokémon need to level up. See:
@@ -163,8 +166,8 @@ public data class GrowthRate(
   val formula: String,
   val descriptions: List<Description>,
   val levels: List<GrowthRateExperienceLevel>,
-  val pokemonSpecies: List<NamedApiResource>,
-)
+  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+) : EndpointModel
 
 /**
  * Experience required for a Pokémon to reach a certain level for a given growth rate. See:
@@ -196,14 +199,14 @@ public data class GrowthRateExperienceLevel(val level: Int, val experience: Int)
 public data class Nature(
   val id: Int,
   val name: String,
-  val decreasedStat: NamedApiResource?,
-  val increasedStat: NamedApiResource?,
-  val hatesFlavor: NamedApiResource?,
-  val likesFlavor: NamedApiResource?,
+  val decreasedStat: ResourceHandle.Named<Stat>?,
+  val increasedStat: ResourceHandle.Named<Stat>?,
+  val hatesFlavor: ResourceHandle.Named<BerryFlavor>?,
+  val likesFlavor: ResourceHandle.Named<BerryFlavor>?,
   val pokeathlonStatChanges: List<NatureStatChange>,
   val moveBattleStylePreferences: List<MoveBattleStylePreference>,
   val names: List<Name>,
-)
+) : EndpointModel
 
 /**
  * Change to a Pokeathlon stat for a given nature. See: https://pokeapi.co/docs/v2#naturestatchange
@@ -213,7 +216,10 @@ public data class Nature(
  */
 @Serializable
 @JsOnlyExport
-public data class NatureStatChange(val maxChange: Int, val pokeathlonStat: NamedApiResource)
+public data class NatureStatChange(
+  val maxChange: Int,
+  val pokeathlonStat: ResourceHandle.Named<PokeathlonStat>,
+)
 
 /**
  * Move battle style preferences for a given nature. See:
@@ -228,7 +234,7 @@ public data class NatureStatChange(val maxChange: Int, val pokeathlonStat: Named
 public data class MoveBattleStylePreference(
   val lowHpPreference: Int,
   val highHpPreference: Int,
-  val moveBattleStyle: NamedApiResource,
+  val moveBattleStyle: ResourceHandle.Named<MoveBattleStyle>,
 )
 
 /**
@@ -247,7 +253,7 @@ public data class PokeathlonStat(
   val name: String,
   val names: List<Name>,
   val affectingNatures: NaturePokeathlonStatEffectSets,
-)
+) : EndpointModel
 
 /**
  * A set of natures and how they affect a Pokeathlon stat. See:
@@ -272,7 +278,10 @@ public data class NaturePokeathlonStatEffectSets(
  */
 @Serializable
 @JsOnlyExport
-public data class NaturePokeathlonStatEffect(val maxChange: Int, val nature: NamedApiResource)
+public data class NaturePokeathlonStatEffect(
+  val maxChange: Int,
+  val nature: ResourceHandle.Named<Nature>,
+)
 
 /**
  * Pokémon are the creatures that inhabit the world of the Pokémon games. They have a variety of
@@ -308,9 +317,9 @@ public data class PokemonVariety(
   val isDefault: Boolean,
   val order: Int,
   val weight: Int,
-  val species: NamedApiResource,
+  val species: ResourceHandle.Named<PokemonSpecies>,
   val abilities: List<PokemonAbility>,
-  val forms: List<NamedApiResource>,
+  val forms: List<ResourceHandle.Named<PokemonForm>>,
   val gameIndices: List<VersionGameIndex>,
   val heldItems: List<PokemonHeldItem>,
   val moves: List<PokemonMove>,
@@ -320,7 +329,7 @@ public data class PokemonVariety(
   val pastAbilities: List<PokemonPastAbility>,
   val cries: PokemonCries,
   val sprites: PokemonSprites,
-)
+) : EndpointModel
 
 /**
  * Sprites are images used to depict Pokémon in the game. See:
@@ -499,7 +508,7 @@ public data class GameSprites(
 public data class PokemonAbility(
   val isHidden: Boolean,
   val slot: Int,
-  val ability: NamedApiResource?,
+  val ability: ResourceHandle.Named<Ability>?,
 )
 
 /**
@@ -512,7 +521,7 @@ public data class PokemonAbility(
 @Serializable
 @JsOnlyExport
 public data class PokemonHeldItem(
-  val item: NamedApiResource,
+  val item: ResourceHandle.Named<Item>,
   val versionDetails: List<PokemonHeldItemVersion>,
 )
 
@@ -525,7 +534,10 @@ public data class PokemonHeldItem(
  */
 @Serializable
 @JsOnlyExport
-public data class PokemonHeldItemVersion(val version: NamedApiResource, val rarity: Int)
+public data class PokemonHeldItemVersion(
+  val version: ResourceHandle.Named<Version>,
+  val rarity: Int,
+)
 
 /**
  * Moves that a Pokémon can learn. See: https://pokeapi.co/docs/v2#pokemonmove
@@ -536,7 +548,7 @@ public data class PokemonHeldItemVersion(val version: NamedApiResource, val rari
 @Serializable
 @JsOnlyExport
 public data class PokemonMove(
-  val move: NamedApiResource,
+  val move: ResourceHandle.Named<Move>,
   val versionGroupDetails: List<PokemonMoveVersion>,
 )
 
@@ -552,8 +564,8 @@ public data class PokemonMove(
 @Serializable
 @JsOnlyExport
 public data class PokemonMoveVersion(
-  val moveLearnMethod: NamedApiResource,
-  val versionGroup: NamedApiResource,
+  val moveLearnMethod: ResourceHandle.Named<MoveLearnMethod>,
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
   val levelLearnedAt: Int,
   val order: Int?,
 )
@@ -567,7 +579,11 @@ public data class PokemonMoveVersion(
  */
 @Serializable
 @JsOnlyExport
-public data class PokemonStat(val stat: NamedApiResource, val effort: Int, val baseStat: Int)
+public data class PokemonStat(
+  val stat: ResourceHandle.Named<Stat>,
+  val effort: Int,
+  val baseStat: Int,
+)
 
 /**
  * The type of a Pokémon and its slot. See: https://pokeapi.co/docs/v2#pokemontype
@@ -577,7 +593,7 @@ public data class PokemonStat(val stat: NamedApiResource, val effort: Int, val b
  */
 @Serializable
 @JsOnlyExport
-public data class PokemonType(val slot: Int, val type: NamedApiResource)
+public data class PokemonType(val slot: Int, val type: ResourceHandle.Named<Type>)
 
 /**
  * The types a Pokémon had in a previous generation. See: https://pokeapi.co/docs/v2#pokemonpasttype
@@ -587,7 +603,10 @@ public data class PokemonType(val slot: Int, val type: NamedApiResource)
  */
 @Serializable
 @JsOnlyExport
-public data class PokemonPastType(val generation: NamedApiResource, val types: List<PokemonType>)
+public data class PokemonPastType(
+  val generation: ResourceHandle.Named<Generation>,
+  val types: List<PokemonType>,
+)
 
 /**
  * The abilities a Pokémon had in a previous generation. See:
@@ -599,7 +618,7 @@ public data class PokemonPastType(val generation: NamedApiResource, val types: L
 @Serializable
 @JsOnlyExport
 public data class PokemonPastAbility(
-  val generation: NamedApiResource,
+  val generation: ResourceHandle.Named<Generation>,
   val abilities: List<PokemonAbility>,
 )
 
@@ -621,7 +640,7 @@ public data class PokemonPastAbility(
 @Serializable
 @JsOnlyExport
 public data class LocationAreaEncounter(
-  val locationArea: NamedApiResource,
+  val locationArea: ResourceHandle.Named<LocationArea>,
   val versionDetails: List<VersionEncounterDetail>,
 )
 
@@ -640,8 +659,8 @@ public data class PokemonColor(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val pokemonSpecies: List<NamedApiResource>,
-)
+  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+) : EndpointModel
 
 /**
  * Some Pokémon may appear in one of multiple, visually different forms. These differences are
@@ -677,13 +696,13 @@ public data class PokemonForm(
   val isBattleOnly: Boolean,
   val isMega: Boolean,
   val formName: String,
-  val pokemon: NamedApiResource,
+  val pokemon: ResourceHandle.Named<PokemonVariety>,
   val types: List<PokemonType>,
   val sprites: PokemonFormSprites,
-  val versionGroup: NamedApiResource,
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
   val names: List<Name>,
   val formNames: List<Name>,
-)
+) : EndpointModel
 
 /**
  * Sprites used to depict a Pokémon form. See: https://pokeapi.co/docs/v2#pokemonformsprites
@@ -725,8 +744,8 @@ public data class PokemonHabitat(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val pokemonSpecies: List<NamedApiResource>,
-)
+  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+) : EndpointModel
 
 /**
  * Shapes are used to determine a Pokémon's appearance and for search purposes. See:
@@ -745,8 +764,8 @@ public data class PokemonShape(
   val name: String,
   val awesomeNames: List<AwesomeName>,
   val names: List<Name>,
-  val pokemonSpecies: List<NamedApiResource>,
-)
+  val pokemonSpecies: List<ResourceHandle.Named<PokemonSpecies>>,
+) : EndpointModel
 
 /**
  * The "scientific" name of a Pokémon shape. See: https://pokeapi.co/docs/v2#awesomename
@@ -756,7 +775,10 @@ public data class PokemonShape(
  */
 @Serializable
 @JsOnlyExport
-public data class AwesomeName(val awesomeName: String, val language: NamedApiResource)
+public data class AwesomeName(
+  val awesomeName: String,
+  val language: ResourceHandle.Named<Language>,
+)
 
 /**
  * A Pokémon Species forms the basis for at least one Pokémon. Attributes of a Pokémon species are
@@ -811,22 +833,22 @@ public data class PokemonSpecies(
   val hatchCounter: Int,
   val hasGenderDifferences: Boolean,
   val formsSwitchable: Boolean,
-  val growthRate: NamedApiResource,
+  val growthRate: ResourceHandle.Named<GrowthRate>,
   val pokedexNumbers: List<PokemonSpeciesDexEntry>,
-  val eggGroups: List<NamedApiResource>,
-  val color: NamedApiResource,
-  val shape: NamedApiResource,
-  val evolvesFromSpecies: NamedApiResource?,
-  val evolutionChain: ApiResource,
-  val habitat: NamedApiResource?,
-  val generation: NamedApiResource,
+  val eggGroups: List<ResourceHandle.Named<EggGroup>>,
+  val color: ResourceHandle.Named<PokemonColor>,
+  val shape: ResourceHandle.Named<PokemonShape>,
+  val evolvesFromSpecies: ResourceHandle.Named<PokemonSpecies>?,
+  val evolutionChain: ResourceHandle.Unnamed<EvolutionChain>,
+  val habitat: ResourceHandle.Named<PokemonHabitat>?,
+  val generation: ResourceHandle.Named<Generation>,
   val names: List<Name>,
   val palParkEncounters: List<PalParkEncounterArea>,
   val formDescriptions: List<Description>,
   val genera: List<Genus>,
   val varieties: List<PokemonSpeciesVariety>,
   val flavorTextEntries: List<PokemonSpeciesFlavorText>,
-)
+) : EndpointModel
 
 /**
  * Flavor text entries for a Pokémon species. See: https://pokeapi.co/docs/v2#flavortext
@@ -839,8 +861,8 @@ public data class PokemonSpecies(
 @JsOnlyExport
 public data class PokemonSpeciesFlavorText(
   val flavorText: String,
-  val language: NamedApiResource,
-  val version: NamedApiResource,
+  val language: ResourceHandle.Named<Language>,
+  val version: ResourceHandle.Named<Version>,
 )
 
 /**
@@ -852,7 +874,7 @@ public data class PokemonSpeciesFlavorText(
  */
 @Serializable
 @JsOnlyExport
-public data class Genus(val genus: String, val language: NamedApiResource)
+public data class Genus(val genus: String, val language: ResourceHandle.Named<Language>)
 
 /**
  * The Pokédex number of a Pokémon species in a specific Pokédex. See:
@@ -863,7 +885,10 @@ public data class Genus(val genus: String, val language: NamedApiResource)
  */
 @Serializable
 @JsOnlyExport
-public data class PokemonSpeciesDexEntry(val entryNumber: Int, val pokedex: NamedApiResource)
+public data class PokemonSpeciesDexEntry(
+  val entryNumber: Int,
+  val pokedex: ResourceHandle.Named<Pokedex>,
+)
 
 /**
  * Areas used for grouping Pokémon encounters in Pal Park. See:
@@ -879,7 +904,7 @@ public data class PokemonSpeciesDexEntry(val entryNumber: Int, val pokedex: Name
 public data class PalParkEncounterArea(
   val baseScore: Int,
   val rate: Int,
-  val area: NamedApiResource,
+  val area: ResourceHandle.Named<PalParkArea>,
 )
 
 /**
@@ -892,7 +917,7 @@ public data class PalParkEncounterArea(
 @JsOnlyExport
 public data class PokemonSpeciesVariety(
   val isDefault: Boolean,
-  @SerialName("pokemon") val variety: NamedApiResource,
+  @SerialName("pokemon") val variety: ResourceHandle.Named<PokemonVariety>,
 )
 
 /**
@@ -920,10 +945,10 @@ public data class Stat(
   val isBattleOnly: Boolean,
   val affectingMoves: MoveStatAffectSets,
   val affectingNatures: NatureStatAffectSets,
-  val characteristics: List<ApiResource>,
-  val moveDamageClass: NamedApiResource?,
+  val characteristics: List<ResourceHandle.Unnamed<Characteristic>>,
+  val moveDamageClass: ResourceHandle.Named<MoveDamageClass>?,
   val names: List<Name>,
-)
+) : EndpointModel
 
 /**
  * A set of moves that affect a stat and how they affect it. See:
@@ -947,7 +972,7 @@ public data class MoveStatAffectSets(
  */
 @Serializable
 @JsOnlyExport
-public data class MoveStatAffect(val change: Int, val move: NamedApiResource)
+public data class MoveStatAffect(val change: Int, val move: ResourceHandle.Named<Move>)
 
 /**
  * A set of natures that affect a stat and how they affect it. See:
@@ -959,8 +984,8 @@ public data class MoveStatAffect(val change: Int, val move: NamedApiResource)
 @Serializable
 @JsOnlyExport
 public data class NatureStatAffectSets(
-  val increase: List<NamedApiResource>,
-  val decrease: List<NamedApiResource>,
+  val increase: List<ResourceHandle.Named<Nature>>,
+  val decrease: List<ResourceHandle.Named<Nature>>,
 )
 
 /**
@@ -990,13 +1015,13 @@ public data class Type(
   val damageRelations: TypeRelations,
   val pastDamageRelations: List<TypePastDamageRelation>,
   val gameIndices: List<GenerationGameIndex>,
-  val generation: NamedApiResource,
-  val moveDamageClass: NamedApiResource?,
+  val generation: ResourceHandle.Named<Generation>,
+  val moveDamageClass: ResourceHandle.Named<MoveDamageClass>?,
   val names: List<Name>,
   val pokemon: List<TypePokemon>,
-  val moves: List<NamedApiResource>,
+  val moves: List<ResourceHandle.Named<Move>>,
   val sprites: VersionTypeSprites,
-)
+) : EndpointModel
 
 @Serializable
 @JsOnlyExport
@@ -1075,7 +1100,7 @@ public data class GenerationIxTypeSprites(
  */
 @Serializable
 @JsOnlyExport
-public data class TypePokemon(val slot: Int, val pokemon: NamedApiResource)
+public data class TypePokemon(val slot: Int, val pokemon: ResourceHandle.Named<PokemonVariety>)
 
 /**
  * A detail of how effective this type is toward others and vice versa. See:
@@ -1091,12 +1116,12 @@ public data class TypePokemon(val slot: Int, val pokemon: NamedApiResource)
 @Serializable
 @JsOnlyExport
 public data class TypeRelations(
-  val noDamageTo: List<NamedApiResource>,
-  val halfDamageTo: List<NamedApiResource>,
-  val doubleDamageTo: List<NamedApiResource>,
-  val noDamageFrom: List<NamedApiResource>,
-  val halfDamageFrom: List<NamedApiResource>,
-  val doubleDamageFrom: List<NamedApiResource>,
+  val noDamageTo: List<ResourceHandle.Named<Type>>,
+  val halfDamageTo: List<ResourceHandle.Named<Type>>,
+  val doubleDamageTo: List<ResourceHandle.Named<Type>>,
+  val noDamageFrom: List<ResourceHandle.Named<Type>>,
+  val halfDamageFrom: List<ResourceHandle.Named<Type>>,
+  val doubleDamageFrom: List<ResourceHandle.Named<Type>>,
 )
 
 /**
@@ -1109,6 +1134,6 @@ public data class TypeRelations(
 @Serializable
 @JsOnlyExport
 public data class TypePastDamageRelation(
-  val generation: NamedApiResource,
+  val generation: ResourceHandle.Named<Generation>,
   val damageRelations: TypeRelations,
 )

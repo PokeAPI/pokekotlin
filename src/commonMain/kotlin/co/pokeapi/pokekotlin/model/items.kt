@@ -31,18 +31,18 @@ public data class Item(
   val name: String,
   val cost: Int,
   val flingPower: Int?,
-  val flingEffect: NamedApiResource?,
-  val attributes: List<NamedApiResource>,
-  val category: NamedApiResource,
+  val flingEffect: ResourceHandle.Named<ItemFlingEffect>?,
+  val attributes: List<ResourceHandle.Named<ItemAttribute>>,
+  val category: ResourceHandle.Named<ItemCategory>,
   val effectEntries: List<VerboseEffect>,
   val flavorTextEntries: List<VersionGroupFlavorText>,
   val gameIndices: List<GenerationGameIndex>,
   val names: List<Name>,
   val heldByPokemon: List<ItemHolderPokemon>,
-  val babyTriggerFor: ApiResource?,
+  val babyTriggerFor: ResourceHandle.Unnamed<EvolutionChain>?,
   val sprites: ItemSprites,
   val machines: List<MachineVersionDetail>,
-)
+) : EndpointModel
 
 /**
  * The sprites used to depict an item in the game. See: https://pokeapi.co/docs/v2#itemsprites
@@ -61,7 +61,7 @@ public data class Item(
 @Serializable
 @JsOnlyExport
 public data class ItemHolderPokemon(
-  val pokemon: NamedApiResource,
+  val pokemon: ResourceHandle.Named<PokemonVariety>,
   val versionDetails: List<ItemHolderPokemonVersionDetail>,
 )
 
@@ -74,7 +74,10 @@ public data class ItemHolderPokemon(
  */
 @Serializable
 @JsOnlyExport
-public data class ItemHolderPokemonVersionDetail(val rarity: Int, val version: NamedApiResource)
+public data class ItemHolderPokemonVersionDetail(
+  val rarity: Int,
+  val version: ResourceHandle.Named<Version>,
+)
 
 /**
  * Natural attributes of items, such as being countable or being usable in battle. See:
@@ -91,10 +94,10 @@ public data class ItemHolderPokemonVersionDetail(val rarity: Int, val version: N
 public data class ItemAttribute(
   val id: Int,
   val name: String,
-  val items: List<NamedApiResource>,
+  val items: List<ResourceHandle.Named<Item>>,
   val names: List<Name>,
   val descriptions: List<Description>,
-)
+) : EndpointModel
 
 /**
  * Item categories determine where items will be placed in the players bag. See:
@@ -111,10 +114,10 @@ public data class ItemAttribute(
 public data class ItemCategory(
   val id: Int,
   val name: String,
-  val items: List<NamedApiResource>,
+  val items: List<ResourceHandle.Named<Item>>,
   val names: List<Name>,
-  val pocket: NamedApiResource,
-)
+  val pocket: ResourceHandle.Named<ItemPocket>,
+) : EndpointModel
 
 /**
  * The various effects of the move "Fling" when used with different items. See:
@@ -131,8 +134,8 @@ public data class ItemFlingEffect(
   val id: Int,
   val name: String,
   val effectEntries: List<Effect>,
-  val items: List<NamedApiResource>,
-)
+  val items: List<ResourceHandle.Named<Item>>,
+) : EndpointModel
 
 /**
  * Pockets within the players bag used for storing items by category. See:
@@ -148,6 +151,6 @@ public data class ItemFlingEffect(
 public data class ItemPocket(
   val id: Int,
   val name: String,
-  val categories: List<NamedApiResource>,
+  val categories: List<ResourceHandle.Named<ItemCategory>>,
   val names: List<Name>,
-)
+) : EndpointModel

@@ -21,24 +21,24 @@ class MoveTest {
       assertEquals(0, priority)
       assertEquals(85, power)
       assertEquals(null, contestCombos)
-      assertEquals(NamedApiResource("tough", "contest-type", 5), contestType)
-      assertEquals(ApiResource("contest-effect", 4), contestEffect)
-      assertEquals(ApiResource("super-contest-effect", 5), superContestEffect)
-      assertEquals(NamedApiResource("physical", "move-damage-class", 2), damageClass)
+      assertEquals(ResourceHandle.of(5, "tough"), contestType)
+      assertEquals(ResourceHandle.of(4), contestEffect)
+      assertEquals(ResourceHandle.of(5), superContestEffect)
+      assertEquals(ResourceHandle.of(2, "physical"), damageClass)
       assertContains(
         effectEntries,
         VerboseEffect(
           effect = "Inflicts regular damage.  Has a 30% chance to paralyze the target.",
           shortEffect = "Has a 30% chance to paralyze the target.",
-          language = NamedApiResource("en", "language", 9),
+          language = ResourceHandle.of(9, "en"),
         ),
       )
       assertEquals(emptyList(), effectChanges)
-      assertEquals(NamedApiResource("generation-i", "generation", 1), generation)
+      assertEquals(ResourceHandle.of(1, "generation-i"), generation)
       assertEquals(
         MoveMetaData(
-          ailment = NamedApiResource("paralysis", "move-ailment", 1),
-          category = NamedApiResource("damage+ailment", "move-category", 4),
+          ailment = ResourceHandle.of(1, "paralysis"),
+          category = ResourceHandle.of(4, "damage+ailment"),
           minHits = null,
           maxHits = null,
           minTurns = null,
@@ -52,27 +52,24 @@ class MoveTest {
         ),
         meta,
       )
-      assertContains(
-        names,
-        Name(name = "Body Slam", language = NamedApiResource("en", "language", 9)),
-      )
+      assertContains(names, Name(name = "Body Slam", language = ResourceHandle.of(9, "en")))
       assertEquals(emptyList(), pastValues)
       assertEquals(emptyList(), statChanges)
-      assertEquals(NamedApiResource("selected-pokemon", "move-target", 10), target)
-      assertEquals(NamedApiResource("normal", "type", 1), type)
+      assertEquals(ResourceHandle.of(10, "selected-pokemon"), target)
+      assertEquals(ResourceHandle.of(1, "normal"), type)
       assertContains(
         machines,
         MachineVersionDetail(
-          machine = ApiResource("machine", 142),
-          versionGroup = NamedApiResource("red-blue", "version-group", 1),
+          machine = ResourceHandle.of(142),
+          versionGroup = ResourceHandle.of(1, "red-blue"),
         ),
       )
       assertContains(
         flavorTextEntries,
         MoveFlavorText(
           flavorText = "An attack that may\ncause paralysis.",
-          language = NamedApiResource("en", "language", 9),
-          versionGroup = NamedApiResource("gold-silver", "version-group", 3),
+          language = ResourceHandle.of(9, "en"),
+          versionGroup = ResourceHandle.of(3, "gold-silver"),
         ),
       )
     }
@@ -84,7 +81,7 @@ class MoveTest {
       assertEquals(
         ContestComboSets(
           normalSet = ContestComboDetail(null, null),
-          superSet = ContestComboDetail(null, listOf(NamedApiResource("focus-energy", "move", 116))),
+          superSet = ContestComboDetail(null, listOf(ResourceHandle.of(116, "focus-energy"))),
         ),
         contestCombos,
       )
@@ -96,10 +93,10 @@ class MoveTest {
     LocalPokeApi.getMove(16).apply {
       assertNotNull(
         effectChanges.find {
-          it.versionGroup == NamedApiResource("gold-silver", "version-group", 3) &&
+          it.versionGroup == ResourceHandle.of<VersionGroup>(3, "gold-silver") &&
             Effect(
               effect = "Does not hit Pokémon under the effects of fly.",
-              language = NamedApiResource("en", "language", 9),
+              language = ResourceHandle.of(9, "en"),
             ) in it.effectEntries
         }
       )
@@ -109,10 +106,7 @@ class MoveTest {
   @Test
   fun getMove4() = runTest {
     LocalPokeApi.getMove(14).apply {
-      assertContains(
-        statChanges,
-        MoveStatChange(change = 2, stat = NamedApiResource("attack", "stat", 2)),
-      )
+      assertContains(statChanges, MoveStatChange(change = 2, stat = ResourceHandle.of(2, "attack")))
     }
   }
 
@@ -127,8 +121,8 @@ class MoveTest {
           pp = null,
           effectChance = null,
           effectEntries = emptyList(),
-          type = NamedApiResource("normal", "type", 1),
-          versionGroup = NamedApiResource("gold-silver", "version-group", 3),
+          type = ResourceHandle.of(1, "normal"),
+          versionGroup = ResourceHandle.of(3, "gold-silver"),
         ),
       )
     }
@@ -139,11 +133,8 @@ class MoveTest {
     LocalPokeApi.getMoveAilment(1).apply {
       assertEquals(1, id)
       assertEquals("paralysis", name)
-      assertContains(
-        names,
-        Name(name = "Paralysis", language = NamedApiResource("en", "language", 9)),
-      )
-      assertContains(moves, NamedApiResource("stun-spore", "move", 78))
+      assertContains(names, Name(name = "Paralysis", language = ResourceHandle.of(9, "en")))
+      assertContains(moves, ResourceHandle.of(78, "stun-spore"))
     }
   }
 
@@ -152,7 +143,7 @@ class MoveTest {
     LocalPokeApi.getMoveBattleStyle(1).apply {
       assertEquals(1, id)
       assertEquals("attack", name)
-      assertContains(names, Name(name = "Attack", language = NamedApiResource("en", "language", 9)))
+      assertContains(names, Name(name = "Attack", language = ResourceHandle.of(9, "en")))
     }
   }
 
@@ -165,10 +156,10 @@ class MoveTest {
         descriptions,
         Description(
           description = "No damage; inflicts status ailment",
-          language = NamedApiResource("en", "language", 9),
+          language = ResourceHandle.of(9, "en"),
         ),
       )
-      assertContains(moves, NamedApiResource("sing", "move", 47))
+      assertContains(moves, ResourceHandle.of(47, "sing"))
     }
   }
 
@@ -177,12 +168,12 @@ class MoveTest {
     LocalPokeApi.getMoveDamageClass(1).apply {
       assertEquals(1, id)
       assertEquals("status", name)
-      assertContains(names, Name(name = "status", language = NamedApiResource("en", "language", 9)))
+      assertContains(names, Name(name = "status", language = ResourceHandle.of(9, "en")))
       assertContains(
         descriptions,
-        Description(description = "No damage", language = NamedApiResource("en", "language", 9)),
+        Description(description = "No damage", language = ResourceHandle.of(9, "en")),
       )
-      assertContains(moves, NamedApiResource("snatch", "move", 289))
+      assertContains(moves, ResourceHandle.of(289, "snatch"))
     }
   }
 
@@ -191,10 +182,7 @@ class MoveTest {
     LocalPokeApi.getMoveLearnMethod(10).apply {
       assertEquals(10, id)
       assertEquals("form-change", name)
-      assertContains(
-        names,
-        Name(name = "Form Change", language = NamedApiResource("en", "language", 9)),
-      )
+      assertContains(names, Name(name = "Form Change", language = ResourceHandle.of(9, "en")))
       assertContains(
         descriptions,
         Description(
@@ -202,10 +190,10 @@ class MoveTest {
             "Appears when Rotom or Cosplay Pikachu changes form.  " +
               "Disappears if the Pokémon becomes another form and this move can only " +
               "be learned by form change.",
-          language = NamedApiResource("en", "language", 9),
+          language = ResourceHandle.of(9, "en"),
         ),
       )
-      assertContains(versionGroups, NamedApiResource("x-y", "version-group", 15))
+      assertContains(versionGroups, ResourceHandle.of(15, "x-y"))
     }
   }
 
@@ -214,18 +202,15 @@ class MoveTest {
     LocalPokeApi.getMoveTarget(8).apply {
       assertEquals(8, id)
       assertEquals("random-opponent", name)
-      assertContains(
-        names,
-        Name(name = "Random opponent", language = NamedApiResource("en", "language", 9)),
-      )
+      assertContains(names, Name(name = "Random opponent", language = ResourceHandle.of(9, "en")))
       assertContains(
         descriptions,
         Description(
           description = "One opposing Pokémon, selected at random.",
-          language = NamedApiResource("en", "language", 9),
+          language = ResourceHandle.of(9, "en"),
         ),
       )
-      assertContains(moves, NamedApiResource("uproar", "move", 253))
+      assertContains(moves, ResourceHandle.of(253, "uproar"))
     }
   }
 }

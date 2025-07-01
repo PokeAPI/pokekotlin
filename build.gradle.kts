@@ -35,7 +35,11 @@ kotlin {
   compilerOptions {
     optIn = listOf("kotlin.js.ExperimentalJsExport")
     allWarningsAsErrors = true
-    freeCompilerArgs.addAll("-Xexpect-actual-classes", "-Xconsistent-data-class-copy-visibility")
+    freeCompilerArgs.addAll(
+      "-Xexpect-actual-classes",
+      "-Xcontext-sensitive-resolution",
+      "-Xconsistent-data-class-copy-visibility",
+    )
   }
 
   jvm()

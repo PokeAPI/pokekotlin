@@ -24,7 +24,7 @@ public data class Language(
   val iso639: String,
   val iso3166: String,
   val names: List<Name>,
-)
+) : EndpointModel
 
 /**
  * The localized description for an API resource in a specific language. See:
@@ -35,7 +35,10 @@ public data class Language(
  */
 @Serializable
 @JsOnlyExport
-public data class Description(val description: String, val language: NamedApiResource)
+public data class Description(
+  val description: String,
+  val language: ResourceHandle.Named<Language>,
+)
 
 /**
  * The localized effect text for an API resource in a specific language. See:
@@ -46,7 +49,7 @@ public data class Description(val description: String, val language: NamedApiRes
  */
 @Serializable
 @JsOnlyExport
-public data class Effect(val effect: String, val language: NamedApiResource)
+public data class Effect(val effect: String, val language: ResourceHandle.Named<Language>)
 
 /**
  * Encounter details for a Pokémon in a specific location area. See:
@@ -63,9 +66,9 @@ public data class Effect(val effect: String, val language: NamedApiResource)
 public data class Encounter(
   val minLevel: Int,
   val maxLevel: Int,
-  val conditionValues: List<NamedApiResource>,
+  val conditionValues: List<ResourceHandle.Named<EncounterConditionValue>>,
   val chance: Int,
-  val method: NamedApiResource,
+  val method: ResourceHandle.Named<EncounterMethod>,
 )
 
 /**
@@ -77,7 +80,7 @@ public data class Encounter(
  */
 @Serializable
 @JsOnlyExport
-public data class FlavorText(val flavorText: String, val language: NamedApiResource)
+public data class FlavorText(val flavorText: String, val language: ResourceHandle.Named<Language>)
 
 /**
  * Generation game index for a resource. See: https://pokeapi.co/docs/v2#generationgameindex
@@ -87,7 +90,10 @@ public data class FlavorText(val flavorText: String, val language: NamedApiResou
  */
 @Serializable
 @JsOnlyExport
-public data class GenerationGameIndex(val gameIndex: Int, val generation: NamedApiResource)
+public data class GenerationGameIndex(
+  val gameIndex: Int,
+  val generation: ResourceHandle.Named<Generation>,
+)
 
 /**
  * Machine and version group details. See: https://pokeapi.co/docs/v2#machineversiondetail
@@ -98,8 +104,8 @@ public data class GenerationGameIndex(val gameIndex: Int, val generation: NamedA
 @Serializable
 @JsOnlyExport
 public data class MachineVersionDetail(
-  val machine: ApiResource,
-  val versionGroup: NamedApiResource,
+  val machine: ResourceHandle.Unnamed<Machine>,
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
 )
 
 /**
@@ -111,7 +117,7 @@ public data class MachineVersionDetail(
  */
 @Serializable
 @JsOnlyExport
-public data class Name(val name: String, val language: NamedApiResource)
+public data class Name(val name: String, val language: ResourceHandle.Named<Language>)
 
 /**
  * The verbose effect text for an API resource in a specific language. See:
@@ -126,7 +132,7 @@ public data class Name(val name: String, val language: NamedApiResource)
 public data class VerboseEffect(
   val effect: String,
   val shortEffect: String,
-  val language: NamedApiResource,
+  val language: ResourceHandle.Named<Language>,
 )
 
 /**
@@ -140,7 +146,7 @@ public data class VerboseEffect(
 @Serializable
 @JsOnlyExport
 public data class VersionEncounterDetail(
-  val version: NamedApiResource,
+  val version: ResourceHandle.Named<Version>,
   val maxChance: Int,
   val encounterDetails: List<Encounter>,
 )
@@ -153,7 +159,7 @@ public data class VersionEncounterDetail(
  */
 @Serializable
 @JsOnlyExport
-public data class VersionGameIndex(val gameIndex: Int, val version: NamedApiResource)
+public data class VersionGameIndex(val gameIndex: Int, val version: ResourceHandle.Named<Version>)
 
 /**
  * The localized flavor text for a version group. See:
@@ -167,6 +173,6 @@ public data class VersionGameIndex(val gameIndex: Int, val version: NamedApiReso
 @JsOnlyExport
 public data class VersionGroupFlavorText(
   val text: String,
-  val language: NamedApiResource,
-  val versionGroup: NamedApiResource,
+  val language: ResourceHandle.Named<Language>,
+  val versionGroup: ResourceHandle.Named<VersionGroup>,
 )

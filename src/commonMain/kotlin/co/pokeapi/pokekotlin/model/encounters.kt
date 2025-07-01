@@ -19,7 +19,7 @@ public data class EncounterMethod(
   val name: String,
   val order: Int,
   val names: List<Name>,
-)
+) : EndpointModel
 
 /**
  * Conditions which affect what pokemon might appear in the wild, e.g., day or night. See:
@@ -36,8 +36,8 @@ public data class EncounterCondition(
   val id: Int,
   val name: String,
   val names: List<Name>,
-  val values: List<NamedApiResource>,
-)
+  val values: List<ResourceHandle.Named<EncounterConditionValue>>,
+) : EndpointModel
 
 /**
  * Encounter condition values are the various states that an encounter condition can have, i.e.,
@@ -54,6 +54,6 @@ public data class EncounterCondition(
 public data class EncounterConditionValue(
   val id: Int,
   val name: String,
-  val condition: NamedApiResource,
+  val condition: ResourceHandle.Named<EncounterCondition>,
   val names: List<Name>,
-)
+) : EndpointModel

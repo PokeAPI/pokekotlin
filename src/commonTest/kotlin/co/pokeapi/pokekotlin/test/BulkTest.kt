@@ -1,7 +1,8 @@
 package co.pokeapi.pokekotlin.test
 
-import co.pokeapi.pokekotlin.model.ResourceSummary
-import co.pokeapi.pokekotlin.model.ResourceSummaryList
+import co.pokeapi.pokekotlin.model.EndpointModel
+import co.pokeapi.pokekotlin.model.PaginatedResourceList
+import co.pokeapi.pokekotlin.model.ResourceEndpoint
 import kotlin.math.min
 import kotlin.test.Test
 import kotlin.test.fail
@@ -12,9 +13,11 @@ private const val LAST_N = 100
 private const val MIDDLE_N = 100
 
 class BulkTest {
-
-  private suspend fun testCase(cat: String, id: Int, getObject: suspend (Int) -> Any) {
-    println("$cat (id=$id)")
+  private suspend inline fun <reified T : EndpointModel> testCase(
+    id: Int,
+    getObject: suspend (Int) -> Any,
+  ) {
+    println("${ResourceEndpoint.forModel<T>()} (id=$id)")
     try {
       getObject(id)
     } catch (e: Throwable) {
@@ -23,25 +26,24 @@ class BulkTest {
     }
   }
 
-  private suspend fun <S : ResourceSummary, O : Any> testEach(
-    getList: suspend (Int, Int) -> ResourceSummaryList<S>,
-    getObject: suspend (Int) -> O,
+  private suspend inline fun <reified E : EndpointModel> testEach(
+    getList: suspend (Int, Int) -> PaginatedResourceList<E>,
+    getObject: suspend (Int) -> Any,
   ) {
     val list = getList(0, getList(0, 0).count).results
-    val category = list[0].category
 
-    list.take(FIRST_N).forEach { testCase(category, it.id, getObject) }
+    list.take(FIRST_N).forEach { testCase<E>(it.id, getObject) }
 
     if (list.size > FIRST_N + LAST_N) {
       val n = min(MIDDLE_N, list.size - FIRST_N - LAST_N)
       list.drop(FIRST_N).dropLast(LAST_N).shuffled().take(n).forEach {
-        testCase(category, it.id, getObject)
+        testCase<E>(it.id, getObject)
       }
     }
 
     if (list.size > FIRST_N) {
       val n = min(LAST_N, list.size - FIRST_N)
-      list.takeLast(n).forEach { testCase(category, it.id, getObject) }
+      list.takeLast(n).forEach { testCase<E>(it.id, getObject) }
     }
   }
 
