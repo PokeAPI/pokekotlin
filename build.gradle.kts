@@ -47,7 +47,7 @@ kotlin {
   js(IR) {
     browser { testTask { useMocha { timeout = "10min" } } }
     nodejs { testTask { useMocha { timeout = "10min" } } }
-
+    useEsModules()
     binaries.library()
     generateTypeScriptDefinitions()
   }

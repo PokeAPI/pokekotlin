@@ -1,8 +1,8 @@
 package co.pokeapi.pokekotlin.test
 
 import co.pokeapi.pokekotlin.PokeApi
-import io.ktor.client.plugins.*
-import io.ktor.http.*
+import io.ktor.client.plugins.ClientRequestException
+import io.ktor.http.HttpStatusCode
 import kotlin.js.Promise
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -12,12 +12,12 @@ import kotlinx.coroutines.test.runTest
 
 @Suppress("UnusedVariable", "unused")
 class LiveJsTest {
-  private val client: PokeApi =
-    js("require('./pokekotlin.js').co.pokeapi.pokekotlin.PokeApi.Default")
+  private val client: Promise<PokeApi> =
+    js("import('./pokekotlin.mjs').then(function (it) { return it.PokeApi.Default; })")
 
   @Test
   fun resource() = runTest {
-    val client = client
+    val client = client.await()
     assertEquals(
       "sitrus",
       js("client.getBerryAsync(10).then(function (it) { return it.name; })")
@@ -28,7 +28,7 @@ class LiveJsTest {
 
   @Test
   fun list() = runTest {
-    val client = client
+    val client = client.await()
 
     val berry1 =
       js("client.getBerryListAsync(0, 10).then(function (it) { return it.results[5]; })")
@@ -45,7 +45,7 @@ class LiveJsTest {
 
   @Test
   fun notFound() = runTest {
-    val client = client
+    val client = client.await()
 
     val exception =
       assertFailsWith<ClientRequestException> {
