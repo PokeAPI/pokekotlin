@@ -19,6 +19,7 @@ plugins {
   alias(libs.plugins.jgitver)
   alias(libs.plugins.suspendTransformCompiler)
   alias(libs.plugins.kover)
+  alias(libs.plugins.npmPublish)
   id("maven-publish")
 }
 
@@ -142,6 +143,33 @@ tasks.withType<KotlinNativeSimulatorTest> {
   (project.findProperty("appleNativeSimulatorDevice") as? String)?.let { device.set(it) }
 }
 
+npmPublish {
+  readme = project.file("README.npm.md")
+  packages {
+    named("js") {
+      packageJson {
+        description = "Promise based client for PokéAPI written in Kotlin"
+        keywords = setOf("pokeapi", "pokemon", "api", "kotlin")
+        homepage = "https://pokeapi.github.io/pokekotlin/"
+        license = "Apache-2.0"
+        author {
+          name = "Sargun Vohra"
+          url = "https://github.com/sargunv"
+        }
+        bugs { url = "https://github.com/PokeAPI/pokekotlin/issues" }
+        repository {
+          type = "git"
+          url = "git+https://github.com/PokeAPI/pokekotlin.git"
+        }
+      }
+    }
+  }
+  registries {
+    npmjs {}
+    github {}
+  }
+}
+
 publishing {
   repositories {
     maven {
@@ -158,7 +186,7 @@ mavenPublishing {
   pom {
     name = "PokeKotlin"
     description = "Kotlin client for The Pokémon API"
-    url = "https://github.com/PokeAPI/pokekotlin"
+    url = "https://pokeapi.github.io/pokekotlin/"
     licenses {
       license {
         name.set("The Apache License, Version 2.0")
