@@ -17,12 +17,27 @@ jobs:
           fetch-depth: 0
       - run: "git fetch --tags --force" # https://github.com/actions/checkout/issues/290
       - uses: "./.github/actions/setup"
-      - run: "./gradlew publishAndReleaseToMavenCentral --no-configuration-cache"
+      - run: "./gradlew :publishAndReleaseToMavenCentral --no-configuration-cache"
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: "${{ secrets.MAVEN_CENTRAL_USERNAME }}"
           ORG_GRADLE_PROJECT_mavenCentralPassword: "${{ secrets.MAVEN_CENTRAL_PASSWORD }}"
           ORG_GRADLE_PROJECT_signingInMemoryKey: "${{ secrets.GPG_PRIVATE_KEY }}"
           ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: "${{ secrets.GPG_PASSPHRASE }}"
+
+  publish-npm:
+    runs-on: macos-latest
+    environment:
+      name: "npm"
+      url: "https://www.npmjs.com/package/pokekotlin"
+    steps:
+      - uses: "actions/checkout@v4"
+        with:
+          fetch-depth: 0
+      - run: "git fetch --tags --force" # https://github.com/actions/checkout/issues/290
+      - uses: "./.github/actions/setup"
+      - run: "./gradlew :publishJsPackageToNpmjsRegistry"
+        env:
+          NPM_PUBLISH_REGISTRY_NPMJS_AUTHTOKEN: "${{ secrets.NPM_ACCESS_TOKEN }}"
 
   publish-pages:
     needs:
@@ -40,7 +55,7 @@ jobs:
           fetch-depth: 0
       - run: "git fetch --tags --force" # https://github.com/actions/checkout/issues/290
       - uses: "./.github/actions/setup"
-      - run: "./gradlew generateDocs"
+      - run: "./gradlew :generateDocs"
       - uses: "actions/upload-pages-artifact@v3"
         with:
           path: "build/docs"

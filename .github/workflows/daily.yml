@@ -19,7 +19,7 @@ jobs:
     outputs:
       last_sha: "${{ fromJson(steps.check-last-run.outputs.data).workflow_runs[0].head_sha }}"
 
-  publish-snapshot:
+  publish-maven-snapshot:
     needs: ["check-last-run"]
     if: "${{ needs.check-last-run.outputs.last_sha != github.sha }}"
     runs-on: "macos-latest"
@@ -30,10 +30,25 @@ jobs:
         with:
           fetch-depth: 0
       - uses: "./.github/actions/setup"
-      - run: "./gradlew publishAllPublicationsToGitHubPackagesRepository"
+      - run: "./gradlew :publishAllPublicationsToGitHubPackagesRepository"
         env:
           ORG_GRADLE_PROJECT_GitHubPackagesPassword: "${{ secrets.GITHUB_TOKEN }}"
           ORG_GRADLE_PROJECT_GitHubPackagesUsername: "${{ github.actor }}"
+
+  publish-npm-snapshot:
+    needs: ["check-last-run"]
+    if: "${{ needs.check-last-run.outputs.last_sha != github.sha }}"
+    runs-on: "macos-latest"
+    permissions:
+      packages: "write"
+    steps:
+      - uses: "actions/checkout@v4"
+        with:
+          fetch-depth: 0
+      - uses: "./.github/actions/setup"
+      - run: "./gradlew :publishJsPackageToNpmjsRegistry"
+        env:
+          NPM_PUBLISH_REGISTRY_GITHUB_AUTHTOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
   dependency-submission:
     needs: ["check-last-run"]
