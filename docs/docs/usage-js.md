@@ -2,14 +2,14 @@
 
 ## Overview
 
-PokeKotlin is a Kotlin Multiplatform library that compiles to JavaScript, making it compatible with
-Node.js and browser environments. The library provides a Promise-based API for JavaScript
-interoperability.
+PokeKotlin is a Kotlin Multiplatform library that compiles to JavaScript, making
+it compatible with Node.js and browser environments. The library provides a
+Promise-based API for JavaScript interoperability.
 
 ## Installation with npm
 
-This library is published to [npmjs.com], and snapshot builds of `main` are additionally available
-on [GitHub Packages].
+This library is published to [npmjs.com], and snapshot builds of `main` are
+additionally available on [GitHub Packages].
 
 === "Releases (npm)"
 
@@ -45,11 +45,11 @@ on [GitHub Packages].
 
 ### Example
 
-For basic usage, use the global `PokeApi.Default` instance. The JavaScript API uses Promises for
-asynchronous operations:
+For basic usage, use the global `PokeApi.Default` instance. The JavaScript API
+uses Promises for asynchronous operations:
 
 ```javascript
-import { PokeApi } from '@pokeapi/pokekotlin';
+import { PokeApi } from "@pokeapi/pokekotlin";
 
 try {
   // Get a list of Pokémon species
@@ -67,21 +67,18 @@ try {
 
 ### Details
 
-Every PokeApi endpoint has a corresponding asynchronous method in the `PokeApi` instance that
-returns a `Promise`. By default, the client will connect to the official `https://pokeapi.co/`
-instance and cache results in memory. To customize the client, you can create your own instance of
-`PokeApi.Custom`.
+Every PokeApi endpoint has a corresponding asynchronous method in the `PokeApi`
+instance that returns a `Promise`. By default, the client will connect to the
+official `https://pokeapi.co/` instance and cache results in memory. To
+customize the client, you can create your own instance of `PokeApi.Custom`.
 
 For further details, see the Kotlin [API Reference](./api). Any function like
-`suspend fun getExample()` available in the Kotlin API has a corresponding JavaScript API like
-`async function getExampleAsync()` returning a `Promise`.
+`suspend fun getExample()` available in the Kotlin API has a corresponding
+JavaScript API like `async function getExampleAsync()` returning a `Promise`.
 
 [npmjs.com]: https://www.npmjs.com/package/@pokeapi/pokekotlin
-
 [GitHub Packages]:
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
-
+  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
 [gh-packages-guide]:
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package
-
+  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package
 [repo]: https://github.com/pokeapi/pokekotlin

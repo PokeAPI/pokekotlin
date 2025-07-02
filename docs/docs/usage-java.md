@@ -2,16 +2,16 @@
 
 ## Overview
 
-PokeKotlin is a Kotlin Multiplatform library that compiles to JVM bytecode, making it compatible
-with Java projects. The library provides both asynchronous (`CompletableFuture`-based)
-and blocking APIs for Java interoperability.
+PokeKotlin is a Kotlin Multiplatform library that compiles to JVM bytecode,
+making it compatible with Java projects. The library provides both asynchronous
+(`CompletableFuture`-based) and blocking APIs for Java interoperability.
 
 ## Installation
 
 ### Gradle
 
-This library is published via [Maven Central], and snapshot builds of `main` are additionally
-available on [GitHub Packages][gh-packages-gradle].
+This library is published via [Maven Central], and snapshot builds of `main` are
+additionally available on [GitHub Packages][gh-packages-gradle].
 
 === "Releases (Maven Central)"
 
@@ -164,25 +164,21 @@ public class BlockingExample {
 
 ### Further details
 
-Every PokeApi endpoint has a corresponding asynchronous and blocking method in the `PokeApi`
-instance. By default, the client will connect to the official `https://pokeapi.co/` instance and
-cache results in memory. To customize the client, you can create your own instance of
-`PokeApi.Custom`.
+Every PokeApi endpoint has a corresponding asynchronous and blocking method in
+the `PokeApi` instance. By default, the client will connect to the official
+`https://pokeapi.co/` instance and cache results in memory. To customize the
+client, you can create your own instance of `PokeApi.Custom`.
 
 For further details, see the Kotlin [API Reference](./api). Any function like
-`suspend fun getExample()` available in the Kotlin API has corresponding Java APIs like
-`CompletableFuture<Example> getExampleAsync()` for asynchronous access, or
-`Example getExampleBlocking()` for synchronous access.
+`suspend fun getExample()` available in the Kotlin API has corresponding Java
+APIs like `CompletableFuture<Example> getExampleAsync()` for asynchronous
+access, or `Example getExampleBlocking()` for synchronous access.
 
 [Maven Central]: https://central.sonatype.com/namespace/co.pokeapi.pokekotlin
-
 [gh-packages-gradle]:
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry
-
+  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry
 [gh-packages-guide-gradle]:
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package
-
+  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package
 [gh-packages-guide-maven]:
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#installing-a-package
-
+  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#installing-a-package
 [repo]: https://github.com/pokeapi/pokekotlin

@@ -7,13 +7,13 @@
 - Kotlin/WASM for browser and Node
 - Kotlin/Native for Linux, Windows, macOS, iOS, tvOS, and watchOS
 
-PokeKotlin is a pure Kotlin library, so we can support all platforms that are supported by our
-dependencies. If we're missing one, please file an issue.
+PokeKotlin is a pure Kotlin library, so we can support all platforms that are
+supported by our dependencies. If we're missing one, please file an issue.
 
 ## Installation with Gradle
 
-This library is published via [Maven Central], and snapshot builds of `main` are additionally
-available on [GitHub Packages].
+This library is published via [Maven Central], and snapshot builds of `main` are
+additionally available on [GitHub Packages].
 
 === "Releases (Maven Central)"
 
@@ -85,24 +85,19 @@ fun main() = runBlocking {
 }
 ```
 
-Every PokeApi endpoint has a corresponding `suspend fun` method in the `PokeApi` instance. By
-default, the client will connect to the official `https://pokeapi.co/` instance and cache results in
-memory. To customize the client, you can create your own instance of `PokeApi.Custom`.
+Every PokeApi endpoint has a corresponding `suspend fun` method in the `PokeApi`
+instance. By default, the client will connect to the official
+`https://pokeapi.co/` instance and cache results in memory. To customize the
+client, you can create your own instance of `PokeApi.Custom`.
 
 For further details, see the Dokka [API Reference](./api).
 
 [Maven Central]: https://central.sonatype.com/namespace/co.pokeapi.pokekotlin
-
 [GitHub Packages]:
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry
-
+  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry
 [gh-packages-guide]:
-https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package
-
+  https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry#using-a-published-package
 [repo]: https://github.com/pokeapi/pokekotlin
-
 [Ktor]: https://ktor.io/
-
 [Kotlin Serialization]: https://github.com/Kotlin/kotlinx.serialization
-
 [coroutines]: https://kotlinlang.org/docs/coroutines-guide.html

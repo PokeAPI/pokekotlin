@@ -2,22 +2,25 @@
 
 ## Introduction
 
-PokeKotlin is a modern [Kotlin Multiplatform] client for [PokéAPI]. You can use it to integrate all
-sorts of Pokémon data into your Kotlin, Java, JS, or Swift projects.
+PokeKotlin is a modern [Kotlin Multiplatform] client for [PokéAPI]. You can use
+it to integrate all sorts of Pokémon data into your Kotlin, Java, JS, or Swift
+projects.
 
 Under the hood, it's built on [Ktor], [Kotlin Serialization], and [coroutines].
 
 ## Features
 
-- **Multiplatform**: Works on JVM, Node, the web, and native platforms like iOS, macOS, Linux, and
-  Windows.
-- **Caching**: Uses Ktor's built-in caching to reduce API calls and speed up responses.
+- **Multiplatform**: Works on JVM, Node, the web, and native platforms like iOS,
+  macOS, Linux, and Windows.
+- **Caching**: Uses Ktor's built-in caching to reduce API calls and speed up
+  responses.
 - **Asynchronous**: Built on coroutines for non-blocking calls.
 
 ## Kotlin
 
-On Kotlin, we support all major Kotlin Multiplatform targets, including JVM, JS, and native
-platforms like iOS and macOS. The API is based on `suspend fun` calls:
+On Kotlin, we support all major Kotlin Multiplatform targets, including JVM, JS,
+and native platforms like iOS and macOS. The API is based on `suspend fun`
+calls:
 
 ```kotlin
 fun main() = runBlocking {
@@ -31,8 +34,8 @@ fun main() = runBlocking {
 }
 ```
 
-On JVM targets, the Java APIs below are also available. Similarly, on JS targets, the JavaScript
-APIs below are available.
+On JVM targets, the Java APIs below are also available. Similarly, on JS
+targets, the JavaScript APIs below are available.
 
 ## Java
 
@@ -68,11 +71,11 @@ public class Example {
 
 ## JavaScript and TypeScript
 
-For JavaScript, we provide an ESM module with TypeScript typings and a `Promise`-based API that
-works in browsers and in Node:
+For JavaScript, we provide an ESM module with TypeScript typings and a
+`Promise`-based API that works in browsers and in Node:
 
 ```typescript
-import { PokeApi } from '@pokeapi/pokekotlin';
+import { PokeApi } from "@pokeapi/pokekotlin";
 
 const list = await PokeApi.Default.getPokemonSpeciesListAsync(0, 10);
 for (const handle of list.results) {
@@ -86,11 +89,7 @@ for (const handle of list.results) {
 The Swift package is not yet published.
 
 [Kotlin Multiplatform]: https://kotlinlang.org/docs/multiplatform.html
-
 [PokéAPI]: https://pokeapi.co/
-
 [Ktor]: https://ktor.io/
-
 [Kotlin Serialization]: https://github.com/Kotlin/kotlinx.serialization
-
 [coroutines]: https://kotlinlang.org/docs/coroutines-guide.html
