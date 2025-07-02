@@ -1,4 +1,4 @@
-# Usage with JavaScript
+# Usage with JS
 
 ## Overview
 

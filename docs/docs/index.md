@@ -16,7 +16,9 @@ Under the hood, it's built on [Ktor], [Kotlin Serialization], and [coroutines].
   responses.
 - **Asynchronous**: Built on coroutines for non-blocking calls.
 
-## Kotlin
+## Languages
+
+### Kotlin
 
 On Kotlin, we support all major Kotlin Multiplatform targets, including JVM, JS,
 and native platforms like iOS and macOS. The API is based on `suspend fun`
@@ -37,7 +39,7 @@ fun main() = runBlocking {
 On JVM targets, the Java APIs below are also available. Similarly, on JS
 targets, the JavaScript APIs below are available.
 
-## Java
+### Java
 
 For Java, we provide an API based on `CompletableFuture`:
 
@@ -69,7 +71,7 @@ public class Example {
 }
 ```
 
-## JavaScript and TypeScript
+### JS
 
 For JavaScript, we provide an ESM module with TypeScript typings and a
 `Promise`-based API that works in browsers and in Node:
@@ -84,7 +86,7 @@ for (const handle of list.results) {
 }
 ```
 
-## Swift
+### Swift
 
 The Swift package is not yet published.
 

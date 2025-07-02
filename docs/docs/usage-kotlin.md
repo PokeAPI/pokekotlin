@@ -1,14 +1,15 @@
 # Usage with Kotlin
 
-## Supported targets
+## Overview
+
+PokeKotlin is a pure Kotlin library, so we can support all platforms that are
+supported by our dependencies. If we're missing one, please file an issue. We
+currently support:
 
 - Kotlin/JVM, including Android
 - Kotlin/JS for browser and Node
 - Kotlin/WASM for browser and Node
 - Kotlin/Native for Linux, Windows, macOS, iOS, tvOS, and watchOS
-
-PokeKotlin is a pure Kotlin library, so we can support all platforms that are
-supported by our dependencies. If we're missing one, please file an issue.
 
 ## Installation with Gradle
 
