@@ -1027,7 +1027,7 @@ public data class GenerationIiiTypeSprites(
   val colosseum: TypeSprites,
   val emerald: TypeSprites,
   @SerialName("firered-leafgreen") val fireredLeafgreen: TypeSprites,
-  @SerialName("ruby-saphire") val rubySaphire: TypeSprites,
+  @SerialName("ruby-sapphire") val rubySaphire: TypeSprites,
   val xd: TypeSprites,
 )
 
