@@ -1,6 +1,8 @@
 package co.pokeapi.pokekotlin.test.model
 
+import co.pokeapi.pokekotlin.internal.PokeApiJson
 import co.pokeapi.pokekotlin.model.ChainLink
+import co.pokeapi.pokekotlin.model.EvolutionChain
 import co.pokeapi.pokekotlin.model.EvolutionDetail
 import co.pokeapi.pokekotlin.model.Handle
 import co.pokeapi.pokekotlin.model.Name
@@ -8,8 +10,128 @@ import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
+import kotlin.test.assertNotEquals
 import kotlin.test.assertNotNull
 import kotlinx.coroutines.test.runTest
+
+// Real `/api/v2/evolution-chain/96` (Wooper) response fetched live from pokeapi.co. The pinned
+// api-data submodule predates the `region`/`base_form`/`version_group` fields this fixture
+// exercises, so this is embedded directly rather than served by the local test server.
+private val wooperEvolutionChainJson =
+  """
+  {
+      "baby_trigger_item": null,
+      "chain": {
+          "evolution_details": [],
+          "evolves_to": [
+              {
+                  "evolution_details": [
+                      {
+                          "base_form": null,
+                          "evolved_form": null,
+                          "gender": null,
+                          "held_item": null,
+                          "is_default": true,
+                          "item": null,
+                          "known_move": null,
+                          "known_move_type": null,
+                          "location": null,
+                          "min_affection": null,
+                          "min_beauty": null,
+                          "min_damage_taken": null,
+                          "min_happiness": null,
+                          "min_level": 20,
+                          "min_move_count": null,
+                          "min_steps": null,
+                          "near_special_rock": false,
+                          "needs_multiplayer": false,
+                          "needs_overworld_rain": false,
+                          "party_species": null,
+                          "party_type": null,
+                          "region": null,
+                          "relative_physical_stats": null,
+                          "time_of_day": "",
+                          "trade_species": null,
+                          "trigger": {
+                              "name": "level-up",
+                              "url": "/api/v2/evolution-trigger/1/"
+                          },
+                          "turn_upside_down": false,
+                          "used_move": null,
+                          "version_group": {
+                              "name": "gold-silver",
+                              "url": "/api/v2/version-group/3/"
+                          }
+                      }
+                  ],
+                  "evolves_to": [],
+                  "is_baby": false,
+                  "species": {
+                      "name": "quagsire",
+                      "url": "/api/v2/pokemon-species/195/"
+                  }
+              },
+              {
+                  "evolution_details": [
+                      {
+                          "base_form": {
+                              "name": "wooper-paldea",
+                              "url": "/api/v2/pokemon/10253/"
+                          },
+                          "evolved_form": null,
+                          "gender": null,
+                          "held_item": null,
+                          "is_default": true,
+                          "item": null,
+                          "known_move": null,
+                          "known_move_type": null,
+                          "location": null,
+                          "min_affection": null,
+                          "min_beauty": null,
+                          "min_damage_taken": null,
+                          "min_happiness": null,
+                          "min_level": 20,
+                          "min_move_count": null,
+                          "min_steps": null,
+                          "near_special_rock": false,
+                          "needs_multiplayer": false,
+                          "needs_overworld_rain": false,
+                          "party_species": null,
+                          "party_type": null,
+                          "region": null,
+                          "relative_physical_stats": null,
+                          "time_of_day": "",
+                          "trade_species": null,
+                          "trigger": {
+                              "name": "level-up",
+                              "url": "/api/v2/evolution-trigger/1/"
+                          },
+                          "turn_upside_down": false,
+                          "used_move": null,
+                          "version_group": {
+                              "name": "scarlet-violet",
+                              "url": "/api/v2/version-group/25/"
+                          }
+                      }
+                  ],
+                  "evolves_to": [],
+                  "is_baby": false,
+                  "species": {
+                      "name": "clodsire",
+                      "url": "/api/v2/pokemon-species/980/"
+                  }
+              }
+          ],
+          "is_baby": false,
+          "species": {
+              "name": "wooper",
+              "url": "/api/v2/pokemon-species/194/"
+          }
+      },
+      "id": 96
+  }
+  """
+    .trimIndent()
 
 class EvolutionTest {
 
@@ -273,6 +395,40 @@ class EvolutionTest {
       assertEquals(Handle.of(293, "full-incense"), babyTriggerItem)
       assertEquals(true, chain.isBaby)
     }
+  }
+
+  // Wooper (species 194, chain 96) evolves into Quagsire in most games but into the
+  // Paldean-exclusive Clodsire in Scarlet/Violet. The two are only distinguishable via
+  // `versionGroup`/`baseForm` - without those fields both branches decode to the exact same
+  // EvolutionDetail, silently discarding the distinction.
+  @Test
+  fun decodeEvolutionChainWooperRegionalVariant() {
+    val chain = PokeApiJson.decodeFromString<EvolutionChain>(wooperEvolutionChainJson)
+    val quagsireDetail =
+      chain.chain.evolvesTo.single { it.species.name == "quagsire" }.evolutionDetails.single()
+    val clodsireDetail =
+      chain.chain.evolvesTo.single { it.species.name == "clodsire" }.evolutionDetails.single()
+
+    assertEquals(
+      EvolutionDetail(
+        trigger = Handle.of(1, "level-up"),
+        minLevel = 20,
+        isDefault = true,
+        versionGroup = Handle.of(3, "gold-silver"),
+      ),
+      quagsireDetail,
+    )
+    assertEquals(
+      EvolutionDetail(
+        trigger = Handle.of(1, "level-up"),
+        minLevel = 20,
+        isDefault = true,
+        baseForm = Handle.of(10253, "wooper-paldea"),
+        versionGroup = Handle.of(25, "scarlet-violet"),
+      ),
+      clodsireDetail,
+    )
+    assertNotEquals(quagsireDetail, clodsireDetail)
   }
 
   @Test
