@@ -2,7 +2,6 @@ package co.pokeapi.pokekotlin.test.model
 
 import co.pokeapi.pokekotlin.PokeApi
 import co.pokeapi.pokekotlin.model.ChainLink
-import co.pokeapi.pokekotlin.model.EvolutionChain
 import co.pokeapi.pokekotlin.model.EvolutionDetail
 import co.pokeapi.pokekotlin.model.Handle
 import co.pokeapi.pokekotlin.model.Name
