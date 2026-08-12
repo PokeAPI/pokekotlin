@@ -57,6 +57,9 @@ public data class ChainLink(
  * @param minHappiness The minimum required level of happiness of the evolving Pokémon species.
  * @param minBeauty The minimum required level of beauty of the evolving Pokémon species.
  * @param minAffection The minimum required level of affection of the evolving Pokémon species.
+ * @param minDamageTaken The minimum amount of damage taken during the evolution trigger event.
+ * @param minMoveCount The minimum number of times a move must be used for evolution to trigger.
+ * @param minSteps The minimum number of steps that must be taken for evolution to trigger.
  * @param partySpecies The Pokémon species that must be in the players party to trigger evolution.
  * @param partyType The player must have a Pokémon of this type in their party to trigger evolution.
  * @param relativePhysicalStats The required relation between the Pokémon's Attack and Defense
@@ -65,8 +68,19 @@ public data class ChainLink(
  * @param tradeSpecies Pokémon species for which this one must be traded.
  * @param needsOverworldRain Whether or not it must be raining in the overworld to trigger
  *   evolution.
+ * @param needsMultiplayer Whether or not multiplayer link play is needed to trigger evolution.
+ * @param nearSpecialRock Whether or not the evolving Pokémon species must be near a Moss Rock or
+ *   Icy Rock to trigger evolution.
  * @param turnUpsideDown Whether or not the 3DS needs to be turned upside-down as this Pokémon
  *   levels up.
+ * @param isDefault Whether this evolution is considered the expected evolution in a main series
+ *   game.
+ * @param baseForm The required form for the evolving Pokémon species for this evolution to occur.
+ * @param evolvedForm The form the resulting Pokémon species takes after this evolution.
+ * @param usedMove The move that must be used by the evolving Pokémon species during the evolution
+ *   trigger event.
+ * @param region The required region in which this evolution can occur.
+ * @param versionGroup The version group in which the evolution was introduced.
  */
 @Serializable
 @JsNonWasmExport
@@ -82,13 +96,24 @@ public data class EvolutionDetail(
   val minHappiness: Int? = null,
   val minBeauty: Int? = null,
   val minAffection: Int? = null,
+  val minDamageTaken: Int? = null,
+  val minMoveCount: Int? = null,
+  val minSteps: Int? = null,
   val partySpecies: Handle.Named<PokemonSpecies>? = null,
   val partyType: Handle.Named<Type>? = null,
   val relativePhysicalStats: Int? = null,
   val timeOfDay: String = "",
   val tradeSpecies: Handle.Named<PokemonSpecies>? = null,
   val needsOverworldRain: Boolean = false,
+  val needsMultiplayer: Boolean = false,
+  val nearSpecialRock: Boolean = false,
   val turnUpsideDown: Boolean = false,
+  val isDefault: Boolean = false,
+  val baseForm: Handle.Named<PokemonVariety>? = null,
+  val evolvedForm: Handle.Named<PokemonVariety>? = null,
+  val usedMove: Handle.Named<Move>? = null,
+  val region: Handle.Named<Region>? = null,
+  val versionGroup: Handle.Named<VersionGroup>? = null,
 )
 
 /**

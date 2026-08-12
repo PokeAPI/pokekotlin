@@ -1,5 +1,6 @@
 package co.pokeapi.pokekotlin.test.model
 
+import co.pokeapi.pokekotlin.PokeApi
 import co.pokeapi.pokekotlin.model.ChainLink
 import co.pokeapi.pokekotlin.model.EvolutionDetail
 import co.pokeapi.pokekotlin.model.Handle
@@ -8,6 +9,7 @@ import co.pokeapi.pokekotlin.test.LocalPokeApi
 import kotlin.test.Test
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
+import kotlin.test.assertNotEquals
 import kotlin.test.assertNotNull
 import kotlinx.coroutines.test.runTest
 
@@ -273,6 +275,36 @@ class EvolutionTest {
       assertEquals(Handle.of(293, "full-incense"), babyTriggerItem)
       assertEquals(true, chain.isBaby)
     }
+  }
+
+  // Wooper (species 194, chain 96) evolves into Quagsire in most games but into the
+  // Paldean-exclusive Clodsire in Scarlet/Violet. The two are only distinguishable via
+  // `versionGroup`/`baseForm` - without those fields both branches decode to the exact same
+  // EvolutionDetail, silently discarding the distinction. Fetched live against the real API
+  // (rather than the pinned api-data submodule, which predates these fields) so a future
+  // schema regression here fails immediately instead of going unnoticed. Assertions check
+  // individual fields rather than full EvolutionDetail equality because the live API returns
+  // absolute resource URLs while the rest of this suite's Handle.of(...) fixtures assume the
+  // relative-URL convention of the pinned api-data submodule.
+  @Test
+  fun getEvolutionChainWooperRegionalVariant() = runTest {
+    val chain = PokeApi.Default.getEvolutionChain(96)
+    val quagsireDetail =
+      chain.chain.evolvesTo.single { it.species.name == "quagsire" }.evolutionDetails.single()
+    val clodsireDetail =
+      chain.chain.evolvesTo.single { it.species.name == "clodsire" }.evolutionDetails.single()
+
+    assertEquals(20, quagsireDetail.minLevel)
+    assertEquals(true, quagsireDetail.isDefault)
+    assertEquals(null, quagsireDetail.baseForm)
+    assertEquals("gold-silver", quagsireDetail.versionGroup?.name)
+
+    assertEquals(20, clodsireDetail.minLevel)
+    assertEquals(true, clodsireDetail.isDefault)
+    assertEquals("wooper-paldea", clodsireDetail.baseForm?.name)
+    assertEquals("scarlet-violet", clodsireDetail.versionGroup?.name)
+
+    assertNotEquals(quagsireDetail, clodsireDetail)
   }
 
   @Test
